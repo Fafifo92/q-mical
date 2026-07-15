@@ -1,0 +1,278 @@
+{
+  "cosmetica-personal": {
+    "titulo": "Bien formuler commence par bien acheter",
+    "intro": [
+      "Formuler des produits de soin personnel en Colombie, c'est répondre à un consommateur qui lit la liste INCI, exige une origine naturelle et compare avec les marques mondiales — souvent sur des volumes qui n'intéressent pas les grands importateurs. À cela s'ajoutent les tracas du métier : des références qui disparaissent sans préavis, des lots qui arrivent différents du précédent et des délais d'importation qui ne collent pas au calendrier des lancements. Le bon ingrédient, avec des données fiables, c'est déjà la moitié de la formule.",
+      "C'est pourquoi nous avons constitué un portefeuille de 120 matières premières pour le soin personnel : extraits botaniques, émollients, humectants, actifs, tensioactifs doux et les épaississants qui tiennent la texture. Chaque expédition part avec sa fiche technique, sa fiche de données de sécurité (FDS) et le certificat d'analyse (CoA) du lot, et vous pouvez évaluer des échantillons dans votre propre formule avant d'acheter. Si vous hésitez entre deux émollients ou devez remplacer une référence, écrivez-nous sur WhatsApp : c'est un conseiller qui connaît la formulation qui vous répond, pas un script de vente."
+    ],
+    "retos": [
+      {
+        "titulo": "Une stabilité qui tient jusqu'au linéaire",
+        "texto": "L'émulsion parfaite au laboratoire peut lâcher au bout de trois mois sous climat chaud. Nous vous aidons à choisir des émulsifiants, des épaississants et des antioxydants compatibles avec votre système, et nous partageons la fiche technique du lot réel dès le devis pour que vous validiez avant de passer à l'échelle."
+      },
+      {
+        "titulo": "Le naturel, sans mauvaise surprise en formule",
+        "texto": "Le consommateur réclame une origine naturelle, mais un extrait mal choisi change la couleur, l'odeur et la conservation. Avec 20 extraits botaniques et 9 huiles végétales au catalogue, nous vous orientons sur la compatibilité et les taux d'emploi, la documentation du fabricant faisant seule foi."
+      },
+      {
+        "titulo": "Quand l'importateur arrête votre émollient",
+        "texto": "Peu de choses bloquent autant une production qu'un ingrédient que plus personne n'importe. Nous cherchons des équivalents fonctionnels parmi nos fabricants, nous vous envoyons un échantillon avec sa documentation et vous le comparez à votre standard avant d'engager un achat."
+      }
+    ],
+    "regulatorio": "Tout cosmétique commercialisé en Colombie exige une Notificación Sanitaria Obligatoria (notification sanitaire obligatoire) auprès de l'INVIMA (autorité sanitaire colombienne), au titre des Décisions 516 et 833 de la CAN (Communauté andine). Nous ne réalisons pas la démarche à votre place, mais nous vous remettons les justificatifs de chaque matière première — composition, documentation du fabricant, restrictions d'usage — pour que vous constituiez votre dossier en connaissance de cause.",
+    "mensajeWhatsApp": "Bonjour Q'mical 👋 Je formule en cosmétique et soin personnel et je souhaite demander un devis pour des matières premières. Mon entreprise est :"
+  },
+  "maquillaje-color": {
+    "titulo": "La teinte exacte ne s'improvise pas",
+    "intro": [
+      "Le maquillage est la catégorie la moins indulgente de la cosmétique : la cliente repère aussitôt une teinte qui a changé d'un achat à l'autre, un fard qui ne tient pas ou un rouge à lèvres qui migre. Reproduire une couleur exige des pigments bien caractérisés, des dispersions soignées et une rhéologie qui tienne du pilote à la ligne — difficile quand chaque lot de pigment peut varier et que les marques indépendantes de la région affrontent des multinationales dotées de leurs propres laboratoires.",
+      "Notre catalogue maquillage réunit 35 références : pigments et colorants, nacres et effets, alternatives aux silicones, émollients et cires qui apportent du corps et du glissant. Chaque lot voyage avec son certificat d'analyse (CoA), pour que votre contrôle qualité libère la couleur sur des données et non de mémoire. Demandez des échantillons pour ajuster la teinte dans votre propre base, et servez-vous de WhatsApp pour ce que le catalogue ne dit pas : compatibilités, plages de dosage ou cette référence introuvable que vous cherchez depuis des semaines."
+    ],
+    "retos": [
+      {
+        "titulo": "Reproduire la teinte, lot après lot",
+        "texto": "Les pigments varient d'un lot à l'autre et cette variation se voit sur le produit fini. Nous remettons le certificat d'analyse (CoA) de chaque lot expédié et nous vous recommandons d'évaluer un échantillon face à votre étalon de couleur avant tout achat important."
+      },
+      {
+        "titulo": "De la sensorialité sans dépendre des silicones",
+        "texto": "Le marché réclame des formules avec moins de silicones, mais le consommateur ne pardonne pas la perte de glissant. Nous proposons 6 alternatives aux silicones et 9 émollients pour reconstruire cette sensation, avec échantillons et documentation pour comparer avec votre formule actuelle."
+      },
+      {
+        "titulo": "Le bon colorant pour chaque zone d'application",
+        "texto": "Tout colorant ne convient pas aux lèvres ni au contour des yeux : la réglementation andine en restreint l'usage selon la zone d'application. Nous vous transmettons la documentation du fabricant de chaque pigment pour que vous vérifiiez son statut réglementaire avant de formuler, et non après."
+      }
+    ],
+    "regulatorio": "Le maquillage est un cosmétique aux yeux de l'INVIMA (autorité sanitaire colombienne) et exige une Notificación Sanitaria Obligatoria (notification sanitaire obligatoire) ; de plus, ses colorants doivent respecter les listes autorisées de la réglementation andine (Décision 833). Nous vous orientons avec la documentation de chaque pigment pour en vérifier le statut, même si la démarche reste de la responsabilité de votre entreprise.",
+    "mensajeWhatsApp": "Bonjour Q'mical 👋 Je souhaite demander un devis pour des pigments et des matières premières pour maquillage. Mon entreprise est :"
+  },
+  "aseo-hogar": {
+    "titulo": "Le coût au litre se joue dans la formule",
+    "intro": [
+      "Dans l'entretien ménager, la bataille se joue au centime : des catégories à forte rotation, des consommateurs qui comparent le prix au litre et des enseignes qui exigent leurs marges. Le formulateur passe son temps à optimiser la matière active sans perdre en performance perçue — la mousse, le parfum, la brillance que l'utilisateur associe à la propreté — pendant que les prix des tensioactifs montent et descendent au rythme du marché international et que l'eau dure de nombreuses régions du pays complique n'importe quelle formule.",
+      "Notre portefeuille de 53 matières premières pour l'entretien couvre toute la formule : tensioactifs, dégraissants, biocides et désinfectants, acidifiants, chélatants pour l'eau dure et épaississants qui ajustent la viscosité du produit fini. Nous chiffrons vite sur WhatsApp — une ligne de conditionnement à l'arrêt n'attend pas — et chaque livraison arrive avec la documentation complète du lot : fiche technique, FDS et certificat d'analyse (CoA). Si vous reformulez pour baisser les coûts, demandez des échantillons des alternatives, consultez votre conseiller et décidez sur les données de votre propre laboratoire."
+    ],
+    "retos": [
+      {
+        "titulo": "Baisser le coût sans perdre en performance",
+        "texto": "Reformuler pour réduire le coût au litre est le quotidien de la catégorie. Avec 15 tensioactifs et 11 dégraissants au catalogue, nous vous présentons des alternatives avec leur fiche technique et des échantillons, pour que l'économie se valide au laboratoire et non dans les réclamations."
+      },
+      {
+        "titulo": "Eau dure, formule stable",
+        "texto": "L'eau de nombreuses usines et de nombreux foyers colombiens charrie du calcium et du magnésium qui désactivent les tensioactifs et ternissent le résultat. Nos chélatants et acidifiants aident à protéger la formule, et la dose de travail se confirme toujours face à la fiche technique de chaque fabricant."
+      },
+      {
+        "titulo": "Une désinfection que l'on peut étayer",
+        "texto": "Annoncer « désinfecte » ou « élimine 99,9 % » exige des justificatifs qui commencent à la matière première. Nos 8 biocides et désinfectants arrivent avec la documentation du fabricant — concentrations d'emploi, spectre déclaré — pour que votre équipe construise l'argumentaire de ses propres allégations."
+      }
+    ],
+    "regulatorio": "Les produits d'hygiène domestique se notifient auprès de l'INVIMA (autorité sanitaire colombienne) au titre de la Décision 706 de la CAN (Communauté andine), et les désinfectants à action biocide font l'objet d'exigences supplémentaires. Notre rôle est de vous orienter et de vous remettre les justificatifs documentaires de chaque intrant — nous ne réalisons pas les enregistrements et ne promettons aucune approbation.",
+    "mensajeWhatsApp": "Bonjour Q'mical 👋 Je souhaite demander un devis pour des matières premières destinées à des produits d'entretien ménager. Mon entreprise est :"
+  },
+  "institucional-industrial": {
+    "titulo": "Le nettoyage professionnel se formule, il ne s'improvise pas",
+    "intro": [
+      "Qui formule des produits de nettoyage professionnel en Colombie livre chaque jour la même bataille : le coût au litre dilué contre ce que le client perçoit en nettoyant. S'y ajoutent des eaux dures qui malmènent la formule, des matières premières dont la disponibilité change d'un trimestre à l'autre et des acheteurs institutionnels — hôpitaux, usines agroalimentaires, prestataires de propreté — qui exigent un dossier documentaire pour chaque intrant. Dans ce métier, la marge se défend dans la formule, pas dans le tarif.",
+      "Pour ce métier, nous avons réuni un portefeuille de 70 matières premières : tensioactifs, dégraissants, biocides, chélatants, épaississants et régulateurs de pH, du multi-usage économique à la gamme de qualité institutionnelle. Chaque expédition part avec la fiche technique, la FDS et le certificat d'analyse (CoA) du lot, et vous pouvez évaluer des échantillons dans votre propre laboratoire avant d'engager un achat. Au bout du WhatsApp, c'est un conseiller qui connaît la chimie du nettoyage qui répond — pas un centre d'appels."
+    ],
+    "retos": [
+      {
+        "titulo": "Le coût d'usage sous contrôle",
+        "texto": "Le nettoyage institutionnel s'achète au coût d'usage, pas au prix de liste. Nos tensioactifs et épaississants vous donnent des options pour concentrer la formule, et les échantillons permettent de valider chaque ajustement avant de le passer à l'échelle de la production."
+      },
+      {
+        "titulo": "Des références qui quittent le marché",
+        "texto": "Un tensioactif arrêté peut bloquer une ligne entière. Nous vous aidons à évaluer les substituts avec méthode : fiche du fabricant, échantillon pour votre laboratoire et comparaison honnête des spécifications, sans promettre des équivalences que le lot ne confirme pas."
+      },
+      {
+        "titulo": "Des audits qui réclament des documents",
+        "texto": "Vos clients institutionnels auditent ce que vous achetez. Chaque lot expédié voyage avec sa FDS conforme au SGA (Système général harmonisé), en espagnol, et son certificat d'analyse (CoA), pour que la traçabilité résiste à la visite de l'auditeur sans e-mails de dernière minute."
+      }
+    ],
+    "regulatorio": "Les produits d'entretien et d'hygiène à usage domestique ainsi que les désinfectants exigent une notification ou un enregistrement sanitaire auprès de l'INVIMA (autorité sanitaire colombienne), et leurs intrants doivent être gérés avec une FDS conforme au SGA (Decreto 1496 de 2018, décret colombien). Nous vous remettons les justificatifs de chaque matière première et nous vous orientons pour constituer le dossier — la démarche vous appartient, mais vous ne l'affrontez pas à l'aveugle.",
+    "mensajeWhatsApp": "Bonjour Q'mical 👋 Je souhaite demander un devis pour des matières premières de nettoyage institutionnel et industriel : indiquez-moi la disponibilité et la documentation."
+  },
+  "alimentos": {
+    "titulo": "Du laboratoire au rayon, des ingrédients traçables",
+    "intro": [
+      "Formuler des aliments en Colombie est devenu un exercice d'équilibre : l'étiquetage frontal pousse à réduire le sucre et le sodium, le consommateur réclame des étiquettes plus propres et le coût des hydrocolloïdes importés ne laisse aucun répit. Chaque reformulation met en jeu la texture, la durée de vie et le procédé, et tout doit se défendre devant l'INVIMA (autorité sanitaire colombienne) avec la documentation de l'ingrédient. Le défi n'est plus de trouver des additifs : c'est de trouver celui qui fonctionne dans votre matrice, avec un dossier complet.",
+      "Notre portefeuille pour cette industrie réunit 63 matières premières : gommes et hydrocolloïdes, épaississants, conservateurs, antioxydants, édulcorants, acidifiants, protéines et extraits botaniques. Vous demandez l'échantillon, vous l'essayez dans votre propre matrice et ce n'est qu'ensuite que nous parlons de volumes ; la documentation de chaque lot — fiche technique, FDS et certificat d'analyse (CoA) — voyage avec la commande. Les conditionnements que nous publions sont indicatifs et se confirment selon le fabricant et le lot, et le devis passe par WhatsApp avec un conseiller qui connaît le portefeuille."
+    ],
+    "retos": [
+      {
+        "titulo": "Reformuler sous étiquetage frontal",
+        "texto": "Baisser le sucre et le sodium sans perdre le corps exige de combiner des édulcorants avec des gommes et des épaississants qui restituent la texture. Nous vous proposons des alternatives documentées et des échantillons à essayer dans votre matrice, parce que chaque système alimentaire se comporte différemment."
+      },
+      {
+        "titulo": "Une texture stable, lot après lot",
+        "texto": "Les hydrocolloïdes sont sensibles à l'origine et au procédé de chaque fabricant. Nous confirmons la fiche technique du lot avant la vente et nous vous prévenons si une spécification change, pour que votre production ne l'apprenne pas par surprise."
+      },
+      {
+        "titulo": "Une étiquette propre, mais raisonnée",
+        "texto": "Le consommateur réclame des ingrédients reconnaissables, mais le naturel doit aussi être stable et viable côté coûts. Nos extraits botaniques arrivent avec la documentation du fabricant, pour que vous évaluiez la tendance sur des données et non sur de l'enthousiasme."
+      }
+    ],
+    "regulatorio": "Les aliments transformés exigent un enregistrement, un permis ou une notification sanitaire auprès de l'INVIMA (autorité sanitaire colombienne) selon leur niveau de risque, et l'étiquetage frontal relève de la Resolución 810 de 2021 et de ses modifications. Nous vous orientons avec les justificatifs documentaires de chaque ingrédient pour que vous constituiez votre dossier en connaissance de cause ; la démarche reste la vôtre.",
+    "mensajeWhatsApp": "Bonjour Q'mical 👋 Je formule dans le secteur alimentaire et je souhaite demander un devis pour des ingrédients avec documentation par lot."
+  },
+  "bebidas": {
+    "titulo": "Le difficile, ce n'est pas le goût, c'est la stabilité",
+    "intro": [
+      "Une boisson pardonne peu : la pulpe qui sédimente, la couleur qui s'éteint en rayon, l'arrière-goût qui surgit dès que vous avez baissé le sucre à cause de l'étiquetage frontal. Qui formule des boissons en Colombie travaille avec des systèmes à pH bas, des procédés thermiques exigeants et un climat qui met toute stabilité à l'épreuve. Et l'essor des boissons botaniques et fonctionnelles a relevé la barre : désormais l'ingrédient doit aussi raconter une histoire, avec les justificatifs qui la soutiennent.",
+      "Pour ce travail, nous avons réuni 31 matières premières sélectionnées : gommes et hydrocolloïdes pour le corps et la suspension, acidifiants, édulcorants, colorants, conservateurs et extraits botaniques. La première étape est toujours un échantillon essayé dans votre propre boisson, pas une promesse de catalogue. Ensuite, chaque lot arrive avec sa fiche technique, sa FDS en espagnol et son certificat d'analyse (CoA), dans des conditionnements que nous confirmons selon le fabricant et le lot. Votre conseiller sur WhatsApp accompagne tout le processus, du devis à l'expédition."
+    ],
+    "retos": [
+      {
+        "titulo": "Une suspension qui tient en rayon",
+        "texto": "Maintenir la pulpe ou les solides en suspension pendant toute la durée de vie est un problème de rhéologie, pas de chance. Nos gommes et hydrocolloïdes incluent la fiche du fabricant et des échantillons pour ajuster la dose dans votre procédé réel."
+      },
+      {
+        "titulo": "De la sensation en bouche sans sucre",
+        "texto": "Retirer le sucre laisse la boisson mince et avec un arrière-goût. La combinaison d'édulcorants et d'épaississants adaptés aide à retrouver du corps, et chaque alternative est documentée pour que votre équipe décide sur des résultats de paillasse, pas sur des brochures."
+      },
+      {
+        "titulo": "Une couleur qui tient sous les tropiques",
+        "texto": "Lumière, chaleur et pH acide malmènent les colorants, surtout les naturels. Nous vous aidons à comparer les options, spécifications du fabricant en main, et à valider par échantillon avant d'engager une campagne de production."
+      }
+    ],
+    "regulatorio": "Les boissons s'enregistrent auprès de l'INVIMA (autorité sanitaire colombienne) selon leur catégorie et leur niveau de risque, et l'étiquetage frontal d'avertissement leur est également applicable. Nous vous aidons à réunir la documentation de soutien de chaque ingrédient — composition, certificats du fabricant, usages autorisés — et vous gérez vous-même l'enregistrement, dossier complet en main.",
+    "mensajeWhatsApp": "Bonjour Q'mical 👋 Je développe des boissons et je souhaite demander un devis pour des gommes, des acidifiants ou des colorants, avec échantillon préalable."
+  },
+  "nutraceutico": {
+    "titulo": "Des ingrédients à la hauteur de ce que votre étiquette annonce",
+    "intro": [
+      "Le marché nutraceutique en Colombie et dans la région croît plus vite que la confiance du consommateur, et cet écart se comble par la preuve documentaire : qui formule un complément alimentaire sait que chaque vitamine, chaque acide aminé et chaque extrait doit arriver avec une teneur vérifiable, parce que l'étiquette devient une promesse face à l'INVIMA (autorité sanitaire colombienne) comme face au client final. S'y ajoutent des actifs sensibles à la chaleur et à l'humidité, des matrices difficiles — gummies, poudres instantanées, boissons — et des consommateurs qui lisent la liste d'ingrédients à la loupe.",
+      "Notre portefeuille nutraceutique réunit 30 références : vitamines, protéines et acides aminés, antioxydants, édulcorants et gommes pour apporter du corps et de la stabilité. Chaque expédition part avec le certificat d'analyse (CoA) de son lot, et vous pouvez évaluer des échantillons de laboratoire dans votre propre formule avant d'engager un achat. Si vous avez des doutes sur le grade, la solubilité ou la compatibilité, nous les levons sur WhatsApp avec un conseiller qui connaît le portefeuille — les conditionnements sont indicatifs et se confirment selon le fabricant et le lot."
+    ],
+    "retos": [
+      {
+        "titulo": "Teneur déclarée, teneur livrée",
+        "texto": "Les vitamines perdent en activité avec le temps, la chaleur et l'humidité. C'est pourquoi nous remettons le certificat d'analyse (CoA) du lot réel — et non des valeurs typiques de catalogue — avec la date de fabrication et les conditions de stockage, pour que votre contrôle qualité libère sur des données."
+      },
+      {
+        "titulo": "Du goût sans trahir la formule",
+        "texto": "Protéines et extraits botaniques apportent souvent des notes amères ou terreuses que le consommateur ne pardonne pas. Nous associons des édulcorants et des gommes qui aident à construire le profil et la texture, et nous expédions des échantillons pour que vous ajustiez le sensoriel dans votre propre matrice avant de passer à l'échelle."
+      },
+      {
+        "titulo": "Un dossier solide devant l'INVIMA",
+        "texto": "Un complément alimentaire s'enregistre avec les justificatifs de chaque ingrédient. Nous vous aidons à réunir la documentation du fabricant — composition, certificats, spécifications — pour que la constitution de votre dossier ne freine pas le lancement. La démarche est la vôtre ; les justificatifs et le discernement, nous les apportons."
+      }
+    ],
+    "regulatorio": "Les compléments alimentaires et les aliments exigent un enregistrement ou une notification sanitaire auprès de l'INVIMA selon leur catégorie. Nous vous orientons sur les justificatifs que chaque matière première apporte à votre dossier ; la démarche auprès de l'autorité est menée par votre entreprise.",
+    "mensajeWhatsApp": "Bonjour Q'mical 👋 Je souhaite demander un devis pour des matières premières destinées à ma gamme nutraceutique (compléments alimentaires)."
+  },
+  "veterinaria": {
+    "titulo": "Du prémélange à l'aliment fini, sans maillon faible",
+    "intro": [
+      "En production animale, l'aliment est le poste qui décide de la rentabilité, et qui formule des aliments composés ou des prémélanges le sait : un micronutriment mal dosé ou une vitamine dégradée ne se voient pas sur la bascule au départ, ils se voient des semaines plus tard dans le bâtiment d'élevage ou dans le bassin. À cette pression technique s'ajoutent la volatilité des produits importés, les délais d'enregistrement auprès de l'ICA (autorité agricole colombienne) et des clients éleveurs qui réclament des résultats constants, cycle après cycle.",
+      "Notre gamme nutrition animale réunit 50 références entre prémélanges vétérinaires, vitamines, acides aminés, acidifiants, conservateurs et enzymes, pensées pour les usines d'aliments composés, les laboratoires vétérinaires et les noyaux de production. Nous travaillons avec un certificat d'analyse (CoA) par lot et la date de fabrication en évidence, nous envoyons des échantillons pour vos essais de mélange et un conseiller technique vous accompagne sur WhatsApp, du devis au réapprovisionnement. Les conditionnements publiés sont indicatifs : nous les confirmons toujours face à la fiche du lot disponible."
+    ],
+    "retos": [
+      {
+        "titulo": "Des vitamines stables au sein du prémélange",
+        "texto": "Les minéraux traces, l'humidité et le temps de stockage dégradent les vitamines en prémélange. Nous remettons le certificat d'analyse (CoA) et la date de fabrication de chaque lot, et nous vous recommandons des conditionnements en phase avec votre rotation réelle, pour que vous ne payiez pas une teneur qui se perd sur l'étagère."
+      },
+      {
+        "titulo": "Produire avec moins d'antibiotiques",
+        "texto": "La filière d'élevage migre vers des schémas à moindre usage d'antibiotiques, ce qui place acidifiants, enzymes et conservateurs au cœur de la formulation. Nous vous expédions des échantillons avec leur documentation pour que votre équipe technique les évalue dans ses propres rations et conditions."
+      },
+      {
+        "titulo": "Un approvisionnement qui n'arrête pas l'usine",
+        "texto": "Une usine d'aliments composés ne peut pas s'arrêter parce qu'un produit importé a pris du retard. Nous gérons des références équivalentes de différents fabricants et nous vous présentons la fiche technique de chaque alternative, pour que votre service qualité décide de la substitution sur des données et non contre la montre."
+      }
+    ],
+    "regulatorio": "Les aliments pour animaux, les additifs et les autres intrants d'élevage s'enregistrent auprès de l'ICA (autorité agricole colombienne). Nous vous aidons à comprendre quelle documentation de soutien du fabricant votre dossier exige ; l'enregistrement lui-même est réalisé par votre entreprise.",
+    "mensajeWhatsApp": "Bonjour Q'mical 👋 Je souhaite demander un devis pour des matières premières de nutrition animale et pour ma gamme vétérinaire."
+  },
+  "agricola": {
+    "titulo": "Une nutrition végétale documentée, du laboratoire à la parcelle",
+    "intro": [
+      "Formuler pour l'agriculture colombienne, c'est formuler pour plusieurs pays à la fois : sols acides sur les hauts plateaux, eaux dures dans les vallées, cultures qui vont du café technifié à la fleur d'exportation. Un engrais foliaire qui fonctionne dans une zone précipite dans la cuve d'une autre, et le producteur ne distingue pas un mauvais intrant d'un mauvais mélange — il ne rachète tout simplement pas. Ajoutez-y des enregistrements ICA (autorité agricole colombienne) qui prennent leur temps et des matières premières importées dont les prix changent d'un devis à l'autre.",
+      "Pour ce terrain, nous avons constitué 33 références : une base solide en nutrition végétale — 19 produits — complétée par des chélatants, des adjuvants, des acidifiants et des tensioactifs. Avant d'acheter le moindre kilo, vous pouvez consulter la fiche technique du lot et demander des échantillons pour vos essais de compatibilité et de terrain. Et quand la culture n'attend pas, le devis non plus : écrivez-nous sur WhatsApp et un conseiller qui parle votre langue technique vous répond aux heures ouvrées."
+    ],
+    "retos": [
+      {
+        "titulo": "Des micronutriments disponibles, pas précipités",
+        "texto": "Le pH du sol et de l'eau décide si un micronutriment atteint la plante ou reste au fond de la cuve. Nos chélatants et acidifiants vous donnent les outils pour formuler des mélanges stables, et la fiche technique de chaque lot vous dit exactement avec quoi vous travaillez."
+      },
+      {
+        "titulo": "Chaque goutte doit atteindre sa cible",
+        "texto": "Un produit phytosanitaire bien formulé se perd si la goutte rebondit, ruisselle ou s'évapore. Avec des adjuvants et des tensioactifs, vous ajustez la mouillabilité, l'adhérence et la pénétration de vos mélanges ; nous vous envoyons des échantillons avec leur documentation pour que vous les validiez dans vos propres essais biologiques."
+      },
+      {
+        "titulo": "L'enregistrement ICA sans casse-tête",
+        "texto": "Enregistrer un engrais ou un amendement exige des justificatifs précis pour chaque matière première : composition, origine, spécifications du fabricant. Nous réunissons cette documentation avec vous dès le premier achat, pour que la paperasse accompagne le produit au lieu de lui courir après."
+      }
+    ],
+    "regulatorio": "Les engrais, les amendements de sol et les autres intrants agricoles exigent un enregistrement auprès de l'ICA (autorité agricole colombienne). Nous n'entreprenons pas de démarches en votre nom, mais nous vous orientons sur les justificatifs du fabricant dont votre dossier aura besoin.",
+    "mensajeWhatsApp": "Bonjour Q'mical 👋 Je souhaite demander un devis pour des matières premières destinées au secteur agricole (nutrition végétale et adjuvants)."
+  },
+  "pinturas-recubrimientos": {
+    "titulo": "Du pigment au brillant final, sans surprise de lot",
+    "intro": [
+      "Qui formule des peintures en Colombie le sait : la couleur ne pardonne pas. Un pigment qui change de fournisseur, un solvant qui arrive avec une autre pureté ou un dispersant arrêté obligent à reformuler contre la montre, pendant que le client attend la même teinte et le même séchage que d'habitude. Le tout avec un taux de change qui déplace le coût des importations d'un trimestre à l'autre. Bien formuler ne suffit pas : il faut pouvoir le répéter.",
+      "Pour ce métier, nous avons constitué un portefeuille de 21 matières premières : solvants, pigments et colorants, dispersants et antimousses, modificateurs de rhéologie et nacres pour finitions à effet. Chaque expédition part avec fiche technique, FDS et certificat d'analyse (CoA) du lot, et vous pouvez évaluer des échantillons dans votre propre formule avant d'engager un achat. Un conseiller qui connaît la gamme vous répond sur WhatsApp : devis, disponibilité et la référence introuvable quand elle se présente."
+    ],
+    "retos": [
+      {
+        "titulo": "Une couleur constante d'un lot à l'autre",
+        "texto": "Un même indice de couleur peut se comporter différemment selon le fabricant et le lot. C'est pourquoi nous travaillons avec des conditionnements et des spécifications indicatifs, nous confirmons la fiche technique du lot avant de vendre et nous expédions avec certificat d'analyse (CoA), pour que votre contrôle qualité libère sur des données réelles."
+      },
+      {
+        "titulo": "Remplacer les références arrêtées",
+        "texto": "Quand un additif quitte le marché, la reformulation vous incombe, mais la recherche, non. Nous proposons des équivalents fonctionnels de notre portefeuille, nous envoyons des échantillons avec leur documentation technique et nous vous accompagnons dans la validation avant de passer le changement à l'échelle de la production."
+      },
+      {
+        "titulo": "Des solvants en règle",
+        "texto": "Plusieurs solvants d'usage courant en peinture sont surveillés par le régime colombien des substances contrôlées. Nous remettons la FDS conforme au SGA en espagnol à chaque expédition et nous vous orientons sur les justificatifs dont votre propre exploitation peut avoir besoin pour les stocker et les transporter sans mauvaise surprise."
+      }
+    ],
+    "regulatorio": "Les intrants de cette gamme se gèrent sous le SGA (Système général harmonisé, Decreto 1496 de 2018). Une FDS en espagnol accompagne chaque expédition. Si vous employez des solvants classés comme substances contrôlées, nous vous orientons sur le CCITE que votre exploitation peut devoir obtenir auprès du MinJusticia (ministère colombien de la Justice) — la démarche est la vôtre, nous apportons les justificatifs et le discernement.",
+    "mensajeWhatsApp": "Bonjour Q'mical 👋 Je souhaite demander un devis pour des matières premières destinées aux peintures et revêtements. Mon entreprise est :"
+  },
+  "textil": {
+    "titulo": "Une chimie auxiliaire qui respecte la fibre et le procédé",
+    "intro": [
+      "L'industrie textile colombienne affronte le monde avec des procédés humides qui n'admettent aucune improvisation : un débouillissage à moitié fait tache à la teinture, un bain mal dégraissé se voit des mètres plus loin et chaque retraitement coûte de l'eau, de l'énergie et des heures machine. S'y ajoutent des auxiliaires qui changent de fournisseur sans préavis et une pression croissante pour des procédés plus propres. En usine, la différence entre une partie acceptée et une partie refusée commence souvent dans la chimie auxiliaire.",
+      "Notre portefeuille textile réunit 17 matières premières pour le procédé humide : tensioactifs et dégraissants pour la préparation, enzymes et chélatants pour des bains plus stables, biocides pour la conservation, et adoucissants et silicones pour la finition. Tout arrive avec fiche technique, FDS et certificat d'analyse (CoA) du lot, et vous pouvez demander des échantillons pour mener vos propres essais de procédé avant d'acheter. Le devis, la disponibilité et le suivi passent par WhatsApp, avec un conseiller qui parle le langage de la teinturerie."
+    ],
+    "retos": [
+      {
+        "titulo": "Préparation homogène, teinture prévisible",
+        "texto": "Les huiles de tricotage et les encollages qui ne partent pas à la préparation réapparaissent en défauts à la teinture. Nos tensioactifs et dégraissants arrivent avec des spécifications documentées par lot, et vous pouvez les évaluer sur des échantillons de votre propre substrat avant de changer la recette du bain."
+      },
+      {
+        "titulo": "Eau dure, bains qui échouent",
+        "texto": "Le fer et la dureté de l'eau déstabilisent les blanchiments et font teindre de façon irrégulière. Un chélatant bien choisi protège le bain, et nous vous aidons à le choisir : fiche technique dès le devis, échantillon pour votre essai de laboratoire et le même matériau, documenté, à chaque réapprovisionnement."
+      },
+      {
+        "titulo": "Des conditionnements à l'échelle de votre usine",
+        "texto": "Toutes les teintureries ne consomment pas des fûts entiers. Nous gérons des conditionnements indicatifs selon le fabricant et le lot, et nous cherchons l'emballage adapté à votre consommation réelle — de l'essai de laboratoire à la production — pour que le stock ne se transforme ni en capital immobilisé ni en produit périmé."
+      }
+    ],
+    "regulatorio": "Les procédés humides textiles répondent de leurs rejets au titre de la Resolución 631 de 2015, et tout intrant industriel se gère sous le SGA (Système général harmonisé, Decreto 1496 de 2018). Nous vous remettons les FDS en espagnol et les justificatifs du fabricant pour que vos services environnement et sécurité travaillent avec une information complète — les permis et les caractérisations restent du ressort de votre exploitation.",
+    "mensajeWhatsApp": "Bonjour Q'mical 👋 Je souhaite demander un devis pour des auxiliaires chimiques destinés à mon procédé textile. Mon entreprise est :"
+  },
+  "tratamiento-aguas": {
+    "titulo": "Une eau conforme commence par le bon dosage",
+    "intro": [
+      "Exploiter une station de traitement n'admet aucune pause : l'eau arrive tous les jours, que la qualité de l'affluent change ou non, qu'il pleuve ou qu'il fasse sec. Se retrouver sans coagulant, sans régulateur de pH ou sans biocide n'est pas un contretemps commercial — c'est un paramètre hors norme, un rejet compromis ou une tour de refroidissement en danger. Et en Colombie, l'exigence sur chaque mètre cube traité ne va que dans un sens : vers le haut.",
+      "Notre gamme pour les stations de traitement réunit 27 matières premières : acidifiants et régulateurs de pH, polymères pour la floculation, chélatants et dispersants pour les circuits de refroidissement et les chaudières, biocides pour le contrôle microbiologique et dégraissants pour la maintenance. Chaque lot voyage avec fiche technique, FDS et certificat d'analyse (CoA), des échantillons sont disponibles pour vos essais en jar-test et un conseiller sur WhatsApp comprend le dosage — et l'urgence d'une station qui ne peut pas s'arrêter."
+    ],
+    "retos": [
+      {
+        "titulo": "Un approvisionnement qui ne peut pas faillir",
+        "texto": "Une STEP sans intrants est en infraction dès le lendemain. Nous travaillons avec un devis rapide sur WhatsApp, des expéditions vers les principales villes du pays et des livraisons programmées pour les stations à consommation récurrente, afin que le réapprovisionnement arrive avant que la cuve de produits chimiques ne le réclame à grands cris."
+      },
+      {
+        "titulo": "Doser sur des données réelles",
+        "texto": "La dose optimale dépend de la concentration réelle du lot, pas de la valeur typique du catalogue. C'est pourquoi chaque expédition inclut son certificat d'analyse (CoA) et que vous pouvez demander des échantillons pour ajuster le jar-test avant d'engager la consommation du mois."
+      },
+      {
+        "titulo": "Des affluents d'humeur changeante",
+        "texto": "Une averse, un changement de procédé en amont ou une saison sèche modifient l'affluent et dérèglent la chimie. Notre portefeuille couvre plusieurs voies de traitement — coagulation, ajustement du pH, contrôle microbiologique — et le conseiller vous aide à comparer les alternatives, fiches techniques en main."
+      }
+    ],
+    "regulatorio": "Les rejets ponctuels dans les cours d'eau et les réseaux d'assainissement se mesurent au regard de la Resolución 631 de 2015, et l'eau destinée à la consommation humaine relève de la Resolución 2115 de 2007. Nous vous orientons avec les FDS et les justificatifs du fabricant de chaque intrant pour que vous étayiez votre exploitation devant l'autorité environnementale — les caractérisations et les permis restent de la responsabilité de votre station.",
+    "mensajeWhatsApp": "Bonjour Q'mical 👋 Je souhaite demander un devis pour des intrants de traitement de l'eau. Mon entreprise est :"
+  }
+}

@@ -1,0 +1,236 @@
+[
+  {
+    "id": "policloruro-de-aluminio",
+    "nombre": "Polychlorure d'aluminium",
+    "sinonimos": ["PAC", "Chlorure de polyaluminium", "Polyhydroxychlorure d'aluminium"],
+    "descripcion": "Coagulant inorganique de haute efficacité utilisé dans la clarification des eaux potables, résiduaires et industrielles. Il favorise la déstabilisation des colloïdes et la formation de flocs avec une consommation d'alcalinité inférieure à celle des coagulants conventionnels, ce qui est associé à de plus faibles volumes de boues. Sa performance s'ajuste au moyen d'essais de jar-test selon la qualité de l'eau à traiter.",
+    "funciones": ["Coagulant primaire", "Clarifiant", "Réducteur de turbidité"],
+    "aplicaciones": ["Potabilisation de l'eau", "Traitement des eaux résiduaires industrielles", "Stations d'épuration municipales", "Clarification dans l'industrie papetière"],
+    "formas_referenciales": ["Solide — poudre ou granulés, selon le fabricant et le lot", "Liquide — solution aqueuse, selon la disponibilité du lot"]
+  },
+  {
+    "id": "sulfato-de-aluminio",
+    "nombre": "Sulfate d'aluminium",
+    "sinonimos": ["Sulfate d'alumine", "Alun industriel"],
+    "descripcion": "Coagulant inorganique traditionnel pour la clarification des eaux et des effluents. Il favorise l'agglomération des particules en suspension et des colloïdes en vue de leur sédimentation ou filtration ultérieure. C'est l'une des matières premières à plus forte rotation dans les stations de traitement en raison de son rapport coût-performance.",
+    "funciones": ["Coagulant", "Clarifiant", "Ajustement de l'alcalinité"],
+    "aplicaciones": ["Potabilisation de l'eau", "Traitement des effluents industriels", "Collage dans l'industrie papetière", "Clarification des piscines"],
+    "formas_referenciales": ["Solide — granulés, mottes ou poudre, selon le fabricant et le lot", "Liquide — solution aqueuse, selon la disponibilité du lot"]
+  },
+  {
+    "id": "poliacrilamida-anionica",
+    "nombre": "Polyacrylamide anionique",
+    "sinonimos": ["PAM anionique", "Floculant anionique"],
+    "descripcion": "Floculant polymérique de haut poids moléculaire à charge anionique, utilisé comme adjuvant de coagulation dans la séparation solide-liquide. Il accélère la sédimentation des flocs et améliore la limpidité de l'eau traitée en combinaison avec des coagulants inorganiques. La sélection du grade s'effectue au moyen d'essais selon le type de solide à éliminer.",
+    "funciones": ["Floculant", "Adjuvant de sédimentation", "Conditionneur de boues"],
+    "aplicaciones": ["Clarification des eaux brutes et résiduaires", "Épaississement et déshydratation des boues", "Procédés miniers de séparation", "Rétention dans l'industrie papetière"],
+    "formas_referenciales": ["Solide — poudre ou microbilles, selon le fabricant et le lot"]
+  },
+  {
+    "id": "poliacrilamida-cationica",
+    "nombre": "Polyacrylamide cationique",
+    "sinonimos": ["PAM cationique", "Floculant cationique"],
+    "descripcion": "Floculant polymérique à charge cationique, particulièrement utilisé dans le conditionnement et la déshydratation des boues organiques. Il neutralise les charges superficielles des solides biologiques et facilite la formation de flocs résistants au cisaillement mécanique dans les filtres-presses, centrifugeuses et filtres à bandes. Il se dose en solution diluée préparée sur site.",
+    "funciones": ["Floculant", "Conditionneur de boues", "Adjuvant de déshydratation"],
+    "aplicaciones": ["Déshydratation des boues biologiques", "Stations d'épuration des eaux résiduaires", "Effluents de l'industrie agroalimentaire", "Clarification des eaux à charge organique"],
+    "formas_referenciales": ["Solide — poudre ou microbilles, selon le fabricant et le lot", "Liquide — émulsion, selon la disponibilité du lot"]
+  },
+  {
+    "id": "antiescalante-osmosis-inversa",
+    "nombre": "Antitartre pour osmose inverse",
+    "sinonimos": ["Antiscalant", "Inhibiteur d'entartrage"],
+    "descripcion": "Formulation à base de phosphonates et de polymères dispersants utilisée pour inhiber la formation de dépôts minéraux sur les membranes d'osmose inverse et les équipements d'échange thermique. Elle contribue à prolonger les cycles opératoires entre les nettoyages et à préserver la durée de vie des membranes. Le dosage est défini selon l'analyse de l'eau d'alimentation.",
+    "funciones": ["Inhibiteur d'entartrage", "Dispersant de sels", "Protecteur de membranes"],
+    "aplicaciones": ["Systèmes d'osmose inverse", "Tours de refroidissement", "Chaudières et circuits d'eau", "Usines de dessalement"],
+    "formas_referenciales": ["Liquide — solution aqueuse, selon le fabricant et le lot"]
+  },
+  {
+    "id": "hipoclorito-de-calcio",
+    "nombre": "Hypochlorite de calcium",
+    "sinonimos": ["Hypochlorite calcique"],
+    "descripcion": "Source solide de chlore disponible utilisée pour la désinfection des eaux et des surfaces. Il offre une meilleure stabilité au stockage que les solutions liquides de chlore, ce qui le rend pratique pour les installations isolées et les piscines. Son utilisation au contact des aliments ou de l'eau potable doit être réalisée conformément à la réglementation applicable.",
+    "funciones": ["Désinfectant", "Source de chlore", "Oxydant"],
+    "aplicaciones": ["Désinfection de l'eau potable", "Traitement des piscines", "Assainissement des surfaces dans les usines agroalimentaires", "Chloration choc des réseaux"],
+    "formas_referenciales": ["Solide — granulés, poudre ou pastilles, selon le fabricant et le lot"]
+  },
+  {
+    "id": "bisulfito-de-sodio",
+    "nombre": "Bisulfite de sodium",
+    "sinonimos": ["Hydrogénosulfite de sodium"],
+    "descripcion": "Agent réducteur utilisé comme décolorant et pour l'élimination du chlore résiduel des eaux en amont des membranes d'osmose inverse. Il s'emploie également comme séquestrant d'oxygène dans les circuits de chaudières et comme auxiliaire réducteur dans les procédés textiles. Dans les applications alimentaires, son utilisation s'effectue conformément à la réglementation applicable.",
+    "funciones": ["Agent réducteur", "Décolorant", "Séquestrant d'oxygène", "Neutralisant de chlore"],
+    "aplicaciones": ["Déchloration en amont de l'osmose inverse", "Conditionnement de l'eau de chaudières", "Procédés de teinture et de blanchiment textile", "Conservation conforme à la réglementation dans les aliments"],
+    "formas_referenciales": ["Solide — poudre ou granulés, selon le fabricant et le lot", "Liquide — solution aqueuse, selon la disponibilité du lot"]
+  },
+  {
+    "id": "cloruro-ferrico",
+    "nombre": "Chlorure ferrique",
+    "sinonimos": ["Trichlorure de fer", "Perchlorure de fer"],
+    "descripcion": "Coagulant inorganique à base de fer à fort pouvoir de déstabilisation des colloïdes et d'élimination du phosphore dans les eaux résiduaires. Il est également utilisé pour le contrôle des sulfures et des odeurs dans les réseaux d'assainissement. Son dosage est optimisé au moyen d'essais de jar-test selon l'effluent à traiter.",
+    "funciones": ["Coagulant", "Agent d'élimination du phosphore", "Contrôle des sulfures"],
+    "aplicaciones": ["Traitement des eaux résiduaires municipales et industrielles", "Élimination du phosphore dans les effluents", "Contrôle des odeurs dans les réseaux d'égouts", "Gravure de circuits en électronique"],
+    "formas_referenciales": ["Liquide — solution aqueuse, selon le fabricant et le lot", "Solide — cristaux ou mottes, selon la disponibilité du lot"]
+  },
+  {
+    "id": "hexametafosfato-de-sodio",
+    "nombre": "Hexamétaphosphate de sodium",
+    "sinonimos": ["SHMP", "Sel de Graham"],
+    "descripcion": "Polyphosphate aux propriétés séquestrantes et dispersantes utilisé pour le contrôle de la dureté et de l'entartrage dans les systèmes d'eau. Il agit comme défloculant dans les suspensions minérales et comme stabilisant dans diverses formulations industrielles. Dans les applications alimentaires, son utilisation s'effectue conformément à la réglementation applicable.",
+    "funciones": ["Séquestrant de dureté", "Dispersant", "Inhibiteur d'entartrage"],
+    "aplicaciones": ["Conditionnement des eaux industrielles", "Défloculant dans les pâtes céramiques", "Formulation de détergents industriels", "Additif conforme à la réglementation dans les aliments"],
+    "formas_referenciales": ["Solide — poudre, granulés ou plaques, selon le fabricant et le lot"]
+  },
+  {
+    "id": "hidroxietilcelulosa",
+    "nombre": "Hydroxyéthylcellulose",
+    "sinonimos": ["HEC", "Cellulose hydroxyéthylique"],
+    "descripcion": "Épaississant cellulosique non ionique soluble dans l'eau, standard dans les peintures architecturales en phase aqueuse pour le contrôle de la viscosité, la rétention d'eau et la stabilité au stockage. Il apporte un bon tendu et une bonne résistance aux projections lors de l'application. Il est également utilisé comme modificateur de rhéologie dans les gels et les produits de soins personnels.",
+    "funciones": ["Épaississant", "Modificateur de rhéologie", "Agent de rétention d'eau", "Stabilisant"],
+    "aplicaciones": ["Peintures et revêtements en phase aqueuse", "Adhésifs et mortiers modifiés", "Gels et shampooings", "Fluides de forage"],
+    "formas_referenciales": ["Solide — poudre, granulométrie variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "poliacrilato-de-sodio",
+    "nombre": "Polyacrylate de sodium",
+    "sinonimos": ["Dispersant acrylique", "Sel sodique de l'acide polyacrylique"],
+    "descripcion": "Polymère acrylique de faible poids moléculaire utilisé comme dispersant de pigments et de charges minérales dans les peintures en phase aqueuse. Il réduit la viscosité du broyage et améliore la stabilité de la dispersion, ce qui est associé à un meilleur développement de la couleur et à une moindre sédimentation. Il agit également comme inhibiteur d'entartrage dans les circuits d'eau.",
+    "funciones": ["Dispersant de pigments", "Réducteur de viscosité de broyage", "Inhibiteur d'entartrage"],
+    "aplicaciones": ["Peintures et revêtements en phase aqueuse", "Broyage de carbonate de calcium et de kaolin", "Traitement des eaux de refroidissement", "Formulation de détergents liquides"],
+    "formas_referenciales": ["Liquide — solution aqueuse, selon le fabricant et le lot"]
+  },
+  {
+    "id": "antiespumante-base-aceite-mineral",
+    "nombre": "Antimousse à base d'huile minérale",
+    "sinonimos": ["Démoussant à base d'huile"],
+    "descripcion": "Formulation antimousse à base d'huile minérale et de particules hydrophobes, conçue pour le contrôle de la mousse lors de la fabrication et de l'application des peintures en phase aqueuse. Elle agit aussi bien à l'étape de broyage qu'au conditionnement, contribuant à réduire les défauts de film tels que les cratères et les microbulles. Il est recommandé d'évaluer la compatibilité dans chaque formulation.",
+    "funciones": ["Antimousse", "Agent de désaération"],
+    "aplicaciones": ["Peintures et revêtements en phase aqueuse", "Adhésifs et mastics", "Procédés de fabrication d'émulsions", "Encres en phase aqueuse"],
+    "formas_referenciales": ["Liquide — fluide opaque, selon le fabricant et le lot"]
+  },
+  {
+    "id": "coalescente-ester-alcohol",
+    "nombre": "Coalescent ester-alcool",
+    "sinonimos": ["Monoisobutyrate de triméthylpentanediol", "Monoisobutyrate de TMPD"],
+    "descripcion": "Agent coalescent à évaporation lente utilisé dans les peintures architecturales en phase aqueuse pour favoriser la formation du film à basse température. Il plastifie temporairement les particules de l'émulsion, améliorant l'intégrité du film, la brillance et la résistance au frottement. Son efficacité permet des dosages modérés dans la plupart des systèmes acryliques et vinyliques.",
+    "funciones": ["Coalescent", "Auxiliaire de formation du film"],
+    "aplicaciones": ["Peintures architecturales en phase aqueuse", "Revêtements industriels en phase aqueuse", "Encres et vernis aqueux", "Mastics acryliques"],
+    "formas_referenciales": ["Liquide — selon le fabricant et le lot"]
+  },
+  {
+    "id": "carbonato-de-calcio",
+    "nombre": "Carbonate de calcium",
+    "sinonimos": ["Calcite broyée", "Charge calcaire"],
+    "descripcion": "Charge minérale d'usage répandu comme agent d'extension des pigments dans les peintures, mastics et plastiques. Elle apporte du corps, un pouvoir couvrant à sec et un contrôle des coûts dans la formulation. La granulométrie disponible varie selon le fabricant et se confirme dans la fiche technique du lot.",
+    "funciones": ["Charge minérale", "Agent d'extension de pigment", "Régulateur de l'acidité des sols"],
+    "aplicaciones": ["Peintures et mastics", "Plastiques et caoutchoucs", "Amendements agricoles", "Additif conforme à la réglementation dans les aliments"],
+    "formas_referenciales": ["Solide — poudre, granulométrie variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "alcohol-isopropilico",
+    "nombre": "Alcool isopropylique",
+    "sinonimos": ["IPA", "Isopropanol", "2-Propanol"],
+    "descripcion": "Solvant polaire à évaporation rapide, largement utilisé pour le nettoyage des surfaces, l'électronique et les procédés industriels. Il est à la base de formulations désinfectantes et de produits de nettoyage d'équipements grâce à sa miscibilité avec l'eau et à son faible résidu. Il s'emploie également comme diluant dans les encres et les revêtements.",
+    "funciones": ["Solvant", "Agent de nettoyage", "Véhicule de formulation"],
+    "aplicaciones": ["Nettoyage d'équipements et d'électronique", "Formulation de désinfectants et de gels", "Diluant pour encres et laques", "Extraction et procédés chimiques"],
+    "formas_referenciales": ["Liquide — selon le fabricant et le lot"]
+  },
+  {
+    "id": "acetato-de-etilo",
+    "nombre": "Acétate d'éthyle",
+    "sinonimos": ["Ester éthylique de l'acide acétique"],
+    "descripcion": "Solvant ester à évaporation rapide doté d'un fort pouvoir de dissolution des résines, encres et adhésifs. C'est un composant standard des diluants pour laques nitrocellulosiques et des encres d'impression flexographique et d'héliogravure. Sa manipulation est soumise aux contrôles applicables aux substances réglementées en Colombie.",
+    "funciones": ["Solvant actif", "Diluant"],
+    "aplicaciones": ["Laques et vernis nitrocellulosiques", "Encres d'impression", "Adhésifs et colles contact", "Procédés d'extraction industrielle"],
+    "formas_referenciales": ["Liquide — selon le fabricant et le lot"]
+  },
+  {
+    "id": "acetato-de-butilo",
+    "nombre": "Acétate de butyle",
+    "sinonimos": ["Acétate de n-butyle"],
+    "descripcion": "Solvant ester à évaporation moyenne, apprécié dans les revêtements pour améliorer le tendu et réduire le blanchiment dû à l'humidité dans les laques. Il dissout efficacement les résines nitrocellulosiques, acryliques et polyuréthanes. Composant habituel des diluants pour finitions bois et peinture de réparation automobile.",
+    "funciones": ["Solvant actif", "Régulateur de séchage"],
+    "aplicaciones": ["Laques pour bois", "Revêtements polyuréthanes", "Diluants pour peinture de réparation automobile", "Encres et adhésifs"],
+    "formas_referenciales": ["Liquide — selon le fabricant et le lot"]
+  },
+  {
+    "id": "monoetilenglicol",
+    "nombre": "Monoéthylène glycol",
+    "sinonimos": ["MEG", "Éthylène glycol"],
+    "descripcion": "Glycol à usage industriel employé comme base de fluides de refroidissement et d'antigels, et comme intermédiaire dans la fabrication de résines polyester. Dans les peintures en phase aqueuse, il agit comme auxiliaire de stabilité face aux cycles de gel-dégel. Il ne convient pas aux applications au contact des aliments ni aux soins personnels.",
+    "funciones": ["Base de fluides de refroidissement", "Intermédiaire de synthèse", "Stabilisant gel-dégel"],
+    "aplicaciones": ["Fluides de refroidissement et antigels", "Résines polyester et fibres", "Peintures en phase aqueuse", "Fluides caloporteurs"],
+    "formas_referenciales": ["Liquide — selon le fabricant et le lot"]
+  },
+  {
+    "id": "propilenglicol",
+    "nombre": "Propylène glycol",
+    "sinonimos": ["MPG", "1,2-Propanediol"],
+    "descripcion": "Glycol polyvalent utilisé comme solvant, humectant et véhicule dans de multiples industries. Dans le segment industriel, il sert de base à des fluides thermiques de faible toxicité et d'intermédiaire dans les résines ; les grades aptes au contact alimentaire et aux soins personnels sont destinés à ces usages conformément à la réglementation applicable. Son profil de sécurité en fait un produit privilégié par rapport à d'autres glycols dans les applications sensibles.",
+    "funciones": ["Humectant", "Solvant", "Véhicule de formulation", "Fluide thermique"],
+    "aplicaciones": ["Fluides caloporteurs", "Formulations cosmétiques et d'hygiène", "Véhicule dans les prémélanges vétérinaires", "Résines polyester insaturées"],
+    "formas_referenciales": ["Liquide — selon le fabricant et le lot"]
+  },
+  {
+    "id": "dietilenglicol",
+    "nombre": "Diéthylène glycol",
+    "sinonimos": ["DEG"],
+    "descripcion": "Glycol à point d'ébullition plus élevé, utilisé comme solvant à séchage lent, plastifiant et agent humectant dans des applications strictement industrielles. Il s'emploie dans la fabrication de résines, d'encres et d'auxiliaires textiles, ainsi que comme déshydratant de gaz dans l'industrie pétrolière. Il ne doit pas être destiné aux applications alimentaires, pharmaceutiques ni de soins personnels.",
+    "funciones": ["Solvant à séchage lent", "Humectant industriel", "Intermédiaire de synthèse"],
+    "aplicaciones": ["Résines polyester et plastifiants", "Encres et pâtes d'impression textile", "Déshydratation du gaz naturel", "Fluides industriels"],
+    "formas_referenciales": ["Liquide — selon le fabricant et le lot"]
+  },
+  {
+    "id": "butilglicol",
+    "nombre": "Butylglycol",
+    "sinonimos": ["2-Butoxyéthanol", "Éther monobutylique de l'éthylène glycol", "EB"],
+    "descripcion": "Éther de glycol doté d'un excellent pouvoir de couplage entre l'eau et les solvants organiques. C'est un composant classique des dégraissants et nettoyants multi-usages concentrés, et il agit comme solvant de queue dans les peintures en phase aqueuse en améliorant la formation du film. Sa double affinité le rend très efficace dans les formulations de nettoyage industriel.",
+    "funciones": ["Solvant de couplage", "Dégraissant", "Auxiliaire de formation du film"],
+    "aplicaciones": ["Nettoyants et dégraissants industriels", "Peintures et revêtements en phase aqueuse", "Encres d'impression", "Nettoyants pour salissures tenaces"],
+    "formas_referenciales": ["Liquide — selon le fabricant et le lot"]
+  },
+  {
+    "id": "dioctil-sulfosuccinato-de-sodio",
+    "nombre": "Dioctylsulfosuccinate de sodium",
+    "sinonimos": ["Docusate de sodium", "DOSS"],
+    "descripcion": "Tensioactif anionique à fort pouvoir mouillant et à faible tension superficielle, utilisé comme mouillant rapide dans les procédés textiles de préparation et de teinture. Il facilite la pénétration uniforme des bains aqueux sur les substrats difficiles à mouiller. Il s'emploie également comme mouillant dans les formulations agricoles et les dispersions industrielles.",
+    "funciones": ["Mouillant rapide", "Tensioactif anionique", "Auxiliaire de pénétration"],
+    "aplicaciones": ["Préparation et teinture textile", "Adjuvants agricoles", "Dispersions de pigments", "Nettoyants industriels"],
+    "formas_referenciales": ["Liquide — solution, selon le fabricant et le lot"]
+  },
+  {
+    "id": "emulsion-de-amino-silicona",
+    "nombre": "Émulsion de silicone aminée",
+    "sinonimos": ["Adoucissant textile siliconé", "Microémulsion de silicone aminofonctionnelle"],
+    "descripcion": "Émulsion de silicone à groupes amino fonctionnels utilisée comme adoucissant de finition dans le textile. Elle apporte un toucher doux et soyeux, améliore l'élasticité du tissu et facilite la couture et le repassage. Elle s'applique par épuisement ou par imprégnation à l'étape de finissage selon le substrat.",
+    "funciones": ["Adoucissant textile", "Agent de toucher", "Auxiliaire de finissage"],
+    "aplicaciones": ["Finissage des tissus de coton et de mélanges", "Adoucissage des vêtements en blanchisserie industrielle", "Finissage des fils et fibres", "Textiles de maison"],
+    "formas_referenciales": ["Liquide — émulsion, selon le fabricant et le lot"]
+  },
+  {
+    "id": "antiespumante-de-silicona",
+    "nombre": "Antimousse silicone",
+    "sinonimos": ["Démoussant siliconé", "Émulsion antimousse silicone"],
+    "descripcion": "Formulation à base de polydiméthylsiloxane et de silice hydrophobe pour le contrôle de la mousse dans les procédés aqueux. Elle agit à faibles doses en cassant la mousse existante et en prévenant sa reformation, avec une bonne persistance dans les systèmes à agitation intense. La compatibilité avec la température et le pH du procédé se vérifie pour chaque application.",
+    "funciones": ["Antimousse", "Agent de désaération", "Contrôle de la mousse en cours de procédé"],
+    "aplicaciones": ["Stations de traitement des eaux", "Procédés de fermentation industrielle", "Teinture et lavage textile", "Fabrication de détergents et de peintures"],
+    "formas_referenciales": ["Liquide — émulsion ou compound, selon le fabricant et le lot"]
+  },
+  {
+    "id": "acido-sulfamico",
+    "nombre": "Acide sulfamique",
+    "sinonimos": ["Acide amidosulfonique"],
+    "descripcion": "Acide solide d'une manipulation plus sûre que les acides minéraux liquides, utilisé comme détartrant pour éliminer le tartre, les oxydes et les dépôts calcaires des équipements et installations. Il est à la base des nettoyants acides pour chaudières, échangeurs, serpentins et surfaces sanitaires. Son action contrôlée réduit le risque d'attaque excessive des métaux par rapport à d'autres acides forts.",
+    "funciones": ["Détartrant", "Acidifiant", "Nettoyant de dépôts calcaires"],
+    "aplicaciones": ["Nettoyage chimique de chaudières et d'échangeurs", "Détartrants sanitaires", "Nettoyage d'équipements dans l'industrie des boissons", "Formulation de nettoyants acides"],
+    "formas_referenciales": ["Solide — poudre ou cristaux, selon le fabricant et le lot"]
+  },
+  {
+    "id": "carbonato-de-sodio",
+    "nombre": "Carbonate de sodium",
+    "sinonimos": ["Carbonate de soude", "Soude Solvay", "Cendre de soude"],
+    "descripcion": "Alcali d'usage général pour l'élévation et l'ajustement du pH dans les procédés industriels et le traitement des eaux. Dans le textile, c'est un auxiliaire classique de fixation lors de la teinture aux colorants réactifs, et en détergence il agit comme builder d'alcalinité. Sa polyvalence en fait un produit de base des stocks dans de multiples industries.",
+    "funciones": ["Régulateur de pH", "Alcali de procédé", "Builder de détergence"],
+    "aplicaciones": ["Ajustement du pH des eaux et effluents", "Teinture textile aux colorants réactifs", "Formulation de détergents en poudre", "Fabrication de verre et de silicates"],
+    "formas_referenciales": ["Solide — poudre ou granulés, selon le fabricant et le lot"]
+  }
+]

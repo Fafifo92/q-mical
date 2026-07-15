@@ -1,0 +1,218 @@
+[
+  {
+    "id": "vitamina-a",
+    "nombre": "Vitamine A (Acétate de rétinyle)",
+    "sinonimos": ["Acétate de rétinol", "Rétinyl acétate"],
+    "descripcion": "Vitamine liposoluble utilisée dans la formulation de prémélanges et de noyaux vitaminiques pour la nutrition animale. Elle apporte une activité de vitamine A associée à la vision, à la croissance et à l'intégrité des tissus épithéliaux, conformément à la réglementation applicable. Elle est incorporée sous des formes stabilisées afin de protéger son activité contre l'oxydation pendant le mélange et le stockage.",
+    "funciones": ["Source de vitamine A", "Additif de prémélange vitaminique"],
+    "aplicaciones": ["Prémélanges vitaminiques", "Noyaux et concentrés", "Aliment composé pour volailles", "Aliment pour porcs", "Suppléments pour bovins"],
+    "formas_referenciales": ["Solide - poudre ou microgranulés enrobés, selon le fabricant et le lot"]
+  },
+  {
+    "id": "vitamina-d3",
+    "nombre": "Vitamine D3 (Cholécalciférol)",
+    "sinonimos": ["Cholécalciférol"],
+    "descripcion": "Source de vitamine D3 employée dans les prémélanges et les suppléments pour la nutrition animale. Elle est associée au métabolisme du calcium et du phosphore et à la minéralisation osseuse, conformément à la réglementation applicable. Elle se présente sous des formes stabilisées qui facilitent son dosage et son homogénéisation dans l'aliment composé.",
+    "funciones": ["Source de vitamine D3", "Additif de prémélange vitaminique"],
+    "aplicaciones": ["Prémélanges vitaminiques", "Aliment pour volailles", "Aliment pour porcs", "Sels minéralisés pour bovins"],
+    "formas_referenciales": ["Solide - poudre ou microgranulés stabilisés, selon le fabricant et le lot"]
+  },
+  {
+    "id": "vitamina-e",
+    "nombre": "Vitamine E (Acétate de DL-alpha-tocophérol)",
+    "sinonimos": ["Acétate d'alpha-tocophéryle", "Acétate de tocophérol"],
+    "descripcion": "Antioxydant liposoluble utilisé dans les prémélanges pour la nutrition animale et comme stabilisant des graisses et des vitamines dans l'aliment. Il est associé à la fonction immunitaire et à la protection des membranes cellulaires contre l'oxydation, conformément à la réglementation applicable. Il est également employé comme antioxydant dans les formulations cosmétiques et alimentaires.",
+    "funciones": ["Antioxydant", "Source de vitamine E", "Stabilisant de vitamines et de graisses"],
+    "aplicaciones": ["Prémélanges vitaminiques", "Noyaux pour monogastriques", "Stabilisation des graisses dans l'aliment", "Suppléments nutraceutiques"],
+    "formas_referenciales": ["Liquide huileux visqueux ou poudre adsorbée sur support, selon la présentation du fabricant et le lot"]
+  },
+  {
+    "id": "vitamina-k3",
+    "nombre": "Vitamine K3 (Ménadione)",
+    "sinonimos": ["Ménadione", "Bisulfite de ménadione et de sodium (MSB)"],
+    "descripcion": "Source d'activité de vitamine K employée dans les prémélanges et les noyaux pour la nutrition animale. Elle est associée aux mécanismes de coagulation sanguine, conformément à la réglementation applicable. Elle se présente sous forme de sel stabilisé afin d'améliorer sa manipulation et sa compatibilité au sein du mélange.",
+    "funciones": ["Source de vitamine K", "Additif de prémélange vitaminique"],
+    "aplicaciones": ["Prémélanges vitaminiques", "Aliment pour volailles", "Aliment pour porcs"],
+    "formas_referenciales": ["Solide - poudre cristalline, selon le fabricant et le lot"]
+  },
+  {
+    "id": "cloruro-de-colina",
+    "nombre": "Chlorure de choline",
+    "sinonimos": ["Choline chlorure", "Chlorure de choline sur support"],
+    "descripcion": "Nutriment utilisé dans les prémélanges et les aliments composés comme source de choline pour la nutrition animale. Il est associé au métabolisme des graisses, à la fonction hépatique et à l'apport de groupements méthyle, conformément à la réglementation applicable. Il est proposé sous forme liquide ou supportée sur un véhicule afin de faciliter son incorporation dans le mélange.",
+    "funciones": ["Source de choline", "Donneur de groupements méthyle", "Additif nutritionnel"],
+    "aplicaciones": ["Aliment composé pour volailles", "Aliment pour porcs", "Prémélanges et noyaux", "Suppléments"],
+    "formas_referenciales": ["Liquide ou poudre sur support, selon la présentation du fabricant et le lot"]
+  },
+  {
+    "id": "betaina-anhidra",
+    "nombre": "Bétaïne anhydre",
+    "sinonimos": ["Triméthylglycine", "Bétaïne naturelle"],
+    "descripcion": "Composé osmolyte et donneur de groupements méthyle utilisé dans les formulations pour la nutrition animale. Il est associé à l'équilibre osmotique intestinal et à l'économie d'autres donneurs de méthyle dans le régime, conformément à la réglementation applicable. En soin personnel, il est employé comme agent humectant d'origine naturelle.",
+    "funciones": ["Osmolyte", "Donneur de groupements méthyle", "Humectant"],
+    "aplicaciones": ["Aliment pour volailles", "Régimes pour l'aquaculture", "Prémélanges", "Formulations humectantes de soin personnel"],
+    "formas_referenciales": ["Solide - poudre ou granulé cristallin, selon le fabricant et le lot"]
+  },
+  {
+    "id": "sulfato-de-zinc-monohidratado",
+    "nombre": "Sulfate de zinc monohydraté",
+    "sinonimos": ["Sulfate de zinc monohydraté", "Zinc sulfate"],
+    "descripcion": "Source de zinc de bonne disponibilité utilisée dans les prémélanges minéraux pour la nutrition animale. Le zinc est associé à la fonction enzymatique, à l'intégrité de la peau et au système immunitaire, conformément à la réglementation applicable. Il est également employé comme oligo-élément dans les formulations de nutrition végétale.",
+    "funciones": ["Source de zinc", "Oligo-élément minéral"],
+    "aplicaciones": ["Prémélanges minéraux", "Sels minéralisés", "Aliment composé", "Engrais avec oligo-éléments"],
+    "formas_referenciales": ["Solide - poudre ou granulé, selon le fabricant et le lot"]
+  },
+  {
+    "id": "oxido-de-zinc",
+    "nombre": "Oxyde de zinc",
+    "sinonimos": ["Blanc de zinc", "Fleurs de zinc"],
+    "descripcion": "Source concentrée de zinc utilisée dans les prémélanges minéraux pour la nutrition animale. Elle apporte du zinc associé à des processus enzymatiques et à la santé de la peau et des onglons, conformément à la réglementation applicable. L'oxyde de zinc est également utilisé comme ingrédient dans les formulations cosmétiques et de protection de la peau.",
+    "funciones": ["Source de zinc", "Oligo-élément minéral"],
+    "aplicaciones": ["Prémélanges minéraux", "Aliment pour porcs", "Sels minéralisés", "Crèmes et onguents de soin de la peau"],
+    "formas_referenciales": ["Solide - poudre, granulométrie variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "sulfato-de-cobre",
+    "nombre": "Sulfate de cuivre pentahydraté",
+    "sinonimos": ["Sulfate cuivrique", "Vitriol bleu"],
+    "descripcion": "Source de cuivre utilisée dans les prémélanges minéraux pour la nutrition animale. Le cuivre est associé au métabolisme du fer, à la pigmentation et à la fonction enzymatique, conformément à la réglementation applicable. En dehors de la nutrition animale, il est employé dans le traitement des eaux et comme oligo-élément agricole.",
+    "funciones": ["Source de cuivre", "Oligo-élément minéral"],
+    "aplicaciones": ["Prémélanges minéraux", "Sels minéralisés", "Traitement des eaux", "Oligo-éléments agricoles"],
+    "formas_referenciales": ["Solide - cristaux ou poudre, selon le fabricant et le lot"]
+  },
+  {
+    "id": "sulfato-de-manganeso",
+    "nombre": "Sulfate de manganèse monohydraté",
+    "sinonimos": ["Sulfate manganeux", "Manganèse sulfate"],
+    "descripcion": "Source de manganèse employée dans les prémélanges minéraux pour la nutrition animale. Le manganèse est associé à la formation osseuse et à divers systèmes enzymatiques, conformément à la réglementation applicable. Il est également utilisé comme oligo-élément dans les programmes de nutrition végétale.",
+    "funciones": ["Source de manganèse", "Oligo-élément minéral"],
+    "aplicaciones": ["Prémélanges minéraux", "Sels minéralisés", "Aliment composé", "Engrais avec oligo-éléments"],
+    "formas_referenciales": ["Solide - poudre ou granulé, selon le fabricant et le lot"]
+  },
+  {
+    "id": "selenito-de-sodio",
+    "nombre": "Sélénite de sodium",
+    "sinonimos": ["Sélénite sodique", "Sélénium (source inorganique)"],
+    "descripcion": "Source inorganique de sélénium utilisée dans les prémélanges pour la nutrition animale. Le sélénium est associé à la défense antioxydante cellulaire et à la fonction du système immunitaire, conformément à la réglementation applicable. En raison de sa forte activité, il est habituellement manipulé dilué en prémélange afin d'assurer un dosage homogène.",
+    "funciones": ["Source de sélénium", "Oligo-élément minéral", "Soutien antioxydant"],
+    "aplicaciones": ["Prémélanges minéraux", "Sels minéralisés pour bovins", "Noyaux pour monogastriques"],
+    "formas_referenciales": ["Solide - poudre cristalline, habituellement en prémélange dilué selon le fabricant et le lot"]
+  },
+  {
+    "id": "l-lisina",
+    "nombre": "Chlorhydrate de L-lysine",
+    "sinonimos": ["L-Lysine HCl", "Chlorhydrate de L-lysine", "Lysine"],
+    "descripcion": "Acide aminé essentiel utilisé dans la formulation d'aliments composés pour la nutrition animale. Il permet d'équilibrer le profil en acides aminés du régime et d'optimiser l'apport protéique, conformément à la réglementation applicable. C'est l'un des acides aminés limitants les plus employés dans les régimes pour volailles et porcs.",
+    "funciones": ["Acide aminé essentiel", "Équilibre des acides aminés"],
+    "aplicaciones": ["Aliment pour volailles", "Aliment pour porcs", "Régimes à faible teneur en protéines", "Aquaculture"],
+    "formas_referenciales": ["Solide - poudre ou granulé, selon le fabricant et le lot"]
+  },
+  {
+    "id": "dl-metionina",
+    "nombre": "DL-Méthionine",
+    "sinonimos": ["Méthionine", "DL-Met"],
+    "descripcion": "Acide aminé essentiel soufré utilisé dans les régimes pour la nutrition animale, en particulier chez les volailles. Il contribue à équilibrer le profil en acides aminés et à améliorer l'efficacité de la protéine du régime, conformément à la réglementation applicable. C'est habituellement le premier acide aminé limitant dans les formulations avicoles.",
+    "funciones": ["Acide aminé essentiel", "Équilibre des acides aminés"],
+    "aplicaciones": ["Aliment pour volailles", "Aliment pour porcs", "Régimes de pondeuses", "Aquaculture"],
+    "formas_referenciales": ["Solide - poudre cristalline ou paillettes, selon le fabricant et le lot"]
+  },
+  {
+    "id": "l-treonina",
+    "nombre": "L-Thréonine",
+    "sinonimos": ["Thréonine", "L-Thr"],
+    "descripcion": "Acide aminé essentiel utilisé dans la formulation d'aliments composés pour la nutrition animale. Il aide à équilibrer le profil en acides aminés et à formuler des régimes à teneur en protéines brutes réduite, conformément à la réglementation applicable. Il est principalement employé dans les régimes pour porcs et volailles.",
+    "funciones": ["Acide aminé essentiel", "Équilibre des acides aminés"],
+    "aplicaciones": ["Aliment pour porcs", "Aliment pour volailles", "Régimes à faible teneur en protéines"],
+    "formas_referenciales": ["Solide - poudre ou granulé cristallin, selon le fabricant et le lot"]
+  },
+  {
+    "id": "l-triptofano",
+    "nombre": "L-Tryptophane",
+    "sinonimos": ["Tryptophane", "L-Trp"],
+    "descripcion": "Acide aminé essentiel utilisé dans les régimes de nutrition animale pour compléter le profil en acides aminés. Il est associé à la consommation d'aliment et à l'équilibre du régime, conformément à la réglementation applicable. Il est également utilisé comme ingrédient dans les suppléments nutraceutiques.",
+    "funciones": ["Acide aminé essentiel", "Équilibre des acides aminés"],
+    "aplicaciones": ["Aliment pour porcs", "Aliment pour volailles", "Suppléments nutraceutiques"],
+    "formas_referenciales": ["Solide - poudre cristalline, selon le fabricant et le lot"]
+  },
+  {
+    "id": "acido-formico",
+    "nombre": "Acide formique",
+    "sinonimos": ["Acide méthanoïque"],
+    "descripcion": "Acidifiant à chaîne courte utilisé dans les formulations pour la nutrition animale et dans la conservation des grains et des fourrages. Il est associé au contrôle du pH et de la charge microbienne dans l'aliment, conformément à la réglementation applicable. En dehors de la nutrition animale, il est employé dans divers procédés industriels et agricoles.",
+    "funciones": ["Acidifiant", "Conservateur", "Contrôle du pH"],
+    "aplicaciones": ["Acidification de l'aliment composé", "Conservation des grains et des fourrages", "Hygiénisation des matières premières", "Procédés industriels"],
+    "formas_referenciales": ["Liquide - solution de concentration variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "acido-propionico",
+    "nombre": "Acide propionique",
+    "sinonimos": ["Acide propanoïque", "E-280"],
+    "descripcion": "Acidifiant et agent conservateur utilisé dans les aliments composés et dans la conservation des grains humides. Il est associé à l'inhibition du développement des moisissures et au contrôle du pH, conformément à la réglementation applicable. Il est également utilisé comme conservateur dans l'industrie alimentaire.",
+    "funciones": ["Conservateur", "Inhibiteur de moisissures", "Acidifiant"],
+    "aplicaciones": ["Conservation des grains humides", "Aliment composé", "Conservation des aliments", "Panification"],
+    "formas_referenciales": ["Liquide - solution de concentration variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "butirato-de-sodio",
+    "nombre": "Butyrate de sodium",
+    "sinonimos": ["Butanoate de sodium", "Sel de sodium de l'acide butyrique"],
+    "descripcion": "Sel de l'acide butyrique utilisé dans les formulations pour la nutrition animale comme source d'acides gras à chaîne courte. Il est associé au soutien de l'intégrité de la muqueuse intestinale et à la santé digestive, conformément à la réglementation applicable. Il est proposé sous des présentations enrobées ou non enrobées selon le point de libération recherché.",
+    "funciones": ["Source d'acides gras à chaîne courte", "Soutien de la santé intestinale"],
+    "aplicaciones": ["Aliment pour volailles", "Aliment pour porcs", "Régimes de sevrage", "Prémélanges fonctionnels"],
+    "formas_referenciales": ["Solide - poudre ou microgranulés, enrobés ou non enrobés selon le fabricant et le lot"]
+  },
+  {
+    "id": "fitasa",
+    "nombre": "Phytase",
+    "sinonimos": ["Enzyme phytase", "6-phytase"],
+    "descripcion": "Enzyme utilisée dans les aliments composés pour libérer le phosphore lié au phytate des ingrédients végétaux. Son utilisation est associée à une meilleure valorisation du phosphore et d'autres minéraux et à une moindre excrétion, conformément à la réglementation applicable. Elle est manipulée sous des présentations liquides ou granulées enrobées afin de résister au procédé de granulation.",
+    "funciones": ["Enzyme", "Libération du phosphore phytique"],
+    "aplicaciones": ["Aliment pour volailles", "Aliment pour porcs", "Aquaculture", "Régimes à base végétale"],
+    "formas_referenciales": ["Liquide ou granulé enrobé, selon la présentation du fabricant et le lot"]
+  },
+  {
+    "id": "xilanasa",
+    "nombre": "Xylanase",
+    "sinonimos": ["Enzyme xylanase", "Endo-1,4-bêta-xylanase"],
+    "descripcion": "Enzyme qui agit sur les arabinoxylanes des céréales, utilisée dans les aliments composés pour la nutrition animale. Son utilisation est associée à une amélioration de la digestibilité et de la valeur énergétique du régime, conformément à la réglementation applicable. Elle est également employée dans des procédés de l'industrie alimentaire.",
+    "funciones": ["Enzyme", "Amélioration de la digestibilité"],
+    "aplicaciones": ["Aliment pour volailles", "Aliment pour porcs", "Régimes avec céréales", "Industrie alimentaire"],
+    "formas_referenciales": ["Solide - poudre ou granulé, ou présentation liquide selon le fabricant et le lot"]
+  },
+  {
+    "id": "proteasa",
+    "nombre": "Protéase",
+    "sinonimos": ["Enzyme protéase", "Protéinase"],
+    "descripcion": "Enzyme qui favorise la dégradation des protéines du régime, utilisée dans les aliments composés pour la nutrition animale. Son utilisation est associée à une meilleure valorisation des acides aminés et à une plus grande constance de la digestibilité, conformément à la réglementation applicable. Des enzymes de ce type sont également employées en détergence industrielle et institutionnelle.",
+    "funciones": ["Enzyme", "Amélioration de la digestibilité protéique"],
+    "aplicaciones": ["Aliment pour volailles", "Aliment pour porcs", "Régimes avec sources protéiques végétales", "Détergents industriels"],
+    "formas_referenciales": ["Solide - poudre ou granulé, ou présentation liquide selon le fabricant et le lot"]
+  },
+  {
+    "id": "levadura-saccharomyces-cerevisiae",
+    "nombre": "Levure Saccharomyces cerevisiae",
+    "sinonimos": ["Levure de bière", "Saccharomyces cerevisiae"],
+    "descripcion": "Levure utilisée dans les formulations pour la nutrition animale comme additif fonctionnel et source de métabolites. Elle est associée à l'équilibre du microbiote et à la stabilité de la fermentation ruminale, conformément à la réglementation applicable. Elle apporte également des nucléotides et des composants de la paroi cellulaire d'intérêt nutritionnel.",
+    "funciones": ["Additif fonctionnel", "Levure", "Soutien du microbiote"],
+    "aplicaciones": ["Aliment pour bovins", "Régimes de ruminants", "Aliment pour monogastriques", "Suppléments"],
+    "formas_referenciales": ["Solide - poudre ou granulé, selon le fabricant et le lot"]
+  },
+  {
+    "id": "bacillus-subtilis",
+    "nombre": "Bacillus subtilis (Probiotique)",
+    "sinonimos": ["Probiotique Bacillus", "Additif microbien Bacillus subtilis"],
+    "descripcion": "Micro-organisme probiotique (additif microbien) utilisé dans les formulations pour la nutrition animale. Il est associé à l'équilibre du microbiote intestinal et à la stabilité digestive, conformément à la réglementation applicable. Il est manipulé sous forme de spores sur un support afin d'améliorer sa stabilité pendant la transformation.",
+    "funciones": ["Probiotique", "Additif microbien", "Soutien du microbiote"],
+    "aplicaciones": ["Aliment pour volailles", "Aliment pour porcs", "Aquaculture", "Traitement biologique des eaux"],
+    "formas_referenciales": ["Solide - poudre sur support, selon le fabricant et le lot"]
+  },
+  {
+    "id": "secuestrante-de-micotoxinas",
+    "nombre": "Adsorbant de mycotoxines (Aluminosilicate)",
+    "sinonimos": ["Aluminosilicate de sodium et de calcium", "Adsorbant de mycotoxines", "Silicate d'aluminium"],
+    "descripcion": "Adsorbant d'origine minérale utilisé dans les formulations pour la nutrition animale afin de capter les mycotoxines présentes dans les matières premières. Son utilisation est associée à la réduction de la disponibilité de certaines mycotoxines dans le tractus digestif, conformément à la réglementation applicable. Il agit également comme agent antiagglomérant et de fluidité dans le mélange.",
+    "funciones": ["Séquestrant de mycotoxines", "Adsorbant", "Antiagglomérant"],
+    "aplicaciones": ["Aliment composé", "Prémélanges", "Agent antiagglomérant dans les mélanges", "Amendement des sols"],
+    "formas_referenciales": ["Solide - poudre, granulométrie variable selon le fabricant et le lot"]
+  }
+]

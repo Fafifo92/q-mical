@@ -1,0 +1,281 @@
+[
+  {
+    "id": "goma-xantana",
+    "nombre": "Goma Xantana",
+    "sinonimos": ["Xantana", "E415"],
+    "descripcion": "Polissacarídeo obtido por fermentação, amplamente utilizado como espessante e estabilizante em formulações de alimentos e bebidas. Confere viscosidade estável frente a variações de temperatura e pH e ajuda a manter sólidos em suspensão. Sua dosagem é definida conforme cada aplicação e de acordo com a normativa aplicável.",
+    "funciones": ["Espessante", "Estabilizante", "Agente de suspensão"],
+    "aplicaciones": ["Molhos e temperos", "Bebidas e néctares", "Panificação sem glúten", "Produtos lácteos"],
+    "formas_referenciales": ["Sólido — pó, granulometria variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "goma-guar",
+    "nombre": "Goma Guar",
+    "sinonimos": ["Guar", "E412"],
+    "descripcion": "Hidrocoloide de origem vegetal obtido da semente de guar, valorizado por sua alta capacidade de hidratação e por espessar a frio. É utilizado para dar corpo, ligar água e estabilizar sistemas alimentícios, com boa sinergia com outras gomas. Seu nível de uso é ajustado conforme a aplicação e de acordo com a normativa aplicável.",
+    "funciones": ["Espessante", "Ligante de água", "Estabilizante"],
+    "aplicaciones": ["Sorvetes e sobremesas congeladas", "Molhos e temperos", "Bebidas", "Panificação"],
+    "formas_referenciales": ["Sólido — pó, granulometria variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "carboximetilcelulosa-sodica",
+    "nombre": "Carboximetilcelulose Sódica",
+    "sinonimos": ["CMC", "Goma celulósica", "E466"],
+    "descripcion": "Derivado de celulose solúvel em água, utilizado como espessante, estabilizante e agente de retenção de umidade em formulações alimentícias. Ajuda a controlar a formação de cristais de gelo e a estabilizar proteínas em bebidas ácidas. Disponível em diferentes graus de viscosidade conforme a necessidade da aplicação.",
+    "funciones": ["Espessante", "Estabilizante", "Retentor de umidade"],
+    "aplicaciones": ["Sorvetes", "Bebidas lácteas e ácidas", "Panificação e confeitaria", "Molhos"],
+    "formas_referenciales": ["Sólido — pó ou granulado conforme o fabricante e o lote"]
+  },
+  {
+    "id": "pectina-citrica",
+    "nombre": "Pectina Cítrica",
+    "sinonimos": ["Pectina", "E440"],
+    "descripcion": "Hidrocoloide extraído de cascas de frutas cítricas, referência clássica para gelificar e dar textura em confeitaria e conservas de fruta. Conforme o tipo, gelifica na presença de açúcar e ácido ou com cálcio, o que permite adaptá-la a produtos com diferente teor de sólidos. É empregada de acordo com a normativa aplicável de aditivos alimentares.",
+    "funciones": ["Gelificante", "Espessante", "Estabilizante"],
+    "aplicaciones": ["Geleias e compotas", "Balas de goma e confeitaria", "Bebidas e néctares", "Produtos lácteos"],
+    "formas_referenciales": ["Sólido — pó, geralmente padronizado com açúcares conforme o fabricante e o lote"]
+  },
+  {
+    "id": "carragenina",
+    "nombre": "Carragenina",
+    "sinonimos": ["Carragena", "E407"],
+    "descripcion": "Hidrocoloide obtido de algas vermelhas, utilizado para gelificar, espessar e estabilizar sistemas aquosos e lácteos. Seus diferentes tipos permitem desde géis firmes até texturas cremosas, com marcada afinidade pelas proteínas do leite. A seleção do tipo depende da aplicação e do processo do cliente.",
+    "funciones": ["Gelificante", "Espessante", "Estabilizante"],
+    "aplicaciones": ["Sobremesas lácteas e pudins", "Produtos cárneos", "Bebidas achocolatadas", "Alimento para animais de estimação"],
+    "formas_referenciales": ["Sólido — pó, tonalidade e granulometria variáveis conforme o fabricante e o lote"]
+  },
+  {
+    "id": "gelatina",
+    "nombre": "Gelatina",
+    "sinonimos": ["Gelatina incolor", "E441"],
+    "descripcion": "Proteína de origem animal com capacidade gelificante termorreversível, clássica em confeitaria e sobremesas. Confere elasticidade, brilho e uma textura de fusão na boca difícil de reproduzir com outros hidrocoloides. É oferecida em diferentes graus de força de gel conforme a necessidade da formulação.",
+    "funciones": ["Gelificante", "Espumante", "Estabilizante"],
+    "aplicaciones": ["Balas de goma e marshmallows", "Sobremesas e gelatinas", "Cápsulas e nutracêuticos", "Produtos lácteos"],
+    "formas_referenciales": ["Sólido — pó ou granulado conforme o fabricante e o lote"]
+  },
+  {
+    "id": "agar-agar",
+    "nombre": "Ágar-ágar",
+    "sinonimos": ["Ágar", "E406"],
+    "descripcion": "Hidrocoloide obtido de algas marinhas que forma géis firmes e estáveis a temperaturas relativamente altas. É uma alternativa de origem não animal à gelatina em confeitaria e sobremesas, e também é utilizado como meio de cultura em laboratório. Sua dosagem é ajustada conforme a textura desejada e de acordo com a normativa aplicável.",
+    "funciones": ["Gelificante", "Espessante", "Estabilizante"],
+    "aplicaciones": ["Confeitaria e balas de goma", "Confeitaria e glacês", "Sobremesas de origem vegetal", "Meios de cultura"],
+    "formas_referenciales": ["Sólido — pó, tiras ou escamas conforme o fabricante e o lote"]
+  },
+  {
+    "id": "acido-citrico-anhidro",
+    "nombre": "Ácido Cítrico Anidro",
+    "sinonimos": ["Ácido cítrico", "E330"],
+    "descripcion": "Acidulante de referência na indústria de alimentos e bebidas, obtido por fermentação. Confere acidez e notas cítricas, regula o pH e atua como sequestrante de metais que favorece a estabilidade de cor e sabor. Sua versatilidade o torna um item básico de estoque para múltiplas indústrias.",
+    "funciones": ["Acidulante", "Regulador de pH", "Sequestrante"],
+    "aplicaciones": ["Bebidas e refrigerantes", "Confeitaria", "Conservas e molhos", "Produtos de limpeza"],
+    "formas_referenciales": ["Sólido cristalino — cristais ou pó conforme o fabricante e o lote"]
+  },
+  {
+    "id": "acido-malico",
+    "nombre": "Ácido Málico",
+    "sinonimos": ["Ácido de maçã", "E296"],
+    "descripcion": "Acidulante associado ao perfil ácido da maçã, com uma acidez mais prolongada e arredondada que a do ácido cítrico. É utilizado para intensificar sabores frutados e em confeitaria ácida de alto impacto. Costuma ser combinado com outros acidulantes para modular o perfil sensorial do produto.",
+    "funciones": ["Acidulante", "Potencializador de sabor", "Regulador de pH"],
+    "aplicaciones": ["Confeitaria ácida", "Bebidas e refrescos em pó", "Sobremesas e gelatinas", "Molhos de fruta"],
+    "formas_referenciales": ["Sólido — pó ou granulado conforme o fabricante e o lote"]
+  },
+  {
+    "id": "acido-lactico",
+    "nombre": "Ácido Láctico",
+    "sinonimos": ["E270", "Ácido 2-hidroxipropanoico"],
+    "descripcion": "Acidulante de origem fermentativa com perfil ácido suave e láctico, utilizado para regular o pH e conferir notas próprias de produtos fermentados. Contribui para a conservação ao reduzir o pH do meio em molhos, picles e derivados cárneos. É empregado de acordo com a normativa aplicável de cada categoria.",
+    "funciones": ["Acidulante", "Regulador de pH", "Coadjuvante de conservação"],
+    "aplicaciones": ["Picles e molhos", "Produtos cárneos", "Panificação", "Bebidas"],
+    "formas_referenciales": ["Líquido — solução aquosa, concentração conforme a especificação do lote"]
+  },
+  {
+    "id": "benzoato-de-sodio",
+    "nombre": "Benzoato de Sódio",
+    "sinonimos": ["E211"],
+    "descripcion": "Conservante amplamente utilizado em alimentos e bebidas de pH ácido para proteger as formulações contra leveduras e bolores. Sua boa solubilidade em água facilita a incorporação em xaropes, molhos e bebidas. A dosagem é definida conforme a categoria de produto e de acordo com a normativa aplicável.",
+    "funciones": ["Conservante"],
+    "aplicaciones": ["Bebidas e xaropes", "Molhos e temperos", "Conservas de fruta", "Cuidado pessoal"],
+    "formas_referenciales": ["Sólido — pó ou granulado conforme o fabricante e o lote"]
+  },
+  {
+    "id": "sorbato-de-potasio",
+    "nombre": "Sorbato de Potássio",
+    "sinonimos": ["Sal potássico do ácido sórbico", "E202"],
+    "descripcion": "Conservante de amplo uso para proteger alimentos e bebidas contra bolores e leveduras, com perfil sensorial neutro. É um dos conservantes mais procurados por sua versatilidade em produtos de panificação, lácteos, molhos e bebidas. É dosado conforme a categoria de produto e de acordo com a normativa aplicável.",
+    "funciones": ["Conservante"],
+    "aplicaciones": ["Panificação e confeitaria", "Bebidas e sucos", "Queijos e lácteos", "Molhos e temperos"],
+    "formas_referenciales": ["Sólido — grânulos ou pó conforme o fabricante e o lote"]
+  },
+  {
+    "id": "propionato-de-calcio",
+    "nombre": "Propionato de Cálcio",
+    "sinonimos": ["E282"],
+    "descripcion": "Conservante clássico da indústria de panificação, utilizado para prolongar a vida útil do pão e de produtos assados contra a deterioração por bolores. Não interfere de forma significativa nas leveduras de fermentação nas doses habituais de uso. Também é empregado na alimentação animal de acordo com a normativa aplicável.",
+    "funciones": ["Conservante"],
+    "aplicaciones": ["Pão de forma e tortilhas", "Confeitaria industrial", "Rações balanceadas"],
+    "formas_referenciales": ["Sólido — pó ou granulado conforme o fabricante e o lote"]
+  },
+  {
+    "id": "acido-ascorbico",
+    "nombre": "Ácido Ascórbico",
+    "sinonimos": ["Vitamina C", "E300"],
+    "descripcion": "Antioxidante de uso difundido em alimentos e bebidas para proteger cor e sabor contra a oxidação. Na panificação atua como agente de tratamento de farinhas, favorecendo o desenvolvimento da massa. Também é incorporado em pré-misturas e fortificação de acordo com a normativa aplicável.",
+    "funciones": ["Antioxidante", "Agente de tratamento de farinhas", "Fortificante"],
+    "aplicaciones": ["Bebidas e sucos", "Panificação", "Produtos cárneos", "Pré-misturas nutricionais"],
+    "formas_referenciales": ["Sólido cristalino — cristais ou pó conforme o fabricante e o lote"]
+  },
+  {
+    "id": "tocoferoles-mixtos",
+    "nombre": "Tocoferóis Mistos",
+    "sinonimos": ["Vitamina E natural", "E306"],
+    "descripcion": "Antioxidante lipossolúvel obtido de óleos vegetais, utilizado para retardar a oxidação de gorduras e óleos em alimentos. É a opção habitual quando se busca proteger sistemas gordurosos com um aditivo associado a rótulos mais limpos. É dosado na fase gordurosa conforme o sistema a proteger.",
+    "funciones": ["Antioxidante"],
+    "aplicaciones": ["Óleos e gorduras comestíveis", "Snacks e frituras", "Alimento para animais de estimação", "Cuidado da pele"],
+    "formas_referenciales": ["Líquido viscoso — tonalidade variável conforme a origem e o lote"]
+  },
+  {
+    "id": "sucralosa",
+    "nombre": "Sucralose",
+    "sinonimos": ["E955"],
+    "descripcion": "Edulcorante de alta intensidade derivado da sacarose, com perfil doce limpo e muito boa estabilidade em processo e armazenamento. Permite reduzir açúcares em bebidas, lácteos e confeitaria mantendo o perfil sensorial do produto. Seu nível de uso é definido conforme a categoria e de acordo com a normativa aplicável.",
+    "funciones": ["Edulcorante de alta intensidade"],
+    "aplicaciones": ["Bebidas com redução de açúcar", "Produtos lácteos", "Confeitaria e sobremesas", "Suplementos e nutracêuticos"],
+    "formas_referenciales": ["Sólido — pó conforme o fabricante e o lote"]
+  },
+  {
+    "id": "glicosidos-de-esteviol",
+    "nombre": "Glicosídeos de Esteviol",
+    "sinonimos": ["Estévia", "Extrato de estévia", "E960"],
+    "descripcion": "Edulcorantes de alta intensidade obtidos da folha de Stevia rebaudiana, utilizados para reduzir açúcares com origem botânica. As diferentes qualidades e composições de glicosídeos permitem ajustar o perfil doce e as notas residuais conforme a aplicação. São empregados de acordo com a normativa aplicável.",
+    "funciones": ["Edulcorante de alta intensidade"],
+    "aplicaciones": ["Bebidas", "Produtos lácteos", "Confeitaria", "Adoçantes de mesa"],
+    "formas_referenciales": ["Sólido — pó, composição de glicosídeos variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "sorbitol",
+    "nombre": "Sorbitol",
+    "sinonimos": ["D-glucitol", "E420"],
+    "descripcion": "Poliol de dupla função: edulcorante de volume e umectante que ajuda a reter umidade e a manter a textura dos produtos ao longo do tempo. É um clássico em confeitaria, panificação e cremes dentais. A escolha entre apresentação sólida ou xarope depende do processo de cada cliente.",
+    "funciones": ["Edulcorante de volume", "Umectante", "Plastificante de texturas"],
+    "aplicaciones": ["Confeitaria e gomas de mascar", "Panificação e confeitaria", "Cremes dentais", "Xaropes"],
+    "formas_referenciales": ["Sólido — pó ou granulado conforme o fabricante e o lote", "Líquido — solução aquosa conforme a apresentação do lote"]
+  },
+  {
+    "id": "lecitina-de-soya",
+    "nombre": "Lecitina de Soja",
+    "sinonimos": ["E322"],
+    "descripcion": "Emulsificante natural derivado do óleo de soja, referência na chocolataria para controlar a viscosidade e na panificação para melhorar o manuseio das massas. Facilita a integração de fases gordurosas e aquosas e atua como agente de dispersão e desmoldagem. Disponível em qualidades fluidas e desengorduradas conforme a aplicação.",
+    "funciones": ["Emulsificante", "Agente de dispersão", "Melhorador de massas"],
+    "aplicaciones": ["Chocolataria e coberturas", "Panificação", "Margarinas e gorduras", "Rações balanceadas"],
+    "formas_referenciales": ["Líquido viscoso — tonalidade variável conforme a origem e o lote", "Sólido — pó ou grânulos em qualidades desengorduradas conforme o fabricante e o lote"]
+  },
+  {
+    "id": "mono-y-digliceridos",
+    "nombre": "Mono e Diglicerídeos de Ácidos Graxos",
+    "sinonimos": ["Monoglicerídeos destilados", "E471"],
+    "descripcion": "Emulsificantes de uso geral na indústria de alimentos, empregados para estabilizar emulsões, aerar massas batidas e retardar o endurecimento do pão. Interagem com amidos e gorduras, melhorando a textura e a vida útil sensorial dos produtos. Sua dosagem depende do sistema gorduroso de cada formulação.",
+    "funciones": ["Emulsificante", "Aerante", "Antienvelhecimento de miolo"],
+    "aplicaciones": ["Panificação e confeitaria", "Margarinas", "Sorvetes e cremes vegetais", "Chocolataria"],
+    "formas_referenciales": ["Sólido — pérolas, escamas ou pó conforme o fabricante e o lote"]
+  },
+  {
+    "id": "polisorbato-80",
+    "nombre": "Polissorbato 80",
+    "sinonimos": ["Monoleato de sorbitana etoxilado", "E433"],
+    "descripcion": "Emulsificante não iônico hidrofílico, utilizado para estabilizar emulsões óleo em água e solubilizar aromas e óleos essenciais em sistemas aquosos. Em sorvetes contribui para a aeração e para uma textura macia. É empregado em alimentos de acordo com a normativa aplicável de aditivos.",
+    "funciones": ["Emulsificante O/A", "Solubilizante", "Umectante"],
+    "aplicaciones": ["Sorvetes e sobremesas congeladas", "Solubilização de aromas", "Molhos e temperos", "Formulações veterinárias"],
+    "formas_referenciales": ["Líquido viscoso — tonalidade âmbar variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "proteina-aislada-de-soya",
+    "nombre": "Proteína Isolada de Soja",
+    "sinonimos": ["Isolado proteico de soja", "ISP"],
+    "descripcion": "Ingrediente proteico de origem vegetal com alto teor de proteína, utilizado para enriquecer formulações e agregar funcionalidade. Oferece capacidade de emulsão, retenção de água e formação de géis em sistemas cárneos e bebidas. Base habitual de produtos de nutrição esportiva e análogos vegetais.",
+    "funciones": ["Fonte de proteína", "Emulsificante", "Ligante de água"],
+    "aplicaciones": ["Bebidas proteicas", "Produtos cárneos e análogos vegetais", "Barras nutricionais", "Panificação enriquecida"],
+    "formas_referenciales": ["Sólido — pó, tonalidade e granulometria variáveis conforme o fabricante e o lote"]
+  },
+  {
+    "id": "concentrado-de-proteina-de-suero",
+    "nombre": "Concentrado Proteico de Soro de Leite",
+    "sinonimos": ["WPC", "Proteína do soro do leite"],
+    "descripcion": "Ingrediente lácteo obtido do soro de queijaria, valorizado por seu perfil proteico e sua funcionalidade em bebidas e produtos assados. Confere solubilidade, capacidade espumante e notas lácteas agradáveis. As diferentes qualidades disponíveis são selecionadas conforme o teor proteico exigido pela aplicação.",
+    "funciones": ["Fonte de proteína", "Espumante", "Emulsificante"],
+    "aplicaciones": ["Bebidas e shakes proteicos", "Confeitaria e panificação", "Sorvetes e sobremesas", "Barras nutricionais"],
+    "formas_referenciales": ["Sólido — pó conforme o fabricante e o lote"]
+  },
+  {
+    "id": "maltodextrina",
+    "nombre": "Maltodextrina",
+    "sinonimos": ["Maltodextrina de milho"],
+    "descripcion": "Carboidrato derivado do amido, utilizado como agente de corpo, veículo de secagem e encapsulante de sabores e cores. Sua baixa higroscopicidade relativa e sabor neutro a tornam ideal para misturas em pó e bebidas instantâneas. É oferecida em diferentes faixas de dextrose equivalente conforme a aplicação.",
+    "funciones": ["Agente de corpo", "Veículo e encapsulante", "Espessante suave"],
+    "aplicaciones": ["Bebidas instantâneas", "Misturas em pó e condimentos", "Encapsulação de sabores", "Nutrição esportiva"],
+    "formas_referenciales": ["Sólido — pó conforme o fabricante e o lote"]
+  },
+  {
+    "id": "almidon-modificado-de-maiz",
+    "nombre": "Amido Modificado de Milho",
+    "sinonimos": ["Amido modificado"],
+    "descripcion": "Família de amidos tratados para resistir a condições exigentes de processo, como calor, acidez e ciclos de congelamento e descongelamento. Conferem viscosidade, estabilidade e textura em molhos, sopas e produtos prontos para consumo. O tipo de modificação é selecionado conforme o processo e a vida útil desejada.",
+    "funciones": ["Espessante", "Estabilizante", "Texturizante"],
+    "aplicaciones": ["Molhos e sopas", "Produtos congelados", "Sobremesas e recheios", "Temperos"],
+    "formas_referenciales": ["Sólido — pó, granulometria variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "dextrosa",
+    "nombre": "Dextrose",
+    "sinonimos": ["Glicose", "D-glicose"],
+    "descripcion": "Açúcar simples derivado do amido, com doçura moderada e alta fermentabilidade, utilizado como edulcorante e substrato em processos fermentativos. Em produtos cárneos favorece processos de cura e na confeitaria confere um efeito refrescante característico. Matéria-prima de amplo uso em panificação e bebidas.",
+    "funciones": ["Edulcorante", "Substrato de fermentação", "Agente de corpo"],
+    "aplicaciones": ["Panificação", "Bebidas e soros de hidratação", "Produtos cárneos", "Confeitaria"],
+    "formas_referenciales": ["Sólido cristalino — pó ou cristais conforme o fabricante e o lote"]
+  },
+  {
+    "id": "bicarbonato-de-sodio",
+    "nombre": "Bicarbonato de Sódio",
+    "sinonimos": ["Carbonato ácido de sódio", "E500ii"],
+    "descripcion": "Sal versátil utilizada em alimentos como fermento químico e regulador de acidez. Em combinação com acidulantes libera gás que confere volume e maciez a produtos assados. Seu uso se estende a bebidas efervescentes, limpeza e alimentação animal de acordo com a normativa aplicável.",
+    "funciones": ["Fermento químico", "Regulador de pH", "Efervescente"],
+    "aplicaciones": ["Panificação e confeitaria", "Fermentos em pó", "Bebidas efervescentes", "Produtos de limpeza"],
+    "formas_referenciales": ["Sólido — pó, granulometria variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "colorante-de-annato",
+    "nombre": "Corante de Urucum",
+    "sinonimos": ["Urucum", "Colorau", "E160b"],
+    "descripcion": "Corante de origem natural obtido das sementes de urucum, tradicional na gastronomia latino-americana. Confere tons que vão do amarelo ao alaranjado em queijos, snacks, gorduras e produtos cárneos. Disponível em versões solúveis em água ou em óleo conforme o sistema a colorir.",
+    "funciones": ["Corante natural"],
+    "aplicaciones": ["Queijos e lácteos", "Snacks e extrusados", "Gorduras e margarinas", "Produtos cárneos"],
+    "formas_referenciales": ["Sólido — pó conforme o fabricante e o lote", "Líquido — dispersão ou solução conforme a apresentação do lote"]
+  },
+  {
+    "id": "colorante-de-curcuma",
+    "nombre": "Corante de Cúrcuma",
+    "sinonimos": ["Curcumina", "E100"],
+    "descripcion": "Corante de origem natural derivado do rizoma da cúrcuma, utilizado para conferir tons amarelos intensos em alimentos e bebidas. É uma alternativa natural aos amarelos sintéticos em mostardas, condimentos, panificação e lácteos. A estabilidade do tom depende do sistema e das condições de processo.",
+    "funciones": ["Corante natural"],
+    "aplicaciones": ["Mostardas e condimentos", "Panificação e confeitaria", "Bebidas", "Produtos lácteos"],
+    "formas_referenciales": ["Sólido — pó conforme o fabricante e o lote", "Líquido — dispersão oleosa ou aquosa conforme a apresentação do lote"]
+  },
+  {
+    "id": "carmin-de-cochinilla",
+    "nombre": "Carmim de Cochonilha",
+    "sinonimos": ["Ácido carmínico", "E120", "CI 75470"],
+    "descripcion": "Corante de origem natural derivado da cochonilha, apreciado por seus tons vermelhos e rosados de grande estabilidade ao calor e à luz. É um clássico em iogurtes, embutidos, confeitaria e bebidas, assim como na cosmética de cor. O tom final depende do pH e do sistema de aplicação.",
+    "funciones": ["Corante natural"],
+    "aplicaciones": ["Iogurtes e lácteos", "Embutidos", "Confeitaria", "Bebidas"],
+    "formas_referenciales": ["Sólido — pó conforme o fabricante e o lote", "Líquido — solução ou dispersão conforme a apresentação do lote"]
+  },
+  {
+    "id": "vainillina",
+    "nombre": "Vanilina",
+    "sinonimos": ["Metilvanilina"],
+    "descripcion": "Aromatizante com o perfil característico da baunilha, um dos sabores mais utilizados na indústria de alimentos. Confere notas doces e arredondadas em panificação, chocolataria, sorvetes e bebidas, e também é empregado como nota de fundo em perfumaria. Sua dosagem é ajustada ao perfil sensorial desejado.",
+    "funciones": ["Aromatizante", "Agente aromático"],
+    "aplicaciones": ["Panificação e confeitaria", "Chocolataria", "Sorvetes e sobremesas", "Bebidas"],
+    "formas_referenciales": ["Sólido cristalino — pó ou cristais conforme o fabricante e o lote"]
+  }
+]

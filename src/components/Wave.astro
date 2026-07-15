@@ -1,0 +1,25 @@
+---
+/**
+ * Onda de cierre de los héroes oscuros.
+ *
+ * La curva NUNCA toca el borde inferior del SVG: siempre deja una franja del
+ * color de la siguiente sección. Si tocara el borde, el fondo oscuro del héroe
+ * llegaría hasta abajo y se comería el contenido que viene después.
+ */
+interface Props {
+  /** Clase de color del relleno = color de la sección siguiente. */
+  class?: string;
+}
+const { class: className = "text-porcelain" } = Astro.props;
+---
+
+<svg
+  class:list={["block w-full select-none", className]}
+  viewBox="0 0 1440 70"
+  fill="currentColor"
+  preserveAspectRatio="none"
+  aria-hidden="true"
+  focusable="false"
+>
+  <path d="M0 30C240 2 480 40 720 28c240-12 480-30 720-6v48H0Z"></path>
+</svg>

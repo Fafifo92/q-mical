@@ -1,0 +1,290 @@
+[
+  {
+    "id": "extracto-glicolico-calendula",
+    "nombre": "Ringelblumenextrakt (glykolisch)",
+    "sinonimos": ["Calendula-Extrakt", "Hydroglykolischer Ringelblumenextrakt"],
+    "descripcion": "Extrakt aus Ringelblumenblüten in glykolischem Träger, traditionell mit einer glättenden und konditionierenden Wirkung auf die Haut assoziiert. Er wird in die Wasserphase von Emulsionen, Gelen und Badeprodukten eingearbeitet. Ein Klassiker der Naturkosmetik, sehr gefragt in Formulierungen für empfindliche Haut und in Babyprodukten.",
+    "funciones": ["Konditionierender botanischer Extrakt", "Hautglättender Wirkstoff"],
+    "aplicaciones": ["Cremes und Lotionen", "Babyprodukte", "Shampoos und Duschgele", "Kosmetik für empfindliche Haut"],
+    "formas_referenciales": ["Flüssig — Farbton von Gelb bis Bernstein, variabel je nach Hersteller und Charge"]
+  },
+  {
+    "id": "extracto-glicolico-manzanilla",
+    "nombre": "Kamillenextrakt (glykolisch)",
+    "sinonimos": ["Kamillenblütenextrakt", "Hydroglykolischer Kamillenextrakt"],
+    "descripcion": "Hydroglykolischer Extrakt aus Kamillenblüten, geschätzt in Formulierungen für empfindliche Haut aufgrund seines glättenden Charakters. Er wird in der Wasserphase von Cremes, Gesichtswässern, Shampoos und Haarprodukten eingesetzt, die mit hellen Reflexen assoziiert werden. Seine Bekanntheit beim Verbraucher macht ihn zu einem Verkaufsargument botanischen Ursprungs.",
+    "funciones": ["Glättender botanischer Extrakt", "Hautkonditionierungsmittel"],
+    "aplicaciones": ["Gesichtswässer und Gesichtslotionen", "Shampoos und Conditioner", "Babyprodukte", "Körpercremes"],
+    "formas_referenciales": ["Flüssig — Farbton von Gelb bis Bernstein, variabel je nach Hersteller und Charge"]
+  },
+  {
+    "id": "extracto-glicolico-aloe-vera",
+    "nombre": "Aloe-Vera-Extrakt (glykolisch)",
+    "sinonimos": ["Hydroglykolischer Aloe-vera-Extrakt", "Aloe-Blattextrakt"],
+    "descripcion": "Extrakt aus Aloe-vera-Blättern in glykolischem Träger, assoziiert mit einer feuchtigkeitsspendenden und erfrischenden Wirkung auf die Haut. Er lässt sich leicht in die Wasserphase von Gelen, Emulsionen und Haarprodukten einarbeiten. Vielfach eingesetzt in After-Sun-Formulierungen, Flüssigseifen und Linien der täglichen Pflege.",
+    "funciones": ["Feuchtigkeitsspender", "Konditionierender botanischer Extrakt"],
+    "aplicaciones": ["Gele und After-Sun-Produkte", "Flüssigseifen", "Cremes und Lotionen", "Haarprodukte"],
+    "formas_referenciales": ["Flüssig — farblos bis leicht bernsteinfarben, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "extracto-glicolico-te-verde",
+    "nombre": "Grüntee-Extrakt (glykolisch)",
+    "sinonimos": ["Grüner-Tee-Extrakt", "Camellia-sinensis-Blattextrakt"],
+    "descripcion": "Extrakt aus grünen Teeblättern in glykolischem Träger, aufgrund seines natürlichen Polyphenolgehalts mit einem antioxidativen Profil assoziiert. Er wird in Gesichts-, Körper- und Haarformulierungen eingesetzt, die auf die Pflege von umweltbelasteter Haut ausgerichtet sind. Verleiht Anti-Aging-Linien und Produkten für den urbanen Schutz eine anerkannte botanische Positionierung.",
+    "funciones": ["Antioxidans botanischen Ursprungs", "Hautkonditionierungsmittel"],
+    "aplicaciones": ["Gesichtscremes", "Seren und Gele", "Haarprodukte", "Körperlotionen"],
+    "formas_referenciales": ["Flüssig — Farbton von Bernstein bis Braun, variabel je nach Hersteller und Charge"]
+  },
+  {
+    "id": "extracto-glicolico-romero",
+    "nombre": "Rosmarinextrakt (glykolisch)",
+    "sinonimos": ["Rosmarinblattextrakt"],
+    "descripcion": "Extrakt aus Rosmarinblättern, traditionell mit der Vitalität der Kopfhaut und einem antioxidativen Profil assoziiert. In der Kosmetik wird er in Haarwässern, Shampoos und Lotionen verwendet; in Lebensmitteln werden bestimmte Rosmarinextrakte gemäß den geltenden Vorschriften als natürliches Antioxidans eingesetzt. Ein vielseitiger botanischer Rohstoff mit starker Tradition auf dem lateinamerikanischen Markt.",
+    "funciones": ["Tonisierender botanischer Extrakt", "Antioxidans botanischen Ursprungs"],
+    "aplicaciones": ["Shampoos und Haarwässer", "Körperlotionen", "Lebensmittelformulierungen gemäß den geltenden Vorschriften", "Massagegele"],
+    "formas_referenciales": ["Flüssig — Farbton von Bernstein bis Grünlich, variabel je nach Hersteller und Charge"]
+  },
+  {
+    "id": "extracto-glicolico-centella-asiatica",
+    "nombre": "Centella-asiatica-Extrakt (glykolisch)",
+    "sinonimos": ["Gotu-Kola-Extrakt", "Tigergras-Extrakt"],
+    "descripcion": "Extrakt aus Centella asiatica in glykolischem Träger, vielfach eingesetzt in Körper- und Gesichtspflegeformulierungen, die mit dem Erscheinungsbild einer straffen Haut assoziiert werden. Ein emblematischer Inhaltsstoff straffender Linien, kosmetischer Anti-Cellulite-Produkte und der Pflege strapazierter Haut. Kompatibel mit der Wasserphase von Emulsionen und Gelen.",
+    "funciones": ["Konditionierender botanischer Extrakt", "Kosmetischer Wirkstoff für die Körperpflege"],
+    "aplicaciones": ["Straffende Körpercremes", "Massagegele", "Gesichtscremes", "Produkte für die Augenkontur"],
+    "formas_referenciales": ["Flüssig — Farbton von Gelb bis Braun, variabel je nach Hersteller und Charge"]
+  },
+  {
+    "id": "extracto-hamamelis",
+    "nombre": "Hamamelisextrakt",
+    "sinonimos": ["Zaubernussextrakt", "Witch Hazel"],
+    "descripcion": "Botanischer Extrakt aus Hamamelis, in der Kosmetik geschätzt für seinen adstringierenden und tonisierenden Charakter. Er wird in Gesichtswässern, After-Shave-Lotionen und Produkten für zu Fett neigende Haut eingesetzt. Seine Anwendungstradition macht ihn zu einem anerkannten Inhaltsstoff in Formulierungen zur Reinigung und zum Ausgleich der Haut.",
+    "funciones": ["Kosmetisches Adstringens", "Hauttonikum"],
+    "aplicaciones": ["Gesichtswässer", "After-Shave-Lotionen", "Produkte für fettige Haut", "Reinigungstücher und Mizellenwasser"],
+    "formas_referenciales": ["Flüssig — farblos bis bernsteinfarben, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "extracto-glicolico-avena",
+    "nombre": "Haferextrakt (glykolisch)",
+    "sinonimos": ["Haferkornextrakt", "Hydroglykolischer Haferextrakt"],
+    "descripcion": "Extrakt aus Haferkörnern in glykolischem Träger, traditionell mit einer glättenden und schützenden Wirkung auf die Haut assoziiert. Ein gängiger Inhaltsstoff in Seifen, Cremes und Shampoos für empfindliche Haut sowie in Hygieneprodukten für Haustiere. Er wird in die Wasserphase der Formulierung eingearbeitet.",
+    "funciones": ["Hautglättender Wirkstoff", "Konditionierungsmittel"],
+    "aplicaciones": ["Seifen und Syndets", "Cremes für empfindliche Haut", "Shampoos für Haustiere", "Babyprodukte"],
+    "formas_referenciales": ["Flüssig — Farbton von Gelb bis Hellbraun, variabel je nach Hersteller und Charge"]
+  },
+  {
+    "id": "extracto-glicolico-pepino",
+    "nombre": "Gurkenextrakt (glykolisch)",
+    "sinonimos": ["Gurkenfruchtextrakt"],
+    "descripcion": "Extrakt aus der Gurkenfrucht in glykolischem Träger, assoziiert mit einem erfrischenden und feuchtigkeitsspendenden Gefühl. Vielfach eingesetzt in Augenkonturgelen, Masken und Gesichtswässern frischer, leichter Linien. Verleiht eine natürliche Positionierung, die sich dem Verbraucher leicht kommunizieren lässt.",
+    "funciones": ["Kosmetischer Frischewirkstoff", "Feuchtigkeitsspender"],
+    "aplicaciones": ["Gele für die Augenkontur", "Gesichtsmasken", "Gesichtswässer und Gesichtssprays", "Leichte Lotionen"],
+    "formas_referenciales": ["Flüssig — farblos bis blassgrünlich, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "concentrado-aloe-vera",
+    "nombre": "Aloe-Vera-Konzentrat",
+    "sinonimos": ["Aloe-Vera-Saftkonzentrat", "Aloe-Gel-Konzentrat"],
+    "descripcion": "Konzentrierter Saft aus dem Aloe-vera-Blatt, konzipiert zur Rekonstitution in der Wasserphase der Formulierung. In der Kosmetik wird er in Gelen, Lotionen und feuchtigkeitsspendenden Haarprodukten eingesetzt; in Lebensmitteln und Getränken erfolgt die Verwendung gemäß den geltenden Vorschriften. Ermöglicht eine effiziente Dosierung von Aloe in der industriellen Produktion.",
+    "funciones": ["Feuchtigkeitsspender", "Botanische Basis für die Wasserphase"],
+    "aplicaciones": ["Aloe-Gele", "Lotionen und Cremes", "Getränke gemäß den geltenden Vorschriften", "Haarprodukte"],
+    "formas_referenciales": ["Flüssig — Viskosität und Farbton variabel je nach Konzentrationsgrad des Herstellers und Charge"]
+  },
+  {
+    "id": "aloe-vera-polvo",
+    "nombre": "Aloe-Vera-Pulver",
+    "sinonimos": ["Aloe-Vera-Saftpulver", "Dehydratisierte Aloe vera"],
+    "descripcion": "Pulver, gewonnen durch Dehydratisierung des Safts aus dem Aloe-vera-Blatt, vorgesehen zur Rekonstitution in Wasser während des Produktionsprozesses. Erleichtert Lagerung und Transport gegenüber dem frischen Saft, mit flexibler Dosierung in Kosmetik, Lebensmitteln und Nahrungsergänzungsmitteln gemäß den geltenden Vorschriften. Es wird empfohlen, den Rekonstitutionsfaktor im technischen Datenblatt (TDS) der Charge zu prüfen.",
+    "funciones": ["Feuchtigkeitsspender", "Dehydratisierte botanische Basis"],
+    "aplicaciones": ["Kosmetische Gele und Emulsionen", "Getränke und Lebensmittel gemäß den geltenden Vorschriften", "Nahrungsergänzungsmittel gemäß den geltenden Vorschriften", "Shampoos und Seifen"],
+    "formas_referenciales": ["Fest — Pulver, Korngröße und Farbton variabel je nach Hersteller und Charge"]
+  },
+  {
+    "id": "aceite-coco",
+    "nombre": "Kokosöl",
+    "sinonimos": ["Kokosnussöl", "Kopraöl"],
+    "descripcion": "Pflanzenöl aus dem Fruchtfleisch der Kokosnuss, weit verbreitet als Emollient in der Seifenherstellung sowie in Cremes und Haarprodukten. Sein Fettprofil macht es zu einem Basisrohstoff für die Verseifung und für konditionierende Formulierungen. In Lebensmitteln wird es gemäß den geltenden Vorschriften eingesetzt.",
+    "funciones": ["Emollient", "Fettbasis für die Seifenherstellung", "Haarconditioner"],
+    "aplicaciones": ["Stückseifen", "Cremes und Körperbutter", "Haarprodukte", "Lebensmittel gemäß den geltenden Vorschriften"],
+    "formas_referenciales": ["Fest bis flüssig je nach Umgebungstemperatur — niedriger Schmelzpunkt; Aussehen variabel je nach Hersteller, Herkunft und Charge"]
+  },
+  {
+    "id": "aceite-almendras-dulces",
+    "nombre": "Mandelöl",
+    "sinonimos": ["Süßmandelöl"],
+    "descripcion": "Ein klassisches Pflanzenöl der Kosmetik, geschätzt für sein sanftes Hautgefühl und seine gute Verteilbarkeit auf der Haut. Es ist die traditionelle Basis von Massageölen und Babyprodukten und ein vielseitiges Emollient in Emulsionen. Kompatibel mit den meisten kosmetischen Ölphasen.",
+    "funciones": ["Emollient", "Trägeröl für Massagen"],
+    "aplicaciones": ["Massageöle", "Babyprodukte", "Cremes und Lotionen", "Körperöle"],
+    "formas_referenciales": ["Ölige Flüssigkeit — Farbton von Blassgelb bis Golden, variabel je nach Herkunft und Charge"]
+  },
+  {
+    "id": "aceite-jojoba",
+    "nombre": "Jojobaöl",
+    "sinonimos": ["Flüssiges Jojobawachs"],
+    "descripcion": "Flüssiges Pflanzenwachs mit einer dem natürlichen Hauttalg ähnlichen Zusammensetzung, geschätzt für sein trockenes Hautgefühl und seine hohe Stabilität im Vergleich zu anderen Ölen. Es wird als Emollient in Gesichts-, Haar- und Barbier-Formulierungen eingesetzt. Seine Stabilität macht es geeignet für Produkte mit anspruchsvollen Haltbarkeitsanforderungen.",
+    "funciones": ["Emollient mit trockenem Hautgefühl", "Haut- und Haarconditioner"],
+    "aplicaciones": ["Gesichtsseren", "Bartöle", "Haarconditioner", "Gesichtskosmetik"],
+    "formas_referenciales": ["Ölige Flüssigkeit — Farbton von Gelb bis Golden, variabel je nach Raffination, Herkunft und Charge"]
+  },
+  {
+    "id": "aceite-rosa-mosqueta",
+    "nombre": "Hagebuttenkernöl",
+    "sinonimos": ["Wildrosenöl", "Rosehip Oil"],
+    "descripcion": "Öl aus den Samen der Hagebutte (Rosa mosqueta), ein Aushängeschild der südamerikanischen Kosmetik und traditionell mit der Pflege des Hautbildes assoziiert. Von Natur aus reich an ungesättigten Fettsäuren, wird es in Seren, Gesichtsölen und Produkten für reife Haut oder Haut mit sichtbaren Malen eingesetzt. Ein Inhaltsstoff mit hohem wahrgenommenem Wert in Premiumlinien.",
+    "funciones": ["Emollient", "Kosmetischer Wirkstoff für die Gesichtspflege"],
+    "aplicaciones": ["Seren und Gesichtsöle", "Anti-Aging-Cremes", "Kosmetische Produkte für das Erscheinungsbild von Narben", "Körperöle"],
+    "formas_referenciales": ["Ölige Flüssigkeit — Farbton von Orange bis Rötlich, variabel je nach Raffination, Herkunft und Charge"]
+  },
+  {
+    "id": "aceite-aguacate",
+    "nombre": "Avocadoöl",
+    "sinonimos": ["Avocadofruchtöl"],
+    "descripcion": "Pflanzenöl aus dem Fruchtfleisch der Avocado, geschätzt als nährendes Emollient in der Haar- und Körperkosmetik. Kolumbien und die Andenregion sind ein wachsendes Herkunftsgebiet dieses Rohstoffs, was kurze Lieferketten begünstigt. In Lebensmitteln wird es gemäß den geltenden Vorschriften eingesetzt.",
+    "funciones": ["Nährendes Emollient", "Haarconditioner"],
+    "aplicaciones": ["Haarmasken und Haarkuren", "Körpercremes", "Handwerkliche Seifenherstellung", "Lebensmittel gemäß den geltenden Vorschriften"],
+    "formas_referenciales": ["Ölige Flüssigkeit — Farbton von Grün bis Gelb je nach Raffinationsgrad, Herkunft und Charge"]
+  },
+  {
+    "id": "aceite-ricino",
+    "nombre": "Rizinusöl",
+    "sinonimos": ["Castoröl"],
+    "descripcion": "Hochviskoses Pflanzenöl aus den Samen des Wunderbaums, mit langer Anwendungstradition in Haarprodukten, Lippenstiften und der Seifenherstellung. Sein dichter, glänzender Charakter macht es zu einem gängigen Bestandteil dekorativer Kosmetik sowie kosmetischer Formulierungen für Augenbrauen und Wimpern. Es findet außerdem technische Anwendung als oleochemischer Rohstoff.",
+    "funciones": ["Hochviskoses Emollient", "Glanzgeber in Lippenstiften", "Oleochemische Basis"],
+    "aplicaciones": ["Lippenstifte und Lipgloss", "Haarprodukte", "Seifen", "Industrielle oleochemische Anwendungen"],
+    "formas_referenciales": ["Viskose Flüssigkeit — farblos bis blassgelb, je nach Raffination und Charge"]
+  },
+  {
+    "id": "aceite-ajonjoli",
+    "nombre": "Sesamöl",
+    "sinonimos": ["Sesamsamenöl"],
+    "descripcion": "Pflanzenöl aus Sesamsamen, mit guter natürlicher Stabilität und Anwendungstradition in Massagen und der Körperpflege. Als Emollient verleiht es ein genährtes Hautgefühl, ohne übermäßig schwer zu wirken. In Lebensmitteln wird es gemäß den geltenden Vorschriften verwendet.",
+    "funciones": ["Emollient", "Trägeröl für Massagen"],
+    "aplicaciones": ["Massageöle", "Körpercremes und Körperlotionen", "Seifenherstellung", "Lebensmittel gemäß den geltenden Vorschriften"],
+    "formas_referenciales": ["Ölige Flüssigkeit — Farbton von Gelb bis Golden, variabel je nach Röstung, Raffination und Charge"]
+  },
+  {
+    "id": "aceite-sacha-inchi",
+    "nombre": "Sacha-Inchi-Öl",
+    "sinonimos": ["Inka-Nuss-Öl", "Inca-Inchi-Öl"],
+    "descripcion": "Amazonisches Öl aus den Samen der Sacha Inchi, von Natur aus reich an Omega-Fettsäuren. Ein Botschafter der Biodiversität Kolumbiens und Amazoniens, mit wachsender Nachfrage in der Haar- und Gesichtskosmetik sowie im Nutraceutical-Sektor gemäß den geltenden Vorschriften. Bietet eine nachhaltige Herkunftsgeschichte, die in Naturlinien sehr geschätzt wird.",
+    "funciones": ["Nährendes Emollient", "Omega-reiches Öl", "Haarconditioner"],
+    "aplicaciones": ["Seren und Gesichtsöle", "Haarkuren", "Nahrungsergänzungsmittel gemäß den geltenden Vorschriften", "Amazonische Naturkosmetik"],
+    "formas_referenciales": ["Ölige Flüssigkeit — Farbton von Gelb bis Golden, variabel je nach Herkunft und Charge"]
+  },
+  {
+    "id": "aceite-macadamia",
+    "nombre": "Macadamiaöl",
+    "sinonimos": ["Macadamianussöl"],
+    "descripcion": "Pflanzenöl aus der Macadamianuss, geschätzt für sein seidiges Hautgefühl und sein schnelles Einziehen in die Haut. Sein Profil positioniert es in Haar- und Gesichtsformulierungen mit leichtem Finish. Kolumbien verfügt über eine eigene Macadamiaproduktion, was die regionale Versorgung begünstigt.",
+    "funciones": ["Schnell einziehendes Emollient", "Haut- und Haarconditioner"],
+    "aplicaciones": ["Haaröle und Haarseren", "Gesichtscremes", "Körperlotionen", "Produkte für gespaltene Haarspitzen"],
+    "formas_referenciales": ["Ölige Flüssigkeit — Farbton von Blassgelb bis Golden, je nach Raffination und Charge"]
+  },
+  {
+    "id": "manteca-karite",
+    "nombre": "Sheabutter",
+    "sinonimos": ["Karitébutter", "Shea Butter"],
+    "descripcion": "Pflanzenbutter aus der Nuss des Karitébaums, weltweite Referenz als nährendes Emollient in der Kosmetik. Verleiht Cremes, Körperbutter und Lippenstiften Körper und ein schützendes Hautgefühl. Erhältlich in raffinierter und unraffinierter Qualität, mit Eigenschaften, die im technischen Datenblatt (TDS) der Charge bestätigt werden.",
+    "funciones": ["Nährendes Emollient", "Konsistenzgeber"],
+    "aplicaciones": ["Körperbutter", "Lippenstifte und Balsame", "Hand- und Fußcremes", "Haarkuren"],
+    "formas_referenciales": ["Fest — Butter, Textur und Farbton von Elfenbein bis Gelblich variabel je nach Raffination, Herkunft und Charge"]
+  },
+  {
+    "id": "manteca-cacao",
+    "nombre": "Kakaobutter",
+    "sinonimos": ["Cocoa Butter", "Theobroma-Öl"],
+    "descripcion": "Pflanzenbutter aus den Samen des Kakaos, einer der emblematischen Anbaukulturen Kolumbiens. Verleiht Lippenstiften, Körperbutter und Seifen Konsistenz, Glanz und ein schützendes Hautgefühl; daneben Verwendung in Lebensmitteln gemäß den geltenden Vorschriften. Ihr charakteristisches Aroma und ihre lokale Herkunft machen sie zur Protagonistin natürlicher Linien.",
+    "funciones": ["Emollient", "Konsistenzgeber", "Basis für Lippenstifte"],
+    "aplicaciones": ["Lippenstifte und Balsame", "Körperbutter und Körpercremes", "Seifenherstellung", "Schokoladenherstellung und Lebensmittel gemäß den geltenden Vorschriften"],
+    "formas_referenciales": ["Fest — Blöcke, Stücke oder Pastillen je nach Hersteller und Charge; schmilzt bei Körpertemperatur"]
+  },
+  {
+    "id": "manteca-mango",
+    "nombre": "Mangobutter",
+    "sinonimos": ["Mangokernbutter"],
+    "descripcion": "Pflanzenbutter aus dem Mangokern, mit leichterem Hautgefühl als andere traditionelle Buttersorten. Sie wird als Emollient und Konsistenzgeber in Cremes, Conditionern und Balsamen mit nicht fettendem Finish eingesetzt. Eine interessante Alternative für Formulierungen, die ein frisches Sensorikprofil mit Nährpflege verbinden sollen.",
+    "funciones": ["Emollient mit leichtem Hautgefühl", "Konsistenzgeber"],
+    "aplicaciones": ["Körpercremes", "Haarconditioner", "Lippenbalsame", "Geschlagene Körperbutter"],
+    "formas_referenciales": ["Fest — Butter mit elfenbeinfarbenem Ton, Textur variabel je nach Hersteller und Charge"]
+  },
+  {
+    "id": "manteca-cupuazu",
+    "nombre": "Cupuaçu-Butter",
+    "sinonimos": ["Cupuassu-Butter", "Copoazú-Butter"],
+    "descripcion": "Amazonische Butter aus den Samen des Cupuaçu, eines botanischen Verwandten des Kakaos, assoziiert mit einer bemerkenswerten Wasserbindungskapazität. Sie wird als feuchtigkeitsspendendes Emollient in Cremes, Haarkuren und Lippenprodukten mit natürlicher Positionierung eingesetzt. Ein Vorzeigeinhaltsstoff der Kosmetik mit amazonischer Identität und des Handels mit lokalen Gemeinschaften.",
+    "funciones": ["Feuchtigkeitsspendendes Emollient", "Konsistenzgeber"],
+    "aplicaciones": ["Cremes und Körperbutter", "Haarkuren", "Lippenstifte und Balsame", "Amazonische Kosmetik"],
+    "formas_referenciales": ["Fest — Butter mit Farbton von Elfenbein bis Beige, Textur variabel je nach Herkunft und Charge"]
+  },
+  {
+    "id": "aceite-esencial-lavanda",
+    "nombre": "Ätherisches Lavendelöl",
+    "sinonimos": ["Lavendelöl"],
+    "descripcion": "Ätherisches Öl aus Lavendelblüten, eines der vielseitigsten Duftprofile der funktionellen Parfümerie. Es wird zur Beduftung von Seifen, Kerzen, Kosmetika und Haushaltsreinigungsprodukten eingesetzt und ist ein Basisprodukt der Aromatherapie. Die Dosierung muss den Anwendungsempfehlungen für das Endprodukt entsprechen.",
+    "funciones": ["Duftstoff", "Parfümeriekomponente"],
+    "aplicaciones": ["Seifen und Kerzen", "Kosmetik und Aromatherapie", "Waschmittel und Weichspüler", "Raumdüfte"],
+    "formas_referenciales": ["Flüssig — farblos bis blassgelb, Duftprofil variabel je nach Herkunft und Charge"]
+  },
+  {
+    "id": "aceite-esencial-eucalipto",
+    "nombre": "Ätherisches Eukalyptusöl",
+    "sinonimos": ["Eukalyptusöl"],
+    "descripcion": "Ätherisches Öl aus Eukalyptusblättern mit frischem, durchdringendem Duft, traditionell mit einem Gefühl von befreiender Frische assoziiert. Ein gängiger Duftstoff in Reinigungsprodukten, Seifen, Duschgelen und Zubereitungen zur äußerlichen Anwendung. Kolumbien verfügt über Eukalyptusplantagen, die die regionale Industrie versorgen.",
+    "funciones": ["Duftstoff", "Duftkomponente für Reinigungsprodukte"],
+    "aplicaciones": ["Reiniger und Desinfektionsmittel für den Haushalt", "Seifen und Duschgele", "Kerzen und Raumdüfte", "Produkte zur äußerlichen Anwendung"],
+    "formas_referenciales": ["Flüssig — farblos bis blassgelb, Duftprofil variabel je nach Herkunft und Charge"]
+  },
+  {
+    "id": "aceite-esencial-menta",
+    "nombre": "Ätherisches Pfefferminzöl",
+    "sinonimos": ["Pfefferminzöl", "Mentha-piperita-Öl"],
+    "descripcion": "Ätherisches Öl der Pfefferminze, bekannt für sein intensives Aroma und seinen sensorisch erfrischenden Effekt. Es wird in Haar- und Badekosmetik, in der Mundhygiene und in Reinigungsprodukten sowie als Aromastoff in Lebensmitteln gemäß den geltenden Vorschriften eingesetzt. Ein multifunktionaler Klassiker des Aromaportfolios.",
+    "funciones": ["Duftstoff", "Sensorischer Frischewirkstoff", "Aromastoff gemäß den geltenden Vorschriften"],
+    "aplicaciones": ["Erfrischende Shampoos und Gele", "Zahncremes und Mundspülungen", "Süßwaren gemäß den geltenden Vorschriften", "Reinigungsprodukte"],
+    "formas_referenciales": ["Flüssig — farblos bis blassgelb, Duftprofil variabel je nach Herkunft und Charge"]
+  },
+  {
+    "id": "aceite-esencial-naranja",
+    "nombre": "Ätherisches Orangenöl",
+    "sinonimos": ["Orangenöl süß", "Orangenschalenöl"],
+    "descripcion": "Ätherisches Öl, gewonnen durch Pressung der Schale der süßen Orange, mit hohem natürlichem Limonengehalt. Neben seiner Verwendung als Duft- und Aromastoff in Kosmetik und Lebensmitteln gemäß den geltenden Vorschriften wird es in Zitrusreinigern für seinen fettlösenden Beitrag geschätzt. Der Zitrusanbau der Andenregion macht es zu einem Inhaltsstoff naher Herkunft.",
+    "funciones": ["Duftstoff", "Fettlösender Beitrag in Reinigern", "Aromastoff gemäß den geltenden Vorschriften"],
+    "aplicaciones": ["Citrus-Allzweckreiniger", "Seifen und Kosmetik", "Getränke und Lebensmittel gemäß den geltenden Vorschriften", "Raumdüfte"],
+    "formas_referenciales": ["Flüssig — Farbton von Gelb bis Orange, Duftprofil variabel je nach Herkunft und Charge"]
+  },
+  {
+    "id": "aceite-esencial-limon",
+    "nombre": "Ätherisches Zitronenöl",
+    "sinonimos": ["Zitronenöl", "Zitronenschalenöl"],
+    "descripcion": "Ätherisches Zitrusöl aus der Zitronenschale, mit sauberem, strahlendem Duft, der universell mit Sauberkeit assoziiert wird. Es wird als Duftstoff in Reinigungsprodukten für Haushalt und Objektbereich sowie als Aromastoff in Lebensmitteln und Getränken gemäß den geltenden Vorschriften eingesetzt. Sein natürlicher Limonengehalt verleiht Reinigern fettlösende Kraft.",
+    "funciones": ["Duftstoff", "Fettlösender Beitrag in Reinigern", "Aromastoff gemäß den geltenden Vorschriften"],
+    "aplicaciones": ["Geschirrspülmittel und Reiniger", "Waschmittel", "Getränke und Lebensmittel gemäß den geltenden Vorschriften", "Seifen"],
+    "formas_referenciales": ["Flüssig — Farbton von Blassgelb bis Grünlich, Duftprofil variabel je nach Herkunft und Charge"]
+  },
+  {
+    "id": "aceite-esencial-arbol-te",
+    "nombre": "Teebaumöl",
+    "sinonimos": ["Ätherisches Teebaumöl", "Melaleuca-Öl"],
+    "descripcion": "Ätherisches Öl aus Melaleuca-Blättern, traditionell mit der Pflege von Haut mit Unreinheiten und von Kopfhaut mit sichtbaren Schuppen assoziiert. Es wird in Gele, Shampoos, Seifen und Hygieneprodukte für Haustiere eingearbeitet, stets in den empfohlenen Einsatzkonzentrationen. Eines der ätherischen Öle mit dem höchsten Warenumschlag in der funktionellen Kosmetik.",
+    "funciones": ["Klärender botanischer Extrakt", "Duftstoff"],
+    "aplicaciones": ["Klärende Gele und Seifen", "Kosmetische Anti-Schuppen-Shampoos", "Hygieneprodukte für Haustiere", "Deodorants"],
+    "formas_referenciales": ["Flüssig — farblos bis blassgelb, Duftprofil variabel je nach Herkunft und Charge"]
+  },
+  {
+    "id": "hidrolato-rosas",
+    "nombre": "Rosenhydrolat",
+    "sinonimos": ["Rosenwasser", "Rosenblütenwasser"],
+    "descripcion": "Blütenwasser, das bei der Destillation von Rosenblütenblättern gewonnen wird, mit zartem Duft und mild tonisierendem Charakter. Es kann das Wasser der Formulierung in Gesichtswässern, Gesichtssprays und leichten Emulsionen teilweise oder vollständig ersetzen. Verleiht eine romantische botanische Positionierung mit Tradition in der Gesichtspflege.",
+    "funciones": ["Mildes Tonikum", "Aromatische wässrige Basis"],
+    "aplicaciones": ["Gesichtswässer und Gesichtssprays", "Mizellenwasser", "Leichte Emulsionen", "Masken"],
+    "formas_referenciales": ["Wässrige Flüssigkeit — farblos, Duftintensität variabel je nach Destillation, Herkunft und Charge"]
+  },
+  {
+    "id": "exfoliante-cascara-nuez",
+    "nombre": "Walnussschalenpulver",
+    "sinonimos": ["Mikronisierte Walnussschalen", "Walnussschalengranulat"],
+    "descripcion": "Pulver aus der Vermahlung von Walnussschalen, eingesetzt als mechanisches Peelingmittel natürlichen Ursprungs in Seifen, Duschgelen und Körperpeelings. Eine Alternative natürlichen Ursprungs zu Mikroplastikperlen, im Einklang mit regulatorischen und Markttrends. Es wird auch in fettlösenden Seifen für den industriellen Einsatz verwendet.",
+    "funciones": ["Natürliches mechanisches Peelingmittel", "Alternative natürlichen Ursprungs zu Mikroplastikperlen"],
+    "aplicaciones": ["Körper- und Gesichtspeelings", "Peelingseifen", "Duschgele", "Industrielle Handseifen"],
+    "formas_referenciales": ["Fest — Pulver oder Granulat, Korngröße variabel je nach Hersteller und Charge"]
+  }
+]

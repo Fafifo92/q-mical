@@ -1,0 +1,150 @@
+---
+import Base from "../layouts/Base.astro";
+import Icon from "../components/Icon.astro";
+import Wave from "../components/Wave.astro";
+import SectionHead from "../components/SectionHead.astro";
+import CtaBand from "../components/CtaBand.astro";
+import { SITE } from "../data/site";
+import { STATS, getCatalogo } from "../lib/catalog";
+import { DEFAULT_LOCALE, rutaLocal, tpl, type Locale } from "../i18n/config";
+import { t, taxonomia } from "../i18n";
+
+interface Props {
+  lang?: Locale;
+}
+const { lang = DEFAULT_LOCALE } = Astro.props;
+const dict = t(lang);
+const tax = taxonomia(lang);
+
+const iconosPrincipios = ["package", "users", "clock", "globe"];
+
+const cifras = [
+  { n: `${STATS.productos}+`, l: dict.nosotros.statReferencias },
+  { n: `${STATS.lineas}`, l: dict.nosotros.statLineas },
+  { n: `${STATS.sectores}`, l: dict.nosotros.statSectores },
+  { n: "100%", l: dict.nosotros.statDocs },
+];
+
+const ciudades = [
+  "Bogotá", "Medellín", "Cali", "Barranquilla", "Bucaramanga",
+  "Cartagena", "Pereira", "Manizales", "Ibagué", "Villavicencio",
+];
+---
+
+<Base
+  title={dict.nosotros.tituloMeta}
+  description={dict.nosotros.descripcionMeta}
+  headerTheme="dark"
+  og="nosotros"
+  lang={lang}
+>
+  <!-- Héroe -->
+  <section class="hero-mesh">
+    <div class="container-site pt-32 pb-20 md:pt-40 md:pb-28">
+      <p class="reveal eyebrow text-accent-300">{dict.nosotros.heroEyebrow}</p>
+      <h1 class="reveal mt-4 max-w-3xl font-display text-4xl font-bold text-white sm:text-5xl" style="--reveal-delay:.1s">
+        {dict.nosotros.heroTitulo}
+      </h1>
+    </div>
+    <Wave />
+  </section>
+
+  <!-- Historia -->
+  <section class="container-site grid gap-12 py-16 sm:py-24 lg:grid-cols-2 lg:items-center">
+    <div class="reveal min-w-0 space-y-5 leading-relaxed text-ink-600">
+      <h2 class="font-display text-3xl font-bold text-ink-950">{dict.nosotros.historiaTitulo}</h2>
+      {dict.nosotros.historiaHtml.map((p) => <p class="[&_strong]:text-ink-900" set:html={p} />)}
+    </div>
+
+    <div class="reveal grid grid-cols-2 gap-4" style="--reveal-delay:.15s">
+      {
+        cifras.map((s) => (
+          <div class="card p-6 text-center">
+            <p class="font-display text-4xl font-bold text-brand-700">{s.n}</p>
+            <p class="mt-1 text-sm text-ink-500">{s.l}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Principios -->
+  <section class="dots-pattern border-y border-ink-100 py-16 sm:py-24">
+    <div class="container-site">
+      <SectionHead
+        eyebrow={dict.nosotros.principiosEyebrow}
+        titulo={dict.nosotros.principiosTitulo}
+        descripcion={dict.nosotros.principiosTexto}
+      />
+      <div class="mt-12 grid gap-5 sm:grid-cols-2">
+        {
+          dict.nosotros.principios.map((p, i) => (
+            <article class="card reveal flex gap-5 p-7" style={`--reveal-delay:${(i % 2) * 0.1}s`}>
+              <span class="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-brand-700 text-accent-300">
+                <Icon name={iconosPrincipios[i]} class="h-6 w-6" />
+              </span>
+              <div class="min-w-0">
+                <h3 class="font-display text-lg font-bold">{p.titulo}</h3>
+                <p class="mt-2 text-sm leading-relaxed text-ink-500">{p.texto}</p>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Líneas + cobertura -->
+  <section class="container-site grid gap-12 py-16 sm:py-24 lg:grid-cols-2">
+    <!-- min-w-0: sin esto el <p class="truncate"> interno impone su ancho a toda la columna -->
+    <div class="reveal min-w-0">
+      <h2 class="font-display text-2xl font-bold">{dict.nosotros.distribuimosTitulo}</h2>
+      <ul class="mt-6 space-y-3">
+        {
+          tax.lineas.map((l) => (
+            <li>
+              <a
+                href={rutaLocal(lang, `/productos?linea=${l.slug}`)}
+                class="group flex items-center gap-4 rounded-xl border border-transparent p-2 transition-colors hover:border-ink-100 hover:bg-white"
+              >
+                <span class="grid h-10 w-10 shrink-0 place-items-center rounded-lg" style={`background:color-mix(in srgb, ${l.color} 12%, white); color:${l.color}`}>
+                  <Icon name={l.icono} class="h-5 w-5" />
+                </span>
+                <div class="min-w-0 flex-1">
+                  <p class="font-display text-sm font-semibold text-ink-900">{l.nombre}</p>
+                  <p class="truncate text-xs text-ink-500">{l.tagline}</p>
+                </div>
+                <Icon name="arrow-right" class="h-4 w-4 shrink-0 text-ink-300 transition-transform group-hover:translate-x-1 group-hover:text-brand-600" />
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+
+    <div class="reveal min-w-0" style="--reveal-delay:.15s">
+      <h2 class="font-display text-2xl font-bold">{dict.nosotros.entregamosTitulo}</h2>
+      <p class="mt-3 text-sm leading-relaxed text-ink-500">
+        {tpl(dict.nosotros.entregamosTexto, { direccion: SITE.direccion })}
+      </p>
+      <div class="mt-6 flex flex-wrap gap-2">
+        {
+          ciudades.map((c) => (
+            <span class="chip bg-white px-4 py-1.5 text-sm">
+              <Icon name="map-pin" class="h-3.5 w-3.5 shrink-0 text-brand-600" />
+              {c}
+            </span>
+          ))
+        }
+        <span class="chip border-dashed px-4 py-1.5 text-sm text-ink-500">{dict.nosotros.territorioNacional}</span>
+      </div>
+
+      <div class="card mt-8 flex items-start gap-4 p-6">
+        <Icon name="shield-check" class="h-6 w-6 shrink-0 text-brand-600" />
+        <p class="text-sm leading-relaxed text-ink-600 [&_strong]:text-ink-900" set:html={dict.nosotros.compromisoHtml} />
+      </div>
+    </div>
+  </section>
+
+  <CtaBand titulo={dict.nosotros.ctaTitulo} texto={dict.nosotros.ctaTexto} lang={lang} />
+</Base>

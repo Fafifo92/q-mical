@@ -1,0 +1,332 @@
+---
+import Base from "../layouts/Base.astro";
+import Icon from "../components/Icon.astro";
+import { SITE } from "../data/site";
+import { getCatalogo } from "../lib/catalog";
+import { DEFAULT_LOCALE, type Locale } from "../i18n/config";
+import { t, taxonomia } from "../i18n";
+
+interface Props {
+  lang?: Locale;
+}
+const { lang = DEFAULT_LOCALE } = Astro.props;
+const dict = t(lang);
+const tax = taxonomia(lang);
+const cat = getCatalogo(lang);
+
+// Cadenas que el script necesita para armar el mensaje de WhatsApp
+const i18nJs = {
+  faltantes: dict.cotizacion.jsFaltantes,
+  campos: {
+    nombre: dict.cotizacion.jsCampoNombre,
+    empresa: dict.cotizacion.jsCampoEmpresa,
+    ciudad: dict.cotizacion.jsCampoCiudad,
+    sector: dict.cotizacion.jsCampoSector,
+    producto: dict.cotizacion.jsCampoProducto,
+  },
+  msg: {
+    titulo: dict.cotizacion.msgTitulo,
+    contacto: dict.cotizacion.msgContacto,
+    empresa: dict.cotizacion.msgEmpresa,
+    nit: dict.cotizacion.msgNit,
+    ciudad: dict.cotizacion.msgCiudad,
+    telefono: dict.cotizacion.msgTelefono,
+    sector: dict.cotizacion.msgSector,
+    productos: dict.cotizacion.msgProductos,
+    presentacion: dict.cotizacion.msgPresentacion,
+    uso: dict.cotizacion.msgUso,
+    frecuencia: dict.cotizacion.msgFrecuencia,
+    muestra: dict.cotizacion.msgMuestra,
+    comentarios: dict.cotizacion.msgComentarios,
+  },
+  asunto: dict.cotizacion.mailtoAsunto,
+};
+---
+
+<Base title={dict.cotizacion.tituloMeta} description={dict.cotizacion.descripcionMeta} og="cotizacion" lang={lang}>
+  <section class="border-b border-ink-100 bg-white pt-28 pb-10 md:pt-36">
+    <div class="container-site max-w-3xl">
+      <p class="eyebrow reveal">{dict.cotizacion.eyebrow}</p>
+      <h1 class="reveal mt-2 text-3xl font-bold tracking-tight sm:text-4xl" style="--reveal-delay:.08s">
+        {dict.cotizacion.titulo}
+      </h1>
+      <p class="reveal mt-4 leading-relaxed text-ink-500" style="--reveal-delay:.16s" set:html={dict.cotizacion.introHtml} />
+    </div>
+  </section>
+
+  <section class="container-site max-w-3xl py-12">
+    <form id="form-cotizacion" class="space-y-10" novalidate data-wa={SITE.whatsapp} data-correo={SITE.email}>
+      <!-- ── Datos de contacto ── -->
+      <fieldset class="card reveal p-6 sm:p-8">
+        <legend class="sr-only">{dict.cotizacion.paso1}</legend>
+        <h2 class="flex items-center gap-2 font-display text-lg font-bold">
+          <span class="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-brand-700 font-display text-sm text-white">1</span>
+          {dict.cotizacion.paso1}
+        </h2>
+        <div class="mt-6 grid gap-5 sm:grid-cols-2">
+          <label class="block">
+            <span class="text-sm font-medium text-ink-700">{dict.cotizacion.nombre} <span class="text-red-500">*</span></span>
+            <input type="text" name="nombre" required class="input-q" placeholder={dict.cotizacion.nombrePlaceholder} />
+          </label>
+          <label class="block">
+            <span class="text-sm font-medium text-ink-700">{dict.cotizacion.empresa} <span class="text-red-500">*</span></span>
+            <input type="text" name="empresa" required class="input-q" placeholder={dict.cotizacion.empresaPlaceholder} />
+          </label>
+          <label class="block">
+            <span class="text-sm font-medium text-ink-700">
+              {dict.cotizacion.nit} <span class="text-ink-500">{dict.cotizacion.opcional}</span>
+            </span>
+            <input type="text" name="nit" class="input-q" placeholder={dict.cotizacion.nitPlaceholder} />
+          </label>
+          <label class="block">
+            <span class="text-sm font-medium text-ink-700">{dict.cotizacion.ciudad} <span class="text-red-500">*</span></span>
+            <input type="text" name="ciudad" required class="input-q" placeholder={dict.cotizacion.ciudadPlaceholder} />
+          </label>
+          <label class="block">
+            <span class="text-sm font-medium text-ink-700">{dict.cotizacion.telefono}</span>
+            <input type="tel" name="telefono" class="input-q" placeholder="+57 300 000 0000" />
+          </label>
+          <label class="block">
+            <span class="text-sm font-medium text-ink-700">{dict.cotizacion.sectorEmpresa} <span class="text-red-500">*</span></span>
+            <select name="sector" required class="select-form mt-1.5">
+              <option value="">{dict.cotizacion.sectorPlaceholder}</option>
+              {Object.values(tax.sectores).map((s) => <option value={s}>{s}</option>)}
+              <option value={dict.cotizacion.sectorOtro}>{dict.cotizacion.sectorOtro}</option>
+            </select>
+          </label>
+        </div>
+      </fieldset>
+
+      <!-- ── Productos ── -->
+      <fieldset class="card reveal p-6 sm:p-8">
+        <legend class="sr-only">{dict.cotizacion.paso2}</legend>
+        <h2 class="flex items-center gap-2 font-display text-lg font-bold">
+          <span class="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-brand-700 font-display text-sm text-white">2</span>
+          {dict.cotizacion.paso2}
+        </h2>
+        <p class="mt-2 text-sm text-ink-500">{dict.cotizacion.paso2Texto}</p>
+
+        <div id="filas-productos" class="mt-6 space-y-4"></div>
+
+        <!-- items-end: los rótulos crecen hacia arriba y TODOS los campos quedan
+             alineados en la misma línea, aunque un rótulo ocupe dos renglones -->
+        <template id="tpl-fila">
+          <div class="fila-producto grid items-end gap-3 rounded-2xl border border-ink-100 bg-porcelain p-4 sm:grid-cols-[1.7fr_.7fr_.8fr_1.2fr_auto]">
+            <label class="block">
+              <span class="text-xs font-medium text-ink-500">{dict.cotizacion.campoProducto} <span class="text-red-500">*</span></span>
+              <input
+                type="text"
+                list="lista-productos"
+                class="input-q f-producto mt-1"
+                placeholder={dict.cotizacion.productoPlaceholder}
+                required
+              />
+            </label>
+            <label class="block">
+              <span class="text-xs font-medium text-ink-500">{dict.cotizacion.cantidad}</span>
+              <input type="number" min="0" step="any" inputmode="decimal" class="input-q f-cantidad mt-1" placeholder="100" />
+            </label>
+            <label class="block">
+              <span class="text-xs font-medium text-ink-500">{dict.cotizacion.unidad}</span>
+              <select class="select-form f-unidad mt-1 pr-9 pl-3">
+                {dict.cotizacion.unidades.map((u) => <option value={u}>{u}</option>)}
+              </select>
+            </label>
+            <label class="block">
+              <span class="text-xs font-medium text-ink-500">{dict.cotizacion.presentacionDeseada}</span>
+              <input type="text" class="input-q f-presentacion mt-1" placeholder={dict.cotizacion.presentacionPlaceholder} />
+            </label>
+            <button
+              type="button"
+              class="btn-quitar-fila grid h-11 w-11 shrink-0 place-items-center rounded-full border border-ink-200 text-ink-500 transition-colors hover:border-red-300 hover:text-red-500"
+              aria-label={dict.cotizacion.quitarProducto}
+            >
+              <Icon name="trash" class="h-4 w-4" />
+            </button>
+          </div>
+        </template>
+
+        <datalist id="lista-productos">
+          {cat.productos.map((p) => <option value={p.nombre}></option>)}
+        </datalist>
+
+        <button type="button" id="btn-agregar-fila" class="btn-ghost mt-4 min-h-11 px-5 text-sm">
+          <Icon name="plus" class="h-4 w-4" />
+          {dict.cotizacion.agregarProducto}
+        </button>
+      </fieldset>
+
+      <!-- ── Contexto ── -->
+      <fieldset class="card reveal p-6 sm:p-8">
+        <legend class="sr-only">{dict.cotizacion.paso3}</legend>
+        <h2 class="flex items-center gap-2 font-display text-lg font-bold">
+          <span class="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-brand-700 font-display text-sm text-white">3</span>
+          {dict.cotizacion.paso3}
+        </h2>
+        <div class="mt-6 grid gap-5">
+          <label class="block">
+            <span class="text-sm font-medium text-ink-700">{dict.cotizacion.usoFinal}</span>
+            <textarea name="uso" rows="3" class="input-q resize-y" placeholder={dict.cotizacion.usoPlaceholder}></textarea>
+          </label>
+          <div class="grid gap-5 sm:grid-cols-2">
+            <label class="block">
+              <span class="text-sm font-medium text-ink-700">{dict.cotizacion.frecuencia}</span>
+              <select name="frecuencia" class="select-form mt-1.5">
+                {dict.cotizacion.frecuencias.map((f) => <option value={f}>{f}</option>)}
+              </select>
+            </label>
+            <label class="block">
+              <span class="text-sm font-medium text-ink-700">{dict.cotizacion.muestra}</span>
+              <select name="muestra" class="select-form mt-1.5">
+                <option value={dict.cotizacion.muestraNo}>{dict.cotizacion.muestraNo}</option>
+                <option value={dict.cotizacion.muestraSi}>{dict.cotizacion.muestraSi}</option>
+              </select>
+            </label>
+          </div>
+          <label class="block">
+            <span class="text-sm font-medium text-ink-700">{dict.cotizacion.comentarios}</span>
+            <textarea name="comentarios" rows="2" class="input-q resize-y" placeholder={dict.cotizacion.comentariosPlaceholder}></textarea>
+          </label>
+        </div>
+      </fieldset>
+
+      <!-- ── Enviar ── -->
+      <div class="reveal space-y-4">
+        <p id="error-form" class="hidden rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700"></p>
+        <div class="flex flex-col gap-3 sm:flex-row">
+          <button type="submit" class="btn-whatsapp min-h-14 flex-1 px-6 text-base">
+            <Icon name="whatsapp" class="h-5 w-5 shrink-0" />
+            {dict.cotizacion.botonEnviar}
+          </button>
+          <button type="button" id="btn-correo" class="btn-ghost min-h-14 px-6 text-base">
+            <Icon name="mail" class="h-4 w-4 shrink-0" />
+            {dict.cotizacion.botonCorreo}
+          </button>
+        </div>
+        <p class="text-center text-xs text-ink-500">{dict.cotizacion.notaEnvio}</p>
+      </div>
+    </form>
+  </section>
+
+  <script type="application/json" id="i18n-cotizacion" set:html={JSON.stringify(i18nJs)} />
+</Base>
+
+<style>
+  textarea.input-q {
+    height: auto;
+    padding-block: 0.75rem;
+  }
+
+  /* Los spinners nativos del campo numérico se dibujan pegados al borde y
+     desentonan con la paleta: la cantidad se escribe, no se pulsa. */
+  .f-cantidad::-webkit-outer-spin-button,
+  .f-cantidad::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .f-cantidad {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+</style>
+
+<script>
+  function initCotizacion() {
+    const form = document.getElementById("form-cotizacion") as HTMLFormElement | null;
+    if (!form || form.dataset.init === "1") return;
+    form.dataset.init = "1";
+
+    const I18N = JSON.parse(document.getElementById("i18n-cotizacion")?.textContent ?? "{}");
+    const filas = document.getElementById("filas-productos")!;
+    const tpl = document.getElementById("tpl-fila") as HTMLTemplateElement;
+
+    function agregarFila(producto = "") {
+      const nodo = tpl.content.firstElementChild!.cloneNode(true) as HTMLElement;
+      const inputProducto = nodo.querySelector<HTMLInputElement>(".f-producto")!;
+      inputProducto.value = producto;
+      nodo.querySelector(".btn-quitar-fila")?.addEventListener("click", () => {
+        if (filas.children.length > 1) nodo.remove();
+        else inputProducto.value = "";
+      });
+      filas.appendChild(nodo);
+    }
+
+    // Fila inicial (con producto pre-cargado si viene ?producto=)
+    const params = new URLSearchParams(location.search);
+    agregarFila(params.get("producto") ?? "");
+
+    document.getElementById("btn-agregar-fila")?.addEventListener("click", () => agregarFila());
+
+    const $error = document.getElementById("error-form")!;
+
+    function construirMensaje(): string | null {
+      const datos = new FormData(form);
+      const v = (k: string) => String(datos.get(k) ?? "").trim();
+
+      const productos = Array.from(filas.querySelectorAll<HTMLElement>(".fila-producto"))
+        .map((f) => ({
+          producto: f.querySelector<HTMLInputElement>(".f-producto")!.value.trim(),
+          cantidad: f.querySelector<HTMLInputElement>(".f-cantidad")!.value.trim(),
+          unidad: f.querySelector<HTMLSelectElement>(".f-unidad")!.value,
+          presentacion: f.querySelector<HTMLInputElement>(".f-presentacion")!.value.trim(),
+        }))
+        .filter((p) => p.producto);
+
+      const faltantes: string[] = [];
+      if (!v("nombre")) faltantes.push(I18N.campos.nombre);
+      if (!v("empresa")) faltantes.push(I18N.campos.empresa);
+      if (!v("ciudad")) faltantes.push(I18N.campos.ciudad);
+      if (!v("sector")) faltantes.push(I18N.campos.sector);
+      if (!productos.length) faltantes.push(I18N.campos.producto);
+
+      if (faltantes.length) {
+        $error.textContent = I18N.faltantes.replace("{campos}", faltantes.join(", "));
+        $error.classList.remove("hidden");
+        $error.scrollIntoView({ behavior: "smooth", block: "center" });
+        return null;
+      }
+      $error.classList.add("hidden");
+
+      const m = I18N.msg;
+      const lineas = [
+        `*${m.titulo}*`,
+        "",
+        `*${m.contacto}:* ${v("nombre")}`,
+        `*${m.empresa}:* ${v("empresa")}${v("nit") ? ` (${m.nit} ${v("nit")})` : ""}`,
+        `*${m.ciudad}:* ${v("ciudad")}`,
+        v("telefono") ? `*${m.telefono}:* ${v("telefono")}` : null,
+        `*${m.sector}:* ${v("sector")}`,
+        "",
+        `*${m.productos}:*`,
+        ...productos.map(
+          (p, i) =>
+            `${i + 1}. ${p.producto}${p.cantidad ? ` — ${p.cantidad} ${p.unidad}` : ""}${p.presentacion ? ` — ${m.presentacion}: ${p.presentacion}` : ""}`
+        ),
+        "",
+        v("uso") ? `*${m.uso}:* ${v("uso")}` : null,
+        `*${m.frecuencia}:* ${v("frecuencia")}`,
+        `*${m.muestra}:* ${v("muestra")}`,
+        v("comentarios") ? `*${m.comentarios}:* ${v("comentarios")}` : null,
+      ].filter((l) => l !== null);
+
+      return lineas.join("\n");
+    }
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const msg = construirMensaje();
+      if (!msg) return;
+      const url = `https://wa.me/${form.dataset.wa}?text=${encodeURIComponent(msg)}`;
+      window.open(url, "_blank", "noopener");
+    });
+
+    document.getElementById("btn-correo")?.addEventListener("click", () => {
+      const msg = construirMensaje();
+      if (!msg) return;
+      location.href = `mailto:${form.dataset.correo}?subject=${encodeURIComponent(I18N.asunto)}&body=${encodeURIComponent(msg.replace(/\*/g, ""))}`;
+    });
+  }
+
+  document.addEventListener("astro:page-load", initCotizacion);
+  initCotizacion();
+</script>

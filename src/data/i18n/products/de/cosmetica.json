@@ -1,0 +1,326 @@
+[
+  {
+    "id": "alcohol-cetilico",
+    "nombre": "Cetylalkohol",
+    "sinonimos": ["1-Hexadecanol", "Palmitylalkohol"],
+    "descripcion": "Fettalkohol, der in kosmetischen Emulsionen breit als Coemulgator und Konsistenzgeber eingesetzt wird. Verleiht Cremes, Lotionen und Haarspülungen Körper, Stabilität und ein sanft-emollientes Hautgefühl.",
+    "funciones": ["Coemulgator", "Konsistenzgeber", "Emollient"],
+    "aplicaciones": ["Cremes und Lotionen", "Haarspülungen", "O/W-Emulsionen", "Balsame"],
+    "formas_referenciales": ["Fest — Schuppen, Perlen oder Pastillen je nach Hersteller und Charge"]
+  },
+  {
+    "id": "alcohol-cetoestearilico",
+    "nombre": "Cetylstearylalkohol",
+    "sinonimos": ["Cetearylalkohol", "Cetostearylalkohol"],
+    "descripcion": "Mischung der Fettalkohole Cetyl- und Stearylalkohol, die als Konsistenzbasis in Emulsionen aller Art verwendet wird. Stabilisiert die Ölphase und verbessert die Sensorik von Cremes und Haarpflegeprodukten.",
+    "funciones": ["Konsistenzgeber", "Coemulgator", "Emulsionsstabilisator"],
+    "aplicaciones": ["Körper- und Gesichtscremes", "Haarspülungen und Haarkuren", "Creme-Deodorants"],
+    "formas_referenciales": ["Fest — Schuppen oder Perlen je nach Hersteller und Charge"]
+  },
+  {
+    "id": "acido-estearico",
+    "nombre": "Stearinsäure",
+    "sinonimos": ["Octadecansäure", "Stearin"],
+    "descripcion": "Klassische Fettsäure der Kosmetikindustrie, eingesetzt, um Emulsionen Körper und Opazität zu verleihen, sowie als verseifbare Basis in Rasiercremes und cremigen Seifen. Durch ihre partielle Neutralisation entstehen stabile emulgierte Systeme.",
+    "funciones": ["Konsistenzgeber", "Emulgator (neutralisiert)", "Trübungsmittel"],
+    "aplicaciones": ["Cremes und Lotionen", "Rasiercremes", "Seifen und cremige Waschstücke", "Foundations"],
+    "formas_referenciales": ["Fest — Perlen, Schuppen oder Pulver je nach Hersteller und Charge"]
+  },
+  {
+    "id": "estearato-de-glicerilo",
+    "nombre": "Glycerylstearat",
+    "sinonimos": ["Glycerinmonostearat", "GMS"],
+    "descripcion": "Ester aus Glycerin und Stearinsäure, der als Primäremulgator und Konsistenzgeber in Öl-in-Wasser-Emulsionen eingesetzt wird. Verleiht Stabilität, Cremigkeit und ein nicht fettendes Finish, das in Hautpflegeprodukten sehr geschätzt wird.",
+    "funciones": ["O/W-Emulgator", "Konsistenzgeber", "Emollient"],
+    "aplicaciones": ["Gesichts- und Körpercremes", "Lotionen", "Sonnenschutzmittel", "Haarspülungen"],
+    "formas_referenciales": ["Fest — Perlen, Schuppen oder Pulver je nach Hersteller und Charge"]
+  },
+  {
+    "id": "cetearil-glucosido",
+    "nombre": "Cetearylglucosid",
+    "sinonimos": ["Cetearyl Glucoside"],
+    "descripcion": "Nichtionischer Emulgator auf Basis von Zuckern und Fettalkoholen, sehr gefragt in naturkosmetisch orientierten Formulierungen. Erzeugt stabile Emulsionen mit leichtem Hautgefühl und ist mit einer breiten Palette kosmetischer Wirkstoffe kompatibel.",
+    "funciones": ["O/W-Emulgator", "Coemulgator"],
+    "aplicaciones": ["Natürliche Cremes und Lotionen", "Produkte für empfindliche Haut", "Emulsionen für Babys"],
+    "formas_referenciales": ["Fest — Perlen, Schuppen oder Pulver je nach Hersteller und Charge"]
+  },
+  {
+    "id": "miristato-de-isopropilo",
+    "nombre": "Isopropylmyristat",
+    "sinonimos": ["IPM"],
+    "descripcion": "Leichter emollienter Ester mit schneller Verteilbarkeit, eingesetzt, um das fettige Hautgefühl von Emulsionen zu reduzieren und das Gleiten von Körperölen und Abschminkprodukten zu verbessern. Wirkt außerdem als Träger für Duftstoffe und fettlösliche Wirkstoffe.",
+    "funciones": ["Emollient", "Spreitmittel", "Lösungsmittel für Duftstoffe"],
+    "aplicaciones": ["Körperöle", "Abschminkprodukte", "Leichte Lotionen", "Deodorants"],
+    "formas_referenciales": ["Ölige Flüssigkeit mit niedriger Viskosität"]
+  },
+  {
+    "id": "triglicerido-caprilico-caprico",
+    "nombre": "Caprylsäure-/Caprinsäure-Triglycerid",
+    "sinonimos": ["Mittelkettige Triglyceride (MCT)", "Fraktioniertes Kokosöl", "Neutralöl"],
+    "descripcion": "Emollient pflanzlichen Ursprungs mit ausgezeichneter Oxidationsstabilität, geschätzt für sein trockenes, seidiges Hautgefühl. Dient als Basis-Ölphase, Träger fettlöslicher Wirkstoffe sowie als Grundlage für Extrakte und Duftstoffe.",
+    "funciones": ["Emollient", "Wirkstoffträger", "Basis-Ölphase"],
+    "aplicaciones": ["Öl-Seren", "Cremes und Lotionen", "Zweiphasen-Abschminkprodukte", "Massageprodukte"],
+    "formas_referenciales": ["Leichte ölige Flüssigkeit"]
+  },
+  {
+    "id": "cocamidopropil-betaina",
+    "nombre": "Cocamidopropylbetain",
+    "sinonimos": ["CAPB", "Kokosbetain", "Cocoamidopropylbetain"],
+    "descripcion": "Amphoteres Tensid auf Kokosbasis und tragende Säule milder Reinigungsformulierungen. Verstärkt und stabilisiert den Schaum, senkt das Irritationspotenzial anionischer Tenside und erhöht die Viskosität von Shampoos und Flüssigseifen.",
+    "funciones": ["Amphoteres Tensid", "Schaumverstärker", "Viskositätsregler"],
+    "aplicaciones": ["Shampoos", "Flüssigseifen und Duschgele", "Gesichtsreiniger", "Handgeschirrspülmittel"],
+    "formas_referenciales": ["Flüssig — wässrige Lösung, Viskosität variabel je nach Hersteller und Charge"]
+  },
+  {
+    "id": "decil-glucosido",
+    "nombre": "Decylglucosid",
+    "sinonimos": ["Decylpolyglucosid", "APG C10"],
+    "descripcion": "Nichtionisches Tensid aus der Familie der Alkylpolyglucoside, gewonnen aus Zuckern und pflanzlichen Fettalkoholen. Sein mildes Profil macht es ideal für Reiniger für empfindliche Haut, Babyprodukte und naturkosmetisch orientierte Formulierungen.",
+    "funciones": ["Nichtionisches Tensid", "Mildes Reinigungsmittel", "Schaumverstärker"],
+    "aplicaciones": ["Gesichtsreiniger", "Milde und sulfatfreie Shampoos", "Babyprodukte", "Intimwaschlotionen"],
+    "formas_referenciales": ["Viskose Flüssigkeit — wässrige Lösung, Farbton variabel je nach Hersteller und Charge"]
+  },
+  {
+    "id": "cocoil-isetionato-de-sodio",
+    "nombre": "Natriumcocoylisethionat",
+    "sinonimos": ["SCI", "Kokosisethionat"],
+    "descripcion": "Mildes anionisches Tensid auf Basis von Kokosfettsäuren, bekannt für seinen cremigen Schaum und seine ausgezeichnete Hautverträglichkeit. Es ist die bevorzugte Basis für Syndet-Stücke, feste Shampoos und Reiniger mit geringem Irritationspotenzial.",
+    "funciones": ["Mildes anionisches Tensid", "Schaummittel", "Basis für feste Reinigungsprodukte"],
+    "aplicaciones": ["Feste Shampoos", "Syndet-Waschstücke", "Cremige Gesichtsreiniger", "Milde Flüssigseifen"],
+    "formas_referenciales": ["Fest — Pulver, Granulat oder Nadeln je nach Hersteller und Charge"]
+  },
+  {
+    "id": "glicerina",
+    "nombre": "Glycerin",
+    "sinonimos": ["Glycerol", "Pflanzliches Glycerin"],
+    "descripcion": "Referenz-Feuchthaltemittel der Kosmetikindustrie und einer der vielseitigsten Rohstoffe des Marktes. Bindet und hält Wasser in den Formulierungen, verbessert die Verteilbarkeit und dient als Lösungsmittel für Wirkstoffe; in Lebensmitteln richtet sich der Einsatz nach den geltenden Vorschriften.",
+    "funciones": ["Feuchthaltemittel", "Lösungsmittel", "Glättungsmittel"],
+    "aplicaciones": ["Cremes und Lotionen", "Seifen und Duschgele", "Haarpflegeprodukte", "Mundspülungen", "Extraktgrundlagen"],
+    "formas_referenciales": ["Farblose viskose Flüssigkeit"]
+  },
+  {
+    "id": "propanodiol",
+    "nombre": "Propandiol",
+    "sinonimos": ["1,3-Propandiol", "PDO"],
+    "descripcion": "Glykol fermentativen Ursprungs, positioniert als Clean-Label-Alternative zu Propylenglykol. Wirkt als Feuchthaltemittel und Lösungsmittel für Wirkstoffe und Konservierungsmittel, mit einem weniger klebrigen Hautgefühl als Glycerin.",
+    "funciones": ["Feuchthaltemittel", "Lösungsmittel", "Verstärker für Konservierungsmittel"],
+    "aplicaciones": ["Seren und Toner", "Cremes und Lotionen", "Deodorants", "Haargele"],
+    "formas_referenciales": ["Farblose Flüssigkeit mit niedriger Viskosität"]
+  },
+  {
+    "id": "pantenol",
+    "nombre": "Panthenol",
+    "sinonimos": ["Provitamin B5", "D-Panthenol"],
+    "descripcion": "Vitamin-B5-Derivat, eingesetzt in Formulierungen für die Haut- und Haarpflege und assoziiert mit feuchtigkeitsspendenden und konditionierenden Eigenschaften. Ein klassischer Wirkstoff in Haarpflegeprodukten, Handcremes und Formulierungen für Haut, die Komfort benötigt.",
+    "funciones": ["Feuchthaltemittel", "Conditioner", "Hautpflegewirkstoff"],
+    "aplicaciones": ["Shampoos und Haarspülungen", "Hand- und Körpercremes", "After-Sun-Produkte", "Haarseren"],
+    "formas_referenciales": ["Farblose viskose Flüssigkeit", "Fest — Pulver je nach Handelsvariante und Charge"]
+  },
+  {
+    "id": "hialuronato-de-sodio",
+    "nombre": "Natriumhyaluronat",
+    "sinonimos": ["Natriumsalz der Hyaluronsäure", "HA"],
+    "descripcion": "Natriumsalz der Hyaluronsäure, ein durch Fermentation gewonnenes Biopolymer mit hoher Wasserbindungskapazität. Es ist einer der meistgefragten feuchtigkeitsspendenden Wirkstoffe des Marktes, eingesetzt in Formulierungen, die mit Hydratation und einem glatten Hautbild assoziiert werden; im Handel in verschiedenen Molekulargewichtsbereichen erhältlich.",
+    "funciones": ["Hochleistungs-Feuchthaltemittel", "Feuchtigkeitsspendender Wirkstoff", "Filmbildner"],
+    "aplicaciones": ["Gesichtsseren", "Anti-Aging-Cremes", "Augenkonturpflege", "Masken", "Haarpflegeprodukte"],
+    "formas_referenciales": ["Fest — Pulver oder feines Granulat je nach Hersteller und Charge"]
+  },
+  {
+    "id": "pca-de-sodio",
+    "nombre": "Natrium-PCA",
+    "sinonimos": ["Sodium PCA", "Natriumpyrrolidoncarboxylat"],
+    "descripcion": "Aus Aminosäuren gewonnenes Feuchthaltemittel, das Bestandteil des natürlichen Feuchthaltefaktors der Haut ist. Es wird in Formulierungen eingearbeitet, um die Wasserbindung in Haut und Haar zu verbessern, mit mildem Profil und guter Kompatibilität mit anderen Inhaltsstoffen.",
+    "funciones": ["Feuchthaltemittel", "Haut- und Haarconditioner"],
+    "aplicaciones": ["Seren und Essenzen", "Feuchtigkeitscremes", "Haarspülungen", "Toner"],
+    "formas_referenciales": ["Flüssig — wässrige Lösung, farblos bis leicht bernsteinfarben je nach Charge"]
+  },
+  {
+    "id": "niacinamida",
+    "nombre": "Niacinamid",
+    "sinonimos": ["Nicotinamid", "Vitamin B3"],
+    "descripcion": "Amidform des Vitamins B3 und einer der meistverwendeten multifunktionalen Wirkstoffe der aktuellen Gesichtspflege. Eingesetzt in Formulierungen, die mit einem gleichmäßigen Hautton, dem Erscheinungsbild der Poren und dem Komfort der Hautbarriere assoziiert werden, mit ausgezeichneter Stabilität und leichter Formulierbarkeit.",
+    "funciones": ["Multifunktionaler Wirkstoff", "Hautconditioner", "Vitamin"],
+    "aplicaciones": ["Gesichtsseren", "Kosmetische depigmentierende Cremes", "Toner", "Produkte für fettige Haut"],
+    "formas_referenciales": ["Fest — kristallines Pulver, Korngröße variabel je nach Hersteller und Charge"]
+  },
+  {
+    "id": "alfa-arbutina",
+    "nombre": "Alpha-Arbutin",
+    "sinonimos": ["α-Arbutin"],
+    "descripcion": "Enzymatisch gewonnenes Hydrochinon-Glucosid, eingesetzt in kosmetischen Formulierungen, die mit einem gleichmäßigen Erscheinungsbild des Hauttons assoziiert werden. Ein stark nachgefragter Wirkstoff in Seren und Gesichtspflegecremes dank seiner Stabilität und Kompatibilität mit anderen kosmetischen depigmentierenden Inhaltsstoffen.",
+    "funciones": ["Tonausgleichender Wirkstoff", "Antioxidans"],
+    "aplicaciones": ["Gesichtsseren", "Cremes gegen Flecken kosmetischen Ursprungs", "Punktuelle Behandlungen", "Augenkonturpflege"],
+    "formas_referenciales": ["Fest — feines Pulver, Farbton weiß bis cremefarben je nach Charge"]
+  },
+  {
+    "id": "cafeina",
+    "nombre": "Coffein",
+    "sinonimos": ["Koffein", "Wasserfreies Coffein", "1,3,7-Trimethylxanthin"],
+    "descripcion": "Breit eingesetztes Alkaloid als kosmetischer Wirkstoff in Formulierungen für Augenkontur, Körper- und Haarpflege, assoziiert mit einem revitalisierten Erscheinungsbild der Haut. In Getränken und Nahrungsergänzungsmitteln richtet sich der Einsatz nach den geltenden Vorschriften.",
+    "funciones": ["Kosmetischer Wirkstoff", "Inhaltsstoff für die Augenkontur", "Haarwirkstoff"],
+    "aplicaciones": ["Gele und Cremes für die Augenkontur", "Kosmetische Anti-Cellulite-Produkte", "Haartonika und -lotionen", "Körpergele"],
+    "formas_referenciales": ["Fest — kristallines Pulver, Korngröße variabel je nach Hersteller und Charge"]
+  },
+  {
+    "id": "bisabolol",
+    "nombre": "Bisabolol",
+    "sinonimos": ["Alpha-Bisabolol", "Levomenol"],
+    "descripcion": "Hauptbestandteil des Kamillenöls, eingesetzt in Formulierungen für empfindliche Haut und assoziiert mit einem Gefühl von Komfort und Beruhigung. Erhältlich in Varianten natürlichen und synthetischen Ursprungs, beide mit langer Marktbewährung in der Kosmetik.",
+    "funciones": ["Kosmetischer beruhigender Wirkstoff", "Emollient"],
+    "aplicaciones": ["Produkte für empfindliche Haut", "After-Shave- und Post-Depilations-Produkte", "Babyprodukte", "After-Sun-Pflege"],
+    "formas_referenciales": ["Ölige Flüssigkeit, farblos bis leicht gelblich je nach Ursprung und Charge"]
+  },
+  {
+    "id": "ceramida-np",
+    "nombre": "Ceramid NP",
+    "sinonimos": ["Ceramid 3"],
+    "descripcion": "Lipid, identisch mit den im Stratum corneum der Haut vorhandenen Lipiden, eingesetzt in Formulierungen, die mit der Pflege der Hautbarriere assoziiert werden. Ein hochwertiger Wirkstoff in kosmetischen Reparaturcremes, Produkten für trockene Haut und dermokosmetischen Linien.",
+    "funciones": ["Hautbarriere-Wirkstoff", "Kosmetisch restaurierendes Lipid"],
+    "aplicaciones": ["Cremes für trockene Haut", "Barriere-Seren", "Reparierende Haarpflegeprodukte", "Dermokosmetische Emulsionen"],
+    "formas_referenciales": ["Fest — Pulver oder wachsartige Schuppen je nach Hersteller und Charge"]
+  },
+  {
+    "id": "alantoina",
+    "nombre": "Allantoin",
+    "sinonimos": ["Glyoxyldiureid"],
+    "descripcion": "Klassischer Wirkstoff mit langer Tradition, eingesetzt in Formulierungen, die mit Komfort und Geschmeidigkeit der Haut assoziiert werden. Seine Vielseitigkeit und niedrigen Einsatzkosten machen ihn zum üblichen Bestandteil von Cremes, Haarpflegeprodukten, Zahnpasten und After-Sun-Formulierungen.",
+    "funciones": ["Hautpflegender Wirkstoff", "Glättungsmittel"],
+    "aplicaciones": ["Cremes und Lotionen", "After-Sun-Produkte", "Zahnpasten", "Rasurprodukte", "Deodorants"],
+    "formas_referenciales": ["Fest — feines weißes Pulver, Korngröße variabel je nach Hersteller und Charge"]
+  },
+  {
+    "id": "acido-azelaico",
+    "nombre": "Azelainsäure",
+    "sinonimos": ["Nonandisäure"],
+    "descripcion": "Dicarbonsäure, die als Wirkstoff in kosmetischen Formulierungen für Haut mit Neigung zu Unreinheiten und ungleichmäßigem Ton eingesetzt wird. Ihre Vielseitigkeit positioniert sie in Seren, Cremes und Gelen der spezialisierten Gesichtspflege.",
+    "funciones": ["Wirkstoff für Haut mit Unreinheiten", "Tonausgleicher"],
+    "aplicaciones": ["Gesichtsseren", "Cremes und Gele der spezialisierten Pflege", "Punktuelle Behandlungen"],
+    "formas_referenciales": ["Fest — Pulver oder Granulat je nach Hersteller und Charge"]
+  },
+  {
+    "id": "acido-glicolico",
+    "nombre": "Glycolsäure",
+    "sinonimos": ["Hydroxyessigsäure", "AHA"],
+    "descripcion": "Kurzkettige Alpha-Hydroxysäure und Referenz der kosmetischen chemischen Exfoliation. Eingesetzt in Formulierungen, die mit der Erneuerung des Erscheinungsbildes der Haut und einer gleichmäßigeren Textur assoziiert werden, in Konzentrationen und pH-Werten gemäß den geltenden Kosmetikvorschriften.",
+    "funciones": ["Chemisches Exfolians (AHA)", "pH-Regulator", "Kosmetischer erneuernder Wirkstoff"],
+    "aplicaciones": ["Exfolierende Toner und Seren", "Erneuerungscremes", "Professionelle kosmetische Peelings", "Produkte für die Hauttextur"],
+    "formas_referenciales": ["Flüssig — wässrige Lösung", "Fest — Kristalle oder Pulver je nach Handelsvariante und Charge"]
+  },
+  {
+    "id": "acido-salicilico",
+    "nombre": "Salicylsäure",
+    "sinonimos": ["2-Hydroxybenzoesäure", "BHA"],
+    "descripcion": "Fettlösliche Beta-Hydroxysäure, eingesetzt in kosmetischen Formulierungen für fettige und zu Unreinheiten neigende Haut, assoziiert mit der Exfoliation der Hautoberfläche und des Poreninneren. Sie wird zudem als Hilfsstoff zur Konservierung in Dosierungen gemäß den Kosmetikvorschriften verwendet.",
+    "funciones": ["Chemisches Exfolians (BHA)", "Wirkstoff für fettige Haut", "Konservierungshilfsstoff"],
+    "aplicaciones": ["Reiniger und Toner für fettige Haut", "Anti-Unreinheiten-Seren", "Shampoos gegen kosmetische Schuppen", "Peelings"],
+    "formas_referenciales": ["Fest — feines kristallines Pulver, Korngröße variabel je nach Hersteller und Charge"]
+  },
+  {
+    "id": "fenoxietanol",
+    "nombre": "Phenoxyethanol",
+    "sinonimos": ["2-Phenoxyethanol", "Ethylenglykolmonophenylether"],
+    "descripcion": "Breitspektrum-Konservierungsmittel mit weltweiter Verwendung, Referenz für den antimikrobiellen Schutz kosmetischer Formulierungen innerhalb der Grenzen der geltenden Vorschriften. Es ist mit den meisten Systemen kompatibel und wird häufig mit Ethylhexylglycerin oder anderen Boostern kombiniert.",
+    "funciones": ["Breitspektrum-Konservierungsmittel"],
+    "aplicaciones": ["Cremes und Lotionen", "Shampoos und Haarspülungen", "Feuchttücher", "Flüssiges Make-up"],
+    "formas_referenciales": ["Farblose, leicht viskose Flüssigkeit"]
+  },
+  {
+    "id": "tocoferol",
+    "nombre": "Tocopherol (Vitamin E)",
+    "sinonimos": ["Vitamin E", "Alpha-Tocopherol"],
+    "descripcion": "Fettlösliches Referenz-Antioxidans, eingesetzt sowohl zum Schutz der Ölphasen vor Oxidation als auch als Wirkstoff, der mit der Hautpflege assoziiert wird. Erhältlich in Varianten natürlichen und synthetischen Ursprungs; in Lebensmitteln und Nahrungsergänzungsmitteln richtet sich der Einsatz nach den geltenden Vorschriften.",
+    "funciones": ["Antioxidans", "Hautpflegewirkstoff", "Schutz für Ölphasen"],
+    "aplicaciones": ["Gesichtsseren und -öle", "Cremes und Lotionen", "Schutz von Ölen und Extrakten", "Lippenbalsame"],
+    "formas_referenciales": ["Viskose ölige Flüssigkeit — Bernsteinton variabel je nach Ursprung und Charge"]
+  },
+  {
+    "id": "octocrileno",
+    "nombre": "Octocrylen",
+    "sinonimos": [],
+    "descripcion": "Organischer UV-Filter, eingesetzt in Sonnenschutzmitteln und Tagespflegeprodukten mit Schutzfunktion, innerhalb der Grenzen der geltenden Kosmetikvorschriften. Zeichnet sich durch seine Photostabilität aus und trägt zur Stabilisierung anderer Filter der Formulierung bei, etwa Avobenzon.",
+    "funciones": ["UVB-Filter", "Stabilisator für UV-Filter"],
+    "aplicaciones": ["Sonnenschutzmittel", "Tagescremes mit LSF", "Make-up mit Schutz", "Haarpflegeprodukte mit UV-Schutz"],
+    "formas_referenciales": ["Viskose ölige Flüssigkeit — gelblicher Ton variabel je nach Charge"]
+  },
+  {
+    "id": "avobenzona",
+    "nombre": "Avobenzon",
+    "sinonimos": ["Butylmethoxydibenzoylmethan"],
+    "descripcion": "Weit verbreiteter organischer Filter für den Schutz vor UVA-Strahlung, eingesetzt in Sonnenschutzmitteln gemäß den geltenden Kosmetikvorschriften. Er wird üblicherweise zusammen mit Stabilisatoren wie Octocrylen formuliert, um seine photochemische Leistung zu erhalten.",
+    "funciones": ["UVA-Filter"],
+    "aplicaciones": ["Sonnenschutzmittel", "Tagescremes mit LSF", "After-Sun-Produkte mit Schutz"],
+    "formas_referenciales": ["Fest — kristallines Pulver, Farbton weiß bis gelblich je nach Hersteller und Charge"]
+  },
+  {
+    "id": "cloruro-de-behentrimonio",
+    "nombre": "Behentrimoniumchlorid",
+    "sinonimos": ["BTAC", "C22-Quat"],
+    "descripcion": "Langkettiges kationisches Tensid und Referenz für die intensive Haarkonditionierung. Erleichtert die Entwirrbarkeit, verleiht Geschmeidigkeit und reduziert Frizz in Haarspülungen, Masken und Kuren, mit einem milderen Profil als kurzkettige Quats.",
+    "funciones": ["Kationischer Conditioner", "Entwirrungsmittel", "Kationischer Emulgator"],
+    "aplicaciones": ["Haarspülungen", "Haarmasken und -kuren", "Kämmcremes", "Leave-in-Conditioner"],
+    "formas_referenciales": ["Fest — Perlen, Pastillen oder Schuppen je nach Hersteller und Charge"]
+  },
+  {
+    "id": "cloruro-de-cetrimonio",
+    "nombre": "Cetrimoniumchlorid",
+    "sinonimos": ["CTAC", "Cetyltrimethylammoniumchlorid"],
+    "descripcion": "Klassisches quartäres Ammoniumsalz für die Haarkonditionierung, eingesetzt in Spülungen, Kämmcremes und Haarkuren. Sorgt für Entwirrbarkeit und Antistatik-Kontrolle und dient zudem als kationischer Emulgator in konditionierenden Systemen.",
+    "funciones": ["Kationischer Conditioner", "Antistatikum", "Kationischer Emulgator"],
+    "aplicaciones": ["Conditioner und Haarspülungen", "Kämmcremes", "Wäscheweichspüler"],
+    "formas_referenciales": ["Flüssig — wässrige oder wässrig-alkoholische Lösung je nach Handelsvariante und Charge"]
+  },
+  {
+    "id": "policuaternio-7",
+    "nombre": "Polyquaternium-7",
+    "sinonimos": ["PQ-7"],
+    "descripcion": "Wasserlösliches kationisches Polymer, das als Conditioner in Rinse-off-Systemen eingesetzt wird. Verbessert das Geschmeidigkeitsgefühl von Haut und Haar während und nach der Wäsche und ist ein üblicher Zusatz in Shampoos, Duschgelen und Flüssigseifen.",
+    "funciones": ["Polymerer Conditioner", "Glättungsmittel in Rinse-off-Produkten", "Sensorik-Modifikator"],
+    "aplicaciones": ["Shampoos", "Duschgele", "Flüssigseifen", "Rasiercremes"],
+    "formas_referenciales": ["Viskose Flüssigkeit — wässrige Lösung, farblos bis leicht trüb je nach Charge"]
+  },
+  {
+    "id": "cloruro-de-guar-hidroxipropiltrimonio",
+    "nombre": "Guarhydroxypropyltrimoniumchlorid",
+    "sinonimos": ["Kationisches Guar"],
+    "descripcion": "Kationisches Derivat des Guargummis, eingesetzt als depositionsfähiger Conditioner in Reinigungssystemen. Verbessert die Nasskämmbarkeit, macht die Haut in Duschgelen geschmeidig und trägt zur Viskosität der Formulierung bei.",
+    "funciones": ["Kationischer Conditioner natürlichen Ursprungs", "Depositionsmittel", "Co-Verdicker"],
+    "aplicaciones": ["Konditionierende Shampoos", "Duschgele", "Flüssigseifen", "2-in-1-Reiniger"],
+    "formas_referenciales": ["Fest — feines Pulver, Farbton weiß bis gelblich je nach Hersteller und Charge"]
+  },
+  {
+    "id": "carbomero",
+    "nombre": "Carbomer",
+    "sinonimos": ["Vernetzte Polyacrylsäure", "Carboxyvinylpolymer"],
+    "descripcion": "Vernetztes Acrylpolymer und weltweiter Standard zum Verdicken und Stabilisieren von Gelen und Emulsionen. Nach der Neutralisation bildet es transparente Gele mit charakteristischer Rheologie und suspendiert Partikel und Wirkstoffe hocheffizient bei niedrigen Einsatzkonzentrationen.",
+    "funciones": ["Verdicker", "Gelbildner", "Suspensionsstabilisator"],
+    "aplicaciones": ["Kosmetische antibakterielle Gele", "Haar- und Körpergele", "Emulsionen und Seren", "Reinigungsgele"],
+    "formas_referenciales": ["Fest — feines, lockeres Pulver, Typ und Korngröße variabel je nach Hersteller und Charge"]
+  },
+  {
+    "id": "dimeticona",
+    "nombre": "Dimethicon",
+    "sinonimos": ["Polydimethylsiloxan", "PDMS"],
+    "descripcion": "Referenzsilikon der Körperpflege, erhältlich in zahlreichen Nennviskositäten. Verleiht seidige Sensorik, Glanz und Oberflächenschutz in Haar- und Hautpflegeprodukten und reduziert zudem die Klebrigkeit von Emulsionen.",
+    "funciones": ["Sensorisches Emollient", "Haarconditioner", "Entschäumer im Prozess"],
+    "aplicaciones": ["Haarspülungen und Haarseren", "Cremes und Lotionen", "Make-up-Primer", "Rasurprodukte"],
+    "formas_referenciales": ["Silikonflüssigkeit — Viskosität variabel je nach Typ und Charge"]
+  },
+  {
+    "id": "escualano",
+    "nombre": "Squalan",
+    "sinonimos": ["Pflanzliches Squalan"],
+    "descripcion": "Emollient mit trockenem Hautgefühl und hoher Affinität zu den Hautlipiden, heute gewonnen aus pflanzlichen Quellen wie Zuckerrohr oder Olive. Eine der meistgefragten natürlichen Alternativen zu Silikonen, mit ausgezeichneter Stabilität und leichter Sensorik.",
+    "funciones": ["Emollient", "Pflanzliche Silikonalternative", "Träger für fettlösliche Wirkstoffe"],
+    "aplicaciones": ["Öl-Seren", "Gesichtscremes", "Haaröle", "Foundations"],
+    "formas_referenciales": ["Farblose und geruchlose ölige Flüssigkeit"]
+  },
+  {
+    "id": "edta-disodico",
+    "nombre": "Dinatrium-EDTA",
+    "sinonimos": ["Dinatriumedetat", "Dinatriumsalz der Ethylendiamintetraessigsäure"],
+    "descripcion": "Universell eingesetzter Chelatbildner, der im Wasser und in den Rohstoffen vorhandene Metallionen bindet. Schützt Farbe, Duft und Stabilität der Formulierungen und verbessert die Leistung von Konservierungs- und Schaumsystemen.",
+    "funciones": ["Chelatbildner", "Formulierungsstabilisator", "Verstärker für Konservierungsmittel"],
+    "aplicaciones": ["Cremes und Lotionen", "Shampoos und Flüssigseifen", "Haushaltsreinigungsprodukte", "Industrielle Formulierungen auf Wasserbasis"],
+    "formas_referenciales": ["Fest — weißes kristallines Pulver, Korngröße variabel je nach Hersteller und Charge"]
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "extracto-glicolico-calendula",
+    "nombre": "Extrato Glicólico de Calêndula",
+    "sinonimos": ["Extrato hidroglicólico de calêndula", "Extrato de flor de calêndula"],
+    "descripcion": "Extrato obtido das flores de calêndula em veículo glicólico, tradicionalmente associado a um efeito suavizante e condicionante sobre a pele. Incorpora-se na fase aquosa de emulsões, géis e produtos de banho. É um clássico da cosmética natural, muito solicitado em formulações para peles sensíveis e produtos para bebê.",
+    "funciones": ["Extrato botânico condicionante", "Suavizante da pele"],
+    "aplicaciones": ["Cremes e loções", "Produtos para bebê", "Shampoos e géis de banho", "Cosméticos para pele sensível"],
+    "formas_referenciales": ["Líquido — tom de amarelo a âmbar, variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "extracto-glicolico-manzanilla",
+    "nombre": "Extrato Glicólico de Camomila",
+    "sinonimos": ["Extrato de camomila", "Extrato hidroglicólico de camomila"],
+    "descripcion": "Extrato hidroglicólico de flores de camomila, apreciado em formulações para peles delicadas por seu caráter suavizante. É utilizado na fase aquosa de cremes, tônicos, shampoos e produtos capilares associados a reflexos claros. Seu reconhecimento por parte do consumidor o torna um argumento de venda de origem botânica.",
+    "funciones": ["Extrato botânico suavizante", "Condicionante da pele"],
+    "aplicaciones": ["Tônicos e loções faciais", "Shampoos e condicionadores", "Produtos para bebê", "Cremes corporais"],
+    "formas_referenciales": ["Líquido — tom de amarelo a âmbar, variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "extracto-glicolico-aloe-vera",
+    "nombre": "Extrato Glicólico de Aloe Vera",
+    "sinonimos": ["Extrato de babosa", "Extrato hidroglicólico de aloe vera"],
+    "descripcion": "Extrato de folha de aloe vera em veículo glicólico, associado a um efeito umectante e refrescante sobre a pele. Incorpora-se com facilidade na fase aquosa de géis, emulsões e produtos capilares. Muito utilizado em formulações pós-sol, sabonetes líquidos e linhas de cuidado diário.",
+    "funciones": ["Umectante", "Extrato botânico condicionante"],
+    "aplicaciones": ["Géis e produtos pós-sol", "Sabonetes líquidos", "Cremes e loções", "Produtos capilares"],
+    "formas_referenciales": ["Líquido — incolor a levemente ambarino, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "extracto-glicolico-te-verde",
+    "nombre": "Extrato Glicólico de Chá Verde",
+    "sinonimos": ["Extrato de folha de chá verde"],
+    "descripcion": "Extrato de folhas de chá verde em veículo glicólico, associado a um perfil antioxidante por seu conteúdo natural de polifenóis. É utilizado em formulações faciais, corporais e capilares voltadas ao cuidado de peles expostas a fatores ambientais. Confere um posicionamento botânico reconhecido em linhas antienvelhecimento e de proteção urbana.",
+    "funciones": ["Antioxidante de origem botânica", "Condicionante da pele"],
+    "aplicaciones": ["Cremes faciais", "Séruns e géis", "Produtos capilares", "Loções corporais"],
+    "formas_referenciales": ["Líquido — tom de âmbar a castanho, variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "extracto-glicolico-romero",
+    "nombre": "Extrato Glicólico de Alecrim",
+    "sinonimos": ["Extrato de folha de alecrim"],
+    "descripcion": "Extrato de folhas de alecrim, tradicionalmente associado à vitalidade do couro cabeludo e a um perfil antioxidante. Em cosmética, é usado em tônicos capilares, shampoos e loções; em alimentos, certos extratos de alecrim são empregados como antioxidante natural conforme a regulamentação aplicável. Um botânico versátil com forte tradição no mercado latino-americano.",
+    "funciones": ["Extrato botânico tonificante", "Antioxidante de origem botânica"],
+    "aplicaciones": ["Shampoos e tônicos capilares", "Loções corporais", "Formulações de alimentos conforme a regulamentação", "Géis de massagem"],
+    "formas_referenciales": ["Líquido — tom de âmbar a esverdeado, variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "extracto-glicolico-centella-asiatica",
+    "nombre": "Extrato Glicólico de Centella Asiática",
+    "sinonimos": ["Extrato de gotu kola", "Extrato de hidrocótile"],
+    "descripcion": "Extrato de centella asiática em veículo glicólico, muito utilizado em formulações de cuidado corporal e facial associadas à aparência de firmeza da pele. É um ingrediente emblemático das linhas firmadoras, anticelulite de uso cosmético e de cuidado de peles castigadas. Compatível com a fase aquosa de emulsões e géis.",
+    "funciones": ["Extrato botânico condicionante", "Ativo cosmético de cuidado corporal"],
+    "aplicaciones": ["Cremes corporais firmadores", "Géis de massagem", "Cremes faciais", "Produtos para o contorno dos olhos"],
+    "formas_referenciales": ["Líquido — tom de amarelo a castanho, variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "extracto-hamamelis",
+    "nombre": "Extrato de Hamamélis",
+    "sinonimos": ["Witch hazel", "Água de hamamélis"],
+    "descripcion": "Extrato botânico de hamamélis, apreciado em cosmética por seu caráter adstringente e tonificante. É utilizado em tônicos faciais, loções pós-barba e produtos para peles com tendência oleosa. Sua tradição de uso o torna um ingrediente reconhecido em formulações de limpeza e equilíbrio da pele.",
+    "funciones": ["Adstringente cosmético", "Tonificante da pele"],
+    "aplicaciones": ["Tônicos faciais", "Loções pós-barba", "Produtos para pele oleosa", "Lenços umedecidos e águas micelares"],
+    "formas_referenciales": ["Líquido — incolor a ambarino, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "extracto-glicolico-avena",
+    "nombre": "Extrato Glicólico de Aveia",
+    "sinonimos": ["Extrato de grãos de aveia", "Extrato hidroglicólico de aveia"],
+    "descripcion": "Extrato de grãos de aveia em veículo glicólico, tradicionalmente associado a um efeito suavizante e protetor da pele. É um ingrediente habitual em sabonetes, cremes e shampoos para peles delicadas, assim como em produtos de higiene para pets. Incorpora-se na fase aquosa da formulação.",
+    "funciones": ["Suavizante da pele", "Condicionante"],
+    "aplicaciones": ["Sabonetes e syndets", "Cremes para pele sensível", "Shampoos para pets", "Produtos para bebê"],
+    "formas_referenciales": ["Líquido — tom de amarelo a castanho-claro, variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "extracto-glicolico-pepino",
+    "nombre": "Extrato Glicólico de Pepino",
+    "sinonimos": ["Extrato do fruto do pepino"],
+    "descripcion": "Extrato do fruto do pepino em veículo glicólico, associado a uma sensação refrescante e umectante. Muito utilizado em géis para o contorno dos olhos, máscaras e tônicos faciais de linhas frescas e leves. Confere um posicionamento natural de fácil comunicação ao consumidor.",
+    "funciones": ["Refrescante cosmético", "Umectante"],
+    "aplicaciones": ["Géis para o contorno dos olhos", "Máscaras faciais", "Tônicos e brumas", "Loções leves"],
+    "formas_referenciales": ["Líquido — incolor a esverdeado-pálido, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "concentrado-aloe-vera",
+    "nombre": "Concentrado de Aloe Vera",
+    "sinonimos": ["Suco concentrado de babosa", "Concentrado de gel de aloe"],
+    "descripcion": "Suco concentrado obtido da folha de aloe vera, desenvolvido para ser reconstituído na fase aquosa da formulação. Em cosmética, é empregado em géis, loções e produtos capilares umectantes; em alimentos e bebidas, seu uso ocorre conforme a regulamentação aplicável. Permite dosar aloe de maneira eficiente na produção industrial.",
+    "funciones": ["Umectante", "Base botânica para fase aquosa"],
+    "aplicaciones": ["Géis de aloe", "Loções e cremes", "Bebidas conforme a regulamentação", "Produtos capilares"],
+    "formas_referenciales": ["Líquido — viscosidade e tom variáveis conforme o grau de concentração do fabricante e o lote"]
+  },
+  {
+    "id": "aloe-vera-polvo",
+    "nombre": "Aloe Vera em Pó",
+    "sinonimos": ["Pó de suco de aloe", "Babosa em pó", "Aloe desidratado"],
+    "descripcion": "Pó obtido por desidratação do suco da folha de aloe vera, pensado para reconstituição em água durante o processo produtivo. Facilita o armazenamento e o transporte em comparação com o suco fresco, com dosagem flexível em cosmética, alimentos e suplementos conforme a regulamentação aplicável. Recomenda-se verificar o fator de reconstituição na ficha técnica (TDS) do lote.",
+    "funciones": ["Umectante", "Base botânica desidratada"],
+    "aplicaciones": ["Géis e emulsões cosméticas", "Bebidas e alimentos conforme a regulamentação", "Suplementos conforme a regulamentação", "Shampoos e sabonetes"],
+    "formas_referenciales": ["Sólido — pó, granulometria e tom variáveis conforme o fabricante e o lote"]
+  },
+  {
+    "id": "aceite-coco",
+    "nombre": "Óleo de Coco",
+    "sinonimos": ["Óleo de copra"],
+    "descripcion": "Óleo vegetal obtido da polpa do coco, amplamente utilizado como emoliente em saboaria, cremes e produtos capilares. Seu perfil graxo o torna uma matéria-prima base em saponificação e em fórmulas de condicionamento. Em alimentos, é empregado conforme a regulamentação aplicável.",
+    "funciones": ["Emoliente", "Base graxa para saboaria", "Condicionador capilar"],
+    "aplicaciones": ["Sabonetes em barra", "Cremes e manteigas corporais", "Produtos capilares", "Alimentos conforme a regulamentação"],
+    "formas_referenciales": ["Sólido a líquido conforme a temperatura ambiente — ponto de fusão baixo; aparência variável conforme o fabricante, a origem e o lote"]
+  },
+  {
+    "id": "aceite-almendras-dulces",
+    "nombre": "Óleo de Amêndoas Doces",
+    "sinonimos": ["Óleo de amêndoa"],
+    "descripcion": "Óleo vegetal clássico da cosmética, apreciado por seu toque suave e boa espalhabilidade sobre a pele. É a base tradicional de óleos de massagem e produtos para bebê, e um emoliente versátil em emulsões. Compatível com a maioria das fases oleosas cosméticas.",
+    "funciones": ["Emoliente", "Óleo carreador para massagem"],
+    "aplicaciones": ["Óleos de massagem", "Produtos para bebê", "Cremes e loções", "Óleos corporais"],
+    "formas_referenciales": ["Líquido oleoso — tom de amarelo-pálido a dourado, variável conforme a origem e o lote"]
+  },
+  {
+    "id": "aceite-jojoba",
+    "nombre": "Óleo de Jojoba",
+    "sinonimos": ["Cera líquida de jojoba"],
+    "descripcion": "Cera líquida vegetal de composição próxima ao sebo natural da pele, apreciada por seu toque seco e alta estabilidade em comparação com outros óleos. É utilizada como emoliente em fórmulas faciais, capilares e de barbearia. Sua estabilidade a torna adequada para produtos com vida útil exigente.",
+    "funciones": ["Emoliente de toque seco", "Condicionador de pele e cabelo"],
+    "aplicaciones": ["Séruns faciais", "Óleos para barba", "Condicionadores capilares", "Cosmética facial"],
+    "formas_referenciales": ["Líquido oleoso — tom de amarelo a dourado, variável conforme o refino, a origem e o lote"]
+  },
+  {
+    "id": "aceite-rosa-mosqueta",
+    "nombre": "Óleo de Rosa Mosqueta",
+    "sinonimos": ["Óleo de semente de rosa mosqueta", "Rosehip oil"],
+    "descripcion": "Óleo obtido das sementes de rosa mosqueta, emblema da cosmética sul-americana e tradicionalmente associado ao cuidado da aparência da pele. Naturalmente rico em ácidos graxos insaturados, é utilizado em séruns, óleos faciais e produtos para peles maduras ou com marcas visíveis. Um ingrediente de alto valor percebido em linhas premium.",
+    "funciones": ["Emoliente", "Ativo cosmético de cuidado facial"],
+    "aplicaciones": ["Séruns e óleos faciais", "Cremes antienvelhecimento", "Produtos cosméticos para a aparência de cicatrizes", "Óleos corporais"],
+    "formas_referenciales": ["Líquido oleoso — tom de alaranjado a avermelhado, variável conforme o refino, a origem e o lote"]
+  },
+  {
+    "id": "aceite-aguacate",
+    "nombre": "Óleo de Abacate",
+    "sinonimos": ["Óleo de avocado"],
+    "descripcion": "Óleo vegetal da polpa do abacate, valorizado como emoliente nutritivo em cosmética capilar e corporal. A Colômbia e a região andina são uma origem crescente desta matéria-prima, o que facilita cadeias de fornecimento próximas. Em alimentos, é empregado conforme a regulamentação aplicável.",
+    "funciones": ["Emoliente nutritivo", "Condicionador capilar"],
+    "aplicaciones": ["Máscaras e tratamentos capilares", "Cremes corporais", "Saboaria artesanal", "Alimentos conforme a regulamentação"],
+    "formas_referenciales": ["Líquido oleoso — tom de verde a amarelo conforme o grau de refino, a origem e o lote"]
+  },
+  {
+    "id": "aceite-ricino",
+    "nombre": "Óleo de Rícino",
+    "sinonimos": ["Óleo de mamona", "Óleo de castor"],
+    "descripcion": "Óleo vegetal de alta viscosidade obtido da semente da mamona, com grande tradição de uso em produtos capilares, batons e saboaria. Seu caráter denso e brilhante o torna habitual em maquiagem e em fórmulas para sobrancelhas e cílios de uso cosmético. Também possui aplicações técnicas como matéria-prima oleoquímica.",
+    "funciones": ["Emoliente de alta viscosidade", "Agente de brilho em batons", "Base oleoquímica"],
+    "aplicaciones": ["Batons e glosses", "Produtos capilares", "Sabonetes", "Aplicações industriais oleoquímicas"],
+    "formas_referenciales": ["Líquido viscoso — incolor a amarelo-pálido, conforme o refino e o lote"]
+  },
+  {
+    "id": "aceite-ajonjoli",
+    "nombre": "Óleo de Gergelim",
+    "sinonimos": ["Óleo de sésamo"],
+    "descripcion": "Óleo vegetal de sementes de gergelim, com boa estabilidade natural e tradição de uso em massagens e cuidado corporal. Como emoliente, confere um toque nutrido sem resultar excessivamente pesado. Em alimentos, é utilizado conforme a regulamentação aplicável.",
+    "funciones": ["Emoliente", "Óleo carreador para massagem"],
+    "aplicaciones": ["Óleos de massagem", "Cremes e loções corporais", "Saboaria", "Alimentos conforme a regulamentação"],
+    "formas_referenciales": ["Líquido oleoso — tom de amarelo a dourado, variável conforme a torra, o refino e o lote"]
+  },
+  {
+    "id": "aceite-sacha-inchi",
+    "nombre": "Óleo de Sacha Inchi",
+    "sinonimos": ["Óleo de amendoim-do-inca", "Sacha inchi oil"],
+    "descripcion": "Óleo amazônico obtido da semente de sacha inchi, naturalmente rico em ácidos graxos ômega. É um embaixador da biodiversidade da Colômbia e da Amazônia, com demanda crescente em cosmética capilar, facial e no setor nutracêutico conforme a regulamentação aplicável. Agrega uma narrativa de origem sustentável muito valorizada em linhas naturais.",
+    "funciones": ["Emoliente nutritivo", "Óleo rico em ômegas", "Condicionador capilar"],
+    "aplicaciones": ["Séruns e óleos faciais", "Tratamentos capilares", "Suplementos conforme a regulamentação", "Cosmética natural amazônica"],
+    "formas_referenciales": ["Líquido oleoso — tom de amarelo a dourado, variável conforme a origem e o lote"]
+  },
+  {
+    "id": "aceite-macadamia",
+    "nombre": "Óleo de Macadâmia",
+    "sinonimos": ["Óleo de noz de macadâmia"],
+    "descripcion": "Óleo vegetal de noz de macadâmia, apreciado por seu toque sedoso e rápida absorção na pele. Seu perfil o posiciona em fórmulas capilares e faciais de acabamento leve. A Colômbia conta com produção própria de macadâmia, o que favorece o abastecimento regional.",
+    "funciones": ["Emoliente de rápida absorção", "Condicionador de pele e cabelo"],
+    "aplicaciones": ["Óleos e séruns capilares", "Cremes faciais", "Loções corporais", "Produtos para pontas duplas"],
+    "formas_referenciales": ["Líquido oleoso — tom de amarelo-pálido a dourado, conforme o refino e o lote"]
+  },
+  {
+    "id": "manteca-karite",
+    "nombre": "Manteiga de Karité",
+    "sinonimos": ["Shea butter", "Manteiga de shea"],
+    "descripcion": "Manteiga vegetal obtida da noz da árvore de karité, referência mundial como emoliente nutritivo em cosmética. Confere corpo e sensação protetora em cremes, manteigas corporais e batons. Disponível nas qualidades refinada e não refinada, com características que se confirmam na ficha técnica (TDS) do lote.",
+    "funciones": ["Emoliente nutritivo", "Agente de consistência"],
+    "aplicaciones": ["Manteigas corporais", "Batons e bálsamos", "Cremes para mãos e pés", "Tratamentos capilares"],
+    "formas_referenciales": ["Sólido — manteiga de textura e tom marfim a amarelado variáveis conforme o refino, a origem e o lote"]
+  },
+  {
+    "id": "manteca-cacao",
+    "nombre": "Manteiga de Cacau",
+    "sinonimos": ["Óleo de theobroma", "Cocoa butter"],
+    "descripcion": "Manteiga vegetal obtida das sementes do cacau, um dos cultivos emblemáticos da Colômbia. Confere consistência, brilho e uma sensação protetora em batons, manteigas corporais e saboaria, além de seu uso alimentício conforme a regulamentação aplicável. Seu aroma característico e sua origem local a tornam protagonista das linhas naturais.",
+    "funciones": ["Emoliente", "Agente de consistência", "Base para batons"],
+    "aplicaciones": ["Batons e bálsamos", "Manteigas e cremes corporais", "Saboaria", "Chocolataria e alimentos conforme a regulamentação"],
+    "formas_referenciales": ["Sólido — blocos, pedaços ou pastilhas conforme o fabricante e o lote; funde à temperatura corporal"]
+  },
+  {
+    "id": "manteca-mango",
+    "nombre": "Manteiga de Manga",
+    "sinonimos": ["Manteiga de semente de manga"],
+    "descripcion": "Manteiga vegetal obtida da semente da manga, de toque mais leve que outras manteigas tradicionais. É empregada como emoliente e agente de consistência em cremes, condicionadores e bálsamos de acabamento não oleoso. Alternativa interessante para formulações que buscam um sensorial fresco com nutrição.",
+    "funciones": ["Emoliente de toque leve", "Agente de consistência"],
+    "aplicaciones": ["Cremes corporais", "Condicionadores capilares", "Bálsamos labiais", "Manteigas batidas"],
+    "formas_referenciales": ["Sólido — manteiga de tom marfim, textura variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "manteca-cupuazu",
+    "nombre": "Manteiga de Cupuaçu",
+    "sinonimos": ["Cupuaçu butter", "Manteiga de Theobroma grandiflorum"],
+    "descripcion": "Manteiga amazônica obtida das sementes do cupuaçu, parente botânico do cacau e associada a uma notável capacidade de retenção de água. É utilizada como emoliente umectante em cremes, tratamentos capilares e batons de posicionamento natural. Ingrediente estrela da cosmética com identidade amazônica e de comércio com comunidades locais.",
+    "funciones": ["Emoliente umectante", "Agente de consistência"],
+    "aplicaciones": ["Cremes e manteigas corporais", "Tratamentos capilares", "Batons e bálsamos", "Cosmética amazônica"],
+    "formas_referenciales": ["Sólido — manteiga de tom marfim a bege, textura variável conforme a origem e o lote"]
+  },
+  {
+    "id": "aceite-esencial-lavanda",
+    "nombre": "Óleo Essencial de Lavanda",
+    "sinonimos": ["Essência de lavanda", "Óleo essencial de alfazema"],
+    "descripcion": "Óleo essencial obtido das flores de lavanda, um dos perfis aromáticos mais versáteis da perfumaria funcional. É utilizado para aromatizar sabonetes, velas, cosméticos e produtos de limpeza doméstica, e é um básico da aromaterapia. Sua dosagem deve respeitar as recomendações de uso no produto acabado.",
+    "funciones": ["Agente aromático", "Componente de perfumaria"],
+    "aplicaciones": ["Sabonetes e velas", "Cosmética e aromaterapia", "Detergentes e amaciantes", "Aromatizadores de ambiente"],
+    "formas_referenciales": ["Líquido — incolor a amarelo-pálido, perfil aromático variável conforme a origem e o lote"]
+  },
+  {
+    "id": "aceite-esencial-eucalipto",
+    "nombre": "Óleo Essencial de Eucalipto",
+    "sinonimos": ["Essência de eucalipto"],
+    "descripcion": "Óleo essencial de folhas de eucalipto, de aroma fresco e penetrante, tradicionalmente associado à sensação de frescor respirável. É um aromatizante habitual em produtos de limpeza, sabonetes, géis de banho e preparações de uso externo. A Colômbia conta com plantações de eucalipto que abastecem a indústria regional.",
+    "funciones": ["Agente aromático", "Aromatizante de produtos de limpeza"],
+    "aplicaciones": ["Limpadores e desinfetantes de uso doméstico", "Sabonetes e géis de banho", "Velas e aromatizadores de ambiente", "Produtos de uso externo"],
+    "formas_referenciales": ["Líquido — incolor a amarelo-pálido, perfil aromático variável conforme a origem e o lote"]
+  },
+  {
+    "id": "aceite-esencial-menta",
+    "nombre": "Óleo Essencial de Menta Piperita",
+    "sinonimos": ["Óleo essencial de hortelã-pimenta", "Óleo de peppermint"],
+    "descripcion": "Óleo essencial de menta piperita, reconhecido por seu aroma intenso e seu efeito refrescante sensorial. É utilizado em cosmética capilar e de banho, higiene bucal, produtos de limpeza e como flavorizante em alimentos conforme a regulamentação aplicável. Um clássico multifuncional do portfólio aromático.",
+    "funciones": ["Agente aromático", "Refrescante sensorial", "Flavorizante conforme a regulamentação"],
+    "aplicaciones": ["Shampoos e géis refrescantes", "Cremes dentais e enxaguantes bucais", "Confeitaria conforme a regulamentação", "Produtos de limpeza"],
+    "formas_referenciales": ["Líquido — incolor a amarelo-pálido, perfil aromático variável conforme a origem e o lote"]
+  },
+  {
+    "id": "aceite-esencial-naranja",
+    "nombre": "Óleo Essencial de Laranja Doce",
+    "sinonimos": ["Essência de laranja doce", "Óleo de casca de laranja"],
+    "descripcion": "Óleo essencial obtido por prensagem da casca da laranja doce, com alto teor natural de limoneno. Além de seu uso como aromatizante em cosmética e alimentos conforme a regulamentação aplicável, é apreciado em limpadores cítricos por sua contribuição desengraxante. A citricultura da região andina o torna um ingrediente de origem próxima.",
+    "funciones": ["Agente aromático", "Contribuição desengraxante em limpadores", "Flavorizante conforme a regulamentação"],
+    "aplicaciones": ["Limpadores cítricos multiuso", "Sabonetes e cosmética", "Bebidas e alimentos conforme a regulamentação", "Aromatizadores de ambiente"],
+    "formas_referenciales": ["Líquido — tom de amarelo a alaranjado, perfil aromático variável conforme a origem e o lote"]
+  },
+  {
+    "id": "aceite-esencial-limon",
+    "nombre": "Óleo Essencial de Limão Siciliano",
+    "sinonimos": ["Essência de limão", "Óleo de casca de limão siciliano"],
+    "descripcion": "Óleo essencial cítrico obtido da casca do limão siciliano, de aroma limpo e luminoso associado universalmente à limpeza. É empregado como aromatizante em produtos de limpeza doméstica e institucional e como flavorizante em alimentos e bebidas conforme a regulamentação aplicável. Seu teor natural de limoneno confere poder desengraxante aos limpadores.",
+    "funciones": ["Agente aromático", "Contribuição desengraxante em limpadores", "Flavorizante conforme a regulamentação"],
+    "aplicaciones": ["Detergentes lava-louças e limpadores", "Detergentes", "Bebidas e alimentos conforme a regulamentação", "Sabonetes"],
+    "formas_referenciales": ["Líquido — tom de amarelo-pálido a esverdeado, perfil aromático variável conforme a origem e o lote"]
+  },
+  {
+    "id": "aceite-esencial-arbol-te",
+    "nombre": "Óleo Essencial de Melaleuca",
+    "sinonimos": ["Tea tree oil", "Óleo de árvore-do-chá"],
+    "descripcion": "Óleo essencial de folhas de melaleuca, tradicionalmente associado ao cuidado de peles com imperfeições e couros cabeludos com caspa visível. Incorpora-se em géis, shampoos, sabonetes e produtos de higiene para pets, sempre nas doses de uso recomendadas. Um dos óleos essenciais de maior giro em cosmética funcional.",
+    "funciones": ["Extrato botânico purificante", "Agente aromático"],
+    "aplicaciones": ["Géis e sabonetes purificantes", "Shampoos anticaspa cosméticos", "Produtos de higiene para pets", "Desodorantes"],
+    "formas_referenciales": ["Líquido — incolor a amarelo-pálido, perfil aromático variável conforme a origem e o lote"]
+  },
+  {
+    "id": "hidrolato-rosas",
+    "nombre": "Hidrolato de Rosas",
+    "sinonimos": ["Água de rosas", "Água floral de rosas"],
+    "descripcion": "Água floral obtida durante a destilação de pétalas de rosa, com um aroma delicado e um caráter tonificante suave. Pode substituir parcial ou totalmente a água da fórmula em tônicos, brumas e emulsões leves. Confere um posicionamento botânico romântico e de tradição no cuidado facial.",
+    "funciones": ["Tonificante suave", "Base aquosa aromática"],
+    "aplicaciones": ["Tônicos e brumas faciais", "Águas micelares", "Emulsões leves", "Máscaras"],
+    "formas_referenciales": ["Líquido aquoso — incolor, intensidade aromática variável conforme a destilação, a origem e o lote"]
+  },
+  {
+    "id": "exfoliante-cascara-nuez",
+    "nombre": "Pó Esfoliante de Casca de Noz",
+    "sinonimos": ["Casca de noz micronizada", "Esfoliante de noz"],
+    "descripcion": "Pó obtido da moagem de cascas de noz, utilizado como esfoliante mecânico de origem natural em sabonetes, géis de banho e esfoliantes corporais. É uma alternativa de origem natural às microesferas plásticas, alinhada às tendências regulatórias e de mercado. Também é empregado em sabonetes desengraxantes de uso industrial.",
+    "funciones": ["Esfoliante mecânico natural", "Alternativa de origem natural às microesferas plásticas"],
+    "aplicaciones": ["Esfoliantes corporais e faciais", "Sabonetes esfoliantes", "Géis de banho", "Sabonetes industriais para as mãos"],
+    "formas_referenciales": ["Sólido — pó ou granulado, granulometria variável conforme o fabricante e o lote"]
+  }
+]

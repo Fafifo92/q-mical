@@ -1,0 +1,100 @@
+{
+  "lineas": {
+    "cosmetica": {
+      "nombre": "化妆品与个人护理",
+      "corto": "化妆品",
+      "tagline": "面向护肤与洗护发的功效活性物、乳化剂、保湿剂与防腐体系。"
+    },
+    "maquillaje": {
+      "nombre": "彩妆与色彩",
+      "corto": "彩妆",
+      "tagline": "用于彩妆的颜料、云母、质构填充剂与蜡类。"
+    },
+    "aseo": {
+      "nombre": "清洁与消毒",
+      "corto": "清洁",
+      "tagline": "面向家用与机构清洁的表面活性剂、杀菌剂、碱类与酶制剂。"
+    },
+    "alimentos": {
+      "nombre": "食品与饮料",
+      "corto": "食品",
+      "tagline": "食品级水胶体、酸化剂、防腐剂与甜味剂。"
+    },
+    "agro": {
+      "nombre": "农业与植物营养",
+      "corto": "农业",
+      "tagline": "水溶性肥料、螯合物、生物刺激素与助剂。"
+    },
+    "veterinaria": {
+      "nombre": "兽用与动物营养",
+      "corto": "兽用",
+      "tagline": "用于预混料的维生素、微量矿物元素、氨基酸与添加剂。"
+    },
+    "extractos": {
+      "nombre": "提取物与天然原料",
+      "corto": "提取物",
+      "tagline": "植物提取物、植物油、植物脂与精油——源自拉美。"
+    },
+    "industrial": {
+      "nombre": "工业与工艺",
+      "corto": "工业",
+      "tagline": "水处理、涂料、溶剂与工艺助剂。"
+    }
+  },
+  "especialidades": {
+    "activos": "功效活性物",
+    "aceites-vegetales": "植物油",
+    "mantecas-ceras": "植物脂与蜡",
+    "emolientes": "润肤剂",
+    "emulsificantes": "乳化剂",
+    "tensoactivos": "表面活性剂",
+    "humectantes": "保湿剂",
+    "espesantes-reologia": "增稠剂与流变",
+    "conservantes": "防腐剂",
+    "antioxidantes": "抗氧化剂",
+    "filtros-uv": "防晒剂",
+    "pigmentos-colorantes": "颜料与色素",
+    "nacarantes-efectos": "珠光与效果颜料",
+    "acondicionadores": "调理剂",
+    "proteinas-aminoacidos": "蛋白质与氨基酸",
+    "vitaminas": "维生素",
+    "exfoliantes": "去角质剂",
+    "siliconas-alternativas": "硅油与替代品",
+    "polimeros": "功能高分子",
+    "quelantes": "螯合剂",
+    "solventes": "溶剂与载体",
+    "acidulantes-ph": "酸化剂与pH调节",
+    "edulcorantes": "甜味剂",
+    "gomas-hidrocoloides": "胶体与水胶体",
+    "enzimas": "酶制剂",
+    "biocidas-desinfectantes": "杀菌剂与消毒剂",
+    "desengrasantes": "除油剂",
+    "dispersantes-antiespumantes": "分散剂与消泡剂",
+    "nutricion-vegetal": "植物营养",
+    "adyuvantes-agricolas": "农用助剂",
+    "premezclas-veterinarias": "兽用预混料",
+    "extractos-botanicos": "植物提取物"
+  },
+  "sectores": {
+    "cosmetica-personal": "化妆品与个人护理",
+    "maquillaje-color": "彩妆与色彩",
+    "aseo-hogar": "家用清洁",
+    "institucional-industrial": "机构与工业",
+    "alimentos": "食品",
+    "bebidas": "饮料",
+    "nutraceutico": "营养保健品",
+    "veterinaria": "兽用与动物营养",
+    "agricola": "农业",
+    "pinturas-recubrimientos": "涂料与涂层",
+    "textil": "纺织",
+    "tratamiento-aguas": "水处理"
+  },
+  "origenes": {
+    "Vegetal": "植物源",
+    "Sintético": "合成",
+    "Mineral": "矿物源",
+    "Biotecnológico": "生物技术源",
+    "Animal": "动物源",
+    "Mixto": "混合来源"
+  }
+}

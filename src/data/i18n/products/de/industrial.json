@@ -1,0 +1,236 @@
+[
+  {
+    "id": "policloruro-de-aluminio",
+    "nombre": "Polyaluminiumchlorid",
+    "sinonimos": ["PAC", "Polyaluminiumhydroxychlorid", "Aluminiumhydroxidchlorid"],
+    "descripcion": "Hochwirksames anorganisches Koagulationsmittel für die Klärung von Trinkwasser, Abwasser und Industriewasser. Es fördert die Destabilisierung von Kolloiden und die Flockenbildung bei geringerem Alkalinitätsverbrauch als konventionelle Koagulationsmittel, was mit geringeren Schlammmengen einhergeht. Die Leistung wird mittels Jar-Tests entsprechend der Qualität des zu behandelnden Wassers angepasst.",
+    "funciones": ["Primäres Koagulationsmittel", "Klärmittel", "Trübungsminderer"],
+    "aplicaciones": ["Trinkwasseraufbereitung", "Behandlung industrieller Abwässer", "Kommunale Kläranlagen", "Klärung in der Papierindustrie"],
+    "formas_referenciales": ["Fest — Pulver oder Granulat, je nach Hersteller und Charge", "Flüssig — wässrige Lösung, je nach Verfügbarkeit der Charge"]
+  },
+  {
+    "id": "sulfato-de-aluminio",
+    "nombre": "Aluminiumsulfat",
+    "sinonimos": ["Schwefelsaure Tonerde", "Technischer Alaun"],
+    "descripcion": "Traditionelles anorganisches Koagulationsmittel für die Klärung von Wässern und Abwässern. Es fördert die Agglomeration suspendierter Partikel und Kolloide für die anschließende Sedimentation oder Filtration. Aufgrund seines Kosten-Leistungs-Verhältnisses gehört es zu den Rohstoffen mit dem höchsten Umschlag in Aufbereitungsanlagen.",
+    "funciones": ["Koagulationsmittel", "Klärmittel", "Alkalinitätseinstellung"],
+    "aplicaciones": ["Trinkwasseraufbereitung", "Behandlung industrieller Abwässer", "Leimung in der Papierindustrie", "Klärung von Schwimmbädern"],
+    "formas_referenciales": ["Fest — Granulat, Brocken oder Pulver, je nach Hersteller und Charge", "Flüssig — wässrige Lösung, je nach Verfügbarkeit der Charge"]
+  },
+  {
+    "id": "poliacrilamida-anionica",
+    "nombre": "Anionisches Polyacrylamid",
+    "sinonimos": ["Anionisches PAM", "Anionisches Flockungsmittel"],
+    "descripcion": "Polymeres Flockungsmittel mit hohem Molekulargewicht und anionischer Ladung, eingesetzt als Koagulationshilfsmittel bei der Fest-Flüssig-Trennung. Es beschleunigt die Sedimentation der Flocken und verbessert in Kombination mit anorganischen Koagulationsmitteln die Klarheit des behandelten Wassers. Die Auswahl des Typs erfolgt durch Versuche je nach Art der zu entfernenden Feststoffe.",
+    "funciones": ["Flockungsmittel", "Sedimentationshilfsmittel", "Schlammkonditionierer"],
+    "aplicaciones": ["Klärung von Roh- und Abwässern", "Eindickung und Entwässerung von Schlämmen", "Trennprozesse im Bergbau", "Retention in der Papierindustrie"],
+    "formas_referenciales": ["Fest — Pulver oder Mikroperlen, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "poliacrilamida-cationica",
+    "nombre": "Kationisches Polyacrylamid",
+    "sinonimos": ["Kationisches PAM", "Kationisches Flockungsmittel"],
+    "descripcion": "Polymeres Flockungsmittel mit kationischer Ladung, das insbesondere bei der Konditionierung und Entwässerung organischer Schlämme eingesetzt wird. Es neutralisiert die Oberflächenladungen biologischer Feststoffe und begünstigt die Bildung scherstabiler Flocken in Filterpressen, Zentrifugen und Bandfiltern. Die Dosierung erfolgt in vor Ort angesetzter, verdünnter Lösung.",
+    "funciones": ["Flockungsmittel", "Schlammkonditionierer", "Entwässerungshilfsmittel"],
+    "aplicaciones": ["Entwässerung biologischer Schlämme", "Kläranlagen", "Abwässer der Lebensmittelindustrie", "Klärung organisch belasteter Wässer"],
+    "formas_referenciales": ["Fest — Pulver oder Mikroperlen, je nach Hersteller und Charge", "Flüssig — Emulsion, je nach Verfügbarkeit der Charge"]
+  },
+  {
+    "id": "antiescalante-osmosis-inversa",
+    "nombre": "Antiscalant für Umkehrosmose",
+    "sinonimos": ["Härtestabilisator", "Scale-Inhibitor"],
+    "descripcion": "Formulierung auf Basis von Phosphonaten und dispergierenden Polymeren zur Hemmung der Bildung mineralischer Ablagerungen auf Umkehrosmose-Membranen und Wärmetauschern. Sie trägt dazu bei, die Betriebszyklen zwischen den Reinigungen zu verlängern und die Lebensdauer der Membranen zu schützen. Die Dosierung wird anhand der Analyse des Speisewassers festgelegt.",
+    "funciones": ["Inhibitor gegen Ablagerungen", "Salzdispergiermittel", "Membranschutzmittel"],
+    "aplicaciones": ["Umkehrosmoseanlagen", "Kühltürme", "Kessel und Wasserkreisläufe", "Entsalzungsanlagen"],
+    "formas_referenciales": ["Flüssig — wässrige Lösung, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "hipoclorito-de-calcio",
+    "nombre": "Calciumhypochlorit",
+    "sinonimos": ["Kalziumhypochlorit"],
+    "descripcion": "Feste Quelle für verfügbares Chlor zur Desinfektion von Wasser und Oberflächen. Es bietet eine höhere Lagerstabilität als flüssige Chlorlösungen, was es für abgelegene Anlagen und Schwimmbäder praktisch macht. Die Anwendung im Kontakt mit Lebensmitteln oder Trinkwasser muss gemäß den geltenden Vorschriften erfolgen.",
+    "funciones": ["Desinfektionsmittel", "Chlorquelle", "Oxidationsmittel"],
+    "aplicaciones": ["Trinkwasserdesinfektion", "Schwimmbadbehandlung", "Oberflächendesinfektion in Lebensmittelbetrieben", "Stoßchlorung in Leitungsnetzen"],
+    "formas_referenciales": ["Fest — Granulat, Pulver oder Tabletten, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "bisulfito-de-sodio",
+    "nombre": "Natriumbisulfit",
+    "sinonimos": ["Natriumhydrogensulfit"],
+    "descripcion": "Reduktionsmittel, das als Entfärbungsmittel und zur Entfernung von Restchlor aus Wässern vor Umkehrosmose-Membranen eingesetzt wird. Es dient außerdem als Sauerstoffbinder in Kesselkreisläufen und als reduzierendes Hilfsmittel in Textilprozessen. In Lebensmittelanwendungen erfolgt der Einsatz gemäß den geltenden Vorschriften.",
+    "funciones": ["Reduktionsmittel", "Entfärbungsmittel", "Sauerstoffbinder", "Chlorneutralisator"],
+    "aplicaciones": ["Entchlorung vor der Umkehrosmose", "Konditionierung von Kesselspeisewasser", "Färbe- und Bleichprozesse in der Textilindustrie", "Vorschriftskonforme Konservierung in Lebensmitteln"],
+    "formas_referenciales": ["Fest — Pulver oder Granulat, je nach Hersteller und Charge", "Flüssig — wässrige Lösung, je nach Verfügbarkeit der Charge"]
+  },
+  {
+    "id": "cloruro-ferrico",
+    "nombre": "Eisen(III)-chlorid",
+    "sinonimos": ["Eisentrichlorid", "Eisenchlorid"],
+    "descripcion": "Anorganisches Koagulationsmittel auf Eisenbasis mit hohem Vermögen zur Destabilisierung von Kolloiden und zur Phosphorentfernung aus Abwässern. Es wird auch zur Kontrolle von Sulfiden und Gerüchen in Kanalisationsnetzen eingesetzt. Die Dosierung wird mittels Jar-Tests je nach zu behandelndem Abwasser optimiert.",
+    "funciones": ["Koagulationsmittel", "Phosphorentferner", "Sulfidkontrolle"],
+    "aplicaciones": ["Behandlung kommunaler und industrieller Abwässer", "Phosphorentfernung aus Abwässern", "Geruchskontrolle in der Kanalisation", "Ätzen von Leiterplatten in der Elektronik"],
+    "formas_referenciales": ["Flüssig — wässrige Lösung, je nach Hersteller und Charge", "Fest — Kristalle oder Brocken, je nach Verfügbarkeit der Charge"]
+  },
+  {
+    "id": "hexametafosfato-de-sodio",
+    "nombre": "Natriumhexametaphosphat",
+    "sinonimos": ["SHMP", "Grahamsches Salz"],
+    "descripcion": "Polyphosphat mit sequestrierenden und dispergierenden Eigenschaften zur Kontrolle von Härte und Ablagerungen in Wassersystemen. Es wirkt als Verflüssiger in mineralischen Suspensionen und als Stabilisator in verschiedenen industriellen Formulierungen. In Lebensmittelanwendungen erfolgt der Einsatz gemäß den geltenden Vorschriften.",
+    "funciones": ["Härtesequestriermittel", "Dispergiermittel", "Inhibitor gegen Ablagerungen"],
+    "aplicaciones": ["Konditionierung von Industriewässern", "Verflüssiger in keramischen Massen", "Formulierung industrieller Reinigungsmittel", "Vorschriftskonformer Zusatzstoff in Lebensmitteln"],
+    "formas_referenciales": ["Fest — Pulver, Granulat oder Plättchen, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "hidroxietilcelulosa",
+    "nombre": "Hydroxyethylcellulose",
+    "sinonimos": ["HEC"],
+    "descripcion": "Nichtionisches, wasserlösliches Celluloseverdickungsmittel, Standard in wasserbasierten Bautenfarben zur Viskositätskontrolle, Wasserretention und Lagerstabilität. Es sorgt für einen guten Verlauf und geringe Spritzneigung während der Applikation. Darüber hinaus dient es als Rheologiemodifizierer in Gelen und Körperpflegeprodukten.",
+    "funciones": ["Verdickungsmittel", "Rheologiemodifizierer", "Wasserrückhaltemittel", "Stabilisator"],
+    "aplicaciones": ["Wasserbasierte Farben und Beschichtungen", "Klebstoffe und modifizierte Mörtel", "Gele und Shampoos", "Bohrspülungen"],
+    "formas_referenciales": ["Fest — Pulver, variable Korngrößenverteilung je nach Hersteller und Charge"]
+  },
+  {
+    "id": "poliacrilato-de-sodio",
+    "nombre": "Natriumpolyacrylat",
+    "sinonimos": ["Acrylat-Dispergiermittel", "Natriumsalz der Polyacrylsäure"],
+    "descripcion": "Acrylpolymer mit niedrigem Molekulargewicht, eingesetzt als Dispergiermittel für Pigmente und mineralische Füllstoffe in wasserbasierten Farben. Es senkt die Viskosität beim Anreiben und verbessert die Stabilität der Dispersion, was mit einer besseren Farbentwicklung und geringerer Sedimentation einhergeht. Es wirkt außerdem als Inhibitor gegen Ablagerungen in Wasserkreisläufen.",
+    "funciones": ["Pigmentdispergiermittel", "Senkung der Anreibviskosität", "Inhibitor gegen Ablagerungen"],
+    "aplicaciones": ["Wasserbasierte Farben und Beschichtungen", "Vermahlung von Calciumcarbonat und Kaolin", "Kühlwasserbehandlung", "Formulierung flüssiger Waschmittel"],
+    "formas_referenciales": ["Flüssig — wässrige Lösung, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "antiespumante-base-aceite-mineral",
+    "nombre": "Entschäumer auf Mineralölbasis",
+    "sinonimos": ["Mineralöl-Entschäumer", "Antischaummittel auf Ölbasis"],
+    "descripcion": "Entschäumerformulierung auf Mineralölbasis mit hydrophoben Partikeln, entwickelt für die Schaumkontrolle bei der Herstellung und Applikation wasserbasierter Farben. Sie wirkt sowohl in der Anreibephase als auch bei der Abfüllung und trägt dazu bei, Filmdefekte wie Krater und Mikroblasen zu reduzieren. Es wird empfohlen, die Verträglichkeit in jeder Formulierung zu prüfen.",
+    "funciones": ["Entschäumer", "Entlüfter"],
+    "aplicaciones": ["Wasserbasierte Farben und Beschichtungen", "Klebstoffe und Dichtstoffe", "Herstellungsprozesse von Emulsionen", "Wasserbasierte Druckfarben"],
+    "formas_referenciales": ["Flüssig — opake Flüssigkeit, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "coalescente-ester-alcohol",
+    "nombre": "Koaleszenzmittel auf Esteralkohol-Basis",
+    "sinonimos": ["TMPD-Monoisobutyrat", "2,2,4-Trimethyl-1,3-pentandiol-monoisobutyrat"],
+    "descripcion": "Langsam verdunstendes Koaleszenzmittel für wasserbasierte Bautenfarben zur Unterstützung der Filmbildung bei niedrigen Temperaturen. Es plastifiziert vorübergehend die Partikel der Emulsion und verbessert so die Integrität des Films, den Glanz und die Scheuerbeständigkeit. Dank seiner Effizienz sind in den meisten Acryl- und Vinylsystemen moderate Dosierungen möglich.",
+    "funciones": ["Koaleszenzmittel", "Filmbildehilfsmittel"],
+    "aplicaciones": ["Wasserbasierte Bautenfarben", "Wasserbasierte Industriebeschichtungen", "Wässrige Druckfarben und Lacke", "Acryl-Dichtstoffe"],
+    "formas_referenciales": ["Flüssig — je nach Hersteller und Charge"]
+  },
+  {
+    "id": "carbonato-de-calcio",
+    "nombre": "Calciumcarbonat",
+    "sinonimos": ["Gemahlener Calcit", "Kreide", "Kohlensaurer Kalk"],
+    "descripcion": "Weit verbreiteter mineralischer Füllstoff, eingesetzt als Pigmentextender in Farben, Spachtelmassen und Kunststoffen. Er verleiht der Formulierung Körper und Trockendeckvermögen und dient der Kostensteuerung. Die verfügbare Korngrößenverteilung variiert je nach Hersteller und wird im technischen Datenblatt (TDS) der Charge bestätigt.",
+    "funciones": ["Mineralischer Füllstoff", "Pigmentextender", "Regulierung der Bodenazidität"],
+    "aplicaciones": ["Farben und Spachtelmassen", "Kunststoffe und Kautschuke", "Bodenverbesserung in der Landwirtschaft", "Vorschriftskonformer Zusatzstoff in Lebensmitteln"],
+    "formas_referenciales": ["Fest — Pulver, variable Korngrößenverteilung je nach Hersteller und Charge"]
+  },
+  {
+    "id": "alcohol-isopropilico",
+    "nombre": "Isopropanol",
+    "sinonimos": ["IPA", "Isopropylalkohol", "2-Propanol"],
+    "descripcion": "Schnell verdunstendes polares Lösemittel, weit verbreitet in der Oberflächenreinigung, der Elektronik und in industriellen Prozessen. Aufgrund seiner Mischbarkeit mit Wasser und seiner geringen Rückstandsbildung ist es Basis von Desinfektionsformulierungen und Produkten zur Gerätereinigung. Es wird außerdem als Verdünner in Druckfarben und Beschichtungen eingesetzt.",
+    "funciones": ["Lösemittel", "Reinigungsmittel", "Formulierungsträger"],
+    "aplicaciones": ["Reinigung von Geräten und Elektronik", "Formulierung von Desinfektionsmitteln und Gelen", "Verdünner für Druckfarben und Lacke", "Extraktion und chemische Prozesse"],
+    "formas_referenciales": ["Flüssig — je nach Hersteller und Charge"]
+  },
+  {
+    "id": "acetato-de-etilo",
+    "nombre": "Ethylacetat",
+    "sinonimos": ["Essigsäureethylester", "Essigester"],
+    "descripcion": "Schnell verdunstendes Esterlösemittel mit hohem Lösevermögen für Harze, Druckfarben und Klebstoffe. Es ist ein Standardbestandteil von Verdünnern für Nitrocelluloselacke sowie für Flexo- und Tiefdruckfarben. Der Umgang unterliegt den in Kolumbien geltenden Kontrollen für überwachte Substanzen.",
+    "funciones": ["Aktives Lösemittel", "Verdünner"],
+    "aplicaciones": ["Nitrocelluloselacke und -firnisse", "Druckfarben", "Klebstoffe und Kontaktkleber", "Industrielle Extraktionsprozesse"],
+    "formas_referenciales": ["Flüssig — je nach Hersteller und Charge"]
+  },
+  {
+    "id": "acetato-de-butilo",
+    "nombre": "Butylacetat",
+    "sinonimos": ["n-Butylacetat", "Essigsäure-n-butylester"],
+    "descripcion": "Esterlösemittel mit mittlerer Verdunstungsgeschwindigkeit, in Beschichtungen geschätzt, da es den Verlauf verbessert und das feuchtigkeitsbedingte Weißanlaufen von Lacken verringert. Es löst effizient Nitrocellulose-, Acryl- und Polyurethanharze. Üblicher Bestandteil von Verdünnern für Holzlacke und die Autoreparaturlackierung.",
+    "funciones": ["Aktives Lösemittel", "Trocknungsregulierer"],
+    "aplicaciones": ["Holzlacke", "Polyurethanbeschichtungen", "Verdünner für die Autoreparaturlackierung", "Druckfarben und Klebstoffe"],
+    "formas_referenciales": ["Flüssig — je nach Hersteller und Charge"]
+  },
+  {
+    "id": "monoetilenglicol",
+    "nombre": "Monoethylenglykol",
+    "sinonimos": ["MEG", "Ethylenglykol"],
+    "descripcion": "Industrieglykol, eingesetzt als Basis für Kühl- und Frostschutzflüssigkeiten sowie als Zwischenprodukt bei der Herstellung von Polyesterharzen. In wasserbasierten Farben wirkt es als Hilfsmittel für die Stabilität gegenüber Frost-Tau-Zyklen. Es ist nicht für Anwendungen mit Lebensmittelkontakt oder für die Körperpflege geeignet.",
+    "funciones": ["Basis für Kühlmittel", "Synthesezwischenprodukt", "Frost-Tau-Stabilisator"],
+    "aplicaciones": ["Kühl- und Frostschutzflüssigkeiten", "Polyesterharze und -fasern", "Wasserbasierte Farben", "Wärmeträgerflüssigkeiten"],
+    "formas_referenciales": ["Flüssig — je nach Hersteller und Charge"]
+  },
+  {
+    "id": "propilenglicol",
+    "nombre": "Propylenglykol",
+    "sinonimos": ["MPG", "1,2-Propandiol", "Monopropylenglykol"],
+    "descripcion": "Vielseitiges Glykol, eingesetzt als Lösemittel, Feuchthaltemittel und Träger in zahlreichen Industrien. Im Industriesegment dient es als Basis für Wärmeträgerflüssigkeiten mit geringer Toxizität und als Zwischenprodukt für Harze; die für Lebensmittel und Körperpflege geeigneten Qualitäten werden gemäß den geltenden Vorschriften eingesetzt. Sein Sicherheitsprofil macht es in sensiblen Anwendungen gegenüber anderen Glykolen zur bevorzugten Wahl.",
+    "funciones": ["Feuchthaltemittel", "Lösemittel", "Formulierungsträger", "Wärmeträgerflüssigkeit"],
+    "aplicaciones": ["Wärmeträgerflüssigkeiten", "Kosmetik- und Reinigungsformulierungen", "Träger in veterinären Vormischungen", "Ungesättigte Polyesterharze"],
+    "formas_referenciales": ["Flüssig — je nach Hersteller und Charge"]
+  },
+  {
+    "id": "dietilenglicol",
+    "nombre": "Diethylenglykol",
+    "sinonimos": ["DEG"],
+    "descripcion": "Glykol mit höherem Siedepunkt, eingesetzt als langsam trocknendes Lösemittel, Weichmacher und Netzmittel in rein industriellen Anwendungen. Es wird bei der Herstellung von Harzen, Druckfarben und Textilhilfsmitteln sowie zur Gastrocknung in der Erdölindustrie verwendet. Es darf nicht für Lebensmittel-, Pharma- oder Körperpflegeanwendungen bestimmt werden.",
+    "funciones": ["Langsam trocknendes Lösemittel", "Industrielles Feuchthaltemittel", "Synthesezwischenprodukt"],
+    "aplicaciones": ["Polyesterharze und Weichmacher", "Druckfarben und Textildruckpasten", "Erdgastrocknung", "Industrieflüssigkeiten"],
+    "formas_referenciales": ["Flüssig — je nach Hersteller und Charge"]
+  },
+  {
+    "id": "butilglicol",
+    "nombre": "Butylglykol",
+    "sinonimos": ["2-Butoxyethanol", "Ethylenglykolmonobutylether", "BG"],
+    "descripcion": "Glykolether mit hervorragendem Kopplungsvermögen zwischen Wasser und organischen Lösemitteln. Er ist ein klassischer Bestandteil konzentrierter Entfetter und Allzweckreiniger und wirkt in wasserbasierten Farben als langsam verdunstendes Lösemittel, das die Filmbildung verbessert. Seine doppelte Affinität macht ihn in industriellen Reinigungsformulierungen sehr effizient.",
+    "funciones": ["Kopplungslösemittel", "Entfetter", "Filmbildehilfsmittel"],
+    "aplicaciones": ["Industrielle Reiniger und Entfetter", "Wasserbasierte Farben und Beschichtungen", "Druckfarben", "Entferner für hartnäckige Verschmutzungen"],
+    "formas_referenciales": ["Flüssig — je nach Hersteller und Charge"]
+  },
+  {
+    "id": "dioctil-sulfosuccinato-de-sodio",
+    "nombre": "Natriumdioctylsulfosuccinat",
+    "sinonimos": ["Docusat-Natrium", "DOSS"],
+    "descripcion": "Anionisches Tensid mit hohem Netzvermögen und niedriger Oberflächenspannung, eingesetzt als Schnellnetzmittel in textilen Vorbehandlungs- und Färbeprozessen. Es erleichtert das gleichmäßige Eindringen wässriger Flotten in schwer benetzbare Substrate. Es wird außerdem als Netzmittel in Agrarformulierungen und industriellen Dispersionen eingesetzt.",
+    "funciones": ["Schnellnetzmittel", "Anionisches Tensid", "Penetrationshilfsmittel"],
+    "aplicaciones": ["Textile Vorbehandlung und Färbung", "Landwirtschaftliche Adjuvantien", "Pigmentdispersionen", "Industriereiniger"],
+    "formas_referenciales": ["Flüssig — Lösung, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "emulsion-de-amino-silicona",
+    "nombre": "Aminosilikon-Emulsion",
+    "sinonimos": ["Silikonweichmacher für Textilien", "Aminofunktionelle Silikon-Mikroemulsion"],
+    "descripcion": "Silikonemulsion mit aminofunktionellen Gruppen, eingesetzt als Weichmacher in der Textilausrüstung. Sie verleiht einen weichen, seidigen Griff, verbessert die Elastizität des Gewebes und erleichtert das Nähen und Bügeln. Die Applikation erfolgt je nach Substrat im Ausziehverfahren oder durch Imprägnierung in der Ausrüstungsstufe.",
+    "funciones": ["Textilweichmacher", "Griffmittel", "Ausrüstungshilfsmittel"],
+    "aplicaciones": ["Ausrüstung von Baumwollgeweben und Mischgeweben", "Weichmachen von Textilien in Industriewäschereien", "Ausrüstung von Garnen und Fasern", "Heimtextilien"],
+    "formas_referenciales": ["Flüssig — Emulsion, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "antiespumante-de-silicona",
+    "nombre": "Silikonentschäumer",
+    "sinonimos": ["Silikon-Antischaummittel", "Silikonentschäumer-Emulsion"],
+    "descripcion": "Formulierung auf Basis von Polydimethylsiloxan und hydrophober Kieselsäure zur Schaumkontrolle in wässrigen Prozessen. Sie wirkt bereits in geringen Dosierungen, zerstört vorhandenen Schaum und verhindert dessen Neubildung, mit guter Persistenz in intensiv gerührten Systemen. Die Verträglichkeit mit Temperatur und pH-Wert des Prozesses wird in jeder Anwendung überprüft.",
+    "funciones": ["Entschäumer", "Entlüfter", "Schaumkontrolle im Prozess"],
+    "aplicaciones": ["Kläranlagen", "Industrielle Fermentationsprozesse", "Färben und Waschen von Textilien", "Herstellung von Waschmitteln und Farben"],
+    "formas_referenciales": ["Flüssig — Emulsion oder Compound, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "acido-sulfamico",
+    "nombre": "Amidosulfonsäure",
+    "sinonimos": ["Sulfaminsäure", "Amidoschwefelsäure"],
+    "descripcion": "Feste Säure mit sichererer Handhabung als flüssige Mineralsäuren, eingesetzt als Entkalker zur Entfernung von Kesselstein, Oxiden und kalkhaltigen Ablagerungen an Geräten und Anlagen. Sie ist die Basis saurer Reiniger für Kessel, Wärmetauscher, Rohrschlangen und Sanitäroberflächen. Ihre kontrollierte Wirkung verringert im Vergleich zu anderen starken Säuren das Risiko eines übermäßigen Angriffs auf Metalle.",
+    "funciones": ["Entkalker", "Säuerungsmittel", "Reiniger für kalkhaltige Ablagerungen"],
+    "aplicaciones": ["Chemische Reinigung von Kesseln und Wärmetauschern", "Sanitär-Entkalker", "Gerätereinigung in der Getränkeindustrie", "Formulierung saurer Reiniger"],
+    "formas_referenciales": ["Fest — Pulver oder Kristalle, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "carbonato-de-sodio",
+    "nombre": "Natriumcarbonat",
+    "sinonimos": ["Soda", "Calcinierte Soda", "Waschsoda"],
+    "descripcion": "Allzweckalkali zur Anhebung und Einstellung des pH-Werts in industriellen Prozessen und in der Wasseraufbereitung. In der Textilindustrie ist es ein klassisches Fixierhilfsmittel beim Färben mit Reaktivfarbstoffen, in der Waschmittelindustrie wirkt es als Alkalinitätsbuilder. Seine Vielseitigkeit macht es in zahlreichen Industrien zu einem Grundbestandteil des Lagerbestands.",
+    "funciones": ["pH-Regulator", "Prozessalkali", "Waschmittelbuilder"],
+    "aplicaciones": ["pH-Einstellung in Wässern und Abwässern", "Textilfärbung mit Reaktivfarbstoffen", "Formulierung von Pulverwaschmitteln", "Herstellung von Glas und Silikaten"],
+    "formas_referenciales": ["Fest — Pulver oder Granulat, je nach Hersteller und Charge"]
+  }
+]

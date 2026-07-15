@@ -1,0 +1,12 @@
+---
+import Producto from "../../paginas/Producto.astro";
+import { getCatalogo } from "../../lib/catalog";
+
+export function getStaticPaths() {
+  return getCatalogo("es").productos.map((p) => ({ params: { slug: p.id }, props: { producto: p } }));
+}
+
+const { producto } = Astro.props;
+---
+
+<Producto producto={producto} lang="es" />

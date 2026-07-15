@@ -1,0 +1,222 @@
+---
+import Icon from "./Icon.astro";
+import { waLink } from "../data/site";
+import { LOCALES, LOCALE_INFO, DEFAULT_LOCALE, rutaLocal, separarIdioma, type Locale } from "../i18n/config";
+import { t } from "../i18n";
+
+/**
+ * theme="dark"  → el header inicia transparente con texto blanco (para héroes oscuros)
+ * theme="light" → header blanco desde el inicio
+ */
+interface Props {
+  theme?: "dark" | "light";
+  lang?: Locale;
+}
+const { theme = "light", lang = DEFAULT_LOCALE } = Astro.props;
+const dict = t(lang);
+
+const nav = [
+  { href: "/", label: dict.nav.inicio },
+  { href: "/productos", label: dict.nav.catalogo },
+  { href: "/sectores", label: dict.nav.sectores },
+  { href: "/servicio-tecnico", label: dict.nav.servicio },
+  { href: "/nosotros", label: dict.nav.nosotros },
+  { href: "/pagos", label: dict.nav.pagos },
+];
+
+// Ruta actual SIN prefijo de idioma: sirve para marcar el activo y para que el
+// selector de idioma lleve a la MISMA página en el otro idioma.
+const { path: rutaActual } = separarIdioma(Astro.url.pathname);
+const path = rutaActual.replace(/\/$/, "") || "/";
+---
+
+<header
+  id="site-header"
+  data-theme={theme}
+  class="fixed inset-x-0 top-0 z-50 transition-all duration-300"
+>
+  <div class="container-site flex h-16 items-center justify-between gap-2 md:h-20">
+    <!-- Logo -->
+    <a href={rutaLocal(lang, "/")} class="group flex shrink-0 items-center gap-2.5" aria-label={dict.nav.inicioAria}>
+      <span
+        class="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-brand-600 to-brand-800 text-accent-300 shadow-md transition-transform duration-300 group-hover:rotate-6"
+      >
+        <Icon name="flask" class="h-5 w-5" strokeWidth={2} />
+      </span>
+      <span class="font-display text-xl font-bold tracking-tight text-current">
+        Q<span class="text-brand-600 [.theme-dark_&]:text-accent-300">'</span>mical
+      </span>
+    </a>
+
+    <!-- Nav escritorio -->
+    <nav class="hidden items-center gap-0.5 xl:flex" aria-label="Principal">
+      {
+        nav.map((item) => (
+          <a
+            href={rutaLocal(lang, item.href)}
+            class:list={[
+              "rounded-full px-3 py-2 text-sm font-medium whitespace-nowrap transition-colors duration-200 hover:bg-black/5 [.theme-dark_&]:hover:bg-white/10",
+              path === item.href ? "text-brand-600 [.theme-dark_&]:text-accent-300" : "opacity-85 hover:opacity-100",
+            ]}
+            aria-current={path === item.href ? "page" : undefined}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <div class="flex items-center gap-2">
+      <!-- Selector de idioma: lleva a la MISMA página en el idioma elegido -->
+      <details id="selector-idioma" class="group relative">
+        <summary
+          class="flex h-10 cursor-pointer list-none items-center gap-1.5 rounded-full border border-current/20 px-3 text-sm font-medium select-none [&::-webkit-details-marker]:hidden"
+          aria-label={dict.nav.idioma}
+        >
+          <Icon name="globe" class="h-4 w-4" />
+          <span class="uppercase">{lang}</span>
+          <Icon name="chevron-down" class="h-3.5 w-3.5 transition-transform duration-200 group-open:rotate-180" />
+        </summary>
+        <ul
+          class="absolute right-0 z-50 mt-2 w-44 overflow-hidden rounded-2xl border border-ink-100 bg-white/95 py-1.5 text-ink-800 shadow-xl backdrop-blur"
+          aria-label={dict.nav.idioma}
+        >
+          {
+            LOCALES.map((l) => (
+              <li>
+                <a
+                  href={rutaLocal(l, rutaActual)}
+                  class:list={[
+                    "flex items-center gap-2.5 px-4 py-2 text-sm transition-colors hover:bg-brand-50",
+                    l === lang && "bg-brand-50 font-semibold text-brand-700",
+                  ]}
+                  aria-current={l === lang ? "true" : undefined}
+                  data-astro-reload
+                >
+                  <span aria-hidden="true">{LOCALE_INFO[l].bandera}</span>
+                  {LOCALE_INFO[l].nombre}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </details>
+
+      <a
+        href={waLink(dict.meta.waBase)}
+        target="_blank"
+        rel="noopener"
+        class="btn-whatsapp hidden min-h-10 px-4 text-sm lg:inline-flex"
+      >
+        <Icon name="whatsapp" class="h-4 w-4" />
+        {dict.nav.whatsapp}
+      </a>
+      <a href={rutaLocal(lang, "/cotizacion")} class="btn-primary hidden min-h-10 px-5 text-sm md:inline-flex">
+        {dict.nav.cotizar}
+        <Icon name="arrow-right" class="h-4 w-4" />
+      </a>
+
+      <!-- Menú móvil -->
+      <button
+        id="menu-btn"
+        type="button"
+        class="grid h-10 w-10 shrink-0 place-items-center rounded-full border border-current/20 xl:hidden"
+        aria-label={dict.nav.abrirMenu}
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <Icon name="menu" class="h-5 w-5" />
+      </button>
+    </div>
+  </div>
+
+  <!-- Panel móvil -->
+  <div
+    id="mobile-menu"
+    class="pointer-events-none absolute inset-x-3 top-[4.5rem] origin-top scale-95 rounded-2xl border border-ink-100 bg-white/95 p-3 opacity-0 shadow-xl backdrop-blur transition-all duration-300 xl:hidden"
+  >
+    <nav class="flex flex-col" aria-label="Móvil">
+      {
+        nav.map((item) => (
+          <a
+            href={rutaLocal(lang, item.href)}
+            class:list={[
+              "rounded-xl px-4 py-3 text-base font-medium text-ink-800 hover:bg-brand-50",
+              path === item.href && "bg-brand-50 text-brand-700",
+            ]}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+    <div class="mt-2 flex gap-2 border-t border-ink-100 pt-3">
+      <a href={waLink(dict.meta.waBase)} target="_blank" rel="noopener" class="btn-whatsapp min-h-11 flex-1 px-4 text-sm">
+        <Icon name="whatsapp" class="h-4 w-4" /> {dict.nav.whatsapp}
+      </a>
+      <a href={rutaLocal(lang, "/cotizacion")} class="btn-primary min-h-11 flex-1 px-4 text-sm">{dict.nav.cotizar}</a>
+    </div>
+  </div>
+</header>
+
+<style>
+  /* Estado superior en héroes oscuros */
+  #site-header[data-theme="dark"]:not(.scrolled) {
+    color: white;
+  }
+  /* Estado con scroll (o tema claro): superficie blanca con blur */
+  #site-header.scrolled,
+  #site-header[data-theme="light"] {
+    color: var(--color-ink-900);
+    background: rgb(255 255 255 / 0.82);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--color-ink-100);
+  }
+  #site-header.scrolled {
+    box-shadow: 0 4px 24px -16px rgb(16 25 23 / 0.25);
+  }
+</style>
+
+<script>
+  function initHeader() {
+    const header = document.getElementById("site-header");
+    if (!header || header.dataset.init === "1") return;
+    header.dataset.init = "1";
+
+    if (header.dataset.theme === "dark") header.classList.add("theme-dark");
+
+    const onScroll = () => {
+      header.classList.toggle("scrolled", window.scrollY > 24);
+      if (header.dataset.theme === "dark")
+        header.classList.toggle("theme-dark", window.scrollY <= 24);
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+
+    const btn = document.getElementById("menu-btn");
+    const menu = document.getElementById("mobile-menu");
+    btn?.addEventListener("click", () => {
+      const open = menu?.classList.toggle("menu-open");
+      btn.setAttribute("aria-expanded", String(!!open));
+      if (menu) {
+        menu.classList.toggle("pointer-events-none", !open);
+        menu.classList.toggle("opacity-0", !open);
+        menu.classList.toggle("scale-95", !open);
+        // El panel necesita superficie sólida aunque el header esté transparente
+        if (open && !header.classList.contains("scrolled")) header.classList.add("scrolled");
+      }
+    });
+
+    // El selector de idioma se cierra al hacer clic fuera o con Escape
+    const selector = document.getElementById("selector-idioma") as HTMLDetailsElement | null;
+    document.addEventListener("click", (e) => {
+      if (selector?.open && !selector.contains(e.target as Node)) selector.open = false;
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && selector?.open) selector.open = false;
+    });
+  }
+
+  document.addEventListener("astro:page-load", initHeader);
+  initHeader();
+</script>

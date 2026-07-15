@@ -1,0 +1,218 @@
+[
+  {
+    "id": "vitamina-a",
+    "nombre": "Vitamina A (Acetato de Retinila)",
+    "sinonimos": ["Acetato de retinila", "Retinil acetato", "Vitamina A acetato"],
+    "descripcion": "Vitamina lipossolúvel utilizada na formulação de pré-misturas e núcleos vitamínicos para nutrição animal. Fornece atividade de vitamina A associada à visão, ao crescimento e à integridade dos tecidos epiteliais, conforme a normativa aplicável. É incorporada em formas estabilizadas para proteger sua atividade contra a oxidação durante a mistura e o armazenamento.",
+    "funciones": ["Fonte de vitamina A", "Aditivo de pré-mistura vitamínica"],
+    "aplicaciones": ["Pré-misturas vitamínicas", "Núcleos e concentrados", "Ração balanceada para aves", "Ração para suínos", "Suplementos para bovinos"],
+    "formas_referenciales": ["Sólido - pó ou microgrânulos revestidos, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "vitamina-d3",
+    "nombre": "Vitamina D3 (Colecalciferol)",
+    "sinonimos": ["Colecalciferol", "Cholecalciferol"],
+    "descripcion": "Fonte de vitamina D3 empregada em pré-misturas e suplementos para nutrição animal. Está associada ao metabolismo do cálcio e do fósforo e à mineralização óssea, conforme a normativa aplicável. É manuseada em apresentações estabilizadas que facilitam sua dosagem e homogeneização na ração balanceada.",
+    "funciones": ["Fonte de vitamina D3", "Aditivo de pré-mistura vitamínica"],
+    "aplicaciones": ["Pré-misturas vitamínicas", "Ração para aves", "Ração para suínos", "Sais mineralizados para bovinos"],
+    "formas_referenciales": ["Sólido - pó ou microgrânulos estabilizados, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "vitamina-e",
+    "nombre": "Vitamina E (Acetato de DL-alfa-Tocoferol)",
+    "sinonimos": ["Acetato de alfa-tocoferila", "Acetato de tocoferol", "Vitamina E acetato"],
+    "descripcion": "Antioxidante lipossolúvel utilizado em pré-misturas para nutrição animal e como estabilizante de gorduras e vitaminas na ração. Está associado à função imune e à proteção das membranas celulares contra a oxidação, conforme a normativa aplicável. Também é empregado como antioxidante em formulações cosméticas e alimentícias.",
+    "funciones": ["Antioxidante", "Fonte de vitamina E", "Estabilizante de vitaminas e gorduras"],
+    "aplicaciones": ["Pré-misturas vitamínicas", "Núcleos para monogástricos", "Estabilização de gorduras em ração", "Suplementos nutracêuticos"],
+    "formas_referenciales": ["Líquido viscoso oleoso ou pó adsorvido sobre suporte, conforme a apresentação do fabricante e o lote"]
+  },
+  {
+    "id": "vitamina-k3",
+    "nombre": "Vitamina K3 (Menadiona)",
+    "sinonimos": ["Menadiona", "Bissulfito sódico de menadiona", "MSB"],
+    "descripcion": "Fonte de atividade de vitamina K empregada em pré-misturas e núcleos para nutrição animal. Está associada aos mecanismos de coagulação sanguínea, conforme a normativa aplicável. Apresenta-se como sal estabilizado para melhorar seu manuseio e sua compatibilidade dentro da mistura.",
+    "funciones": ["Fonte de vitamina K", "Aditivo de pré-mistura vitamínica"],
+    "aplicaciones": ["Pré-misturas vitamínicas", "Ração para aves", "Ração para suínos"],
+    "formas_referenciales": ["Sólido - pó cristalino, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "cloruro-de-colina",
+    "nombre": "Cloreto de Colina",
+    "sinonimos": ["Colina cloreto", "Cloreto de colina sobre suporte"],
+    "descripcion": "Nutriente utilizado em pré-misturas e rações balanceadas como fonte de colina para nutrição animal. Está associado ao metabolismo das gorduras, à função hepática e ao fornecimento de grupos metila, conforme a normativa aplicável. É oferecido em apresentação líquida ou suportada sobre um veículo para facilitar sua incorporação na mistura.",
+    "funciones": ["Fonte de colina", "Doador de grupos metila", "Aditivo nutricional"],
+    "aplicaciones": ["Ração balanceada para aves", "Ração para suínos", "Pré-misturas e núcleos", "Suplementos"],
+    "formas_referenciales": ["Líquido ou pó sobre suporte, conforme a apresentação do fabricante e o lote"]
+  },
+  {
+    "id": "betaina-anhidra",
+    "nombre": "Betaína Anidra",
+    "sinonimos": ["Trimetilglicina", "Betaína natural"],
+    "descripcion": "Composto osmólito e doador de grupos metila utilizado em formulações para nutrição animal. Está associado ao equilíbrio osmótico intestinal e à economia de outros doadores de metila na dieta, conforme a normativa aplicável. Em cuidado pessoal, é empregado como agente umectante de origem natural.",
+    "funciones": ["Osmólito", "Doador de grupos metila", "Umectante"],
+    "aplicaciones": ["Ração para aves", "Dietas para aquicultura", "Pré-misturas", "Formulações umectantes de cuidado pessoal"],
+    "formas_referenciales": ["Sólido - pó ou granulado cristalino, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "sulfato-de-zinc-monohidratado",
+    "nombre": "Sulfato de Zinco Mono-hidratado",
+    "sinonimos": ["Sulfato de zinco mono-hidratado", "Zinco sulfato"],
+    "descripcion": "Fonte de zinco de boa disponibilidade utilizada em pré-misturas minerais para nutrição animal. O zinco está associado à função enzimática, à integridade da pele e ao sistema imune, conforme a normativa aplicável. Também é empregado como microelemento em formulações de nutrição vegetal.",
+    "funciones": ["Fonte de zinco", "Microelemento mineral"],
+    "aplicaciones": ["Pré-misturas minerais", "Sais mineralizados", "Ração balanceada", "Fertilizantes com microelementos"],
+    "formas_referenciales": ["Sólido - pó ou granulado, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "oxido-de-zinc",
+    "nombre": "Óxido de Zinco",
+    "sinonimos": ["Zinco óxido", "Flor de zinco"],
+    "descripcion": "Fonte concentrada de zinco utilizada em pré-misturas minerais para nutrição animal. Fornece zinco associado a processos enzimáticos e à saúde da pele e dos cascos, conforme a normativa aplicável. O óxido de zinco também é utilizado como ingrediente em formulações cosméticas e de proteção da pele.",
+    "funciones": ["Fonte de zinco", "Microelemento mineral"],
+    "aplicaciones": ["Pré-misturas minerais", "Ração para suínos", "Sais mineralizados", "Cremes e pomadas de cuidado da pele"],
+    "formas_referenciales": ["Sólido - pó, granulometria variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "sulfato-de-cobre",
+    "nombre": "Sulfato de Cobre Penta-hidratado",
+    "sinonimos": ["Sulfato cúprico", "Sulfato de cobre penta-hidratado", "Vitríolo azul"],
+    "descripcion": "Fonte de cobre utilizada em pré-misturas minerais para nutrição animal. O cobre está associado ao metabolismo do ferro, à pigmentação e à função enzimática, conforme a normativa aplicável. Fora da nutrição animal, é empregado em tratamento de águas e como microelemento agrícola.",
+    "funciones": ["Fonte de cobre", "Microelemento mineral"],
+    "aplicaciones": ["Pré-misturas minerais", "Sais mineralizados", "Tratamento de águas", "Microelementos agrícolas"],
+    "formas_referenciales": ["Sólido - cristais ou pó, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "sulfato-de-manganeso",
+    "nombre": "Sulfato de Manganês Mono-hidratado",
+    "sinonimos": ["Sulfato manganoso", "Manganês sulfato"],
+    "descripcion": "Fonte de manganês empregada em pré-misturas minerais para nutrição animal. O manganês está associado à formação óssea e a diversos sistemas enzimáticos, conforme a normativa aplicável. Também é utilizado como microelemento em programas de nutrição vegetal.",
+    "funciones": ["Fonte de manganês", "Microelemento mineral"],
+    "aplicaciones": ["Pré-misturas minerais", "Sais mineralizados", "Ração balanceada", "Fertilizantes com microelementos"],
+    "formas_referenciales": ["Sólido - pó ou granulado, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "selenito-de-sodio",
+    "nombre": "Selenito de Sódio",
+    "sinonimos": ["Selenito sódico", "Selênio (fonte inorgânica)"],
+    "descripcion": "Fonte inorgânica de selênio utilizada em pré-misturas para nutrição animal. O selênio está associado à defesa antioxidante celular e à função do sistema imune, conforme a normativa aplicável. Devido à sua alta atividade, é habitualmente manuseado diluído em pré-mistura para assegurar uma dosagem homogênea.",
+    "funciones": ["Fonte de selênio", "Microelemento mineral", "Suporte antioxidante"],
+    "aplicaciones": ["Pré-misturas minerais", "Sais mineralizados para bovinos", "Núcleos para monogástricos"],
+    "formas_referenciales": ["Sólido - pó cristalino, habitualmente em pré-mistura diluída conforme o fabricante e o lote"]
+  },
+  {
+    "id": "l-lisina",
+    "nombre": "Cloridrato de L-Lisina",
+    "sinonimos": ["L-Lisina HCl", "Cloridrato de L-lisina", "Lisina"],
+    "descripcion": "Aminoácido essencial utilizado na formulação de rações balanceadas para nutrição animal. Permite equilibrar o perfil de aminoácidos da dieta e otimizar o aporte proteico, conforme a normativa aplicável. É um dos aminoácidos limitantes mais empregados em dietas para aves e suínos.",
+    "funciones": ["Aminoácido essencial", "Balanceamento de aminoácidos"],
+    "aplicaciones": ["Ração para aves", "Ração para suínos", "Dietas de baixo teor proteico", "Aquicultura"],
+    "formas_referenciales": ["Sólido - pó ou granulado, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "dl-metionina",
+    "nombre": "DL-Metionina",
+    "sinonimos": ["Metionina", "DL-Met"],
+    "descripcion": "Aminoácido essencial sulfurado utilizado em dietas para nutrição animal, especialmente em aves. Contribui para equilibrar o perfil de aminoácidos e para melhorar a eficiência da proteína da dieta, conforme a normativa aplicável. É habitualmente o primeiro aminoácido limitante em formulações avícolas.",
+    "funciones": ["Aminoácido essencial", "Balanceamento de aminoácidos"],
+    "aplicaciones": ["Ração para aves", "Ração para suínos", "Dietas de poedeiras", "Aquicultura"],
+    "formas_referenciales": ["Sólido - pó cristalino ou escamas, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "l-treonina",
+    "nombre": "L-Treonina",
+    "sinonimos": ["Treonina", "L-Thr"],
+    "descripcion": "Aminoácido essencial utilizado na formulação de rações balanceadas para nutrição animal. Ajuda a equilibrar o perfil de aminoácidos e a formular dietas com menor proteína bruta, conforme a normativa aplicável. É empregado principalmente em dietas para suínos e aves.",
+    "funciones": ["Aminoácido essencial", "Balanceamento de aminoácidos"],
+    "aplicaciones": ["Ração para suínos", "Ração para aves", "Dietas de baixo teor proteico"],
+    "formas_referenciales": ["Sólido - pó ou granulado cristalino, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "l-triptofano",
+    "nombre": "L-Triptofano",
+    "sinonimos": ["Triptofano", "L-Trp"],
+    "descripcion": "Aminoácido essencial utilizado em dietas de nutrição animal para completar o perfil de aminoácidos. Está associado ao consumo de ração e ao equilíbrio da dieta, conforme a normativa aplicável. Também é utilizado como ingrediente em suplementos nutracêuticos.",
+    "funciones": ["Aminoácido essencial", "Balanceamento de aminoácidos"],
+    "aplicaciones": ["Ração para suínos", "Ração para aves", "Suplementos nutracêuticos"],
+    "formas_referenciales": ["Sólido - pó cristalino, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "acido-formico",
+    "nombre": "Ácido Fórmico",
+    "sinonimos": ["Ácido metanoico"],
+    "descripcion": "Acidificante de cadeia curta utilizado em formulações para nutrição animal e na conservação de grãos e forragens. Está associado ao controle do pH e da carga microbiana na ração, conforme a normativa aplicável. Fora da nutrição animal, é empregado em diversos processos industriais e agrícolas.",
+    "funciones": ["Acidificante", "Conservante", "Controle de pH"],
+    "aplicaciones": ["Acidificação de ração balanceada", "Conservação de grãos e forragens", "Higienização de matérias-primas", "Processos industriais"],
+    "formas_referenciales": ["Líquido - solução de concentração variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "acido-propionico",
+    "nombre": "Ácido Propiônico",
+    "sinonimos": ["Ácido propanoico", "E-280"],
+    "descripcion": "Acidificante e agente conservante utilizado em rações balanceadas e na conservação de grãos úmidos. Está associado à inibição do desenvolvimento de fungos e ao controle do pH, conforme a normativa aplicável. Também é utilizado como conservante na indústria de alimentos.",
+    "funciones": ["Conservante", "Inibidor de fungos", "Acidificante"],
+    "aplicaciones": ["Conservação de grãos úmidos", "Ração balanceada", "Conservação de alimentos", "Panificação"],
+    "formas_referenciales": ["Líquido - solução de concentração variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "butirato-de-sodio",
+    "nombre": "Butirato de Sódio",
+    "sinonimos": ["Butanoato de sódio", "Sal sódica do ácido butírico"],
+    "descripcion": "Sal do ácido butírico utilizada em formulações para nutrição animal como fonte de ácidos graxos de cadeia curta. Está associada ao suporte da integridade da mucosa intestinal e à saúde digestiva, conforme a normativa aplicável. É oferecida em apresentações revestidas ou sem revestimento conforme o ponto de liberação buscado.",
+    "funciones": ["Fonte de ácidos graxos de cadeia curta", "Suporte de saúde intestinal"],
+    "aplicaciones": ["Ração para aves", "Ração para suínos", "Dietas de desmame", "Pré-misturas funcionais"],
+    "formas_referenciales": ["Sólido - pó ou microgrânulos, revestido ou sem revestimento conforme o fabricante e o lote"]
+  },
+  {
+    "id": "fitasa",
+    "nombre": "Fitase",
+    "sinonimos": ["Enzima fitase", "6-fitase"],
+    "descripcion": "Enzima utilizada em rações balanceadas para liberar o fósforo ligado ao fitato dos ingredientes vegetais. Seu uso está associado a um melhor aproveitamento do fósforo e de outros minerais e a uma menor excreção, conforme a normativa aplicável. É manuseada em apresentações líquidas ou granuladas revestidas para resistir ao processo de peletização.",
+    "funciones": ["Enzima", "Liberação de fósforo fítico"],
+    "aplicaciones": ["Ração para aves", "Ração para suínos", "Aquicultura", "Dietas de base vegetal"],
+    "formas_referenciales": ["Líquido ou granulado revestido, conforme a apresentação do fabricante e o lote"]
+  },
+  {
+    "id": "xilanasa",
+    "nombre": "Xilanase",
+    "sinonimos": ["Enzima xilanase", "Endo-1,4-beta-xilanase"],
+    "descripcion": "Enzima que atua sobre os arabinoxilanos dos cereais, utilizada em rações balanceadas para nutrição animal. Seu uso está associado a uma melhora na digestibilidade e no valor energético da dieta, conforme a normativa aplicável. Também é empregada em processos da indústria de alimentos.",
+    "funciones": ["Enzima", "Melhora da digestibilidade"],
+    "aplicaciones": ["Ração para aves", "Ração para suínos", "Dietas com cereais", "Indústria de alimentos"],
+    "formas_referenciales": ["Sólido - pó ou granulado, ou apresentação líquida conforme o fabricante e o lote"]
+  },
+  {
+    "id": "proteasa",
+    "nombre": "Protease",
+    "sinonimos": ["Enzima protease", "Proteinase"],
+    "descripcion": "Enzima que favorece a degradação das proteínas da dieta, utilizada em rações balanceadas para nutrição animal. Seu uso está associado a um melhor aproveitamento dos aminoácidos e a uma maior consistência na digestibilidade, conforme a normativa aplicável. Enzimas desse tipo também são empregadas em detergência industrial e institucional.",
+    "funciones": ["Enzima", "Melhora da digestibilidade proteica"],
+    "aplicaciones": ["Ração para aves", "Ração para suínos", "Dietas com fontes proteicas vegetais", "Detergentes industriais"],
+    "formas_referenciales": ["Sólido - pó ou granulado, ou apresentação líquida conforme o fabricante e o lote"]
+  },
+  {
+    "id": "levadura-saccharomyces-cerevisiae",
+    "nombre": "Levedura Saccharomyces cerevisiae",
+    "sinonimos": ["Levedura de cerveja", "Saccharomyces cerevisiae"],
+    "descripcion": "Levedura utilizada em formulações para nutrição animal como aditivo funcional e fonte de metabólitos. Está associada ao equilíbrio da microbiota e à estabilidade da fermentação ruminal, conforme a normativa aplicável. Também fornece nucleotídeos e componentes da parede celular de interesse nutricional.",
+    "funciones": ["Aditivo funcional", "Levedura", "Suporte de microbiota"],
+    "aplicaciones": ["Ração para bovinos", "Dietas de ruminantes", "Ração para monogástricos", "Suplementos"],
+    "formas_referenciales": ["Sólido - pó ou granulado, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "bacillus-subtilis",
+    "nombre": "Bacillus subtilis (Probiótico)",
+    "sinonimos": ["Probiótico Bacillus", "Aditivo microbiano Bacillus subtilis"],
+    "descripcion": "Microrganismo probiótico (aditivo microbiano) utilizado em formulações para nutrição animal. Está associado ao equilíbrio da microbiota intestinal e à estabilidade digestiva, conforme a normativa aplicável. É manuseado na forma de esporos sobre um suporte para melhorar sua estabilidade durante o processamento.",
+    "funciones": ["Probiótico", "Aditivo microbiano", "Suporte de microbiota"],
+    "aplicaciones": ["Ração para aves", "Ração para suínos", "Aquicultura", "Tratamento biológico de águas"],
+    "formas_referenciales": ["Sólido - pó sobre suporte, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "secuestrante-de-micotoxinas",
+    "nombre": "Sequestrante de Micotoxinas (Aluminossilicato)",
+    "sinonimos": ["Aluminossilicato de sódio e cálcio", "Adsorvente de micotoxinas", "Silicato de alumínio"],
+    "descripcion": "Adsorvente de origem mineral utilizado em formulações para nutrição animal com o fim de captar micotoxinas presentes nas matérias-primas. Seu uso está associado à redução da disponibilidade de certas micotoxinas no trato digestivo, conforme a normativa aplicável. Também atua como agente antiaglomerante e de fluxo na mistura.",
+    "funciones": ["Sequestrante de micotoxinas", "Adsorvente", "Antiaglomerante"],
+    "aplicaciones": ["Ração balanceada", "Pré-misturas", "Agente antiaglomerante em misturas", "Condicionador de solos"],
+    "formas_referenciales": ["Sólido - pó, granulometria variável conforme o fabricante e o lote"]
+  }
+]

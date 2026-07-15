@@ -1,0 +1,227 @@
+[
+  {
+    "id": "nitrato-de-potasio",
+    "nombre": "Potassium Nitrate",
+    "sinonimos": ["KNO3", "Saltpeter", "Nitrate of potash (NOP)"],
+    "descripcion": "Water-soluble source of potassium and nitrate nitrogen, widely used in fertigation and foliar nutrition programs. Its high solubility and low salt index make it suitable for sensitive crops and precision irrigation systems. It is one of the most versatile bases for formulating complete nutrient solutions.",
+    "funciones": ["Potassium source", "Nitrate nitrogen source", "Base for nutrient solutions"],
+    "aplicaciones": ["Fertigation of vegetables and fruit crops", "Foliar fertilization", "Hydroponic crops", "Water-soluble fertilizer blends"],
+    "formas_referenciales": ["Crystalline solid or prills, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "nitrato-de-calcio",
+    "nombre": "Calcium Nitrate",
+    "sinonimos": ["Norwegian saltpeter", "Nitrate of lime"],
+    "descripcion": "Water-soluble fertilizer that supplies calcium and rapidly assimilated nitrate nitrogen. It is associated with fruit firmness and the reduction of physiological disorders linked to calcium deficiency. A standard component of the calcium tank in fertigation and hydroponics.",
+    "funciones": ["Calcium source", "Nitrate nitrogen source"],
+    "aplicaciones": ["Fertigation of fruit and vegetable crops", "Hydroponic nutrient solutions", "Foliar calcium applications", "Wastewater treatment"],
+    "formas_referenciales": ["Solid — granules or crystals, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "fosfato-monoamonico-map",
+    "nombre": "Monoammonium Phosphate (MAP)",
+    "sinonimos": ["Water-soluble MAP", "Ammonium dihydrogen phosphate"],
+    "descripcion": "Water-soluble source of phosphorus and ammoniacal nitrogen, used during the rooting and crop establishment stages. Its slightly acidic reaction in solution improves phosphorus availability in hard water. A frequent base in fertigation and starter programs.",
+    "funciones": ["Phosphorus source", "Ammoniacal nitrogen source", "Nutrient solution acidifier"],
+    "aplicaciones": ["Starter and rooting fertigation", "Hydroponic nutrient solutions", "Water-soluble NPK blends"],
+    "formas_referenciales": ["Crystalline solid or powder, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "fosfato-monopotasico-mkp",
+    "nombre": "Monopotassium Phosphate (MKP)",
+    "sinonimos": ["MKP", "Potassium dihydrogen phosphate"],
+    "descripcion": "Nitrogen-free water-soluble fertilizer combining phosphorus and potassium, associated with the flowering, fruit set and fruit filling stages. Its low salt index makes it suitable for foliar applications and fertigation in sensitive crops. In the food industry it is used in accordance with applicable regulations.",
+    "funciones": ["Phosphorus and potassium source", "N-P-K ratio regulator", "Buffer salt"],
+    "aplicaciones": ["Foliar fertilization during flowering and filling", "Fertigation and hydroponics", "Nitrogen-free water-soluble blends"],
+    "formas_referenciales": ["Crystalline solid or powder, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "sulfato-de-magnesio-heptahidratado",
+    "nombre": "Magnesium Sulfate Heptahydrate",
+    "sinonimos": ["Epsom salt", "Epsomite"],
+    "descripcion": "Water-soluble source of magnesium and sulfur, key elements in the plant's synthesis of chlorophyll and proteins. It is used in fertigation, foliar applications and the correction of deficiencies in leached soils. Its versatility also gives it outlets in cosmetics and other industrial uses.",
+    "funciones": ["Magnesium source", "Sulfur source"],
+    "aplicaciones": ["Fertigation and foliar fertilization", "Correction of magnesium deficiencies", "Hydroponic nutrient solutions", "Bath salts and cosmetics"],
+    "formas_referenciales": ["Crystalline solid, crystal size varies depending on the manufacturer and batch"]
+  },
+  {
+    "id": "urea-agricola",
+    "nombre": "Urea",
+    "sinonimos": ["Carbamide", "Carbonyl diamide"],
+    "descripcion": "Nitrogen source in widespread use for soil fertilization and diluted foliar applications. It is one of the most widely used fertilizers in the world thanks to its cost-to-nitrogen ratio. It also has applications in animal nutrition and industry, in accordance with applicable regulations.",
+    "funciones": ["Nitrogen source", "Industrial raw material"],
+    "aplicaciones": ["Soil fertilization of extensive crops", "Diluted foliar applications", "Ruminant supplementation", "Resins and industrial processes"],
+    "formas_referenciales": ["Solid — prills or granules, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "sulfato-de-potasio",
+    "nombre": "Potassium Sulfate",
+    "sinonimos": ["SOP", "Sulfate of potash"],
+    "descripcion": "Chloride-free source of potassium and sulfur, indicated for salinity-sensitive crops such as fruit trees, coffee and export vegetables. It is associated with improvements in fruit quality, size and postharvest life. Available in grades for soil application or for fertigation systems.",
+    "funciones": ["Chloride-free potassium source", "Sulfur source"],
+    "aplicaciones": ["Fertilization of fruit trees and coffee", "Fertigation of chloride-sensitive crops", "Physical fertilizer blends"],
+    "formas_referenciales": ["Solid — crystalline powder or granules, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "quelato-de-hierro-edta",
+    "nombre": "Iron EDTA Chelate",
+    "sinonimos": ["Fe-EDTA", "EDTA chelated iron"],
+    "descripcion": "Iron micronutrient protected with an EDTA chelating agent, which keeps the element available to the plant in nutrient solutions and foliar applications. It is used to prevent and correct iron chlorosis under moderate pH conditions. Common in hydroponics and short-cycle fertigation.",
+    "funciones": ["Chelated iron source", "Iron chlorosis corrector"],
+    "aplicaciones": ["Hydroponic nutrient solutions", "Foliar fertilization", "Fertigation in substrates and moderate-pH soils"],
+    "formas_referenciales": ["Solid — powder or microgranules, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "quelato-de-hierro-eddha",
+    "nombre": "Iron EDDHA Chelate",
+    "sinonimos": ["Fe-EDDHA", "EDDHA chelated iron"],
+    "descripcion": "High-stability iron chelate designed to keep iron available even in calcareous and alkaline soils where other chelates lose stability. It is a standard reference for correcting iron chlorosis in fruit trees, citrus and perennial crops via soil or fertigation.",
+    "funciones": ["High-stability chelated iron source", "Iron chlorosis corrector in alkaline soils"],
+    "aplicaciones": ["Chlorosis correction in fruit trees and citrus", "Fertigation in calcareous soils", "Soil-applied micronutrient programs"],
+    "formas_referenciales": ["Solid — microgranules or soluble powder, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "sulfato-de-zinc",
+    "nombre": "Zinc Sulfate",
+    "sinonimos": ["White vitriol", "Zinc vitriol"],
+    "descripcion": "Water-soluble source of zinc, a micronutrient associated with internode elongation, the development of new leaves and fruit formation. It is used in foliar applications, fertigation and micronutrient blends. It also has outlets in premixes for animal nutrition in accordance with applicable regulations.",
+    "funciones": ["Zinc source", "Component of micronutrient blends"],
+    "aplicaciones": ["Foliar fertilization", "Fertigation and micronutrient blends", "Mineral premixes for animal nutrition"],
+    "formas_referenciales": ["Crystalline solid or powder, depending on hydration, the manufacturer and batch"]
+  },
+  {
+    "id": "acido-borico",
+    "nombre": "Boric Acid",
+    "sinonimos": ["Orthoboric acid"],
+    "descripcion": "Concentrated source of boron, an essential micronutrient in flowering, pollen viability and fruit set. It is used in foliar applications and in fertigation, especially in high-demand crops such as avocado, palm and brassicas. Its handling requires careful dosing given the narrow margin between deficiency and excess.",
+    "funciones": ["Boron source", "Component of foliar blends"],
+    "aplicaciones": ["Foliar fertilization during flowering and fruit set", "Fertigation of boron-demanding crops", "Micronutrient blends"],
+    "formas_referenciales": ["Solid — powder or crystals, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "molibdato-de-sodio",
+    "nombre": "Sodium Molybdate",
+    "sinonimos": ["Sodium molybdate dihydrate"],
+    "descripcion": "Water-soluble source of molybdenum, a key micronutrient in biological nitrogen fixation and in the activity of the nitrate reductase enzyme. It is used at low rates in legume seed treatments and in foliar blends. A common complement to inoculants in soybean, bean and forage crops.",
+    "funciones": ["Molybdenum source", "Nitrogen fixation complement"],
+    "aplicaciones": ["Legume seed treatment", "Foliar fertilization", "Micronutrient blends"],
+    "formas_referenciales": ["Crystalline solid or powder, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "extracto-de-algas-ascophyllum",
+    "nombre": "Ascophyllum nodosum Seaweed Extract",
+    "sinonimos": ["Brown seaweed extract", "Atlantic kelp extract"],
+    "descripcion": "Marine-origin biostimulant obtained from the brown seaweed Ascophyllum nodosum, associated with abiotic stress tolerance, rooting and fruit set. It provides natural compounds such as alginates, mannitol and hormone precursors. It is integrated into foliar and fertigation programs throughout the crop cycle.",
+    "funciones": ["Biostimulant", "Abiotic stress tolerance inducer", "Rooting promoter"],
+    "aplicaciones": ["Foliar biostimulation programs", "Fertigation during stress stages", "Seed and transplant treatments"],
+    "formas_referenciales": ["Solid — soluble powder or flakes, depending on the manufacturer and batch", "Liquid — concentrated extract, depending on the manufacturer's presentation"]
+  },
+  {
+    "id": "aminoacidos-hidrolizado-vegetal",
+    "nombre": "Plant-Based Amino Acids",
+    "sinonimos": ["Plant protein hydrolysate", "Agricultural L-amino acids"],
+    "descripcion": "Biostimulant based on free amino acids obtained through the hydrolysis of plant proteins, associated with crop recovery after stress from drought, cold or phytotoxicity. It facilitates nutrient assimilation and acts as a natural complexing agent in foliar blends. Compatible with most nutrition programs.",
+    "funciones": ["Biostimulant", "Nutrient complexing agent", "Post-stress recovery aid"],
+    "aplicaciones": ["Foliar applications after abiotic stress", "Fertigation during critical stages", "Carrier for complexed micronutrients"],
+    "formas_referenciales": ["Solid — soluble powder, depending on the manufacturer and batch", "Liquid — concentrated solution, depending on the manufacturer's presentation"]
+  },
+  {
+    "id": "humato-de-potasio",
+    "nombre": "Potassium Humate",
+    "sinonimos": ["Potassium humic acids", "Leonardite potassium humate"],
+    "descripcion": "Potassium salts of humic acids derived from leonardite, used as a soil improver and fertilizer efficiency enhancer. It is associated with root development, moisture retention and the soil's cation exchange. It is applied through fertigation, drenching and soil treatments.",
+    "funciones": ["Soil improver", "Fertilizer efficiency enhancer", "Root development promoter"],
+    "aplicaciones": ["Fertigation and drench applications", "Conditioning of degraded soils", "Blends with NPK fertilizers"],
+    "formas_referenciales": ["Solid — flakes, granules or soluble powder, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "acido-fulvico",
+    "nombre": "Fulvic Acid",
+    "sinonimos": ["Potassium fulvate", "Leonardite fulvic fraction"],
+    "descripcion": "Low-molecular-weight fraction of humic substances, with high solubility and the ability to complex nutrients to promote their foliar and root absorption. Compatible with foliar applications and low-pressure fertigation systems. It is used as a companion to micronutrients and soluble fertilizers.",
+    "funciones": ["Natural complexing agent", "Nutrient uptake enhancer", "Biostimulant"],
+    "aplicaciones": ["Foliar applications with micronutrients", "Fertigation and hydroponics", "Seed treatments"],
+    "formas_referenciales": ["Solid — soluble powder, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "coadyuvante-organosiliconado",
+    "nombre": "Organosilicone Adjuvant",
+    "sinonimos": ["Ethoxylated trisiloxane", "Silicone super-spreader"],
+    "descripcion": "Modified trisiloxane-based surfactant that reduces the surface tension of the spray solution, promoting more uniform coverage of the leaf surface. It is associated with improved penetration through stomata and a reduction in water volume per hectare. It is dosed at low rates in the mixing tank.",
+    "funciones": ["Superwetting agent", "Foliar coverage extender", "Stomatal penetrant"],
+    "aplicaciones": ["Adjuvant in foliar sprays", "Low-water-volume applications", "Foliar fertilizer tank mixes"],
+    "formas_referenciales": ["Liquid — appearance and viscosity depending on the manufacturer and batch"]
+  },
+  {
+    "id": "jabon-potasico-agricola",
+    "nombre": "Potassium Soap",
+    "sinonimos": ["Potassium salts of fatty acids", "Soft soap"],
+    "descripcion": "Potassium salts of vegetable-origin fatty acids, used as an adjuvant and leaf surface cleaning agent in integrated management programs. It helps remove sooty mold, honeydew and residues that interfere with photosynthesis. It is an input associated with ecologically oriented production schemes.",
+    "funciones": ["Spray adjuvant", "Leaf surface cleaner", "Vegetable-origin surfactant"],
+    "aplicaciones": ["Foliar washing of sooty mold and honeydew", "Adjuvant in tank mixes", "Integrated management and organic farming programs"],
+    "formas_referenciales": ["Viscous liquid or paste, depending on concentration, the manufacturer and batch"]
+  },
+  {
+    "id": "aceite-mineral-agricola",
+    "nombre": "Agricultural Mineral Oil",
+    "sinonimos": ["Paraffinic spray oil", "Horticultural oil"],
+    "descripcion": "Highly refined paraffinic oil used as an adjuvant in agricultural sprays, where it improves the adhesion, distribution and persistence of the spray solution on the treated surface. It is used in crop management programs for fruit trees, citrus and ornamentals. It requires proper emulsification in the mixing tank.",
+    "funciones": ["Sticker adjuvant", "Spray carrier", "Coverage improver"],
+    "aplicaciones": ["Adjuvant in fruit trees and citrus", "Tank mixes in ornamentals", "Integrated management programs"],
+    "formas_referenciales": ["Oily liquid, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "acido-fosforico",
+    "nombre": "Phosphoric Acid",
+    "sinonimos": ["Orthophosphoric acid"],
+    "descripcion": "Inorganic acid with dual use in agriculture: a phosphorus source in fertigation and a pH corrector for irrigation water with high alkalinity. It helps prevent dripper clogging caused by carbonate precipitates. In food and industry it is used in accordance with applicable regulations.",
+    "funciones": ["Irrigation water pH corrector", "Phosphorus source", "Irrigation system cleaner"],
+    "aplicaciones": ["Acidification of fertigation water", "Cleaning of drip lines", "Phosphate fertilization through irrigation", "Acidulant in industry in accordance with regulations"],
+    "formas_referenciales": ["Liquid — aqueous solution, concentration depending on the manufacturer's presentation"]
+  },
+  {
+    "id": "acido-citrico-agricola",
+    "nombre": "Citric Acid",
+    "sinonimos": ["2-Hydroxypropane-1,2,3-tricarboxylic acid"],
+    "descripcion": "Organic acid of biotechnological origin used in agriculture as a pH and hardness corrector for spray water, preventing the alkaline hydrolysis of inputs in the tank. Its chelating capacity helps keep the cations in the spray solution available. Broad cross-sector use in food, cleaning and cosmetics in accordance with applicable regulations.",
+    "funciones": ["Spray solution pH corrector", "Water hardness sequestrant", "Multipurpose acidulant"],
+    "aplicaciones": ["Spray water conditioning", "Tank mixes with hard water", "Acidulant in food and cleaning products in accordance with regulations"],
+    "formas_referenciales": ["Crystalline solid — anhydrous or monohydrate, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "lignosulfonato-de-sodio",
+    "nombre": "Sodium Lignosulfonate",
+    "sinonimos": ["Sodium lignin sulfonate"],
+    "descripcion": "Vegetable-origin polymeric dispersant derived from lignin, used in the formulation of agricultural wettable powders and water-dispersible granules. It keeps particles in stable suspension in the spray tank and acts as a binder in granulation. It is also used in concrete, ceramics and other industrial processes.",
+    "funciones": ["Dispersant", "Suspension agent", "Granulation binder"],
+    "aplicaciones": ["Formulation of wettable powders and water-dispersible granules", "Fertilizer suspensions", "Industrial additive for concrete and ceramics"],
+    "formas_referenciales": ["Solid — powder or granules, shade varies depending on the lignin source, the manufacturer and batch"]
+  },
+  {
+    "id": "caolin-agricola",
+    "nombre": "Kaolin",
+    "sinonimos": ["White clay", "Kaolinite", "China clay"],
+    "descripcion": "Mineral clay used in agriculture as an anti-stress protective film, associated with the reduction of sunburn and heat stress on fruit and leaves. It forms a physical particle barrier that reflects excess radiation. Its versatility also gives it outlets in cosmetics, ceramics and coatings.",
+    "funciones": ["Heat stress protectant", "Reflective physical barrier", "Mineral filler"],
+    "aplicaciones": ["Protection of fruit against sunburn", "Anti-stress sprays in fruit trees", "Filler in cosmetic and industrial formulations"],
+    "formas_referenciales": ["Solid — powder, shade and fineness vary depending on the deposit, the manufacturer and batch"]
+  },
+  {
+    "id": "azufre-elemental",
+    "nombre": "Elemental Sulfur",
+    "sinonimos": ["Agricultural sulfur", "Flowers of sulfur"],
+    "descripcion": "Concentrated source of sulfur for crop nutrition and the amendment of alkaline or sodic soils, where its gradual oxidation contributes to lowering pH. It is used in soil correction programs and as a component of fertilizer blends. A cross-sector raw material with uses in industry as well.",
+    "funciones": ["Sulfur source", "Acidifying soil amendment"],
+    "aplicaciones": ["Correction of alkaline and sodic soils", "Sulfur-containing fertilizer blends", "Various industrial uses"],
+    "formas_referenciales": ["Solid — powder, granules or pastilles, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "sulfato-de-amonio",
+    "nombre": "Ammonium Sulfate",
+    "sinonimos": ["AMS", "Sulfate of ammonia"],
+    "descripcion": "Nitrogen fertilizer that simultaneously supplies sulfur, with an acidic reaction in the soil, useful in alkaline soils and sulfur-demanding crops. In tank mixes it is used as a hard water conditioner by sequestering antagonistic cations. A widely used input in extensive crops.",
+    "funciones": ["Ammoniacal nitrogen source", "Sulfur source", "Hard water conditioner"],
+    "aplicaciones": ["Soil fertilization in alkaline soils", "Spray solution conditioning", "Physical fertilizer blends"],
+    "formas_referenciales": ["Solid — crystals or granules, depending on the manufacturer and batch"]
+  }
+]

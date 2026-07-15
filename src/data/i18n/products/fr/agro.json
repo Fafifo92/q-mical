@@ -1,0 +1,227 @@
+[
+  {
+    "id": "nitrato-de-potasio",
+    "nombre": "Nitrate de potassium",
+    "sinonimos": ["KNO3", "Salpêtre de potasse", "Nitrate potassique"],
+    "descripcion": "Source hydrosoluble de potassium et d'azote nitrique, largement utilisée dans les programmes de fertirrigation et de nutrition foliaire. Sa haute solubilité et son faible indice salin la rendent adaptée aux cultures sensibles et aux systèmes d'irrigation de précision. C'est l'une des bases les plus polyvalentes pour formuler des solutions nutritives complètes.",
+    "funciones": ["Source de potassium", "Source d'azote nitrique", "Base pour solutions nutritives"],
+    "aplicaciones": ["Fertirrigation des cultures maraîchères et fruitières", "Fertilisation foliaire", "Cultures hydroponiques", "Mélanges d'engrais hydrosolubles"],
+    "formas_referenciales": ["Solide cristallin ou prills, selon le fabricant et le lot"]
+  },
+  {
+    "id": "nitrato-de-calcio",
+    "nombre": "Nitrate de calcium",
+    "sinonimos": ["Nitrate calcique", "Salpêtre de Norvège"],
+    "descripcion": "Engrais hydrosoluble apportant du calcium et de l'azote nitrique à assimilation rapide. Il est associé à la fermeté des fruits et à la réduction des désordres physiologiques liés à la carence en calcium. Composant habituel du bac à calcium en fertirrigation et en hydroponie.",
+    "funciones": ["Source de calcium", "Source d'azote nitrique"],
+    "aplicaciones": ["Fertirrigation des cultures fruitières et maraîchères", "Solutions nutritives hydroponiques", "Applications foliaires de calcium", "Traitement des eaux usées"],
+    "formas_referenciales": ["Solide — granulé ou cristaux, selon le fabricant et le lot"]
+  },
+  {
+    "id": "fosfato-monoamonico-map",
+    "nombre": "Phosphate monoammonique (MAP)",
+    "sinonimos": ["MAP hydrosoluble", "Phosphate d'ammonium monobasique"],
+    "descripcion": "Source hydrosoluble de phosphore et d'azote ammoniacal, utilisée aux stades d'enracinement et d'implantation de la culture. Sa réaction légèrement acide en solution favorise la disponibilité du phosphore dans les eaux dures. Base fréquente des programmes de fertirrigation et de démarrage.",
+    "funciones": ["Source de phosphore", "Source d'azote ammoniacal", "Acidifiant de la solution nutritive"],
+    "aplicaciones": ["Fertirrigation de démarrage et d'enracinement", "Solutions nutritives hydroponiques", "Mélanges NPK hydrosolubles"],
+    "formas_referenciales": ["Solide cristallin ou poudre, selon le fabricant et le lot"]
+  },
+  {
+    "id": "fosfato-monopotasico-mkp",
+    "nombre": "Phosphate monopotassique (MKP)",
+    "sinonimos": ["MKP", "Phosphate de potassium monobasique"],
+    "descripcion": "Engrais hydrosoluble sans azote combinant phosphore et potassium, associé aux stades de floraison, de nouaison et de remplissage du fruit. Son faible indice salin le rend adapté aux applications foliaires et à la fertirrigation des cultures sensibles. Dans l'industrie alimentaire, il s'emploie conformément à la réglementation applicable.",
+    "funciones": ["Source de phosphore et de potassium", "Régulateur du rapport N-P-K", "Sel tampon"],
+    "aplicaciones": ["Fertilisation foliaire en floraison et remplissage", "Fertirrigation et hydroponie", "Mélanges hydrosolubles sans azote"],
+    "formas_referenciales": ["Solide cristallin ou poudre, selon le fabricant et le lot"]
+  },
+  {
+    "id": "sulfato-de-magnesio-heptahidratado",
+    "nombre": "Sulfate de magnésium heptahydraté",
+    "sinonimos": ["Sel d'Epsom", "Epsomite"],
+    "descripcion": "Source hydrosoluble de magnésium et de soufre, éléments clés dans la synthèse de la chlorophylle et des protéines de la plante. Il s'utilise en fertirrigation, en applications foliaires et pour corriger les carences dans les sols lessivés. Sa polyvalence lui ouvre également des débouchés en cosmétique et dans d'autres usages industriels.",
+    "funciones": ["Source de magnésium", "Source de soufre"],
+    "aplicaciones": ["Fertirrigation et fertilisation foliaire", "Correction des carences en magnésium", "Solutions nutritives hydroponiques", "Sels de bain et cosmétique"],
+    "formas_referenciales": ["Solide cristallin, taille de cristal variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "urea-agricola",
+    "nombre": "Urée",
+    "sinonimos": ["Carbamide", "Diamide carbonique"],
+    "descripcion": "Source azotée largement utilisée en fertilisation des sols et en applications foliaires diluées. C'est l'un des engrais les plus utilisés au monde grâce à son rapport coût-azote. Elle trouve également des applications en nutrition animale et dans l'industrie, conformément à la réglementation applicable.",
+    "funciones": ["Source d'azote", "Matière première industrielle"],
+    "aplicaciones": ["Fertilisation au sol des grandes cultures", "Applications foliaires diluées", "Supplémentation des ruminants", "Résines et procédés industriels"],
+    "formas_referenciales": ["Solide — perles (prills) ou granulé, selon le fabricant et le lot"]
+  },
+  {
+    "id": "sulfato-de-potasio",
+    "nombre": "Sulfate de potassium",
+    "sinonimos": ["SOP", "Sulfate de potasse"],
+    "descripcion": "Source de potassium et de soufre sans chlore, indiquée pour les cultures sensibles à la salinité comme les arbres fruitiers, le café et les cultures maraîchères d'exportation. Il est associé à des améliorations de la qualité, du calibre et de la tenue post-récolte du fruit. Disponible en qualités pour application au sol ou pour systèmes de fertirrigation.",
+    "funciones": ["Source de potassium sans chlore", "Source de soufre"],
+    "aplicaciones": ["Fertilisation des arbres fruitiers et du café", "Fertirrigation des cultures sensibles au chlore", "Mélanges physiques d'engrais"],
+    "formas_referenciales": ["Solide — poudre cristalline ou granulé, selon le fabricant et le lot"]
+  },
+  {
+    "id": "quelato-de-hierro-edta",
+    "nombre": "Chélate de fer EDTA",
+    "sinonimos": ["Fe-EDTA", "Fer chélaté EDTA"],
+    "descripcion": "Micronutriment à base de fer protégé par un agent chélatant EDTA, qui maintient l'élément disponible pour la plante dans les solutions nutritives et les applications foliaires. Il s'utilise pour prévenir et corriger la chlorose ferrique en conditions de pH modéré. Courant en hydroponie et en fertirrigation des cultures à cycle court.",
+    "funciones": ["Source de fer chélaté", "Correcteur de chlorose ferrique"],
+    "aplicaciones": ["Solutions nutritives hydroponiques", "Fertilisation foliaire", "Fertirrigation sur substrats et sols à pH modéré"],
+    "formas_referenciales": ["Solide — poudre ou microgranulés, selon le fabricant et le lot"]
+  },
+  {
+    "id": "quelato-de-hierro-eddha",
+    "nombre": "Chélate de fer EDDHA",
+    "sinonimos": ["Fe-EDDHA", "Fer chélaté EDDHA"],
+    "descripcion": "Chélate de fer de haute stabilité, conçu pour maintenir le fer disponible même dans les sols calcaires et alcalins où d'autres chélates perdent leur stabilité. C'est une référence habituelle pour corriger la chlorose ferrique des arbres fruitiers, des agrumes et des cultures pérennes, par voie de sol ou en fertirrigation.",
+    "funciones": ["Source de fer chélaté de haute stabilité", "Correcteur de chlorose ferrique en sols alcalins"],
+    "aplicaciones": ["Correction de la chlorose des arbres fruitiers et des agrumes", "Fertirrigation en sols calcaires", "Programmes de micronutriments par voie de sol"],
+    "formas_referenciales": ["Solide — microgranulés ou poudre soluble, selon le fabricant et le lot"]
+  },
+  {
+    "id": "sulfato-de-zinc",
+    "nombre": "Sulfate de zinc",
+    "sinonimos": ["Couperose blanche", "Vitriol blanc"],
+    "descripcion": "Source hydrosoluble de zinc, micronutriment associé à l'élongation des entre-nœuds, au développement des jeunes feuilles et à la formation du fruit. Il s'utilise en applications foliaires, en fertirrigation et dans les mélanges de micronutriments. Il trouve également des débouchés dans les prémélanges pour la nutrition animale, conformément à la réglementation applicable.",
+    "funciones": ["Source de zinc", "Composant de mélanges de micronutriments"],
+    "aplicaciones": ["Fertilisation foliaire", "Fertirrigation et mélanges de micronutriments", "Prémélanges minéraux pour la nutrition animale"],
+    "formas_referenciales": ["Solide cristallin ou poudre, selon l'hydratation, le fabricant et le lot"]
+  },
+  {
+    "id": "acido-borico",
+    "nombre": "Acide borique",
+    "sinonimos": ["Acide orthoborique"],
+    "descripcion": "Source concentrée de bore, micronutriment essentiel à la floraison, à la viabilité du pollen et à la nouaison des fruits. Il s'emploie en applications foliaires et en fertirrigation, en particulier dans les cultures à forte demande comme l'avocatier, le palmier et les crucifères. Sa manipulation exige un dosage soigneux en raison de la marge étroite entre carence et excès.",
+    "funciones": ["Source de bore", "Composant de mélanges foliaires"],
+    "aplicaciones": ["Fertilisation foliaire en floraison et nouaison", "Fertirrigation des cultures exigeantes en bore", "Mélanges de micronutriments"],
+    "formas_referenciales": ["Solide — poudre ou cristaux, selon le fabricant et le lot"]
+  },
+  {
+    "id": "molibdato-de-sodio",
+    "nombre": "Molybdate de sodium",
+    "sinonimos": ["Molybdate de sodium dihydraté"],
+    "descripcion": "Source hydrosoluble de molybdène, micronutriment clé dans la fixation biologique de l'azote et dans l'activité de l'enzyme nitrate réductase. Il s'utilise à faibles doses dans les traitements de semences de légumineuses et dans les mélanges foliaires. Complément habituel des inoculants pour le soja, le haricot et les cultures fourragères.",
+    "funciones": ["Source de molybdène", "Complément de la fixation de l'azote"],
+    "aplicaciones": ["Traitement des semences de légumineuses", "Fertilisation foliaire", "Mélanges de micronutriments"],
+    "formas_referenciales": ["Solide cristallin ou poudre, selon le fabricant et le lot"]
+  },
+  {
+    "id": "extracto-de-algas-ascophyllum",
+    "nombre": "Extrait d'algues Ascophyllum nodosum",
+    "sinonimos": ["Extrait d'algue brune", "Extrait de kelp atlantique", "Extrait d'ascophylle noueuse"],
+    "descripcion": "Biostimulant d'origine marine obtenu à partir de l'algue brune Ascophyllum nodosum, associé à la tolérance au stress abiotique, à l'enracinement et à la nouaison. Il apporte des composés naturels tels que les alginates, le mannitol et des précurseurs hormonaux. Il s'intègre dans les programmes foliaires et de fertirrigation tout au long du cycle de la culture.",
+    "funciones": ["Biostimulant", "Inducteur de tolérance au stress abiotique", "Promoteur d'enracinement"],
+    "aplicaciones": ["Programmes foliaires de biostimulation", "Fertirrigation pendant les phases de stress", "Traitement des semences et transplantation"],
+    "formas_referenciales": ["Solide — poudre ou paillettes solubles, selon le fabricant et le lot", "Liquide — extrait concentré, selon la présentation du fabricant"]
+  },
+  {
+    "id": "aminoacidos-hidrolizado-vegetal",
+    "nombre": "Acides aminés d'hydrolyse végétale",
+    "sinonimos": ["Hydrolysat de protéines végétales", "L-acides aminés agricoles"],
+    "descripcion": "Biostimulant à base d'acides aminés libres obtenus par hydrolyse de protéines végétales, associé à la récupération de la culture après un stress dû à la sécheresse, au froid ou à la phytotoxicité. Il facilite l'assimilation des nutriments et agit comme agent complexant naturel dans les mélanges foliaires. Compatible avec la plupart des programmes de nutrition.",
+    "funciones": ["Biostimulant", "Agent complexant de nutriments", "Agent de récupération post-stress"],
+    "aplicaciones": ["Applications foliaires après un stress abiotique", "Fertirrigation pendant les phases critiques", "Vecteur de micronutriments complexés"],
+    "formas_referenciales": ["Solide — poudre soluble, selon le fabricant et le lot", "Liquide — solution concentrée, selon la présentation du fabricant"]
+  },
+  {
+    "id": "humato-de-potasio",
+    "nombre": "Humate de potassium",
+    "sinonimos": ["Acides humiques potassiques", "Humate de potassium de léonardite"],
+    "descripcion": "Sels potassiques d'acides humiques dérivés de la léonardite, utilisés comme amendement du sol et potentialisateur de l'efficacité des engrais. Il est associé au développement racinaire, à la rétention d'humidité et à la capacité d'échange cationique du sol. Il s'applique en fertirrigation, en drench et en traitements de sol.",
+    "funciones": ["Amendement du sol", "Potentialisateur de l'efficacité des engrais", "Promoteur du développement racinaire"],
+    "aplicaciones": ["Fertirrigation et drench", "Amendement des sols dégradés", "Mélanges avec engrais NPK"],
+    "formas_referenciales": ["Solide — paillettes, granulés ou poudre soluble, selon le fabricant et le lot"]
+  },
+  {
+    "id": "acido-fulvico",
+    "nombre": "Acide fulvique",
+    "sinonimos": ["Fulvate de potassium", "Fraction fulvique de léonardite"],
+    "descripcion": "Fraction de faible poids moléculaire des substances humiques, à haute solubilité et dotée d'une capacité à complexer les nutriments pour favoriser leur absorption foliaire et racinaire. Compatible avec les applications foliaires et les systèmes de fertirrigation à basse pression. Il s'utilise en accompagnement des micronutriments et des engrais solubles.",
+    "funciones": ["Agent complexant naturel", "Potentialisateur de l'absorption des nutriments", "Biostimulant"],
+    "aplicaciones": ["Applications foliaires avec micronutriments", "Fertirrigation et hydroponie", "Traitements de semences"],
+    "formas_referenciales": ["Solide — poudre soluble, selon le fabricant et le lot"]
+  },
+  {
+    "id": "coadyuvante-organosiliconado",
+    "nombre": "Adjuvant organosilicone",
+    "sinonimos": ["Trisiloxane éthoxylé", "Super-mouillant siliconé"],
+    "descripcion": "Tensioactif à base de trisiloxane modifié qui réduit la tension superficielle de la bouillie de pulvérisation, favorisant une couverture plus uniforme de la surface foliaire. Il est associé à une meilleure pénétration par les stomates et à la réduction du volume d'eau par hectare. Il se dose à faibles proportions dans la cuve de mélange.",
+    "funciones": ["Super-mouillant", "Agent d'étalement foliaire", "Pénétrant stomatique"],
+    "aplicaciones": ["Adjuvant pour pulvérisations foliaires", "Applications à faible volume d'eau", "Mélanges en cuve d'engrais foliaires"],
+    "formas_referenciales": ["Liquide — apparence et viscosité selon le fabricant et le lot"]
+  },
+  {
+    "id": "jabon-potasico-agricola",
+    "nombre": "Savon potassique",
+    "sinonimos": ["Sels potassiques d'acides gras", "Savon de potassium"],
+    "descripcion": "Sels potassiques d'acides gras d'origine végétale, utilisés comme adjuvant et agent de nettoyage de la surface foliaire dans les programmes de protection intégrée. Il aide à éliminer la fumagine, le miellat et les résidus qui interfèrent avec la photosynthèse. C'est un intrant associé aux schémas de production à vocation écologique.",
+    "funciones": ["Adjuvant de pulvérisation", "Nettoyant de la surface foliaire", "Tensioactif d'origine végétale"],
+    "aplicaciones": ["Lavage foliaire de la fumagine et du miellat", "Adjuvant dans les mélanges en cuve", "Programmes de protection intégrée et d'agriculture biologique"],
+    "formas_referenciales": ["Liquide visqueux ou pâte, selon la concentration, le fabricant et le lot"]
+  },
+  {
+    "id": "aceite-mineral-agricola",
+    "nombre": "Huile minérale agricole",
+    "sinonimos": ["Huile paraffinique agricole", "Huile de pulvérisation"],
+    "descripcion": "Huile paraffinique hautement raffinée employée comme adjuvant dans les pulvérisations agricoles, où elle améliore l'adhérence, la répartition et la persistance de la bouillie sur la surface traitée. Elle s'utilise dans les programmes de conduite des cultures fruitières, des agrumes et des plantes ornementales. Elle exige une émulsification adéquate dans la cuve de mélange.",
+    "funciones": ["Adjuvant adhérent", "Véhicule de pulvérisation", "Améliorateur de couverture"],
+    "aplicaciones": ["Adjuvant pour cultures fruitières et agrumes", "Mélanges en cuve pour plantes ornementales", "Programmes de protection intégrée"],
+    "formas_referenciales": ["Liquide huileux, selon le fabricant et le lot"]
+  },
+  {
+    "id": "acido-fosforico",
+    "nombre": "Acide phosphorique",
+    "sinonimos": ["Acide orthophosphorique"],
+    "descripcion": "Acide inorganique à double usage en agriculture : source de phosphore en fertirrigation et correcteur de pH des eaux d'irrigation à forte alcalinité. Il aide à prévenir le colmatage des goutteurs par les précipités de carbonates. Dans l'alimentaire et l'industrie, il s'emploie conformément à la réglementation applicable.",
+    "funciones": ["Correcteur de pH des eaux d'irrigation", "Source de phosphore", "Nettoyant des systèmes d'irrigation"],
+    "aplicaciones": ["Acidification des eaux de fertirrigation", "Nettoyage des lignes de goutte-à-goutte", "Fertilisation phosphatée par irrigation", "Acidulant dans l'industrie conformément à la réglementation"],
+    "formas_referenciales": ["Liquide — solution aqueuse, concentration selon la présentation du fabricant"]
+  },
+  {
+    "id": "acido-citrico-agricola",
+    "nombre": "Acide citrique",
+    "sinonimos": ["Acide 2-hydroxypropane-1,2,3-tricarboxylique"],
+    "descripcion": "Acide organique d'origine biotechnologique utilisé en agriculture comme correcteur de pH et de dureté de l'eau de pulvérisation, prévenant l'hydrolyse alcaline des intrants dans la cuve. Sa capacité chélatante aide à maintenir disponibles les cations de la bouillie. Large usage transversal dans l'alimentaire, l'entretien et la cosmétique, conformément à la réglementation applicable.",
+    "funciones": ["Correcteur de pH de la bouillie de pulvérisation", "Séquestrant de la dureté de l'eau", "Acidulant polyvalent"],
+    "aplicaciones": ["Conditionnement des eaux de pulvérisation", "Mélanges en cuve avec eaux dures", "Acidulant dans l'alimentaire et l'entretien conformément à la réglementation"],
+    "formas_referenciales": ["Solide cristallin — anhydre ou monohydraté, selon le fabricant et le lot"]
+  },
+  {
+    "id": "lignosulfonato-de-sodio",
+    "nombre": "Lignosulfonate de sodium",
+    "sinonimos": ["Lignine sulfonée sodique"],
+    "descripcion": "Dispersant polymérique d'origine végétale dérivé de la lignine, utilisé dans la formulation de poudres mouillables et de granulés dispersables agricoles. Il maintient les particules en suspension stable dans la cuve de pulvérisation et agit comme liant en granulation. Il s'emploie également dans le béton, la céramique et d'autres procédés industriels.",
+    "funciones": ["Dispersant", "Agent de suspension", "Liant de granulation"],
+    "aplicaciones": ["Formulation de poudres mouillables et de granulés dispersables", "Suspensions d'engrais", "Additif industriel pour béton et céramique"],
+    "formas_referenciales": ["Solide — poudre ou granulés, teinte variable selon l'origine de la lignine, le fabricant et le lot"]
+  },
+  {
+    "id": "caolin-agricola",
+    "nombre": "Kaolin",
+    "sinonimos": ["Argile blanche", "Kaolinite"],
+    "descripcion": "Argile minérale utilisée en agriculture comme film protecteur anti-stress, associée à la réduction des coups de soleil et du stress thermique sur les fruits et les feuilles. Elle forme une barrière physique de particules qui réfléchit l'excès de rayonnement. Sa polyvalence lui ouvre également des débouchés en cosmétique, en céramique et dans les revêtements.",
+    "funciones": ["Protecteur anti-stress thermique", "Barrière physique réfléchissante", "Charge minérale"],
+    "aplicaciones": ["Protection des fruits contre les coups de soleil", "Pulvérisations anti-stress sur cultures fruitières", "Charge dans les formulations cosmétiques et industrielles"],
+    "formas_referenciales": ["Solide — poudre, teinte et finesse variables selon le gisement, le fabricant et le lot"]
+  },
+  {
+    "id": "azufre-elemental",
+    "nombre": "Soufre élémentaire",
+    "sinonimos": ["Soufre agricole", "Fleur de soufre"],
+    "descripcion": "Source concentrée de soufre pour la nutrition des cultures et l'amendement des sols alcalins ou sodiques, où son oxydation progressive contribue à abaisser le pH. Il s'utilise dans les programmes de correction des sols et comme composant de mélanges d'engrais. Matière première transversale ayant également des usages dans l'industrie.",
+    "funciones": ["Source de soufre", "Amendement acidifiant des sols"],
+    "aplicaciones": ["Correction des sols alcalins et sodiques", "Mélanges d'engrais soufrés", "Usages industriels divers"],
+    "formas_referenciales": ["Solide — poudre, granulé ou pastilles, selon le fabricant et le lot"]
+  },
+  {
+    "id": "sulfato-de-amonio",
+    "nombre": "Sulfate d'ammonium",
+    "sinonimos": ["Sulfate d'ammoniaque", "Sulfate ammonique"],
+    "descripcion": "Engrais azoté avec apport simultané de soufre, à réaction acide dans le sol, utile dans les sols alcalins et pour les cultures exigeantes en soufre. Dans les mélanges en cuve, il s'emploie comme conditionneur des eaux dures en séquestrant les cations antagonistes. Intrant largement utilisé en grandes cultures.",
+    "funciones": ["Source d'azote ammoniacal", "Source de soufre", "Conditionneur d'eaux dures"],
+    "aplicaciones": ["Fertilisation au sol en sols alcalins", "Conditionnement de la bouillie de pulvérisation", "Mélanges physiques d'engrais"],
+    "formas_referenciales": ["Solide — cristaux ou granulé, selon le fabricant et le lot"]
+  }
+]

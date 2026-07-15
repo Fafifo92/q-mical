@@ -1,0 +1,150 @@
+---
+import "@fontsource-variable/inter";
+import "@fontsource-variable/space-grotesk";
+import "../styles/global.css";
+import { ClientRouter } from "astro:transitions";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import WhatsAppFloat from "../components/WhatsAppFloat.astro";
+import { SITE } from "../data/site";
+import { LOCALES, LOCALE_INFO, DEFAULT_LOCALE, rutaLocal, separarIdioma, type Locale } from "../i18n/config";
+import { t } from "../i18n";
+
+interface Props {
+  title: string;
+  description?: string;
+  /** "dark" cuando la página abre con héroe oscuro (header transparente). */
+  headerTheme?: "dark" | "light";
+  /** Archivo de public/og/ SIN extensión ("productos", "linea-cosmetica"…). */
+  og?: string;
+  /** Idioma de la página. Las URLs internas se prefijan según él. */
+  lang?: Locale;
+}
+
+const {
+  title,
+  headerTheme = "light",
+  og = "general",
+  lang = DEFAULT_LOCALE,
+} = Astro.props;
+
+const dict = t(lang);
+const description = Astro.props.description ?? dict.meta.descripcion;
+const fullTitle = title === SITE.nombre ? `${SITE.nombre} — ${dict.meta.slogan}` : `${title} · ${SITE.nombre}`;
+
+// Ruta sin prefijo de idioma → sirve para el canónico y los alternates
+const { path: rutaBase } = separarIdioma(Astro.url.pathname);
+const urlCanonica = new URL(rutaLocal(lang, rutaBase), SITE.dominio).href;
+
+// WhatsApp exige URL absoluta y no ejecuta JS: las meta van en el HTML inicial.
+// Las OG localizadas viven en /og/<lang>/…; español en /og/… (y es el fallback).
+const ogRuta = lang === DEFAULT_LOCALE ? `/og/${og}.jpg` : `/og/${lang}/${og}.jpg`;
+const ogImagen = new URL(`${ogRuta}?v=${SITE.ogVersion}`, SITE.dominio).href;
+---
+
+<!doctype html>
+<html lang={LOCALE_INFO[lang].html}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={urlCanonica} />
+
+    <!-- El mismo contenido en 7 idiomas: hreflang evita que los buscadores lo
+         traten como duplicado y manda a cada visitante a su versión. -->
+    {
+      LOCALES.map((l) => (
+        <link rel="alternate" hreflang={LOCALE_INFO[l].html} href={new URL(rutaLocal(l, rutaBase), SITE.dominio).href} />
+      ))
+    }
+    <link rel="alternate" hreflang="x-default" href={new URL(rutaBase, SITE.dominio).href} />
+
+    <!-- Vista previa al compartir (WhatsApp, LinkedIn…). Los cuatro que Meta
+         exige son og:title, og:description, og:url y og:image, con URL absoluta. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE.nombre} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={urlCanonica} />
+    <meta property="og:image" content={ogImagen} />
+    <meta property="og:image:secure_url" content={ogImagen} />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={fullTitle} />
+    <meta property="og:locale" content={LOCALE_INFO[lang].og} />
+    {
+      LOCALES.filter((l) => l !== lang).map((l) => (
+        <meta property="og:locale:alternate" content={LOCALE_INFO[l].og} />
+      ))
+    }
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImagen} />
+
+    <meta name="theme-color" content="#052420" />
+
+    {/* Activa las animaciones de revelado solo si hay JS: sin esta clase,
+        .reveal no se oculta y el contenido siempre es legible. */}
+    <script is:inline>
+      document.documentElement.classList.add("js");
+    </script>
+
+    <ClientRouter />
+  </head>
+  <body>
+    <Header theme={headerTheme} lang={lang} />
+
+    <main>
+      <slot />
+    </main>
+
+    <Footer lang={lang} />
+    <WhatsAppFloat lang={lang} />
+
+    <script>
+      /* Revelado al hacer scroll: observa todos los .reveal de la página. */
+      function initReveal() {
+        const els = Array.from(document.querySelectorAll<HTMLElement>(".reveal:not(.in)"));
+        if (!els.length) return;
+        if (!("IntersectionObserver" in window)) {
+          els.forEach((el) => el.classList.add("in"));
+          return;
+        }
+
+        // Lo que ya está en el primer viewport se revela de inmediato,
+        // sin esperar al observer (robusto ante pestañas en segundo plano).
+        const vh = window.innerHeight || 800;
+        const inmediatos = els.filter((el) => {
+          const r = el.getBoundingClientRect();
+          return r.top < vh && r.bottom > 0;
+        });
+        inmediatos.forEach((el) => el.classList.add("in"));
+
+        const restantes = els.filter((el) => !el.classList.contains("in"));
+        if (!restantes.length) return;
+
+        const io = new IntersectionObserver(
+          (entries) => {
+            for (const e of entries) {
+              if (e.isIntersecting) {
+                e.target.classList.add("in");
+                io.unobserve(e.target);
+              }
+            }
+          },
+          { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
+        );
+        restantes.forEach((el) => io.observe(el));
+      }
+
+      document.addEventListener("astro:page-load", initReveal);
+      initReveal();
+    </script>
+  </body>
+</html>

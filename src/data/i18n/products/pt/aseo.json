@@ -1,0 +1,254 @@
+[
+  {
+    "id": "acido-sulfonico-lineal",
+    "nombre": "Ácido Sulfônico Linear (LABSA)",
+    "sinonimos": ["LABSA", "Ácido dodecilbenzeno sulfônico linear", "Sulfônico linear"],
+    "descripcion": "Tensoativo aniônico de alto poder detergente e espumante, base da maioria dos detergentes líquidos e em pó do mercado. É neutralizado com soda cáustica ou outras bases para formar o sulfonato ativo da fórmula. É a matéria-prima de referência para detergentes lava-louças, detergentes multiuso e desengraxantes de uso doméstico e institucional.",
+    "funciones": ["Tensoativo aniônico", "Detergente", "Espumante"],
+    "aplicaciones": ["Detergentes líquidos e em pó", "Detergentes lava-louças", "Desengraxantes multiuso", "Limpadores institucionais"],
+    "formas_referenciales": ["Líquido viscoso — tom âmbar variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "lauril-eter-sulfato-de-sodio",
+    "nombre": "Lauril Éter Sulfato de Sódio",
+    "sinonimos": ["SLES", "LESS", "Lauriléter sulfato de sódio"],
+    "descripcion": "Tensoativo aniônico versátil, apreciado por sua capacidade espumante e sua compatibilidade com outros tensoativos. Responde bem ao espessamento com sal, o que facilita formular produtos de viscosidade atraente a baixo custo. Utilizado em detergentes lava-louças, sabonetes líquidos, xampus e limpadores multiuso.",
+    "funciones": ["Tensoativo aniônico", "Espumante", "Base de detergentes líquidos"],
+    "aplicaciones": ["Detergentes lava-louças líquidos", "Sabonetes líquidos para as mãos", "Xampus e géis de banho", "Limpadores multiuso"],
+    "formas_referenciales": ["Pasta ou líquido viscoso, conforme o grau e o fabricante"]
+  },
+  {
+    "id": "lauril-sulfato-de-sodio",
+    "nombre": "Lauril Sulfato de Sódio",
+    "sinonimos": ["SLS", "Dodecil sulfato de sódio", "LSS"],
+    "descripcion": "Tensoativo aniônico de espuma abundante e de rápida formação, com bom poder umectante e detergente em sistemas aquosos. Complementa o lauril éter sulfato em fórmulas que exigem maior volume de espuma. Frequente em detergentes em pó, pastas de limpeza e produtos espumantes.",
+    "funciones": ["Tensoativo aniônico", "Espumante", "Umectante"],
+    "aplicaciones": ["Detergentes em pó", "Pastas e cremes de limpeza", "Xampus e cremes dentais", "Espumantes industriais"],
+    "formas_referenciales": ["Sólido — pó ou agulhas, conforme o fabricante e o lote", "Líquido — solução aquosa, conforme a disponibilidade"]
+  },
+  {
+    "id": "oxido-de-lauramina",
+    "nombre": "Óxido de Lauramina",
+    "sinonimos": ["Lauramina óxida", "Amina óxida láurica", "LDAO"],
+    "descripcion": "Tensoativo anfótero que potencializa e estabiliza a espuma dos sistemas aniônicos e confere viscosidade à fórmula. Destaca-se por sua compatibilidade com quaternários de amônio, o que o torna habitual em limpadores desinfetantes. Utilizado em detergentes lava-louças, limpadores espumantes e produtos de limpeza com biocidas catiônicos.",
+    "funciones": ["Tensoativo anfótero", "Potencializador de espuma", "Espessante"],
+    "aplicaciones": ["Detergentes lava-louças líquidos", "Limpadores desinfetantes com quaternários", "Limpadores espumantes", "Xampus e sabonetes líquidos"],
+    "formas_referenciales": ["Líquido aquoso — transparente a levemente turvo, conforme o lote"]
+  },
+  {
+    "id": "alcohol-graso-etoxilado",
+    "nombre": "Álcool Graxo Etoxilado",
+    "sinonimos": ["Álcool laurílico etoxilado", "Etoxilado de álcool graxo"],
+    "descripcion": "Tensoativo não iônico de excelente poder umectante e desengraxante, com baixa sensibilidade à água dura. É a base de desengraxantes industriais e detergentes líquidos voltados a sujidades gordurosas. Seu caráter não iônico facilita combiná-lo com tensoativos aniônicos e catiônicos na mesma fórmula.",
+    "funciones": ["Tensoativo não iônico", "Desengraxante", "Umectante"],
+    "aplicaciones": ["Desengraxantes industriais", "Detergentes líquidos para roupas", "Limpadores multiuso", "Auxiliares têxteis"],
+    "formas_referenciales": ["Líquido a pasta, conforme o grau de etoxilação, o fabricante e a temperatura"]
+  },
+  {
+    "id": "dietanolamida-de-coco",
+    "nombre": "Dietanolamida de Ácido Graxo de Coco (Amida 90)",
+    "sinonimos": ["Amida 90", "CDEA", "Cocamida DEA"],
+    "descripcion": "Espessante e estabilizante de espuma clássico para sistemas de tensoativos aniônicos. Confere corpo e efeito sobrengordurante a detergentes líquidos e lava-louças, e ajuda a manter a espuma na presença de sujeira gordurosa. Matéria-prima tradicional na indústria de limpeza e de cuidados pessoais.",
+    "funciones": ["Espessante", "Estabilizante de espuma", "Tensoativo não iônico"],
+    "aplicaciones": ["Detergentes lava-louças líquidos", "Detergentes líquidos", "Xampus", "Sabonetes líquidos"],
+    "formas_referenciales": ["Líquido viscoso — tom âmbar variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "alquilpoliglucosido",
+    "nombre": "Alquilpoliglicosídeo (APG)",
+    "sinonimos": ["APG", "Alquil glicosídeo"],
+    "descripcion": "Tensoativo não iônico derivado de glicose e álcoois graxos, com bom perfil de biodegradabilidade. Confere umectação e detergência com baixa agressividade e é estável em meios fortemente alcalinos. Utilizado em limpadores com posicionamento ecológico, desengraxantes alcalinos e fórmulas de cuidados pessoais.",
+    "funciones": ["Tensoativo não iônico", "Umectante", "Detergente"],
+    "aplicaciones": ["Limpadores ecológicos", "Desengraxantes alcalinos", "Lava-louças suaves", "Xampus e géis"],
+    "formas_referenciales": ["Líquido viscoso — tom amarelo a âmbar conforme o fabricante e o lote"]
+  },
+  {
+    "id": "alfa-olefina-sulfonato-de-sodio",
+    "nombre": "Alfa Olefina Sulfonato de Sódio",
+    "sinonimos": ["AOS", "Olefina sulfonato de sódio"],
+    "descripcion": "Tensoativo aniônico com boa detergência e espuma estável mesmo em água dura. Funciona como alternativa ou complemento do sulfonato linear em detergentes em pó e líquidos. Utilizado também em xampus econômicos e produtos espumantes de limpeza.",
+    "funciones": ["Tensoativo aniônico", "Espumante", "Detergente"],
+    "aplicaciones": ["Detergentes em pó", "Detergentes líquidos", "Xampus econômicos", "Espumas de limpeza"],
+    "formas_referenciales": ["Líquido — solução aquosa, conforme o grau do fabricante", "Sólido — pó ou agulhas, conforme a apresentação e o lote"]
+  },
+  {
+    "id": "cloruro-de-benzalconio",
+    "nombre": "Cloreto de Benzalcônio",
+    "sinonimos": ["BKC", "Cloreto de alquil dimetil benzil amônio"],
+    "descripcion": "Quaternário de amônio de amplo uso como ativo em formulações desinfetantes e sanitizantes para superfícies. Confere ainda propriedades tensoativas catiônicas e efeito antiestático à fórmula. Seu emprego em desinfecção é realizado conforme a regulamentação sanitária aplicável.",
+    "funciones": ["Biocida", "Tensoativo catiônico", "Sanitizante"],
+    "aplicaciones": ["Desinfetantes de superfícies", "Limpadores sanitizantes", "Biosseguridade pecuária", "Lavanderia institucional"],
+    "formas_referenciales": ["Líquido — solução aquosa, conforme o grau e o fabricante"]
+  },
+  {
+    "id": "cloruro-de-didecil-dimetil-amonio",
+    "nombre": "Cloreto de Didecil Dimetil Amônio",
+    "sinonimos": ["DDAC"],
+    "descripcion": "Quaternário de amônio de cadeia dupla utilizado como ativo biocida em desinfetantes de superfícies, isolado ou em mistura com cloreto de benzalcônio. Associado a bom desempenho na presença de matéria orgânica e água dura. Seu uso está sujeito à regulamentação sanitária aplicável.",
+    "funciones": ["Biocida", "Sanitizante"],
+    "aplicaciones": ["Desinfetantes institucionais", "Biosseguridade agropecuária", "Sanitização de plantas de processo", "Limpadores desinfetantes"],
+    "formas_referenciales": ["Líquido — solução, conforme o grau e o fabricante"]
+  },
+  {
+    "id": "peroxido-de-hidrogeno",
+    "nombre": "Peróxido de Hidrogênio",
+    "sinonimos": ["Água oxigenada"],
+    "descripcion": "Agente oxidante utilizado como alvejante e como ativo em formulações desinfetantes e sanitizantes. Decompõe-se em água e oxigênio, o que o torna atraente em fórmulas de baixo residual. Empregado em limpeza institucional, lavanderia e processos industriais conforme a regulamentação aplicável.",
+    "funciones": ["Oxidante", "Alvejante", "Ativo desinfetante"],
+    "aplicaciones": ["Desinfetantes de superfícies", "Alvejamento de roupas", "Sanitização institucional", "Alvejamento têxtil"],
+    "formas_referenciales": ["Líquido — solução aquosa, conforme o grau disponível"]
+  },
+  {
+    "id": "acido-peracetico",
+    "nombre": "Ácido Peracético",
+    "sinonimos": ["PAA", "Ácido peroxiacético"],
+    "descripcion": "Oxidante potente utilizado como sanitizante na indústria de alimentos e bebidas e na desinfecção institucional. Atua em baixa temperatura e degrada-se em subprodutos de baixo impacto ambiental. Sua manipulação e dosagem são realizadas conforme a regulamentação aplicável e as recomendações do fabricante.",
+    "funciones": ["Sanitizante", "Oxidante"],
+    "aplicaciones": ["Sanitização CIP em alimentos e bebidas", "Desinfecção de equipamentos e superfícies", "Biosseguridade agroindustrial", "Tratamento de águas de processo"],
+    "formas_referenciales": ["Líquido — solução de equilíbrio, conforme o grau e o fabricante"]
+  },
+  {
+    "id": "hipoclorito-de-sodio",
+    "nombre": "Hipoclorito de Sódio",
+    "sinonimos": ["Cloro líquido", "Alvejante líquido"],
+    "descripcion": "Fonte de cloro ativo de maior uso em alvejantes e desinfetantes líquidos de tipo doméstico e institucional. Matéria-prima base para águas sanitárias comerciais, limpadores clorados e aplicações de tratamento de águas. O teor de cloro disponível varia com o tempo e as condições de armazenamento, por isso recomenda-se verificar o certificado de análise (CoA) do lote.",
+    "funciones": ["Alvejante clorado", "Ativo desinfetante"],
+    "aplicaciones": ["Alvejantes domésticos", "Limpadores clorados", "Desinfecção institucional", "Tratamento de águas"],
+    "formas_referenciales": ["Líquido — solução aquosa; concentração variável conforme o lote e o armazenamento"]
+  },
+  {
+    "id": "dicloroisocianurato-de-sodio",
+    "nombre": "Dicloroisocianurato de Sódio",
+    "sinonimos": ["NaDCC", "Troclosene sódico"],
+    "descripcion": "Fonte orgânica de cloro estabilizado, valorizada por sua facilidade de dosagem e sua boa estabilidade no armazenamento. Libera cloro ativo de forma controlada ao se dissolver em água. Utilizado em desinfetantes de superfícies, potabilização de emergência e sanitização institucional, conforme a regulamentação aplicável.",
+    "funciones": ["Fonte de cloro estabilizado", "Ativo desinfetante"],
+    "aplicaciones": ["Desinfetantes de superfícies", "Potabilização de água", "Sanitização hospitalar e institucional", "Biosseguridade pecuária"],
+    "formas_referenciales": ["Sólido — granulado ou tabletes, conforme a apresentação do fabricante e o lote"]
+  },
+  {
+    "id": "glutaraldehido",
+    "nombre": "Glutaraldeído",
+    "sinonimos": ["Glutaral", "Pentanodial"],
+    "descripcion": "Aldeído utilizado como ativo biocida em desinfetantes de uso institucional, agroindustrial e veterinário. Frequente em misturas com quaternários de amônio para ampliar o espectro de ação da fórmula. Seu uso está sujeito à regulamentação sanitária aplicável e às recomendações de manuseio do fabricante.",
+    "funciones": ["Biocida", "Ativo desinfetante"],
+    "aplicaciones": ["Desinfetantes institucionais", "Biosseguridade avícola e suinícola", "Sanitização de veículos e equipamentos", "Misturas com quaternários de amônio"],
+    "formas_referenciales": ["Líquido — solução aquosa, conforme o grau do fabricante"]
+  },
+  {
+    "id": "mezcla-de-isotiazolinonas-cmit-mit",
+    "nombre": "Mistura de Isotiazolinonas (CMIT/MIT)",
+    "sinonimos": ["CMIT/MIT", "Isotiazolinonas"],
+    "descripcion": "Mistura de isotiazolinonas utilizada como conservante de amplo espectro para proteger detergentes, sabonetes líquidos e limpadores aquosos durante sua vida útil. Associada à proteção contra bactérias, fungos e leveduras na embalagem em baixas doses de uso. Sua dosagem é realizada conforme a regulamentação aplicável.",
+    "funciones": ["Conservante", "Biocida de embalagem"],
+    "aplicaciones": ["Detergentes líquidos", "Sabonetes líquidos", "Limpadores multiuso", "Amaciantes de roupas"],
+    "formas_referenciales": ["Líquido — transparente a levemente amarelado, conforme o lote"]
+  },
+  {
+    "id": "soda-caustica",
+    "nombre": "Soda Cáustica",
+    "sinonimos": ["Hidróxido de sódio", "NaOH"],
+    "descripcion": "Álcali fundamental da indústria de limpeza: saponifica gorduras, neutraliza ácidos sulfônicos e ajusta o pH de todo tipo de fórmulas. É a base de desengraxantes fortes, desentupidores de tubulações e limpadores CIP da indústria de alimentos. Matéria-prima de alto giro na fabricação de sabões e detergentes.",
+    "funciones": ["Álcali", "Neutralizante", "Saponificante", "Regulador de pH"],
+    "aplicaciones": ["Neutralização de ácido sulfônico", "Desengraxantes fortes", "Desentupidores de tubulações", "Limpeza CIP", "Fabricação de sabões"],
+    "formas_referenciales": ["Sólido — escamas, pérolas ou micropérolas, conforme o fabricante e o lote", "Líquido — solução aquosa, conforme a disponibilidade"]
+  },
+  {
+    "id": "potasa-caustica",
+    "nombre": "Potassa Cáustica",
+    "sinonimos": ["Hidróxido de potássio", "KOH"],
+    "descripcion": "Álcali de alta solubilidade utilizado na elaboração de sabões líquidos e potássicos, desengraxantes e limpadores industriais. Produz sabões mais solúveis e de saponificação mais rápida que a soda cáustica. Empregado também para ajuste de pH em fórmulas líquidas concentradas.",
+    "funciones": ["Álcali", "Saponificante", "Regulador de pH"],
+    "aplicaciones": ["Sabões líquidos e potássicos", "Desengraxantes industriais", "Limpadores concentrados", "Ajuste de pH"],
+    "formas_referenciales": ["Sólido — escamas ou pérolas, conforme o fabricante e o lote", "Líquido — solução aquosa, conforme a disponibilidade"]
+  },
+  {
+    "id": "metasilicato-de-sodio",
+    "nombre": "Metassilicato de Sódio",
+    "sinonimos": ["Metassilicato sódico"],
+    "descripcion": "Álcali construtor que confere alcalinidade, poder desengraxante e dispersão da sujeira em detergentes em pó e líquidos. Contribui para proteger superfícies metálicas sensíveis durante a limpeza alcalina. Utilizado em desengraxantes industriais, detergentes para lavagem mecânica de louças e limpadores de alto pH.",
+    "funciones": ["Builder alcalino", "Desengraxante", "Protetor de superfícies metálicas"],
+    "aplicaciones": ["Detergentes para máquinas lava-louças industriais", "Desengraxantes alcalinos", "Detergentes em pó", "Limpeza de pisos industriais"],
+    "formas_referenciales": ["Sólido — granulado ou pó, em grau penta-hidratado ou anidro conforme o fabricante e o lote"]
+  },
+  {
+    "id": "tripolifosfato-de-sodio",
+    "nombre": "Tripolifosfato de Sódio",
+    "sinonimos": ["STPP", "Trifosfato pentassódico", "INS 451"],
+    "descripcion": "Builder clássico da detergência: sequestra a dureza da água, dispersa a sujeira e ajuda a evitar sua redeposição sobre os tecidos. Potencializa o desempenho dos tensoativos em detergentes em pó, líquidos e limpadores institucionais. Sua incorporação ajusta-se às regulamentações locais sobre fosfatos.",
+    "funciones": ["Builder", "Sequestrante", "Dispersante", "Antirredeposição"],
+    "aplicaciones": ["Detergentes em pó", "Detergentes institucionais", "Limpadores alcalinos", "Formulações para lavagem industrial"],
+    "formas_referenciales": ["Sólido — granulado ou pó, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "percarbonato-de-sodio",
+    "nombre": "Percarbonato de Sódio",
+    "sinonimos": ["Alvejante de oxigênio", "Carbonato de sódio peroxi-hidratado"],
+    "descripcion": "Alvejante sólido de oxigênio ativo que libera peróxido de hidrogênio ao se dissolver em água. É a base dos tira-manchas de oxigênio ativo, dos potencializadores de lavagem e dos detergentes com alvejante incorporado. Ativo em temperaturas moderadas, especialmente em combinação com ativadores de alvejamento.",
+    "funciones": ["Alvejante de oxigênio", "Tira-manchas", "Higienizante de lavagem"],
+    "aplicaciones": ["Tira-manchas de oxigênio ativo", "Detergentes em pó com alvejante", "Potencializadores de lavagem", "Lavanderia institucional"],
+    "formas_referenciales": ["Sólido — granulado, revestido ou não revestido conforme o fabricante e o lote"]
+  },
+  {
+    "id": "sulfato-de-sodio",
+    "nombre": "Sulfato de Sódio",
+    "sinonimos": ["Sulfato de sódio anidro"],
+    "descripcion": "Sal inorgânico utilizado como carga e agente de fluidez em detergentes em pó, e como regulador de viscosidade em sistemas líquidos de tensoativos aniônicos. Confere volume e fluidez ao produto acabado a baixo custo. Matéria-prima padrão na indústria de detergentes e no tingimento têxtil.",
+    "funciones": ["Carga", "Regulador de viscosidade", "Agente de fluidez"],
+    "aplicaciones": ["Detergentes em pó", "Ajuste de viscosidade em líquidos", "Auxiliar de tingimento têxtil"],
+    "formas_referenciales": ["Sólido — pó ou granulado, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "edta-tetrasodico",
+    "nombre": "EDTA Tetrassódico",
+    "sinonimos": ["EDTA-4Na", "Sal tetrassódico de EDTA", "Tetrassódio EDTA"],
+    "descripcion": "Quelante de referência em detergência: sequestra cálcio, magnésio e metais de transição que interferem nos tensoativos e nos alvejantes. Melhora o desempenho das fórmulas em água dura e contribui para sua estabilidade. Utilizado em detergentes líquidos, limpadores alcalinos e produtos institucionais.",
+    "funciones": ["Quelante", "Sequestrante", "Estabilizante de fórmula"],
+    "aplicaciones": ["Detergentes líquidos", "Limpadores alcalinos", "Sabões e lava-louças", "Auxiliares têxteis"],
+    "formas_referenciales": ["Sólido — pó ou granulado, conforme o fabricante e o lote", "Líquido — solução aquosa, conforme a disponibilidade"]
+  },
+  {
+    "id": "gluconato-de-sodio",
+    "nombre": "Gluconato de Sódio",
+    "sinonimos": ["Gliconato de sódio"],
+    "descripcion": "Quelante de origem biotecnológica com desempenho muito bom em meios fortemente alcalinos, onde sequestra cálcio e ferro. Por sua biodegradabilidade, é uma alternativa aos fosfatos e ao EDTA em limpadores alcalinos. Utilizado em limpeza CIP, desengraxantes de alto pH e lavagem de garrafas.",
+    "funciones": ["Quelante", "Sequestrante em meio alcalino"],
+    "aplicaciones": ["Limpeza CIP", "Desengraxantes alcalinos", "Lavagem de garrafas", "Limpadores institucionais"],
+    "formas_referenciales": ["Sólido — pó ou granulado, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "proteasa-alcalina-para-detergentes",
+    "nombre": "Protease Alcalina para Detergentes",
+    "sinonimos": ["Enzima proteolítica", "Subtilisina"],
+    "descripcion": "Enzima que degrada manchas de origem proteica como sangue, ovo, leite e suor durante a lavagem de roupas. Permite formular detergentes de bom desempenho em baixa temperatura, reduzindo o consumo energético da lavagem. Utilizada em detergentes em pó, líquidos e produtos enzimáticos de pré-lavagem.",
+    "funciones": ["Enzima detergente", "Removedor de manchas proteicas"],
+    "aplicaciones": ["Detergentes em pó", "Detergentes líquidos", "Produtos de pré-lavagem e tira-manchas", "Lavanderia institucional"],
+    "formas_referenciales": ["Sólido — granulado encapsulado, conforme o fabricante e o lote", "Líquido — concentrado enzimático, conforme a disponibilidade"]
+  },
+  {
+    "id": "carboximetilcelulosa-de-sodio",
+    "nombre": "Carboximetilcelulose de Sódio",
+    "sinonimos": ["CMC", "Goma de celulose"],
+    "descripcion": "Polímero derivado de celulose utilizado como agente antirredeposição em detergentes para roupas: mantém a sujeira suspensa na água de lavagem e ajuda a evitar que retorne ao tecido. Confere ainda viscosidade e estabilidade a fórmulas líquidas. Utilizado em detergentes em pó, líquidos e sabões de lavar roupa.",
+    "funciones": ["Antirredeposição", "Espessante", "Estabilizante"],
+    "aplicaciones": ["Detergentes em pó", "Detergentes líquidos", "Sabões em barra para roupas", "Auxiliares têxteis"],
+    "formas_referenciales": ["Sólido — pó ou granulado, conforme o grau e o fabricante"]
+  },
+  {
+    "id": "abrillantador-optico-para-detergentes",
+    "nombre": "Branqueador Óptico para Detergentes",
+    "sinonimos": ["Alvejante óptico", "Agente branqueador fluorescente"],
+    "descripcion": "Agente branqueador fluorescente que absorve luz ultravioleta e a reemite como luz azul visível, melhorando a percepção de brancura dos tecidos. É um componente clássico dos detergentes para roupas brancas. O tipo de branqueador é selecionado conforme o substrato têxtil e o processo de lavagem.",
+    "funciones": ["Branqueador óptico", "Melhorador de brancura"],
+    "aplicaciones": ["Detergentes em pó", "Detergentes líquidos", "Sabões de lavar roupa", "Acabamentos têxteis"],
+    "formas_referenciales": ["Sólido — pó ou granulado, conforme o tipo, o fabricante e o lote"]
+  },
+  {
+    "id": "esterquat",
+    "nombre": "Esterquat",
+    "sinonimos": ["Quaternário de éster", "Base para amaciante de roupas"],
+    "descripcion": "Ativo catiônico para amaciantes de roupas, com perfil de biodegradabilidade mais favorável que o dos quaternários tradicionais. Confere maciez, controle de estática e facilidade de passadoria aos tecidos. É a base dos amaciantes concentrados e diluídos do mercado atual.",
+    "funciones": ["Amaciante", "Antiestático", "Condicionador de tecidos"],
+    "aplicaciones": ["Amaciantes de roupas concentrados", "Amaciantes diluídos", "Acabamentos têxteis", "Lavanderia institucional"],
+    "formas_referenciales": ["Sólido — pastilhas ou escamas, conforme o fabricante e o lote", "Pasta a líquido viscoso conforme o grau e a temperatura"]
+  }
+]

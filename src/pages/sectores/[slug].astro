@@ -1,0 +1,12 @@
+---
+import Segmento from "../../paginas/Segmento.astro";
+import { sectoresCopy } from "../../i18n";
+
+export function getStaticPaths() {
+  return sectoresCopy("es").map((copy) => ({ params: { slug: copy.slug }, props: { copy } }));
+}
+
+const { copy } = Astro.props;
+---
+
+<Segmento copy={copy} lang="es" />

@@ -1,0 +1,34 @@
+---
+import Icon from "./Icon.astro";
+import { waLink } from "../data/site";
+import { DEFAULT_LOCALE, rutaLocal, type Locale } from "../i18n/config";
+import { t } from "../i18n";
+
+/** Botones flotantes: pagos PSE + WhatsApp (canal comercial principal). */
+interface Props {
+  lang?: Locale;
+}
+const { lang = DEFAULT_LOCALE } = Astro.props;
+const dict = t(lang);
+---
+
+<div class="fixed right-4 bottom-4 z-40 flex flex-col items-center gap-3 sm:right-6 sm:bottom-6">
+  <a
+    href={rutaLocal(lang, "/pagos")}
+    aria-label={dict.flotante.pseAria}
+    title={dict.flotante.pseTitulo}
+    class="grid h-11 w-11 place-items-center rounded-full bg-ink-900 text-[10px] font-bold tracking-wide text-accent-300 shadow-lg ring-1 ring-white/20 transition-transform duration-300 hover:scale-110"
+  >
+    PSE
+  </a>
+  <a
+    href={waLink(dict.meta.waBase)}
+    target="_blank"
+    rel="noopener"
+    aria-label={dict.flotante.waAria}
+    title={dict.flotante.waAria}
+    class="grid h-14 w-14 animate-pulse-soft place-items-center rounded-full bg-[#25d366] text-white shadow-xl transition-transform duration-300 hover:scale-110"
+  >
+    <Icon name="whatsapp" class="h-7 w-7" />
+  </a>
+</div>

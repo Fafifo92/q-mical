@@ -1,0 +1,290 @@
+[
+  {
+    "id": "extracto-glicolico-calendula",
+    "nombre": "Extrait Glycolique de Calendula",
+    "sinonimos": ["Extrait hydroglycolique de calendula", "Extrait de fleur de souci officinal"],
+    "descripcion": "Extrait obtenu à partir des fleurs de calendula dans un véhicule glycolique, traditionnellement associé à un effet adoucissant et conditionneur sur la peau. Il s'incorpore dans la phase aqueuse des émulsions, gels et produits de bain. C'est un classique de la cosmétique naturelle, très demandé dans les formulations pour peaux sensibles et les produits pour bébé.",
+    "funciones": ["Extrait botanique conditionneur", "Adoucissant cutané"],
+    "aplicaciones": ["Crèmes et lotions", "Produits pour bébé", "Shampooings et gels de bain", "Cosmétique pour peaux sensibles"],
+    "formas_referenciales": ["Liquide — teinte allant du jaune à l'ambré, variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "extracto-glicolico-manzanilla",
+    "nombre": "Extrait Glycolique de Camomille",
+    "sinonimos": ["Extrait de camomille matricaire", "Extrait hydroglycolique de camomille"],
+    "descripcion": "Extrait hydroglycolique de fleurs de camomille, apprécié dans les formulations pour peaux délicates pour son caractère adoucissant. Il s'utilise dans la phase aqueuse des crèmes, toniques, shampooings et produits capillaires associés aux reflets clairs. Sa reconnaissance par le consommateur en fait un argument de vente d'origine botanique.",
+    "funciones": ["Extrait botanique adoucissant", "Conditionneur cutané"],
+    "aplicaciones": ["Toniques et lotions pour le visage", "Shampooings et après-shampooings", "Produits pour bébé", "Crèmes corporelles"],
+    "formas_referenciales": ["Liquide — teinte allant du jaune à l'ambré, variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "extracto-glicolico-aloe-vera",
+    "nombre": "Extrait Glycolique d'Aloe Vera",
+    "sinonimos": ["Extrait d'aloès", "Extrait hydroglycolique d'aloe vera"],
+    "descripcion": "Extrait de feuille d'aloe vera dans un véhicule glycolique, associé à un effet hydratant et rafraîchissant sur la peau. Il s'incorpore facilement dans la phase aqueuse des gels, émulsions et produits capillaires. Très utilisé dans les formulations après-soleil, les savons liquides et les gammes de soin quotidien.",
+    "funciones": ["Humectant", "Extrait botanique conditionneur"],
+    "aplicaciones": ["Gels et produits après-soleil", "Savons liquides", "Crèmes et lotions", "Produits capillaires"],
+    "formas_referenciales": ["Liquide — incolore à légèrement ambré, selon le fabricant et le lot"]
+  },
+  {
+    "id": "extracto-glicolico-te-verde",
+    "nombre": "Extrait Glycolique de Thé Vert",
+    "sinonimos": ["Extrait de feuilles de thé vert"],
+    "descripcion": "Extrait de feuilles de thé vert dans un véhicule glycolique, associé à un profil antioxydant grâce à sa teneur naturelle en polyphénols. Il s'utilise dans des formulations visage, corps et capillaires destinées au soin des peaux exposées aux facteurs environnementaux. Il apporte un positionnement botanique reconnu dans les gammes anti-âge et de protection urbaine.",
+    "funciones": ["Antioxydant d'origine botanique", "Conditionneur cutané"],
+    "aplicaciones": ["Crèmes pour le visage", "Sérums et gels", "Produits capillaires", "Lotions corporelles"],
+    "formas_referenciales": ["Liquide — teinte allant de l'ambré au brun, variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "extracto-glicolico-romero",
+    "nombre": "Extrait Glycolique de Romarin",
+    "sinonimos": ["Extrait de feuilles de romarin"],
+    "descripcion": "Extrait de feuilles de romarin, traditionnellement associé à la vitalité du cuir chevelu et à un profil antioxydant. En cosmétique, il s'utilise dans les toniques capillaires, shampooings et lotions ; dans l'alimentaire, certains extraits de romarin s'emploient comme antioxydant naturel conformément à la réglementation applicable. Un botanique polyvalent avec une forte tradition sur le marché latino-américain.",
+    "funciones": ["Extrait botanique tonifiant", "Antioxydant d'origine botanique"],
+    "aplicaciones": ["Shampooings et toniques capillaires", "Lotions corporelles", "Formulations alimentaires conformément à la réglementation", "Gels de massage"],
+    "formas_referenciales": ["Liquide — teinte allant de l'ambré au verdâtre, variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "extracto-glicolico-centella-asiatica",
+    "nombre": "Extrait Glycolique de Centella Asiatica",
+    "sinonimos": ["Extrait de gotu kola", "Extrait d'hydrocotyle"],
+    "descripcion": "Extrait de centella asiatica dans un véhicule glycolique, très utilisé dans les formulations de soin corporel et visage associées à l'apparence de fermeté de la peau. C'est un ingrédient emblématique des gammes raffermissantes, anticellulite à usage cosmétique et de soin des peaux malmenées. Compatible avec la phase aqueuse des émulsions et gels.",
+    "funciones": ["Extrait botanique conditionneur", "Actif cosmétique de soin corporel"],
+    "aplicaciones": ["Crèmes corporelles raffermissantes", "Gels de massage", "Crèmes pour le visage", "Produits pour le contour des yeux"],
+    "formas_referenciales": ["Liquide — teinte allant du jaune au brun, variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "extracto-hamamelis",
+    "nombre": "Extrait d'Hamamélis",
+    "sinonimos": ["Witch hazel", "Extrait d'hamamélis de Virginie"],
+    "descripcion": "Extrait botanique d'hamamélis, apprécié en cosmétique pour son caractère astringent et tonifiant. Il s'utilise dans les toniques pour le visage, les lotions après-rasage et les produits pour peaux à tendance grasse. Sa tradition d'usage en fait un ingrédient reconnu dans les formulations de nettoyage et d'équilibre de la peau.",
+    "funciones": ["Astringent cosmétique", "Tonifiant cutané"],
+    "aplicaciones": ["Toniques pour le visage", "Lotions après-rasage", "Produits pour peaux grasses", "Lingettes et eaux micellaires"],
+    "formas_referenciales": ["Liquide — incolore à ambré, selon le fabricant et le lot"]
+  },
+  {
+    "id": "extracto-glicolico-avena",
+    "nombre": "Extrait Glycolique d'Avoine",
+    "sinonimos": ["Extrait de grains d'avoine", "Extrait hydroglycolique d'avoine"],
+    "descripcion": "Extrait de grains d'avoine dans un véhicule glycolique, traditionnellement associé à un effet adoucissant et protecteur de la peau. C'est un ingrédient habituel des savons, crèmes et shampooings pour peaux délicates, ainsi que des produits d'hygiène pour animaux de compagnie. Il s'incorpore dans la phase aqueuse de la formulation.",
+    "funciones": ["Adoucissant cutané", "Conditionneur"],
+    "aplicaciones": ["Savons et syndets", "Crèmes pour peaux sensibles", "Shampooings pour animaux de compagnie", "Produits pour bébé"],
+    "formas_referenciales": ["Liquide — teinte allant du jaune au brun clair, variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "extracto-glicolico-pepino",
+    "nombre": "Extrait Glycolique de Concombre",
+    "sinonimos": ["Extrait de fruit de concombre"],
+    "descripcion": "Extrait du fruit du concombre dans un véhicule glycolique, associé à une sensation rafraîchissante et hydratante. Très utilisé dans les gels pour le contour des yeux, les masques et les toniques pour le visage des gammes fraîches et légères. Il apporte un positionnement naturel facile à communiquer au consommateur.",
+    "funciones": ["Rafraîchissant cosmétique", "Humectant"],
+    "aplicaciones": ["Gels pour le contour des yeux", "Masques pour le visage", "Toniques et brumes", "Lotions légères"],
+    "formas_referenciales": ["Liquide — incolore à verdâtre pâle, selon le fabricant et le lot"]
+  },
+  {
+    "id": "concentrado-aloe-vera",
+    "nombre": "Concentré d'Aloe Vera",
+    "sinonimos": ["Jus concentré d'aloe vera", "Concentré de gel d'aloès"],
+    "descripcion": "Jus concentré obtenu à partir de la feuille d'aloe vera, conçu pour être reconstitué dans la phase aqueuse de la formulation. En cosmétique, il s'emploie dans les gels, lotions et produits capillaires hydratants ; dans les aliments et boissons, son usage s'effectue conformément à la réglementation applicable. Il permet de doser l'aloès de manière efficace en production industrielle.",
+    "funciones": ["Humectant", "Base botanique pour phase aqueuse"],
+    "aplicaciones": ["Gels d'aloe vera", "Lotions et crèmes", "Boissons conformément à la réglementation", "Produits capillaires"],
+    "formas_referenciales": ["Liquide — viscosité et teinte variables selon le degré de concentration du fabricant et le lot"]
+  },
+  {
+    "id": "aloe-vera-polvo",
+    "nombre": "Aloe Vera en Poudre",
+    "sinonimos": ["Poudre de jus d'aloe vera", "Aloès déshydraté"],
+    "descripcion": "Poudre obtenue par déshydratation du jus de la feuille d'aloe vera, conçue pour être reconstituée dans l'eau au cours du processus de production. Elle facilite le stockage et le transport par rapport au jus frais, avec un dosage flexible en cosmétique, dans les aliments et les compléments conformément à la réglementation applicable. Il est recommandé de vérifier le facteur de reconstitution dans la fiche technique du lot.",
+    "funciones": ["Humectant", "Base botanique déshydratée"],
+    "aplicaciones": ["Gels et émulsions cosmétiques", "Boissons et aliments conformément à la réglementation", "Compléments conformément à la réglementation", "Shampooings et savons"],
+    "formas_referenciales": ["Solide — poudre, granulométrie et teinte variables selon le fabricant et le lot"]
+  },
+  {
+    "id": "aceite-coco",
+    "nombre": "Huile de Coco",
+    "sinonimos": ["Huile de coprah"],
+    "descripcion": "Huile végétale obtenue à partir de la pulpe de la noix de coco, largement utilisée comme émollient en savonnerie, dans les crèmes et les produits capillaires. Son profil gras en fait une matière première de base en saponification et dans les formules de conditionnement. Dans l'alimentaire, elle s'emploie conformément à la réglementation applicable.",
+    "funciones": ["Émollient", "Base grasse pour savonnerie", "Conditionneur capillaire"],
+    "aplicaciones": ["Savons en pain", "Crèmes et beurres corporels", "Produits capillaires", "Aliments conformément à la réglementation"],
+    "formas_referenciales": ["Solide à liquide selon la température ambiante — point de fusion bas ; apparence variable selon le fabricant, l'origine et le lot"]
+  },
+  {
+    "id": "aceite-almendras-dulces",
+    "nombre": "Huile d'Amande Douce",
+    "sinonimos": ["Huile d'amandes douces"],
+    "descripcion": "Huile végétale classique de la cosmétique, appréciée pour son toucher doux et sa bonne étalabilité sur la peau. C'est la base traditionnelle des huiles de massage et des produits pour bébé, ainsi qu'un émollient polyvalent dans les émulsions. Compatible avec la plupart des phases grasses cosmétiques.",
+    "funciones": ["Émollient", "Huile support pour massage"],
+    "aplicaciones": ["Huiles de massage", "Produits pour bébé", "Crèmes et lotions", "Huiles corporelles"],
+    "formas_referenciales": ["Liquide huileux — teinte allant du jaune pâle au doré, variable selon l'origine et le lot"]
+  },
+  {
+    "id": "aceite-jojoba",
+    "nombre": "Huile de Jojoba",
+    "sinonimos": ["Cire liquide de jojoba"],
+    "descripcion": "Cire liquide végétale de composition proche du sébum naturel de la peau, appréciée pour son toucher sec et sa grande stabilité par rapport aux autres huiles. Elle s'utilise comme émollient dans les formules pour le visage, les cheveux et la barberie. Sa stabilité la rend adaptée aux produits à durée de vie exigeante.",
+    "funciones": ["Émollient au toucher sec", "Conditionneur peau et cheveux"],
+    "aplicaciones": ["Sérums pour le visage", "Huiles à barbe", "Après-shampooings", "Cosmétique pour le visage"],
+    "formas_referenciales": ["Liquide huileux — teinte allant du jaune au doré, variable selon le raffinage, l'origine et le lot"]
+  },
+  {
+    "id": "aceite-rosa-mosqueta",
+    "nombre": "Huile de Rose Musquée",
+    "sinonimos": ["Huile de graines de rose musquée", "Rosehip oil"],
+    "descripcion": "Huile obtenue à partir des graines de rose musquée, emblème de la cosmétique sud-américaine et traditionnellement associée au soin de l'apparence de la peau. Naturellement riche en acides gras insaturés, elle s'utilise dans les sérums, huiles pour le visage et produits pour peaux matures ou présentant des marques visibles. Un ingrédient à haute valeur perçue dans les gammes premium.",
+    "funciones": ["Émollient", "Actif cosmétique de soin du visage"],
+    "aplicaciones": ["Sérums et huiles pour le visage", "Crèmes anti-âge", "Produits cosmétiques pour l'apparence des cicatrices", "Huiles corporelles"],
+    "formas_referenciales": ["Liquide huileux — teinte allant de l'orangé au rougeâtre, variable selon le raffinage, l'origine et le lot"]
+  },
+  {
+    "id": "aceite-aguacate",
+    "nombre": "Huile d'Avocat",
+    "sinonimos": ["Huile de pulpe d'avocat"],
+    "descripcion": "Huile végétale de pulpe d'avocat, appréciée comme émollient nourrissant en cosmétique capillaire et corporelle. La Colombie et la région andine sont une origine croissante de cette matière première, ce qui facilite des chaînes d'approvisionnement de proximité. Dans l'alimentaire, elle s'emploie conformément à la réglementation applicable.",
+    "funciones": ["Émollient nourrissant", "Conditionneur capillaire"],
+    "aplicaciones": ["Masques et soins capillaires", "Crèmes corporelles", "Savonnerie artisanale", "Aliments conformément à la réglementation"],
+    "formas_referenciales": ["Liquide huileux — teinte allant du vert au jaune selon le degré de raffinage, l'origine et le lot"]
+  },
+  {
+    "id": "aceite-ricino",
+    "nombre": "Huile de Ricin",
+    "sinonimos": ["Castor oil", "Huile de graine de ricin"],
+    "descripcion": "Huile végétale de haute viscosité obtenue à partir de la graine de ricin, avec une grande tradition d'usage dans les produits capillaires, les rouges à lèvres et la savonnerie. Son caractère dense et brillant la rend habituelle en maquillage et dans les formules pour sourcils et cils à usage cosmétique. Elle possède également des applications techniques comme matière première oléochimique.",
+    "funciones": ["Émollient de haute viscosité", "Agent de brillance pour rouges à lèvres", "Base oléochimique"],
+    "aplicaciones": ["Rouges à lèvres et gloss", "Produits capillaires", "Savons", "Applications industrielles oléochimiques"],
+    "formas_referenciales": ["Liquide visqueux — incolore à jaune pâle, selon le raffinage et le lot"]
+  },
+  {
+    "id": "aceite-ajonjoli",
+    "nombre": "Huile de Sésame",
+    "sinonimos": ["Huile de graines de sésame"],
+    "descripcion": "Huile végétale de graines de sésame, dotée d'une bonne stabilité naturelle et d'une tradition d'usage dans les massages et le soin corporel. Comme émollient, elle apporte un toucher nourri sans être excessivement lourde. Dans l'alimentaire, elle s'utilise conformément à la réglementation applicable.",
+    "funciones": ["Émollient", "Huile support pour massage"],
+    "aplicaciones": ["Huiles de massage", "Crèmes et lotions corporelles", "Savonnerie", "Aliments conformément à la réglementation"],
+    "formas_referenciales": ["Liquide huileux — teinte allant du jaune au doré, variable selon la torréfaction, le raffinage et le lot"]
+  },
+  {
+    "id": "aceite-sacha-inchi",
+    "nombre": "Huile de Sacha Inchi",
+    "sinonimos": ["Huile de graines de sacha inchi", "Cacahuète des Incas"],
+    "descripcion": "Huile amazonienne obtenue à partir de la graine de sacha inchi, naturellement riche en acides gras oméga. C'est un ambassadeur de la biodiversité de la Colombie et de l'Amazonie, avec une demande croissante en cosmétique capillaire, pour le visage et dans le secteur nutraceutique conformément à la réglementation applicable. Elle apporte un récit d'origine durable très valorisé dans les gammes naturelles.",
+    "funciones": ["Émollient nourrissant", "Huile riche en oméga", "Conditionneur capillaire"],
+    "aplicaciones": ["Sérums et huiles pour le visage", "Soins capillaires", "Compléments conformément à la réglementation", "Cosmétique naturelle amazonienne"],
+    "formas_referenciales": ["Liquide huileux — teinte allant du jaune au doré, variable selon l'origine et le lot"]
+  },
+  {
+    "id": "aceite-macadamia",
+    "nombre": "Huile de Macadamia",
+    "sinonimos": ["Huile de noix de macadamia"],
+    "descripcion": "Huile végétale de noix de macadamia, appréciée pour son toucher soyeux et son absorption rapide dans la peau. Son profil la positionne dans les formules capillaires et pour le visage au fini léger. La Colombie dispose de sa propre production de macadamia, ce qui favorise l'approvisionnement régional.",
+    "funciones": ["Émollient à absorption rapide", "Conditionneur peau et cheveux"],
+    "aplicaciones": ["Huiles et sérums capillaires", "Crèmes pour le visage", "Lotions corporelles", "Produits pour pointes fourchues"],
+    "formas_referenciales": ["Liquide huileux — teinte allant du jaune pâle au doré, selon le raffinage et le lot"]
+  },
+  {
+    "id": "manteca-karite",
+    "nombre": "Beurre de Karité",
+    "sinonimos": ["Shea butter"],
+    "descripcion": "Beurre végétal obtenu à partir de la noix de l'arbre à karité, référence mondiale comme émollient nourrissant en cosmétique. Il apporte du corps et une sensation protectrice dans les crèmes, beurres corporels et rouges à lèvres. Disponible en qualités raffinée et non raffinée, avec des caractéristiques à confirmer dans la fiche technique du lot.",
+    "funciones": ["Émollient nourrissant", "Agent de consistance"],
+    "aplicaciones": ["Beurres corporels", "Rouges à lèvres et baumes", "Crèmes pour les mains et les pieds", "Soins capillaires"],
+    "formas_referenciales": ["Solide — beurre de texture et de teinte ivoire à jaunâtre variables selon le raffinage, l'origine et le lot"]
+  },
+  {
+    "id": "manteca-cacao",
+    "nombre": "Beurre de Cacao",
+    "sinonimos": ["Cocoa butter", "Beurre de theobroma"],
+    "descripcion": "Beurre végétal obtenu à partir des fèves de cacao, l'une des cultures emblématiques de la Colombie. Il apporte de la consistance, de la brillance et une sensation protectrice dans les rouges à lèvres, les beurres corporels et en savonnerie, en plus de son usage alimentaire conformément à la réglementation applicable. Son arôme caractéristique et son origine locale en font un protagoniste des gammes naturelles.",
+    "funciones": ["Émollient", "Agent de consistance", "Base pour rouges à lèvres"],
+    "aplicaciones": ["Rouges à lèvres et baumes", "Beurres et crèmes corporels", "Savonnerie", "Chocolaterie et aliments conformément à la réglementation"],
+    "formas_referenciales": ["Solide — blocs, morceaux ou pastilles selon le fabricant et le lot ; fond à température corporelle"]
+  },
+  {
+    "id": "manteca-mango",
+    "nombre": "Beurre de Mangue",
+    "sinonimos": ["Beurre de noyau de mangue"],
+    "descripcion": "Beurre végétal obtenu à partir de la graine de la mangue, au toucher plus léger que d'autres beurres traditionnels. Il s'emploie comme émollient et agent de consistance dans les crèmes, après-shampooings et baumes au fini non gras. Une alternative intéressante pour les formulations recherchant un sensoriel frais avec de la nutrition.",
+    "funciones": ["Émollient au toucher léger", "Agent de consistance"],
+    "aplicaciones": ["Crèmes corporelles", "Après-shampooings", "Baumes à lèvres", "Beurres fouettés"],
+    "formas_referenciales": ["Solide — beurre de teinte ivoire, texture variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "manteca-cupuazu",
+    "nombre": "Beurre de Cupuaçu",
+    "sinonimos": ["Beurre de copoazu", "Cupuassu butter"],
+    "descripcion": "Beurre amazonien obtenu à partir des graines du cupuaçu, parent botanique du cacao et associé à une remarquable capacité de rétention d'eau. Il s'utilise comme émollient humectant dans les crèmes, soins capillaires et rouges à lèvres au positionnement naturel. Ingrédient star de la cosmétique à identité amazonienne et du commerce avec les communautés locales.",
+    "funciones": ["Émollient humectant", "Agent de consistance"],
+    "aplicaciones": ["Crèmes et beurres corporels", "Soins capillaires", "Rouges à lèvres et baumes", "Cosmétique amazonienne"],
+    "formas_referenciales": ["Solide — beurre de teinte ivoire à beige, texture variable selon l'origine et le lot"]
+  },
+  {
+    "id": "aceite-esencial-lavanda",
+    "nombre": "Huile Essentielle de Lavande",
+    "sinonimos": ["Essence de lavande", "HE de lavande vraie"],
+    "descripcion": "Huile essentielle obtenue à partir des fleurs de lavande, l'un des profils aromatiques les plus polyvalents de la parfumerie fonctionnelle. Elle s'utilise pour parfumer savons, bougies, cosmétiques et produits d'entretien de la maison, et c'est un incontournable de l'aromathérapie. Son dosage doit respecter les recommandations d'usage dans le produit fini.",
+    "funciones": ["Agent aromatique", "Composant de parfumerie"],
+    "aplicaciones": ["Savons et bougies", "Cosmétique et aromathérapie", "Détergents et adoucissants", "Désodorisants d'ambiance"],
+    "formas_referenciales": ["Liquide — incolore à jaune pâle, profil aromatique variable selon l'origine et le lot"]
+  },
+  {
+    "id": "aceite-esencial-eucalipto",
+    "nombre": "Huile Essentielle d'Eucalyptus",
+    "sinonimos": ["Essence d'eucalyptus", "HE d'eucalyptus globulus"],
+    "descripcion": "Huile essentielle de feuilles d'eucalyptus, à l'arôme frais et pénétrant, traditionnellement associée à la sensation de fraîcheur respirable. C'est un aromatisant habituel des produits d'entretien, savons, gels douche et préparations à usage externe. La Colombie dispose de plantations d'eucalyptus qui approvisionnent l'industrie régionale.",
+    "funciones": ["Agent aromatique", "Aromatisant pour produits d'entretien"],
+    "aplicaciones": ["Nettoyants et désinfectants à usage domestique", "Savons et gels douche", "Bougies et désodorisants d'ambiance", "Produits à usage externe"],
+    "formas_referenciales": ["Liquide — incolore à jaune pâle, profil aromatique variable selon l'origine et le lot"]
+  },
+  {
+    "id": "aceite-esencial-menta",
+    "nombre": "Huile Essentielle de Menthe Poivrée",
+    "sinonimos": ["Essence de menthe poivrée", "Huile de peppermint"],
+    "descripcion": "Huile essentielle de menthe poivrée, reconnue pour son arôme intense et son effet rafraîchissant sensoriel. Elle s'utilise en cosmétique capillaire et de bain, en hygiène bucco-dentaire, dans les produits d'entretien et comme arôme dans les aliments conformément à la réglementation applicable. Un classique multifonctionnel du portefeuille aromatique.",
+    "funciones": ["Agent aromatique", "Rafraîchissant sensoriel", "Arôme alimentaire conformément à la réglementation"],
+    "aplicaciones": ["Shampooings et gels rafraîchissants", "Dentifrices et bains de bouche", "Confiserie conformément à la réglementation", "Produits d'entretien"],
+    "formas_referenciales": ["Liquide — incolore à jaune pâle, profil aromatique variable selon l'origine et le lot"]
+  },
+  {
+    "id": "aceite-esencial-naranja",
+    "nombre": "Huile Essentielle d'Orange Douce",
+    "sinonimos": ["Essence d'orange douce", "Huile de zeste d'orange"],
+    "descripcion": "Huile essentielle obtenue par pression du zeste d'orange douce, à haute teneur naturelle en limonène. Outre son usage comme aromatisant en cosmétique et dans les aliments conformément à la réglementation applicable, elle est appréciée dans les nettoyants aux agrumes pour son apport dégraissant. L'agrumiculture de la région andine en fait un ingrédient d'origine de proximité.",
+    "funciones": ["Agent aromatique", "Apport dégraissant dans les nettoyants", "Arôme alimentaire conformément à la réglementation"],
+    "aplicaciones": ["Nettoyants multi-usages aux agrumes", "Savons et cosmétique", "Boissons et aliments conformément à la réglementation", "Désodorisants d'ambiance"],
+    "formas_referenciales": ["Liquide — teinte allant du jaune à l'orangé, profil aromatique variable selon l'origine et le lot"]
+  },
+  {
+    "id": "aceite-esencial-limon",
+    "nombre": "Huile Essentielle de Citron",
+    "sinonimos": ["Essence de citron", "Huile de zeste de citron"],
+    "descripcion": "Huile essentielle d'agrume obtenue à partir du zeste de citron, à l'arôme net et lumineux universellement associé à la propreté. Elle s'emploie comme aromatisant dans les produits d'entretien domestique et institutionnel et comme arôme dans les aliments et boissons conformément à la réglementation applicable. Sa teneur naturelle en limonène apporte un pouvoir dégraissant aux nettoyants.",
+    "funciones": ["Agent aromatique", "Apport dégraissant dans les nettoyants", "Arôme alimentaire conformément à la réglementation"],
+    "aplicaciones": ["Liquides vaisselle et nettoyants", "Détergents", "Boissons et aliments conformément à la réglementation", "Savons"],
+    "formas_referenciales": ["Liquide — teinte allant du jaune pâle au verdâtre, profil aromatique variable selon l'origine et le lot"]
+  },
+  {
+    "id": "aceite-esencial-arbol-te",
+    "nombre": "Huile Essentielle de Tea Tree",
+    "sinonimos": ["Huile essentielle d'arbre à thé", "Huile de mélaleuque"],
+    "descripcion": "Huile essentielle de feuilles de mélaleuque, traditionnellement associée au soin des peaux à imperfections et des cuirs chevelus à pellicules visibles. Elle s'incorpore dans les gels, shampooings, savons et produits d'hygiène pour animaux de compagnie, toujours aux doses d'usage recommandées. L'une des huiles essentielles à plus forte rotation en cosmétique fonctionnelle.",
+    "funciones": ["Extrait botanique purifiant", "Agent aromatique"],
+    "aplicaciones": ["Gels et savons purifiants", "Shampooings antipelliculaires cosmétiques", "Produits d'hygiène pour animaux de compagnie", "Déodorants"],
+    "formas_referenciales": ["Liquide — incolore à jaune pâle, profil aromatique variable selon l'origine et le lot"]
+  },
+  {
+    "id": "hidrolato-rosas",
+    "nombre": "Hydrolat de Rose",
+    "sinonimos": ["Eau de rose", "Eau florale de rose"],
+    "descripcion": "Eau florale obtenue lors de la distillation des pétales de rose, au parfum délicat et au caractère tonifiant doux. Elle peut remplacer partiellement ou totalement l'eau de la formule dans les toniques, brumes et émulsions légères. Elle apporte un positionnement botanique romantique et de tradition dans le soin du visage.",
+    "funciones": ["Tonifiant doux", "Base aqueuse aromatique"],
+    "aplicaciones": ["Toniques et brumes pour le visage", "Eaux micellaires", "Émulsions légères", "Masques"],
+    "formas_referenciales": ["Liquide aqueux — incolore, intensité aromatique variable selon la distillation, l'origine et le lot"]
+  },
+  {
+    "id": "exfoliante-cascara-nuez",
+    "nombre": "Poudre Exfoliante de Coque de Noix",
+    "sinonimos": ["Coque de noix micronisée", "Poudre de coquille de noix"],
+    "descripcion": "Poudre obtenue par broyage de coques de noix, utilisée comme exfoliant mécanique d'origine naturelle dans les savons, gels douche et exfoliants corporels. C'est une alternative d'origine naturelle aux microbilles plastiques, alignée sur les tendances réglementaires et de marché. Elle s'emploie également dans les savons dégraissants à usage industriel.",
+    "funciones": ["Exfoliant mécanique naturel", "Alternative d'origine naturelle aux microbilles plastiques"],
+    "aplicaciones": ["Exfoliants corporels et pour le visage", "Savons exfoliants", "Gels douche", "Savons industriels pour les mains"],
+    "formas_referenciales": ["Solide — poudre ou granulés, granulométrie variable selon le fabricant et le lot"]
+  }
+]

@@ -1,0 +1,328 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────────────────
+   Q'mical — Sistema de diseño
+   Paleta: verde petróleo profundo + acento chartreuse + porcelana.
+   Tipografía: Space Grotesk (display) + Inter (texto).
+   ───────────────────────────────────────────────────────────────── */
+
+@theme {
+  /* Breakpoint extra para móviles pequeños (usado en la barra del catálogo) */
+  --breakpoint-xs: 24rem;
+
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk Variable", "Inter Variable", ui-sans-serif, sans-serif;
+
+  /* Marca — verde petróleo */
+  --color-brand-50: #effaf5;
+  --color-brand-100: #d8f2e6;
+  --color-brand-200: #b3e4d1;
+  --color-brand-300: #81cfb5;
+  --color-brand-400: #4db396;
+  --color-brand-500: #2b977c;
+  --color-brand-600: #157a64;
+  --color-brand-700: #106152;
+  --color-brand-800: #0e4e43;
+  --color-brand-900: #0c4038;
+  --color-brand-950: #052420;
+
+  /* Acento — chartreuse de laboratorio */
+  --color-accent-100: #f2fcd3;
+  --color-accent-200: #e3f8a6;
+  --color-accent-300: #d0f070;
+  --color-accent-400: #c0e84d;
+  --color-accent-500: #a8d129;
+  --color-accent-600: #85a81b;
+
+  /* Tinta — casi negro con matiz verde */
+  --color-ink-50: #f4f6f5;
+  --color-ink-100: #e4e9e7;
+  --color-ink-200: #c9d3d0;
+  --color-ink-300: #a3b3ae;
+  --color-ink-400: #768c86;
+  --color-ink-500: #5b716b;
+  --color-ink-600: #475a55;
+  --color-ink-700: #3b4a46;
+  --color-ink-800: #313d3a;
+  --color-ink-900: #222b29;
+  --color-ink-950: #101917;
+
+  /* Fondo porcelana */
+  --color-porcelain: #f6f8f6;
+
+  --shadow-card: 0 1px 2px rgb(16 25 23 / 0.04), 0 8px 24px -12px rgb(16 25 23 / 0.12);
+  --shadow-card-hover: 0 2px 4px rgb(16 25 23 / 0.05), 0 20px 40px -16px rgb(16 25 23 / 0.22);
+
+  --animate-float: float 9s ease-in-out infinite;
+  --animate-float-slow: float 14s ease-in-out infinite reverse;
+  --animate-marquee: marquee 36s linear infinite;
+  --animate-pulse-soft: pulse-soft 2.4s ease-in-out infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+    50% { transform: translate3d(2%, -4%, 0) scale(1.06); }
+  }
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @keyframes pulse-soft {
+    0%, 100% { box-shadow: 0 0 0 0 rgb(37 211 102 / 0.45); }
+    70% { box-shadow: 0 0 0 14px rgb(37 211 102 / 0); }
+  }
+}
+
+/* ── Base ───────────────────────────────────────────────────────────
+   IMPORTANTE: estas reglas van dentro de @layer base. Si se dejan fuera
+   de una capa, el CSS sin capa gana sobre TODAS las utilidades de
+   Tailwind y `text-white` en un <h1> deja de funcionar (los títulos
+   sobre fondo oscuro se ven negros).
+   ------------------------------------------------------------------- */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Ninguna decoración puede provocar scroll horizontal */
+    overflow-x: hidden;
+  }
+
+  body {
+    @apply bg-porcelain font-sans text-ink-800 antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: clip;
+  }
+
+  ::selection {
+    background: var(--color-accent-300);
+    color: var(--color-ink-950);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-ink-950;
+    text-wrap: balance;
+  }
+
+  /* Palabras largas (INCI, correos, ids) no rompen el layout en móvil */
+  p,
+  li,
+  dd,
+  dt,
+  h1,
+  h2,
+  h3,
+  h4 {
+    overflow-wrap: break-word;
+  }
+
+  /* Foco visible y consistente en toda la navegación por teclado */
+  :focus-visible {
+    outline: 2px solid var(--color-accent-500);
+    outline-offset: 2px;
+    border-radius: 0.35rem;
+  }
+}
+
+/* ── Revelado al hacer scroll ───────────────────────────────────
+   Uso: class="reveal" (+ style="--reveal-delay:.15s" para escalonar).
+   El observer de Base.astro añade .in cuando el elemento entra en viewport.
+
+   Va bajo `.js`: la clase la pone un script inline en el <head>, así que si
+   el JS falla o está desactivado, el contenido se ve normal en vez de quedar
+   invisible para siempre. */
+
+.js .reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition:
+    opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--reveal-delay, 0s);
+  will-change: opacity, transform;
+}
+
+.js .reveal.in {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js .reveal { opacity: 1; transform: none; transition: none; }
+  html { scroll-behavior: auto; }
+  .animate-marquee,
+  .hero-mesh::before,
+  .hero-mesh::after {
+    animation: none !important;
+  }
+}
+
+/* ── Utilidades de marca ────────────────────────────────────────── */
+
+@utility container-site {
+  @apply mx-auto w-full max-w-7xl px-5 sm:px-8;
+}
+
+/* Los botones llevan altura MÍNIMA, no fija: si el texto envuelve a dos
+   líneas (contenedores estrechos como el footer), crece en vez de aplastarse. */
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-full text-center leading-tight font-semibold transition-all duration-300 select-none;
+  padding-block: 0.5rem;
+}
+
+@utility btn-primary {
+  @apply btn bg-brand-700 text-white hover:bg-brand-800 hover:shadow-lg active:scale-[0.98];
+}
+
+@utility btn-accent {
+  @apply btn bg-accent-400 text-ink-950 hover:bg-accent-300 hover:shadow-lg active:scale-[0.98];
+}
+
+@utility btn-ghost {
+  @apply btn border border-ink-200 bg-white/60 text-ink-800 backdrop-blur hover:border-brand-500 hover:text-brand-700 active:scale-[0.98];
+}
+
+@utility btn-whatsapp {
+  @apply btn bg-[#25d366] text-[#073d20] hover:bg-[#2fe172] hover:shadow-lg active:scale-[0.98];
+}
+
+@utility chip {
+  @apply inline-flex items-center gap-1 rounded-full border border-ink-200 bg-white px-2.5 py-0.5 text-xs font-medium text-ink-600;
+}
+
+@utility card {
+  @apply rounded-2xl border border-ink-100 bg-white shadow-card transition-all duration-300;
+}
+
+@utility eyebrow {
+  @apply text-xs font-semibold tracking-[0.18em] uppercase text-brand-600;
+}
+
+@utility input-q {
+  @apply mt-1.5 block h-11 w-full rounded-xl border border-ink-200 bg-white px-4 text-sm transition-colors focus:border-brand-500 focus:ring-2 focus:ring-brand-100 focus:outline-none;
+}
+
+/* ── Listas desplegables ────────────────────────────────────────────
+   Un solo estilo para TODOS los <select> del sitio: quita la flecha del
+   sistema operativo y pinta la nuestra con aire suficiente para que no
+   toque el borde. El desplegable que se abre sigue siendo el NATIVO, así
+   que en móvil aparece el picker del sistema (lo esperado por el usuario). */
+@utility select-q {
+  @apply w-full cursor-pointer appearance-none rounded-full border border-ink-200 bg-porcelain pr-11 pl-5 text-sm text-ink-800 transition-colors;
+  @apply focus:border-brand-500 focus:ring-2 focus:ring-brand-100 focus:outline-none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235b716b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1rem;
+}
+.select-q:hover {
+  border-color: var(--color-ink-300);
+}
+/* Las opciones nativas no heredan el fondo del trigger en todos los SO */
+.select-q option {
+  background: white;
+  color: var(--color-ink-800);
+}
+
+/* Variante cuadrada para formularios (combina con .input-q) */
+@utility select-form {
+  @apply select-q h-11 rounded-xl bg-white;
+  background-position: right 0.9rem center;
+}
+
+/* Tarjeta con acento de línea que se enciende al hover */
+.card-linea {
+  position: relative;
+  overflow: hidden;
+}
+.card-linea::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  height: 3px;
+  background: var(--linea-color, var(--color-brand-500));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.card-linea:hover::after {
+  transform: scaleX(1);
+}
+.card-linea:hover {
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-4px);
+  border-color: color-mix(in srgb, var(--linea-color, var(--color-brand-500)) 35%, white);
+}
+
+/* Fondo de héroe: malla de gradientes flotantes sobre tinta */
+.hero-mesh {
+  background-color: var(--color-ink-950);
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.hero-mesh::before,
+.hero-mesh::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  border-radius: 9999px;
+  filter: blur(90px);
+}
+.hero-mesh::before {
+  width: 55rem;
+  height: 55rem;
+  top: -22rem;
+  right: -14rem;
+  /* --mesh-color permite teñir el héroe (p. ej. con el color de un sector) */
+  background: radial-gradient(
+    closest-side,
+    color-mix(in srgb, var(--mesh-color, #157a64) 55%, transparent),
+    transparent 70%
+  );
+  animation: var(--animate-float);
+}
+.hero-mesh::after {
+  width: 40rem;
+  height: 40rem;
+  bottom: -18rem;
+  left: -10rem;
+  background: radial-gradient(closest-side, rgb(168 209 41 / 0.22), transparent 70%);
+  animation: var(--animate-float-slow);
+}
+
+/* Trama de puntos sutil para secciones */
+.dots-pattern {
+  background-image: radial-gradient(rgb(16 25 23 / 0.07) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* Ocultar tarjetas filtradas con animación */
+.producto-card {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.producto-card[data-oculto="1"] {
+  display: none;
+}
+
+/* Scrollbar fina en listas de filtros */
+.scroll-slim {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-ink-200) transparent;
+}
+
+/* Transiciones de vista (fade entre páginas) */
+::view-transition-old(root) {
+  animation: 0.22s ease both fade-out-vt;
+}
+::view-transition-new(root) {
+  animation: 0.3s ease 0.05s both fade-in-vt;
+}
+@keyframes fade-out-vt {
+  to { opacity: 0; }
+}
+@keyframes fade-in-vt {
+  from { opacity: 0; transform: translateY(6px); }
+}

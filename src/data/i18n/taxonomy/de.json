@@ -1,0 +1,100 @@
+{
+  "lineas": {
+    "cosmetica": {
+      "nombre": "Kosmetik & Körperpflege",
+      "corto": "Kosmetik",
+      "tagline": "Wirkstoffe, Emulgatoren, Feuchthaltemittel und Konservierungssysteme für Skincare und Haarpflege."
+    },
+    "maquillaje": {
+      "nombre": "Make-up & Farbe",
+      "corto": "Make-up",
+      "tagline": "Pigmente, Micas, texturgebende Füllstoffe und Wachse für dekorative Kosmetik."
+    },
+    "aseo": {
+      "nombre": "Reinigung & Desinfektion",
+      "corto": "Reinigung",
+      "tagline": "Tenside, Biozide, Alkalien und Enzyme für Haushalt und institutionellen Einsatz."
+    },
+    "alimentos": {
+      "nombre": "Lebensmittel & Getränke",
+      "corto": "Lebensmittel",
+      "tagline": "Hydrokolloide, Ansäuerungsmittel, Konservierungsmittel und Süßungsmittel in Lebensmittelqualität."
+    },
+    "agro": {
+      "nombre": "Agrar & Pflanzenernährung",
+      "corto": "Agrar",
+      "tagline": "Lösliche Düngemittel, Chelate, Biostimulanzien und Adjuvantien."
+    },
+    "veterinaria": {
+      "nombre": "Veterinär & Tierernährung",
+      "corto": "Veterinär",
+      "tagline": "Vitamine, Spurenelemente, Aminosäuren und Zusatzstoffe für Vormischungen."
+    },
+    "extractos": {
+      "nombre": "Extrakte & Naturstoffe",
+      "corto": "Extrakte",
+      "tagline": "Pflanzenextrakte, Pflanzenöle, Buttern und ätherische Öle — mit Herkunft aus Lateinamerika."
+    },
+    "industrial": {
+      "nombre": "Industrie & Prozesse",
+      "corto": "Industrie",
+      "tagline": "Wasseraufbereitung, Farben und Lacke, Lösemittel und Prozesshilfsmittel."
+    }
+  },
+  "especialidades": {
+    "activos": "Funktionelle Wirkstoffe",
+    "aceites-vegetales": "Pflanzenöle",
+    "mantecas-ceras": "Buttern & Wachse",
+    "emolientes": "Emollientien",
+    "emulsificantes": "Emulgatoren",
+    "tensoactivos": "Tenside",
+    "humectantes": "Feuchthaltemittel",
+    "espesantes-reologia": "Verdicker & Rheologie",
+    "conservantes": "Konservierungsmittel",
+    "antioxidantes": "Antioxidantien",
+    "filtros-uv": "UV-Filter",
+    "pigmentos-colorantes": "Pigmente & Farbstoffe",
+    "nacarantes-efectos": "Perlglanz & Effekte",
+    "acondicionadores": "Konditionierer",
+    "proteinas-aminoacidos": "Proteine & Aminosäuren",
+    "vitaminas": "Vitamine",
+    "exfoliantes": "Exfolianten",
+    "siliconas-alternativas": "Silikone & Alternativen",
+    "polimeros": "Funktionelle Polymere",
+    "quelantes": "Chelatbildner",
+    "solventes": "Lösemittel & Trägerstoffe",
+    "acidulantes-ph": "Ansäuerungsmittel & pH",
+    "edulcorantes": "Süßungsmittel",
+    "gomas-hidrocoloides": "Gummen & Hydrokolloide",
+    "enzimas": "Enzyme",
+    "biocidas-desinfectantes": "Biozide & Desinfektionsmittel",
+    "desengrasantes": "Entfetter",
+    "dispersantes-antiespumantes": "Dispergiermittel & Entschäumer",
+    "nutricion-vegetal": "Pflanzenernährung",
+    "adyuvantes-agricolas": "Agrar-Adjuvantien",
+    "premezclas-veterinarias": "Veterinär-Vormischungen",
+    "extractos-botanicos": "Pflanzenextrakte"
+  },
+  "sectores": {
+    "cosmetica-personal": "Kosmetik & Körperpflege",
+    "maquillaje-color": "Make-up & Farbe",
+    "aseo-hogar": "Haushaltsreinigung",
+    "institucional-industrial": "Institutionell & industriell",
+    "alimentos": "Lebensmittel",
+    "bebidas": "Getränke",
+    "nutraceutico": "Nutrazeutika",
+    "veterinaria": "Veterinär & Tierernährung",
+    "agricola": "Agrar",
+    "pinturas-recubrimientos": "Farben & Lacke",
+    "textil": "Textil",
+    "tratamiento-aguas": "Wasseraufbereitung"
+  },
+  "origenes": {
+    "Vegetal": "Pflanzlich",
+    "Sintético": "Synthetisch",
+    "Mineral": "Mineralisch",
+    "Biotecnológico": "Biotechnologisch",
+    "Animal": "Tierisch",
+    "Mixto": "Gemischt"
+  }
+}

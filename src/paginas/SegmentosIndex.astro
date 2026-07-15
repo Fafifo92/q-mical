@@ -1,0 +1,149 @@
+---
+import Base from "../layouts/Base.astro";
+import Icon from "../components/Icon.astro";
+import Wave from "../components/Wave.astro";
+import CtaBand from "../components/CtaBand.astro";
+import SectionHead from "../components/SectionHead.astro";
+import { SECTORES_INFO } from "../data/taxonomy";
+import { getCatalogo } from "../lib/catalog";
+import { DEFAULT_LOCALE, rutaLocal, tpl, type Locale } from "../i18n/config";
+import { t, taxonomia, sectoresCopy } from "../i18n";
+
+interface Props {
+  lang?: Locale;
+}
+const { lang = DEFAULT_LOCALE } = Astro.props;
+const dict = t(lang);
+const tax = taxonomia(lang);
+const cat = getCatalogo(lang);
+
+// Ordenados por tamaño de catálogo: 4 destacados + el resto en grilla
+const todos = sectoresCopy(lang)
+  .map((copy) => ({
+    copy,
+    nombre: tax.sector(copy.slug),
+    info: SECTORES_INFO[copy.slug] ?? { color: "#157a64", icono: "flask" },
+    productos: cat.porSector(copy.slug),
+  }))
+  .sort((a, b) => b.productos.length - a.productos.length);
+
+const destacados = todos.slice(0, 4);
+const resto = todos.slice(4);
+---
+
+<Base
+  title={dict.segmentos.tituloMeta}
+  description={dict.segmentos.descripcionMeta}
+  headerTheme="dark"
+  og="sectores"
+  lang={lang}
+>
+  <!-- Héroe -->
+  <section class="hero-mesh">
+    <div class="container-site pt-32 pb-20 text-center md:pt-40 md:pb-24">
+      <p class="reveal eyebrow text-accent-300">{dict.segmentos.heroEyebrow}</p>
+      <h1 class="reveal mx-auto mt-4 max-w-3xl font-display text-4xl font-bold text-white sm:text-5xl" style="--reveal-delay:.1s">
+        {dict.segmentos.heroTitulo1}<br />
+        <span class="text-accent-300">{dict.segmentos.heroTitulo2}</span>
+      </h1>
+      <p class="reveal mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-ink-200" style="--reveal-delay:.2s">
+        {dict.segmentos.heroTexto}
+      </p>
+    </div>
+    <Wave />
+  </section>
+
+  <!-- ═══ Segmentos destacados (filas alternadas) ═══ -->
+  <section class="container-site space-y-16 py-16 sm:space-y-24 sm:py-24">
+    {
+      destacados.map(({ copy, nombre, info, productos }, i) => (
+        <article class="grid items-center gap-8 lg:grid-cols-2 lg:gap-16">
+          {/* Panel visual */}
+          <div
+            class:list={["reveal relative overflow-hidden rounded-3xl p-10 sm:p-14", i % 2 === 1 && "lg:order-2"]}
+            style={`background:
+              radial-gradient(ellipse at 20% 0%, color-mix(in srgb, ${info.color} 32%, transparent), transparent 60%),
+              radial-gradient(ellipse at 90% 100%, color-mix(in srgb, ${info.color} 18%, transparent), transparent 55%),
+              var(--color-ink-950)`}
+          >
+            <svg class="pointer-events-none absolute inset-0 h-full w-full opacity-25" viewBox="0 0 400 260" fill="none" aria-hidden="true">
+              {[0, 1, 2, 3, 4].map((k) => (
+                <path
+                  d={`M-20 ${140 + k * 14} C 90 ${60 + k * 10}, 210 ${210 - k * 12}, 420 ${100 + k * 14}`}
+                  stroke={info.color}
+                  stroke-width="1.1"
+                />
+              ))}
+            </svg>
+            <span
+              class="relative grid h-20 w-20 place-items-center rounded-2xl sm:h-24 sm:w-24"
+              style={`background:color-mix(in srgb, ${info.color} 22%, transparent); color:${info.color}`}
+            >
+              <Icon name={info.icono} class="h-10 w-10 sm:h-12 sm:w-12" />
+            </span>
+            <p class="relative mt-10 font-display text-5xl font-bold text-white sm:text-6xl">{productos.length}</p>
+            <p class="relative mt-1 text-sm text-ink-300">{dict.segmentos.statCatalogo}</p>
+          </div>
+
+          {/* Texto */}
+          <div class:list={["reveal min-w-0", i % 2 === 1 && "lg:order-1"]} style="--reveal-delay:.12s">
+            <p class="eyebrow" style={`color:color-mix(in srgb, ${info.color} 60%, black)`}>{nombre}</p>
+            <h2 class="mt-3 font-display text-3xl font-bold tracking-tight sm:text-4xl">{copy.titulo}</h2>
+            <p class="mt-4 leading-relaxed text-ink-500">{copy.intro[0]}</p>
+            <div class="mt-5 flex flex-wrap gap-2">
+              {copy.especialidadesClave.slice(0, 4).map((esp) => (
+                <span class="chip">{tax.especialidad(esp)}</span>
+              ))}
+            </div>
+            <div class="mt-7 flex flex-wrap gap-3">
+              <a href={rutaLocal(lang, `/sectores/${copy.slug}`)} class="btn-primary min-h-11 px-6 text-sm">
+                {dict.segmentos.botonDescubrir}
+                <Icon name="arrow-right" class="h-4 w-4" />
+              </a>
+              <a href={rutaLocal(lang, `/productos?sector=${copy.slug}`)} class="btn-ghost min-h-11 px-6 text-sm">
+                {dict.segmentos.botonProductos}
+              </a>
+            </div>
+          </div>
+        </article>
+      ))
+    }
+  </section>
+
+  <!-- ═══ Otros segmentos ═══ -->
+  <section class="dots-pattern border-y border-ink-100 py-16 sm:py-24">
+    <div class="container-site">
+      <SectionHead
+        eyebrow={dict.segmentos.restoEyebrow}
+        titulo={dict.segmentos.restoTitulo}
+        descripcion={dict.segmentos.restoTexto}
+      />
+      <div class="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        {
+          resto.map(({ copy, nombre, info, productos }, i) => (
+            <a
+              href={rutaLocal(lang, `/sectores/${copy.slug}`)}
+              class="card card-linea reveal group flex flex-col p-6"
+              style={`--linea-color:${info.color};--reveal-delay:${(i % 4) * 0.08}s`}
+            >
+              <span
+                class="grid h-12 w-12 place-items-center rounded-xl transition-transform duration-300 group-hover:scale-110"
+                style={`background:color-mix(in srgb, ${info.color} 12%, white); color:${info.color}`}
+              >
+                <Icon name={info.icono} class="h-6 w-6" />
+              </span>
+              <h3 class="mt-4 font-display text-base font-bold group-hover:text-brand-700">{nombre}</h3>
+              <p class="mt-2 line-clamp-3 flex-1 text-sm leading-relaxed text-ink-500">{copy.intro[0]}</p>
+              <p class="mt-4 flex items-center gap-1.5 text-sm font-semibold" style={`color:color-mix(in srgb, ${info.color} 60%, black)`}>
+                {tpl(dict.comunes.nProductos, { n: productos.length })}
+                <Icon name="arrow-right" class="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+              </p>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <CtaBand titulo={dict.segmentos.ctaTitulo} texto={dict.segmentos.ctaTexto} lang={lang} />
+</Base>

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "extracto-glicolico-calendula",
+    "nombre": "Calendula Glycolic Extract",
+    "sinonimos": ["Hydroglycolic calendula extract", "Calendula flower extract"],
+    "descripcion": "Extract obtained from calendula flowers in a glycolic vehicle, traditionally associated with a softening and conditioning effect on the skin. It is incorporated into the aqueous phase of emulsions, gels, and bath products. A classic of natural cosmetics, in high demand for sensitive-skin formulations and baby products.",
+    "funciones": ["Conditioning botanical extract", "Skin softener"],
+    "aplicaciones": ["Creams and lotions", "Baby products", "Shampoos and shower gels", "Cosmetics for sensitive skin"],
+    "formas_referenciales": ["Liquid — yellow to amber tone, varying depending on the manufacturer and batch"]
+  },
+  {
+    "id": "extracto-glicolico-manzanilla",
+    "nombre": "Chamomile Glycolic Extract",
+    "sinonimos": ["Camomile extract", "Hydroglycolic chamomile extract"],
+    "descripcion": "Hydroglycolic extract of chamomile flowers, valued in formulations for delicate skin for its softening character. It is used in the aqueous phase of creams, toners, shampoos, and hair products associated with light-toned highlights. Its recognition among consumers makes it a botanical-origin selling point.",
+    "funciones": ["Softening botanical extract", "Skin conditioner"],
+    "aplicaciones": ["Facial toners and lotions", "Shampoos and conditioners", "Baby products", "Body creams"],
+    "formas_referenciales": ["Liquid — yellow to amber tone, varying depending on the manufacturer and batch"]
+  },
+  {
+    "id": "extracto-glicolico-aloe-vera",
+    "nombre": "Aloe Vera Glycolic Extract",
+    "sinonimos": ["Hydroglycolic aloe extract", "Aloe leaf extract"],
+    "descripcion": "Aloe vera leaf extract in a glycolic vehicle, associated with a moisturizing and refreshing effect on the skin. It incorporates easily into the aqueous phase of gels, emulsions, and hair products. Widely used in after-sun formulations, liquid soaps, and daily-care lines.",
+    "funciones": ["Humectant", "Conditioning botanical extract"],
+    "aplicaciones": ["After-sun gels and products", "Liquid soaps", "Creams and lotions", "Hair products"],
+    "formas_referenciales": ["Liquid — colorless to slightly amber, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "extracto-glicolico-te-verde",
+    "nombre": "Green Tea Glycolic Extract",
+    "sinonimos": ["Green tea leaf extract"],
+    "descripcion": "Green tea leaf extract in a glycolic vehicle, associated with an antioxidant profile due to its natural polyphenol content. It is used in facial, body, and hair formulations aimed at caring for skin exposed to environmental factors. It provides a well-recognized botanical positioning in anti-aging and urban-protection lines.",
+    "funciones": ["Botanical-origin antioxidant", "Skin conditioner"],
+    "aplicaciones": ["Facial creams", "Serums and gels", "Hair products", "Body lotions"],
+    "formas_referenciales": ["Liquid — amber to brown tone, varying depending on the manufacturer and batch"]
+  },
+  {
+    "id": "extracto-glicolico-romero",
+    "nombre": "Rosemary Glycolic Extract",
+    "sinonimos": ["Rosemary leaf extract"],
+    "descripcion": "Extract of rosemary leaves, traditionally associated with scalp vitality and an antioxidant profile. In cosmetics it is used in hair tonics, shampoos, and lotions; in food, certain rosemary extracts are used as a natural antioxidant in accordance with applicable regulations. A versatile botanical with a strong tradition in the Latin American market.",
+    "funciones": ["Toning botanical extract", "Botanical-origin antioxidant"],
+    "aplicaciones": ["Shampoos and hair tonics", "Body lotions", "Food formulations in accordance with regulations", "Massage gels"],
+    "formas_referenciales": ["Liquid — amber to greenish tone, varying depending on the manufacturer and batch"]
+  },
+  {
+    "id": "extracto-glicolico-centella-asiatica",
+    "nombre": "Centella Asiatica Glycolic Extract",
+    "sinonimos": ["Gotu kola extract", "Hydrocotyle extract"],
+    "descripcion": "Centella asiatica extract in a glycolic vehicle, widely used in body and facial care formulations associated with the appearance of skin firmness. It is an emblematic ingredient of firming lines, cosmetic-use anti-cellulite products, and care for stressed skin. Compatible with the aqueous phase of emulsions and gels.",
+    "funciones": ["Conditioning botanical extract", "Cosmetic active for body care"],
+    "aplicaciones": ["Firming body creams", "Massage gels", "Facial creams", "Eye contour products"],
+    "formas_referenciales": ["Liquid — yellow to brown tone, varying depending on the manufacturer and batch"]
+  },
+  {
+    "id": "extracto-hamamelis",
+    "nombre": "Witch Hazel Extract",
+    "sinonimos": ["Hamamelis extract", "Witch hazel"],
+    "descripcion": "Botanical witch hazel extract, valued in cosmetics for its astringent and toning character. It is used in facial toners, aftershave lotions, and products for oily-prone skin. Its long tradition of use makes it a well-recognized ingredient in skin-cleansing and balancing formulations.",
+    "funciones": ["Cosmetic astringent", "Skin-toning agent"],
+    "aplicaciones": ["Facial toners", "Aftershave lotions", "Products for oily skin", "Wipes and micellar waters"],
+    "formas_referenciales": ["Liquid — colorless to amber, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "extracto-glicolico-avena",
+    "nombre": "Oat Glycolic Extract",
+    "sinonimos": ["Oat kernel extract", "Hydroglycolic oat extract"],
+    "descripcion": "Oat kernel extract in a glycolic vehicle, traditionally associated with a softening and protective effect on the skin. It is a common ingredient in soaps, creams, and shampoos for delicate skin, as well as in pet hygiene products. It is incorporated into the aqueous phase of the formulation.",
+    "funciones": ["Skin softener", "Conditioner"],
+    "aplicaciones": ["Soaps and syndets", "Creams for sensitive skin", "Pet shampoos", "Baby products"],
+    "formas_referenciales": ["Liquid — yellow to light brown tone, varying depending on the manufacturer and batch"]
+  },
+  {
+    "id": "extracto-glicolico-pepino",
+    "nombre": "Cucumber Glycolic Extract",
+    "sinonimos": ["Cucumber fruit extract"],
+    "descripcion": "Extract of cucumber fruit in a glycolic vehicle, associated with a refreshing, moisturizing sensation. Widely used in eye contour gels, masks, and facial toners in fresh, lightweight lines. It provides a natural positioning that is easy to communicate to consumers.",
+    "funciones": ["Cosmetic refreshing agent", "Humectant"],
+    "aplicaciones": ["Eye contour gels", "Facial masks", "Toners and mists", "Light lotions"],
+    "formas_referenciales": ["Liquid — colorless to pale greenish, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "concentrado-aloe-vera",
+    "nombre": "Aloe Vera Concentrate",
+    "sinonimos": ["Concentrated aloe vera juice", "Aloe gel concentrate"],
+    "descripcion": "Concentrated juice obtained from the aloe vera leaf, designed to be reconstituted in the aqueous phase of the formulation. In cosmetics it is used in gels, lotions, and moisturizing hair products; in food and beverages, it is used in accordance with applicable regulations. It allows aloe to be dosed efficiently in industrial production.",
+    "funciones": ["Humectant", "Botanical base for the aqueous phase"],
+    "aplicaciones": ["Aloe gels", "Lotions and creams", "Beverages in accordance with regulations", "Hair products"],
+    "formas_referenciales": ["Liquid — viscosity and tone varying depending on the manufacturer's concentration grade and batch"]
+  },
+  {
+    "id": "aloe-vera-polvo",
+    "nombre": "Aloe Vera Powder",
+    "sinonimos": ["Aloe vera juice powder", "Dehydrated aloe"],
+    "descripcion": "Powder obtained by dehydrating the juice of the aloe vera leaf, intended for reconstitution in water during the production process. It simplifies storage and transport compared with fresh juice, with flexible dosing in cosmetics, food, and supplements in accordance with applicable regulations. Checking the reconstitution factor on the batch technical data sheet (TDS) is recommended.",
+    "funciones": ["Humectant", "Dehydrated botanical base"],
+    "aplicaciones": ["Cosmetic gels and emulsions", "Beverages and food in accordance with regulations", "Supplements in accordance with regulations", "Shampoos and soaps"],
+    "formas_referenciales": ["Solid — powder; particle size and tone varying depending on the manufacturer and batch"]
+  },
+  {
+    "id": "aceite-coco",
+    "nombre": "Coconut Oil",
+    "sinonimos": ["Copra oil"],
+    "descripcion": "Vegetable oil obtained from coconut pulp, widely used as an emollient in soapmaking, creams, and hair products. Its fatty profile makes it a base raw material in saponification and in conditioning formulas. In food, it is used in accordance with applicable regulations.",
+    "funciones": ["Emollient", "Fatty base for soapmaking", "Hair conditioner"],
+    "aplicaciones": ["Bar soaps", "Body creams and butters", "Hair products", "Food in accordance with regulations"],
+    "formas_referenciales": ["Solid to liquid depending on ambient temperature — low melting point; appearance varying depending on the manufacturer, origin, and batch"]
+  },
+  {
+    "id": "aceite-almendras-dulces",
+    "nombre": "Sweet Almond Oil",
+    "sinonimos": ["Almond oil"],
+    "descripcion": "A classic vegetable oil in cosmetics, valued for its soft feel and good spreadability on the skin. It is the traditional base for massage oils and baby products, and a versatile emollient in emulsions. Compatible with most cosmetic oil phases.",
+    "funciones": ["Emollient", "Carrier oil for massage"],
+    "aplicaciones": ["Massage oils", "Baby products", "Creams and lotions", "Body oils"],
+    "formas_referenciales": ["Oily liquid — pale yellow to golden tone, varying depending on the origin and batch"]
+  },
+  {
+    "id": "aceite-jojoba",
+    "nombre": "Jojoba Oil",
+    "sinonimos": ["Jojoba liquid wax"],
+    "descripcion": "A liquid vegetable wax with a composition close to the skin's natural sebum, valued for its dry feel and high stability compared with other oils. It is used as an emollient in facial, hair, and barbering formulas. Its stability makes it well suited to products with demanding shelf-life requirements.",
+    "funciones": ["Dry-feel emollient", "Skin and hair conditioner"],
+    "aplicaciones": ["Facial serums", "Beard oils", "Hair conditioners", "Facial cosmetics"],
+    "formas_referenciales": ["Oily liquid — yellow to golden tone, varying depending on the refining, origin, and batch"]
+  },
+  {
+    "id": "aceite-rosa-mosqueta",
+    "nombre": "Rosehip Oil",
+    "sinonimos": ["Rosehip seed oil", "Rosa mosqueta oil"],
+    "descripcion": "Oil obtained from rosehip seeds, an emblem of South American cosmetics traditionally associated with caring for the appearance of the skin. Naturally rich in unsaturated fatty acids, it is used in serums, facial oils, and products for mature skin or skin with visible marks. A high-perceived-value ingredient in premium lines.",
+    "funciones": ["Emollient", "Cosmetic active for facial care"],
+    "aplicaciones": ["Facial serums and oils", "Anti-aging creams", "Cosmetic products for the appearance of scars", "Body oils"],
+    "formas_referenciales": ["Oily liquid — orange to reddish tone, varying depending on the refining, origin, and batch"]
+  },
+  {
+    "id": "aceite-aguacate",
+    "nombre": "Avocado Oil",
+    "sinonimos": [],
+    "descripcion": "Vegetable oil from avocado pulp, valued as a nourishing emollient in hair and body cosmetics. Colombia and the Andean region are a growing origin for this raw material, which supports nearby supply chains. In food, it is used in accordance with applicable regulations.",
+    "funciones": ["Nourishing emollient", "Hair conditioner"],
+    "aplicaciones": ["Hair masks and treatments", "Body creams", "Artisanal soapmaking", "Food in accordance with regulations"],
+    "formas_referenciales": ["Oily liquid — green to yellow tone depending on the degree of refining, origin, and batch"]
+  },
+  {
+    "id": "aceite-ricino",
+    "nombre": "Castor Oil",
+    "sinonimos": ["Ricinus oil", "Castor seed oil"],
+    "descripcion": "High-viscosity vegetable oil obtained from the castor seed, with a long tradition of use in hair products, lip products, and soapmaking. Its dense, glossy character makes it a common ingredient in makeup and in cosmetic-use formulas for brows and lashes. It also has technical applications as an oleochemical raw material.",
+    "funciones": ["High-viscosity emollient", "Gloss agent in lipsticks", "Oleochemical base"],
+    "aplicaciones": ["Lipsticks and glosses", "Hair products", "Soaps", "Oleochemical industrial applications"],
+    "formas_referenciales": ["Viscous liquid — colorless to pale yellow, depending on the refining and batch"]
+  },
+  {
+    "id": "aceite-ajonjoli",
+    "nombre": "Sesame Oil",
+    "sinonimos": ["Sesame seed oil"],
+    "descripcion": "Vegetable oil from sesame seeds, with good natural stability and a tradition of use in massage and body care. As an emollient it provides a nourished feel without being excessively heavy. In food, it is used in accordance with applicable regulations.",
+    "funciones": ["Emollient", "Carrier oil for massage"],
+    "aplicaciones": ["Massage oils", "Body creams and lotions", "Soapmaking", "Food in accordance with regulations"],
+    "formas_referenciales": ["Oily liquid — yellow to golden tone, varying depending on the roasting, refining, and batch"]
+  },
+  {
+    "id": "aceite-sacha-inchi",
+    "nombre": "Sacha Inchi Oil",
+    "sinonimos": ["Inca peanut oil", "Inca inchi oil"],
+    "descripcion": "Amazonian oil obtained from the sacha inchi seed, naturally rich in omega fatty acids. It is an ambassador of the biodiversity of Colombia and the Amazon, with growing demand in hair and facial cosmetics and in the nutraceutical sector in accordance with applicable regulations. It brings a sustainable-origin story that is highly valued in natural lines.",
+    "funciones": ["Nourishing emollient", "Omega-rich oil", "Hair conditioner"],
+    "aplicaciones": ["Facial serums and oils", "Hair treatments", "Supplements in accordance with regulations", "Amazonian natural cosmetics"],
+    "formas_referenciales": ["Oily liquid — yellow to golden tone, varying depending on the origin and batch"]
+  },
+  {
+    "id": "aceite-macadamia",
+    "nombre": "Macadamia Oil",
+    "sinonimos": ["Macadamia nut oil"],
+    "descripcion": "Vegetable oil from macadamia nuts, valued for its silky feel and rapid absorption into the skin. Its profile positions it in hair and facial formulas with a lightweight finish. Colombia has its own macadamia production, which favors regional sourcing.",
+    "funciones": ["Fast-absorbing emollient", "Skin and hair conditioner"],
+    "aplicaciones": ["Hair oils and serums", "Facial creams", "Body lotions", "Products for split ends"],
+    "formas_referenciales": ["Oily liquid — pale yellow to golden tone, depending on the refining and batch"]
+  },
+  {
+    "id": "manteca-karite",
+    "nombre": "Shea Butter",
+    "sinonimos": ["Karite butter"],
+    "descripcion": "Vegetable butter obtained from the nut of the shea tree, a worldwide reference as a nourishing emollient in cosmetics. It provides body and a protective feel in creams, body butters, and lip products. Available in refined and unrefined grades, with characteristics to be confirmed on the batch technical data sheet (TDS).",
+    "funciones": ["Nourishing emollient", "Consistency agent"],
+    "aplicaciones": ["Body butters", "Lipsticks and balms", "Hand and foot creams", "Hair treatments"],
+    "formas_referenciales": ["Solid — butter with texture and ivory-to-yellowish tone varying depending on the refining, origin, and batch"]
+  },
+  {
+    "id": "manteca-cacao",
+    "nombre": "Cocoa Butter",
+    "sinonimos": ["Cacao butter", "Theobroma oil"],
+    "descripcion": "Vegetable butter obtained from cocoa seeds, one of Colombia's flagship crops. It provides consistency, gloss, and a protective feel in lip products, body butters, and soapmaking, in addition to its food use in accordance with applicable regulations. Its characteristic aroma and local origin make it a star of natural lines.",
+    "funciones": ["Emollient", "Consistency agent", "Base for lip products"],
+    "aplicaciones": ["Lipsticks and balms", "Body butters and creams", "Soapmaking", "Chocolate making and food in accordance with regulations"],
+    "formas_referenciales": ["Solid — blocks, chunks, or wafers depending on the manufacturer and batch; melts at body temperature"]
+  },
+  {
+    "id": "manteca-mango",
+    "nombre": "Mango Butter",
+    "sinonimos": ["Mango seed butter"],
+    "descripcion": "Vegetable butter obtained from the mango seed, with a lighter feel than other traditional butters. It is used as an emollient and consistency agent in creams, conditioners, and balms with a non-greasy finish. An interesting alternative for formulations seeking a fresh sensory profile with nourishment.",
+    "funciones": ["Light-feel emollient", "Consistency agent"],
+    "aplicaciones": ["Body creams", "Hair conditioners", "Lip balms", "Whipped butters"],
+    "formas_referenciales": ["Solid — ivory-toned butter, texture varying depending on the manufacturer and batch"]
+  },
+  {
+    "id": "manteca-cupuazu",
+    "nombre": "Cupuacu Butter",
+    "sinonimos": ["Cupuaçu butter", "Copoazu butter", "Theobroma grandiflorum seed butter"],
+    "descripcion": "Amazonian butter obtained from the seeds of cupuaçu, a botanical relative of cocoa, associated with a remarkable water-retention capacity. It is used as a moisturizing emollient in creams, hair treatments, and naturally positioned lip products. A star ingredient of cosmetics with an Amazonian identity and trade with local communities.",
+    "funciones": ["Moisturizing emollient", "Consistency agent"],
+    "aplicaciones": ["Body creams and butters", "Hair treatments", "Lipsticks and balms", "Amazonian cosmetics"],
+    "formas_referenciales": ["Solid — ivory to beige butter, texture varying depending on the origin and batch"]
+  },
+  {
+    "id": "aceite-esencial-lavanda",
+    "nombre": "Lavender Essential Oil",
+    "sinonimos": ["Lavender oil"],
+    "descripcion": "Essential oil obtained from lavender flowers, one of the most versatile aromatic profiles in functional perfumery. It is used to scent soaps, candles, cosmetics, and household cleaning products, and is a staple of aromatherapy. Its dosage must follow the recommended use levels in the finished product.",
+    "funciones": ["Aromatic agent", "Perfumery component"],
+    "aplicaciones": ["Soaps and candles", "Cosmetics and aromatherapy", "Detergents and fabric softeners", "Air fresheners"],
+    "formas_referenciales": ["Liquid — colorless to pale yellow, aromatic profile varying depending on the origin and batch"]
+  },
+  {
+    "id": "aceite-esencial-eucalipto",
+    "nombre": "Eucalyptus Essential Oil",
+    "sinonimos": ["Eucalyptus oil", "Eucalyptus globulus oil"],
+    "descripcion": "Essential oil from eucalyptus leaves, with a fresh, penetrating aroma traditionally associated with a breathable sensation of freshness. It is a common fragrance ingredient in cleaning products, soaps, shower gels, and external-use preparations. Colombia has eucalyptus plantations that supply the regional industry.",
+    "funciones": ["Aromatic agent", "Fragrance for cleaning products"],
+    "aplicaciones": ["Household cleaners and disinfectants", "Soaps and shower gels", "Candles and air fresheners", "External-use products"],
+    "formas_referenciales": ["Liquid — colorless to pale yellow, aromatic profile varying depending on the origin and batch"]
+  },
+  {
+    "id": "aceite-esencial-menta",
+    "nombre": "Peppermint Essential Oil",
+    "sinonimos": ["Peppermint oil", "Mentha piperita oil"],
+    "descripcion": "Peppermint essential oil, recognized for its intense aroma and its sensory cooling effect. It is used in hair and bath cosmetics, oral hygiene, cleaning products, and as a flavoring in food in accordance with applicable regulations. A multifunctional classic of the aromatic portfolio.",
+    "funciones": ["Aromatic agent", "Sensory cooling agent", "Flavoring in accordance with regulations"],
+    "aplicaciones": ["Refreshing shampoos and gels", "Toothpastes and mouthwashes", "Confectionery in accordance with regulations", "Cleaning products"],
+    "formas_referenciales": ["Liquid — colorless to pale yellow, aromatic profile varying depending on the origin and batch"]
+  },
+  {
+    "id": "aceite-esencial-naranja",
+    "nombre": "Sweet Orange Essential Oil",
+    "sinonimos": ["Orange oil", "Orange peel oil"],
+    "descripcion": "Essential oil obtained by pressing sweet orange peel, with a naturally high limonene content. In addition to its use as a fragrance in cosmetics and a flavoring in food in accordance with applicable regulations, it is valued in citrus cleaners for its degreasing contribution. Citrus farming in the Andean region makes it a nearby-origin ingredient.",
+    "funciones": ["Aromatic agent", "Degreasing contribution in cleaners", "Flavoring in accordance with regulations"],
+    "aplicaciones": ["Multi-purpose citrus cleaners", "Soaps and cosmetics", "Beverages and food in accordance with regulations", "Air fresheners"],
+    "formas_referenciales": ["Liquid — yellow to orange tone, aromatic profile varying depending on the origin and batch"]
+  },
+  {
+    "id": "aceite-esencial-limon",
+    "nombre": "Lemon Essential Oil",
+    "sinonimos": ["Lemon oil", "Lemon peel oil"],
+    "descripcion": "Citrus essential oil obtained from lemon peel, with a clean, bright aroma universally associated with cleanliness. It is used as a fragrance in household and institutional cleaning products and as a flavoring in food and beverages in accordance with applicable regulations. Its natural limonene content gives cleaners degreasing power.",
+    "funciones": ["Aromatic agent", "Degreasing contribution in cleaners", "Flavoring in accordance with regulations"],
+    "aplicaciones": ["Dish soaps and cleaners", "Detergents", "Beverages and food in accordance with regulations", "Soaps"],
+    "formas_referenciales": ["Liquid — pale yellow to greenish tone, aromatic profile varying depending on the origin and batch"]
+  },
+  {
+    "id": "aceite-esencial-arbol-te",
+    "nombre": "Tea Tree Essential Oil",
+    "sinonimos": ["Tea tree oil", "Melaleuca oil"],
+    "descripcion": "Essential oil from melaleuca leaves, traditionally associated with the care of blemish-prone skin and scalps with visible dandruff. It is incorporated into gels, shampoos, soaps, and pet hygiene products, always at the recommended use levels. One of the highest-turnover essential oils in functional cosmetics.",
+    "funciones": ["Purifying botanical extract", "Aromatic agent"],
+    "aplicaciones": ["Purifying gels and soaps", "Cosmetic anti-dandruff shampoos", "Pet hygiene products", "Deodorants"],
+    "formas_referenciales": ["Liquid — colorless to pale yellow, aromatic profile varying depending on the origin and batch"]
+  },
+  {
+    "id": "hidrolato-rosas",
+    "nombre": "Rose Hydrosol",
+    "sinonimos": ["Rose water", "Rose floral water"],
+    "descripcion": "Floral water obtained during the distillation of rose petals, with a delicate aroma and a mild toning character. It can partially or fully replace the water in the formula in toners, mists, and light emulsions. It provides a romantic botanical positioning with a long tradition in facial care.",
+    "funciones": ["Mild toning agent", "Aromatic aqueous base"],
+    "aplicaciones": ["Facial toners and mists", "Micellar waters", "Light emulsions", "Masks"],
+    "formas_referenciales": ["Aqueous liquid — colorless, aromatic intensity varying depending on the distillation, origin, and batch"]
+  },
+  {
+    "id": "exfoliante-cascara-nuez",
+    "nombre": "Walnut Shell Powder",
+    "sinonimos": ["Micronized walnut shell", "Ground walnut shells", "Walnut shell exfoliant"],
+    "descripcion": "Powder obtained by grinding walnut shells, used as a natural-origin mechanical exfoliant in soaps, shower gels, and body scrubs. It is a natural-origin alternative to plastic microbeads, aligned with regulatory and market trends. It is also used in industrial-use degreasing soaps.",
+    "funciones": ["Natural mechanical exfoliant", "Natural-origin alternative to plastic microbeads"],
+    "aplicaciones": ["Body and facial scrubs", "Exfoliating soaps", "Shower gels", "Industrial hand soaps"],
+    "formas_referenciales": ["Solid — powder or granules, particle size varying depending on the manufacturer and batch"]
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "lineas": {
+    "cosmetica": {
+      "nombre": "Cosmética & Cuidados Pessoais",
+      "corto": "Cosmética",
+      "tagline": "Ativos, emulsificantes, umectantes e sistemas conservantes para skincare e capilar."
+    },
+    "maquillaje": {
+      "nombre": "Maquiagem & Cor",
+      "corto": "Maquiagem",
+      "tagline": "Pigmentos, micas, cargas texturizantes e ceras para cosmética de cor."
+    },
+    "aseo": {
+      "nombre": "Limpeza & Desinfecção",
+      "corto": "Limpeza",
+      "tagline": "Tensoativos, biocidas, álcalis e enzimas para uso doméstico e institucional."
+    },
+    "alimentos": {
+      "nombre": "Alimentos & Bebidas",
+      "corto": "Alimentos",
+      "tagline": "Hidrocoloides, acidulantes, conservantes e edulcorantes de uso alimentício."
+    },
+    "agro": {
+      "nombre": "Agro & Nutrição Vegetal",
+      "corto": "Agro",
+      "tagline": "Fertilizantes solúveis, quelatos, bioestimulantes e coadjuvantes."
+    },
+    "veterinaria": {
+      "nombre": "Veterinária & Nutrição Animal",
+      "corto": "Veterinária",
+      "tagline": "Vitaminas, minerais traço, aminoácidos e aditivos para pré-misturas."
+    },
+    "extractos": {
+      "nombre": "Extratos & Naturais",
+      "corto": "Extratos",
+      "tagline": "Extratos botânicos, óleos vegetais, manteigas e essenciais — com origem LATAM."
+    },
+    "industrial": {
+      "nombre": "Industrial & Processos",
+      "corto": "Industrial",
+      "tagline": "Tratamento de águas, tintas, solventes e auxiliares de processo."
+    }
+  },
+  "especialidades": {
+    "activos": "Ativos funcionais",
+    "aceites-vegetales": "Óleos vegetais",
+    "mantecas-ceras": "Manteigas & ceras",
+    "emolientes": "Emolientes",
+    "emulsificantes": "Emulsificantes",
+    "tensoactivos": "Tensoativos",
+    "humectantes": "Umectantes",
+    "espesantes-reologia": "Espessantes & reologia",
+    "conservantes": "Conservantes",
+    "antioxidantes": "Antioxidantes",
+    "filtros-uv": "Filtros UV",
+    "pigmentos-colorantes": "Pigmentos & corantes",
+    "nacarantes-efectos": "Nacarantes & efeitos",
+    "acondicionadores": "Condicionadores",
+    "proteinas-aminoacidos": "Proteínas & aminoácidos",
+    "vitaminas": "Vitaminas",
+    "exfoliantes": "Esfoliantes",
+    "siliconas-alternativas": "Siliconas & alternativas",
+    "polimeros": "Polímeros funcionais",
+    "quelantes": "Quelantes",
+    "solventes": "Solventes & veículos",
+    "acidulantes-ph": "Acidulantes & pH",
+    "edulcorantes": "Edulcorantes",
+    "gomas-hidrocoloides": "Gomas & hidrocoloides",
+    "enzimas": "Enzimas",
+    "biocidas-desinfectantes": "Biocidas & desinfetantes",
+    "desengrasantes": "Desengraxantes",
+    "dispersantes-antiespumantes": "Dispersantes & antiespumantes",
+    "nutricion-vegetal": "Nutrição vegetal",
+    "adyuvantes-agricolas": "Adjuvantes agrícolas",
+    "premezclas-veterinarias": "Pré-misturas veterinárias",
+    "extractos-botanicos": "Extratos botânicos"
+  },
+  "sectores": {
+    "cosmetica-personal": "Cosmética & cuidados pessoais",
+    "maquillaje-color": "Maquiagem & cor",
+    "aseo-hogar": "Limpeza doméstica",
+    "institucional-industrial": "Institucional & industrial",
+    "alimentos": "Alimentos",
+    "bebidas": "Bebidas",
+    "nutraceutico": "Nutracêutico",
+    "veterinaria": "Veterinária & nutrição animal",
+    "agricola": "Agrícola",
+    "pinturas-recubrimientos": "Tintas & revestimentos",
+    "textil": "Têxtil",
+    "tratamiento-aguas": "Tratamento de águas"
+  },
+  "origenes": {
+    "Vegetal": "Vegetal",
+    "Sintético": "Sintético",
+    "Mineral": "Mineral",
+    "Biotecnológico": "Biotecnológico",
+    "Animal": "Animal",
+    "Mixto": "Misto"
+  }
+}

@@ -1,0 +1,227 @@
+[
+  {
+    "id": "nitrato-de-potasio",
+    "nombre": "Kaliumnitrat",
+    "sinonimos": ["KNO3", "Kalisalpeter", "Salpetersaures Kali"],
+    "descripcion": "Wasserlösliche Quelle für Kalium und Nitratstickstoff, weit verbreitet in Fertigations- und Blattdüngungsprogrammen. Dank seiner hohen Löslichkeit und seines niedrigen Salzindex eignet es sich für empfindliche Kulturen und technisierte Bewässerungssysteme. Es ist eine der vielseitigsten Grundlagen zur Formulierung vollständiger Nährlösungen.",
+    "funciones": ["Kaliumquelle", "Quelle für Nitratstickstoff", "Basis für Nährlösungen"],
+    "aplicaciones": ["Fertigation in Gemüse- und Obstkulturen", "Blattdüngung", "Hydroponische Kulturen", "Mischungen wasserlöslicher Düngemittel"],
+    "formas_referenciales": ["Kristalliner Feststoff oder Prills, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "nitrato-de-calcio",
+    "nombre": "Calciumnitrat",
+    "sinonimos": ["Kalksalpeter", "Norgessalpeter"],
+    "descripcion": "Wasserlöslicher Dünger, der Calcium und schnell verfügbaren Nitratstickstoff liefert. Er wird mit der Fruchtfestigkeit und der Verringerung physiologischer Störungen infolge von Calciummangel in Verbindung gebracht. Üblicher Bestandteil des Calciumtanks in Fertigation und Hydroponik.",
+    "funciones": ["Calciumquelle", "Quelle für Nitratstickstoff"],
+    "aplicaciones": ["Fertigation in Obst- und Gemüsekulturen", "Hydroponische Nährlösungen", "Calcium-Blattanwendungen", "Abwasserbehandlung"],
+    "formas_referenciales": ["Feststoff — granuliert oder Kristalle, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "fosfato-monoamonico-map",
+    "nombre": "Monoammoniumphosphat (MAP)",
+    "sinonimos": ["Wasserlösliches MAP", "Ammoniumdihydrogenphosphat"],
+    "descripcion": "Wasserlösliche Quelle für Phosphor und Ammoniumstickstoff, eingesetzt in den Phasen der Bewurzelung und der Bestandsetablierung. Seine leicht saure Reaktion in Lösung fördert die Phosphorverfügbarkeit in harten Wässern. Häufige Basis in Fertigations- und Startdüngungsprogrammen.",
+    "funciones": ["Phosphorquelle", "Quelle für Ammoniumstickstoff", "Ansäuerungsmittel der Nährlösung"],
+    "aplicaciones": ["Start- und Bewurzelungsfertigation", "Hydroponische Nährlösungen", "Wasserlösliche NPK-Mischungen"],
+    "formas_referenciales": ["Kristalliner Feststoff oder Pulver, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "fosfato-monopotasico-mkp",
+    "nombre": "Monokaliumphosphat (MKP)",
+    "sinonimos": ["MKP", "Kaliumdihydrogenphosphat"],
+    "descripcion": "Stickstofffreier wasserlöslicher Dünger, der Phosphor und Kalium kombiniert und mit den Phasen der Blüte, des Fruchtansatzes und der Fruchtfüllung in Verbindung gebracht wird. Sein niedriger Salzindex macht ihn geeignet für Blattanwendungen und Fertigation in empfindlichen Kulturen. In der Lebensmittelindustrie wird er gemäß den geltenden Vorschriften eingesetzt.",
+    "funciones": ["Phosphor- und Kaliumquelle", "Regulator des N-P-K-Verhältnisses", "Puffersalz"],
+    "aplicaciones": ["Blattdüngung in Blüte und Fruchtfüllung", "Fertigation und Hydroponik", "Stickstofffreie wasserlösliche Mischungen"],
+    "formas_referenciales": ["Kristalliner Feststoff oder Pulver, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "sulfato-de-magnesio-heptahidratado",
+    "nombre": "Magnesiumsulfat-Heptahydrat",
+    "sinonimos": ["Bittersalz", "Epsom-Salz", "Epsomit"],
+    "descripcion": "Wasserlösliche Quelle für Magnesium und Schwefel, Schlüsselelemente der Chlorophyll- und Proteinsynthese der Pflanze. Eingesetzt in der Fertigation, in Blattanwendungen und zur Korrektur von Mangelerscheinungen auf ausgewaschenen Böden. Seine Vielseitigkeit eröffnet ihm auch Absatzmöglichkeiten in der Kosmetik und in weiteren industriellen Anwendungen.",
+    "funciones": ["Magnesiumquelle", "Schwefelquelle"],
+    "aplicaciones": ["Fertigation und Blattdüngung", "Korrektur von Magnesiummangel", "Hydroponische Nährlösungen", "Badesalze und Kosmetik"],
+    "formas_referenciales": ["Kristalliner Feststoff, Kristallgröße variabel je nach Hersteller und Charge"]
+  },
+  {
+    "id": "urea-agricola",
+    "nombre": "Harnstoff",
+    "sinonimos": ["Urea", "Carbamid", "Kohlensäurediamid"],
+    "descripcion": "Stickstoffquelle mit breitem Einsatz in der Bodendüngung und in verdünnten Blattanwendungen. Aufgrund seines Kosten-Stickstoff-Verhältnisses ist er einer der weltweit meistgenutzten Dünger. Er findet zudem Anwendung in der Tierernährung und in der Industrie, gemäß den geltenden Vorschriften.",
+    "funciones": ["Stickstoffquelle", "Industrieller Rohstoff"],
+    "aplicaciones": ["Bodendüngung von Flächenkulturen", "Verdünnte Blattanwendungen", "Supplementierung von Wiederkäuern", "Harze und industrielle Prozesse"],
+    "formas_referenciales": ["Feststoff — Perlen (Prills) oder granuliert, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "sulfato-de-potasio",
+    "nombre": "Kaliumsulfat",
+    "sinonimos": ["SOP", "Schwefelsaures Kali"],
+    "descripcion": "Chloridfreie Quelle für Kalium und Schwefel, geeignet für salzempfindliche Kulturen wie Obstgehölze, Kaffee und Exportgemüse. Er wird mit Verbesserungen bei Qualität, Kaliber und Nacherntehaltbarkeit der Früchte in Verbindung gebracht. Verfügbar in Qualitäten für die Bodenanwendung oder für Fertigationssysteme.",
+    "funciones": ["Chloridfreie Kaliumquelle", "Schwefelquelle"],
+    "aplicaciones": ["Düngung von Obstkulturen und Kaffee", "Fertigation in chloridempfindlichen Kulturen", "Physikalische Düngermischungen"],
+    "formas_referenciales": ["Feststoff — kristallines Pulver oder granuliert, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "quelato-de-hierro-edta",
+    "nombre": "Eisen-EDTA-Chelat",
+    "sinonimos": ["Fe-EDTA", "EDTA-Eisenchelat"],
+    "descripcion": "Eisen-Mikronährstoff, geschützt durch den Chelatbildner EDTA, der das Element in Nährlösungen und Blattanwendungen pflanzenverfügbar hält. Eingesetzt zur Vorbeugung und Korrektur von Eisenchlorose bei moderaten pH-Werten. Üblich in der Hydroponik und in der Fertigation von Kulturen mit kurzem Zyklus.",
+    "funciones": ["Quelle für chelatisiertes Eisen", "Korrekturmittel gegen Eisenchlorose"],
+    "aplicaciones": ["Hydroponische Nährlösungen", "Blattdüngung", "Fertigation in Substraten und Böden mit moderatem pH-Wert"],
+    "formas_referenciales": ["Feststoff — Pulver oder Mikrogranulat, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "quelato-de-hierro-eddha",
+    "nombre": "Eisen-EDDHA-Chelat",
+    "sinonimos": ["Fe-EDDHA", "EDDHA-Eisenchelat"],
+    "descripcion": "Hochstabiles Eisenchelat, entwickelt, um Eisen auch in kalkhaltigen und alkalischen Böden verfügbar zu halten, in denen andere Chelate ihre Stabilität verlieren. Eine gängige Referenz zur Korrektur von Eisenchlorose in Obstgehölzen, Zitruskulturen und Dauerkulturen über den Boden oder die Fertigation.",
+    "funciones": ["Quelle für hochstabiles chelatisiertes Eisen", "Korrekturmittel gegen Eisenchlorose in alkalischen Böden"],
+    "aplicaciones": ["Chlorosekorrektur in Obst- und Zitruskulturen", "Fertigation in kalkhaltigen Böden", "Mikronährstoffprogramme über den Boden"],
+    "formas_referenciales": ["Feststoff — Mikrogranulat oder lösliches Pulver, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "sulfato-de-zinc",
+    "nombre": "Zinksulfat",
+    "sinonimos": ["Zinkvitriol", "Weißer Vitriol"],
+    "descripcion": "Wasserlösliche Zinkquelle; dieser Mikronährstoff wird mit der Streckung der Internodien, der Entwicklung junger Blätter und der Fruchtbildung in Verbindung gebracht. Eingesetzt in Blattanwendungen, in der Fertigation und in Mikronährstoffmischungen. Findet zudem Absatz in Vormischungen für die Tierernährung, gemäß den geltenden Vorschriften.",
+    "funciones": ["Zinkquelle", "Bestandteil von Mikronährstoffmischungen"],
+    "aplicaciones": ["Blattdüngung", "Fertigation und Mikronährstoffmischungen", "Mineralische Vormischungen für die Tierernährung"],
+    "formas_referenciales": ["Kristalliner Feststoff oder Pulver, je nach Hydratationsgrad, Hersteller und Charge"]
+  },
+  {
+    "id": "acido-borico",
+    "nombre": "Borsäure",
+    "sinonimos": ["Orthoborsäure"],
+    "descripcion": "Konzentrierte Borquelle; dieser Mikronährstoff ist essenziell für die Blüte, die Pollenviabilität und den Fruchtansatz. Eingesetzt in Blattanwendungen und in der Fertigation, insbesondere in Kulturen mit hohem Bedarf wie Avocado, Ölpalme und Kreuzblütlern. Die Handhabung erfordert eine sorgfältige Dosierung aufgrund der geringen Spanne zwischen Mangel und Überschuss.",
+    "funciones": ["Borquelle", "Bestandteil von Blattdüngermischungen"],
+    "aplicaciones": ["Blattdüngung in Blüte und Fruchtansatz", "Fertigation von Kulturen mit hohem Borbedarf", "Mikronährstoffmischungen"],
+    "formas_referenciales": ["Feststoff — Pulver oder Kristalle, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "molibdato-de-sodio",
+    "nombre": "Natriummolybdat",
+    "sinonimos": ["Natriummolybdat-Dihydrat"],
+    "descripcion": "Wasserlösliche Molybdänquelle; dieser Mikronährstoff ist ein Schlüsselelement der biologischen Stickstofffixierung und der Aktivität des Enzyms Nitratreduktase. In niedrigen Dosierungen in der Saatgutbehandlung von Leguminosen und in Blattdüngermischungen eingesetzt. Übliche Ergänzung zu Inokulanten in Soja, Bohnen und Futterpflanzen.",
+    "funciones": ["Molybdänquelle", "Ergänzung der Stickstofffixierung"],
+    "aplicaciones": ["Saatgutbehandlung von Leguminosen", "Blattdüngung", "Mikronährstoffmischungen"],
+    "formas_referenciales": ["Kristalliner Feststoff oder Pulver, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "extracto-de-algas-ascophyllum",
+    "nombre": "Ascophyllum-nodosum-Algenextrakt",
+    "sinonimos": ["Braunalgenextrakt", "Kelp-Extrakt"],
+    "descripcion": "Biostimulans marinen Ursprungs, gewonnen aus der Braunalge Ascophyllum nodosum, das mit der Toleranz gegenüber abiotischem Stress, der Bewurzelung und dem Fruchtansatz in Verbindung gebracht wird. Liefert natürliche Verbindungen wie Alginate, Mannit und Hormonvorstufen. Wird über den gesamten Kulturzyklus in Blatt- und Fertigationsprogramme integriert.",
+    "funciones": ["Biostimulans", "Induktor der Toleranz gegenüber abiotischem Stress", "Bewurzelungsförderer"],
+    "aplicaciones": ["Blattprogramme zur Biostimulation", "Fertigation in Stressphasen", "Saatgutbehandlung und Umpflanzung"],
+    "formas_referenciales": ["Feststoff — Pulver oder lösliche Flocken, je nach Hersteller und Charge", "Flüssig — konzentrierter Extrakt, je nach Lieferform des Herstellers"]
+  },
+  {
+    "id": "aminoacidos-hidrolizado-vegetal",
+    "nombre": "Aminosäuren aus pflanzlicher Hydrolyse",
+    "sinonimos": ["Pflanzliches Proteinhydrolysat", "L-Aminosäuren für die Landwirtschaft"],
+    "descripcion": "Biostimulans auf Basis freier Aminosäuren, gewonnen durch Hydrolyse pflanzlicher Proteine, das mit der Erholung der Kultur nach Stress durch Trockenheit, Kälte oder Phytotoxizität in Verbindung gebracht wird. Erleichtert die Nährstoffaufnahme und wirkt als natürlicher Komplexbildner in Blattdüngermischungen. Kompatibel mit den meisten Ernährungsprogrammen.",
+    "funciones": ["Biostimulans", "Komplexbildner für Nährstoffe", "Regenerationsmittel nach Stress"],
+    "aplicaciones": ["Blattanwendungen nach abiotischem Stress", "Fertigation in kritischen Phasen", "Träger für komplexierte Mikronährstoffe"],
+    "formas_referenciales": ["Feststoff — lösliches Pulver, je nach Hersteller und Charge", "Flüssig — konzentrierte Lösung, je nach Lieferform des Herstellers"]
+  },
+  {
+    "id": "humato-de-potasio",
+    "nombre": "Kaliumhumat",
+    "sinonimos": ["Huminsäure-Kaliumsalze", "Leonardit-Kaliumhumat"],
+    "descripcion": "Kaliumsalze von Huminsäuren aus Leonardit, eingesetzt als Bodenverbesserer und zur Steigerung der Düngereffizienz. Wird mit der Wurzelentwicklung, der Wasserspeicherung und dem Kationenaustausch des Bodens in Verbindung gebracht. Anwendung in der Fertigation, im Drench-Verfahren und in Bodenbehandlungen.",
+    "funciones": ["Bodenverbesserer", "Steigerung der Düngereffizienz", "Förderer der Wurzelentwicklung"],
+    "aplicaciones": ["Fertigation und Drench", "Aufbereitung degradierter Böden", "Mischungen mit NPK-Düngern"],
+    "formas_referenciales": ["Feststoff — Flocken, Granulat oder lösliches Pulver, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "acido-fulvico",
+    "nombre": "Fulvosäure",
+    "sinonimos": ["Kaliumfulvat", "Fulvinsäure"],
+    "descripcion": "Niedermolekulare Fraktion der Huminstoffe mit hoher Löslichkeit und der Fähigkeit, Nährstoffe zu komplexieren und so deren Aufnahme über Blatt und Wurzel zu fördern. Kompatibel mit Blattanwendungen und Niederdruck-Fertigationssystemen. Eingesetzt als Begleitstoff zu Mikronährstoffen und löslichen Düngern.",
+    "funciones": ["Natürlicher Komplexbildner", "Förderer der Nährstoffaufnahme", "Biostimulans"],
+    "aplicaciones": ["Blattanwendungen mit Mikronährstoffen", "Fertigation und Hydroponik", "Saatgutbehandlungen"],
+    "formas_referenciales": ["Feststoff — lösliches Pulver, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "coadyuvante-organosiliconado",
+    "nombre": "Organosilikon-Superspreiter",
+    "sinonimos": ["Trisiloxan-Ethoxylat", "Silikon-Netzmittel"],
+    "descripcion": "Tensid auf Basis von modifiziertem Trisiloxan, das die Oberflächenspannung der Spritzbrühe herabsetzt und so eine gleichmäßigere Benetzung der Blattoberfläche begünstigt. Wird mit einer besseren Penetration über die Stomata und einer Reduzierung des Wasservolumens pro Hektar in Verbindung gebracht. Wird in geringen Anteilen im Mischtank dosiert.",
+    "funciones": ["Superbenetzer", "Spreitmittel für die Blattbedeckung", "Stomatäres Penetriermittel"],
+    "aplicaciones": ["Additiv in Blattspritzungen", "Anwendungen mit geringem Wasservolumen", "Tankmischungen von Blattdüngern"],
+    "formas_referenciales": ["Flüssig — Aussehen und Viskosität je nach Hersteller und Charge"]
+  },
+  {
+    "id": "jabon-potasico-agricola",
+    "nombre": "Kaliseife",
+    "sinonimos": ["Schmierseife", "Kaliumsalze von Fettsäuren"],
+    "descripcion": "Kaliumsalze von Fettsäuren pflanzlichen Ursprungs, eingesetzt als Additiv und Reinigungsmittel für die Blattoberfläche in Programmen des integrierten Anbaus. Hilft, Rußtau, Honigtau und Rückstände zu entfernen, die die Photosynthese beeinträchtigen. Ein Betriebsmittel, das mit ökologisch ausgerichteten Produktionssystemen in Verbindung gebracht wird.",
+    "funciones": ["Spritzadditiv", "Reiniger der Blattoberfläche", "Tensid pflanzlichen Ursprungs"],
+    "aplicaciones": ["Blattwäsche gegen Rußtau und Honigtau", "Additiv in Tankmischungen", "Programme des integrierten Anbaus und des ökologischen Landbaus"],
+    "formas_referenciales": ["Viskose Flüssigkeit oder Paste, je nach Konzentration, Hersteller und Charge"]
+  },
+  {
+    "id": "aceite-mineral-agricola",
+    "nombre": "Mineralisches Spritzöl",
+    "sinonimos": ["Paraffinöl", "Sommeröl"],
+    "descripcion": "Hochraffiniertes Paraffinöl, eingesetzt als Additiv in landwirtschaftlichen Spritzanwendungen, wo es Haftung, Verteilung und Persistenz der Spritzbrühe auf der behandelten Oberfläche verbessert. Anwendung in Programmen der Bestandsführung von Obst-, Zitrus- und Zierpflanzenkulturen. Erfordert eine geeignete Emulgierung im Mischtank.",
+    "funciones": ["Haftverbesserndes Additiv", "Trägeröl für Spritzanwendungen", "Verbesserer der Bedeckung"],
+    "aplicaciones": ["Additiv in Obst- und Zitruskulturen", "Tankmischungen in Zierpflanzen", "Programme des integrierten Anbaus"],
+    "formas_referenciales": ["Ölige Flüssigkeit, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "acido-fosforico",
+    "nombre": "Phosphorsäure",
+    "sinonimos": ["Orthophosphorsäure", "E 338"],
+    "descripcion": "Anorganische Säure mit doppeltem Einsatz in der Landwirtschaft: Phosphorquelle in der Fertigation und pH-Korrekturmittel für Bewässerungswasser mit hoher Alkalinität. Hilft, die Verstopfung von Tropfern durch Carbonatausfällungen zu verhindern. In Lebensmitteln und Industrie wird sie gemäß den geltenden Vorschriften eingesetzt.",
+    "funciones": ["pH-Korrekturmittel für Bewässerungswasser", "Phosphorquelle", "Reiniger für Bewässerungssysteme"],
+    "aplicaciones": ["Ansäuerung von Fertigationswasser", "Reinigung von Tropfleitungen", "Phosphordüngung über die Bewässerung", "Säuerungsmittel in der Industrie gemäß Vorschriften"],
+    "formas_referenciales": ["Flüssig — wässrige Lösung, Konzentration je nach Lieferform des Herstellers"]
+  },
+  {
+    "id": "acido-citrico-agricola",
+    "nombre": "Citronensäure",
+    "sinonimos": ["Zitronensäure", "E 330"],
+    "descripcion": "Organische Säure biotechnologischen Ursprungs, in der Landwirtschaft eingesetzt als Korrekturmittel für pH-Wert und Härte des Spritzwassers, um die alkalische Hydrolyse der Betriebsmittel im Tank zu verhindern. Ihre chelatisierende Wirkung hilft, die Kationen der Spritzbrühe verfügbar zu halten. Breiter Querschnittseinsatz in Lebensmitteln, Reinigung und Kosmetik gemäß den geltenden Vorschriften.",
+    "funciones": ["pH-Korrekturmittel der Spritzbrühe", "Sequestriermittel für Wasserhärte", "Mehrzweck-Säuerungsmittel"],
+    "aplicaciones": ["Aufbereitung von Spritzwasser", "Tankmischungen mit harten Wässern", "Säuerungsmittel in Lebensmitteln und Reinigungsprodukten gemäß Vorschriften"],
+    "formas_referenciales": ["Kristalliner Feststoff — wasserfrei oder als Monohydrat, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "lignosulfonato-de-sodio",
+    "nombre": "Natriumlignosulfonat",
+    "sinonimos": ["Natrium-Ligninsulfonat"],
+    "descripcion": "Polymeres Dispergiermittel pflanzlichen Ursprungs auf Ligninbasis, eingesetzt in der Formulierung von benetzbaren Pulvern und dispergierbaren Granulaten für die Landwirtschaft. Hält die Partikel im Spritztank in stabiler Suspension und wirkt als Bindemittel bei der Granulierung. Findet zudem Verwendung in Beton, Keramik und anderen industriellen Prozessen.",
+    "funciones": ["Dispergiermittel", "Suspendiermittel", "Bindemittel für die Granulierung"],
+    "aplicaciones": ["Formulierung benetzbarer Pulver und dispergierbarer Granulate", "Düngersuspensionen", "Industrieadditiv für Beton und Keramik"],
+    "formas_referenciales": ["Feststoff — Pulver oder Granulat, Farbton variabel je nach Ligninherkunft, Hersteller und Charge"]
+  },
+  {
+    "id": "caolin-agricola",
+    "nombre": "Kaolin",
+    "sinonimos": ["Weiße Tonerde", "Porzellanerde", "Kaolinit"],
+    "descripcion": "Mineralische Tonerde, in der Landwirtschaft als schützender Anti-Stress-Film eingesetzt, der mit der Reduzierung von Sonnenbrand und Hitzestress an Früchten und Blättern in Verbindung gebracht wird. Bildet eine physikalische Partikelbarriere, die überschüssige Strahlung reflektiert. Ihre Vielseitigkeit eröffnet ihr auch Absatzmöglichkeiten in Kosmetik, Keramik und Beschichtungen.",
+    "funciones": ["Schutz vor Hitzestress", "Reflektierende physikalische Barriere", "Mineralischer Füllstoff"],
+    "aplicaciones": ["Schutz von Früchten vor Sonnenbrand", "Anti-Stress-Spritzungen in Obstkulturen", "Füllstoff in kosmetischen und industriellen Formulierungen"],
+    "formas_referenciales": ["Feststoff — Pulver, Farbton und Feinheit variabel je nach Lagerstätte, Hersteller und Charge"]
+  },
+  {
+    "id": "azufre-elemental",
+    "nombre": "Elementarer Schwefel",
+    "sinonimos": ["Agrarschwefel", "Schwefelblüte"],
+    "descripcion": "Konzentrierte Schwefelquelle für die Pflanzenernährung und die Melioration alkalischer oder natriumhaltiger Böden, wo seine allmähliche Oxidation zur Senkung des pH-Werts beiträgt. Eingesetzt in Bodenkorrekturprogrammen und als Bestandteil von Düngermischungen. Querschnittsrohstoff mit Anwendungen auch in der Industrie.",
+    "funciones": ["Schwefelquelle", "Versauernde Bodenverbesserung"],
+    "aplicaciones": ["Korrektur alkalischer und natriumhaltiger Böden", "Schwefelhaltige Düngermischungen", "Diverse industrielle Anwendungen"],
+    "formas_referenciales": ["Feststoff — Pulver, Granulat oder Pastillen, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "sulfato-de-amonio",
+    "nombre": "Ammoniumsulfat",
+    "sinonimos": ["Schwefelsaures Ammoniak", "ssA"],
+    "descripcion": "Stickstoffdünger mit gleichzeitigem Schwefelanteil und saurer Reaktion im Boden, nützlich in alkalischen Böden und schwefelbedürftigen Kulturen. In Tankmischungen wird er als Konditionierer für harte Wässer eingesetzt, indem er antagonistische Kationen bindet. Betriebsmittel mit breitem Einsatz in Flächenkulturen.",
+    "funciones": ["Quelle für Ammoniumstickstoff", "Schwefelquelle", "Konditionierer für harte Wässer"],
+    "aplicaciones": ["Bodendüngung in alkalischen Böden", "Aufbereitung der Spritzbrühe", "Physikalische Düngermischungen"],
+    "formas_referenciales": ["Feststoff — Kristalle oder granuliert, je nach Hersteller und Charge"]
+  }
+]

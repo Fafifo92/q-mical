@@ -1,0 +1,218 @@
+[
+  {
+    "id": "vitamina-a",
+    "nombre": "Vitamin A (Retinyl Acetate)",
+    "sinonimos": ["Retinyl Acetate", "Vitamin A Acetate"],
+    "descripcion": "Fat-soluble vitamin used in the formulation of vitamin premixes and nucleus premixes for animal nutrition. It provides vitamin A activity associated with vision, growth, and the integrity of epithelial tissues, in accordance with applicable regulations. It is incorporated in stabilized forms to protect its activity against oxidation during mixing and storage.",
+    "funciones": ["Source of vitamin A", "Vitamin premix additive"],
+    "aplicaciones": ["Vitamin premixes", "Nucleus premixes and concentrates", "Balanced feed for poultry", "Feed for pigs", "Supplements for cattle"],
+    "formas_referenciales": ["Solid — powder or coated microgranules, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "vitamina-d3",
+    "nombre": "Vitamin D3 (Cholecalciferol)",
+    "sinonimos": ["Cholecalciferol"],
+    "descripcion": "Source of vitamin D3 used in premixes and supplements for animal nutrition. It is associated with calcium and phosphorus metabolism and with bone mineralization, in accordance with applicable regulations. It is handled in stabilized presentations that facilitate its dosing and homogenization in balanced feed.",
+    "funciones": ["Source of vitamin D3", "Vitamin premix additive"],
+    "aplicaciones": ["Vitamin premixes", "Feed for poultry", "Feed for pigs", "Mineralized salts for cattle"],
+    "formas_referenciales": ["Solid — powder or stabilized microgranules, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "vitamina-e",
+    "nombre": "Vitamin E (DL-alpha-Tocopheryl Acetate)",
+    "sinonimos": ["alpha-Tocopheryl Acetate", "Tocopheryl Acetate", "Vitamin E Acetate"],
+    "descripcion": "Fat-soluble antioxidant used in premixes for animal nutrition and as a stabilizer of fats and vitamins in feed. It is associated with immune function and with the protection of cell membranes against oxidation, in accordance with applicable regulations. It is also used as an antioxidant in cosmetic and food formulations.",
+    "funciones": ["Antioxidant", "Source of vitamin E", "Stabilizer of vitamins and fats"],
+    "aplicaciones": ["Vitamin premixes", "Nucleus premixes for monogastrics", "Fat stabilization in feed", "Nutraceutical supplements"],
+    "formas_referenciales": ["Viscous oily liquid or powder adsorbed onto a carrier, depending on the manufacturer's presentation and batch"]
+  },
+  {
+    "id": "vitamina-k3",
+    "nombre": "Vitamin K3 (Menadione)",
+    "sinonimos": ["Menadione", "Menadione Sodium Bisulfite", "MSB"],
+    "descripcion": "Source of vitamin K activity used in premixes and nucleus premixes for animal nutrition. It is associated with blood coagulation mechanisms, in accordance with applicable regulations. It is presented as a stabilized salt to improve its handling and its compatibility within the mixture.",
+    "funciones": ["Source of vitamin K", "Vitamin premix additive"],
+    "aplicaciones": ["Vitamin premixes", "Feed for poultry", "Feed for pigs"],
+    "formas_referenciales": ["Solid — crystalline powder, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "cloruro-de-colina",
+    "nombre": "Choline Chloride",
+    "sinonimos": ["Choline Chloride on carrier"],
+    "descripcion": "Nutrient used in premixes and balanced feed as a source of choline for animal nutrition. It is associated with fat metabolism, liver function, and the supply of methyl groups, in accordance with applicable regulations. It is offered in a liquid presentation or supported on a carrier to facilitate its incorporation into the mixture.",
+    "funciones": ["Source of choline", "Methyl group donor", "Nutritional additive"],
+    "aplicaciones": ["Balanced feed for poultry", "Feed for pigs", "Premixes and nucleus premixes", "Supplements"],
+    "formas_referenciales": ["Liquid or powder on a carrier, depending on the manufacturer's presentation and batch"]
+  },
+  {
+    "id": "betaina-anhidra",
+    "nombre": "Betaine Anhydrous",
+    "sinonimos": ["Trimethylglycine", "Natural Betaine", "TMG"],
+    "descripcion": "Osmolyte and methyl group donor compound used in formulations for animal nutrition. It is associated with intestinal osmotic balance and with sparing other methyl donors in the diet, in accordance with applicable regulations. In personal care it is used as a humectant of natural origin.",
+    "funciones": ["Osmolyte", "Methyl group donor", "Humectant"],
+    "aplicaciones": ["Feed for poultry", "Aquaculture diets", "Premixes", "Personal care humectant formulations"],
+    "formas_referenciales": ["Solid — crystalline powder or granules, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "sulfato-de-zinc-monohidratado",
+    "nombre": "Zinc Sulfate Monohydrate",
+    "sinonimos": ["Zinc Sulphate Monohydrate"],
+    "descripcion": "Source of zinc with good availability used in mineral premixes for animal nutrition. Zinc is associated with enzyme function, skin integrity, and the immune system, in accordance with applicable regulations. It is also used as a micronutrient in plant nutrition formulations.",
+    "funciones": ["Source of zinc", "Mineral micronutrient"],
+    "aplicaciones": ["Mineral premixes", "Mineralized salts", "Balanced feed", "Fertilizers with micronutrients"],
+    "formas_referenciales": ["Solid — powder or granules, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "oxido-de-zinc",
+    "nombre": "Zinc Oxide",
+    "sinonimos": ["Zinc White", "Flowers of Zinc"],
+    "descripcion": "Concentrated source of zinc used in mineral premixes for animal nutrition. It provides zinc associated with enzymatic processes and with the health of the skin and hooves, in accordance with applicable regulations. Zinc oxide is also used as an ingredient in cosmetic and skin-protection formulations.",
+    "funciones": ["Source of zinc", "Mineral micronutrient"],
+    "aplicaciones": ["Mineral premixes", "Feed for pigs", "Mineralized salts", "Skin-care creams and ointments"],
+    "formas_referenciales": ["Solid — powder, particle size varies depending on the manufacturer and batch"]
+  },
+  {
+    "id": "sulfato-de-cobre",
+    "nombre": "Copper Sulfate Pentahydrate",
+    "sinonimos": ["Cupric Sulfate", "Blue Vitriol"],
+    "descripcion": "Source of copper used in mineral premixes for animal nutrition. Copper is associated with iron metabolism, pigmentation, and enzyme function, in accordance with applicable regulations. Beyond animal nutrition it is used in water treatment and as an agricultural micronutrient.",
+    "funciones": ["Source of copper", "Mineral micronutrient"],
+    "aplicaciones": ["Mineral premixes", "Mineralized salts", "Water treatment", "Agricultural micronutrients"],
+    "formas_referenciales": ["Solid — crystals or powder, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "sulfato-de-manganeso",
+    "nombre": "Manganese Sulfate Monohydrate",
+    "sinonimos": ["Manganous Sulfate", "Manganese(II) Sulfate"],
+    "descripcion": "Source of manganese used in mineral premixes for animal nutrition. Manganese is associated with bone formation and with various enzyme systems, in accordance with applicable regulations. It is also used as a micronutrient in plant nutrition programs.",
+    "funciones": ["Source of manganese", "Mineral micronutrient"],
+    "aplicaciones": ["Mineral premixes", "Mineralized salts", "Balanced feed", "Fertilizers with micronutrients"],
+    "formas_referenciales": ["Solid — powder or granules, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "selenito-de-sodio",
+    "nombre": "Sodium Selenite",
+    "sinonimos": ["Selenium (inorganic source)"],
+    "descripcion": "Inorganic source of selenium used in premixes for animal nutrition. Selenium is associated with cellular antioxidant defense and with immune system function, in accordance with applicable regulations. Because of its high activity, it is usually handled diluted in a premix to ensure homogeneous dosing.",
+    "funciones": ["Source of selenium", "Mineral micronutrient", "Antioxidant support"],
+    "aplicaciones": ["Mineral premixes", "Mineralized salts for cattle", "Nucleus premixes for monogastrics"],
+    "formas_referenciales": ["Solid — crystalline powder, usually in a diluted premix depending on the manufacturer and batch"]
+  },
+  {
+    "id": "l-lisina",
+    "nombre": "L-Lysine Hydrochloride",
+    "sinonimos": ["L-Lysine HCl", "Lysine"],
+    "descripcion": "Essential amino acid used in the formulation of balanced feed for animal nutrition. It allows the amino acid profile of the diet to be balanced and the protein supply to be optimized, in accordance with applicable regulations. It is one of the most widely used limiting amino acids in poultry and swine diets.",
+    "funciones": ["Essential amino acid", "Amino acid balance"],
+    "aplicaciones": ["Feed for poultry", "Feed for pigs", "Low-protein diets", "Aquaculture"],
+    "formas_referenciales": ["Solid — powder or granules, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "dl-metionina",
+    "nombre": "DL-Methionine",
+    "sinonimos": ["Methionine", "DL-Met"],
+    "descripcion": "Sulfur-containing essential amino acid used in diets for animal nutrition, especially in poultry. It helps balance the amino acid profile and improve the efficiency of dietary protein, in accordance with applicable regulations. It is usually the first limiting amino acid in poultry formulations.",
+    "funciones": ["Essential amino acid", "Amino acid balance"],
+    "aplicaciones": ["Feed for poultry", "Feed for pigs", "Layer diets", "Aquaculture"],
+    "formas_referenciales": ["Solid — crystalline powder or flakes, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "l-treonina",
+    "nombre": "L-Threonine",
+    "sinonimos": ["Threonine", "L-Thr"],
+    "descripcion": "Essential amino acid used in the formulation of balanced feed for animal nutrition. It helps balance the amino acid profile and formulate diets with lower crude protein, in accordance with applicable regulations. It is used mainly in swine and poultry diets.",
+    "funciones": ["Essential amino acid", "Amino acid balance"],
+    "aplicaciones": ["Feed for pigs", "Feed for poultry", "Low-protein diets"],
+    "formas_referenciales": ["Solid — crystalline powder or granules, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "l-triptofano",
+    "nombre": "L-Tryptophan",
+    "sinonimos": ["Tryptophan", "L-Trp"],
+    "descripcion": "Essential amino acid used in animal nutrition diets to complete the amino acid profile. It is associated with feed intake and dietary balance, in accordance with applicable regulations. It is also used as an ingredient in nutraceutical supplements.",
+    "funciones": ["Essential amino acid", "Amino acid balance"],
+    "aplicaciones": ["Feed for pigs", "Feed for poultry", "Nutraceutical supplements"],
+    "formas_referenciales": ["Solid — crystalline powder, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "acido-formico",
+    "nombre": "Formic Acid",
+    "sinonimos": ["Methanoic Acid"],
+    "descripcion": "Short-chain acidifier used in formulations for animal nutrition and in the preservation of grains and forages. It is associated with the control of pH and microbial load in feed, in accordance with applicable regulations. Beyond animal nutrition it is used in various industrial and agricultural processes.",
+    "funciones": ["Acidifier", "Preservative", "pH control"],
+    "aplicaciones": ["Acidification of balanced feed", "Preservation of grains and forages", "Sanitization of raw materials", "Industrial processes"],
+    "formas_referenciales": ["Liquid — solution with a concentration that varies depending on the manufacturer and batch"]
+  },
+  {
+    "id": "acido-propionico",
+    "nombre": "Propionic Acid",
+    "sinonimos": ["Propanoic Acid", "E-280"],
+    "descripcion": "Acidifier and preservative agent used in balanced feed and in the preservation of moist grains. It is associated with the inhibition of mold growth and the control of pH, in accordance with applicable regulations. It is also used as a preservative in the food industry.",
+    "funciones": ["Preservative", "Mold inhibitor", "Acidifier"],
+    "aplicaciones": ["Preservation of moist grains", "Balanced feed", "Food preservation", "Baking"],
+    "formas_referenciales": ["Liquid — solution with a concentration that varies depending on the manufacturer and batch"]
+  },
+  {
+    "id": "butirato-de-sodio",
+    "nombre": "Sodium Butyrate",
+    "sinonimos": ["Sodium Butanoate", "Butyric Acid Sodium Salt"],
+    "descripcion": "Salt of butyric acid used in formulations for animal nutrition as a source of short-chain fatty acids. It is associated with supporting the integrity of the intestinal mucosa and with digestive health, in accordance with applicable regulations. It is offered in coated or uncoated presentations depending on the desired release point.",
+    "funciones": ["Source of short-chain fatty acids", "Intestinal health support"],
+    "aplicaciones": ["Feed for poultry", "Feed for pigs", "Weaning diets", "Functional premixes"],
+    "formas_referenciales": ["Solid — powder or microgranules, coated or uncoated depending on the manufacturer and batch"]
+  },
+  {
+    "id": "fitasa",
+    "nombre": "Phytase",
+    "sinonimos": ["Phytase Enzyme", "6-Phytase"],
+    "descripcion": "Enzyme used in balanced feed to release the phosphorus bound to phytate in plant ingredients. Its use is associated with better utilization of phosphorus and other minerals and with lower excretion, in accordance with applicable regulations. It is handled in liquid or coated granulated presentations to withstand the pelleting process.",
+    "funciones": ["Enzyme", "Release of phytate phosphorus"],
+    "aplicaciones": ["Feed for poultry", "Feed for pigs", "Aquaculture", "Plant-based diets"],
+    "formas_referenciales": ["Liquid or coated granules, depending on the manufacturer's presentation and batch"]
+  },
+  {
+    "id": "xilanasa",
+    "nombre": "Xylanase",
+    "sinonimos": ["Xylanase Enzyme", "Endo-1,4-beta-Xylanase"],
+    "descripcion": "Enzyme that acts on the arabinoxylans of cereals, used in balanced feed for animal nutrition. Its use is associated with an improvement in the digestibility and energy value of the diet, in accordance with applicable regulations. It is also used in food industry processes.",
+    "funciones": ["Enzyme", "Improvement of digestibility"],
+    "aplicaciones": ["Feed for poultry", "Feed for pigs", "Cereal-based diets", "Food industry"],
+    "formas_referenciales": ["Solid — powder or granules, or a liquid presentation depending on the manufacturer and batch"]
+  },
+  {
+    "id": "proteasa",
+    "nombre": "Protease",
+    "sinonimos": ["Protease Enzyme", "Proteinase"],
+    "descripcion": "Enzyme that promotes the breakdown of dietary proteins, used in balanced feed for animal nutrition. Its use is associated with better utilization of amino acids and with greater consistency in digestibility, in accordance with applicable regulations. Enzymes of this type are also used in industrial and institutional detergency.",
+    "funciones": ["Enzyme", "Improvement of protein digestibility"],
+    "aplicaciones": ["Feed for poultry", "Feed for pigs", "Diets with plant protein sources", "Industrial detergents"],
+    "formas_referenciales": ["Solid — powder or granules, or a liquid presentation depending on the manufacturer and batch"]
+  },
+  {
+    "id": "levadura-saccharomyces-cerevisiae",
+    "nombre": "Saccharomyces cerevisiae Yeast",
+    "sinonimos": ["Brewer's Yeast", "Saccharomyces cerevisiae"],
+    "descripcion": "Yeast used in formulations for animal nutrition as a functional additive and source of metabolites. It is associated with the balance of the microbiota and with the stability of rumen fermentation, in accordance with applicable regulations. It also provides nucleotides and cell wall components of nutritional interest.",
+    "funciones": ["Functional additive", "Yeast", "Microbiota support"],
+    "aplicaciones": ["Feed for cattle", "Ruminant diets", "Feed for monogastrics", "Supplements"],
+    "formas_referenciales": ["Solid — powder or granules, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "bacillus-subtilis",
+    "nombre": "Bacillus subtilis (Probiotic)",
+    "sinonimos": ["Bacillus Probiotic", "Bacillus subtilis Microbial Additive"],
+    "descripcion": "Probiotic microorganism (microbial additive) used in formulations for animal nutrition. It is associated with the balance of the intestinal microbiota and with digestive stability, in accordance with applicable regulations. It is handled in the form of spores on a carrier to improve its stability during processing.",
+    "funciones": ["Probiotic", "Microbial additive", "Microbiota support"],
+    "aplicaciones": ["Feed for poultry", "Feed for pigs", "Aquaculture", "Biological water treatment"],
+    "formas_referenciales": ["Solid — powder on a carrier, depending on the manufacturer and batch"]
+  },
+  {
+    "id": "secuestrante-de-micotoxinas",
+    "nombre": "Mycotoxin Binder (Aluminosilicate)",
+    "sinonimos": ["Sodium Calcium Aluminosilicate", "Mycotoxin Adsorbent", "Aluminum Silicate"],
+    "descripcion": "Adsorbent of mineral origin used in formulations for animal nutrition in order to capture mycotoxins present in raw materials. Its use is associated with reducing the availability of certain mycotoxins in the digestive tract, in accordance with applicable regulations. It also acts as an anticaking and flow agent in the mixture.",
+    "funciones": ["Mycotoxin binder", "Adsorbent", "Anticaking agent"],
+    "aplicaciones": ["Balanced feed", "Premixes", "Anticaking agent in mixtures", "Soil conditioner"],
+    "formas_referenciales": ["Solid — powder, particle size varies depending on the manufacturer and batch"]
+  }
+]

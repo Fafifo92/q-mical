@@ -1,0 +1,227 @@
+[
+  {
+    "id": "nitrato-de-potasio",
+    "nombre": "Nitrato de Potássio",
+    "sinonimos": ["KNO3", "Salitre de potássio", "Nitrato potássico"],
+    "descripcion": "Fonte hidrossolúvel de potássio e nitrogênio nítrico, amplamente utilizada em programas de fertirrigação e nutrição foliar. Sua alta solubilidade e baixo índice salino o tornam adequado para cultivos sensíveis e sistemas de irrigação tecnificada. É uma das bases mais versáteis para formular soluções nutritivas completas.",
+    "funciones": ["Fonte de potássio", "Fonte de nitrogênio nítrico", "Base para soluções nutritivas"],
+    "aplicaciones": ["Fertirrigação em hortaliças e frutíferas", "Adubação foliar", "Cultivos hidropônicos", "Misturas de fertilizantes hidrossolúveis"],
+    "formas_referenciales": ["Sólido cristalino ou prills, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "nitrato-de-calcio",
+    "nombre": "Nitrato de Cálcio",
+    "sinonimos": ["Nitrato cálcico", "Salitre norueguês"],
+    "descripcion": "Fertilizante hidrossolúvel que fornece cálcio e nitrogênio nítrico de rápida assimilação. É associado à firmeza dos frutos e à redução de distúrbios fisiológicos ligados à deficiência de cálcio. Componente habitual do tanque de cálcio em fertirrigação e hidroponia.",
+    "funciones": ["Fonte de cálcio", "Fonte de nitrogênio nítrico"],
+    "aplicaciones": ["Fertirrigação em frutíferas e hortaliças", "Soluções nutritivas hidropônicas", "Aplicações foliares de cálcio", "Tratamento de águas residuárias"],
+    "formas_referenciales": ["Sólido — granulado ou cristais, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "fosfato-monoamonico-map",
+    "nombre": "Fosfato Monoamônico (MAP)",
+    "sinonimos": ["MAP hidrossolúvel", "Fosfato de amônio monobásico"],
+    "descripcion": "Fonte hidrossolúvel de fósforo e nitrogênio amoniacal, utilizada nas etapas de enraizamento e estabelecimento da cultura. Sua reação levemente ácida em solução favorece a disponibilidade de fósforo em águas duras. Base frequente em programas de fertirrigação e de arranque.",
+    "funciones": ["Fonte de fósforo", "Fonte de nitrogênio amoniacal", "Acidificante da solução nutritiva"],
+    "aplicaciones": ["Fertirrigação de arranque e enraizamento", "Soluções nutritivas hidropônicas", "Misturas NPK hidrossolúveis"],
+    "formas_referenciales": ["Sólido cristalino ou pó, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "fosfato-monopotasico-mkp",
+    "nombre": "Fosfato Monopotássico (MKP)",
+    "sinonimos": ["MKP", "Fosfato de potássio monobásico"],
+    "descripcion": "Fertilizante hidrossolúvel livre de nitrogênio que combina fósforo e potássio, associado às etapas de floração, pegamento e enchimento de frutos. Seu baixo índice salino o torna adequado para aplicações foliares e fertirrigação em cultivos sensíveis. Na indústria de alimentos, é empregado conforme a legislação aplicável.",
+    "funciones": ["Fonte de fósforo e potássio", "Regulador da relação N-P-K", "Sal tampão"],
+    "aplicaciones": ["Adubação foliar na floração e no enchimento", "Fertirrigação e hidroponia", "Misturas hidrossolúveis sem nitrogênio"],
+    "formas_referenciales": ["Sólido cristalino ou pó, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "sulfato-de-magnesio-heptahidratado",
+    "nombre": "Sulfato de Magnésio Heptahidratado",
+    "sinonimos": ["Sal de Epsom", "Sal amargo", "Epsomita"],
+    "descripcion": "Fonte hidrossolúvel de magnésio e enxofre, elementos-chave na síntese de clorofila e de proteínas da planta. É utilizado em fertirrigação, aplicações foliares e correção de deficiências em solos lixiviados. Sua versatilidade também abre espaço em cosmética e outros usos industriais.",
+    "funciones": ["Fonte de magnésio", "Fonte de enxofre"],
+    "aplicaciones": ["Fertirrigação e adubação foliar", "Correção de deficiências de magnésio", "Soluções nutritivas hidropônicas", "Sais de banho e cosmética"],
+    "formas_referenciales": ["Sólido cristalino, tamanho de cristal variável conforme o fabricante e o lote"]
+  },
+  {
+    "id": "urea-agricola",
+    "nombre": "Ureia",
+    "sinonimos": ["Carbamida", "Diamida carbônica"],
+    "descripcion": "Fonte nitrogenada de amplo uso na adubação de solos e em aplicações foliares diluídas. É um dos fertilizantes mais utilizados do mundo por sua relação custo-nitrogênio. Também tem aplicações em nutrição animal e na indústria, conforme a legislação aplicável.",
+    "funciones": ["Fonte de nitrogênio", "Matéria-prima industrial"],
+    "aplicaciones": ["Adubação via solo em grandes culturas", "Aplicações foliares diluídas", "Suplementação de ruminantes", "Resinas e processos industriais"],
+    "formas_referenciales": ["Sólido — pérolas (prills) ou granulado, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "sulfato-de-potasio",
+    "nombre": "Sulfato de Potássio",
+    "sinonimos": ["SOP", "Sulfato potássico"],
+    "descripcion": "Fonte de potássio e enxofre livre de cloro, indicada para cultivos sensíveis à salinidade, como frutíferas, café e hortaliças de exportação. É associado a melhorias na qualidade, no calibre e na vida pós-colheita dos frutos. Disponível em qualidades para aplicação no solo ou para sistemas de fertirrigação.",
+    "funciones": ["Fonte de potássio livre de cloro", "Fonte de enxofre"],
+    "aplicaciones": ["Adubação de frutíferas e café", "Fertirrigação em cultivos sensíveis ao cloro", "Misturas físicas de fertilizantes"],
+    "formas_referenciales": ["Sólido — pó cristalino ou granulado, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "quelato-de-hierro-edta",
+    "nombre": "Quelato de Ferro EDTA",
+    "sinonimos": ["Fe-EDTA", "Ferro quelatado EDTA"],
+    "descripcion": "Micronutriente de ferro protegido com agente quelante EDTA, que mantém o elemento disponível para a planta em soluções nutritivas e aplicações foliares. É utilizado para prevenir e corrigir a clorose férrica em condições de pH moderado. Habitual em hidroponia e fertirrigação de ciclo curto.",
+    "funciones": ["Fonte de ferro quelatado", "Corretor de clorose férrica"],
+    "aplicaciones": ["Soluções nutritivas hidropônicas", "Adubação foliar", "Fertirrigação em substratos e solos de pH moderado"],
+    "formas_referenciales": ["Sólido — pó ou microgrânulos, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "quelato-de-hierro-eddha",
+    "nombre": "Quelato de Ferro EDDHA",
+    "sinonimos": ["Fe-EDDHA", "Ferro quelatado EDDHA"],
+    "descripcion": "Quelato de ferro de alta estabilidade, desenvolvido para manter o ferro disponível mesmo em solos calcários e alcalinos, onde outros quelatos perdem estabilidade. É uma referência habitual para corrigir a clorose férrica em frutíferas, citros e cultivos perenes via solo ou fertirrigação.",
+    "funciones": ["Fonte de ferro quelatado de alta estabilidade", "Corretor de clorose férrica em solos alcalinos"],
+    "aplicaciones": ["Correção de clorose em frutíferas e citros", "Fertirrigação em solos calcários", "Programas de micronutrientes via solo"],
+    "formas_referenciales": ["Sólido — microgrânulos ou pó solúvel, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "sulfato-de-zinc",
+    "nombre": "Sulfato de Zinco",
+    "sinonimos": ["ZnSO4", "Vitríolo branco"],
+    "descripcion": "Fonte hidrossolúvel de zinco, micronutriente associado ao alongamento de entrenós, ao desenvolvimento de folhas novas e à formação de frutos. É utilizado em aplicações foliares, fertirrigação e misturas de micronutrientes. Também tem espaço em pré-misturas para nutrição animal, conforme a legislação aplicável.",
+    "funciones": ["Fonte de zinco", "Componente de misturas de micronutrientes"],
+    "aplicaciones": ["Adubação foliar", "Fertirrigação e misturas de micronutrientes", "Pré-misturas minerais para nutrição animal"],
+    "formas_referenciales": ["Sólido cristalino ou pó, conforme a hidratação, o fabricante e o lote"]
+  },
+  {
+    "id": "acido-borico",
+    "nombre": "Ácido Bórico",
+    "sinonimos": ["Ácido ortobórico"],
+    "descripcion": "Fonte concentrada de boro, micronutriente essencial na floração, na viabilidade do pólen e no pegamento de frutos. É empregado em aplicações foliares e em fertirrigação, especialmente em cultivos de alta demanda, como abacate, palma e crucíferas. Seu manejo exige dosagem cuidadosa devido à estreita margem entre deficiência e excesso.",
+    "funciones": ["Fonte de boro", "Componente de misturas foliares"],
+    "aplicaciones": ["Adubação foliar na floração e no pegamento de frutos", "Fertirrigação de cultivos exigentes em boro", "Misturas de micronutrientes"],
+    "formas_referenciales": ["Sólido — pó ou cristais, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "molibdato-de-sodio",
+    "nombre": "Molibdato de Sódio",
+    "sinonimos": ["Molibdato de sódio dihidratado"],
+    "descripcion": "Fonte hidrossolúvel de molibdênio, micronutriente-chave na fixação biológica de nitrogênio e na atividade da enzima nitrato redutase. É usado em doses baixas no tratamento de sementes de leguminosas e em misturas foliares. Complemento habitual dos inoculantes em soja, feijão e forrageiras.",
+    "funciones": ["Fonte de molibdênio", "Complemento da fixação de nitrogênio"],
+    "aplicaciones": ["Tratamento de sementes de leguminosas", "Adubação foliar", "Misturas de micronutrientes"],
+    "formas_referenciales": ["Sólido cristalino ou pó, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "extracto-de-algas-ascophyllum",
+    "nombre": "Extrato de Algas Ascophyllum nodosum",
+    "sinonimos": ["Extrato de alga marrom", "Extrato de kelp do Atlântico"],
+    "descripcion": "Bioestimulante de origem marinha obtido da alga marrom Ascophyllum nodosum, associado à tolerância ao estresse abiótico, ao enraizamento e ao pegamento de frutos. Fornece compostos naturais como alginatos, manitol e precursores hormonais. Integra-se a programas foliares e de fertirrigação ao longo do ciclo da cultura.",
+    "funciones": ["Bioestimulante", "Indutor de tolerância ao estresse abiótico", "Promotor de enraizamento"],
+    "aplicaciones": ["Programas foliares de bioestimulação", "Fertirrigação em etapas de estresse", "Tratamento de sementes e transplantio"],
+    "formas_referenciales": ["Sólido — pó ou escamas solúveis, conforme o fabricante e o lote", "Líquido — extrato concentrado, conforme a apresentação do fabricante"]
+  },
+  {
+    "id": "aminoacidos-hidrolizado-vegetal",
+    "nombre": "Aminoácidos de Hidrólise Vegetal",
+    "sinonimos": ["Hidrolisado proteico vegetal", "L-aminoácidos agrícolas"],
+    "descripcion": "Bioestimulante à base de aminoácidos livres obtidos por hidrólise de proteínas vegetais, associado à recuperação da cultura após estresse por seca, frio ou fitotoxicidade. Facilita a assimilação de nutrientes e atua como agente complexante natural em misturas foliares. Compatível com a maioria dos programas de nutrição.",
+    "funciones": ["Bioestimulante", "Agente complexante de nutrientes", "Recuperador pós-estresse"],
+    "aplicaciones": ["Aplicações foliares após estresse abiótico", "Fertirrigação em etapas críticas", "Veículo de micronutrientes complexados"],
+    "formas_referenciales": ["Sólido — pó solúvel, conforme o fabricante e o lote", "Líquido — solução concentrada, conforme a apresentação do fabricante"]
+  },
+  {
+    "id": "humato-de-potasio",
+    "nombre": "Humato de Potássio",
+    "sinonimos": ["Ácidos húmicos potássicos", "Humato de potássio de leonardita"],
+    "descripcion": "Sais potássicos de ácidos húmicos derivados de leonardita, utilizados como condicionador de solo e potencializador da eficiência dos fertilizantes. É associado ao desenvolvimento radicular, à retenção de umidade e à troca catiônica do solo. Aplica-se em fertirrigação, drench e tratamentos de solo.",
+    "funciones": ["Condicionador de solo", "Potencializador da eficiência de fertilizantes", "Promotor de desenvolvimento radicular"],
+    "aplicaciones": ["Fertirrigação e drench", "Condicionamento de solos degradados", "Misturas com fertilizantes NPK"],
+    "formas_referenciales": ["Sólido — escamas, grânulos ou pó solúvel, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "acido-fulvico",
+    "nombre": "Ácido Fúlvico",
+    "sinonimos": ["Fulvato de potássio", "Fração fúlvica de leonardita"],
+    "descripcion": "Fração de baixo peso molecular das substâncias húmicas, com alta solubilidade e capacidade de complexar nutrientes para favorecer sua absorção foliar e radicular. Compatível com aplicações foliares e sistemas de fertirrigação de baixa pressão. É utilizado como acompanhante de micronutrientes e fertilizantes solúveis.",
+    "funciones": ["Agente complexante natural", "Potencializador da absorção de nutrientes", "Bioestimulante"],
+    "aplicaciones": ["Aplicações foliares com micronutrientes", "Fertirrigação e hidroponia", "Tratamento de sementes"],
+    "formas_referenciales": ["Sólido — pó solúvel, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "coadyuvante-organosiliconado",
+    "nombre": "Adjuvante Organossiliconado",
+    "sinonimos": ["Trissiloxano etoxilado", "Superespalhante siliconado"],
+    "descripcion": "Tensoativo à base de trissiloxano modificado que reduz a tensão superficial da calda de pulverização, favorecendo uma cobertura mais uniforme da superfície foliar. É associado a uma melhor penetração pelos estômatos e à redução do volume de água por hectare. É dosado em baixas proporções na mistura de tanque.",
+    "funciones": ["Superespalhante", "Extensor de cobertura foliar", "Penetrante estomático"],
+    "aplicaciones": ["Adjuvante em pulverizações foliares", "Aplicações com baixo volume de água", "Misturas de tanque de fertilizantes foliares"],
+    "formas_referenciales": ["Líquido — aparência e viscosidade conforme o fabricante e o lote"]
+  },
+  {
+    "id": "jabon-potasico-agricola",
+    "nombre": "Sabão Potássico",
+    "sinonimos": ["Sais potássicos de ácidos graxos", "Sabão de potássio"],
+    "descripcion": "Sais potássicos de ácidos graxos de origem vegetal, utilizados como adjuvante e agente de limpeza da superfície foliar em programas de manejo integrado. Ajuda a remover fumagina, melato e resíduos que interferem na fotossíntese. É um insumo associado a esquemas de produção com enfoque ecológico.",
+    "funciones": ["Adjuvante de pulverização", "Limpador de superfície foliar", "Tensoativo de origem vegetal"],
+    "aplicaciones": ["Lavagem foliar de fumagina e melato", "Adjuvante em misturas de tanque", "Programas de manejo integrado e agricultura orgânica"],
+    "formas_referenciales": ["Líquido viscoso ou pasta, conforme a concentração, o fabricante e o lote"]
+  },
+  {
+    "id": "aceite-mineral-agricola",
+    "nombre": "Óleo Mineral Agrícola",
+    "sinonimos": ["Óleo parafínico agrícola", "Óleo de pulverização"],
+    "descripcion": "Óleo parafínico altamente refinado empregado como adjuvante em pulverizações agrícolas, onde melhora a aderência, a distribuição e a persistência da calda sobre a superfície tratada. É utilizado em programas de manejo de frutíferas, citros e ornamentais. Requer emulsificação adequada na mistura de tanque.",
+    "funciones": ["Adjuvante aderente", "Veículo de pulverização", "Melhorador de cobertura"],
+    "aplicaciones": ["Adjuvante em frutíferas e citros", "Misturas de tanque em ornamentais", "Programas de manejo integrado"],
+    "formas_referenciales": ["Líquido oleoso, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "acido-fosforico",
+    "nombre": "Ácido Fosfórico",
+    "sinonimos": ["Ácido ortofosfórico"],
+    "descripcion": "Ácido inorgânico de uso dual na agricultura: fonte de fósforo em fertirrigação e corretor de pH de águas de irrigação com alta alcalinidade. Ajuda a prevenir o entupimento de gotejadores por precipitados de carbonatos. Em alimentos e na indústria, é empregado conforme a legislação aplicável.",
+    "funciones": ["Corretor de pH de águas de irrigação", "Fonte de fósforo", "Limpador de sistemas de irrigação"],
+    "aplicaciones": ["Acidificação de águas de fertirrigação", "Limpeza de linhas de gotejamento", "Adubação fosfatada via irrigação", "Acidulante na indústria conforme a legislação"],
+    "formas_referenciales": ["Líquido — solução aquosa, concentração conforme a apresentação do fabricante"]
+  },
+  {
+    "id": "acido-citrico-agricola",
+    "nombre": "Ácido Cítrico",
+    "sinonimos": ["Ácido 2-hidroxipropano-1,2,3-tricarboxílico"],
+    "descripcion": "Ácido orgânico de origem biotecnológica utilizado na agricultura como corretor de pH e da dureza da água de pulverização, prevenindo a hidrólise alcalina dos insumos no tanque. Sua capacidade quelante ajuda a manter disponíveis os cátions da calda. Amplo uso transversal em alimentos, limpeza e cosmética, conforme a legislação aplicável.",
+    "funciones": ["Corretor de pH da calda de pulverização", "Sequestrante de dureza da água", "Acidulante multipropósito"],
+    "aplicaciones": ["Condicionamento de águas de pulverização", "Misturas de tanque com águas duras", "Acidulante em alimentos e limpeza conforme a legislação"],
+    "formas_referenciales": ["Sólido cristalino — anidro ou monohidratado, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "lignosulfonato-de-sodio",
+    "nombre": "Lignosulfonato de Sódio",
+    "sinonimos": ["Lignossulfonato de sódio", "Lignina sulfonada sódica"],
+    "descripcion": "Dispersante polimérico de origem vegetal derivado da lignina, utilizado na formulação de pós molháveis e grânulos dispersíveis agrícolas. Mantém as partículas em suspensão estável no tanque de pulverização e atua como aglutinante na granulação. Também é empregado em concreto, cerâmica e outros processos industriais.",
+    "funciones": ["Dispersante", "Agente de suspensão", "Aglutinante de granulação"],
+    "aplicaciones": ["Formulação de pós molháveis e grânulos dispersíveis", "Suspensões de fertilizantes", "Aditivo industrial para concreto e cerâmica"],
+    "formas_referenciales": ["Sólido — pó ou grânulos, tom variável conforme a origem da lignina, o fabricante e o lote"]
+  },
+  {
+    "id": "caolin-agricola",
+    "nombre": "Caulim",
+    "sinonimos": ["Argila branca", "Caulinita"],
+    "descripcion": "Argila mineral utilizada na agricultura como película protetora antiestresse, associada à redução da escaldadura solar e do estresse térmico em frutos e folhas. Forma uma barreira física de partículas que reflete o excesso de radiação. Sua versatilidade também abre espaço em cosmética, cerâmica e revestimentos.",
+    "funciones": ["Protetor antiestresse térmico", "Barreira física refletora", "Carga mineral"],
+    "aplicaciones": ["Proteção de frutos contra escaldadura solar", "Pulverizações antiestresse em frutíferas", "Carga em formulações cosméticas e industriais"],
+    "formas_referenciales": ["Sólido — pó, tom e finura variáveis conforme a jazida, o fabricante e o lote"]
+  },
+  {
+    "id": "azufre-elemental",
+    "nombre": "Enxofre Elementar",
+    "sinonimos": ["Enxofre agrícola", "Flor de enxofre"],
+    "descripcion": "Fonte concentrada de enxofre para a nutrição de cultivos e correção de solos alcalinos ou sódicos, onde sua oxidação gradual contribui para reduzir o pH. É utilizado em programas de correção de solos e como componente de misturas fertilizantes. Matéria-prima transversal, com usos também na indústria.",
+    "funciones": ["Fonte de enxofre", "Corretivo acidificante de solos"],
+    "aplicaciones": ["Correção de solos alcalinos e sódicos", "Misturas fertilizantes com enxofre", "Usos industriais diversos"],
+    "formas_referenciales": ["Sólido — pó, granulado ou pastilhas, conforme o fabricante e o lote"]
+  },
+  {
+    "id": "sulfato-de-amonio",
+    "nombre": "Sulfato de Amônio",
+    "sinonimos": ["Sulfato amoniacal", "Sulfato de amônia"],
+    "descripcion": "Fertilizante nitrogenado com fornecimento simultâneo de enxofre, de reação ácida no solo, útil em solos alcalinos e cultivos exigentes em enxofre. Em misturas de tanque, é empregado como condicionador de águas duras ao sequestrar cátions antagonistas. Insumo de amplo uso em grandes culturas.",
+    "funciones": ["Fonte de nitrogênio amoniacal", "Fonte de enxofre", "Condicionador de águas duras"],
+    "aplicaciones": ["Adubação via solo em solos alcalinos", "Condicionamento da calda de pulverização", "Misturas físicas de fertilizantes"],
+    "formas_referenciales": ["Sólido — cristais ou granulado, conforme o fabricante e o lote"]
+  }
+]
