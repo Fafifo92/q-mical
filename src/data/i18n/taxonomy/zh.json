@@ -1,24 +1,81 @@
 {
   "lineas": {
+    "ingrediente-activo": {
+      "nombre": "活性成分",
+      "corto": "活性成分",
+      "tagline": "维生素、氨基酸、防晒剂与功能性活性物，为配方带来核心功效。"
+    },
+    "tensioactivo": {
+      "nombre": "表面活性剂",
+      "corto": "表面活性剂",
+      "tagline": "用于化妆品、清洁、农业及工业的清洁剂、乳化剂、起泡剂与分散剂。"
+    },
+    "modificador-reologico": {
+      "nombre": "流变改性剂",
+      "corto": "流变改性剂",
+      "tagline": "增稠剂、胶类、水胶体与聚合物，赋予体系稠度、质感与稳定性。"
+    },
+    "emoliente": {
+      "nombre": "润肤剂",
+      "corto": "润肤剂",
+      "tagline": "酯类、植物脂、蜡类及硅油替代品，带来柔润效果与理想触感。"
+    },
+    "hidratante": {
+      "nombre": "保湿剂",
+      "corto": "保湿剂",
+      "tagline": "吸湿保湿成分，可在皮肤、头发及配方中吸附并保持水分。"
+    },
+    "agente-preservante": {
+      "nombre": "防腐剂",
+      "corto": "防腐剂",
+      "tagline": "防腐剂、抗氧化剂与螯合剂，在整个保质期内保护配方。"
+    },
+    "base-formulacion": {
+      "nombre": "即用型配方基质",
+      "corto": "即用型配方基质",
+      "tagline": "基质与预混料，可简化开发流程、加快生产进度。"
+    },
+    "colorante": {
+      "nombre": "着色剂",
+      "corto": "着色剂",
+      "tagline": "颜料、氧化物、云母与珠光剂，赋予产品色彩与视觉效果。"
+    },
+    "fragancia": {
+      "nombre": "香精香料",
+      "corto": "香精香料",
+      "tagline": "精油与芳香原料，用于化妆品、清洁用品及家居产品。"
+    },
+    "saborizante": {
+      "nombre": "调味剂",
+      "corto": "调味剂",
+      "tagline": "食用香精、甜味剂与酸味剂，用于食品、饮料及膳食补充剂。"
+    },
+    "extractos": {
+      "nombre": "提取物",
+      "corto": "提取物",
+      "tagline": "二醇提取物、纯露与植物浓缩物——源自拉美。"
+    },
+    "aceites": {
+      "nombre": "油脂",
+      "corto": "油脂",
+      "tagline": "植物油与精油，适用于化妆品、食品及营养保健领域。"
+    }
+  },
+  "industrias": {
     "cosmetica": {
       "nombre": "化妆品与个人护理",
       "corto": "化妆品",
-      "tagline": "面向护肤与洗护发的功效活性物、乳化剂、保湿剂与防腐体系。"
+      "tagline": "面向护肤、护发与彩妆的活性成分、润肤剂、表面活性剂、着色剂与防腐剂。"
     },
-    "maquillaje": {
-      "nombre": "彩妆与色彩",
-      "corto": "彩妆",
-      "tagline": "用于彩妆的颜料、云母、质构填充剂与蜡类。"
-    },
-    "aseo": {
-      "nombre": "清洁与消毒",
-      "corto": "清洁",
-      "tagline": "面向家用与机构清洁的表面活性剂、杀菌剂、碱类与酶制剂。"
+    "nutraceutica": {
+      "nombre": "营养保健与膳食补充剂",
+      "corto": "营养保健",
+      "tagline": "用于膳食补充剂的维生素、氨基酸、蛋白质与提取物。"
     },
     "alimentos": {
       "nombre": "食品与饮料",
       "corto": "食品",
-      "tagline": "食品级水胶体、酸化剂、防腐剂与甜味剂。"
+      "tagline": "食品级水胶体、酸味剂、防腐剂与甜味剂。"
     },
     "agro": {
       "nombre": "农业与植物营养",
@@ -39,55 +96,12 @@
       "nombre": "工业与工艺",
       "corto": "工业",
       "tagline": "水处理、涂料、溶剂与工艺助剂。"
+    },
+    "aseo": {
+      "nombre": "清洁与消毒",
+      "corto": "清洁",
+      "tagline": "面向家用与机构清洁的表面活性剂、杀菌剂、碱类与酶制剂。"
     }
-  },
-  "especialidades": {
-    "activos": "功效活性物",
-    "aceites-vegetales": "植物油",
-    "mantecas-ceras": "植物脂与蜡",
-    "emolientes": "润肤剂",
-    "emulsificantes": "乳化剂",
-    "tensoactivos": "表面活性剂",
-    "humectantes": "保湿剂",
-    "espesantes-reologia": "增稠剂与流变",
-    "conservantes": "防腐剂",
-    "antioxidantes": "抗氧化剂",
-    "filtros-uv": "防晒剂",
-    "pigmentos-colorantes": "颜料与色素",
-    "nacarantes-efectos": "珠光与效果颜料",
-    "acondicionadores": "调理剂",
-    "proteinas-aminoacidos": "蛋白质与氨基酸",
-    "vitaminas": "维生素",
-    "exfoliantes": "去角质剂",
-    "siliconas-alternativas": "硅油与替代品",
-    "polimeros": "功能高分子",
-    "quelantes": "螯合剂",
-    "solventes": "溶剂与载体",
-    "acidulantes-ph": "酸化剂与pH调节",
-    "edulcorantes": "甜味剂",
-    "gomas-hidrocoloides": "胶体与水胶体",
-    "enzimas": "酶制剂",
-    "biocidas-desinfectantes": "杀菌剂与消毒剂",
-    "desengrasantes": "除油剂",
-    "dispersantes-antiespumantes": "分散剂与消泡剂",
-    "nutricion-vegetal": "植物营养",
-    "adyuvantes-agricolas": "农用助剂",
-    "premezclas-veterinarias": "兽用预混料",
-    "extractos-botanicos": "植物提取物"
-  },
-  "sectores": {
-    "cosmetica-personal": "化妆品与个人护理",
-    "maquillaje-color": "彩妆与色彩",
-    "aseo-hogar": "家用清洁",
-    "institucional-industrial": "机构与工业",
-    "alimentos": "食品",
-    "bebidas": "饮料",
-    "nutraceutico": "营养保健品",
-    "veterinaria": "兽用与动物营养",
-    "agricola": "农业",
-    "pinturas-recubrimientos": "涂料与涂层",
-    "textil": "纺织",
-    "tratamiento-aguas": "水处理"
   },
   "origenes": {
     "Vegetal": "植物源",

@@ -1,57 +1,74 @@
 @import "tailwindcss";
 
 /* ─────────────────────────────────────────────────────────────────
-   Q'mical — Sistema de diseño
-   Paleta: verde petróleo profundo + acento chartreuse + porcelana.
-   Tipografía: Space Grotesk (display) + Inter (texto).
+   ORIGEN CHEMICAL — Sistema de diseño (Manual de Marca v1.0, sep. 2026)
+   Primarios: Azul turquesa #14A8A8 · Azul marino profundo #0B3B5E.
+   Apoyo: Verde pera #C4D92C · Gris medio #BDBDBD · Blanco puro.
+   Tipografía: Montserrat (títulos) + Open Sans (textos) · respaldo Arial.
    ───────────────────────────────────────────────────────────────── */
 
 @theme {
-  /* Breakpoint extra para móviles pequeños (usado en la barra del catálogo) */
+  /* Breakpoint extra para móviles pequeños (usado en la barra del portafolio) */
   --breakpoint-xs: 24rem;
 
-  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Space Grotesk Variable", "Inter Variable", ui-sans-serif, sans-serif;
+  --font-sans: "Open Sans Variable", "Open Sans", Arial, sans-serif;
+  --font-display: "Montserrat Variable", "Montserrat", Arial, sans-serif;
 
-  /* Marca — verde petróleo */
-  --color-brand-50: #effaf5;
-  --color-brand-100: #d8f2e6;
-  --color-brand-200: #b3e4d1;
-  --color-brand-300: #81cfb5;
-  --color-brand-400: #4db396;
-  --color-brand-500: #2b977c;
-  --color-brand-600: #157a64;
-  --color-brand-700: #106152;
-  --color-brand-800: #0e4e43;
-  --color-brand-900: #0c4038;
-  --color-brand-950: #052420;
+  /* Manual 6.5: interlineado de 1.4 a 1.6 en bloques de texto */
+  --leading-relaxed: 1.6;
 
-  /* Acento — chartreuse de laboratorio */
-  --color-accent-100: #f2fcd3;
-  --color-accent-200: #e3f8a6;
-  --color-accent-300: #d0f070;
-  --color-accent-400: #c0e84d;
-  --color-accent-500: #a8d129;
-  --color-accent-600: #85a81b;
+  /* Marca — azul turquesa (500 = #14A8A8). 600+ cumplen contraste AA sobre blanco */
+  --color-brand-50: #ebfafa;
+  --color-brand-100: #cef3f2;
+  --color-brand-200: #9fe6e4;
+  --color-brand-300: #66d2cf;
+  --color-brand-400: #36bdbc;
+  --color-brand-500: #14a8a8;
+  --color-brand-600: #0c7a7c;
+  --color-brand-700: #0b6567;
+  --color-brand-800: #0c5153;
+  --color-brand-900: #0d4345;
+  --color-brand-950: #042a2c;
 
-  /* Tinta — casi negro con matiz verde */
-  --color-ink-50: #f4f6f5;
-  --color-ink-100: #e4e9e7;
-  --color-ink-200: #c9d3d0;
-  --color-ink-300: #a3b3ae;
-  --color-ink-400: #768c86;
-  --color-ink-500: #5b716b;
-  --color-ink-600: #475a55;
-  --color-ink-700: #3b4a46;
-  --color-ink-800: #313d3a;
-  --color-ink-900: #222b29;
-  --color-ink-950: #101917;
+  /* Marca — azul marino profundo (700 = #0B3B5E) */
+  --color-navy-50: #eef4f9;
+  --color-navy-100: #d5e3ee;
+  --color-navy-200: #adc7dc;
+  --color-navy-300: #7ea3c2;
+  --color-navy-400: #4c7ca3;
+  --color-navy-500: #2a5f88;
+  --color-navy-600: #174d74;
+  --color-navy-700: #0b3b5e;
+  --color-navy-800: #09314f;
+  --color-navy-900: #072840;
+  --color-navy-950: #041c2e;
 
-  /* Fondo porcelana */
-  --color-porcelain: #f6f8f6;
+  /* Acento — verde pera (400 = #C4D92C) */
+  --color-accent-100: #f5f9dc;
+  --color-accent-200: #eaf2b0;
+  --color-accent-300: #d7e57a;
+  --color-accent-400: #c4d92c;
+  --color-accent-500: #a8bc1c;
+  --color-accent-600: #7f8f12;
 
-  --shadow-card: 0 1px 2px rgb(16 25 23 / 0.04), 0 8px 24px -12px rgb(16 25 23 / 0.12);
-  --shadow-card-hover: 0 2px 4px rgb(16 25 23 / 0.05), 0 20px 40px -16px rgb(16 25 23 / 0.22);
+  /* Tinta — neutros con matiz marino. 950 = azul marino de marca (títulos) */
+  --color-ink-50: #f3f6f8;
+  --color-ink-100: #e3e9ee;
+  --color-ink-200: #c9d3dc;
+  --color-ink-300: #a4b2bf;
+  --color-ink-400: #73879a;
+  --color-ink-500: #566b7f;
+  --color-ink-600: #45596b;
+  --color-ink-700: #37495a;
+  --color-ink-800: #2c3e50;
+  --color-ink-900: #1d3a55;
+  --color-ink-950: #0b3b5e;
+
+  /* Fondo: blanco frío */
+  --color-porcelain: #f4f7f9;
+
+  --shadow-card: 0 1px 2px rgb(11 59 94 / 0.05), 0 8px 24px -12px rgb(11 59 94 / 0.14);
+  --shadow-card-hover: 0 2px 4px rgb(11 59 94 / 0.06), 0 20px 40px -16px rgb(11 59 94 / 0.26);
 
   --animate-float: float 9s ease-in-out infinite;
   --animate-float-slow: float 14s ease-in-out infinite reverse;
@@ -97,6 +114,7 @@
     color: var(--color-ink-950);
   }
 
+  /* Jerarquía del manual (6.4): H1 bold · H2 semibold · H3 medium/semibold */
   h1,
   h2,
   h3,
@@ -119,7 +137,7 @@
 
   /* Foco visible y consistente en toda la navegación por teclado */
   :focus-visible {
-    outline: 2px solid var(--color-accent-500);
+    outline: 2px solid var(--color-brand-500);
     outline-offset: 2px;
     border-radius: 0.35rem;
   }
@@ -172,7 +190,7 @@
 }
 
 @utility btn-primary {
-  @apply btn bg-brand-700 text-white hover:bg-brand-800 hover:shadow-lg active:scale-[0.98];
+  @apply btn bg-navy-700 text-white hover:bg-brand-700 hover:shadow-lg active:scale-[0.98];
 }
 
 @utility btn-accent {
@@ -256,9 +274,10 @@
   border-color: color-mix(in srgb, var(--linea-color, var(--color-brand-500)) 35%, white);
 }
 
-/* Fondo de héroe: malla de gradientes flotantes sobre tinta */
+/* Fondo de héroe: malla de gradientes flotantes sobre azul marino */
 .hero-mesh {
-  background-color: var(--color-ink-950);
+  background-color: var(--color-navy-800);
+  background-image: linear-gradient(160deg, var(--color-navy-700) 0%, var(--color-navy-800) 55%, var(--color-navy-950) 100%);
   position: relative;
   isolation: isolate;
   overflow: hidden;
@@ -279,7 +298,7 @@
   /* --mesh-color permite teñir el héroe (p. ej. con el color de un sector) */
   background: radial-gradient(
     closest-side,
-    color-mix(in srgb, var(--mesh-color, #157a64) 55%, transparent),
+    color-mix(in srgb, var(--mesh-color, #14a8a8) 50%, transparent),
     transparent 70%
   );
   animation: var(--animate-float);
@@ -289,13 +308,13 @@
   height: 40rem;
   bottom: -18rem;
   left: -10rem;
-  background: radial-gradient(closest-side, rgb(168 209 41 / 0.22), transparent 70%);
+  background: radial-gradient(closest-side, rgb(196 217 44 / 0.2), transparent 70%);
   animation: var(--animate-float-slow);
 }
 
 /* Trama de puntos sutil para secciones */
 .dots-pattern {
-  background-image: radial-gradient(rgb(16 25 23 / 0.07) 1px, transparent 1px);
+  background-image: radial-gradient(rgb(11 59 94 / 0.08) 1px, transparent 1px);
   background-size: 22px 22px;
 }
 

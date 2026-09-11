@@ -55,3 +55,11 @@ export function separarIdioma(pathname: string): { lang: Locale; path: string } 
 export function tpl(texto: string, vars: Record<string, string | number>): string {
   return texto.replace(/\{(\w+)\}/g, (_, k) => String(vars[k] ?? ""));
 }
+
+/**
+ * Nombre de categoría dentro de una frase ("…su línea de emolientes").
+ * En alemán los sustantivos siempre van con mayúscula: no se tocan.
+ */
+export function nombreEnFrase(nombre: string, lang: Locale): string {
+  return lang === "de" ? nombre : nombre.toLocaleLowerCase(LOCALE_INFO[lang].html);
+}

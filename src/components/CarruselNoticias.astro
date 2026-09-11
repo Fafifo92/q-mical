@@ -1,0 +1,257 @@
+---
+/**
+ * Sección de noticias rotativas (héroe de la portada).
+ * Las noticias se editan en src/i18n/ui/<lang>.json → home.noticias:
+ *   etiqueta, titulo, texto, boton, enlace (ruta del sitio o URL), imagen, icono (opcional).
+ * Si la imagen aún no existe en public/, la diapositiva usa el arte de marca.
+ */
+import Icon from "./Icon.astro";
+import Wave from "./Wave.astro";
+import ArteMarca from "./ArteMarca.astro";
+import { fotoPublica } from "../lib/imagenes";
+import { DEFAULT_LOCALE, rutaLocal, tpl, type Locale } from "../i18n/config";
+import { t } from "../i18n";
+
+interface Props {
+  lang?: Locale;
+}
+const { lang = DEFAULT_LOCALE } = Astro.props;
+const dict = t(lang);
+
+const noticias = dict.home.noticias.map((n) => ({
+  ...n,
+  foto: fotoPublica(n.imagen),
+  href: /^https?:\/\//.test(n.enlace) ? n.enlace : rutaLocal(lang, n.enlace),
+  externo: /^https?:\/\//.test(n.enlace),
+}));
+---
+
+<section
+  id="carrusel-noticias"
+  class="relative isolate overflow-hidden bg-navy-800"
+  aria-roledescription="carousel"
+  aria-label={dict.home.noticiasAria}
+>
+  <div class="carrusel-pista relative h-[88svh] min-h-[36rem] max-h-[54rem]">
+    {
+      noticias.map((n, i) => (
+        <article
+          class="carrusel-slide absolute inset-0"
+          data-activa={i === 0 ? "1" : "0"}
+          aria-roledescription="slide"
+          aria-label={`${i + 1} / ${noticias.length}`}
+          aria-hidden={i === 0 ? "false" : "true"}
+          inert={i === 0 ? undefined : true}
+        >
+          {n.foto ? (
+            <img
+              src={n.foto}
+              alt=""
+              class="carrusel-foto absolute inset-0 h-full w-full object-cover"
+              loading={i === 0 ? "eager" : "lazy"}
+              fetchpriority={i === 0 ? "high" : undefined}
+              decoding="async"
+            />
+          ) : (
+            <ArteMarca icono={n.icono || undefined} variante={i} posicion="derecha" />
+          )}
+          {/* Velo para que el texto siempre sea legible sobre la foto */}
+          <div class="absolute inset-0 bg-gradient-to-r from-navy-900/90 via-navy-900/55 to-navy-900/5" />
+
+          <div class="container-site relative flex h-full items-center pt-16 pb-24">
+            <div class="max-w-2xl">
+              <p class="carrusel-anim eyebrow text-accent-300" style="--d:.05s">{n.etiqueta}</p>
+              <h2
+                class="carrusel-anim mt-4 font-display text-4xl leading-[1.08] font-bold text-white sm:text-5xl"
+                style="--d:.15s"
+              >
+                {n.titulo}
+              </h2>
+              <p class="carrusel-anim mt-5 max-w-xl text-lg leading-relaxed text-navy-100" style="--d:.25s">
+                {n.texto}
+              </p>
+              <a
+                href={n.href}
+                target={n.externo ? "_blank" : undefined}
+                rel={n.externo ? "noopener" : undefined}
+                class="carrusel-anim btn mt-8 min-h-12 border-2 border-white/85 px-7 text-sm tracking-[0.12em] text-white uppercase hover:border-accent-400 hover:bg-accent-400 hover:text-navy-700"
+                style="--d:.35s"
+              >
+                {n.boton}
+                <Icon name="arrow-right" class="h-4 w-4" />
+              </a>
+            </div>
+          </div>
+        </article>
+      ))
+    }
+
+    {
+      noticias.length > 1 && (
+        <>
+          <button
+            type="button"
+            class="carrusel-prev absolute top-1/2 left-2 z-10 hidden h-12 w-12 -translate-y-1/2 place-items-center rounded-full text-white/80 transition-colors hover:bg-white/10 hover:text-white sm:grid lg:left-4"
+            aria-label={dict.home.noticiaAnterior}
+          >
+            <Icon name="chevron-left" class="h-8 w-8" strokeWidth={1.6} />
+          </button>
+          <button
+            type="button"
+            class="carrusel-next absolute top-1/2 right-2 z-10 hidden h-12 w-12 -translate-y-1/2 place-items-center rounded-full text-white/80 transition-colors hover:bg-white/10 hover:text-white sm:grid lg:right-4"
+            aria-label={dict.home.noticiaSiguiente}
+          >
+            <Icon name="chevron-right" class="h-8 w-8" strokeWidth={1.6} />
+          </button>
+
+          <div class="absolute inset-x-0 bottom-20 z-10 flex justify-center gap-2 sm:bottom-24">
+            {noticias.map((_, i) => (
+              <button
+                type="button"
+                class="carrusel-punto h-2.5 rounded-full bg-white/40 transition-all duration-300 hover:bg-white/70"
+                data-i={i}
+                aria-label={tpl(dict.home.irANoticia, { n: i + 1 })}
+                aria-current={i === 0 ? "true" : undefined}
+              />
+            ))}
+          </div>
+        </>
+      )
+    }
+  </div>
+
+  <div class="absolute inset-x-0 bottom-0 z-10">
+    <Wave />
+  </div>
+</section>
+
+<style>
+  .carrusel-slide {
+    opacity: 0;
+    visibility: hidden;
+    transition:
+      opacity 0.9s ease,
+      visibility 0s linear 0.9s;
+  }
+  .carrusel-slide[data-activa="1"] {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.9s ease;
+  }
+
+  /* Leve acercamiento de la foto (efecto Ken Burns) mientras la noticia está activa */
+  .carrusel-slide .carrusel-foto {
+    transform: scale(1.06);
+    transition: transform 7s ease-out;
+  }
+  .carrusel-slide[data-activa="1"] .carrusel-foto {
+    transform: scale(1);
+  }
+
+  /* El texto entra escalonado cada vez que la noticia se activa */
+  .carrusel-slide .carrusel-anim {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  .carrusel-slide[data-activa="1"] .carrusel-anim {
+    opacity: 1;
+    transform: none;
+    transition:
+      opacity 0.7s ease var(--d, 0s),
+      transform 0.7s cubic-bezier(0.22, 1, 0.36, 1) var(--d, 0s);
+  }
+
+  .carrusel-punto {
+    width: 0.625rem;
+  }
+  .carrusel-punto[aria-current="true"] {
+    width: 2rem;
+    background: var(--color-accent-400);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .carrusel-slide,
+    .carrusel-slide .carrusel-foto,
+    .carrusel-slide .carrusel-anim {
+      transition: none !important;
+      transform: none !important;
+    }
+  }
+</style>
+
+<script>
+  function initCarrusel() {
+    const raiz = document.getElementById("carrusel-noticias");
+    if (!raiz || raiz.dataset.init === "1") return;
+    raiz.dataset.init = "1";
+
+    const slides = Array.from(raiz.querySelectorAll<HTMLElement>(".carrusel-slide"));
+    const puntos = Array.from(raiz.querySelectorAll<HTMLButtonElement>(".carrusel-punto"));
+    if (slides.length < 2) return;
+
+    const INTERVALO = 6500;
+    const menosMovimiento = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let actual = 0;
+    let timer: ReturnType<typeof setInterval> | undefined;
+    let pausado = false;
+
+    const mostrar = (i: number) => {
+      actual = (i + slides.length) % slides.length;
+      slides.forEach((s, k) => {
+        const activa = k === actual;
+        s.dataset.activa = activa ? "1" : "0";
+        s.setAttribute("aria-hidden", String(!activa));
+        s.toggleAttribute("inert", !activa);
+      });
+      puntos.forEach((p, k) => {
+        if (k === actual) p.setAttribute("aria-current", "true");
+        else p.removeAttribute("aria-current");
+      });
+    };
+
+    const detener = () => clearInterval(timer);
+    const arrancar = () => {
+      detener();
+      // isConnected: al navegar a otra página el carrusel viejo deja de rotar
+      if (menosMovimiento || pausado || document.hidden || !raiz.isConnected) return;
+      timer = setInterval(() => (raiz.isConnected ? mostrar(actual + 1) : detener()), INTERVALO);
+    };
+    // Tras una acción del usuario el contador se reinicia (no salta enseguida)
+    const ir = (i: number) => {
+      mostrar(i);
+      arrancar();
+    };
+
+    raiz.querySelector(".carrusel-prev")?.addEventListener("click", () => ir(actual - 1));
+    raiz.querySelector(".carrusel-next")?.addEventListener("click", () => ir(actual + 1));
+    puntos.forEach((p) => p.addEventListener("click", () => ir(Number(p.dataset.i))));
+
+    // Pausa al pasar el mouse o al navegar con teclado dentro del carrusel
+    raiz.addEventListener("mouseenter", () => { pausado = true; detener(); });
+    raiz.addEventListener("mouseleave", () => { pausado = false; arrancar(); });
+    raiz.addEventListener("focusin", () => { pausado = true; detener(); });
+    raiz.addEventListener("focusout", (e) => {
+      if (!raiz.contains(e.relatedTarget as Node)) { pausado = false; arrancar(); }
+    });
+    raiz.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowLeft") ir(actual - 1);
+      if (e.key === "ArrowRight") ir(actual + 1);
+    });
+    document.addEventListener("visibilitychange", () => (document.hidden ? detener() : arrancar()));
+
+    // Deslizar con el dedo en móvil
+    let x0: number | null = null;
+    raiz.addEventListener("pointerdown", (e) => { if (e.pointerType !== "mouse") x0 = e.clientX; });
+    raiz.addEventListener("pointerup", (e) => {
+      if (x0 === null) return;
+      const dx = e.clientX - x0;
+      x0 = null;
+      if (Math.abs(dx) > 50) ir(actual + (dx < 0 ? 1 : -1));
+    });
+
+    arrancar();
+  }
+
+  document.addEventListener("astro:page-load", initCarrusel);
+  initCarrusel();
+</script>

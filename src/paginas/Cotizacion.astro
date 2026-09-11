@@ -90,7 +90,7 @@ const i18nJs = {
             <span class="text-sm font-medium text-ink-700">{dict.cotizacion.sectorEmpresa} <span class="text-red-500">*</span></span>
             <select name="sector" required class="select-form mt-1.5">
               <option value="">{dict.cotizacion.sectorPlaceholder}</option>
-              {Object.values(tax.sectores).map((s) => <option value={s}>{s}</option>)}
+              {tax.industrias.map((i) => <option value={i.nombre}>{i.nombre}</option>)}
               <option value={dict.cotizacion.sectorOtro}>{dict.cotizacion.sectorOtro}</option>
             </select>
           </label>

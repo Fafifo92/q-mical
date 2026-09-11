@@ -1,0 +1,8 @@
+# Páginas retiradas en la versión Origen Chemical (Netlify las lee de este archivo).
+# «Servicio técnico» y «Sectores» se integraron en Contáctanos y Portafolio.
+/servicio-tecnico          /contacto#preguntas-frecuentes        301
+/:lang/servicio-tecnico    /:lang/contacto#preguntas-frecuentes  301
+/sectores                  /productos                            301
+/sectores/*                /productos                            301
+/:lang/sectores            /:lang/productos                      301
+/:lang/sectores/*          /:lang/productos                      301

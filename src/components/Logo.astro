@@ -1,0 +1,56 @@
+---
+/**
+ * Logo horizontal de Origen Chemical (manual de marca, 4.3 «Horizontal»):
+ * isotipo + logotipo en Montserrat, «Origen» en turquesa y «Chemical» en
+ * azul marino. El logotipo es texto real para que se vea nítido a cualquier
+ * tamaño y tenga versión negativa.
+ *
+ * tone="auto"  → sigue al header: negativo mientras el header está sobre un
+ *                héroe oscuro (.theme-dark), a color cuando se vuelve blanco.
+ * tone="light" → a color (fondos claros) · tone="dark" → negativo (fondos oscuros)
+ */
+interface Props {
+  tone?: "auto" | "light" | "dark";
+  class?: string;
+}
+const { tone = "light", class: className = "" } = Astro.props;
+---
+
+<span class:list={["logo-origen group/logo inline-flex items-center gap-2.5", `logo-${tone}`, className]}>
+  <img
+    src="/brand/isotipo.webp"
+    width="47"
+    height="44"
+    alt=""
+    class="logo-isotipo h-10 w-auto shrink-0 transition-transform duration-300 group-hover/logo:-rotate-3 md:h-11"
+    decoding="async"
+  />
+  <span class="font-display leading-[0.95] font-bold tracking-tight">
+    <span class="logo-origen-palabra block text-[1.2rem] md:text-[1.3rem]">Origen</span>
+    <span class="logo-chemical block text-[1.2rem] md:text-[1.3rem]">Chemical</span>
+  </span>
+</span>
+
+<style>
+  .logo-origen-palabra {
+    color: var(--color-brand-500);
+  }
+  .logo-chemical {
+    color: var(--color-navy-700);
+  }
+
+  /* Negativo: sobre azul marino el turquesa se aclara y «Chemical» va en blanco */
+  .logo-dark .logo-origen-palabra,
+  :global(.theme-dark) .logo-auto .logo-origen-palabra {
+    color: var(--color-brand-300);
+  }
+  .logo-dark .logo-chemical,
+  :global(.theme-dark) .logo-auto .logo-chemical {
+    color: white;
+  }
+  /* El isotipo tiene hojas azul marino: un halo sutil las separa del fondo oscuro */
+  .logo-dark .logo-isotipo,
+  :global(.theme-dark) .logo-auto .logo-isotipo {
+    filter: drop-shadow(0 0 10px rgb(255 255 255 / 0.18));
+  }
+</style>

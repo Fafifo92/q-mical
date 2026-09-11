@@ -8,27 +8,23 @@
  */
 
 export const SITE = {
-  nombre: "Q'mical",
+  nombre: "Origen Chemical",
+  razonSocial: "Origen Chemical S.A.S.",
   // Debe ser el dominio REAL: WhatsApp exige URL absoluta en la vista previa.
   dominio: "https://quiet-travesseiro-9a9569.netlify.app", // EDITAR
-  slogan: "Materias primas con criterio técnico",
 
   /**
    * Sube este número al cambiar el diseño de las imágenes OG (`npm run og`).
    * WhatsApp cachea la vista previa por URL: sin cambiar la URL seguiría
    * mostrando la imagen antigua.
    */
-  ogVersion: 1,
-  descripcion:
-    "Q'mical distribuye materias primas para cosmética, aseo, alimentos, agro, veterinaria e industria en Colombia, con documentación técnica por lote y acompañamiento en formulación.",
+  ogVersion: 2,
 
   // ── Canal comercial ─────────────────────────────────────────────
   // Número de WhatsApp en formato internacional SIN el signo +
   whatsapp: "573023060033", // EDITAR
-  whatsappMensajeBase:
-    "Hola, Q'mical 👋 Quiero información sobre sus materias primas.",
 
-  email: "comercial@qmical.co", // EDITAR
+  email: "comercial@origenchemical.com", // EDITAR
   telefono: "(+57) 601 000 0000", // EDITAR
 
   // ── Pagos ───────────────────────────────────────────────────────
@@ -36,19 +32,27 @@ export const SITE = {
   pseUrl: "https://checkout.wompi.co/l/EDITAR", // EDITAR
 
   // ── Ubicación ───────────────────────────────────────────────────
+  direccion: "Cra. 68I # 36-21 Sur",
   ciudad: "Bogotá D.C. — Colombia",
-  direccion: "Zona industrial de Funza, Cundinamarca", // EDITAR
+  // Lo que se busca en Google Maps (mapa de /contacto y botón "Cómo llegar")
+  mapaConsulta: "Carrera 68I # 36-21 Sur, Bogotá, Colombia",
 
   // ── Redes (deja "" para ocultar el ícono) ───────────────────────
   redes: {
-    instagram: "https://instagram.com/qmical", // EDITAR
-    linkedin: "https://linkedin.com/company/qmical", // EDITAR
+    instagram: "", // EDITAR: URL real de Instagram
+    linkedin: "", // EDITAR: URL real de LinkedIn
     facebook: "", // EDITAR (opcional)
     youtube: "", // EDITAR (opcional)
   },
 } as const;
 
 /** Construye un link de WhatsApp con mensaje pre-cargado. */
-export function waLink(mensaje: string = SITE.whatsappMensajeBase): string {
+export function waLink(mensaje: string): string {
   return `https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(mensaje)}`;
 }
+
+/** Link a Google Maps para abrir la ubicación (botón "Cómo llegar"). */
+export const mapaLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(SITE.mapaConsulta)}`;
+
+/** Mapa embebido de Google Maps (sin API key). */
+export const mapaEmbed = `https://www.google.com/maps?q=${encodeURIComponent(SITE.mapaConsulta)}&output=embed`;

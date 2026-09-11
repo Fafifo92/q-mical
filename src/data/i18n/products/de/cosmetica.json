@@ -322,5 +322,230 @@
     "funciones": ["Chelatbildner", "Formulierungsstabilisator", "Verstärker für Konservierungsmittel"],
     "aplicaciones": ["Cremes und Lotionen", "Shampoos und Flüssigseifen", "Haushaltsreinigungsprodukte", "Industrielle Formulierungen auf Wasserbasis"],
     "formas_referenciales": ["Fest — weißes kristallines Pulver, Korngröße variabel je nach Hersteller und Charge"]
+  },
+  {
+    "id": "dioxido-de-titanio",
+    "nombre": "Titandioxid",
+    "sinonimos": ["Titanweiß", "Titan(IV)-oxid", "CI 77891"],
+    "descripcion": "Weißpigment und Referenz in der Farbindustrie, geschätzt für sein Deckvermögen und seine opazifierende Wirkung. Es bildet die Grundlage der Hauttöne in Make-up-Foundations und Kompaktpudern und wird zum Aufhellen von Pigmentmischungen eingesetzt. Am Markt existieren oberflächenbehandelte und unbehandelte Varianten; die spezifische Qualität wird im technischen Datenblatt (TDS) der verfügbaren Charge bestätigt.",
+    "funciones": ["Weißpigment", "Opazifierungsmittel", "Anorganischer UV-Filter"],
+    "aplicaciones": ["Make-up-Foundations", "Kompaktpuder", "Lippenstifte", "Nagellacke", "Lidschatten"],
+    "formas_referenciales": ["Fest — Pulver; Korngrößenverteilung und Oberflächenbehandlung variabel, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "oxido-de-hierro-rojo",
+    "nombre": "Eisenoxidrot",
+    "sinonimos": ["Rotes Eisenoxid", "Eisen(III)-oxid", "CI 77491"],
+    "descripcion": "Anorganisches Rotpigment mit hoher Licht- und Hitzestabilität, tragende Säule der Hautton-Färbung im Make-up. In Kombination mit gelbem und schwarzem Eisenoxid lässt sich die komplette Palette an Foundations, Concealern und Rouges aufbauen. Der exakte Farbton variiert zwischen Herstellern und Chargen, daher wird die Prüfung gegen einen Farbstandard empfohlen.",
+    "funciones": ["Anorganisches Pigment", "Kosmetisches Farbmittel"],
+    "aplicaciones": ["Make-up-Foundations", "Rouges", "Lippenstifte", "Lidschatten", "Kompaktpuder"],
+    "formas_referenciales": ["Fest — Pulver; Farbton und Korngrößenverteilung variabel, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "oxido-de-hierro-amarillo",
+    "nombre": "Eisenoxidgelb",
+    "sinonimos": ["Gelbes Eisenoxid", "Eisenoxidhydroxid", "CI 77492"],
+    "descripcion": "Anorganisches Gelbpigment für den Aufbau von Hauttönen und Concealern mit warmem Unterton. Seine chemische Stabilität macht es geeignet für Heißprozesse sowie für wasserfreie und emulgierte Systeme. Üblicherweise wird es mit rotem und schwarzem Eisenoxid kombiniert, um die Palette von Foundations und Pudern abzustimmen.",
+    "funciones": ["Anorganisches Pigment", "Kosmetisches Farbmittel"],
+    "aplicaciones": ["Make-up-Foundations", "Concealer", "Kompaktpuder", "Lidschatten"],
+    "formas_referenciales": ["Fest — Pulver; Farbton und Korngrößenverteilung variabel, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "oxido-de-hierro-negro",
+    "nombre": "Eisenoxidschwarz",
+    "sinonimos": ["Schwarzes Eisenoxid", "Eisen(II,III)-oxid", "CI 77499"],
+    "descripcion": "Anorganisches Schwarzpigment von hoher Intensität, Hauptakteur in Augenprodukten wie Wimperntuschen und Eyelinern. In geringen Anteilen wird es außerdem eingesetzt, um Hauttöne in Foundations und Pudern abzudunkeln und zu vertiefen. Seine Lichtstabilität macht es zuverlässig in Formulierungen mit langer Haltbarkeit.",
+    "funciones": ["Anorganisches Pigment", "Kosmetisches Farbmittel"],
+    "aplicaciones": ["Wimperntuschen", "Eyeliner", "Lidschatten", "Make-up-Foundations"],
+    "formas_referenciales": ["Fest — Pulver; Nuance und Korngrößenverteilung variabel, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "azul-ultramar",
+    "nombre": "Ultramarinblau",
+    "sinonimos": ["Ultramarin", "CI 77007"],
+    "descripcion": "Anorganisches Blaupigment mit langer Tradition in der dekorativen Kosmetik und der Seifenherstellung. Es liefert blaue bis violette Töne in Lidschatten und Eyelinern und wird zur Neutralisierung gelblicher Untertöne in Pudern eingesetzt. Es ist empfindlich gegenüber sauren Medien, daher wird empfohlen, die Verträglichkeit in jedem Formulierungssystem zu prüfen.",
+    "funciones": ["Anorganisches Pigment", "Kosmetisches Farbmittel", "Unterton-Korrektor"],
+    "aplicaciones": ["Lidschatten", "Eyeliner", "Dekorative Seifen", "Lose Puder"],
+    "formas_referenciales": ["Fest — Pulver; Farbintensität variabel, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "oxido-de-cromo-verde",
+    "nombre": "Chromoxidgrün",
+    "sinonimos": ["Chrom(III)-oxid", "Chromgrün", "CI 77288"],
+    "descripcion": "Deckendes anorganisches Grünpigment, geschätzt für seine hohe Stabilität gegenüber Licht, Hitze und Lösungsmitteln. Es wird in Lidschatten, Eyelinern und Farbprodukten eingesetzt, in denen tiefe, beständige Grüntöne gefordert sind. Zudem dient es als Korrektor rötlicher Untertöne in Pigmentmischungen, vorbehaltlich der regulatorischen Vorgaben je Anwendungsbereich.",
+    "funciones": ["Anorganisches Pigment", "Kosmetisches Farbmittel"],
+    "aplicaciones": ["Lidschatten", "Eyeliner", "Dekorative Seifen", "Kompaktpuder"],
+    "formas_referenciales": ["Fest — Pulver; Nuance variabel, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "mica-natural",
+    "nombre": "Natürliches Mica",
+    "sinonimos": ["Glimmer", "Muskovit", "CI 77019"],
+    "descripcion": "Schichtsilikat-Mineral mit plättchenförmiger Struktur, das Farbprodukten sanften Glanz, Gleitfähigkeit und Transparenz verleiht. Es fungiert als Texturfüllstoff in Pudern und Lidschatten und ist das traditionelle Substrat für Perlglanzpigmente. Die Korngrößenverteilung bestimmt den visuellen Effekt, von satinierten Finishes bis zu Glitzereffekten, je nach angebotener Qualität des Herstellers.",
+    "funciones": ["Plättchenförmiger Füllstoff", "Substrat für Perlglanzpigmente", "Gleitmittel"],
+    "aplicaciones": ["Lidschatten", "Kompaktpuder", "Highlighter", "Make-up-Foundations"],
+    "formas_referenciales": ["Fest — plättchenförmiges Pulver; Korngrößenverteilung und Glanz variabel, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "mica-sintetica",
+    "nombre": "Synthetisches Mica",
+    "sinonimos": ["Synthetischer Fluorphlogopit"],
+    "descripcion": "Im Labor hergestellte Alternative zu natürlichem Mica, die mit einem reineren Glanz und einer vollständig kontrollierten Rückverfolgbarkeit der Herkunft verbunden wird. Es wird als Substrat für Perlglanzpigmente und als Effektfüllstoff in Farbprodukten mit Premium-Positionierung eingesetzt. Seine Transparenz macht es attraktiv für Highlighter und Lidschatten mit intensivem Finish.",
+    "funciones": ["Synthetischer plättchenförmiger Füllstoff", "Substrat für Perlglanzpigmente", "Glanzmittel"],
+    "aplicaciones": ["Highlighter", "Lidschatten", "Lippenstifte mit Effekt", "Lose Puder"],
+    "formas_referenciales": ["Fest — plättchenförmiges Pulver; Korngrößenverteilung variabel, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "nacarante-mica-dioxido-de-titanio",
+    "nombre": "Perlglanzpigment Mica-Titandioxid",
+    "sinonimos": ["Perlglanzpigment", "Titandioxid-beschichtetes Mica", "Interferenzpigment"],
+    "descripcion": "Effektpigment aus Mica-Plättchen, die mit Titandioxid beschichtet sind und Perlglanz sowie Interferenzeffekte erzeugen. Es ist die am häufigsten eingesetzte Familie von Perlglanzpigmenten in Lidschatten, Highlightern und Lippenstiften mit leuchtendem Finish. Der visuelle Effekt hängt von der Schichtdicke der Beschichtung und der Korngrößenverteilung der jeweiligen Qualität ab, die im technischen Datenblatt (TDS) der Charge bestätigt werden.",
+    "funciones": ["Perlglanzpigment", "Effektpigment", "Glanzmittel"],
+    "aplicaciones": ["Lidschatten", "Highlighter", "Lippenstifte", "Nagellacke", "Glanzgele"],
+    "formas_referenciales": ["Fest — perlglänzendes plättchenförmiges Pulver; Effekt und Korngrößenverteilung variabel, je nach Qualität, Hersteller und Charge"]
+  },
+  {
+    "id": "oxicloruro-de-bismuto",
+    "nombre": "Bismutoxychlorid",
+    "sinonimos": ["Wismutoxychlorid", "Synthetisches Perlweiß", "CI 77163"],
+    "descripcion": "Klassisches Perlglanzpigment, das einen seidigen Perlglanz und eine bemerkenswerte Haftung auf der Haut verleiht. Es wird in Kompaktpudern, Lidschatten und Nagellacken eingesetzt, um satinierte Finishes mit cremiger Anmutung zu erzielen. Zur Erhaltung des Erscheinungsbilds wird empfohlen, das Produkt während der Lagerung vor Licht zu schützen.",
+    "funciones": ["Perlglanzpigment", "Haftvermittler", "Texturgeber"],
+    "aplicaciones": ["Kompaktpuder", "Lidschatten", "Nagellacke", "Rouges"],
+    "formas_referenciales": ["Fest — perlglänzendes Pulver; Glanz und Korngrößenverteilung variabel, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "talco-cosmetico",
+    "nombre": "Talkum (kosmetische Qualität)",
+    "sinonimos": ["Magnesiumsilikathydrat", "Steatit"],
+    "descripcion": "Klassischer mineralischer Füllstoff der dekorativen Kosmetik, geschätzt für seine Gleitfähigkeit, Weichheit und sein Vermögen, Pigmente zu verdünnen. Er bildet die historische Basis von losen und kompakten Pudern, Rouges und Lidschatten. Vermarktet wird er in kosmetischer Qualität mit begleitender Dokumentation des Herstellers für jede Charge.",
+    "funciones": ["Mineralischer Füllstoff", "Gleitmittel", "Pigmentverdünner"],
+    "aplicaciones": ["Kompaktpuder", "Lose Puder", "Rouges", "Lidschatten"],
+    "formas_referenciales": ["Fest — Pulver; Korngrößenverteilung und Weißgrad variabel, je nach Ursprung, Hersteller und Charge"]
+  },
+  {
+    "id": "sericita",
+    "nombre": "Sericit",
+    "sinonimos": ["Sericit-Glimmer"],
+    "descripcion": "Feinkörniges Mica mit seidigem Griff, das als edler Füllstoff für Pudermake-up gilt. Es verleiht Foundations, Pudern und Lidschatten Haftung, Gleitfähigkeit und ein weiches Finish mit dezentem Glanz. Es existieren oberflächenbehandelte Qualitäten zur Verbesserung der Affinität zu wasserfreien Systemen, je nach Portfolio des jeweiligen Herstellers.",
+    "funciones": ["Plättchenförmiger Füllstoff", "Haftvermittler", "Texturgeber"],
+    "aplicaciones": ["Puder-Foundations", "Kompaktpuder", "Lidschatten", "Rouges"],
+    "formas_referenciales": ["Fest — feines plättchenförmiges Pulver; Korngrößenverteilung und Behandlung variabel, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "nitruro-de-boro",
+    "nombre": "Bornitrid",
+    "sinonimos": ["Hexagonales Bornitrid"],
+    "descripcion": "Plättchenförmiger keramischer Werkstoff mit außergewöhnlich weichem Griff, der als hochwertiger Texturgeber in Pudermake-up eingesetzt wird. Er verleiht cremige Gleitfähigkeit, Haftung und einen lichtstreuenden Effekt, der mit Soft-Focus-Finishes verbunden wird. Eingesetzt wird er in Premium-Formulierungen von Pudern, Foundations und Lidschatten, um das Luxusgefühl zu steigern.",
+    "funciones": ["Texturgeber", "Gleitmittel", "Lichtdiffusor"],
+    "aplicaciones": ["Kompaktpuder", "Puder-Foundations", "Lidschatten", "Highlighter"],
+    "formas_referenciales": ["Fest — plättchenförmiges Pulver; Korngrößenverteilung variabel, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "silice-cosmetica",
+    "nombre": "Silica (kosmetische Qualität)",
+    "sinonimos": ["Siliciumdioxid", "Amorphe Kieselsäure"],
+    "descripcion": "Funktioneller Füllstoff für Make-up-Formulierungen, der mattiert, Talg absorbiert und die Fließfähigkeit von Pudern verbessert. Er trägt zu einem weichgezeichneten Finish bei, das das Erscheinungsbild von Linien und Poren optisch mildert. Es existieren sphärische und amorphe Qualitäten mit unterschiedlichen Absorptionsprofilen je nach Hersteller.",
+    "funciones": ["Absorptionsmittel", "Mattierungsmittel", "Fließmittel"],
+    "aplicaciones": ["Lose Puder", "Make-up-Foundations", "Primer", "Kompaktpuder"],
+    "formas_referenciales": ["Fest — Pulver; Morphologie und Absorptionsvermögen variabel, je nach Qualität, Hersteller und Charge"]
+  },
+  {
+    "id": "almidon-de-arroz",
+    "nombre": "Reisstärke",
+    "sinonimos": [],
+    "descripcion": "Füllstoff pflanzlichen Ursprungs mit weichem, samtigem Griff, der als natürliche Alternative zu Talkum in Pudermake-up eingesetzt wird. Er bietet Feuchtigkeits- und Talgabsorption sowie ein mattes Finish mit natürlicher Anmutung. Eine häufige Option in Formulierungen mit natürlicher oder veganer Positionierung.",
+    "funciones": ["Pflanzlicher Füllstoff", "Absorptionsmittel", "Texturgeber"],
+    "aplicaciones": ["Lose Puder", "Kompaktpuder", "Puder-Foundations", "Trockenshampoos"],
+    "formas_referenciales": ["Fest — Pulver; Korngrößenverteilung variabel, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "estearato-de-magnesio",
+    "nombre": "Magnesiumstearat",
+    "sinonimos": ["Magnesiumsalz der Stearinsäure", "Magnesiumoctadecanoat"],
+    "descripcion": "Klassisches Bindemittel für gepresste Puder, das die Verpressbarkeit, die Haftung und die Bruchfestigkeit der Pudertablette verbessert. Es verleiht Pudern und Lidschatten zudem Gleitfähigkeit und eine gewisse Wasserabweisung. In anderen Industrien wird es gemäß den geltenden Vorschriften als Prozessschmiermittel eingesetzt.",
+    "funciones": ["Bindemittel", "Haftvermittler", "Pressschmiermittel"],
+    "aplicaciones": ["Kompaktpuder", "Lidschatten", "Rouges", "Puder-Foundations"],
+    "formas_referenciales": ["Fest — Pulver; Schüttdichte variabel, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "lauroil-lisina",
+    "nombre": "Lauroyllysin",
+    "sinonimos": ["N-Lauroyl-L-Lysin", "Lauroyl Lysine"],
+    "descripcion": "Aminosäurederivat, das als Texturgeber mit seidigem Griff in Pudermake-up und in der Oberflächenbehandlung von Pigmenten eingesetzt wird. Es verbessert die Haftung auf der Haut, die Dispergierung der Pigmente und das cremige Gefühl beim Auftragen. Üblich in mineralischen Formulierungen und in Produkten mit hautschonender Positionierung.",
+    "funciones": ["Texturgeber", "Haftvermittler", "Pigmentbehandlung"],
+    "aplicaciones": ["Kompaktpuder", "Lidschatten", "Puder-Foundations", "Oberflächenbehandlung von Pigmenten"],
+    "formas_referenciales": ["Fest — feines plättchenförmiges Pulver; Korngrößenverteilung variabel, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "cera-de-candelilla",
+    "nombre": "Candelillawachs",
+    "sinonimos": ["Candelilla-Wachs"],
+    "descripcion": "Strukturgebendes Pflanzenwachs, das sehr häufig in Lippenstiften eingesetzt wird und Härte, Glanz und eine gute Entformbarkeit verleiht. Es ist eine Alternative pflanzlichen Ursprungs zu Bienenwachs in veganen Formulierungen. In Lebensmitteln wird es gemäß den geltenden Vorschriften als Überzugsmittel eingesetzt.",
+    "funciones": ["Strukturgeber für Stifte", "Glanzmittel", "Verdicker für Ölphasen"],
+    "aplicaciones": ["Lippenstifte", "Lippenbalsame", "Eyeliner-Stifte", "Wimperntuschen"],
+    "formas_referenciales": ["Fest — Schuppen, Pellets oder Stücke, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "cera-de-carnauba",
+    "nombre": "Carnaubawachs",
+    "sinonimos": ["Brasilianisches Palmwachs"],
+    "descripcion": "Eines der Pflanzenwachse mit der höchsten Härte und dem höchsten Schmelzpunkt unter den in der Kosmetik gebräuchlichen Wachsen. Es verleiht Lippenstiften, Eyeliner-Stiften und Wimperntuschen Festigkeit, Glanz und Hitzebeständigkeit. In Lebensmitteln wird es gemäß den geltenden Vorschriften als Überzugs- und Glanzmittel eingesetzt.",
+    "funciones": ["Strukturgeber für Stifte", "Glanzmittel", "Schmelzpunkterhöher"],
+    "aplicaciones": ["Lippenstifte", "Wimperntuschen", "Eyeliner-Stifte", "Enthaarungswachse"],
+    "formas_referenciales": ["Fest — Schuppen oder Stücke, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "cera-de-abejas",
+    "nombre": "Bienenwachs",
+    "sinonimos": ["Cera alba", "Gelbes Bienenwachs"],
+    "descripcion": "Klassisches Naturwachs, das Lippenstiften und Stiftprodukten Plastizität, Körper und eine cremige Textur verleiht. Seine Verträglichkeit mit einer breiten Palette an Ölen und Emollients macht es in wasserfreien Systemen äußerst vielseitig. Je nach Anbieter wird es in gelber und gebleichter Qualität vermarktet.",
+    "funciones": ["Strukturgeber für Stifte", "Texturplastifizierer", "Verdicker für Ölphasen"],
+    "aplicaciones": ["Lippenstifte", "Lippenbalsame", "Wimperntuschen", "Augenbrauencremes"],
+    "formas_referenciales": ["Fest — Pastillen, Perlen oder Blöcke, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "cera-microcristalina",
+    "nombre": "Mikrokristallines Wachs",
+    "sinonimos": ["Mikrowachs", "Cera microcristallina"],
+    "descripcion": "Wachs mit feiner Kristallstruktur, das Stiftprodukten Flexibilität und Kohäsion verleiht. Es wird mit der Verringerung des Ausschwitzens von Ölen in Lippenstiften und einer höheren Bruchfestigkeit des Sticks in Verbindung gebracht. Es ergänzt harte Wachse und balanciert die finale Textur der Formulierung aus.",
+    "funciones": ["Flexibler Strukturgeber", "Ölbinder", "Texturmodifikator"],
+    "aplicaciones": ["Lippenstifte", "Eyeliner-Stifte", "Augenbrauenpomaden", "Balsame"],
+    "formas_referenciales": ["Fest — Pellets, Schuppen oder Platten, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "trimetilsiloxisilicato",
+    "nombre": "Trimethylsiloxysilicat",
+    "sinonimos": ["MQ-Silikonharz"],
+    "descripcion": "Filmbildendes Silikonharz, das in langanhaltenden Make-up-Formulierungen eingesetzt wird. Es wird mit transfer- und abriebbeständigen Finishes in Lippenstiften, Foundations und Eyelinern in Verbindung gebracht. Üblicherweise wird es gelöst in der Phase flüchtiger Lösungsmittel in die Formulierung eingearbeitet.",
+    "funciones": ["Filmbildner", "Long-Wear-Additiv", "Pigmentfixierer"],
+    "aplicaciones": ["Langanhaltende Lippenstifte", "Make-up-Foundations", "Flüssige Eyeliner", "Wasserfeste Wimperntuschen"],
+    "formas_referenciales": ["Fest — Harz als Pulver oder Schuppen, je nach Hersteller und Charge", "Flüssig — Lösung in flüchtigem Lösungsmittel, je nach Lieferform des Anbieters"]
+  },
+  {
+    "id": "acido-polihidroxiestearico",
+    "nombre": "Polyhydroxystearinsäure",
+    "sinonimos": ["PHSA"],
+    "descripcion": "Polymeres Pigmentdispergiermittel für ölige Medien, ein Schlüsselrohstoff in fließfähigen Foundations und flüssigen Lippenstiften. Es umhüllt die Partikel von Pigmenten und anorganischen Filtern und verbessert dadurch die Vermahlung, die Stabilität der Dispersion und die Gleichmäßigkeit der Farbe. Es trägt dazu bei, Sedimentation und Flokkulation während der Haltbarkeitsdauer des Produkts zu vermeiden.",
+    "funciones": ["Pigmentdispergiermittel", "Suspensionsstabilisator", "Mahlhilfsmittel"],
+    "aplicaciones": ["Fließfähige Make-up-Foundations", "Flüssige Lippenstifte", "Pigmentdispersionen", "Schutzprodukte mit anorganischen Filtern"],
+    "formas_referenciales": ["Viskose Flüssigkeit bis wachsartige Paste, je nach Temperatur, Hersteller und Charge"]
+  },
+  {
+    "id": "laca-roja-7",
+    "nombre": "Red 7 Lake",
+    "sinonimos": ["D&C Red No. 7 Calcium Lake", "Litholrubin BK", "CI 15850:1"],
+    "descripcion": "Organisches Farbmittel vom Farblack-Typ mit traditioneller Verwendung in Lippenstiften, das rosa bis intensiv rote Töne mit guter Farbstärke liefert. Da es auf einem unlöslichen Substrat fixiert ist, ermöglicht es das Einfärben wasserfreier Systeme ohne Farbmigration. Seine Verwendung richtet sich nach den Positivlisten für Farbmittel des jeweiligen Marktes.",
+    "funciones": ["Farblack", "Organisches Pigment"],
+    "aplicaciones": ["Lippenstifte", "Lipgloss", "Rouges", "Nagellacke"],
+    "formas_referenciales": ["Fest — Pulver; Intensität und Nuance variabel, je nach Hersteller und Charge"]
+  },
+  {
+    "id": "carmin",
+    "nombre": "Karmin",
+    "sinonimos": ["Echtes Karmin", "Cochenille-Karmin", "CI 75470"],
+    "descripcion": "Natürliches Farbmittel, gewonnen aus der Cochenilleschildlaus, mit langer Tradition in der Andenregion und sehr geschätzt für seine intensiven und stabilen Rottöne. Im Make-up wird es in Lippenstiften, Rouges und Lidschatten eingesetzt, wenn ein Rot natürlichen Ursprungs gewünscht ist. In Lebensmitteln und Getränken erfolgt die Verwendung gemäß den geltenden Vorschriften.",
+    "funciones": ["Natürliches Farbmittel", "Farblack-Pigment"],
+    "aplicaciones": ["Lippenstifte", "Rouges", "Lidschatten", "Lebensmittel und Getränke gemäß geltenden Vorschriften"],
+    "formas_referenciales": ["Fest — Pulver; Intensität und Nuance variabel, je nach Hersteller und Charge"]
   }
 ]

@@ -1,0 +1,921 @@
+---
+import Base from "../layouts/Base.astro";
+import Icon from "../components/Icon.astro";
+import Wave from "../components/Wave.astro";
+import ProductCard from "../components/ProductCard.astro";
+import CtaBand from "../components/CtaBand.astro";
+import { waLink } from "../data/site";
+import { getCatalogo } from "../lib/catalog";
+import { DEFAULT_LOCALE, tpl, type Locale } from "../i18n/config";
+import { t, taxonomia } from "../i18n";
+
+interface Props {
+  lang?: Locale;
+}
+const { lang = DEFAULT_LOCALE } = Astro.props;
+const dict = t(lang);
+const tax = taxonomia(lang);
+const cat = getCatalogo(lang);
+const PRODUCTOS = cat.productos;
+
+// Conteos por faceta (sobre el portafolio completo). Las opciones sin
+// productos no se listan: filtrarían a una página vacía.
+const industrias = tax.industrias
+  .map((i) => ({ slug: i.slug, label: i.corto, n: cat.porIndustria(i.slug).length }))
+  .filter((i) => i.n > 0);
+const lineas = tax.lineas
+  .map((l) => ({ slug: l.slug, label: l.nombre, n: cat.porLinea(l.slug).length }))
+  .filter((l) => l.n > 0);
+
+const facetas = [
+  { clase: "f-ind", titulo: dict.portafolio.facetaIndustria, opciones: industrias },
+  { clase: "f-lin", titulo: dict.portafolio.facetaLinea, opciones: lineas },
+];
+
+// "Ver {n} resultados" con el contador como nodo aparte (el orden de las
+// palabras cambia por idioma, así que se parte la plantilla por el {n})
+const [resAntes, resDespues] = dict.portafolio.verResultados.split("{n}");
+
+// Cadenas que necesita el script del filtro (idioma incluido para ordenar)
+const i18nJs = {
+  lang,
+  opcionAgotada: dict.portafolio.jsOpcionAgotada,
+  opcionConteo: dict.portafolio.jsOpcionConteo,
+  anuncio: dict.portafolio.jsAnuncio,
+  anuncioVacio: dict.portafolio.jsAnuncioVacio,
+  quitarFiltro: dict.comunes.quitarFiltro,
+};
+---
+
+<Base
+  title={dict.portafolio.tituloMeta}
+  description={dict.portafolio.descripcionMeta}
+  headerTheme="dark"
+  og="productos"
+  lang={lang}
+>
+  <!-- ═══════════════ HÉROE ═══════════════ -->
+  <section class="hero-mesh relative">
+    <div class="container-site grid items-center gap-12 pt-28 pb-16 lg:min-h-[min(88svh,54rem)] lg:grid-cols-[1.4fr_1fr] lg:pt-32">
+      <div>
+        <p class="reveal eyebrow text-accent-300" style="--reveal-delay:.05s">
+          {dict.portafolio.heroEyebrow}
+        </p>
+        <h1
+          class="reveal mt-4 font-display text-4xl leading-[1.08] font-bold text-white sm:text-5xl lg:text-[2.75rem] xl:text-5xl"
+          style="--reveal-delay:.15s"
+        >
+          <span class="block">{dict.portafolio.heroTitulo1}</span>
+          <span class="block text-accent-300">{dict.portafolio.heroTitulo2}</span>
+        </h1>
+        <p class="reveal mt-6 max-w-xl text-lg leading-relaxed text-navy-100" style="--reveal-delay:.25s">
+          {dict.portafolio.heroTexto}
+        </p>
+
+        <!-- Buscador: sin JS recarga con ?q=…; con JS filtra aquí mismo -->
+        <form
+          id="hero-buscar"
+          class="reveal mt-8 flex max-w-xl overflow-hidden rounded-full border border-white/20 bg-white/10 backdrop-blur transition-colors focus-within:border-accent-400"
+          method="get"
+          style="--reveal-delay:.35s"
+        >
+          <label class="sr-only" for="hero-q">{dict.portafolio.buscarAria}</label>
+          <input
+            id="hero-q"
+            type="search"
+            name="q"
+            placeholder={dict.portafolio.heroBuscarPlaceholder}
+            class="w-full bg-transparent px-6 py-4 text-sm text-white placeholder:text-navy-200 focus:outline-none"
+            autocomplete="off"
+          />
+          <button type="submit" class="btn-accent m-1.5 min-h-11 shrink-0 px-5 text-sm" aria-label={dict.portafolio.buscarBoton}>
+            <Icon name="search" class="h-4 w-4" />
+            <span class="hidden sm:inline">{dict.portafolio.buscarBoton}</span>
+          </button>
+        </form>
+
+        <div class="reveal mt-6 flex flex-wrap gap-3" style="--reveal-delay:.45s">
+          <a
+            href="#portafolio"
+            class="btn-ghost min-h-11 border-white/25 bg-white/5 px-6 text-sm text-white hover:border-accent-300 hover:text-accent-300"
+          >
+            {dict.portafolio.botonExplorar}
+            <Icon name="arrow-right" class="h-4 w-4 rotate-90" />
+          </a>
+          <a href={waLink(dict.meta.waBase)} target="_blank" rel="noopener" class="btn-whatsapp min-h-11 px-6 text-sm">
+            <Icon name="whatsapp" class="h-4 w-4" />
+            {dict.portafolio.botonWa}
+          </a>
+        </div>
+      </div>
+
+      <!-- Panel de industrias flotante: filtra el portafolio de abajo -->
+      <nav class="reveal hidden lg:block" style="--reveal-delay:.4s" aria-label={dict.portafolio.panelAria}>
+        <div class="grid grid-cols-2 gap-4">
+          {
+            tax.industrias.map((ind, i) => (
+              <a
+                href={`?industria=${ind.slug}#portafolio`}
+                data-aplicar-industria={ind.slug}
+                class="group rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:border-brand-300/50 hover:bg-white/10"
+                style={`animation: float ${8 + (i % 4)}s ease-in-out ${i * 0.7}s infinite`}
+              >
+                <span class="grid h-11 w-11 place-items-center rounded-xl bg-brand-500/20 text-brand-300 transition-transform duration-300 group-hover:scale-110">
+                  <Icon name={ind.icono} class="h-6 w-6" />
+                </span>
+                <p class="mt-3 font-display text-sm font-semibold text-white">{ind.corto}</p>
+                <p class="mt-1 text-xs text-navy-200">{tpl(dict.comunes.nProductos, { n: cat.porIndustria(ind.slug).length })}</p>
+              </a>
+            ))
+          }
+        </div>
+      </nav>
+    </div>
+
+    <Wave class="text-white" />
+  </section>
+
+  <!-- ═══ Encabezado del listado ═══ -->
+  <section id="portafolio" class="scroll-mt-16 border-b border-ink-100 bg-white pt-6 pb-6 md:scroll-mt-20">
+    <div class="container-site">
+      <p class="eyebrow reveal">{dict.portafolio.eyebrow}</p>
+      <div class="mt-2 flex flex-wrap items-end justify-between gap-x-6 gap-y-2">
+        <h2 class="reveal text-3xl font-semibold tracking-tight sm:text-4xl" style="--reveal-delay:.08s">
+          {dict.portafolio.titulo}
+        </h2>
+        <p class="reveal shrink-0 text-sm text-ink-500" style="--reveal-delay:.15s">
+          <span id="contador-visibles" class="font-display text-lg font-bold text-brand-600">
+            {PRODUCTOS.length}
+          </span>
+          {tpl(dict.portafolio.deTotal, { n: PRODUCTOS.length })}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Barra de búsqueda (sticky) ═══ -->
+  <div
+    id="barra-busqueda"
+    class="sticky top-16 z-30 border-b border-ink-100 bg-white/85 backdrop-blur-md transition-shadow md:top-20"
+  >
+    <div class="container-site flex gap-2 py-3">
+      <div class="relative min-w-0 flex-1">
+        <Icon
+          name="search"
+          class="pointer-events-none absolute top-1/2 left-4 h-5 w-5 -translate-y-1/2 text-ink-400"
+        />
+        <input
+          id="filtro-q"
+          type="search"
+          placeholder={dict.portafolio.buscarPlaceholder}
+          aria-label={dict.portafolio.buscarAria}
+          class="h-12 w-full rounded-full border border-ink-200 bg-porcelain pr-4 pl-12 text-sm transition-colors focus:border-brand-500 focus:ring-2 focus:ring-brand-100 focus:outline-none"
+          autocomplete="off"
+          enterkeyhint="search"
+        />
+      </div>
+
+      <select
+        id="filtro-orden"
+        class="select-q hidden h-12 w-auto shrink-0 sm:block"
+        aria-label={dict.portafolio.ordenAria}
+      >
+        <option value="relevancia">{dict.portafolio.ordenRelevancia}</option>
+        <option value="az">{dict.portafolio.ordenAz}</option>
+        <option value="za">{dict.portafolio.ordenZa}</option>
+      </select>
+
+      <!-- Abre el bottom sheet en móvil/tablet -->
+      <button
+        id="btn-filtros-movil"
+        type="button"
+        class="btn-ghost min-h-12 shrink-0 gap-1.5 px-4 text-sm lg:hidden"
+        aria-expanded="false"
+        aria-controls="sheet-filtros"
+      >
+        <Icon name="filter" class="h-4 w-4" />
+        <span class="hidden xs:inline">{dict.portafolio.botonFiltros}</span>
+        <span
+          id="badge-filtros"
+          class="hidden min-w-5 rounded-full bg-navy-700 px-1.5 py-0.5 text-xs font-bold text-white"
+        ></span>
+      </button>
+    </div>
+
+    <!-- Chips de filtros activos -->
+    <div class="container-site">
+      <div id="chips-activos" class="hidden flex-wrap items-center gap-2 pb-3"></div>
+    </div>
+
+    <!-- Anuncio del resultado para lectores de pantalla -->
+    <p id="anuncio-resultados" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+  </div>
+
+  <section class="container-site grid items-start gap-8 py-8 lg:grid-cols-[270px_1fr]">
+    <!-- ═══ Sidebar desktop: sticky CON SCROLL PROPIO ═══ -->
+    <aside class="hidden lg:block" aria-label={dict.portafolio.filtros}>
+      <!-- La altura la calcula el JS desde la posición real del panel en
+           pantalla: `sticky` solo engancha tras hacer scroll. -->
+      <div
+        id="slot-desktop"
+        class="scroll-slim sticky top-36 overflow-y-auto overscroll-contain pr-1 pb-4"
+      >
+      </div>
+    </aside>
+
+    <!-- ═══ Facetas (se reubican entre el sidebar y el sheet según el ancho) ═══ -->
+    <template id="tpl-facetas">
+      <div id="facetas" class="space-y-2">
+        <div class="hidden items-center justify-between px-1 lg:flex">
+          <h2 class="font-display text-sm font-bold tracking-wide text-ink-950 uppercase">{dict.portafolio.filtros}</h2>
+          <button
+            type="button"
+            class="js-limpiar text-xs font-semibold text-ink-500 transition-colors hover:text-brand-700"
+          >
+            {dict.portafolio.limpiar}
+          </button>
+        </div>
+
+        {
+          facetas.map((f) => (
+            <details class="faceta group rounded-2xl border border-ink-100 bg-white" open>
+              <summary class="flex cursor-pointer list-none items-center justify-between gap-2 rounded-2xl px-4 py-3 [&::-webkit-details-marker]:hidden">
+                <span class="font-display text-sm font-bold text-ink-900">{f.titulo}</span>
+                <span class="flex items-center gap-2">
+                  <span class="cuenta-faceta hidden rounded-full bg-navy-700 px-2 py-0.5 text-[11px] font-bold text-white" />
+                  <Icon name="chevron-down" class="h-4 w-4 shrink-0 text-ink-400 transition-transform duration-300 group-open:rotate-180" strokeWidth={2} />
+                </span>
+              </summary>
+              <div class="space-y-0.5 px-2 pt-1 pb-2">
+                {f.opciones.map((o) => (
+                  <label
+                    class="opcion flex cursor-pointer items-center gap-2.5 rounded-xl px-2 py-1.5 text-sm transition-colors hover:bg-porcelain"
+                    data-slug={o.slug}
+                  >
+                    <input type="checkbox" class={`${f.clase} peer sr-only`} value={o.slug} />
+                    <span class="check grid h-[18px] w-[18px] shrink-0 place-items-center rounded-md border border-ink-300 text-transparent transition-all peer-checked:border-brand-600 peer-checked:bg-brand-600 peer-checked:text-white peer-focus-visible:ring-2 peer-focus-visible:ring-brand-300">
+                      <Icon name="check" class="h-3 w-3" strokeWidth={3.5} />
+                    </span>
+                    <span class="etiqueta min-w-0 flex-1 truncate text-ink-700">{o.label}</span>
+                    <span class="cuenta shrink-0 text-xs text-ink-500 tabular-nums">{o.n}</span>
+                  </label>
+                ))}
+              </div>
+            </details>
+          ))
+        }
+
+        <button type="button" class="js-limpiar btn-ghost hidden min-h-11 w-full px-4 text-sm lg:flex">
+          <Icon name="x" class="h-4 w-4" />
+          {dict.portafolio.limpiarFiltros}
+        </button>
+      </div>
+    </template>
+
+    <!-- ═══ Resultados ═══ -->
+    <div class="min-w-0">
+      <div id="grid-productos" class="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+        {PRODUCTOS.map((p) => <ProductCard producto={p} lang={lang} />)}
+      </div>
+
+      <div id="estado-vacio" class="hidden py-16 text-center sm:py-20">
+        <span class="mx-auto grid h-16 w-16 place-items-center rounded-2xl bg-ink-100 text-ink-400">
+          <Icon name="search" class="h-8 w-8" />
+        </span>
+        <h2 class="mt-5 font-display text-xl font-semibold">{dict.portafolio.vacioTitulo}</h2>
+        <p class="mx-auto mt-2 max-w-md text-sm text-ink-500" set:html={dict.portafolio.vacioTextoHtml} />
+        <div class="mt-6 flex flex-wrap justify-center gap-3">
+          <button type="button" class="js-limpiar btn-ghost min-h-11 px-6 text-sm">{dict.portafolio.limpiarFiltros}</button>
+          <a
+            href={waLink(dict.portafolio.vacioWaMensaje)}
+            target="_blank"
+            rel="noopener"
+            class="btn-whatsapp min-h-11 px-6 text-sm"
+          >
+            <Icon name="whatsapp" class="h-4 w-4" />
+            {dict.portafolio.vacioBotonWa}
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Bottom sheet de filtros (móvil/tablet) ═══ -->
+  <div
+    id="sheet-backdrop"
+    class="pointer-events-none fixed inset-0 z-50 bg-navy-900/50 opacity-0 backdrop-blur-sm transition-opacity duration-300 lg:hidden"
+  >
+  </div>
+  <div
+    id="sheet-filtros"
+    class="fixed inset-x-0 bottom-0 z-50 flex flex-col rounded-t-3xl bg-porcelain shadow-2xl lg:hidden"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="sheet-titulo"
+    aria-hidden="true"
+  >
+    <!-- Zona de arrastre -->
+    <div id="sheet-handle" class="shrink-0 cursor-grab touch-none pt-3 pb-1 active:cursor-grabbing">
+      <span class="mx-auto block h-1.5 w-12 rounded-full bg-ink-200"></span>
+    </div>
+    <div class="flex shrink-0 items-center justify-between px-5 py-2">
+      <h2 id="sheet-titulo" class="font-display text-lg font-bold">{dict.portafolio.sheetTitulo}</h2>
+      <button
+        id="btn-cerrar-sheet"
+        type="button"
+        class="grid h-9 w-9 place-items-center rounded-full border border-ink-200 text-ink-500"
+        aria-label={dict.portafolio.cerrarFiltros}
+      >
+        <Icon name="x" class="h-4 w-4" />
+      </button>
+    </div>
+    <div id="slot-movil" class="scroll-slim min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-4"></div>
+    <div class="shrink-0 border-t border-ink-100 bg-white px-4 py-3 pb-[max(0.75rem,env(safe-area-inset-bottom))]">
+      <div class="flex gap-2">
+        <button type="button" class="js-limpiar btn-ghost min-h-12 shrink-0 px-5 text-sm">{dict.portafolio.limpiar}</button>
+        <button id="btn-aplicar" type="button" class="btn-primary min-h-12 flex-1 px-4 text-sm">
+          {resAntes}<span id="contador-sheet">{PRODUCTOS.length}</span>{resDespues}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <CtaBand titulo={dict.portafolio.ctaTitulo} texto={dict.portafolio.ctaTexto} lang={lang} />
+
+  <!-- Cadenas del filtro para el script (según el idioma de la página) -->
+  <script type="application/json" id="i18n-portafolio" set:html={JSON.stringify(i18nJs)} />
+</Base>
+
+<style>
+  /* Opción sin resultados con los filtros actuales: se atenúa pero NO se
+     oculta. Contador tabular con ancho fijo para que no baile la etiqueta. */
+  .opcion-inerte {
+    opacity: 0.4;
+    cursor: not-allowed;
+    transition: opacity 0.15s ease;
+  }
+  .opcion-inerte:hover {
+    background: transparent;
+  }
+  .opcion-inerte .check {
+    border-style: dashed;
+  }
+  .opcion .cuenta {
+    min-width: 2.25ch;
+    text-align: right;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .opcion-inerte {
+      transition: none;
+    }
+  }
+
+  /* ── Bottom sheet: cerrado → medio (62%) → alto (92%) ──
+     El snap cambia la ALTURA, no la posición: el pie con los botones nunca se
+     sale de la pantalla. */
+  #sheet-filtros {
+    height: 62dvh;
+    transform: translateY(100%);
+    transition:
+      transform 0.42s cubic-bezier(0.22, 1, 0.36, 1),
+      height 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: transform, height;
+  }
+  #sheet-filtros.snap-medio,
+  #sheet-filtros.snap-alto {
+    transform: translateY(0);
+  }
+  #sheet-filtros.snap-alto {
+    height: 92dvh;
+  }
+  /* Mientras el dedo arrastra, el sheet lo sigue sin transición */
+  #sheet-filtros.arrastrando {
+    transition: none;
+  }
+  #sheet-backdrop.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  #barra-busqueda.pegada {
+    box-shadow: 0 6px 24px -18px rgb(11 59 94 / 0.5);
+  }
+
+  /* El sidebar se desvanece al final mientras quede contenido por debajo */
+  #slot-desktop.hay-mas {
+    mask-image: linear-gradient(to bottom, black calc(100% - 3rem), transparent 100%);
+  }
+
+  /* Oculta la tarjeta filtrada sin dejar hueco en la grilla */
+  .producto-card[data-oculto="1"] {
+    display: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #sheet-filtros {
+      transition: none;
+    }
+  }
+</style>
+
+<script>
+  import { puntuar, normalizar } from "../lib/fuzzy";
+
+  /** Rellena plantillas del diccionario: "{n} productos" → "12 productos". */
+  const tpl = (s: string, vars: Record<string, string | number>) =>
+    s.replace(/\{(\w+)\}/g, (_, k) => String(vars[k] ?? ""));
+
+  /** Parámetro de URL ↔ clase de los checkboxes de cada faceta. */
+  const FACETAS = [
+    ["industria", "f-ind"],
+    ["linea", "f-lin"],
+  ] as const;
+
+  function initPortafolio() {
+    const grid = document.getElementById("grid-productos");
+    if (!grid || grid.dataset.init === "1") return;
+    grid.dataset.init = "1";
+
+    // Cadenas localizadas de esta página (el script es único para los 7 idiomas)
+    const I18N = JSON.parse(document.getElementById("i18n-portafolio")?.textContent ?? "{}") as {
+      lang: string;
+      opcionAgotada: string;
+      opcionConteo: string;
+      anuncio: string;
+      anuncioVacio: string;
+      quitarFiltro: string;
+    };
+    const idioma = I18N.lang || document.documentElement.lang || "es";
+
+    // ── Monta las facetas (viven en un <template> y se reubican según el ancho)
+    const tplFacetas = document.getElementById("tpl-facetas") as HTMLTemplateElement;
+    const facetas = tplFacetas.content.firstElementChild!.cloneNode(true) as HTMLElement;
+    const slotDesktop = document.getElementById("slot-desktop")!;
+    const slotMovil = document.getElementById("slot-movil")!;
+    const mq = window.matchMedia("(min-width: 1024px)");
+    const reubicar = () => (mq.matches ? slotDesktop : slotMovil).appendChild(facetas);
+    reubicar();
+    mq.addEventListener("change", reubicar);
+
+    const cards = Array.from(grid.querySelectorAll<HTMLElement>(".producto-card"));
+    const $q = document.getElementById("filtro-q") as HTMLInputElement;
+    const $orden = document.getElementById("filtro-orden") as HTMLSelectElement;
+    const $contador = document.getElementById("contador-visibles")!;
+    const $contadorSheet = document.getElementById("contador-sheet")!;
+    const $vacio = document.getElementById("estado-vacio")!;
+    const $chips = document.getElementById("chips-activos")!;
+    const $badge = document.getElementById("badge-filtros")!;
+    const $anuncio = document.getElementById("anuncio-resultados")!;
+    const $listado = document.getElementById("portafolio")!;
+    let anuncio: ReturnType<typeof setTimeout>;
+    const menosMovimiento = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+    // Índice de búsqueda: tokens del nombre/INCI/sinónimos + descripción
+    const indice = cards.map((el) => ({
+      el,
+      tokens: (el.dataset.buscar ?? "").split(" ").filter(Boolean),
+      desc: el.dataset.desc ?? "",
+      ind: (el.dataset.industrias ?? "").split(" "),
+      lin: (el.dataset.lineas ?? "").split(" "),
+      nombre: el.dataset.nombre ?? "",
+      destacado: el.dataset.destacado === "1",
+      score: 0,
+      visible: true,
+    }));
+
+    const inputs = (cls: string) =>
+      Array.from(facetas.querySelectorAll<HTMLInputElement>("input." + cls));
+    const seleccion = (cls: string) => inputs(cls).filter((c) => c.checked).map((c) => c.value);
+    const todosLosChecks = () => facetas.querySelectorAll<HTMLInputElement>(".f-ind, .f-lin");
+
+    // Etiquetas legibles para los chips
+    const etiquetas: Record<string, string> = {};
+    todosLosChecks().forEach((i) => {
+      const txt = i.closest("label")?.querySelector(".etiqueta")?.textContent?.trim();
+      etiquetas[`${i.className.split(" ")[0]}:${i.value}`] = txt || i.value;
+    });
+
+    /**
+     * Animación FLIP en tres actos: salida → aplicar cambios → FLIP + entrada.
+     * Con temporizador, NO con animation.finished: esa promesa no resuelve si
+     * el navegador congela las animaciones y el filtro quedaría sin aplicar.
+     */
+    let generacion = 0;
+    function animarCambio(aplicarCambios: () => void) {
+      if (menosMovimiento.matches || document.hidden) return aplicarCambios();
+
+      const gen = ++generacion;
+
+      const antes = new Map<HTMLElement, DOMRect>();
+      for (const c of cards) {
+        if (c.dataset.oculto === "0") antes.set(c, c.getBoundingClientRect());
+      }
+
+      const salen: HTMLElement[] = [];
+      for (const it of indice) {
+        if (antes.has(it.el) && !it.visible) salen.push(it.el);
+      }
+      const hayQueSalir = salen.length > 0 && salen.length < antes.size;
+      if (hayQueSalir) {
+        for (const c of salen.slice(0, 40)) {
+          c.animate([{ opacity: 1 }, { opacity: 0, transform: "scale(.93)" }], {
+            duration: 160,
+            easing: "ease-out",
+          });
+        }
+      }
+
+      const acto2 = () => {
+        if (gen !== generacion) return;
+
+        aplicarCambios();
+        salen.forEach((c) => c.getAnimations().forEach((a) => a.cancel()));
+
+        const nuevas: HTMLElement[] = [];
+        for (const c of cards) {
+          if (c.dataset.oculto !== "0") continue;
+          const primero = antes.get(c);
+          if (!primero) {
+            nuevas.push(c);
+            continue;
+          }
+          const ultimo = c.getBoundingClientRect();
+          const dx = primero.left - ultimo.left;
+          const dy = primero.top - ultimo.top;
+          if (Math.abs(dx) < 1 && Math.abs(dy) < 1) continue;
+          c.animate(
+            [{ transform: `translate(${dx}px, ${dy}px)` }, { transform: "translate(0,0)" }],
+            { duration: 420, easing: "cubic-bezier(.22,1,.36,1)" }
+          );
+        }
+
+        nuevas.forEach((c, i) =>
+          c.animate(
+            [
+              { opacity: 0, transform: "scale(.92) translateY(14px)" },
+              { opacity: 1, transform: "none" },
+            ],
+            {
+              duration: 400,
+              delay: Math.min(i, 14) * 35,
+              easing: "cubic-bezier(.22,1,.36,1)",
+              fill: "backwards",
+            }
+          )
+        );
+      };
+
+      if (hayQueSalir) setTimeout(acto2, 170);
+      else acto2();
+    }
+
+    /**
+     * Facetas dinámicas con regla leave-one-out: para contar la faceta F se
+     * aplican todos los filtros MENOS los de F (dentro de una faceta las
+     * opciones se suman con O). Las opciones en cero se atenúan.
+     */
+    function actualizarFacetas(ind: string[], lin: string[]) {
+      const okInd = (it: (typeof indice)[number]) => !ind.length || ind.some((s) => it.ind.includes(s));
+      const okLin = (it: (typeof indice)[number]) => !lin.length || lin.some((s) => it.lin.includes(s));
+
+      const cuentaInd: Record<string, number> = {};
+      const cuentaLin: Record<string, number> = {};
+      for (const it of indice) {
+        if (it.score <= 0) continue;
+        if (okLin(it)) for (const s of it.ind) cuentaInd[s] = (cuentaInd[s] ?? 0) + 1;
+        if (okInd(it)) for (const s of it.lin) cuentaLin[s] = (cuentaLin[s] ?? 0) + 1;
+      }
+
+      const pintar = (cls: string, cuentas: Record<string, number>) => {
+        for (const input of inputs(cls)) {
+          const label = input.closest("label");
+          if (!label) continue;
+          const n = cuentas[input.value] ?? 0;
+          const contador = label.querySelector<HTMLElement>(".cuenta");
+          if (contador) contador.textContent = String(n);
+          const inerte = n === 0 && !input.checked;
+          label.classList.toggle("opcion-inerte", inerte);
+          label.setAttribute("aria-disabled", String(inerte));
+          const nombre = label.querySelector<HTMLElement>(".etiqueta")?.textContent?.trim() ?? "";
+          input.setAttribute(
+            "aria-label",
+            inerte ? tpl(I18N.opcionAgotada, { nombre }) : tpl(I18N.opcionConteo, { nombre, n })
+          );
+        }
+      };
+      pintar("f-ind", cuentaInd);
+      pintar("f-lin", cuentaLin);
+    }
+
+    function aplicar(actualizarUrl = true) {
+      const consulta = $q.value.trim();
+      const q = normalizar(consulta);
+      const ind = seleccion("f-ind");
+      const lin = seleccion("f-lin");
+      const orden = $orden.value;
+
+      let visibles = 0;
+      for (const it of indice) {
+        const okI = !ind.length || ind.some((s) => it.ind.includes(s));
+        const okL = !lin.length || lin.some((s) => it.lin.includes(s));
+
+        let score = 0;
+        if (!q) score = 1;
+        else {
+          score = puntuar(q, it.tokens);
+          if (!score && q.length >= 4 && it.desc.includes(q)) score = 0.5;
+        }
+
+        it.score = score;
+        it.visible = okI && okL && score > 0;
+        if (it.visible) visibles++;
+      }
+
+      animarCambio(() => {
+        for (const it of indice) it.el.dataset.oculto = it.visible ? "0" : "1";
+
+        const ordenadas = [...indice].sort((a, b) => {
+          if (q && b.score !== a.score) return b.score - a.score;
+          if (orden === "relevancia" && b.destacado !== a.destacado) return b.destacado ? 1 : -1;
+          const cmp = a.nombre.localeCompare(b.nombre, idioma);
+          return orden === "za" ? -cmp : cmp;
+        });
+        ordenadas.forEach((it, i) => (it.el.style.order = String(i)));
+
+        grid!.classList.toggle("hidden", visibles === 0);
+        $vacio.classList.toggle("hidden", visibles > 0);
+      });
+
+      $contador.textContent = String(visibles);
+      $contadorSheet.textContent = String(visibles);
+
+      clearTimeout(anuncio);
+      anuncio = setTimeout(() => {
+        $anuncio.textContent = visibles
+          ? tpl(I18N.anuncio, { v: visibles, t: indice.length })
+          : I18N.anuncioVacio;
+      }, 450);
+
+      // Chips de filtros activos (industrias y líneas)
+      const activos: Array<[string, string]> = [
+        ...ind.map((v) => ["f-ind", v] as [string, string]),
+        ...lin.map((v) => ["f-lin", v] as [string, string]),
+      ];
+      $chips.replaceChildren();
+      const hayChips = activos.length > 0;
+      $chips.classList.toggle("hidden", !hayChips);
+      $chips.classList.toggle("flex", hayChips);
+      for (const [cls, valor] of activos) {
+        const label = etiquetas[`${cls}:${valor}`] ?? valor;
+        const b = document.createElement("button");
+        b.type = "button";
+        b.className =
+          "chip cursor-pointer border-brand-200 bg-brand-50 text-brand-800 transition-colors hover:border-brand-400";
+        b.textContent = `${label} `;
+        const x = document.createElement("span");
+        x.setAttribute("aria-hidden", "true");
+        x.textContent = "✕";
+        b.appendChild(x);
+        b.setAttribute("aria-label", tpl(I18N.quitarFiltro, { label }));
+        b.addEventListener("click", () => {
+          const input = facetas.querySelector<HTMLInputElement>(`input.${cls}[value="${valor}"]`);
+          if (input) input.checked = false;
+          aplicar();
+        });
+        $chips.appendChild(b);
+      }
+
+      // Contadores por faceta y badge del botón móvil
+      const cuentas = [ind.length, lin.length];
+      facetas.querySelectorAll<HTMLElement>(".faceta").forEach((f, i) => {
+        const c = f.querySelector<HTMLElement>(".cuenta-faceta");
+        if (!c) return;
+        c.textContent = String(cuentas[i] ?? 0);
+        c.classList.toggle("hidden", !cuentas[i]);
+      });
+
+      actualizarFacetas(ind, lin);
+      const nActivos = activos.length + (consulta ? 1 : 0);
+      $badge.textContent = String(nActivos);
+      $badge.classList.toggle("hidden", nActivos === 0);
+
+      if (actualizarUrl) {
+        const params = new URLSearchParams();
+        if (consulta) params.set("q", consulta);
+        if (ind.length) params.set("industria", ind.join(","));
+        if (lin.length) params.set("linea", lin.join(","));
+        if (orden !== "relevancia") params.set("orden", orden);
+        const qs = params.toString();
+        history.replaceState(null, "", (qs ? `?${qs}` : location.pathname) + location.hash);
+      }
+    }
+
+    // ── Estado inicial desde la URL
+    const params = new URLSearchParams(location.search);
+    if (params.get("q")) $q.value = params.get("q")!;
+    if (params.get("orden")) $orden.value = params.get("orden")!;
+    for (const [param, cls] of FACETAS) {
+      for (const v of (params.get(param) ?? "").split(",").filter(Boolean)) {
+        const input = facetas.querySelector<HTMLInputElement>(`input.${cls}[value="${v}"]`);
+        if (input) input.checked = true;
+      }
+    }
+
+    // ── Eventos
+    let debounce: ReturnType<typeof setTimeout>;
+    $q.addEventListener("input", () => {
+      clearTimeout(debounce);
+      debounce = setTimeout(() => aplicar(), 160);
+    });
+    $orden.addEventListener("change", () => aplicar());
+    todosLosChecks().forEach((c) =>
+      c.addEventListener("change", (e) => {
+        if (c.closest('[aria-disabled="true"]')) {
+          e.preventDefault();
+          c.checked = false;
+          return;
+        }
+        aplicar();
+      })
+    );
+
+    const limpiar = () => {
+      $q.value = "";
+      todosLosChecks().forEach((c) => (c.checked = false));
+      aplicar();
+    };
+    document.querySelectorAll(".js-limpiar").forEach((b) => b.addEventListener("click", limpiar));
+    facetas.querySelectorAll(".js-limpiar").forEach((b) => b.addEventListener("click", limpiar));
+
+    // ── Héroe: el buscador y el panel de industrias filtran aquí mismo. Son
+    // puntos de entrada: arrancan una búsqueda limpia, no se suman a filtros previos.
+    const irAlListado = () =>
+      $listado.scrollIntoView({ behavior: menosMovimiento.matches ? "auto" : "smooth", block: "start" });
+
+    const $heroForm = document.getElementById("hero-buscar") as HTMLFormElement | null;
+    const $heroQ = document.getElementById("hero-q") as HTMLInputElement | null;
+    if ($heroQ && params.get("q")) $heroQ.value = params.get("q")!;
+    $heroForm?.addEventListener("submit", (e) => {
+      e.preventDefault();
+      todosLosChecks().forEach((c) => (c.checked = false));
+      $q.value = $heroQ?.value.trim() ?? "";
+      aplicar();
+      irAlListado();
+    });
+
+    document.querySelectorAll<HTMLAnchorElement>("[data-aplicar-industria]").forEach((a) =>
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        const slug = a.dataset.aplicarIndustria!;
+        $q.value = "";
+        todosLosChecks().forEach((c) => (c.checked = c.classList.contains("f-ind") && c.value === slug));
+        aplicar();
+        irAlListado();
+      })
+    );
+
+    // ── Bottom sheet
+    const $sheet = document.getElementById("sheet-filtros")!;
+    const $backdrop = document.getElementById("sheet-backdrop")!;
+    const $abrir = document.getElementById("btn-filtros-movil")!;
+    let ultimoFoco: HTMLElement | null = null;
+
+    const abrirSheet = () => {
+      ultimoFoco = document.activeElement as HTMLElement;
+      $sheet.classList.remove("snap-alto");
+      $sheet.classList.add("snap-medio");
+      $backdrop.classList.add("visible");
+      $sheet.setAttribute("aria-hidden", "false");
+      $abrir.setAttribute("aria-expanded", "true");
+      document.body.style.overflow = "hidden";
+      $sheet.querySelector<HTMLElement>("#btn-cerrar-sheet")?.focus();
+    };
+    const cerrarSheet = () => {
+      $sheet.classList.remove("snap-medio", "snap-alto");
+      $backdrop.classList.remove("visible");
+      $sheet.setAttribute("aria-hidden", "true");
+      $abrir.setAttribute("aria-expanded", "false");
+      document.body.style.overflow = "";
+      ultimoFoco?.focus();
+    };
+    const sheetAbierto = () =>
+      $sheet.classList.contains("snap-medio") || $sheet.classList.contains("snap-alto");
+    $abrir.addEventListener("click", abrirSheet);
+    $backdrop.addEventListener("click", cerrarSheet);
+    document.getElementById("btn-cerrar-sheet")?.addEventListener("click", cerrarSheet);
+    document.getElementById("btn-aplicar")?.addEventListener("click", cerrarSheet);
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && sheetAbierto()) cerrarSheet();
+      if (e.key === "Tab" && sheetAbierto()) {
+        const focusables = $sheet.querySelectorAll<HTMLElement>(
+          'button, input, select, [tabindex]:not([tabindex="-1"]), summary'
+        );
+        if (!focusables.length) return;
+        const primero = focusables[0];
+        const ultimo = focusables[focusables.length - 1];
+        if (e.shiftKey && document.activeElement === primero) {
+          e.preventDefault();
+          ultimo.focus();
+        } else if (!e.shiftKey && document.activeElement === ultimo) {
+          e.preventDefault();
+          primero.focus();
+        }
+      }
+    });
+
+    // ── Arrastre del asa: hacia arriba crece a 92dvh, hacia abajo cierra
+    const $handle = document.getElementById("sheet-handle")!;
+    let y0 = 0;
+    let altoBase = 0;
+    let arrastrando = false;
+
+    $handle.addEventListener("pointerdown", (e) => {
+      arrastrando = true;
+      y0 = e.clientY;
+      altoBase = $sheet.getBoundingClientRect().height;
+      $sheet.classList.add("arrastrando");
+      $handle.setPointerCapture(e.pointerId);
+    });
+    $handle.addEventListener("pointermove", (e) => {
+      if (!arrastrando) return;
+      const dy = e.clientY - y0;
+      const H = window.innerHeight;
+      const alto = Math.min(H * 0.92, altoBase - dy);
+      if (alto >= H * 0.35) {
+        $sheet.style.height = `${alto}px`;
+        $sheet.style.transform = "translateY(0)";
+      } else {
+        $sheet.style.height = `${H * 0.35}px`;
+        $sheet.style.transform = `translateY(${H * 0.35 - alto}px)`;
+      }
+    });
+    const soltar = (e: PointerEvent) => {
+      if (!arrastrando) return;
+      arrastrando = false;
+      $sheet.classList.remove("arrastrando");
+      const H = window.innerHeight;
+      const alto = altoBase - (e.clientY - y0);
+      $sheet.style.height = "";
+      $sheet.style.transform = "";
+      $sheet.classList.remove("snap-medio", "snap-alto");
+      if (alto < H * 0.4) cerrarSheet();
+      else if (alto > H * 0.75) $sheet.classList.add("snap-alto");
+      else $sheet.classList.add("snap-medio");
+    };
+    $handle.addEventListener("pointerup", soltar);
+    $handle.addEventListener("pointercancel", soltar);
+
+    // Sombra de la barra al hacer scroll
+    const $barra = document.getElementById("barra-busqueda")!;
+    const onScroll = () => $barra.classList.toggle("pegada", $barra.getBoundingClientRect().top <= 80);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+
+    /**
+     * Ajusta el panel de filtros a lo que queda de pantalla desde su posición
+     * real, con desvanecido inferior mientras haya facetas fuera de vista.
+     */
+    const AIRE_INFERIOR = 20;
+    const ajustarPanel = () => {
+      if (!mq.matches) return;
+      const top = slotDesktop.getBoundingClientRect().top;
+      const disponible = window.innerHeight - top - AIRE_INFERIOR;
+      slotDesktop.style.maxHeight = `${Math.max(220, Math.round(disponible))}px`;
+      const resto = slotDesktop.scrollHeight - slotDesktop.clientHeight - slotDesktop.scrollTop;
+      slotDesktop.classList.toggle("hay-mas", resto > 8);
+    };
+
+    let pendiente = false;
+    const ajustarEnScroll = () => {
+      if (pendiente) return;
+      pendiente = true;
+      requestAnimationFrame(() => {
+        pendiente = false;
+        ajustarPanel();
+      });
+    };
+
+    ajustarPanel();
+    window.addEventListener("scroll", ajustarEnScroll, { passive: true });
+    slotDesktop.addEventListener("scroll", ajustarEnScroll, { passive: true });
+    window.addEventListener("resize", ajustarPanel);
+    mq.addEventListener("change", ajustarPanel);
+    document.fonts?.ready.then(ajustarPanel);
+    window.addEventListener("load", ajustarPanel);
+    if ("ResizeObserver" in window) {
+      const ro = new ResizeObserver(() => ajustarPanel());
+      ro.observe(facetas);
+      ro.observe(document.body);
+    }
+
+    aplicar(false);
+
+    // Llegada con filtros en la URL (desde otra página): se muestra el listado
+    const hayFiltrosEnUrl = FACETAS.some(([p]) => params.get(p)) || !!params.get("q");
+    if (hayFiltrosEnUrl && !location.hash) requestAnimationFrame(() => $listado.scrollIntoView({ block: "start" }));
+  }
+
+  document.addEventListener("astro:page-load", initPortafolio);
+  initPortafolio();
+</script>

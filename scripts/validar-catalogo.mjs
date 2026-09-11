@@ -11,13 +11,22 @@ import { fileURLToPath } from "node:url";
 const raiz = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dirProductos = join(raiz, "src", "data", "products");
 
-// Vocabularios (deben coincidir con src/data/taxonomy.ts)
-const LINEAS = ["cosmetica", "maquillaje", "aseo", "alimentos", "agro", "veterinaria", "extractos", "industrial"];
-const ESPECIALIDADES = ["activos", "aceites-vegetales", "mantecas-ceras", "emolientes", "emulsificantes", "tensoactivos", "humectantes", "espesantes-reologia", "conservantes", "antioxidantes", "filtros-uv", "pigmentos-colorantes", "nacarantes-efectos", "acondicionadores", "proteinas-aminoacidos", "vitaminas", "exfoliantes", "siliconas-alternativas", "polimeros", "quelantes", "solventes", "acidulantes-ph", "edulcorantes", "gomas-hidrocoloides", "enzimas", "biocidas-desinfectantes", "desengrasantes", "dispersantes-antiespumantes", "nutricion-vegetal", "adyuvantes-agricolas", "premezclas-veterinarias", "extractos-botanicos"];
-const SECTORES = ["cosmetica-personal", "maquillaje-color", "aseo-hogar", "institucional-industrial", "alimentos", "bebidas", "nutraceutico", "veterinaria", "agricola", "pinturas-recubrimientos", "textil", "tratamiento-aguas"];
+// Vocabularios: se leen de src/data/taxonomy.ts (fuente única de verdad)
+const taxonomia = readFileSync(join(raiz, "src", "data", "taxonomy.ts"), "utf8");
+const slugsDe = (constante) => {
+  const bloque = taxonomia.match(new RegExp(`export const ${constante}[^=]*=\\s*\\[([\\s\\S]*?)\\n\\];`));
+  return bloque ? [...bloque[1].matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]) : [];
+};
+const LINEAS = slugsDe("LINEAS");
+const INDUSTRIAS = slugsDe("INDUSTRIAS");
 const ORIGENES = ["Vegetal", "Sintético", "Sintetico", "Mineral", "Biotecnológico", "Biotecnologico", "Animal", "Mixto"];
 
-const OBLIGATORIOS = ["id", "nombre", "linea", "especialidades", "sectores", "descripcion", "funciones", "aplicaciones", "formas_referenciales", "origen"];
+if (!LINEAS.length || !INDUSTRIAS.length) {
+  console.error("No se pudieron leer LINEAS / INDUSTRIAS de src/data/taxonomy.ts");
+  process.exit(1);
+}
+
+const OBLIGATORIOS = ["id", "nombre", "lineas", "industrias", "descripcion", "funciones", "aplicaciones", "formas_referenciales", "origen"];
 
 let errores = 0;
 let advertencias = 0;
@@ -46,6 +55,7 @@ if (!archivos.length) {
 }
 
 let totalProductos = 0;
+const porLinea = Object.fromEntries(LINEAS.map((l) => [l, 0]));
 
 for (const archivo of archivos) {
   let data;
@@ -65,7 +75,7 @@ for (const archivo of archivos) {
     const ref = p?.id ?? p?.nombre ?? "(producto sin id)";
 
     for (const campo of OBLIGATORIOS) {
-      if (p[campo] === undefined || p[campo] === null || (Array.isArray(p[campo]) && !p[campo].length && campo !== "sinonimos")) {
+      if (p[campo] === undefined || p[campo] === null || (Array.isArray(p[campo]) && !p[campo].length)) {
         error(archivo, `"${ref}": falta el campo obligatorio "${campo}"`);
       }
     }
@@ -78,19 +88,15 @@ for (const archivo of archivos) {
       error(archivo, `"${ref}": id duplicado (ya existe en ${idsVistos.get(p.id)})`);
     else idsVistos.set(p.id, archivo);
 
-    if (p.linea && !LINEAS.includes(p.linea))
-      error(archivo, `"${ref}": línea desconocida "${p.linea}". Válidas: ${LINEAS.join(", ")}`);
+    for (const l of p.lineas ?? []) {
+      if (!LINEAS.includes(l))
+        error(archivo, `"${ref}": línea de producto desconocida "${l}". Válidas: ${LINEAS.join(", ")}`);
+      else porLinea[l]++;
+    }
 
-    for (const l of p.lineas_secundarias ?? [])
-      if (!LINEAS.includes(l)) error(archivo, `"${ref}": línea secundaria desconocida "${l}"`);
-
-    for (const e of p.especialidades ?? [])
-      if (!ESPECIALIDADES.includes(e))
-        error(archivo, `"${ref}": especialidad desconocida "${e}". Agrégala a taxonomy.ts o usa una existente.`);
-
-    for (const s of p.sectores ?? [])
-      if (!SECTORES.includes(s))
-        error(archivo, `"${ref}": sector desconocido "${s}". Agrégalo a taxonomy.ts o usa uno existente.`);
+    for (const i of p.industrias ?? [])
+      if (!INDUSTRIAS.includes(i))
+        error(archivo, `"${ref}": industria desconocida "${i}". Válidas: ${INDUSTRIAS.join(", ")}`);
 
     if (p.origen && !ORIGENES.includes(p.origen))
       error(archivo, `"${ref}": origen "${p.origen}" no válido. Usa: Vegetal, Sintético, Mineral, Biotecnológico, Animal o Mixto`);
@@ -106,6 +112,9 @@ for (const archivo of archivos) {
 
 console.log("");
 console.log(`Catálogo: ${totalProductos} productos en ${archivos.length} archivos.`);
+const vacias = Object.entries(porLinea).filter(([, n]) => !n).map(([l]) => l);
+if (vacias.length)
+  console.log(`ℹ️  Líneas sin productos publicados (se muestran como «Consultar disponibilidad»): ${vacias.join(", ")}`);
 if (errores) {
   console.error(`\n${errores} error(es) — corrígelos antes de publicar.`);
   process.exit(1);

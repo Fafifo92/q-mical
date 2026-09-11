@@ -1,5 +1,9 @@
 # Q'mical — Propuestas de contenido y copy para el sitio web
 
+> **Nota (septiembre 2026):** investigación previa al cambio de marca. La empresa
+> ahora es **Origen Chemical S.A.S.**; la marca vigente está en el Manual de Marca
+> y el sitio ya no tiene páginas de sectores ni de servicio técnico.
+
 > Documento de investigación y propuesta de copy. Q'mical: distribuidor colombiano de
 > materias primas para cosmética, maquillaje, aseo, alimentos, agro, veterinaria,
 > extractos e industrial. Gestión comercial por WhatsApp · Pagos por PSE.

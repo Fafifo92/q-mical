@@ -13,7 +13,6 @@ import { fileURLToPath } from "node:url";
 
 const raiz = join(dirname(fileURLToPath(import.meta.url)), "..");
 const LOCALES = ["en", "fr", "pt", "de", "ru", "zh"];
-const LINEAS = ["cosmetica", "maquillaje", "aseo", "alimentos", "agro", "veterinaria", "extractos", "industrial"];
 
 let errores = 0;
 let avisos = 0;
@@ -27,33 +26,44 @@ const avisar = (m) => {
 };
 
 const leer = (p) => JSON.parse(readFileSync(p, "utf8"));
+const jsons = (dir) => readdirSync(dir).filter((f) => f.endsWith(".json"));
 
 // ── Referencia en español ─────────────────────────────────────────
 const maestro = new Map(); // id -> producto
-for (const f of readdirSync(join(raiz, "src/data/products"))) {
+for (const f of jsons(join(raiz, "src/data/products"))) {
   for (const p of leer(join(raiz, "src/data/products", f))) maestro.set(p.id, p);
 }
 const uiEs = leer(join(raiz, "src/i18n/ui/es.json"));
 
-/** Todas las rutas de claves de un objeto: "home.heroTitulo1", … */
+/** Todas las rutas de claves de un objeto: "home.noticias.0.titulo", … */
 function claves(obj, prefijo = "") {
   const out = [];
   for (const [k, v] of Object.entries(obj)) {
     const ruta = prefijo ? `${prefijo}.${k}` : k;
-    if (v && typeof v === "object" && !Array.isArray(v)) out.push(...claves(v, ruta));
+    if (v && typeof v === "object") out.push(...claves(v, ruta));
     else out.push(ruta);
   }
   return out;
 }
 const clavesEs = claves(uiEs);
 
-const sectoresEs = readFileSync(join(raiz, "src/data/sectores.ts"), "utf8");
-const slugsSector = [...sectoresEs.matchAll(/"slug":\s*"([^"]+)"/g)].map((m) => m[1]);
+/** Marcadores {n}, {year}… de un texto, para comparar entre idiomas. */
+const marcadores = (s) => (typeof s === "string" ? (s.match(/\{\w+\}/g) ?? []).sort().join(" ") : "");
+const valor = (obj, ruta) => ruta.split(".").reduce((o, k) => o?.[k], obj);
 
+// Slugs de la taxonomía (fuente única: src/data/taxonomy.ts)
 const taxEs = readFileSync(join(raiz, "src/data/taxonomy.ts"), "utf8");
-const slugsEsp = [...taxEs.matchAll(/^\s{2}"?([a-z-]+)"?:\s*"[^"]+",$/gm)].map((m) => m[1]);
+const slugsDe = (constante) => {
+  const bloque = taxEs.match(new RegExp(`export const ${constante}[^=]*=\\s*\\[([\\s\\S]*?)\\n\\];`));
+  return bloque ? [...bloque[1].matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]) : [];
+};
+const LINEAS = slugsDe("LINEAS");
+const INDUSTRIAS = slugsDe("INDUSTRIAS");
 
-console.log(`\n🌐 Traducciones — español: ${maestro.size} productos · ${clavesEs.length} claves de interfaz\n`);
+console.log(
+  `\n🌐 Traducciones — español: ${maestro.size} productos · ${clavesEs.length} claves de interfaz · ` +
+    `${LINEAS.length} líneas · ${INDUSTRIAS.length} industrias\n`
+);
 
 for (const lang of LOCALES) {
   console.log(`── ${lang.toUpperCase()}`);
@@ -66,8 +76,12 @@ for (const lang of LOCALES) {
     const ui = leer(rutaUI);
     const suyas = new Set(claves(ui));
     const faltan = clavesEs.filter((k) => !suyas.has(k));
+    const sobran = [...suyas].filter((k) => !clavesEs.includes(k));
+    const marcas = clavesEs.filter((k) => suyas.has(k) && marcadores(valor(uiEs, k)) !== marcadores(valor(ui, k)));
     if (faltan.length) avisar(`interfaz: ${faltan.length} claves sin traducir (ej. ${faltan.slice(0, 3).join(", ")})`);
-    else console.log(`  ✔ interfaz completa (${clavesEs.length} claves)`);
+    if (sobran.length) avisar(`interfaz: ${sobran.length} claves que ya no existen en español (ej. ${sobran.slice(0, 3).join(", ")})`);
+    if (marcas.length) err(`interfaz: marcadores {…} distintos al español en ${marcas.slice(0, 3).join(", ")}`);
+    if (!faltan.length && !sobran.length && !marcas.length) console.log(`  ✔ interfaz completa (${clavesEs.length} claves)`);
   }
 
   // 2. Productos
@@ -76,22 +90,17 @@ for (const lang of LOCALES) {
     err(`falta la carpeta src/data/i18n/products/${lang}/`);
   } else {
     const vistos = new Set();
-    for (const linea of LINEAS) {
-      const f = join(dir, `${linea}.json`);
-      if (!existsSync(f)) {
-        err(`falta ${lang}/${linea}.json`);
-        continue;
-      }
+    for (const f of jsons(dir)) {
       let lista;
       try {
-        lista = leer(f);
+        lista = leer(join(dir, f));
       } catch (e) {
-        err(`${lang}/${linea}.json no parsea: ${e.message}`);
+        err(`${lang}/${f} no parsea: ${e.message}`);
         continue;
       }
       for (const o of lista) {
         if (!maestro.has(o.id)) {
-          err(`${lang}/${linea}.json: id inexistente "${o.id}"`);
+          err(`${lang}/${f}: id inexistente "${o.id}"`);
           continue;
         }
         vistos.add(o.id);
@@ -111,37 +120,20 @@ for (const lang of LOCALES) {
     else console.log(`  ✔ ${vistos.size} productos traducidos`);
   }
 
-  // 3. Sectores
-  const fSec = join(raiz, "src/data/i18n/sectores", `${lang}.json`);
-  if (!existsSync(fSec)) {
-    err(`falta src/data/i18n/sectores/${lang}.json`);
-  } else {
-    const sec = leer(fSec);
-    const faltan = slugsSector.filter((s) => !sec[s]);
-    if (faltan.length) avisar(`sectores: faltan ${faltan.join(", ")}`);
-    else {
-      let malos = 0;
-      for (const [slug, v] of Object.entries(sec)) {
-        if (!v.titulo || v.intro?.length !== 2 || v.retos?.length !== 3) malos++;
-      }
-      malos
-        ? err(`sectores: ${malos} con estructura incorrecta (intro debe tener 2 párrafos y retos 3)`)
-        : console.log(`  ✔ ${Object.keys(sec).length} sectores`);
-    }
-  }
-
-  // 4. Taxonomía
+  // 3. Taxonomía: las 12 líneas y 8 industrias con nombre, corto y tagline
   const fTax = join(raiz, "src/data/i18n/taxonomy", `${lang}.json`);
   if (!existsSync(fTax)) {
     err(`falta src/data/i18n/taxonomy/${lang}.json`);
   } else {
     const tax = leer(fTax);
-    const nL = Object.keys(tax.lineas ?? {}).length;
-    const nE = Object.keys(tax.especialidades ?? {}).length;
-    const nS = Object.keys(tax.sectores ?? {}).length;
-    if (nL !== 8 || nE !== 32 || nS !== 12)
-      avisar(`taxonomía: ${nL}/8 líneas, ${nE}/32 especialidades, ${nS}/12 sectores`);
-    else console.log(`  ✔ taxonomía completa (8 líneas, 32 especialidades, 12 sectores)`);
+    const incompletas = (grupo, slugs) =>
+      slugs.filter((s) => !["nombre", "corto", "tagline"].every((c) => tax[grupo]?.[s]?.[c]?.trim()));
+    const fL = incompletas("lineas", LINEAS);
+    const fI = incompletas("industrias", INDUSTRIAS);
+    if (fL.length) avisar(`taxonomía: líneas sin traducir: ${fL.join(", ")}`);
+    if (fI.length) avisar(`taxonomía: industrias sin traducir: ${fI.join(", ")}`);
+    if (!fL.length && !fI.length)
+      console.log(`  ✔ taxonomía completa (${LINEAS.length} líneas, ${INDUSTRIAS.length} industrias)`);
   }
 }
 

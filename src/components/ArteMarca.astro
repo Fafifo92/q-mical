@@ -1,0 +1,113 @@
+---
+/**
+ * Arte de marca de respaldo: se muestra donde iría una foto que todavía no
+ * se ha subido (tarjetas de industria, carrusel de noticias). Degradado azul
+ * marino → turquesa con la trama y los anillos de la marca, y el ícono de la
+ * sección (o el isotipo) al centro.
+ */
+import Icon from "./Icon.astro";
+
+interface Props {
+  /** Ícono de Icon.astro. Sin ícono se usa el isotipo de la marca. */
+  icono?: string;
+  /** 0–7: varía el ángulo del degradado para que tarjetas vecinas no se vean iguales. */
+  variante?: number;
+  /** "centro" para tarjetas; "derecha" para héroes con texto a la izquierda. */
+  posicion?: "centro" | "derecha";
+}
+const { icono, variante = 0, posicion = "centro" } = Astro.props;
+const angulos = [135, 160, 115, 200, 145, 95, 175, 125];
+const ang = angulos[variante % angulos.length];
+---
+
+<div
+  class:list={["arte-marca pointer-events-none absolute inset-0 overflow-hidden", `arte-${posicion}`]}
+  style={`--ang:${ang}deg`}
+  aria-hidden="true"
+>
+  <div class="arte-anillos">
+    <span></span><span></span><span></span>
+    {
+      icono ? (
+        <Icon name={icono} class="arte-icono" strokeWidth={1.15} />
+      ) : (
+        <img src="/brand/isotipo.webp" alt="" class="arte-isotipo" width="47" height="44" loading="lazy" />
+      )
+    }
+  </div>
+</div>
+
+<style>
+  .arte-marca {
+    background:
+      radial-gradient(60% 70% at 78% 30%, rgb(20 168 168 / 0.55), transparent 70%),
+      radial-gradient(45% 55% at 12% 95%, rgb(196 217 44 / 0.22), transparent 70%),
+      linear-gradient(var(--ang), var(--color-navy-700), var(--color-navy-900));
+  }
+  .arte-marca::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgb(255 255 255 / 0.1) 1px, transparent 1px);
+    background-size: 18px 18px;
+    mask-image: linear-gradient(to bottom, black, transparent 85%);
+  }
+
+  .arte-anillos {
+    position: absolute;
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1;
+  }
+  .arte-centro .arte-anillos {
+    height: 78%;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+  }
+  .arte-derecha .arte-anillos {
+    height: min(78%, 34rem);
+    right: max(4%, calc((100% - 80rem) / 2));
+    top: 54%;
+    translate: 0 -50%;
+  }
+  .arte-anillos > span {
+    position: absolute;
+    border-radius: 9999px;
+    border: 1px solid rgb(255 255 255 / 0.16);
+  }
+  .arte-anillos > span:nth-child(1) {
+    inset: 0;
+    background: radial-gradient(closest-side, rgb(255 255 255 / 0.07), transparent);
+  }
+  .arte-anillos > span:nth-child(2) {
+    inset: 16%;
+    border-color: rgb(102 210 207 / 0.35);
+  }
+  .arte-anillos > span:nth-child(3) {
+    inset: 32%;
+    background: rgb(255 255 255 / 0.06);
+    backdrop-filter: blur(2px);
+    border-color: rgb(255 255 255 / 0.25);
+  }
+  .arte-anillos :global(.arte-icono) {
+    position: relative;
+    width: 30%;
+    height: 30%;
+    color: var(--color-brand-200);
+  }
+  .arte-isotipo {
+    position: relative;
+    width: 44%;
+    height: auto;
+    filter: drop-shadow(0 0 18px rgb(255 255 255 / 0.2));
+  }
+
+  /* En pantallas estrechas el ornamento del héroe se desvanece tras el texto */
+  @media (max-width: 767px) {
+    .arte-derecha .arte-anillos {
+      opacity: 0.35;
+      right: -20%;
+    }
+  }
+</style>

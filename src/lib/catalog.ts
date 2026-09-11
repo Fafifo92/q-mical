@@ -6,22 +6,22 @@
  * src/data/i18n/products/<lang>/<linea>.json con SOLO los campos de texto;
  * si a un producto le falta traducción, cae al español en vez de romper.
  *
- * Uso: const c = getCatalogo(lang); c.productos, c.porLinea("aseo"), …
+ * Uso: const c = getCatalogo(lang); c.productos, c.porLinea("emoliente"), …
  */
 
 import type { Locale } from "../i18n/config";
 import { DEFAULT_LOCALE } from "../i18n/config";
-import { ESPECIALIDADES, LINEAS, SECTORES } from "../data/taxonomy";
+import { INDUSTRIAS, LINEAS } from "../data/taxonomy";
 
 export interface Producto {
   id: string;
   nombre: string;
   inci: string | null;
   sinonimos: string[];
-  linea: string;
-  lineas_secundarias: string[];
-  especialidades: string[];
-  sectores: string[];
+  /** Líneas de producto (función). La primera es la principal. */
+  lineas: string[];
+  /** Industrias donde se usa. La primera es la principal. */
+  industrias: string[];
   descripcion: string;
   funciones: string[];
   aplicaciones: string[];
@@ -61,7 +61,8 @@ function normalizarProducto(p: Producto): Producto {
   return {
     ...p,
     sinonimos: p.sinonimos ?? [],
-    lineas_secundarias: p.lineas_secundarias ?? [],
+    lineas: p.lineas ?? [],
+    industrias: p.industrias ?? [],
     origen: ORIGEN_LABEL[p.origen] ?? p.origen,
     destacado: p.destacado ?? false,
   };
@@ -80,7 +81,7 @@ export interface Catalogo {
   productos: Producto[];
   porId: (id: string) => Producto | undefined;
   porLinea: (slug: string) => Producto[];
-  porSector: (slug: string) => Producto[];
+  porIndustria: (slug: string) => Producto[];
   destacados: (max?: number) => Producto[];
   relacionados: (p: Producto, max?: number) => Producto[];
 }
@@ -94,7 +95,7 @@ export function getCatalogo(lang: Locale = DEFAULT_LOCALE): Catalogo {
   let productos = MAESTRO;
 
   if (lang !== DEFAULT_LOCALE) {
-    // Overlay id → traducción, juntando los 8 archivos del idioma
+    // Overlay id → traducción, juntando todos los archivos del idioma
     const trad = new Map<string, ProductoOverlay>();
     for (const [ruta, lista] of Object.entries(overlays)) {
       if (!ruta.includes(`/products/${lang}/`)) continue;
@@ -123,15 +124,16 @@ export function getCatalogo(lang: Locale = DEFAULT_LOCALE): Catalogo {
     lang,
     productos,
     porId: (id) => porIdMapa.get(id),
-    porLinea: (slug) => productos.filter((p) => lineasDe(p).includes(slug)),
-    porSector: (slug) => productos.filter((p) => p.sectores.includes(slug)),
+    porLinea: (slug) => productos.filter((p) => p.lineas.includes(slug)),
+    porIndustria: (slug) => productos.filter((p) => p.industrias.includes(slug)),
     destacados: (max = 8) => productos.filter((p) => p.destacado).slice(0, max),
     relacionados: (p, max = 4) => {
       const score = (o: Producto): number => {
         let s = 0;
-        if (o.linea === p.linea) s += 2;
-        if (o.especialidades.some((e) => p.especialidades.includes(e))) s += 3;
-        if (o.sectores.some((e) => p.sectores.includes(e))) s += 1;
+        if (o.lineas[0] === p.lineas[0]) s += 3;
+        if (o.lineas.some((l) => p.lineas.includes(l))) s += 1;
+        if (o.industrias[0] === p.industrias[0]) s += 2;
+        if (o.industrias.some((i) => p.industrias.includes(i))) s += 1;
         return s;
       };
       return productos
@@ -149,45 +151,8 @@ export function getCatalogo(lang: Locale = DEFAULT_LOCALE): Catalogo {
 
 // ── Utilidades independientes del idioma ──────────────────────────
 
-export function lineasDe(p: Producto): string[] {
-  return [p.linea, ...p.lineas_secundarias];
-}
-
 export const STATS = {
   productos: MAESTRO.length,
   lineas: LINEAS.length,
-  especialidades: Object.keys(ESPECIALIDADES).length,
-  sectores: Object.keys(SECTORES).length,
+  industrias: INDUSTRIAS.length,
 };
-
-// ── Compatibilidad (código existente en español) ──────────────────
-
-export const PRODUCTOS: Producto[] = MAESTRO;
-
-export function getProducto(id: string): Producto | undefined {
-  return MAESTRO.find((p) => p.id === id);
-}
-
-export function porLinea(slug: string): Producto[] {
-  return getCatalogo(DEFAULT_LOCALE).porLinea(slug);
-}
-
-export function porSector(slug: string): Producto[] {
-  return getCatalogo(DEFAULT_LOCALE).porSector(slug);
-}
-
-export function destacados(max = 8): Producto[] {
-  return getCatalogo(DEFAULT_LOCALE).destacados(max);
-}
-
-export function relacionados(p: Producto, max = 4): Producto[] {
-  return getCatalogo(DEFAULT_LOCALE).relacionados(p, max);
-}
-
-export function labelEspecialidad(slug: string): string {
-  return ESPECIALIDADES[slug] ?? slug;
-}
-
-export function labelSector(slug: string): string {
-  return SECTORES[slug] ?? slug;
-}

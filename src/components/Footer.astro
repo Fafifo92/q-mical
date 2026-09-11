@@ -1,5 +1,6 @@
 ---
 import Icon from "./Icon.astro";
+import Logo from "./Logo.astro";
 import { SITE, waLink } from "../data/site";
 import { DEFAULT_LOCALE, rutaLocal, tpl, type Locale } from "../i18n/config";
 import { t, taxonomia } from "../i18n";
@@ -20,21 +21,16 @@ const redes = [
 ].filter((r) => r.url);
 ---
 
-<footer class="relative overflow-hidden bg-ink-950 text-ink-200">
-  <div class="pointer-events-none absolute -top-40 right-0 h-96 w-96 rounded-full bg-brand-700/20 blur-3xl"></div>
+<footer class="relative overflow-hidden bg-navy-800 text-ink-200">
+  <div class="pointer-events-none absolute -top-40 right-0 h-96 w-96 rounded-full bg-brand-500/20 blur-3xl"></div>
 
-  <div class="container-site relative grid gap-12 py-16 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1.1fr_1fr_1.2fr]">
+  <div class="container-site relative grid gap-12 py-16 md:grid-cols-2 lg:grid-cols-[1.3fr_.8fr_1.1fr_.9fr_1.45fr] lg:gap-10">
     <!-- Marca -->
     <div>
-      <a href={rutaLocal(lang, "/")} class="flex items-center gap-2.5">
-        <span class="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-brand-600 to-brand-800 text-accent-300">
-          <Icon name="flask" class="h-5 w-5" strokeWidth={2} />
-        </span>
-        <span class="font-display text-xl font-bold text-white">
-          Q<span class="text-accent-400">'</span>mical
-        </span>
+      <a href={rutaLocal(lang, "/")} class="inline-flex" aria-label={dict.nav.inicioAria}>
+        <Logo tone="dark" />
       </a>
-      <p class="mt-4 max-w-sm text-sm leading-relaxed text-ink-300">
+      <p class="mt-4 max-w-sm text-sm leading-relaxed text-navy-100">
         {dict.meta.descripcion}
       </p>
       {
@@ -46,7 +42,7 @@ const redes = [
                 target="_blank"
                 rel="noopener"
                 aria-label={r.nombre}
-                class="grid h-9 w-9 place-items-center rounded-full border border-white/10 text-ink-300 transition-colors hover:border-accent-400 hover:text-accent-300"
+                class="grid h-9 w-9 place-items-center rounded-full border border-white/15 text-navy-100 transition-colors hover:border-accent-400 hover:text-accent-300"
               >
                 <Icon name={r.nombre} class="h-4 w-4" />
               </a>
@@ -56,15 +52,15 @@ const redes = [
       }
     </div>
 
-    <!-- Líneas -->
-    <nav aria-label={dict.footer.lineas}>
-      <h3 class="font-display text-sm font-semibold tracking-wider text-white uppercase">{dict.footer.lineas}</h3>
+    <!-- Industrias -->
+    <nav aria-label={dict.footer.industrias}>
+      <h3 class="font-display text-sm font-semibold tracking-wider text-white uppercase">{dict.footer.industrias}</h3>
       <ul class="mt-4 space-y-2.5 text-sm">
         {
-          tax.lineas.map((l) => (
+          tax.industrias.map((i) => (
             <li>
-              <a href={rutaLocal(lang, `/productos?linea=${l.slug}`)} class="text-ink-300 transition-colors hover:text-accent-300">
-                {l.corto}
+              <a href={rutaLocal(lang, `/productos?industria=${i.slug}`)} class="text-navy-100 transition-colors hover:text-accent-300">
+                {i.corto}
               </a>
             </li>
           ))
@@ -72,22 +68,22 @@ const redes = [
       </ul>
     </nav>
 
-    <!-- Sectores -->
-    <nav aria-label={dict.footer.sectores}>
-      <h3 class="font-display text-sm font-semibold tracking-wider text-white uppercase">{dict.footer.sectores}</h3>
+    <!-- Líneas de producto -->
+    <nav aria-label={dict.footer.lineas}>
+      <h3 class="font-display text-sm font-semibold tracking-wider text-white uppercase">{dict.footer.lineas}</h3>
       <ul class="mt-4 space-y-2.5 text-sm">
         {
-          Object.entries(tax.sectores).slice(0, 7).map(([slug, label]) => (
+          tax.lineas.slice(0, 7).map((l) => (
             <li>
-              <a href={rutaLocal(lang, `/sectores/${slug}`)} class="text-ink-300 transition-colors hover:text-accent-300">
-                {label}
+              <a href={rutaLocal(lang, `/productos?linea=${l.slug}`)} class="text-navy-100 transition-colors hover:text-accent-300">
+                {l.nombre}
               </a>
             </li>
           ))
         }
         <li>
-          <a href={rutaLocal(lang, "/sectores")} class="font-medium text-accent-400 transition-colors hover:text-accent-300">
-            {dict.footer.todosSegmentos}
+          <a href={rutaLocal(lang, "/productos")} class="font-medium text-accent-400 transition-colors hover:text-accent-300">
+            {dict.footer.todoPortafolio}
           </a>
         </li>
       </ul>
@@ -97,11 +93,11 @@ const redes = [
     <nav aria-label={dict.footer.empresa}>
       <h3 class="font-display text-sm font-semibold tracking-wider text-white uppercase">{dict.footer.empresa}</h3>
       <ul class="mt-4 space-y-2.5 text-sm">
-        <li><a href={rutaLocal(lang, "/nosotros")} class="text-ink-300 hover:text-accent-300">{dict.footer.linkNosotros}</a></li>
-        <li><a href={rutaLocal(lang, "/servicio-tecnico")} class="text-ink-300 hover:text-accent-300">{dict.footer.linkServicio}</a></li>
-        <li><a href={rutaLocal(lang, "/cotizacion")} class="text-ink-300 hover:text-accent-300">{dict.footer.linkCotizacion}</a></li>
-        <li><a href={rutaLocal(lang, "/pagos")} class="text-ink-300 hover:text-accent-300">{dict.footer.linkPagos}</a></li>
-        <li><a href={rutaLocal(lang, "/productos")} class="text-ink-300 hover:text-accent-300">{dict.footer.linkCatalogo}</a></li>
+        <li><a href={rutaLocal(lang, "/productos")} class="text-navy-100 hover:text-accent-300">{dict.footer.linkPortafolio}</a></li>
+        <li><a href={rutaLocal(lang, "/nosotros")} class="text-navy-100 hover:text-accent-300">{dict.footer.linkNosotros}</a></li>
+        <li><a href={rutaLocal(lang, "/contacto")} class="text-navy-100 hover:text-accent-300">{dict.footer.linkContacto}</a></li>
+        <li><a href={rutaLocal(lang, "/cotizacion")} class="text-navy-100 hover:text-accent-300">{dict.footer.linkCotizacion}</a></li>
+        <li><a href={rutaLocal(lang, "/pagos")} class="text-navy-100 hover:text-accent-300">{dict.footer.linkPagos}</a></li>
       </ul>
     </nav>
 
@@ -111,7 +107,7 @@ const redes = [
       <ul class="mt-4 space-y-3 text-sm">
         <li class="flex items-start gap-2.5">
           <Icon name="map-pin" class="mt-0.5 h-4 w-4 shrink-0 text-accent-400" />
-          <span>{SITE.direccion}<br />{SITE.ciudad}</span>
+          <a href={rutaLocal(lang, "/contacto")} class="hover:text-accent-300">{SITE.direccion}<br />{SITE.ciudad}</a>
         </li>
         <li class="flex items-center gap-2.5">
           <Icon name="phone" class="h-4 w-4 shrink-0 text-accent-400" />
@@ -119,7 +115,7 @@ const redes = [
         </li>
         <li class="flex items-center gap-2.5">
           <Icon name="mail" class="h-4 w-4 shrink-0 text-accent-400" />
-          <a href={`mailto:${SITE.email}`} class="hover:text-accent-300">{SITE.email}</a>
+          <a href={`mailto:${SITE.email}`} class="min-w-0 [overflow-wrap:anywhere] hover:text-accent-300">{SITE.email}</a>
         </li>
       </ul>
       <a
@@ -135,8 +131,9 @@ const redes = [
   </div>
 
   <div class="relative border-t border-white/10">
-    <div class="container-site flex flex-col items-center justify-between gap-3 py-6 text-xs text-ink-400 sm:flex-row">
-      <p>{tpl(dict.footer.derechos, { year })}</p>
+    <div class="container-site flex flex-col items-center justify-between gap-3 py-6 text-xs text-navy-200 sm:flex-row">
+      {/* Sin el punto final de "S.A.S.": la plantilla ya pone su propio punto */}
+      <p>{tpl(dict.footer.derechos, { year, empresa: SITE.razonSocial.replace(/\.$/, "") })}</p>
       <p class="max-w-md text-center sm:text-right">
         {dict.footer.disclaimer}
       </p>

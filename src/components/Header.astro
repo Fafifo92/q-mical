@@ -1,5 +1,6 @@
 ---
 import Icon from "./Icon.astro";
+import Logo from "./Logo.astro";
 import { waLink } from "../data/site";
 import { LOCALES, LOCALE_INFO, DEFAULT_LOCALE, rutaLocal, separarIdioma, type Locale } from "../i18n/config";
 import { t } from "../i18n";
@@ -15,12 +16,12 @@ interface Props {
 const { theme = "light", lang = DEFAULT_LOCALE } = Astro.props;
 const dict = t(lang);
 
+// Las 5 pestañas del sitio, en el orden definido por Origen Chemical
 const nav = [
   { href: "/", label: dict.nav.inicio },
-  { href: "/productos", label: dict.nav.catalogo },
-  { href: "/sectores", label: dict.nav.sectores },
-  { href: "/servicio-tecnico", label: dict.nav.servicio },
+  { href: "/productos", label: dict.nav.portafolio },
   { href: "/nosotros", label: dict.nav.nosotros },
+  { href: "/contacto", label: dict.nav.contacto },
   { href: "/pagos", label: dict.nav.pagos },
 ];
 
@@ -37,25 +38,18 @@ const path = rutaActual.replace(/\/$/, "") || "/";
 >
   <div class="container-site flex h-16 items-center justify-between gap-2 md:h-20">
     <!-- Logo -->
-    <a href={rutaLocal(lang, "/")} class="group flex shrink-0 items-center gap-2.5" aria-label={dict.nav.inicioAria}>
-      <span
-        class="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-brand-600 to-brand-800 text-accent-300 shadow-md transition-transform duration-300 group-hover:rotate-6"
-      >
-        <Icon name="flask" class="h-5 w-5" strokeWidth={2} />
-      </span>
-      <span class="font-display text-xl font-bold tracking-tight text-current">
-        Q<span class="text-brand-600 [.theme-dark_&]:text-accent-300">'</span>mical
-      </span>
+    <a href={rutaLocal(lang, "/")} class="flex shrink-0 items-center" aria-label={dict.nav.inicioAria}>
+      <Logo tone={theme === "dark" ? "auto" : "light"} />
     </a>
 
     <!-- Nav escritorio -->
-    <nav class="hidden items-center gap-0.5 xl:flex" aria-label="Principal">
+    <nav class="hidden items-center gap-1 lg:flex" aria-label="Principal">
       {
         nav.map((item) => (
           <a
             href={rutaLocal(lang, item.href)}
             class:list={[
-              "rounded-full px-3 py-2 text-sm font-medium whitespace-nowrap transition-colors duration-200 hover:bg-black/5 [.theme-dark_&]:hover:bg-white/10",
+              "rounded-full px-3.5 py-2 font-display text-sm font-semibold whitespace-nowrap transition-colors duration-200 hover:bg-navy-700/5 [.theme-dark_&]:hover:bg-white/10",
               path === item.href ? "text-brand-600 [.theme-dark_&]:text-accent-300" : "opacity-85 hover:opacity-100",
             ]}
             aria-current={path === item.href ? "page" : undefined}
@@ -106,12 +100,12 @@ const path = rutaActual.replace(/\/$/, "") || "/";
         href={waLink(dict.meta.waBase)}
         target="_blank"
         rel="noopener"
-        class="btn-whatsapp hidden min-h-10 px-4 text-sm lg:inline-flex"
+        class="btn-whatsapp hidden min-h-10 px-4 text-sm xl:inline-flex"
       >
         <Icon name="whatsapp" class="h-4 w-4" />
         {dict.nav.whatsapp}
       </a>
-      <a href={rutaLocal(lang, "/cotizacion")} class="btn-primary hidden min-h-10 px-5 text-sm md:inline-flex">
+      <a href={rutaLocal(lang, "/cotizacion")} class="btn-primary hidden min-h-10 px-5 text-sm md:inline-flex [.theme-dark_&]:bg-accent-400 [.theme-dark_&]:text-navy-700 [.theme-dark_&]:hover:bg-accent-300">
         {dict.nav.cotizar}
         <Icon name="arrow-right" class="h-4 w-4" />
       </a>
@@ -120,7 +114,7 @@ const path = rutaActual.replace(/\/$/, "") || "/";
       <button
         id="menu-btn"
         type="button"
-        class="grid h-10 w-10 shrink-0 place-items-center rounded-full border border-current/20 xl:hidden"
+        class="grid h-10 w-10 shrink-0 place-items-center rounded-full border border-current/20 lg:hidden"
         aria-label={dict.nav.abrirMenu}
         aria-expanded="false"
         aria-controls="mobile-menu"
@@ -133,7 +127,7 @@ const path = rutaActual.replace(/\/$/, "") || "/";
   <!-- Panel móvil -->
   <div
     id="mobile-menu"
-    class="pointer-events-none absolute inset-x-3 top-[4.5rem] origin-top scale-95 rounded-2xl border border-ink-100 bg-white/95 p-3 opacity-0 shadow-xl backdrop-blur transition-all duration-300 xl:hidden"
+    class="pointer-events-none absolute inset-x-3 top-[4.5rem] origin-top scale-95 rounded-2xl border border-ink-100 bg-white/95 p-3 opacity-0 shadow-xl backdrop-blur transition-all duration-300 lg:hidden"
   >
     <nav class="flex flex-col" aria-label="Móvil">
       {
@@ -141,7 +135,7 @@ const path = rutaActual.replace(/\/$/, "") || "/";
           <a
             href={rutaLocal(lang, item.href)}
             class:list={[
-              "rounded-xl px-4 py-3 text-base font-medium text-ink-800 hover:bg-brand-50",
+              "rounded-xl px-4 py-3 font-display text-base font-semibold text-ink-800 hover:bg-brand-50",
               path === item.href && "bg-brand-50 text-brand-700",
             ]}
           >

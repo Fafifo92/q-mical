@@ -322,5 +322,230 @@
     "funciones": ["Chélatant", "Stabilisant de formule", "Potentialisateur de conservateurs"],
     "aplicaciones": ["Crèmes et lotions", "Shampooings et savons liquides", "Produits d'entretien ménager", "Formulations industrielles à base d'eau"],
     "formas_referenciales": ["Solide — poudre cristalline blanche, granulométrie variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "dioxido-de-titanio",
+    "nombre": "Dioxyde de titane",
+    "sinonimos": ["Bioxyde de titane", "Blanc de titane", "CI 77891"],
+    "descripcion": "Pigment blanc de référence dans l'industrie de la couleur, apprécié pour son pouvoir couvrant et sa capacité opacifiante. Il constitue la base des teintes de peau dans les fonds de teint et les poudres compactes, et s'utilise pour éclaircir les mélanges de pigments. Il existe sur le marché des variantes traitées et non traitées ; la qualité spécifique est confirmée dans la fiche technique du lot disponible.",
+    "funciones": ["Pigment blanc", "Opacifiant", "Filtre UV inorganique"],
+    "aplicaciones": ["Fonds de teint", "Poudres compactes", "Rouges à lèvres", "Vernis à ongles", "Fards à paupières"],
+    "formas_referenciales": ["Solide — poudre ; granulométrie et traitement de surface variables selon le fabricant et le lot"]
+  },
+  {
+    "id": "oxido-de-hierro-rojo",
+    "nombre": "Oxyde de fer rouge",
+    "sinonimos": ["Oxyde ferrique rouge", "Pigment rouge de fer", "CI 77491"],
+    "descripcion": "Pigment inorganique rouge d'une grande stabilité à la lumière et à la chaleur, pilier de la coloration des teintes de peau en maquillage. Combiné aux oxydes de fer jaune et noir, il permet de construire la gamme complète des fonds de teint, correcteurs et fards à joues. La teinte exacte varie selon les fabricants et les lots ; il est donc recommandé de la valider par rapport à un standard de couleur.",
+    "funciones": ["Pigment inorganique", "Colorant cosmétique"],
+    "aplicaciones": ["Fonds de teint", "Fards à joues", "Rouges à lèvres", "Fards à paupières", "Poudres compactes"],
+    "formas_referenciales": ["Solide — poudre ; teinte et granulométrie variables selon le fabricant et le lot"]
+  },
+  {
+    "id": "oxido-de-hierro-amarillo",
+    "nombre": "Oxyde de fer jaune",
+    "sinonimos": ["Oxyde ferrique jaune", "Pigment jaune de fer", "CI 77492"],
+    "descripcion": "Pigment inorganique jaune utilisé dans la construction des teintes de peau et des correcteurs à sous-ton chaud. Sa stabilité chimique le rend apte aux procédés à chaud et aux systèmes anhydres ou émulsionnés. Il est habituellement combiné aux oxydes rouge et noir pour ajuster la palette des fonds de teint et des poudres.",
+    "funciones": ["Pigment inorganique", "Colorant cosmétique"],
+    "aplicaciones": ["Fonds de teint", "Correcteurs", "Poudres compactes", "Fards à paupières"],
+    "formas_referenciales": ["Solide — poudre ; teinte et granulométrie variables selon le fabricant et le lot"]
+  },
+  {
+    "id": "oxido-de-hierro-negro",
+    "nombre": "Oxyde de fer noir",
+    "sinonimos": ["Oxyde ferroso-ferrique", "Pigment noir de fer", "CI 77499"],
+    "descripcion": "Pigment inorganique noir de haute intensité, incontournable dans les produits pour les yeux comme les mascaras et les eyeliners. Il s'emploie également en faibles proportions pour foncer et approfondir les teintes de peau dans les fonds de teint et les poudres. Sa stabilité à la lumière le rend fiable dans les formules à longue durée de vie.",
+    "funciones": ["Pigment inorganique", "Colorant cosmétique"],
+    "aplicaciones": ["Mascaras", "Eyeliners", "Fards à paupières", "Fonds de teint"],
+    "formas_referenciales": ["Solide — poudre ; nuance et granulométrie variables selon le fabricant et le lot"]
+  },
+  {
+    "id": "azul-ultramar",
+    "nombre": "Bleu outremer",
+    "sinonimos": ["Outremer bleu", "Bleu d'outremer", "CI 77007"],
+    "descripcion": "Pigment bleu inorganique de longue tradition en cosmétique de couleur et en savonnerie. Il apporte des tons bleus à violacés dans les fards à paupières et les eyeliners, et s'utilise pour neutraliser les sous-tons jaunâtres dans les poudres. Il est sensible aux milieux acides ; il est donc recommandé d'évaluer sa compatibilité dans chaque système de formule.",
+    "funciones": ["Pigment inorganique", "Colorant cosmétique", "Correcteur de sous-ton"],
+    "aplicaciones": ["Fards à paupières", "Eyeliners", "Savons décoratifs", "Poudres libres"],
+    "formas_referenciales": ["Solide — poudre ; intensité de teinte variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "oxido-de-cromo-verde",
+    "nombre": "Oxyde de chrome vert",
+    "sinonimos": ["Vert d'oxyde de chrome", "Sesquioxyde de chrome", "CI 77288"],
+    "descripcion": "Pigment inorganique vert opaque, apprécié pour sa grande stabilité à la lumière, à la chaleur et aux solvants. Il s'emploie dans les fards à paupières, les eyeliners et les produits de couleur exigeant des verts profonds et durables. Il s'utilise également comme correcteur de sous-tons rougeâtres dans les mélanges de pigments, sous réserve de la réglementation d'usage par zone d'application.",
+    "funciones": ["Pigment inorganique", "Colorant cosmétique"],
+    "aplicaciones": ["Fards à paupières", "Eyeliners", "Savons décoratifs", "Poudres compactes"],
+    "formas_referenciales": ["Solide — poudre ; nuance variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "mica-natural",
+    "nombre": "Mica naturel",
+    "sinonimos": ["Muscovite", "CI 77019"],
+    "descripcion": "Minéral lamellaire à structure en plaquettes qui apporte un éclat doux, du glissant et de la transparence aux produits de couleur. Il fonctionne comme charge de texture dans les poudres et les fards à paupières, et constitue le substrat traditionnel des pigments nacrés. La granulométrie définit l'effet visuel, des finis satinés aux effets scintillants, selon le grade du fabricant.",
+    "funciones": ["Charge lamellaire", "Substrat de pigments nacrés", "Agent de glisse"],
+    "aplicaciones": ["Fards à paupières", "Poudres compactes", "Enlumineurs", "Fonds de teint"],
+    "formas_referenciales": ["Solide — poudre lamellaire ; granulométrie et éclat variables selon le fabricant et le lot"]
+  },
+  {
+    "id": "mica-sintetica",
+    "nombre": "Mica synthétique",
+    "sinonimos": ["Fluorphlogopite synthétique"],
+    "descripcion": "Alternative de synthèse au mica naturel, associée à un éclat plus pur et à une traçabilité d'origine totalement maîtrisée. Il s'utilise comme substrat de pigments nacrés et comme charge à effet dans les produits de couleur à positionnement premium. Sa transparence le rend attractif pour les enlumineurs et les fards à paupières à fini intense.",
+    "funciones": ["Charge lamellaire synthétique", "Substrat de pigments nacrés", "Agent d'éclat"],
+    "aplicaciones": ["Enlumineurs", "Fards à paupières", "Rouges à lèvres à effet", "Poudres libres"],
+    "formas_referenciales": ["Solide — poudre lamellaire ; granulométrie variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "nacarante-mica-dioxido-de-titanio",
+    "nombre": "Pigment nacré mica-dioxyde de titane",
+    "sinonimos": ["Pigment perlescent", "Mica titané", "Pigment interférentiel"],
+    "descripcion": "Pigment à effet composé de plaquettes de mica revêtues de dioxyde de titane, générant des reflets nacrés et des effets d'interférence. C'est la famille de pigments nacrés la plus utilisée dans les fards à paupières, les enlumineurs et les rouges à lèvres à fini lumineux. L'effet visuel dépend de l'épaisseur du revêtement et de la granulométrie du grade, confirmées dans la fiche technique du lot.",
+    "funciones": ["Nacrant", "Pigment à effet", "Agent d'éclat"],
+    "aplicaciones": ["Fards à paupières", "Enlumineurs", "Rouges à lèvres", "Vernis à ongles", "Gels brillants"],
+    "formas_referenciales": ["Solide — poudre lamellaire nacrée ; effet et granulométrie variables selon le grade, le fabricant et le lot"]
+  },
+  {
+    "id": "oxicloruro-de-bismuto",
+    "nombre": "Oxychlorure de bismuth",
+    "sinonimos": ["Blanc de perle synthétique", "CI 77163"],
+    "descripcion": "Nacrant classique qui apporte un éclat nacré soyeux et une adhérence remarquable sur la peau. Il s'emploie dans les poudres compactes, les fards à paupières et les vernis pour obtenir des finis satinés d'aspect crémeux. Il est recommandé de le protéger de la lumière pendant le stockage afin de préserver son apparence.",
+    "funciones": ["Nacrant", "Agent d'adhérence", "Agent de texture"],
+    "aplicaciones": ["Poudres compactes", "Fards à paupières", "Vernis à ongles", "Fards à joues"],
+    "formas_referenciales": ["Solide — poudre nacrée ; éclat et granulométrie variables selon le fabricant et le lot"]
+  },
+  {
+    "id": "talco-cosmetico",
+    "nombre": "Talc cosmétique",
+    "sinonimos": ["Silicate de magnésium hydraté", "Stéatite"],
+    "descripcion": "Charge minérale classique de la cosmétique de couleur, appréciée pour son glissant, sa douceur et sa capacité à diluer les pigments. Elle constitue la base historique des poudres libres et compactes, des fards à joues et des fards à paupières. Elle est commercialisée en qualité cosmétique avec la documentation de support du fabricant pour chaque lot.",
+    "funciones": ["Charge minérale", "Agent de glisse", "Diluant de pigments"],
+    "aplicaciones": ["Poudres compactes", "Poudres libres", "Fards à joues", "Fards à paupières"],
+    "formas_referenciales": ["Solide — poudre ; granulométrie et blancheur variables selon l'origine, le fabricant et le lot"]
+  },
+  {
+    "id": "sericita",
+    "nombre": "Séricite",
+    "sinonimos": ["Mica séricite"],
+    "descripcion": "Mica à grain fin et au toucher soyeux, considérée comme une charge noble pour le maquillage en poudre. Elle apporte adhérence, glissant et un fini doux à l'éclat discret dans les fonds de teint, les poudres et les fards à paupières. Il existe des qualités traitées en surface pour améliorer l'affinité avec les systèmes anhydres, selon le portefeuille de chaque fabricant.",
+    "funciones": ["Charge lamellaire", "Agent d'adhérence", "Agent de texture"],
+    "aplicaciones": ["Fonds de teint en poudre", "Poudres compactes", "Fards à paupières", "Fards à joues"],
+    "formas_referenciales": ["Solide — poudre lamellaire fine ; granulométrie et traitement variables selon le fabricant et le lot"]
+  },
+  {
+    "id": "nitruro-de-boro",
+    "nombre": "Nitrure de bore",
+    "sinonimos": ["Nitrure de bore hexagonal"],
+    "descripcion": "Matériau céramique lamellaire au toucher exceptionnellement doux, utilisé comme agent de texture haut de gamme dans le maquillage en poudre. Il apporte un glissant crémeux, de l'adhérence et un effet diffuseur de lumière associé aux finis de type soft focus. Il s'emploie dans les formules premium de poudres, fonds de teint et fards à paupières pour rehausser la sensation de luxe.",
+    "funciones": ["Agent de texture", "Agent de glisse", "Diffuseur de lumière"],
+    "aplicaciones": ["Poudres compactes", "Fonds de teint en poudre", "Fards à paupières", "Enlumineurs"],
+    "formas_referenciales": ["Solide — poudre lamellaire ; granulométrie variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "silice-cosmetica",
+    "nombre": "Silice cosmétique",
+    "sinonimos": ["Dioxyde de silicium", "Silice amorphe"],
+    "descripcion": "Charge fonctionnelle utilisée dans les formulations de maquillage pour matifier, absorber le sébum et améliorer la fluidité des poudres. Elle contribue à un fini flouté qui adoucit visuellement l'apparence des ridules et des pores. Il existe des qualités sphériques et amorphes aux profils d'absorption variés selon le fabricant.",
+    "funciones": ["Absorbant", "Matifiant", "Agent de fluidité"],
+    "aplicaciones": ["Poudres libres", "Fonds de teint", "Primers", "Poudres compactes"],
+    "formas_referenciales": ["Solide — poudre ; morphologie et capacité d'absorption variables selon le grade, le fabricant et le lot"]
+  },
+  {
+    "id": "almidon-de-arroz",
+    "nombre": "Amidon de riz",
+    "sinonimos": ["Fécule de riz"],
+    "descripcion": "Charge d'origine végétale au toucher doux et velouté, utilisée comme alternative naturelle au talc dans le maquillage en poudre. Elle apporte une absorption de l'humidité et du sébum, ainsi qu'un fini mat d'aspect naturel. C'est une option fréquente dans les formules à positionnement naturel ou végane.",
+    "funciones": ["Charge végétale", "Absorbant", "Agent de texture"],
+    "aplicaciones": ["Poudres libres", "Poudres compactes", "Fonds de teint en poudre", "Shampoings secs"],
+    "formas_referenciales": ["Solide — poudre ; granulométrie variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "estearato-de-magnesio",
+    "nombre": "Stéarate de magnésium",
+    "sinonimos": ["Sel de magnésium de l'acide stéarique", "Octadécanoate de magnésium"],
+    "descripcion": "Liant classique des poudres compactées, qui améliore la compressibilité, l'adhérence et la résistance du pain compacté. Il apporte en outre du glissant et une certaine hydrophobie dans les poudres et les fards à paupières. Dans d'autres industries, il s'utilise comme lubrifiant de procédé conformément à la réglementation applicable.",
+    "funciones": ["Liant", "Agent d'adhérence", "Lubrifiant de compression"],
+    "aplicaciones": ["Poudres compactes", "Fards à paupières", "Fards à joues", "Fonds de teint en poudre"],
+    "formas_referenciales": ["Solide — poudre ; densité apparente variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "lauroil-lisina",
+    "nombre": "Lauroyl lysine",
+    "sinonimos": ["N-lauroyl-L-lysine"],
+    "descripcion": "Dérivé d'acide aminé utilisé comme agent de texture au toucher soyeux dans le maquillage en poudre et dans les traitements de surface des pigments. Il améliore l'adhérence sur la peau, la dispersion des pigments et la sensation crémeuse à l'application. Il est courant dans les formules minérales et à positionnement doux pour la peau.",
+    "funciones": ["Agent de texture", "Agent d'adhérence", "Traitement de pigments"],
+    "aplicaciones": ["Poudres compactes", "Fards à paupières", "Fonds de teint en poudre", "Traitement de surface des pigments"],
+    "formas_referenciales": ["Solide — poudre lamellaire fine ; granulométrie variable selon le fabricant et le lot"]
+  },
+  {
+    "id": "cera-de-candelilla",
+    "nombre": "Cire de candelilla",
+    "sinonimos": ["Cire candelilla"],
+    "descripcion": "Cire végétale structurante très utilisée dans les rouges à lèvres, apportant dureté, brillance et un bon démoulage. C'est une alternative d'origine végétale à la cire d'abeille dans les formules véganes. En alimentaire, elle s'emploie comme agent d'enrobage conformément à la réglementation applicable.",
+    "funciones": ["Structurant de sticks", "Agent de brillance", "Épaississant de phases grasses"],
+    "aplicaciones": ["Rouges à lèvres", "Baumes à lèvres", "Crayons eyeliners", "Mascaras"],
+    "formas_referenciales": ["Solide — écailles, pastilles ou morceaux selon le fabricant et le lot"]
+  },
+  {
+    "id": "cera-de-carnauba",
+    "nombre": "Cire de carnauba",
+    "sinonimos": ["Cire de palmier du Brésil"],
+    "descripcion": "L'une des cires végétales les plus dures et au point de fusion le plus élevé d'usage courant en cosmétique. Elle apporte rigidité, brillance et résistance à la chaleur dans les rouges à lèvres, les crayons eyeliners et les mascaras. En alimentaire, elle s'utilise comme agent de brillance conformément à la réglementation applicable.",
+    "funciones": ["Structurant de sticks", "Agent de brillance", "Rehausseur de point de fusion"],
+    "aplicaciones": ["Rouges à lèvres", "Mascaras", "Crayons eyeliners", "Cires dépilatoires"],
+    "formas_referenciales": ["Solide — écailles ou morceaux selon le fabricant et le lot"]
+  },
+  {
+    "id": "cera-de-abejas",
+    "nombre": "Cire d'abeille",
+    "sinonimos": ["Cera alba", "Cire d'abeille jaune"],
+    "descripcion": "Cire naturelle classique qui apporte plasticité, corps et une texture crémeuse aux rouges à lèvres et aux produits en stick. Sa compatibilité avec une large gamme d'huiles et d'émollients la rend très polyvalente dans les systèmes anhydres. Elle est commercialisée en qualités jaune et blanchie selon le fournisseur.",
+    "funciones": ["Structurant de sticks", "Plastifiant de textures", "Épaississant de phases grasses"],
+    "aplicaciones": ["Rouges à lèvres", "Baumes à lèvres", "Mascaras", "Crèmes pour sourcils"],
+    "formas_referenciales": ["Solide — pastilles, perles ou blocs selon le fabricant et le lot"]
+  },
+  {
+    "id": "cera-microcristalina",
+    "nombre": "Cire microcristalline",
+    "sinonimos": ["Cire micro"],
+    "descripcion": "Cire à structure cristalline fine qui apporte flexibilité et cohésion aux produits en stick. Elle est associée à la réduction de l'exsudation des huiles dans les rouges à lèvres et à une meilleure résistance à la casse du stick. Elle complète les cires dures en équilibrant la texture finale de la formule.",
+    "funciones": ["Structurant flexible", "Liant d'huiles", "Modificateur de texture"],
+    "aplicaciones": ["Rouges à lèvres", "Crayons eyeliners", "Pommades pour sourcils", "Baumes"],
+    "formas_referenciales": ["Solide — pastilles, écailles ou plaques selon le fabricant et le lot"]
+  },
+  {
+    "id": "trimetilsiloxisilicato",
+    "nombre": "Triméthylsiloxysilicate",
+    "sinonimos": ["Résine de silicone MQ"],
+    "descripcion": "Résine de silicone filmogène utilisée dans les formulations de maquillage longue tenue. Elle est associée à des finis résistants au transfert et au frottement dans les rouges à lèvres, les fonds de teint et les eyeliners. Elle s'incorpore généralement dissoute dans la phase de solvants volatils de la formule.",
+    "funciones": ["Agent filmogène", "Agent longue tenue", "Fixateur de pigments"],
+    "aplicaciones": ["Rouges à lèvres longue tenue", "Fonds de teint", "Eyeliners liquides", "Mascaras waterproof"],
+    "formas_referenciales": ["Solide — résine en poudre ou en écailles selon le fabricant et le lot", "Liquide — solution dans un solvant volatil selon la présentation du fournisseur"]
+  },
+  {
+    "id": "acido-polihidroxiestearico",
+    "nombre": "Acide polyhydroxystéarique",
+    "sinonimos": ["PHSA"],
+    "descripcion": "Dispersant polymérique de pigments pour milieux huileux, essentiel dans les fonds de teint fluides et les rouges à lèvres liquides. Il enrobe les particules de pigments et de filtres inorganiques, améliorant le broyage, la stabilité de la dispersion et l'uniformité de la couleur. Il contribue à éviter la sédimentation et la floculation pendant la durée de vie du produit.",
+    "funciones": ["Dispersant de pigments", "Stabilisant de suspensions", "Agent de broyage"],
+    "aplicaciones": ["Fonds de teint fluides", "Rouges à lèvres liquides", "Dispersions de pigments", "Produits de protection à filtres inorganiques"],
+    "formas_referenciales": ["Liquide visqueux à pâte cireuse selon la température, le fabricant et le lot"]
+  },
+  {
+    "id": "laca-roja-7",
+    "nombre": "Laque Rouge 7",
+    "sinonimos": ["D&C Red No. 7 Calcium Lake", "Laque calcique rouge", "CI 15850:1"],
+    "descripcion": "Colorant organique de type laque d'usage traditionnel dans les rouges à lèvres, qui délivre des tons rosés à rouges intenses avec un bon pouvoir colorant. Fixé sur un substrat insoluble, il permet de colorer les systèmes anhydres sans migration de la couleur. Son usage est régi par les listes positives de colorants de chaque marché.",
+    "funciones": ["Colorant de type laque", "Pigment organique"],
+    "aplicaciones": ["Rouges à lèvres", "Brillants à lèvres", "Fards à joues", "Vernis à ongles"],
+    "formas_referenciales": ["Solide — poudre ; intensité et nuance variables selon le fabricant et le lot"]
+  },
+  {
+    "id": "carmin",
+    "nombre": "Carmin",
+    "sinonimos": ["Carmin de cochenille", "Laque d'acide carminique", "CI 75470"],
+    "descripcion": "Colorant naturel obtenu à partir de la cochenille, doté d'une longue tradition dans la région andine et très apprécié pour ses rouges intenses et stables. En maquillage, il s'utilise dans les rouges à lèvres, les fards à joues et les fards à paupières lorsqu'un rouge d'origine naturelle est recherché. Dans les aliments et les boissons, son usage s'effectue conformément à la réglementation applicable.",
+    "funciones": ["Colorant naturel", "Pigment de type laque"],
+    "aplicaciones": ["Rouges à lèvres", "Fards à joues", "Fards à paupières", "Aliments et boissons conformément à la réglementation"],
+    "formas_referenciales": ["Solide — poudre ; intensité et nuance variables selon le fabricant et le lot"]
   }
 ]

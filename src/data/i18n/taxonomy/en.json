@@ -1,19 +1,76 @@
 {
   "lineas": {
+    "ingrediente-activo": {
+      "nombre": "Active ingredients",
+      "corto": "Active ingredient",
+      "tagline": "Vitamins, amino acids, UV filters, and functional actives that deliver the formula's benefits."
+    },
+    "tensioactivo": {
+      "nombre": "Surfactants",
+      "corto": "Surfactant",
+      "tagline": "Cleansing agents, emulsifiers, foaming agents, and dispersants for cosmetics, cleaning, agriculture, and industry."
+    },
+    "modificador-reologico": {
+      "nombre": "Rheology modifiers",
+      "corto": "Rheology modifier",
+      "tagline": "Thickeners, gums, hydrocolloids, and polymers that provide body, texture, and stability."
+    },
+    "emoliente": {
+      "nombre": "Emollients",
+      "corto": "Emollient",
+      "tagline": "Esters, butters, waxes, and silicone alternatives that soften and improve the sensory feel."
+    },
+    "hidratante": {
+      "nombre": "Moisturizers",
+      "corto": "Moisturizer",
+      "tagline": "Humectants that attract and retain water in the skin, the hair, and the formula."
+    },
+    "agente-preservante": {
+      "nombre": "Preservatives",
+      "corto": "Preservative",
+      "tagline": "Antimicrobial preservatives, antioxidants, and chelating agents that protect the formula throughout its shelf life."
+    },
+    "base-formulacion": {
+      "nombre": "Ready-to-formulate bases",
+      "corto": "Ready-to-formulate base",
+      "tagline": "Bases and premixes that simplify development and speed up production."
+    },
+    "colorante": {
+      "nombre": "Colorants",
+      "corto": "Colorant",
+      "tagline": "Pigments, oxides, micas, and pearlescents for color and visual effects."
+    },
+    "fragancia": {
+      "nombre": "Fragrances",
+      "corto": "Fragrance",
+      "tagline": "Essential oils and aromatic materials for cosmetics, cleaning, and home care."
+    },
+    "saborizante": {
+      "nombre": "Flavorings",
+      "corto": "Flavoring",
+      "tagline": "Flavors, sweeteners, and acidulants for food, beverages, and supplements."
+    },
+    "extractos": {
+      "nombre": "Extracts",
+      "corto": "Extract",
+      "tagline": "Glycolic extracts, hydrosols, and botanical concentrates — sourced in LATAM."
+    },
+    "aceites": {
+      "nombre": "Oils",
+      "corto": "Oil",
+      "tagline": "Vegetable and essential oils for cosmetics, food, and nutraceuticals."
+    }
+  },
+  "industrias": {
     "cosmetica": {
       "nombre": "Cosmetics & Personal Care",
       "corto": "Cosmetics",
-      "tagline": "Actives, emulsifiers, humectants, and preservative systems for skincare and hair care."
+      "tagline": "Actives, emollients, surfactants, colorants, and preservatives for skincare, hair care, and makeup."
     },
-    "maquillaje": {
-      "nombre": "Makeup & Color",
-      "corto": "Makeup",
-      "tagline": "Pigments, micas, texturizing fillers, and waxes for color cosmetics."
-    },
-    "aseo": {
-      "nombre": "Cleaning & Disinfection",
-      "corto": "Cleaning",
-      "tagline": "Surfactants, biocides, alkalis, and enzymes for home and institutional care."
+    "nutraceutica": {
+      "nombre": "Nutraceuticals & Supplements",
+      "corto": "Nutraceuticals",
+      "tagline": "Vitamins, amino acids, proteins, and extracts for dietary supplements."
     },
     "alimentos": {
       "nombre": "Food & Beverage",
@@ -39,55 +96,12 @@
       "nombre": "Industrial & Process",
       "corto": "Industrial",
       "tagline": "Water treatment, paints, solvents, and process auxiliaries."
+    },
+    "aseo": {
+      "nombre": "Cleaning & Disinfection",
+      "corto": "Cleaning",
+      "tagline": "Surfactants, biocides, alkalis, and enzymes for home and institutional care."
     }
-  },
-  "especialidades": {
-    "activos": "Functional actives",
-    "aceites-vegetales": "Vegetable oils",
-    "mantecas-ceras": "Butters & waxes",
-    "emolientes": "Emollients",
-    "emulsificantes": "Emulsifiers",
-    "tensoactivos": "Surfactants",
-    "humectantes": "Humectants",
-    "espesantes-reologia": "Thickeners & rheology",
-    "conservantes": "Preservatives",
-    "antioxidantes": "Antioxidants",
-    "filtros-uv": "UV filters",
-    "pigmentos-colorantes": "Pigments & colorants",
-    "nacarantes-efectos": "Pearlescents & effects",
-    "acondicionadores": "Conditioners",
-    "proteinas-aminoacidos": "Proteins & amino acids",
-    "vitaminas": "Vitamins",
-    "exfoliantes": "Exfoliants",
-    "siliconas-alternativas": "Silicones & alternatives",
-    "polimeros": "Functional polymers",
-    "quelantes": "Chelating agents",
-    "solventes": "Solvents & carriers",
-    "acidulantes-ph": "Acidulants & pH",
-    "edulcorantes": "Sweeteners",
-    "gomas-hidrocoloides": "Gums & hydrocolloids",
-    "enzimas": "Enzymes",
-    "biocidas-desinfectantes": "Biocides & disinfectants",
-    "desengrasantes": "Degreasers",
-    "dispersantes-antiespumantes": "Dispersants & defoamers",
-    "nutricion-vegetal": "Plant nutrition",
-    "adyuvantes-agricolas": "Agricultural adjuvants",
-    "premezclas-veterinarias": "Veterinary premixes",
-    "extractos-botanicos": "Botanical extracts"
-  },
-  "sectores": {
-    "cosmetica-personal": "Cosmetics & personal care",
-    "maquillaje-color": "Makeup & color",
-    "aseo-hogar": "Home care",
-    "institucional-industrial": "Institutional & industrial",
-    "alimentos": "Food",
-    "bebidas": "Beverages",
-    "nutraceutico": "Nutraceutical",
-    "veterinaria": "Veterinary & animal nutrition",
-    "agricola": "Agriculture",
-    "pinturas-recubrimientos": "Paints & coatings",
-    "textil": "Textiles",
-    "tratamiento-aguas": "Water treatment"
   },
   "origenes": {
     "Vegetal": "Plant-based",

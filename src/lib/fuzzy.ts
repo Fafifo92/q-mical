@@ -1,5 +1,5 @@
 /**
- * 🔎 BÚSQUEDA TOLERANTE A ERRORES — catálogo Q'mical
+ * 🔎 BÚSQUEDA TOLERANTE A ERRORES — portafolio Origen Chemical
  * --------------------------------------------------
  * Módulo puro: sin dependencias, sin DOM y sin disco. Corre igual en el build
  * (Astro), en el navegador (bundleado por Vite) y en Node (pruebas).

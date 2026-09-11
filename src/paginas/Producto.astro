@@ -16,25 +16,21 @@ const dict = t(lang);
 const tax = taxonomia(lang);
 const cat = getCatalogo(lang);
 
-const linea = tax.linea(p.linea)!;
-const color = linea?.color ?? "#157a64";
+// Línea principal = la primera del producto (define ícono, migas e imagen OG)
+const linea = tax.linea(p.lineas[0])!;
 const similares = cat.relacionados(p, 4);
-const lineasDelProducto = [p.linea, ...p.lineas_secundarias];
 
 const mensajeWa = tpl(dict.producto.waMensaje, { nombre: p.nombre, id: p.id });
 const iconosDocs = ["file-text", "shield-check", "clipboard-check"];
 
-// La nota PSE lleva el enlace incrustado: se parte la plantilla por {link}
-const [pseAntes, pseDespues] = dict.producto.pseTextoHtml.split("{link}");
+// La nota de pago lleva el enlace incrustado: se parte la plantilla por {link}
+const [pagoAntes, pagoDespues] = dict.producto.pagoTextoHtml.split("{link}");
 ---
 
-<Base title={p.nombre} description={p.descripcion} headerTheme="light" og={`linea-${p.linea}`} lang={lang}>
+<Base title={p.nombre} description={p.descripcion} headerTheme="light" og={`linea-${linea.slug}`} lang={lang}>
   <!-- Encabezado del producto -->
   <section class="relative overflow-hidden border-b border-ink-100 bg-white pt-28 pb-12 md:pt-36">
-    <div
-      class="pointer-events-none absolute -top-32 -right-32 h-96 w-96 rounded-full opacity-[0.12] blur-3xl"
-      style={`background:${color}`}
-    >
+    <div class="pointer-events-none absolute -top-32 -right-32 h-96 w-96 rounded-full bg-brand-500 opacity-[0.12] blur-3xl">
     </div>
 
     <div class="container-site relative">
@@ -42,17 +38,17 @@ const [pseAntes, pseDespues] = dict.producto.pseTextoHtml.split("{link}");
       <nav class="reveal flex flex-wrap items-center gap-2 text-xs text-ink-500" aria-label="Breadcrumb">
         <a href={rutaLocal(lang, "/")} class="hover:text-brand-700">{dict.producto.migaInicio}</a>
         <span aria-hidden="true">/</span>
-        <a href={rutaLocal(lang, "/productos")} class="hover:text-brand-700">{dict.producto.migaCatalogo}</a>
+        <a href={rutaLocal(lang, "/productos")} class="hover:text-brand-700">{dict.producto.migaPortafolio}</a>
         <span aria-hidden="true">/</span>
-        <a href={rutaLocal(lang, `/productos?linea=${linea.slug}`)} class="hover:text-brand-700">{linea.corto}</a>
+        <a href={rutaLocal(lang, `/productos?linea=${linea.slug}`)} class="hover:text-brand-700">{linea.nombre}</a>
         <span aria-hidden="true">/</span>
         <span class="font-medium text-ink-600">{p.nombre}</span>
       </nav>
 
       <div class="mt-8 flex flex-col gap-8 md:flex-row md:items-start">
         <span
-          class="reveal grid h-20 w-20 shrink-0 place-items-center rounded-3xl md:h-24 md:w-24"
-          style={`background:color-mix(in srgb, ${color} 12%, white); color:${color}; --reveal-delay:.1s`}
+          class="reveal grid h-20 w-20 shrink-0 place-items-center rounded-3xl bg-brand-50 text-brand-600 md:h-24 md:w-24"
+          style="--reveal-delay:.1s"
         >
           <Icon name={linea.icono} class="h-10 w-10 md:h-12 md:w-12" />
         </span>
@@ -60,18 +56,14 @@ const [pseAntes, pseDespues] = dict.producto.pseTextoHtml.split("{link}");
         <div class="min-w-0">
           <div class="reveal flex flex-wrap items-center gap-2" style="--reveal-delay:.12s">
             {
-              lineasDelProducto.map((slug) => {
-                const l = tax.linea(slug);
-                return (
-                  <a
-                    href={rutaLocal(lang, `/productos?linea=${slug}`)}
-                    class="chip transition-colors hover:bg-ink-50"
-                    style={l ? `border-color:color-mix(in srgb, ${l.color} 35%, white); color:color-mix(in srgb, ${l.color} 60%, black)` : ""}
-                  >
-                    {l?.corto ?? slug}
-                  </a>
-                );
-              })
+              p.lineas.map((slug) => (
+                <a
+                  href={rutaLocal(lang, `/productos?linea=${slug}`)}
+                  class="chip border-brand-200 text-brand-700 transition-colors hover:bg-brand-50"
+                >
+                  {tax.linea(slug)?.corto ?? slug}
+                </a>
+              ))
             }
             {
               p.destacado && (
@@ -142,12 +134,12 @@ const [pseAntes, pseDespues] = dict.producto.pseTextoHtml.split("{link}");
 
       <!-- Aplicaciones -->
       <div class="reveal">
-        <h2 class="font-display text-xl font-bold">{dict.producto.aplicaciones}</h2>
+        <h2 class="font-display text-xl font-semibold">{dict.producto.aplicaciones}</h2>
         <ul class="mt-4 grid gap-3 sm:grid-cols-2">
           {
             p.aplicaciones.map((a) => (
               <li class="flex items-start gap-3 rounded-xl border border-ink-100 bg-white p-4 text-sm text-ink-700">
-                <span class="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full" style={`background:color-mix(in srgb, ${color} 15%, white); color:${color}`}>
+                <span class="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-brand-100 text-brand-700">
                   <Icon name="check" class="h-3 w-3" strokeWidth={3} />
                 </span>
                 {a}
@@ -157,27 +149,27 @@ const [pseAntes, pseDespues] = dict.producto.pseTextoHtml.split("{link}");
         </ul>
       </div>
 
-      <!-- Especialidades y sectores -->
+      <!-- Líneas de producto e industrias -->
       <div class="reveal grid gap-6 sm:grid-cols-2">
         <div>
-          <h2 class="font-display text-xl font-bold">{dict.producto.especialidades}</h2>
+          <h2 class="font-display text-xl font-semibold">{dict.producto.lineas}</h2>
           <div class="mt-4 flex flex-wrap gap-2">
             {
-              p.especialidades.map((e) => (
-                <a href={rutaLocal(lang, `/productos?esp=${e}`)} class="chip transition-colors hover:border-brand-400 hover:text-brand-700">
-                  {tax.especialidad(e)}
+              p.lineas.map((slug) => (
+                <a href={rutaLocal(lang, `/productos?linea=${slug}`)} class="chip transition-colors hover:border-brand-400 hover:text-brand-700">
+                  {tax.linea(slug)?.nombre ?? slug}
                 </a>
               ))
             }
           </div>
         </div>
         <div>
-          <h2 class="font-display text-xl font-bold">{dict.producto.sectores}</h2>
+          <h2 class="font-display text-xl font-semibold">{dict.producto.industrias}</h2>
           <div class="mt-4 flex flex-wrap gap-2">
             {
-              p.sectores.map((s) => (
-                <a href={rutaLocal(lang, `/productos?sector=${s}`)} class="chip transition-colors hover:border-brand-400 hover:text-brand-700">
-                  {tax.sector(s)}
+              p.industrias.map((slug) => (
+                <a href={rutaLocal(lang, `/productos?industria=${slug}`)} class="chip transition-colors hover:border-brand-400 hover:text-brand-700">
+                  {tax.industria(slug)?.nombre ?? slug}
                 </a>
               ))
             }
@@ -255,12 +247,14 @@ const [pseAntes, pseDespues] = dict.producto.pseTextoHtml.split("{link}");
       </div>
 
       <!-- Pago -->
-      <div class="reveal flex items-center gap-4 rounded-2xl bg-ink-950 p-5 text-white" style="--reveal-delay:.2s">
-        <span class="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-white/10 text-xs font-bold text-accent-300">PSE</span>
-        <p class="text-sm text-ink-200">
-          <Fragment set:html={pseAntes} />
-          <a href={rutaLocal(lang, "/pagos")} class="font-semibold text-accent-300 hover:underline">{dict.producto.pseLink}</a>
-          <Fragment set:html={pseDespues} />
+      <div class="reveal flex items-center gap-4 rounded-2xl bg-navy-700 p-5 text-white" style="--reveal-delay:.2s">
+        <span class="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-white/10 text-accent-300">
+          <Icon name="credit-card" class="h-5 w-5" />
+        </span>
+        <p class="text-sm text-navy-100">
+          <Fragment set:html={pagoAntes} />
+          <a href={rutaLocal(lang, "/pagos")} class="font-semibold text-accent-300 hover:underline">{dict.producto.pagoLink}</a>
+          <Fragment set:html={pagoDespues} />
         </p>
       </div>
     </aside>
@@ -272,9 +266,9 @@ const [pseAntes, pseDespues] = dict.producto.pseTextoHtml.split("{link}");
       <section class="border-t border-ink-100 bg-white py-16">
         <div class="container-site">
           <div class="flex flex-wrap items-end justify-between gap-4">
-            <h2 class="reveal font-display text-2xl font-bold">{dict.producto.relacionados}</h2>
-            <a href={rutaLocal(lang, `/productos?linea=${p.linea}`)} class="reveal text-sm font-semibold text-brand-700 hover:underline">
-              {tpl(dict.producto.verLinea, { linea: linea.corto })}
+            <h2 class="reveal font-display text-2xl font-semibold">{dict.producto.relacionados}</h2>
+            <a href={rutaLocal(lang, `/productos?linea=${linea.slug}`)} class="reveal text-sm font-semibold text-brand-700 hover:underline">
+              {tpl(dict.producto.verLinea, { linea: linea.nombre })}
             </a>
           </div>
           <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">

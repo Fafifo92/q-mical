@@ -1,6 +1,7 @@
 ---
-import "@fontsource-variable/inter";
-import "@fontsource-variable/space-grotesk";
+// Tipografías del manual de marca: Montserrat (títulos) + Open Sans (textos)
+import "@fontsource-variable/montserrat";
+import "@fontsource-variable/open-sans";
 import "../styles/global.css";
 import { ClientRouter } from "astro:transitions";
 import Header from "../components/Header.astro";
@@ -50,7 +51,9 @@ const ogImagen = new URL(`${ogRuta}?v=${SITE.ogVersion}`, SITE.dominio).href;
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="canonical" href={urlCanonica} />
 
     <!-- El mismo contenido en 7 idiomas: hreflang evita que los buscadores lo
@@ -87,7 +90,7 @@ const ogImagen = new URL(`${ogRuta}?v=${SITE.ogVersion}`, SITE.dominio).href;
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImagen} />
 
-    <meta name="theme-color" content="#052420" />
+    <meta name="theme-color" content="#0b3b5e" />
 
     {/* Activa las animaciones de revelado solo si hay JS: sin esta clase,
         .reveal no se oculta y el contenido siempre es legible. */}

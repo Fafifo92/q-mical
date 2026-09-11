@@ -5,7 +5,7 @@
       "name": "qmical-dev",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
-      "cwd": "C:\\GitHub\\qmical",
+      "cwd": "C:/GitHub/Emetea/qmical",
       "port": 4321
     }
   ]

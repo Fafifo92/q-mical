@@ -9,8 +9,7 @@
 import type { Locale } from "./config";
 import { DEFAULT_LOCALE } from "./config";
 import esUI from "./ui/es.json";
-import { LINEAS, ESPECIALIDADES, SECTORES, type Linea } from "../data/taxonomy";
-import { SECTORES_COPY, type SectorCopy } from "../data/sectores";
+import { LINEAS, INDUSTRIAS, type Linea, type Industria } from "../data/taxonomy";
 
 export type UIDict = typeof esUI;
 
@@ -46,10 +45,11 @@ export function t(lang: Locale): UIDict {
 }
 
 // ── Taxonomía localizada ──────────────────────────────────────────
+type EtiquetasOverlay = Record<string, { nombre?: string; corto?: string; tagline?: string }>;
+
 interface TaxOverlay {
-  lineas?: Record<string, { nombre?: string; corto?: string; tagline?: string }>;
-  especialidades?: Record<string, string>;
-  sectores?: Record<string, string>;
+  lineas?: EtiquetasOverlay;
+  industrias?: EtiquetasOverlay;
   origenes?: Record<string, string>;
 }
 
@@ -60,84 +60,44 @@ const taxModulos = import.meta.glob<TaxOverlay>("../data/i18n/taxonomy/*.json", 
 
 export interface Taxonomia {
   lineas: Linea[];
+  industrias: Industria[];
   linea: (slug: string) => Linea | undefined;
-  especialidad: (slug: string) => string;
-  sector: (slug: string) => string;
+  industria: (slug: string) => Industria | undefined;
   origen: (valor: string) => string;
-  especialidades: Record<string, string>;
-  sectores: Record<string, string>;
 }
 
 const taxCache = new Map<Locale, Taxonomia>();
+
+/** Aplica el overlay de un idioma a las etiquetas de una lista (fallback al español). */
+function localizar<T extends { slug: string; nombre: string; corto: string; tagline: string }>(
+  base: T[],
+  ov: EtiquetasOverlay | undefined
+): T[] {
+  return base.map((x) => ({
+    ...x,
+    nombre: ov?.[x.slug]?.nombre ?? x.nombre,
+    corto: ov?.[x.slug]?.corto ?? x.corto,
+    tagline: ov?.[x.slug]?.tagline ?? x.tagline,
+  }));
+}
 
 export function taxonomia(lang: Locale): Taxonomia {
   const enCache = taxCache.get(lang);
   if (enCache) return enCache;
 
-  const ov = lang === DEFAULT_LOCALE ? {} : (taxModulos[`../data/i18n/taxonomy/${lang}.json`] ?? {});
+  const ov: TaxOverlay =
+    lang === DEFAULT_LOCALE ? {} : (taxModulos[`../data/i18n/taxonomy/${lang}.json`] ?? {});
 
-  const lineas: Linea[] = LINEAS.map((l) => ({
-    ...l,
-    nombre: ov.lineas?.[l.slug]?.nombre ?? l.nombre,
-    corto: ov.lineas?.[l.slug]?.corto ?? l.corto,
-    tagline: ov.lineas?.[l.slug]?.tagline ?? l.tagline,
-  }));
-
-  const especialidades: Record<string, string> = { ...ESPECIALIDADES };
-  for (const [k, v] of Object.entries(ov.especialidades ?? {})) if (v) especialidades[k] = v;
-
-  const sectores: Record<string, string> = { ...SECTORES };
-  for (const [k, v] of Object.entries(ov.sectores ?? {})) if (v) sectores[k] = v;
+  const lineas = localizar(LINEAS, ov.lineas);
+  const industrias = localizar(INDUSTRIAS, ov.industrias);
 
   const tax: Taxonomia = {
     lineas,
+    industrias,
     linea: (slug) => lineas.find((l) => l.slug === slug),
-    especialidad: (slug) => especialidades[slug] ?? slug,
-    sector: (slug) => sectores[slug] ?? slug,
+    industria: (slug) => industrias.find((i) => i.slug === slug),
     origen: (valor) => ov.origenes?.[valor] ?? valor,
-    especialidades,
-    sectores,
   };
   taxCache.set(lang, tax);
   return tax;
-}
-
-// ── Copy de sectores localizado ───────────────────────────────────
-interface SectorOverlay {
-  titulo?: string;
-  intro?: string[];
-  retos?: { titulo: string; texto: string }[];
-  regulatorio?: string | null;
-  mensajeWhatsApp?: string;
-}
-
-const secModulos = import.meta.glob<Record<string, SectorOverlay>>("../data/i18n/sectores/*.json", {
-  eager: true,
-  import: "default",
-});
-
-const secCache = new Map<Locale, SectorCopy[]>();
-
-export function sectoresCopy(lang: Locale): SectorCopy[] {
-  const enCache = secCache.get(lang);
-  if (enCache) return enCache;
-
-  let copia = SECTORES_COPY;
-  if (lang !== DEFAULT_LOCALE) {
-    const ov = secModulos[`../data/i18n/sectores/${lang}.json`] ?? {};
-    copia = SECTORES_COPY.map((s) => {
-      const o = ov[s.slug];
-      if (!o) return s;
-      return {
-        ...s,
-        titulo: o.titulo ?? s.titulo,
-        intro: o.intro?.length === 2 ? o.intro : s.intro,
-        retos: o.retos?.length === 3 ? o.retos : s.retos,
-        regulatorio: o.regulatorio !== undefined ? o.regulatorio : s.regulatorio,
-        mensajeWhatsApp: o.mensajeWhatsApp ?? s.mensajeWhatsApp,
-      };
-    });
-  }
-  secCache.set(lang, copia);
-  return copia;
 }
