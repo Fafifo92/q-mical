@@ -117,7 +117,7 @@ const i18nJs = {
               <a
                 href={`?industria=${ind.slug}#portafolio`}
                 data-aplicar-industria={ind.slug}
-                class="group rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:border-brand-300/50 hover:bg-white/10"
+                class:list={["group rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:border-brand-300/50 hover:bg-white/10", tax.industrias.length % 2 === 1 && i === tax.industrias.length - 1 && "col-span-2"]}
                 style={`animation: float ${8 + (i % 4)}s ease-in-out ${i * 0.7}s infinite`}
               >
                 <span class="grid h-11 w-11 place-items-center rounded-xl bg-brand-500/20 text-brand-300 transition-transform duration-300 group-hover:scale-110">

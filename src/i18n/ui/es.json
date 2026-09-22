@@ -1,7 +1,7 @@
 {
   "meta": {
     "slogan": "Materias primas con criterio técnico",
-    "descripcion": "Origen Chemical distribuye materias primas para cosmética, nutracéutica, alimentos, aseo, agro, veterinaria e industria en Colombia, con asesoría técnica personalizada y volúmenes cómodos para cada formulación.",
+    "descripcion": "Origen Chemical distribuye materias primas para cosmética, nutracéutica, farmacéutica, alimentos, aseo, agro, veterinaria e industria en Colombia, con asesoría técnica personalizada y volúmenes cómodos para cada formulación.",
     "waBase": "Hola, Origen Chemical 👋 Quiero información sobre sus materias primas."
   },
   "nav": {
@@ -79,8 +79,8 @@
       },
       {
         "etiqueta": "Compra a tu medida",
-        "titulo": "Materias primas desde 1 kg",
-        "texto": "En referencias seleccionadas vendemos desde 1 kg, con ficha técnica, hoja de seguridad y certificado de análisis del lote.",
+        "titulo": "Materias primas en pequeños volúmenes",
+        "texto": "En referencias seleccionadas vendemos materiales en volúmenes pequeños (1-5 kg) para que no quedes con inventarios sobrantes.",
         "boton": "Ver preguntas frecuentes",
         "enlace": "/contacto#preguntas-frecuentes",
         "imagen": "/img/noticias/desde-1kg.jpg",
@@ -101,7 +101,7 @@
     "statIndustrias": "industrias atendidas",
     "statMinimo": "compra mínima en referencias seleccionadas",
     "industriasEyebrow": "Industrias",
-    "industriasTitulo": "Un portafolio, ocho industrias",
+    "industriasTitulo": "Un portafolio, nueve industrias",
     "industriasTexto": "Explora por industria o combina filtros de línea de producto para llegar exactamente a la materia prima que tu formulación necesita.",
     "lineasEyebrow": "Líneas de producto",
     "lineasTitulo": "Entra por línea de producto",
@@ -143,11 +143,11 @@
   },
   "portafolio": {
     "tituloMeta": "Portafolio de materias primas",
-    "descripcionMeta": "Explora más de 200 materias primas para cosmética, nutracéutica, alimentos, aseo, agro, veterinaria e industria. Filtra por industria y línea de producto.",
+    "descripcionMeta": "Explora más de 400 materias primas para cosmética, nutracéutica, farmacéutica, alimentos, aseo, agro, veterinaria e industria. Filtra por industria y línea de producto.",
     "heroEyebrow": "Portafolio · Distribución B2B de materias primas · Colombia",
     "heroTitulo1": "La materia prima correcta,",
     "heroTitulo2": "con la ficha técnica en la mano.",
-    "heroTexto": "Ingredientes y especialidades químicas para cosmética, nutracéutica, alimentos, aseo, agro, veterinaria e industria. Documentación por lote, muestras y asesoría técnica — todo gestionado por WhatsApp.",
+    "heroTexto": "Ingredientes y especialidades químicas para cosmética, nutracéutica, farmacéutica, alimentos, aseo, agro, veterinaria e industria. Documentación por lote, muestras y asesoría técnica — todo gestionado por WhatsApp.",
     "heroBuscarPlaceholder": "Busca por nombre o INCI: glicerina, niacinamida, goma xantana…",
     "buscarAria": "Buscar materia prima",
     "buscarBoton": "Buscar",
@@ -345,10 +345,10 @@
     "principiosTitulo": "Cuatro reglas que no negociamos",
     "principiosTexto": "Son la razón por la que un cliente que nos compra una vez suele quedarse.",
     "principios": [
-      { "titulo": "Decir la verdad del lote", "texto": "La forma física y las especificaciones varían entre fabricantes y lotes. Nuestra política es describir presentaciones referenciales y confirmar siempre la ficha técnica real antes de vender. Preferimos perder una venta a ganar un reclamo." },
+      { "titulo": "Siempre verifica las especificaciones", "texto": "Solicita a nuestro equipo comercial la documentación técnica de tus materias primas para poder verificar que sus especificaciones coincidan con lo que necesitas en tu formulacion." },
       { "titulo": "Asesores, no tomadores de pedido", "texto": "Quien te responde el WhatsApp entiende la diferencia entre un tensioactivo aniónico y uno anfótero. Si no sabemos algo, lo consultamos con el fabricante — no improvisamos." },
       { "titulo": "Velocidad con trazabilidad", "texto": "Cotizamos rápido porque la producción no espera, pero cada despacho sale con su documentación completa. Rapidez sin papeles no es servicio, es riesgo." },
-      { "titulo": "Ingredientes con origen", "texto": "Trabajamos con fabricantes internacionales y también valorizamos ingredientes de Colombia y LATAM — cacao, sacha inchi, cupuazú — porque la biodiversidad de la región es materia prima de clase mundial." }
+      { "titulo": "Ingredientes con origen", "texto": "Trabajamos con fabricantes internacionales y también valorizamos ingredientes de Colombia y LATAM porque la biodiversidad de la región es materia prima de clase mundial." }
     ],
     "distribuimosTitulo": "Lo que distribuimos",
     "entregamosTitulo": "Dónde entregamos",
@@ -396,8 +396,8 @@
     "pie": "Distribución B2B de materias primas · Colombia",
     "lineaEtiqueta": "Línea de producto",
     "tarjetas": [
-      { "archivo": "general", "etiqueta": "Materias primas", "titulo": "La materia prima correcta, con la ficha técnica en la mano.", "bajada": "227 referencias · Asesoría técnica · Documentación por lote" },
-      { "archivo": "productos", "etiqueta": "Portafolio", "titulo": "227 materias primas para tu industria", "bajada": "12 líneas de producto · 8 industrias · Cotiza por WhatsApp" },
+      { "archivo": "general", "etiqueta": "Materias primas", "titulo": "La materia prima correcta, con la ficha técnica en la mano.", "bajada": "{productos} referencias · Asesoría técnica · Documentación por lote" },
+      { "archivo": "productos", "etiqueta": "Portafolio", "titulo": "{productos} materias primas para tu industria", "bajada": "{lineas} líneas de producto · {industrias} industrias · Cotiza por WhatsApp" },
       { "archivo": "cotizacion", "etiqueta": "Cotización", "titulo": "Cotiza como se cotiza en esta industria", "bajada": "Producto, cantidad y presentación — respuesta por WhatsApp." },
       { "archivo": "contacto", "etiqueta": "Contáctanos", "titulo": "Hablemos de tu próxima formulación", "bajada": "Cra. 68I # 36-21 Sur, Bogotá · Asesoría técnica por WhatsApp" },
       { "archivo": "nosotros", "etiqueta": "Nosotros", "titulo": "El origen de cada gran producto está en sus ingredientes", "bajada": "Materias primas innovadoras y relaciones basadas en la confianza." },

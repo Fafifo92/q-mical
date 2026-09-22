@@ -1,7 +1,7 @@
 {
   "meta": {
     "slogan": "原料供应，技术先行",
-    "descripcion": "Origen Chemical 在哥伦比亚分销化妆品、营养保健、食品、清洁、农业、兽用及工业领域的原料，提供个性化技术咨询，并以灵活的采购量满足每一个配方的需求。",
+    "descripcion": "Origen Chemical 在哥伦比亚分销化妆品、营养保健、制药、食品、清洁、农业、兽用及工业领域的原料，提供个性化技术咨询，并以灵活的采购量满足每一个配方的需求。",
     "waBase": "您好，Origen Chemical 👋 我想了解贵司的原料产品。"
   },
   "nav": {
@@ -79,8 +79,8 @@
       },
       {
         "etiqueta": "按需采购",
-        "titulo": "原料 1 kg 起售",
-        "texto": "部分货号 1 kg 起售，并随附该批次的技术资料表（TDS）、安全技术说明书（SDS）与分析证书（CoA）。",
+        "titulo": "小批量原材料",
+        "texto": "针对部分精选商品，我们提供小批量（1–5 公斤）销售，助您避免库存积压。",
         "boton": "查看常见问题",
         "enlace": "/contacto#preguntas-frecuentes",
         "imagen": "/img/noticias/desde-1kg.jpg",
@@ -101,7 +101,7 @@
     "statIndustrias": "服务行业",
     "statMinimo": "部分货号的最低采购量",
     "industriasEyebrow": "行业",
-    "industriasTitulo": "一个产品组合，八大行业",
+    "industriasTitulo": "一个产品组合，九大行业",
     "industriasTexto": "按行业浏览，或叠加产品线筛选，精准找到配方所需的原料。",
     "lineasEyebrow": "产品线",
     "lineasTitulo": "按产品线查找",
@@ -143,11 +143,11 @@
   },
   "portafolio": {
     "tituloMeta": "原料产品组合",
-    "descripcionMeta": "浏览 200 多种用于化妆品、营养保健、食品、清洁、农业、兽用及工业的原料。可按行业与产品线筛选。",
+    "descripcionMeta": "浏览 400 多种用于化妆品、营养保健、制药、食品、清洁、农业、兽用及工业的原料。可按行业与产品线筛选。",
     "heroEyebrow": "产品组合 · B2B 化工原料分销 · 哥伦比亚",
     "heroTitulo1": "选对每一批原料，",
     "heroTitulo2": "技术资料表握在手中。",
-    "heroTexto": "面向化妆品、营养保健、食品、清洁、农业、兽用及工业的原料与特种化学品。按批次提供文件、样品与技术咨询——全程通过 WhatsApp 办理。",
+    "heroTexto": "面向化妆品、营养保健、制药、食品、清洁、农业、兽用及工业的原料与特种化学品。按批次提供文件、样品与技术咨询——全程通过 WhatsApp 办理。",
     "heroBuscarPlaceholder": "按名称或 INCI 搜索：甘油、烟酰胺、黄原胶…",
     "buscarAria": "搜索原料",
     "buscarBoton": "搜索",
@@ -345,10 +345,10 @@
     "principiosTitulo": "四项不容妥协的原则",
     "principiosTexto": "正因如此，首次合作的客户往往会与我们长期合作。",
     "principios": [
-      { "titulo": "如实说明批次", "texto": "物理形态与规格在不同生产商和批次之间会有差异。我们的政策是描述参考性外观规格，并在销售前始终确认真实的技术资料表（TDS）。宁可错失一笔订单，也不愿换来一次投诉。" },
+      { "titulo": "务必检查规格", "texto": "请向我们的销售团队索取原材料的技术资料，以核实其规格是否符合您的配方要求。" },
       { "titulo": "是顾问，不是接单员", "texto": "在 WhatsApp 上回复你的人，懂得阴离子表面活性剂与两性表面活性剂的区别。如果我们不清楚，就向生产商求证——绝不临场发挥。" },
       { "titulo": "高效且可追溯", "texto": "我们报价迅速，因为生产不等人；但每次发货都附带完整文件。没有文件的速度不是服务，而是风险。" },
-      { "titulo": "源头可溯的原料", "texto": "我们与国际生产商合作，同时也重视来自哥伦比亚与拉美的原料——可可、印加果（sacha inchi）、大花可可（cupuazú）——因为这一地区的生物多样性本身就是世界级的原料。" }
+      { "titulo": "源头可溯的原料", "texto": "我们与国际生产商合作，同时也重视来自哥伦比亚与拉美的原料 因为这一地区的生物多样性本身就是世界级的原料。" }
     ],
     "distribuimosTitulo": "我们的分销范围",
     "entregamosTitulo": "配送范围",
@@ -396,8 +396,8 @@
     "pie": "B2B 化工原料分销 · 哥伦比亚",
     "lineaEtiqueta": "产品线",
     "tarjetas": [
-      { "archivo": "general", "etiqueta": "化工原料", "titulo": "选对原料，技术资料表在手。", "bajada": "227 个货号 · 技术咨询 · 按批次提供文件" },
-      { "archivo": "productos", "etiqueta": "产品组合", "titulo": "227 种原料，服务你的行业", "bajada": "12 条产品线 · 8 大行业 · 通过 WhatsApp 询价" },
+      { "archivo": "general", "etiqueta": "化工原料", "titulo": "选对原料，技术资料表在手。", "bajada": "{productos} 个货号 · 技术咨询 · 按批次提供文件" },
+      { "archivo": "productos", "etiqueta": "产品组合", "titulo": "{productos} 种原料，服务你的行业", "bajada": "{lineas} 条产品线 · {industrias} 大行业 · 通过 WhatsApp 询价" },
       { "archivo": "cotizacion", "etiqueta": "询价", "titulo": "按行业惯例提交询价", "bajada": "产品、数量与外观规格——通过 WhatsApp 回复。" },
       { "archivo": "contacto", "etiqueta": "联系我们", "titulo": "共同探讨你的下一个配方", "bajada": "Cra. 68I # 36-21 Sur, Bogotá · 通过 WhatsApp 获取技术咨询" },
       { "archivo": "nosotros", "etiqueta": "关于我们", "titulo": "每一款出色产品的源头，都在于原料", "bajada": "创新原料，以信任为基础的合作关系。" },

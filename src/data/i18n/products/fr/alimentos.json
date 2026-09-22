@@ -2,28 +2,28 @@
   {
     "id": "goma-xantana",
     "nombre": "Gomme xanthane",
-    "sinonimos": ["Xanthane", "E415"],
-    "descripcion": "Polysaccharide obtenu par fermentation, largement utilisé comme épaississant et stabilisant dans les formulations d'aliments et de boissons. Il apporte une viscosité stable face aux variations de température et de pH, et aide à maintenir les solides en suspension. Son dosage se définit selon chaque application et conformément à la réglementation applicable.",
+    "sinonimos": ["Xanthane", "Gomme de xanthane", "E415", "Xanthan gum"],
+    "descripcion": "Polysaccharide obtenu par fermentation, largement utilisé comme épaississant et stabilisant dans les aliments et les boissons, ainsi qu'en cosmétique, entretien, formulations pharmaceutiques et vétérinaires, gels et boues de forage. Il apporte une viscosité stable face aux variations de température et de pH, et aide à maintenir les solides en suspension. Son dosage est défini selon chaque application et conformément à la réglementation applicable.",
     "funciones": ["Épaississant", "Stabilisant", "Agent de suspension"],
-    "aplicaciones": ["Sauces et assaisonnements", "Boissons et nectars", "Boulangerie sans gluten", "Produits laitiers"],
+    "aplicaciones": ["Sauces et assaisonnements", "Boissons et nectars", "Boulangerie sans gluten", "Gels et cosmétiques", "Boues de forage"],
     "formas_referenciales": ["Solide — poudre, granulométrie variable selon le fabricant et le lot"]
   },
   {
     "id": "goma-guar",
-    "nombre": "Gomme de guar",
-    "sinonimos": ["Guarane", "E412"],
-    "descripcion": "Hydrocolloïde d'origine végétale obtenu à partir de la graine de guar, apprécié pour sa forte capacité d'hydratation et son épaississement à froid. Il est utilisé pour donner du corps, lier l'eau et stabiliser les systèmes alimentaires, avec une bonne synergie avec d'autres gommes. Son niveau d'utilisation s'ajuste selon l'application et conformément à la réglementation applicable.",
+    "nombre": "Gomme guar",
+    "sinonimos": ["Guaran", "E412"],
+    "descripcion": "Hydrocolloïde d'origine végétale obtenu à partir de la graine de guar, apprécié pour sa forte capacité d'hydratation et pour son épaississement à froid. Il est utilisé pour donner du corps, lier l'eau et stabiliser des systèmes alimentaires, cosmétiques, d'entretien, industriels, pharmaceutiques, vétérinaires et nutraceutiques. Son niveau d'utilisation est ajusté selon l'application et conformément à la réglementation applicable.",
     "funciones": ["Épaississant", "Liant d'eau", "Stabilisant"],
-    "aplicaciones": ["Crèmes glacées et desserts congelés", "Sauces et assaisonnements", "Boissons", "Boulangerie"],
+    "aplicaciones": ["Glaces et desserts surgelés", "Sauces et assaisonnements", "Boissons", "Boulangerie", "Cosmétique, entretien et usages industriels"],
     "formas_referenciales": ["Solide — poudre, granulométrie variable selon le fabricant et le lot"]
   },
   {
     "id": "carboximetilcelulosa-sodica",
-    "nombre": "Carboxyméthylcellulose sodique",
-    "sinonimos": ["CMC", "Gomme de cellulose", "E466"],
-    "descripcion": "Dérivé de cellulose soluble dans l'eau, utilisé comme épaississant, stabilisant et agent de rétention d'humidité dans les formulations alimentaires. Il aide à contrôler la formation de cristaux de glace et à stabiliser les protéines dans les boissons acides. Disponible en différents grades de viscosité selon les exigences de l'application.",
-    "funciones": ["Épaississant", "Stabilisant", "Agent de rétention d'humidité"],
-    "aplicaciones": ["Crèmes glacées", "Boissons lactées et acides", "Boulangerie et pâtisserie", "Sauces"],
+    "nombre": "Carboxyméthylcellulose",
+    "sinonimos": ["CMC", "Gomme de cellulose", "E466", "Carboxyméthylcellulose sodique"],
+    "descripcion": "Dérivé de cellulose soluble dans l'eau, utilisé comme épaississant, stabilisant et agent de rétention d'humidité dans les formulations alimentaires. Il aide à contrôler la formation de cristaux de glace et à stabiliser les protéines dans les boissons acides. Il est également employé comme épaississant et stabilisant d'émulsions en cosmétique, entretien, pharmacie, médecine vétérinaire, nutraceutique et dans des applications industrielles, en différents grades de viscosité.",
+    "funciones": ["Épaississant", "Stabilisant", "Rétenteur d'humidité"],
+    "aplicaciones": ["Glaces", "Boissons lactées et acides", "Boulangerie et pâtisserie", "Sauces", "Cosmétiques, entretien et formulations industrielles"],
     "formas_referenciales": ["Solide — poudre ou granulé selon le fabricant et le lot"]
   },
   {
@@ -64,11 +64,11 @@
   },
   {
     "id": "acido-citrico-anhidro",
-    "nombre": "Acide citrique anhydre",
-    "sinonimos": ["Acide citrique", "E330"],
-    "descripcion": "Acidifiant de référence dans l'industrie des aliments et boissons, obtenu par fermentation. Il apporte de l'acidité et des notes citriques, régule le pH et agit comme séquestrant des métaux qui favorise la stabilité de la couleur et de la saveur. Sa polyvalence en fait un incontournable de stock pour de multiples industries.",
-    "funciones": ["Acidifiant", "Régulateur de pH", "Séquestrant"],
-    "aplicaciones": ["Boissons et sodas", "Confiserie", "Conserves et sauces", "Produits de nettoyage"],
+    "nombre": "Acide citrique",
+    "sinonimos": ["Acide citrique anhydre", "E330"],
+    "descripcion": "Acidifiant de référence dans les aliments et les boissons, obtenu par fermentation. Il apporte de l'acidité et des notes citronnées, régule le pH et agit comme séquestrant des métaux et antioxydant synergique favorisant la stabilité de la couleur et de la saveur. Il est également employé en cosmétique, en entretien, en pharmacie, en médecine vétérinaire, en nutraceutique et en agriculture, conformément à la réglementation applicable.",
+    "funciones": ["Acidifiant", "Régulateur de pH", "Séquestrant", "Antioxydant synergique"],
+    "aplicaciones": ["Boissons et sodas", "Confiserie", "Conserves et sauces", "Produits de nettoyage", "Ajustement du pH dans les cosmétiques et les produits pharmaceutiques"],
     "formas_referenciales": ["Solide cristallin — cristaux ou poudre selon le fabricant et le lot"]
   },
   {
@@ -84,27 +84,27 @@
     "id": "acido-lactico",
     "nombre": "Acide lactique",
     "sinonimos": ["E270", "Acide 2-hydroxypropanoïque"],
-    "descripcion": "Acidifiant d'origine fermentaire au profil acide doux et lactique, utilisé pour réguler le pH et apporter des notes propres aux produits fermentés. Il contribue à la conservation en abaissant le pH du milieu dans les sauces, les marinades et les dérivés carnés. Il s'emploie conformément à la réglementation applicable de chaque catégorie.",
-    "funciones": ["Acidifiant", "Régulateur de pH", "Adjuvant de conservation"],
-    "aplicaciones": ["Marinades et sauces", "Produits carnés", "Boulangerie", "Boissons"],
-    "formas_referenciales": ["Liquide — solution aqueuse, concentration selon la spécification du lot"]
+    "descripcion": "Acidifiant d'origine fermentaire au profil acide doux, utilisé pour réguler le pH et apporter des notes propres aux produits fermentés ; il contribue à la conservation en abaissant le pH dans les sauces, les produits marinés et les dérivés carnés. En cosmétique, il est employé comme alpha-hydroxyacide doux associé à l'hydratation et à l'exfoliation superficielle. Il est utilisé conformément à la réglementation applicable à chaque catégorie.",
+    "funciones": ["Acidifiant", "Régulateur de pH", "Auxiliaire de conservation", "Exfoliant doux (AHA)"],
+    "aplicaciones": ["Produits marinés et sauces", "Produits carnés", "Boulangerie", "Boissons", "Cosmétiques et produits d'entretien à pH ajusté"],
+    "formas_referenciales": ["Liquide — solution aqueuse, selon le fabricant et le lot"]
   },
   {
     "id": "benzoato-de-sodio",
     "nombre": "Benzoate de sodium",
-    "sinonimos": ["E211"],
-    "descripcion": "Conservateur largement utilisé dans les aliments et boissons à pH acide pour protéger les formulations contre les levures et les moisissures. Sa bonne solubilité dans l'eau facilite l'incorporation dans les sirops, les sauces et les boissons. Le dosage se définit selon la catégorie de produit et conformément à la réglementation applicable.",
-    "funciones": ["Conservateur"],
-    "aplicaciones": ["Boissons et sirops", "Sauces et assaisonnements", "Conserves de fruits", "Soins personnels"],
-    "formas_referenciales": ["Solide — poudre ou granulé selon le fabricant et le lot"]
+    "sinonimos": ["E211", "Sodium Benzoate", "Sel de sodium de l'acide benzoïque"],
+    "descripcion": "Conservateur largement utilisé dans les aliments et boissons à pH acide pour protéger les formulations contre les levures et les moisissures. Sa bonne solubilité dans l'eau facilite son incorporation dans les sirops, les sauces et les boissons ; il est également employé en cosmétique, en produits d'entretien, en pharmacie, en médecine vétérinaire, en nutraceutique et dans des applications industrielles. Le dosage est défini selon la catégorie de produit et conformément à la réglementation applicable.",
+    "funciones": ["Conservateur", "Antifongique", "Antimicrobien"],
+    "aplicaciones": ["Boissons et sirops", "Sauces et assaisonnements", "Conserves de fruits", "Soins personnels", "Produits d'entretien et formulations pharmaceutiques"],
+    "formas_referenciales": ["Solide — poudre ou granulés selon le fabricant et le lot"]
   },
   {
     "id": "sorbato-de-potasio",
     "nombre": "Sorbate de potassium",
     "sinonimos": ["Sel de potassium de l'acide sorbique", "E202"],
-    "descripcion": "Conservateur d'usage étendu pour protéger les aliments et boissons contre les moisissures et les levures, au profil sensoriel neutre. C'est l'un des conservateurs les plus demandés pour sa polyvalence dans les produits de boulangerie, laitiers, sauces et boissons. Il se dose selon la catégorie de produit et conformément à la réglementation applicable.",
-    "funciones": ["Conservateur"],
-    "aplicaciones": ["Boulangerie et pâtisserie", "Boissons et jus", "Fromages et produits laitiers", "Sauces et assaisonnements"],
+    "descripcion": "Sel de potassium de l'acide sorbique, conservateur hydrosoluble utilisé pour protéger les formulations contre les moisissures et les levures, avec un profil sensoriel neutre. Il est employé en cosmétique, dans les produits d'entretien, dans les formulations pharmaceutiques et vétérinaires, dans les compléments nutraceutiques et dans des applications industrielles, en milieu de pH acide à légèrement acide. Il est dosé selon chaque application et conformément à la réglementation applicable.",
+    "funciones": ["Conservateur", "Antifongique"],
+    "aplicaciones": ["Cosmétiques et soins personnels", "Produits d'entretien", "Formulations pharmaceutiques et vétérinaires", "Compléments nutraceutiques liquides"],
     "formas_referenciales": ["Solide — granulés ou poudre selon le fabricant et le lot"]
   },
   {
@@ -120,9 +120,9 @@
     "id": "acido-ascorbico",
     "nombre": "Acide ascorbique",
     "sinonimos": ["Vitamine C", "E300"],
-    "descripcion": "Antioxydant d'usage étendu dans les aliments et boissons pour protéger la couleur et la saveur face à l'oxydation. En boulangerie, il agit comme agent de traitement des farines, favorisant le développement de la pâte. Il s'incorpore également dans les prémélanges et l'enrichissement conformément à la réglementation applicable.",
-    "funciones": ["Antioxydant", "Agent de traitement des farines", "Agent d'enrichissement"],
-    "aplicaciones": ["Boissons et jus", "Boulangerie", "Produits carnés", "Prémélanges nutritionnels"],
+    "descripcion": "Vitamine C, antioxydant d'usage courant dans les aliments et les boissons pour protéger la couleur et la saveur contre l'oxydation ; en boulangerie, il agit comme agent de traitement des farines. Il est également employé dans des formulations cosmétiques associées à l'uniformité du teint et à l'apparence de la peau, ainsi que dans des préparations pharmaceutiques et vétérinaires, conformément à la réglementation applicable.",
+    "funciones": ["Antioxydant", "Agent de traitement des farines", "Actif unificateur du teint", "Agent de fortification"],
+    "aplicaciones": ["Boissons et jus", "Boulangerie", "Produits carnés", "Sérums cosmétiques", "Préparations pharmaceutiques et vétérinaires"],
     "formas_referenciales": ["Solide cristallin — cristaux ou poudre selon le fabricant et le lot"]
   },
   {
@@ -137,10 +137,10 @@
   {
     "id": "sucralosa",
     "nombre": "Sucralose",
-    "sinonimos": ["E955"],
-    "descripcion": "Édulcorant de haute intensité dérivé du saccharose, au profil sucré net et à très bonne stabilité au procédé et au stockage. Il permet de réduire les sucres dans les boissons, les produits laitiers et la pâtisserie tout en maintenant le profil sensoriel du produit. Son niveau d'utilisation se définit selon la catégorie et conformément à la réglementation applicable.",
+    "sinonimos": ["Sucralose", "E955"],
+    "descripcion": "Édulcorant de haute intensité dérivé du saccharose, au profil sucré net et d'une très bonne stabilité en cours de procédé et de stockage. Il permet de réduire les sucres dans les boissons, les produits laitiers et la pâtisserie, et de sucrer les formulations orales pharmaceutiques et nutritionnelles, tout en maintenant le profil sensoriel du produit. Son niveau d'utilisation est défini selon la catégorie et conformément à la réglementation applicable.",
     "funciones": ["Édulcorant de haute intensité"],
-    "aplicaciones": ["Boissons à teneur réduite en sucre", "Produits laitiers", "Pâtisserie et desserts", "Compléments et nutraceutiques"],
+    "aplicaciones": ["Boissons à teneur réduite en sucre", "Produits laitiers", "Pâtisserie et desserts", "Compléments et nutraceutiques", "Sirops et formulations orales pharmaceutiques"],
     "formas_referenciales": ["Solide — poudre selon le fabricant et le lot"]
   },
   {
@@ -154,21 +154,21 @@
   },
   {
     "id": "sorbitol",
-    "nombre": "Sorbitol",
-    "sinonimos": ["D-glucitol", "E420"],
-    "descripcion": "Polyol à double fonction : édulcorant de charge et humectant qui aide à retenir l'humidité et à maintenir la texture des produits dans le temps. C'est un classique en confiserie, en boulangerie et dans les dentifrices. Le choix entre la présentation solide ou le sirop dépend du procédé de chaque client.",
+    "nombre": "Sorbitol 70 %",
+    "sinonimos": ["Sorbitol", "D-glucitol", "E420"],
+    "descripcion": "Polyol à double fonction : édulcorant de charge et humectant qui aide à retenir l'humidité et à conserver la texture des produits dans le temps. C'est un classique de la confiserie, de la boulangerie et des dentifrices. Il est également employé comme humectant et excipient dans les sirops et les formulations pharmaceutiques et vétérinaires, et comme plastifiant dans l'entretien et l'industrie. Le choix entre la présentation solide ou sirop dépend du procédé de chaque client.",
     "funciones": ["Édulcorant de charge", "Humectant", "Plastifiant de textures"],
-    "aplicaciones": ["Confiserie et chewing-gums", "Boulangerie et pâtisserie", "Dentifrices", "Sirops"],
+    "aplicaciones": ["Confiserie et chewing-gums", "Boulangerie et pâtisserie", "Dentifrices", "Sirops", "Humectant en entretien et usages industriels"],
     "formas_referenciales": ["Solide — poudre ou granulé selon le fabricant et le lot", "Liquide — solution aqueuse selon la présentation du lot"]
   },
   {
     "id": "lecitina-de-soya",
     "nombre": "Lécithine de soja",
-    "sinonimos": ["Lécithine végétale", "E322"],
-    "descripcion": "Émulsifiant naturel dérivé de l'huile de soja, référence en chocolaterie pour contrôler la viscosité et en boulangerie pour améliorer le maniement des pâtes. Il facilite l'intégration des phases grasses et aqueuses et agit comme agent de dispersion et de démoulage. Disponible en qualités fluides et déshuilées selon l'application.",
-    "funciones": ["Émulsifiant", "Agent de dispersion", "Améliorant de pâtes"],
-    "aplicaciones": ["Chocolaterie et enrobages", "Boulangerie", "Margarines et matières grasses", "Aliments composés pour animaux"],
-    "formas_referenciales": ["Liquide visqueux — teinte variable selon l'origine et le lot", "Solide — poudre ou granulés en qualités déshuilées selon le fabricant et le lot"]
+    "sinonimos": ["Lécithine de soya", "E322"],
+    "descripcion": "Émulsifiant naturel dérivé de l'huile de soja, référence en chocolaterie pour contrôler la viscosité et en boulangerie pour améliorer la maniabilité des pâtes. Il facilite l'intégration des phases grasses et aqueuses et agit comme agent de dispersion et de démoulage, en plus d'être utilisé en cosmétique, dans les compléments et dans les formulations pharmaceutiques. Disponible en qualités fluides et déshuilées selon l'application.",
+    "funciones": ["Émulsifiant", "Agent de dispersion", "Améliorant de pâtes", "Source de phospholipides"],
+    "aplicaciones": ["Chocolaterie et couvertures", "Boulangerie", "Margarines et matières grasses", "Aliments composés", "Cosmétique, compléments et liposomes pharmaceutiques"],
+    "formas_referenciales": ["Liquide visqueux — teinte variable, selon le fabricant et le lot", "Solide — poudre ou granulés en qualités déshuilées selon le fabricant et le lot"]
   },
   {
     "id": "mono-y-digliceridos",
@@ -182,10 +182,10 @@
   {
     "id": "polisorbato-80",
     "nombre": "Polysorbate 80",
-    "sinonimos": ["Monooléate de sorbitane polyoxyéthyléné", "Tween 80", "E433"],
-    "descripcion": "Émulsifiant non ionique hydrophile, utilisé pour stabiliser les émulsions huile dans eau et solubiliser les arômes et huiles essentielles dans les systèmes aqueux. Dans les crèmes glacées, il contribue à l'aération et à une texture douce. Il s'emploie dans les aliments conformément à la réglementation applicable des additifs.",
-    "funciones": ["Émulsifiant H/E", "Solubilisant", "Humectant"],
-    "aplicaciones": ["Crèmes glacées et desserts congelés", "Solubilisation d'arômes", "Sauces et assaisonnements", "Formulations vétérinaires"],
+    "sinonimos": ["Monooléate de sorbitane éthoxylé", "E433"],
+    "descripcion": "Émulsifiant non ionique hydrophile, utilisé pour stabiliser les émulsions huile dans eau et solubiliser les arômes et les huiles essentielles dans des systèmes aqueux en cosmétique, en produits d'entretien, dans les formulations pharmaceutiques et vétérinaires et dans les compléments. Dans les glaces, il contribue à l'aération et à une texture onctueuse. Il est employé dans les aliments conformément à la réglementation applicable aux additifs.",
+    "funciones": ["Émulsifiant H/E", "Solubilisant", "Dispersant"],
+    "aplicaciones": ["Glaces et desserts surgelés", "Solubilisation d'arômes", "Sauces et assaisonnements", "Formulations vétérinaires", "Cosmétiques et produits d'entretien"],
     "formas_referenciales": ["Liquide visqueux — teinte ambrée variable selon le fabricant et le lot"]
   },
   {
@@ -210,9 +210,9 @@
     "id": "maltodextrina",
     "nombre": "Maltodextrine",
     "sinonimos": ["Maltodextrine de maïs"],
-    "descripcion": "Glucide dérivé de l'amidon, utilisé comme agent de charge, support de séchage et agent d'encapsulation des saveurs et des couleurs. Sa faible hygroscopicité relative et son goût neutre la rendent idéale pour les mélanges en poudre et les boissons instantanées. Elle est proposée en différentes plages de dextrose équivalent selon l'application.",
-    "funciones": ["Agent de charge", "Support et agent d'encapsulation", "Épaississant léger"],
-    "aplicaciones": ["Boissons instantanées", "Mélanges en poudre et condiments", "Encapsulation d'arômes", "Nutrition sportive"],
+    "descripcion": "Glucide dérivé de l'amidon, utilisé comme agent de corps, support de séchage et encapsulant d'arômes et de colorants. Sa faible hygroscopicité relative et sa saveur neutre en font un choix idéal pour les mélanges en poudre et les boissons instantanées. Elle est proposée dans différentes plages de dextrose équivalent selon l'application et est également employée comme diluant et liant dans les formulations pharmaceutiques, vétérinaires et de compléments.",
+    "funciones": ["Agent de corps", "Support et encapsulant", "Épaississant léger", "Liant et diluant"],
+    "aplicaciones": ["Boissons instantanées", "Mélanges en poudre et condiments", "Encapsulation d'arômes", "Nutrition sportive", "Excipient dans les comprimés et poudres pharmaceutiques"],
     "formas_referenciales": ["Solide — poudre selon le fabricant et le lot"]
   },
   {
@@ -236,10 +236,10 @@
   {
     "id": "bicarbonato-de-sodio",
     "nombre": "Bicarbonate de sodium",
-    "sinonimos": ["Hydrogénocarbonate de sodium", "E500ii"],
-    "descripcion": "Sel polyvalent utilisé dans les aliments comme agent levant chimique et régulateur d'acidité. En combinaison avec des acidifiants, il libère du gaz qui apporte volume et moelleux aux produits cuits. Son usage s'étend aux boissons effervescentes, au nettoyage et à l'alimentation animale conformément à la réglementation applicable.",
-    "funciones": ["Agent levant chimique", "Régulateur de pH", "Agent effervescent"],
-    "aplicaciones": ["Boulangerie et pâtisserie", "Levures chimiques", "Boissons effervescentes", "Produits de nettoyage"],
+    "sinonimos": ["Carbonate acide de sodium", "E500ii"],
+    "descripcion": "Sel polyvalent utilisé dans les aliments comme agent levant chimique et régulateur d'acidité. En combinaison avec des acidulants, il libère un gaz qui apporte du volume et du moelleux aux produits de boulangerie. Son utilisation s'étend aux boissons et aux comprimés effervescents, au nettoyage, à la cosmétique, aux formulations pharmaceutiques, aux compléments et à l'alimentation animale, conformément à la réglementation applicable.",
+    "funciones": ["Agent levant chimique", "Régulateur de pH", "Effervescent", "Abrasif doux"],
+    "aplicaciones": ["Boulangerie et pâtisserie", "Poudres à lever", "Boissons et comprimés effervescents", "Produits de nettoyage", "Dentifrices et cosmétique"],
     "formas_referenciales": ["Solide — poudre, granulométrie variable selon le fabricant et le lot"]
   },
   {

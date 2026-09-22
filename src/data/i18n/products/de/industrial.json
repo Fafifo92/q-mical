@@ -12,10 +12,10 @@
     "id": "sulfato-de-aluminio",
     "nombre": "Aluminiumsulfat",
     "sinonimos": ["Schwefelsaure Tonerde", "Technischer Alaun"],
-    "descripcion": "Traditionelles anorganisches Koagulationsmittel für die Klärung von Wässern und Abwässern. Es fördert die Agglomeration suspendierter Partikel und Kolloide für die anschließende Sedimentation oder Filtration. Aufgrund seines Kosten-Leistungs-Verhältnisses gehört es zu den Rohstoffen mit dem höchsten Umschlag in Aufbereitungsanlagen.",
-    "funciones": ["Koagulationsmittel", "Klärmittel", "Alkalinitätseinstellung"],
-    "aplicaciones": ["Trinkwasseraufbereitung", "Behandlung industrieller Abwässer", "Leimung in der Papierindustrie", "Klärung von Schwimmbädern"],
-    "formas_referenciales": ["Fest — Granulat, Brocken oder Pulver, je nach Hersteller und Charge", "Flüssig — wässrige Lösung, je nach Verfügbarkeit der Charge"]
+    "descripcion": "Traditionelles anorganisches Koagulationsmittel zur Klärung von Wässern und Abwässern. Es fördert die Zusammenballung von suspendierten Partikeln und Kolloiden für die anschließende Sedimentation oder Filtration. Es wird außerdem als Fixierbeize in der Textilindustrie und beim Gerben sowie in weiteren Anwendungen in Kosmetik, Reinigungsprodukten und Veterinärmedizin je nach Formulierung und geltenden Vorschriften verwendet.",
+    "funciones": ["Koagulationsmittel", "Klärmittel", "Fixierbeize", "Alkalitätseinstellung"],
+    "aplicaciones": ["Trinkwasseraufbereitung", "Behandlung industrieller Abwässer", "Leimung in der Papierindustrie", "Schwimmbadklärung", "Ledergerbung und Textilbeize"],
+    "formas_referenciales": ["Feststoff — Granulat, Klumpen oder Pulver, je nach Hersteller und Charge", "Flüssigkeit — wässrige Lösung, je nach Hersteller und Charge"]
   },
   {
     "id": "poliacrilamida-anionica",
@@ -83,11 +83,11 @@
   {
     "id": "hidroxietilcelulosa",
     "nombre": "Hydroxyethylcellulose",
-    "sinonimos": ["HEC"],
-    "descripcion": "Nichtionisches, wasserlösliches Celluloseverdickungsmittel, Standard in wasserbasierten Bautenfarben zur Viskositätskontrolle, Wasserretention und Lagerstabilität. Es sorgt für einen guten Verlauf und geringe Spritzneigung während der Applikation. Darüber hinaus dient es als Rheologiemodifizierer in Gelen und Körperpflegeprodukten.",
-    "funciones": ["Verdickungsmittel", "Rheologiemodifizierer", "Wasserrückhaltemittel", "Stabilisator"],
-    "aplicaciones": ["Wasserbasierte Farben und Beschichtungen", "Klebstoffe und modifizierte Mörtel", "Gele und Shampoos", "Bohrspülungen"],
-    "formas_referenciales": ["Fest — Pulver, variable Korngrößenverteilung je nach Hersteller und Charge"]
+    "sinonimos": ["HEC", "Hydroxyethylcellulose", "Hydroxyethylcellulose"],
+    "descripcion": "Nichtionisches wasserlösliches Cellulose-Verdickungsmittel, Standard in wasserbasierten Architekturfarben zur Viskositätskontrolle, Wasserrückhaltung und Lagerstabilität. Es sorgt für gute Verlaufseigenschaften und Spritzfestigkeit bei der Anwendung. Es wird außerdem als Rheologiemodifikator in Reinigungsgelen, Körperpflegeprodukten und veterinärmedizinischen Produkten zur topischen Anwendung verwendet.",
+    "funciones": ["Verdickungsmittel", "Rheologiemodifikator", "Wasserrückhaltemittel", "Stabilisator"],
+    "aplicaciones": ["Wasserbasierte Farben und Beschichtungen", "Klebstoffe und modifizierte Mörtel", "Reinigungsgele und Shampoos", "Bohrflüssigkeiten", "Topische Veterinärprodukte"],
+    "formas_referenciales": ["Feststoff — Pulver, Korngröße variabel je nach Hersteller und Charge"]
   },
   {
     "id": "poliacrilato-de-sodio",
@@ -155,20 +155,20 @@
   {
     "id": "monoetilenglicol",
     "nombre": "Monoethylenglykol",
-    "sinonimos": ["MEG", "Ethylenglykol"],
-    "descripcion": "Industrieglykol, eingesetzt als Basis für Kühl- und Frostschutzflüssigkeiten sowie als Zwischenprodukt bei der Herstellung von Polyesterharzen. In wasserbasierten Farben wirkt es als Hilfsmittel für die Stabilität gegenüber Frost-Tau-Zyklen. Es ist nicht für Anwendungen mit Lebensmittelkontakt oder für die Körperpflege geeignet.",
-    "funciones": ["Basis für Kühlmittel", "Synthesezwischenprodukt", "Frost-Tau-Stabilisator"],
-    "aplicaciones": ["Kühl- und Frostschutzflüssigkeiten", "Polyesterharze und -fasern", "Wasserbasierte Farben", "Wärmeträgerflüssigkeiten"],
-    "formas_referenciales": ["Flüssig — je nach Hersteller und Charge"]
+    "sinonimos": ["MEG", "Ethylenglykol", "Ethylene glycol"],
+    "descripcion": "Glykol für den industriellen Einsatz, das als Basis von Kühl- und Frostschutzflüssigkeiten und als Zwischenprodukt bei der Herstellung von Polyesterharzen verwendet wird. In wasserbasierten Farben wirkt es als Hilfsmittel für die Stabilität bei Gefrier-Auftau-Zyklen. Es ist nicht für den Kontakt mit Lebensmitteln geeignet; seine Verwendung in Reinigungs- oder Körperpflegeprodukten muss bewertet und gemäß den geltenden Vorschriften geprüft werden.",
+    "funciones": ["Basis für Kühlmittel", "Synthesezwischenprodukt", "Gefrier-Auftau-Stabilisator"],
+    "aplicaciones": ["Kühl- und Frostschutzflüssigkeiten", "Polyesterharze und -fasern", "Wasserbasierte Farben", "Wärmeträgerflüssigkeiten", "Reinigungsformulierungen für den industriellen Einsatz"],
+    "formas_referenciales": ["Flüssigkeit — je nach Hersteller und Charge"]
   },
   {
     "id": "propilenglicol",
-    "nombre": "Propylenglykol",
-    "sinonimos": ["MPG", "1,2-Propandiol", "Monopropylenglykol"],
-    "descripcion": "Vielseitiges Glykol, eingesetzt als Lösemittel, Feuchthaltemittel und Träger in zahlreichen Industrien. Im Industriesegment dient es als Basis für Wärmeträgerflüssigkeiten mit geringer Toxizität und als Zwischenprodukt für Harze; die für Lebensmittel und Körperpflege geeigneten Qualitäten werden gemäß den geltenden Vorschriften eingesetzt. Sein Sicherheitsprofil macht es in sensiblen Anwendungen gegenüber anderen Glykolen zur bevorzugten Wahl.",
-    "funciones": ["Feuchthaltemittel", "Lösemittel", "Formulierungsträger", "Wärmeträgerflüssigkeit"],
-    "aplicaciones": ["Wärmeträgerflüssigkeiten", "Kosmetik- und Reinigungsformulierungen", "Träger in veterinären Vormischungen", "Ungesättigte Polyesterharze"],
-    "formas_referenciales": ["Flüssig — je nach Hersteller und Charge"]
+    "nombre": "Propylenglykol USP",
+    "sinonimos": ["Propylenglykol", "MPG", "1,2-Propandiol"],
+    "descripcion": "Vielseitiges Glykol, das als Lösungsmittel, Feuchthaltemittel und Träger in zahlreichen Industrien verwendet wird. Im industriellen Segment dient es als Basis wärmetechnischer Flüssigkeiten mit geringer Toxizität und als Zwischenprodukt in Harzen; die für Lebensmittel, Körperpflege, Pharmazie und Nutrazeutika geeigneten Qualitäten werden gemäß den geltenden Vorschriften eingesetzt. Sein Sicherheitsprofil macht es in sensiblen Anwendungen gegenüber anderen Glykolen zur bevorzugten Wahl.",
+    "funciones": ["Feuchthaltemittel", "Lösungsmittel", "Formulierungsträger", "Wärmeträgerflüssigkeit"],
+    "aplicaciones": ["Wärmeträgerflüssigkeiten", "Kosmetische und Reinigungsformulierungen", "Träger in veterinärmedizinischen Vormischungen", "Ungesättigte Polyesterharze", "Träger in pharmazeutischen und nutrazeutischen Formulierungen"],
+    "formas_referenciales": ["Flüssigkeit — je nach Hersteller und Charge"]
   },
   {
     "id": "dietilenglicol",
@@ -182,11 +182,11 @@
   {
     "id": "butilglicol",
     "nombre": "Butylglykol",
-    "sinonimos": ["2-Butoxyethanol", "Ethylenglykolmonobutylether", "BG"],
-    "descripcion": "Glykolether mit hervorragendem Kopplungsvermögen zwischen Wasser und organischen Lösemitteln. Er ist ein klassischer Bestandteil konzentrierter Entfetter und Allzweckreiniger und wirkt in wasserbasierten Farben als langsam verdunstendes Lösemittel, das die Filmbildung verbessert. Seine doppelte Affinität macht ihn in industriellen Reinigungsformulierungen sehr effizient.",
-    "funciones": ["Kopplungslösemittel", "Entfetter", "Filmbildehilfsmittel"],
-    "aplicaciones": ["Industrielle Reiniger und Entfetter", "Wasserbasierte Farben und Beschichtungen", "Druckfarben", "Entferner für hartnäckige Verschmutzungen"],
-    "formas_referenciales": ["Flüssig — je nach Hersteller und Charge"]
+    "sinonimos": ["2-Butoxyethanol", "Ethylenglykolmonobutylether", "EB"],
+    "descripcion": "Glykolether mit gutem Kopplungsvermögen zwischen Wasser und organischen Lösungsmitteln, der als Lösungsmittel und Kopplungsmittel in wässrigen Formulierungen verwendet wird. Er ist ein klassischer Bestandteil von Entfettern und Allzweckreinigern und wirkt als Koaleszenzmittel in Beschichtungen auf Wasserbasis. Seine Verwendung in Kosmetik und Veterinärmedizin unterliegt Einschränkungen, weshalb die geltenden Vorschriften geprüft werden.",
+    "funciones": ["Kopplungslösungsmittel", "Entfetter", "Formulierungslösungsmittel"],
+    "aplicaciones": ["Allzweckreiniger und Entfetter", "Glasreiniger und Reiniger für harte Oberflächen", "Entferner für starke Verschmutzungen", "Lösungsmittel in kosmetischen und veterinärmedizinischen Formulierungen, gemäß Vorschriften"],
+    "formas_referenciales": ["Flüssigkeit — je nach Hersteller und Charge"]
   },
   {
     "id": "dioctil-sulfosuccinato-de-sodio",
@@ -208,12 +208,12 @@
   },
   {
     "id": "antiespumante-de-silicona",
-    "nombre": "Silikonentschäumer",
-    "sinonimos": ["Silikon-Antischaummittel", "Silikonentschäumer-Emulsion"],
-    "descripcion": "Formulierung auf Basis von Polydimethylsiloxan und hydrophober Kieselsäure zur Schaumkontrolle in wässrigen Prozessen. Sie wirkt bereits in geringen Dosierungen, zerstört vorhandenen Schaum und verhindert dessen Neubildung, mit guter Persistenz in intensiv gerührten Systemen. Die Verträglichkeit mit Temperatur und pH-Wert des Prozesses wird in jeder Anwendung überprüft.",
+    "nombre": "Silikon-Entschäumer",
+    "sinonimos": ["Silikonentschäumer", "Silikon-Antischaummittel", "Silikon-Entschäumeremulsion"],
+    "descripcion": "Formulierung auf Basis von Polydimethylsiloxan und hydrophober Kieselsäure zur Schaumkontrolle in wässrigen Prozessen. Sie wirkt bereits in niedrigen Dosierungen, indem sie bestehenden Schaum zerstört und seine Neubildung verhindert, mit guter Wirkungsdauer in Systemen mit intensiver Rührung. Die Verträglichkeit mit Temperatur und pH-Wert sowie die Eignung für kosmetische, pharmazeutische oder veterinärmedizinische Prozesse werden in jeder Anwendung geprüft.",
     "funciones": ["Entschäumer", "Entlüfter", "Schaumkontrolle im Prozess"],
-    "aplicaciones": ["Kläranlagen", "Industrielle Fermentationsprozesse", "Färben und Waschen von Textilien", "Herstellung von Waschmitteln und Farben"],
-    "formas_referenciales": ["Flüssig — Emulsion oder Compound, je nach Hersteller und Charge"]
+    "aplicaciones": ["Wasseraufbereitungsanlagen", "Industrielle Fermentationsprozesse", "Textilfärbung und -wäsche", "Herstellung von Waschmitteln und Farben", "Schaumkontrolle in der Herstellung von Kosmetika und Pharmazeutika"],
+    "formas_referenciales": ["Flüssigkeit — Emulsion oder Compound, je nach Hersteller und Charge"]
   },
   {
     "id": "acido-sulfamico",

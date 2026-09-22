@@ -1,30 +1,30 @@
 [
   {
     "id": "vitamina-a",
-    "nombre": "Vitamin A (Retinylacetat)",
-    "sinonimos": ["Retinylacetat", "Vitamin-A-Acetat"],
-    "descripcion": "Fettlösliches Vitamin, das bei der Formulierung von Vitaminvormischungen und -kernen für die Tierernährung eingesetzt wird. Es liefert Vitamin-A-Aktivität, die mit dem Sehvermögen, dem Wachstum und der Integrität des Epithelgewebes in Verbindung gebracht wird, gemäß den geltenden Vorschriften. Es wird in stabilisierten Formen eingearbeitet, um seine Aktivität während des Mischens und der Lagerung vor Oxidation zu schützen.",
-    "funciones": ["Vitamin-A-Quelle", "Zusatzstoff für Vitaminvormischungen"],
-    "aplicaciones": ["Vitaminvormischungen", "Kernmischungen und Konzentrate", "Mischfutter für Geflügel", "Schweinefutter", "Ergänzungsfuttermittel für Rinder"],
-    "formas_referenciales": ["Fest – Pulver oder beschichtete Mikrogranulate, je nach Hersteller und Charge"]
+    "nombre": "Vitamin A Acetat (500.000 UI)",
+    "sinonimos": ["Retinylacetat", "Retinolacetat", "Retinyl Acetate", "Vitamin A (Retinylacetat)"],
+    "descripcion": "Fettlösliches Vitamin, das bei der Formulierung von Vitaminvormischungen und Kernmischungen für die Tierernährung sowie in Nahrungsergänzungsmitteln, angereicherten Lebensmitteln und kosmetischen Formulierungen für die Hautpflege verwendet wird. Es liefert Vitamin-A-Aktivität, die mit dem Sehvermögen, dem Wachstum und der Integrität der Epithelgewebe in Verbindung gebracht wird, gemäß den geltenden Vorschriften. Es wird in gegen Oxidation stabilisierten Formen während des Mischens und der Lagerung eingesetzt.",
+    "funciones": ["Vitamin-A-Quelle", "Zusatzstoff für Vitaminvormischungen", "Hautpflegewirkstoff"],
+    "aplicaciones": ["Vitaminvormischungen", "Kernmischungen und Konzentrate", "Alleinfuttermittel für Geflügel, Schweine und Rinder", "Nahrungsergänzungsmittel und angereicherte Lebensmittel", "Kosmetische Cremes und Seren"],
+    "formas_referenciales": ["Feststoff - Pulver oder beschichtete Mikrogranulate, je nach Hersteller und Charge"]
   },
   {
     "id": "vitamina-d3",
-    "nombre": "Vitamin D3 (Cholecalciferol)",
-    "sinonimos": ["Vitamin D3", "Colecalciferol"],
-    "descripcion": "Vitamin-D3-Quelle, die in Vormischungen und Ergänzungsfuttermitteln für die Tierernährung verwendet wird. Sie wird mit dem Calcium- und Phosphorstoffwechsel sowie mit der Knochenmineralisierung in Verbindung gebracht, gemäß den geltenden Vorschriften. Sie wird in stabilisierten Darreichungsformen gehandhabt, die ihre Dosierung und homogene Verteilung im Mischfutter erleichtern.",
-    "funciones": ["Vitamin-D3-Quelle", "Zusatzstoff für Vitaminvormischungen"],
-    "aplicaciones": ["Vitaminvormischungen", "Geflügelfutter", "Schweinefutter", "Mineralfutter für Rinder"],
-    "formas_referenciales": ["Fest – Pulver oder stabilisierte Mikrogranulate, je nach Hersteller und Charge"]
+    "nombre": "Vitamin D3",
+    "sinonimos": ["Colecalciferol", "Cholecalciferol", "Vitamin D3 (Colecalciferol)"],
+    "descripcion": "Vitamin-D3-Quelle, die in Vormischungen und Nahrungsergänzungsmitteln für die tierische und menschliche Ernährung, in angereicherten Lebensmitteln, einschließlich Milchprodukten, sowie in pharmazeutischen und kosmetischen Formulierungen verwendet wird. Sie wird mit dem Calcium- und Phosphorstoffwechsel und der Knochenmineralisierung in Verbindung gebracht, gemäß den geltenden Vorschriften. Sie wird in stabilisierten Darreichungsformen gehandhabt, die die Dosierung und Homogenisierung im Alleinfuttermittel erleichtern.",
+    "funciones": ["Vitamin-D3-Quelle", "Zusatzstoff für Vitaminvormischungen", "Lebensmittelanreicherungsstoff"],
+    "aplicaciones": ["Vitaminvormischungen", "Futtermittel für Geflügel und Schweine", "Mineralisierte Salze für Rinder", "Angereicherte Lebensmittel und Milchprodukte", "Nahrungsergänzungsmittel"],
+    "formas_referenciales": ["Feststoff - stabilisiertes Pulver oder stabilisierte Mikrogranulate, je nach Hersteller und Charge"]
   },
   {
     "id": "vitamina-e",
-    "nombre": "Vitamin E (DL-alpha-Tocopherylacetat)",
-    "sinonimos": ["alpha-Tocopherylacetat", "Tocopherolacetat", "Vitamin-E-Acetat"],
-    "descripcion": "Fettlösliches Antioxidans, das in Vormischungen für die Tierernährung sowie als Stabilisator von Fetten und Vitaminen im Futter eingesetzt wird. Es wird mit der Immunfunktion und dem Schutz der Zellmembranen vor Oxidation in Verbindung gebracht, gemäß den geltenden Vorschriften. Es wird außerdem als Antioxidans in kosmetischen und alimentären Formulierungen verwendet.",
+    "nombre": "Vitamin E Acetat",
+    "sinonimos": ["alpha-Tocopherylacetat", "Tocopherolacetat", "Tocopheryl Acetate", "Vitamin E (DL-alpha-Tocopherolacetat)"],
+    "descripcion": "Fettlösliches Antioxidans, das in Vormischungen für die Tierernährung und als Stabilisator für Fette und Vitamine im Futtermittel verwendet wird. Es wird mit der Immunfunktion und dem Schutz der Zellmembranen vor Oxidation in Verbindung gebracht, gemäß den geltenden Vorschriften. Es wird außerdem in kosmetischen Cremes, Lotionen und Seren sowie in pharmazeutischen und Lebensmittelformulierungen als Antioxidans und Vitamin-E-Quelle verwendet.",
     "funciones": ["Antioxidans", "Vitamin-E-Quelle", "Stabilisator für Vitamine und Fette"],
-    "aplicaciones": ["Vitaminvormischungen", "Kernmischungen für Monogastrier", "Fettstabilisierung im Futter", "Nutrazeutische Nahrungsergänzungsmittel"],
-    "formas_referenciales": ["Viskose ölige Flüssigkeit oder auf einem Träger adsorbiertes Pulver, je nach Darreichungsform des Herstellers und Charge"]
+    "aplicaciones": ["Vitaminvormischungen", "Kernmischungen für Monogastrier", "Stabilisierung von Fetten im Futtermittel", "Nutrazeutische Nahrungsergänzungsmittel", "Kosmetische Cremes, Lotionen und Seren"],
+    "formas_referenciales": ["Viskose ölige Flüssigkeit oder auf Trägerstoff adsorbiertes Pulver, je nach Hersteller und Charge"]
   },
   {
     "id": "vitamina-k3",
@@ -38,11 +38,11 @@
   {
     "id": "cloruro-de-colina",
     "nombre": "Cholinchlorid",
-    "sinonimos": ["Cholinchlorid auf Träger", "Cholin-Chlorid"],
-    "descripcion": "Nährstoff, der in Vormischungen und Mischfuttermitteln als Cholinquelle für die Tierernährung verwendet wird. Er wird mit dem Fettstoffwechsel, der Leberfunktion und der Bereitstellung von Methylgruppen in Verbindung gebracht, gemäß den geltenden Vorschriften. Er wird in flüssiger Form oder auf einem Trägerstoff aufgebracht angeboten, um seine Einarbeitung in die Mischung zu erleichtern.",
-    "funciones": ["Cholinquelle", "Methylgruppen-Donator", "Ernährungsphysiologischer Zusatzstoff"],
-    "aplicaciones": ["Mischfutter für Geflügel", "Schweinefutter", "Vormischungen und Kernmischungen", "Ergänzungsfuttermittel"],
-    "formas_referenciales": ["Flüssig oder Pulver auf Träger, je nach Darreichungsform des Herstellers und Charge"]
+    "sinonimos": ["Chlorcholin", "Cholinchlorid auf Trägerstoff", "Choline chloride"],
+    "descripcion": "Nährstoff, der in Vormischungen und Alleinfuttermitteln als Cholinquelle für die Tierernährung verwendet wird. Es wird mit dem Fettstoffwechsel, der Leberfunktion und der Bereitstellung von Methylgruppen in Verbindung gebracht, gemäß den geltenden Vorschriften. Es wird in flüssiger Form oder auf einem Trägerstoff angeboten, um die Einarbeitung in die Mischung zu erleichtern; ebenso wird es in Nahrungsergänzungsmitteln und oralen pharmazeutischen Zubereitungen verwendet.",
+    "funciones": ["Cholinquelle", "Methylgruppen-Donor", "Ernährungsphysiologischer Zusatzstoff"],
+    "aplicaciones": ["Alleinfuttermittel für Geflügel", "Futtermittel für Schweine", "Vormischungen und Kernmischungen", "Nahrungsergänzungsmittel und orale pharmazeutische Zubereitungen"],
+    "formas_referenciales": ["Flüssigkeit oder Pulver auf Trägerstoff, je nach Darreichungsform des Herstellers und Charge"]
   },
   {
     "id": "betaina-anhidra",
@@ -64,30 +64,30 @@
   },
   {
     "id": "oxido-de-zinc",
-    "nombre": "Zinkoxid",
-    "sinonimos": ["Zink(II)-oxid", "Zinkweiß"],
-    "descripcion": "Konzentrierte Zinkquelle, die in Mineralvormischungen für die Tierernährung verwendet wird. Sie liefert Zink, das mit enzymatischen Prozessen sowie mit der Gesundheit von Haut und Klauen in Verbindung gebracht wird, gemäß den geltenden Vorschriften. Zinkoxid wird außerdem als Bestandteil in kosmetischen und hautschützenden Formulierungen verwendet.",
-    "funciones": ["Zinkquelle", "Mineralisches Spurenelement"],
-    "aplicaciones": ["Mineralvormischungen", "Schweinefutter", "Mineralfutter", "Cremes und Salben für die Hautpflege"],
-    "formas_referenciales": ["Fest – Pulver, variable Körnung je nach Hersteller und Charge"]
+    "nombre": "Zinkoxid USP",
+    "sinonimos": ["Zinkoxid", "Zinkweiß", "Zinkoxid", "Zinc Oxide"],
+    "descripcion": "Mineralisches Oxid in Pulverform, das in der Kosmetik als physikalischer UV-Breitbandfilter, Trübungsmittel und Hautschutzmittel verwendet wird. Es wird in Sonnenschutzmitteln, Barrierecremes und dermatologischen Salben eingesetzt; die Korngröße und die Oberflächenbehandlung werden im Datenblatt der verfügbaren Charge bestätigt.",
+    "funciones": ["Physikalischer UV-Filter", "Hautschutzmittel", "Trübungsmittel", "Mildes Adstringens"],
+    "aplicaciones": ["Mineralische Sonnenschutzmittel", "Hautpflegecremes und -salben", "Barrierecremes", "Make-up und Mineralpuder"],
+    "formas_referenciales": ["Feststoff - Pulver, Korngröße variabel je nach Hersteller und Charge"]
   },
   {
     "id": "sulfato-de-cobre",
-    "nombre": "Kupfersulfat-Pentahydrat",
-    "sinonimos": ["Kupfer(II)-sulfat", "Kupfervitriol", "Blaustein"],
-    "descripcion": "Kupferquelle, die in Mineralvormischungen für die Tierernährung verwendet wird. Kupfer wird mit dem Eisenstoffwechsel, der Pigmentierung und der Enzymfunktion in Verbindung gebracht, gemäß den geltenden Vorschriften. Außerhalb der Tierernährung wird es in der Wasseraufbereitung und als landwirtschaftliches Spurenelement eingesetzt.",
-    "funciones": ["Kupferquelle", "Mineralisches Spurenelement"],
-    "aplicaciones": ["Mineralvormischungen", "Mineralfutter", "Wasseraufbereitung", "Landwirtschaftliche Spurenelemente"],
-    "formas_referenciales": ["Fest – Kristalle oder Pulver, je nach Hersteller und Charge"]
+    "nombre": "Kupfersulfat",
+    "sinonimos": ["Kupfer(II)-sulfat", "Kupfersulfat-Pentahydrat", "Blauer Vitriol"],
+    "descripcion": "Kupferquelle, die in Mineralvormischungen für die Tierernährung verwendet wird. Kupfer wird mit dem Eisenstoffwechsel, der Pigmentierung und der Enzymfunktion in Verbindung gebracht, gemäß den geltenden Vorschriften. Außerhalb der Tierernährung wird es in der Wasser- und Schwimmbadaufbereitung, als landwirtschaftliches Spurenelement und als Grundlage fungizider Produkte eingesetzt.",
+    "funciones": ["Kupferquelle", "Mineralisches Spurenelement", "Algizid", "Fungizid"],
+    "aplicaciones": ["Mineralvormischungen", "Mineralisierte Salze", "Algizid in Schwimmbädern und bei der Wasseraufbereitung", "Landwirtschaftliche Spurenelemente", "Landwirtschaftliche fungizide Formulierungen"],
+    "formas_referenciales": ["Feststoff - Kristalle oder Pulver, je nach Hersteller und Charge"]
   },
   {
     "id": "sulfato-de-manganeso",
-    "nombre": "Mangansulfat-Monohydrat",
-    "sinonimos": ["Mangan(II)-sulfat", "Mangansulfat"],
-    "descripcion": "Manganquelle, die in Mineralvormischungen für die Tierernährung eingesetzt wird. Mangan wird mit der Knochenbildung und verschiedenen Enzymsystemen in Verbindung gebracht, gemäß den geltenden Vorschriften. Es wird außerdem als Spurenelement in Programmen der Pflanzenernährung verwendet.",
-    "funciones": ["Manganquelle", "Mineralisches Spurenelement"],
-    "aplicaciones": ["Mineralvormischungen", "Mineralfutter", "Mischfutter", "Düngemittel mit Spurenelementen"],
-    "formas_referenciales": ["Fest – Pulver oder Granulat, je nach Hersteller und Charge"]
+    "nombre": "Mangansulfat",
+    "sinonimos": ["Mangan(II)-sulfat", "Manganosulfat", "Mangansulfat-Monohydrat"],
+    "descripcion": "Manganquelle, die in Mineralvormischungen für die Tierernährung verwendet wird. Mangan wird mit der Knochenbildung und verschiedenen Enzymsystemen in Verbindung gebracht, gemäß den geltenden Vorschriften. Es wird außerdem als Spurenelement in Programmen zur Pflanzenernährung und als katalytischer Rohstoff in chemischen Prozessen eingesetzt.",
+    "funciones": ["Manganquelle", "Mineralisches Spurenelement", "Katalysator in chemischen Prozessen"],
+    "aplicaciones": ["Mineralvormischungen", "Mineralisierte Salze", "Alleinfuttermittel", "Dünger mit Spurenelementen", "Katalysator und Reagenz in chemischen Prozessen"],
+    "formas_referenciales": ["Feststoff - Pulver oder Granulat, je nach Hersteller und Charge"]
   },
   {
     "id": "selenito-de-sodio",
@@ -100,12 +100,12 @@
   },
   {
     "id": "l-lisina",
-    "nombre": "L-Lysin-Monohydrochlorid",
-    "sinonimos": ["L-Lysin HCl", "L-Lysin-Hydrochlorid", "Lysin"],
-    "descripcion": "Essentielle Aminosäure, die bei der Formulierung von Mischfuttermitteln für die Tierernährung eingesetzt wird. Sie ermöglicht es, das Aminosäureprofil der Ration auszugleichen und die Proteinversorgung zu optimieren, gemäß den geltenden Vorschriften. Sie ist eine der am häufigsten eingesetzten limitierenden Aminosäuren in Rationen für Geflügel und Schweine.",
-    "funciones": ["Essentielle Aminosäure", "Ausgleich des Aminosäureprofils"],
-    "aplicaciones": ["Geflügelfutter", "Schweinefutter", "Rationen mit niedrigem Proteingehalt", "Aquakultur"],
-    "formas_referenciales": ["Fest – Pulver oder Granulat, je nach Hersteller und Charge"]
+    "nombre": "L-Lysin HCl",
+    "sinonimos": ["L-Lysin-Hydrochlorid", "L-Lysin HCl", "L-Lysinhydrochlorid", "Lysin"],
+    "descripcion": "Essenzielle Aminosäure, verwendet bei der Formulierung von Alleinfuttermitteln für die Tierernährung. Sie ermöglicht es, das Aminosäureprofil der Ration auszugleichen und die Proteinversorgung zu optimieren, gemäß den geltenden Vorschriften. Sie ist eine der am häufigsten eingesetzten limitierenden Aminosäuren in Rationen für Geflügel und Schweine und wird auch in Nahrungsergänzungsmitteln sowie in kosmetischen und pharmazeutischen Formulierungen verwendet, wo sie mit der Kollagensynthese in Verbindung gebracht wird.",
+    "funciones": ["Essenzielle Aminosäure", "Aminosäurenausgleich", "Inhaltsstoff für Nahrungsergänzungsmittel"],
+    "aplicaciones": ["Geflügelfutter", "Schweinefutter", "Proteinarme Rationen", "Aquakultur", "Nahrungsergänzungsmittel sowie kosmetische oder pharmazeutische Formulierungen"],
+    "formas_referenciales": ["Feststoff - Pulver oder Granulat, je nach Hersteller und Charge"]
   },
   {
     "id": "dl-metionina",

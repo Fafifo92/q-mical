@@ -1,7 +1,7 @@
 {
   "meta": {
     "slogan": "Des matières premières choisies avec rigueur technique",
-    "descripcion": "Origen Chemical distribue des matières premières pour la cosmétique, la nutraceutique, l'alimentation, l'entretien, l'agro, le vétérinaire et l'industrie en Colombie, avec un conseil technique personnalisé et des volumes adaptés à chaque formulation.",
+    "descripcion": "Origen Chemical distribue des matières premières pour la cosmétique, la nutraceutique, la pharmacie, l'alimentation, l'entretien, l'agro, le vétérinaire et l'industrie en Colombie, avec un conseil technique personnalisé et des volumes adaptés à chaque formulation.",
     "waBase": "Bonjour, Origen Chemical 👋 Je souhaite des informations sur vos matières premières."
   },
   "nav": {
@@ -79,8 +79,8 @@
       },
       {
         "etiqueta": "Achat sur mesure",
-        "titulo": "Des matières premières dès 1 kg",
-        "texto": "Sur une sélection de références, nous vendons dès 1 kg, avec fiche technique, fiche de données de sécurité et certificat d'analyse du lot.",
+        "titulo": "Matières premières en petites quantités",
+        "texto": "Pour une sélection de références, nous vendons des matériaux en petites quantités (1 à 5 kg) afin de vous éviter de vous retrouver avec des surplus de stock.",
         "boton": "Voir les questions fréquentes",
         "enlace": "/contacto#preguntas-frecuentes",
         "imagen": "/img/noticias/desde-1kg.jpg",
@@ -101,7 +101,7 @@
     "statIndustrias": "industries servies",
     "statMinimo": "achat minimum sur une sélection de références",
     "industriasEyebrow": "Industries",
-    "industriasTitulo": "Un portfolio, huit industries",
+    "industriasTitulo": "Un portfolio, neuf industries",
     "industriasTexto": "Explorez par industrie ou combinez les filtres de ligne de produits pour trouver exactement la matière première dont votre formulation a besoin.",
     "lineasEyebrow": "Lignes de produits",
     "lineasTitulo": "Entrez par ligne de produits",
@@ -143,11 +143,11 @@
   },
   "portafolio": {
     "tituloMeta": "Portfolio de matières premières",
-    "descripcionMeta": "Explorez plus de 200 matières premières pour la cosmétique, la nutraceutique, l'alimentation, l'entretien, l'agro, le vétérinaire et l'industrie. Filtrez par industrie et par ligne de produits.",
+    "descripcionMeta": "Explorez plus de 400 matières premières pour la cosmétique, la nutraceutique, la pharmacie, l'alimentation, l'entretien, l'agro, le vétérinaire et l'industrie. Filtrez par industrie et par ligne de produits.",
     "heroEyebrow": "Portfolio · Distribution B2B de matières premières · Colombie",
     "heroTitulo1": "La bonne matière première,",
     "heroTitulo2": "avec sa fiche technique à l'appui.",
-    "heroTexto": "Ingrédients et spécialités chimiques pour la cosmétique, la nutraceutique, l'alimentation, l'entretien, l'agro, le vétérinaire et l'industrie. Documentation par lot, échantillons et conseil technique — le tout géré sur WhatsApp.",
+    "heroTexto": "Ingrédients et spécialités chimiques pour la cosmétique, la nutraceutique, la pharmacie, l'alimentation, l'entretien, l'agro, le vétérinaire et l'industrie. Documentation par lot, échantillons et conseil technique — le tout géré sur WhatsApp.",
     "heroBuscarPlaceholder": "Cherchez par nom ou INCI : glycérine, niacinamide, gomme xanthane…",
     "buscarAria": "Rechercher une matière première",
     "buscarBoton": "Rechercher",
@@ -345,10 +345,10 @@
     "principiosTitulo": "Quatre règles non négociables",
     "principiosTexto": "C'est la raison pour laquelle un client qui achète une fois chez nous a tendance à rester.",
     "principios": [
-      { "titulo": "Dire la vérité sur le lot", "texto": "La forme physique et les spécifications varient d'un fabricant et d'un lot à l'autre. Notre politique : décrire des présentations indicatives et toujours confirmer la fiche technique réelle avant de vendre. Nous préférons perdre une vente que gagner une réclamation." },
+      { "titulo": "Vérifiez toujours les spécifications", "texto": "Demandez à notre équipe commerciale la documentation technique de vos matières premières afin de vérifier que leurs spécifications correspondent aux besoins de votre formulation." },
       { "titulo": "Des conseillers, pas des preneurs de commande", "texto": "La personne qui vous répond sur WhatsApp comprend la différence entre un tensioactif anionique et un amphotère. Si nous ne savons pas quelque chose, nous le vérifions auprès du fabricant — nous n'improvisons pas." },
       { "titulo": "Rapidité avec traçabilité", "texto": "Nous établissons les devis vite parce que la production n'attend pas, mais chaque expédition part avec sa documentation complète. La rapidité sans papiers, ce n'est pas un service, c'est un risque." },
-      { "titulo": "Des ingrédients avec une origine", "texto": "Nous travaillons avec des fabricants internationaux et nous valorisons aussi les ingrédients de Colombie et d'Amérique latine — cacao, sacha inchi, cupuaçu — parce que la biodiversité de la région est une matière première de classe mondiale." }
+      { "titulo": "Des ingrédients avec une origine", "texto": "Nous travaillons avec des fabricants internationaux et nous valorisons aussi les ingrédients de Colombie et d'Amérique latine parce que la biodiversité de la région est une matière première de classe mondiale." }
     ],
     "distribuimosTitulo": "Ce que nous distribuons",
     "entregamosTitulo": "Où nous livrons",
@@ -396,8 +396,8 @@
     "pie": "Distribution B2B de matières premières · Colombie",
     "lineaEtiqueta": "Ligne de produits",
     "tarjetas": [
-      { "archivo": "general", "etiqueta": "Matières premières", "titulo": "La bonne matière première, avec sa fiche technique à l'appui.", "bajada": "227 références · Conseil technique · Documentation par lot" },
-      { "archivo": "productos", "etiqueta": "Portfolio", "titulo": "227 matières premières pour votre industrie", "bajada": "12 lignes de produits · 8 industries · Devis sur WhatsApp" },
+      { "archivo": "general", "etiqueta": "Matières premières", "titulo": "La bonne matière première, avec sa fiche technique à l'appui.", "bajada": "{productos} références · Conseil technique · Documentation par lot" },
+      { "archivo": "productos", "etiqueta": "Portfolio", "titulo": "{productos} matières premières pour votre industrie", "bajada": "{lineas} lignes de produits · {industrias} industries · Devis sur WhatsApp" },
       { "archivo": "cotizacion", "etiqueta": "Devis", "titulo": "Un devis à la hauteur des usages du métier", "bajada": "Produit, quantité et présentation — réponse sur WhatsApp." },
       { "archivo": "contacto", "etiqueta": "Contactez-nous", "titulo": "Parlons de votre prochaine formulation", "bajada": "Cra. 68I # 36-21 Sur, Bogotá · Conseil technique sur WhatsApp" },
       { "archivo": "nosotros", "etiqueta": "À propos", "titulo": "L'origine de chaque grand produit se trouve dans ses ingrédients", "bajada": "Des matières premières innovantes et des relations fondées sur la confiance." },

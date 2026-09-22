@@ -1,30 +1,30 @@
 [
   {
     "id": "vitamina-a",
-    "nombre": "Vitamin A (Retinyl Acetate)",
-    "sinonimos": ["Retinyl Acetate", "Vitamin A Acetate"],
-    "descripcion": "Fat-soluble vitamin used in the formulation of vitamin premixes and nucleus premixes for animal nutrition. It provides vitamin A activity associated with vision, growth, and the integrity of epithelial tissues, in accordance with applicable regulations. It is incorporated in stabilized forms to protect its activity against oxidation during mixing and storage.",
-    "funciones": ["Source of vitamin A", "Vitamin premix additive"],
-    "aplicaciones": ["Vitamin premixes", "Nucleus premixes and concentrates", "Balanced feed for poultry", "Feed for pigs", "Supplements for cattle"],
-    "formas_referenciales": ["Solid — powder or coated microgranules, depending on the manufacturer and batch"]
+    "nombre": "Vitamin A Acetate (500,000 IU)",
+    "sinonimos": ["Retinyl Acetate", "Retinyl acetate", "Retinyl Acetate", "Vitamin A (Retinyl Acetate)"],
+    "descripcion": "Fat-soluble vitamin used in the formulation of vitamin premixes and cores for animal nutrition, and also in supplements, fortified foods and cosmetic formulations for skin care. It provides vitamin A activity associated with vision, growth and the integrity of epithelial tissues, in line with applicable regulations. It is incorporated in forms stabilized against oxidation during mixing and storage.",
+    "funciones": ["Vitamin A source", "Vitamin premix additive", "Skin care active"],
+    "aplicaciones": ["Vitamin premixes", "Cores and concentrates", "Compound feed for poultry, swine and cattle", "Supplements and fortified foods", "Cosmetic creams and serums"],
+    "formas_referenciales": ["Solid - powder or coated microgranules, depending on the manufacturer and batch"]
   },
   {
     "id": "vitamina-d3",
-    "nombre": "Vitamin D3 (Cholecalciferol)",
-    "sinonimos": ["Cholecalciferol"],
-    "descripcion": "Source of vitamin D3 used in premixes and supplements for animal nutrition. It is associated with calcium and phosphorus metabolism and with bone mineralization, in accordance with applicable regulations. It is handled in stabilized presentations that facilitate its dosing and homogenization in balanced feed.",
-    "funciones": ["Source of vitamin D3", "Vitamin premix additive"],
-    "aplicaciones": ["Vitamin premixes", "Feed for poultry", "Feed for pigs", "Mineralized salts for cattle"],
-    "formas_referenciales": ["Solid — powder or stabilized microgranules, depending on the manufacturer and batch"]
+    "nombre": "Vitamin D3",
+    "sinonimos": ["Cholecalciferol", "Cholecalciferol", "Vitamin D3 (Cholecalciferol)"],
+    "descripcion": "Source of vitamin D3 used in premixes and supplements for animal and human nutrition, in fortified foods, including dairy products, and in pharmaceutical and cosmetic formulations. It is associated with calcium and phosphorus metabolism and bone mineralization, in line with applicable regulations. It is handled in stabilized forms that facilitate its dosing and homogenization in compound feed.",
+    "funciones": ["Vitamin D3 source", "Vitamin premix additive", "Food fortifier"],
+    "aplicaciones": ["Vitamin premixes", "Feed for poultry and swine", "Mineralized salts for cattle", "Fortified foods and dairy products", "Nutritional supplements"],
+    "formas_referenciales": ["Solid - stabilized powder or microgranules, depending on the manufacturer and batch"]
   },
   {
     "id": "vitamina-e",
-    "nombre": "Vitamin E (DL-alpha-Tocopheryl Acetate)",
-    "sinonimos": ["alpha-Tocopheryl Acetate", "Tocopheryl Acetate", "Vitamin E Acetate"],
-    "descripcion": "Fat-soluble antioxidant used in premixes for animal nutrition and as a stabilizer of fats and vitamins in feed. It is associated with immune function and with the protection of cell membranes against oxidation, in accordance with applicable regulations. It is also used as an antioxidant in cosmetic and food formulations.",
-    "funciones": ["Antioxidant", "Source of vitamin E", "Stabilizer of vitamins and fats"],
-    "aplicaciones": ["Vitamin premixes", "Nucleus premixes for monogastrics", "Fat stabilization in feed", "Nutraceutical supplements"],
-    "formas_referenciales": ["Viscous oily liquid or powder adsorbed onto a carrier, depending on the manufacturer's presentation and batch"]
+    "nombre": "Vitamin E Acetate",
+    "sinonimos": ["Alpha-tocopheryl acetate", "Tocopherol acetate", "Tocopheryl Acetate", "Vitamin E (DL-alpha-Tocopherol Acetate)"],
+    "descripcion": "Fat-soluble antioxidant used in premixes for animal nutrition and as a stabilizer of fats and vitamins in feed. It is associated with immune function and the protection of cell membranes against oxidation, in line with applicable regulations. It is also used in cosmetic creams, lotions and serums, and in pharmaceutical and food formulations as an antioxidant and source of vitamin E.",
+    "funciones": ["Antioxidant", "Vitamin E source", "Stabilizer of vitamins and fats"],
+    "aplicaciones": ["Vitamin premixes", "Cores for monogastrics", "Fat stabilization in feed", "Nutraceutical supplements", "Cosmetic creams, lotions and serums"],
+    "formas_referenciales": ["Viscous oily liquid or powder adsorbed on a carrier, depending on the manufacturer and batch"]
   },
   {
     "id": "vitamina-k3",
@@ -38,11 +38,11 @@
   {
     "id": "cloruro-de-colina",
     "nombre": "Choline Chloride",
-    "sinonimos": ["Choline Chloride on carrier"],
-    "descripcion": "Nutrient used in premixes and balanced feed as a source of choline for animal nutrition. It is associated with fat metabolism, liver function, and the supply of methyl groups, in accordance with applicable regulations. It is offered in a liquid presentation or supported on a carrier to facilitate its incorporation into the mixture.",
-    "funciones": ["Source of choline", "Methyl group donor", "Nutritional additive"],
-    "aplicaciones": ["Balanced feed for poultry", "Feed for pigs", "Premixes and nucleus premixes", "Supplements"],
-    "formas_referenciales": ["Liquid or powder on a carrier, depending on the manufacturer's presentation and batch"]
+    "sinonimos": ["Choline chloride", "Choline chloride on carrier", "Choline chloride"],
+    "descripcion": "Nutrient used in premixes and compound feeds as a source of choline for animal nutrition. It is associated with fat metabolism, liver function and the supply of methyl groups, in line with applicable regulations. It is offered in liquid form or supported on a carrier to facilitate its incorporation into the mix; it is also used in supplements and oral pharmaceutical preparations.",
+    "funciones": ["Choline source", "Methyl group donor", "Nutritional additive"],
+    "aplicaciones": ["Compound feed for poultry", "Feed for swine", "Premixes and cores", "Supplements and oral pharmaceutical preparations"],
+    "formas_referenciales": ["Liquid or powder on carrier, depending on the manufacturer's presentation and batch"]
   },
   {
     "id": "betaina-anhidra",
@@ -64,30 +64,30 @@
   },
   {
     "id": "oxido-de-zinc",
-    "nombre": "Zinc Oxide",
-    "sinonimos": ["Zinc White", "Flowers of Zinc"],
-    "descripcion": "Concentrated source of zinc used in mineral premixes for animal nutrition. It provides zinc associated with enzymatic processes and with the health of the skin and hooves, in accordance with applicable regulations. Zinc oxide is also used as an ingredient in cosmetic and skin-protection formulations.",
-    "funciones": ["Source of zinc", "Mineral micronutrient"],
-    "aplicaciones": ["Mineral premixes", "Feed for pigs", "Mineralized salts", "Skin-care creams and ointments"],
-    "formas_referenciales": ["Solid — powder, particle size varies depending on the manufacturer and batch"]
+    "nombre": "Zinc Oxide USP",
+    "sinonimos": ["Zinc oxide", "Zinc white", "Zinc Oxide", "Zinc Oxide"],
+    "descripcion": "Mineral oxide powder used in cosmetics as a broad-spectrum physical UV filter, opacifier and skin protection agent. It is used in sunscreens, barrier creams and dermal ointments; particle size and surface treatment are confirmed in the technical data sheet of the available batch.",
+    "funciones": ["Physical UV filter", "Skin protectant", "Opacifier", "Mild astringent"],
+    "aplicaciones": ["Mineral sunscreens", "Skin care creams and ointments", "Barrier creams", "Makeup and mineral powders"],
+    "formas_referenciales": ["Solid - powder, particle size varies depending on the manufacturer and batch"]
   },
   {
     "id": "sulfato-de-cobre",
-    "nombre": "Copper Sulfate Pentahydrate",
-    "sinonimos": ["Cupric Sulfate", "Blue Vitriol"],
-    "descripcion": "Source of copper used in mineral premixes for animal nutrition. Copper is associated with iron metabolism, pigmentation, and enzyme function, in accordance with applicable regulations. Beyond animal nutrition it is used in water treatment and as an agricultural micronutrient.",
-    "funciones": ["Source of copper", "Mineral micronutrient"],
-    "aplicaciones": ["Mineral premixes", "Mineralized salts", "Water treatment", "Agricultural micronutrients"],
-    "formas_referenciales": ["Solid — crystals or powder, depending on the manufacturer and batch"]
+    "nombre": "Copper Sulfate",
+    "sinonimos": ["Cupric sulfate", "Copper sulfate pentahydrate", "Blue vitriol"],
+    "descripcion": "Source of copper used in mineral premixes for animal nutrition. Copper is associated with iron metabolism, pigmentation and enzyme function, in line with applicable regulations. Outside animal nutrition it is used in water and pool treatment, as an agricultural trace element and as the basis of fungicidal products.",
+    "funciones": ["Copper source", "Mineral trace element", "Algaecide", "Fungicide"],
+    "aplicaciones": ["Mineral premixes", "Mineralized salts", "Algaecide in pools and water treatment", "Agricultural trace elements", "Agricultural fungicide formulations"],
+    "formas_referenciales": ["Solid - crystals or powder, depending on the manufacturer and batch"]
   },
   {
     "id": "sulfato-de-manganeso",
-    "nombre": "Manganese Sulfate Monohydrate",
-    "sinonimos": ["Manganous Sulfate", "Manganese(II) Sulfate"],
-    "descripcion": "Source of manganese used in mineral premixes for animal nutrition. Manganese is associated with bone formation and with various enzyme systems, in accordance with applicable regulations. It is also used as a micronutrient in plant nutrition programs.",
-    "funciones": ["Source of manganese", "Mineral micronutrient"],
-    "aplicaciones": ["Mineral premixes", "Mineralized salts", "Balanced feed", "Fertilizers with micronutrients"],
-    "formas_referenciales": ["Solid — powder or granules, depending on the manufacturer and batch"]
+    "nombre": "Manganese Sulfate",
+    "sinonimos": ["Manganous sulfate", "Manganese sulfate", "Manganese sulfate monohydrate"],
+    "descripcion": "Source of manganese used in mineral premixes for animal nutrition. Manganese is associated with bone formation and various enzyme systems, in line with applicable regulations. It is also used as a trace element in plant nutrition programs and as a catalytic input in chemical processes.",
+    "funciones": ["Manganese source", "Mineral trace element", "Catalyst in chemical processes"],
+    "aplicaciones": ["Mineral premixes", "Mineralized salts", "Compound feed", "Fertilizers with trace elements", "Catalyst and reagent in chemical processes"],
+    "formas_referenciales": ["Solid - powder or granules, depending on the manufacturer and batch"]
   },
   {
     "id": "selenito-de-sodio",
@@ -100,12 +100,12 @@
   },
   {
     "id": "l-lisina",
-    "nombre": "L-Lysine Hydrochloride",
-    "sinonimos": ["L-Lysine HCl", "Lysine"],
-    "descripcion": "Essential amino acid used in the formulation of balanced feed for animal nutrition. It allows the amino acid profile of the diet to be balanced and the protein supply to be optimized, in accordance with applicable regulations. It is one of the most widely used limiting amino acids in poultry and swine diets.",
-    "funciones": ["Essential amino acid", "Amino acid balance"],
-    "aplicaciones": ["Feed for poultry", "Feed for pigs", "Low-protein diets", "Aquaculture"],
-    "formas_referenciales": ["Solid — powder or granules, depending on the manufacturer and batch"]
+    "nombre": "L-Lysine HCl",
+    "sinonimos": ["L-Lysine Hydrochloride", "L-Lysine HCl", "L-Lysine hydrochloride", "Lysine"],
+    "descripcion": "Essential amino acid used in the formulation of balanced feed for animal nutrition. It helps balance the amino acid profile of the diet and optimize the protein contribution, in accordance with applicable regulations. It is one of the most widely used limiting amino acids in diets for poultry and swine, and is also used in supplements and in cosmetic and pharmaceutical formulations, where it is associated with collagen synthesis.",
+    "funciones": ["Essential amino acid", "Amino acid balance", "Supplement ingredient"],
+    "aplicaciones": ["Poultry feed", "Swine feed", "Low-protein diets", "Aquaculture", "Supplements and cosmetic or pharmaceutical formulations"],
+    "formas_referenciales": ["Solid - powder or granulate, depending on the manufacturer and batch"]
   },
   {
     "id": "dl-metionina",

@@ -67,6 +67,11 @@
       "corto": "Cosmetics",
       "tagline": "Actives, emollients, surfactants, colorants, and preservatives for skincare, hair care, and makeup."
     },
+    "farmaceutica": {
+      "nombre": "Pharmaceutical",
+      "corto": "Pharma",
+      "tagline": "Excipients, carriers, mineral salts, and raw materials for pharmaceutical formulations."
+    },
     "nutraceutica": {
       "nombre": "Nutraceuticals & Supplements",
       "corto": "Nutraceuticals",

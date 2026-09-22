@@ -11,11 +11,11 @@
   {
     "id": "sulfato-de-aluminio",
     "nombre": "Aluminum Sulfate",
-    "sinonimos": ["Alum", "Filter alum"],
-    "descripcion": "Traditional inorganic coagulant for the clarification of water and effluents. It promotes the agglomeration of suspended particles and colloids for subsequent sedimentation or filtration. It is one of the highest-turnover raw materials in treatment plants due to its cost-performance ratio.",
-    "funciones": ["Coagulant", "Clarifying agent", "Alkalinity adjustment"],
-    "aplicaciones": ["Drinking water treatment", "Industrial effluent treatment", "Sizing in the paper industry", "Swimming pool clarification"],
-    "formas_referenciales": ["Solid — granules, lumps, or powder, depending on the manufacturer and batch", "Liquid — aqueous solution, depending on batch availability"]
+    "sinonimos": ["Aluminic sulfate", "Industrial alum"],
+    "descripcion": "Traditional inorganic coagulant for the clarification of water and effluents. It promotes the agglomeration of suspended particles and colloids for subsequent sedimentation or filtration. It is also used as a fixing mordant in textiles and tanning, and in other cosmetic, cleaning and veterinary applications depending on the formulation and applicable regulations.",
+    "funciones": ["Coagulant", "Clarifier", "Fixing mordant", "Alkalinity adjustment"],
+    "aplicaciones": ["Drinking water treatment", "Industrial effluent treatment", "Sizing in the paper industry", "Pool clarification", "Leather tanning and textile mordant"],
+    "formas_referenciales": ["Solid — granules, lumps or powder, depending on the manufacturer and batch", "Liquid — aqueous solution, depending on the manufacturer and batch"]
   },
   {
     "id": "poliacrilamida-anionica",
@@ -83,11 +83,11 @@
   {
     "id": "hidroxietilcelulosa",
     "nombre": "Hydroxyethyl Cellulose",
-    "sinonimos": ["HEC"],
-    "descripcion": "Nonionic, water-soluble cellulosic thickener, a standard in water-based architectural paints for viscosity control, water retention, and storage stability. It provides good leveling and spatter resistance during application. It is also used as a rheology modifier in gels and personal care products.",
+    "sinonimos": ["HEC", "Hydroxyethyl cellulose", "Hydroxyethylcellulose"],
+    "descripcion": "Water-soluble nonionic cellulosic thickener, standard in water-based architectural paints for viscosity control, water retention and storage stability. It provides good leveling and spatter resistance during application. It is also used as a rheology modifier in cleaning gels, personal care products and topical veterinary products.",
     "funciones": ["Thickener", "Rheology modifier", "Water retention agent", "Stabilizer"],
-    "aplicaciones": ["Water-based paints and coatings", "Adhesives and modified mortars", "Gels and shampoos", "Drilling fluids"],
-    "formas_referenciales": ["Solid — powder, variable particle size depending on the manufacturer and batch"]
+    "aplicaciones": ["Water-based paints and coatings", "Modified adhesives and mortars", "Cleaning gels and shampoos", "Drilling fluids", "Topical veterinary products"],
+    "formas_referenciales": ["Solid — powder, particle size varies depending on the manufacturer and batch"]
   },
   {
     "id": "poliacrilato-de-sodio",
@@ -155,19 +155,19 @@
   {
     "id": "monoetilenglicol",
     "nombre": "Monoethylene Glycol",
-    "sinonimos": ["MEG", "Ethylene glycol"],
-    "descripcion": "Industrial-grade glycol used as the base for coolants and antifreeze fluids, and as an intermediate in the manufacture of polyester resins. In water-based paints, it acts as a freeze-thaw stability aid. It is not suitable for food-contact or personal care applications.",
+    "sinonimos": ["MEG", "Ethylene glycol", "Ethylene glycol"],
+    "descripcion": "Glycol for industrial use employed as a base for coolant and antifreeze fluids, and as an intermediate in the manufacture of polyester resins. In water-based paints it acts as an aid for freeze-thaw stability. It is not suitable for food contact; its use in household care or personal care must be evaluated and verified in accordance with applicable regulations.",
     "funciones": ["Coolant base", "Synthesis intermediate", "Freeze-thaw stabilizer"],
-    "aplicaciones": ["Coolants and antifreeze fluids", "Polyester resins and fibers", "Water-based paints", "Heat transfer fluids"],
+    "aplicaciones": ["Coolant and antifreeze fluids", "Polyester resins and fibers", "Water-based paints", "Heat transfer fluids", "Industrial cleaning formulations"],
     "formas_referenciales": ["Liquid — depending on the manufacturer and batch"]
   },
   {
     "id": "propilenglicol",
-    "nombre": "Propylene Glycol",
-    "sinonimos": ["MPG", "1,2-Propanediol", "Monopropylene glycol"],
-    "descripcion": "Versatile glycol used as a solvent, humectant, and vehicle across multiple industries. In the industrial segment, it serves as the base for low-toxicity thermal fluids and as an intermediate in resins; grades suitable for food and personal care are allocated in accordance with the applicable regulations. Its safety profile makes it preferred over other glycols in sensitive applications.",
-    "funciones": ["Humectant", "Solvent", "Formulation vehicle", "Thermal fluid"],
-    "aplicaciones": ["Heat transfer fluids", "Cosmetic and cleaning formulations", "Vehicle in veterinary premixes", "Unsaturated polyester resins"],
+    "nombre": "Propylene Glycol USP",
+    "sinonimos": ["Propylene glycol", "MPG", "1,2-Propanediol"],
+    "descripcion": "Versatile glycol used as a solvent, humectant and vehicle in multiple industries. In the industrial segment it serves as a base for low-toxicity heat transfer fluids and as an intermediate in resins; food-grade, personal care, pharmaceutical and nutraceutical grades are allocated in accordance with applicable regulations. Its safety profile makes it preferred over other glycols in sensitive applications.",
+    "funciones": ["Humectant", "Solvent", "Formulation vehicle", "Heat transfer fluid"],
+    "aplicaciones": ["Heat transfer fluids", "Cosmetic and household care formulations", "Vehicle in veterinary premixes", "Unsaturated polyester resins", "Vehicle in pharmaceutical and nutraceutical formulations"],
     "formas_referenciales": ["Liquid — depending on the manufacturer and batch"]
   },
   {
@@ -182,10 +182,10 @@
   {
     "id": "butilglicol",
     "nombre": "Butyl Glycol",
-    "sinonimos": ["2-Butoxyethanol", "Ethylene glycol monobutyl ether", "Glycol ether EB"],
-    "descripcion": "Glycol ether with excellent coupling power between water and organic solvents. It is a classic component of concentrated degreasers and multi-purpose cleaners, and acts as a tail solvent in water-based paints, improving film formation. Its dual affinity makes it highly efficient in industrial cleaning formulations.",
-    "funciones": ["Coupling solvent", "Degreaser", "Film formation aid"],
-    "aplicaciones": ["Industrial cleaners and degreasers", "Water-based paints and coatings", "Printing inks", "Heavy-duty soil removers"],
+    "sinonimos": ["2-Butoxyethanol", "Ethylene glycol monobutyl ether", "EB"],
+    "descripcion": "Glycol ether with good coupling power between water and organic solvents, used as a solvent and coupling agent in aqueous formulations. It is a classic component of degreasers and all-purpose cleaners, and acts as a coalescing solvent in water-based coatings. Its use in cosmetics and veterinary products is subject to restrictions, so the applicable regulations are verified.",
+    "funciones": ["Coupling solvent", "Degreaser", "Formulation solvent"],
+    "aplicaciones": ["All-purpose cleaners and degreasers", "Glass cleaners and hard-surface cleaners", "Heavy-soil removers", "Solvent in cosmetic and veterinary formulations, according to regulations"],
     "formas_referenciales": ["Liquid — depending on the manufacturer and batch"]
   },
   {
@@ -208,11 +208,11 @@
   },
   {
     "id": "antiespumante-de-silicona",
-    "nombre": "Silicone Defoamer",
-    "sinonimos": ["Silicone antifoam", "Silicone antifoam emulsion"],
-    "descripcion": "Formulation based on polydimethylsiloxane and hydrophobic silica for foam control in aqueous processes. It acts at low dosages by breaking existing foam and preventing its reformation, with good persistence in intensely agitated systems. Compatibility with the process temperature and pH is verified in each application.",
-    "funciones": ["Defoamer", "Deaerator", "In-process foam controller"],
-    "aplicaciones": ["Water treatment plants", "Industrial fermentation processes", "Textile dyeing and washing", "Detergent and paint manufacturing"],
+    "nombre": "Silicone Antifoam",
+    "sinonimos": ["Silicone antifoam", "Silicone defoamer", "Silicone antifoam emulsion"],
+    "descripcion": "Formulation based on polydimethylsiloxane and hydrophobic silica for foam control in aqueous processes. It acts at low doses by breaking existing foam and preventing its re-formation, with good persistence in systems with intense agitation. Compatibility with temperature and pH, and the suitable grade for cosmetic, pharmaceutical or veterinary processes, are verified for each application.",
+    "funciones": ["Antifoam", "Deaerator", "Process foam controller"],
+    "aplicaciones": ["Water treatment plants", "Industrial fermentation processes", "Textile dyeing and washing", "Manufacture of detergents and paints", "Foam control in cosmetic and pharmaceutical production"],
     "formas_referenciales": ["Liquid — emulsion or compound, depending on the manufacturer and batch"]
   },
   {

@@ -67,6 +67,11 @@
       "corto": "Kosmetik",
       "tagline": "Wirkstoffe, Emollients, Tenside, Farbstoffe und Konservierungsmittel für Skincare, Haarpflege und Make-up."
     },
+    "farmaceutica": {
+      "nombre": "Pharma",
+      "corto": "Pharma",
+      "tagline": "Hilfsstoffe, Trägerstoffe, Mineralsalze und Rohstoffe für pharmazeutische Formulierungen."
+    },
     "nutraceutica": {
       "nombre": "Nutrazeutik & Nahrungsergänzung",
       "corto": "Nutrazeutik",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "slogan": "Rohstoffe mit technischem Sachverstand",
-    "descripcion": "Origen Chemical vertreibt Rohstoffe für Kosmetik, Nutrazeutik, Lebensmittel, Reinigung, Agrar, Veterinär und Industrie in Kolumbien — mit persönlicher technischer Beratung und bedarfsgerechten Mengen für jede Formulierung.",
+    "descripcion": "Origen Chemical vertreibt Rohstoffe für Kosmetik, Nutrazeutik, Pharma, Lebensmittel, Reinigung, Agrar, Veterinär und Industrie in Kolumbien — mit persönlicher technischer Beratung und bedarfsgerechten Mengen für jede Formulierung.",
     "waBase": "Hallo, Origen Chemical 👋 Ich möchte Informationen zu Ihren Rohstoffen."
   },
   "nav": {
@@ -79,8 +79,8 @@
       },
       {
         "etiqueta": "Einkauf nach Maß",
-        "titulo": "Rohstoffe ab 1 kg",
-        "texto": "Ausgewählte Artikel verkaufen wir bereits ab 1 kg — mit technischem Datenblatt, Sicherheitsdatenblatt und Analysenzertifikat der Charge.",
+        "titulo": "Rohstoffe in kleinen Mengen",
+        "texto": "Für ausgewählte Artikel bieten wir Materialien in kleinen Mengen (1–5 kg) an, damit Sie keine überschüssigen Bestände behalten.",
         "boton": "Häufige Fragen ansehen",
         "enlace": "/contacto#preguntas-frecuentes",
         "imagen": "/img/noticias/desde-1kg.jpg",
@@ -101,7 +101,7 @@
     "statIndustrias": "betreute Branchen",
     "statMinimo": "Mindestmenge bei ausgewählten Artikeln",
     "industriasEyebrow": "Branchen",
-    "industriasTitulo": "Ein Portfolio, acht Branchen",
+    "industriasTitulo": "Ein Portfolio, neun Branchen",
     "industriasTexto": "Wählen Sie eine Branche oder kombinieren Sie Filter nach Produktlinie, um genau den Rohstoff zu finden, den Ihre Formulierung benötigt.",
     "lineasEyebrow": "Produktlinien",
     "lineasTitulo": "Einstieg über die Produktlinie",
@@ -143,11 +143,11 @@
   },
   "portafolio": {
     "tituloMeta": "Rohstoffportfolio",
-    "descripcionMeta": "Entdecken Sie über 200 Rohstoffe für Kosmetik, Nutrazeutik, Lebensmittel, Reinigung, Agrar, Veterinär und Industrie. Filtern Sie nach Branche und Produktlinie.",
+    "descripcionMeta": "Entdecken Sie über 400 Rohstoffe für Kosmetik, Nutrazeutik, Pharma, Lebensmittel, Reinigung, Agrar, Veterinär und Industrie. Filtern Sie nach Branche und Produktlinie.",
     "heroEyebrow": "Portfolio · B2B-Rohstoffdistribution · Kolumbien",
     "heroTitulo1": "Der richtige Rohstoff —",
     "heroTitulo2": "mit dem Datenblatt in der Hand.",
-    "heroTexto": "Inhaltsstoffe und chemische Spezialitäten für Kosmetik, Nutrazeutik, Lebensmittel, Reinigung, Agrar, Veterinär und Industrie. Dokumentation je Charge, Muster und technische Beratung — alles über WhatsApp abgewickelt.",
+    "heroTexto": "Inhaltsstoffe und chemische Spezialitäten für Kosmetik, Nutrazeutik, Pharma, Lebensmittel, Reinigung, Agrar, Veterinär und Industrie. Dokumentation je Charge, Muster und technische Beratung — alles über WhatsApp abgewickelt.",
     "heroBuscarPlaceholder": "Suche nach Name oder INCI: Glycerin, Niacinamid, Xanthan…",
     "buscarAria": "Rohstoff suchen",
     "buscarBoton": "Suchen",
@@ -345,10 +345,10 @@
     "principiosTitulo": "Vier Regeln, über die wir nicht verhandeln",
     "principiosTexto": "Sie sind der Grund, warum ein Kunde, der einmal bei uns kauft, meistens bleibt.",
     "principios": [
-      { "titulo": "Die Wahrheit über die Charge sagen", "texto": "Physikalische Form und Spezifikationen variieren zwischen Herstellern und Chargen. Unsere Politik: Lieferformen als Referenz beschreiben und vor dem Verkauf immer das tatsächliche technische Datenblatt bestätigen. Lieber verlieren wir einen Auftrag, als eine Reklamation zu riskieren." },
+      { "titulo": "Überprüfen Sie immer die Spezifikationen", "texto": "Fordern Sie bei unserem Vertriebsteam die technischen Unterlagen zu Ihren Rohstoffen an, um zu überprüfen, ob deren Spezifikationen mit den Anforderungen Ihrer Formulierung übereinstimmen.." },
       { "titulo": "Berater, keine Bestellannehmer", "texto": "Wer Ihnen auf WhatsApp antwortet, kennt den Unterschied zwischen einem anionischen und einem amphoteren Tensid. Wenn wir etwas nicht wissen, fragen wir beim Hersteller nach — wir improvisieren nicht." },
       { "titulo": "Tempo mit Rückverfolgbarkeit", "texto": "Wir erstellen Angebote schnell, weil die Produktion nicht wartet, aber jede Lieferung geht mit vollständiger Dokumentation hinaus. Schnelligkeit ohne Papiere ist kein Service, sondern ein Risiko." },
-      { "titulo": "Inhaltsstoffe mit Herkunft", "texto": "Wir arbeiten mit internationalen Herstellern und stärken zugleich Inhaltsstoffe aus Kolumbien und Lateinamerika — Kakao, Sacha Inchi, Cupuaçu —, denn die Biodiversität der Region ist Rohstoff von Weltklasse." }
+      { "titulo": "Inhaltsstoffe mit Herkunft", "texto": "Wir arbeiten mit internationalen Herstellern und stärken zugleich Inhaltsstoffe aus Kolumbien und Lateinamerika, denn die Biodiversität der Region ist Rohstoff von Weltklasse." }
     ],
     "distribuimosTitulo": "Was wir vertreiben",
     "entregamosTitulo": "Wohin wir liefern",
@@ -396,8 +396,8 @@
     "pie": "B2B-Rohstoffdistribution · Kolumbien",
     "lineaEtiqueta": "Produktlinie",
     "tarjetas": [
-      { "archivo": "general", "etiqueta": "Rohstoffe", "titulo": "Der richtige Rohstoff — mit dem Datenblatt in der Hand.", "bajada": "227 Artikel · Technische Beratung · Dokumentation je Charge" },
-      { "archivo": "productos", "etiqueta": "Portfolio", "titulo": "227 Rohstoffe für Ihre Branche", "bajada": "12 Produktlinien · 8 Branchen · Angebot per WhatsApp" },
+      { "archivo": "general", "etiqueta": "Rohstoffe", "titulo": "Der richtige Rohstoff — mit dem Datenblatt in der Hand.", "bajada": "{productos} Artikel · Technische Beratung · Dokumentation je Charge" },
+      { "archivo": "productos", "etiqueta": "Portfolio", "titulo": "{productos} Rohstoffe für Ihre Branche", "bajada": "{lineas} Produktlinien · {industrias} Branchen · Angebot per WhatsApp" },
       { "archivo": "cotizacion", "etiqueta": "Angebot", "titulo": "Anfragen, wie in dieser Branche angefragt wird", "bajada": "Produkt, Menge und Lieferform — Antwort per WhatsApp." },
       { "archivo": "contacto", "etiqueta": "Kontakt", "titulo": "Sprechen wir über Ihre nächste Formulierung", "bajada": "Cra. 68I # 36-21 Sur, Bogotá · Technische Beratung per WhatsApp" },
       { "archivo": "nosotros", "etiqueta": "Über uns", "titulo": "Der Ursprung jedes großen Produkts liegt in seinen Inhaltsstoffen", "bajada": "Innovative Rohstoffe und Beziehungen, die auf Vertrauen beruhen." },

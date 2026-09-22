@@ -1,39 +1,39 @@
 [
   {
     "id": "acido-sulfonico-lineal",
-    "nombre": "Linear Alkylbenzene Sulfonic Acid (LABSA)",
-    "sinonimos": ["LABSA", "Dodecylbenzene sulfonic acid", "DDBSA"],
-    "descripcion": "Anionic surfactant with high detergent and foaming power, the base of most liquid and powder detergents on the market. It is neutralized with caustic soda or other bases to form the active sulfonate in the formula. It is the reference raw material for dishwashing liquids, multi-purpose detergents, and degreasers for household and institutional use.",
+    "nombre": "Linear Sulfonic Acid",
+    "sinonimos": ["LABSA", "Linear dodecylbenzenesulfonic acid", "Linear sulfonic", "Linear Sulfonic Acid (LABSA)"],
+    "descripcion": "Anionic surfactant with high detergency and foaming power, the base of many liquid and powder detergents. It is neutralized with caustic soda or other bases to form the active sulfonate of the formula. It is a reference raw material for dishwashing detergents, multipurpose detergents and degreasers for household, institutional and veterinary facility cleaning use.",
     "funciones": ["Anionic surfactant", "Detergent", "Foaming agent"],
-    "aplicaciones": ["Liquid and powder detergents", "Dishwashing liquids", "Multi-purpose degreasers", "Institutional cleaners"],
-    "formas_referenciales": ["Viscous liquid — amber tone that varies depending on the manufacturer and batch"]
+    "aplicaciones": ["Liquid and powder detergents", "Dishwashing detergents", "Multipurpose degreasers", "Institutional cleaners", "Veterinary facility cleaners"],
+    "formas_referenciales": ["Viscous liquid — amber shade variable depending on the manufacturer and batch"]
   },
   {
     "id": "lauril-eter-sulfato-de-sodio",
-    "nombre": "Sodium Laureth Sulfate",
-    "sinonimos": ["SLES", "Sodium lauryl ether sulfate"],
-    "descripcion": "Versatile anionic surfactant, valued for its foaming capacity and its compatibility with other surfactants. It responds well to salt thickening, which makes it easy to formulate products with attractive viscosity at low cost. Used in dishwashing liquids, liquid soaps, shampoos, and multi-purpose cleaners.",
-    "funciones": ["Anionic surfactant", "Foaming agent", "Liquid detergent base"],
-    "aplicaciones": ["Liquid dishwashing detergents", "Liquid hand soaps", "Shampoos and shower gels", "Multi-purpose cleaners"],
-    "formas_referenciales": ["Paste or viscous liquid, depending on the grade and manufacturer"]
+    "nombre": "Sodium Lauryl Ether Sulfate 28%",
+    "sinonimos": ["SLES", "Sodium lauryl ether sulfate", "Sodium Lauryl Ether Sulfate", "Sodium Laureth Sulfate"],
+    "descripcion": "Versatile anionic surfactant, valued for its foaming capacity and compatibility with other surfactants. It responds well to salt thickening, which makes it easy to formulate products of attractive viscosity at low cost. Used in dishwashing liquids, liquid soaps, shampoos and all-purpose cleaners.",
+    "funciones": ["Anionic surfactant", "Foaming agent", "Base for liquid detergents"],
+    "aplicaciones": ["Liquid dishwashing detergents", "Liquid hand soaps", "Shampoos and bath gels", "All-purpose cleaners", "Veterinary shampoos and cleansers"],
+    "formas_referenciales": ["Paste or viscous liquid, depending on the manufacturer and batch"]
   },
   {
     "id": "lauril-sulfato-de-sodio",
-    "nombre": "Sodium Lauryl Sulfate",
-    "sinonimos": ["SLS", "Sodium dodecyl sulfate"],
-    "descripcion": "Anionic surfactant with abundant, fast-generating foam, with good wetting and detergent power in aqueous systems. It complements sodium laureth sulfate in formulas that require greater foam volume. Common in powder detergents, cleaning pastes, and foaming products.",
-    "funciones": ["Anionic surfactant", "Foaming agent", "Wetting agent"],
-    "aplicaciones": ["Powder detergents", "Cleaning pastes and creams", "Shampoos and toothpastes", "Industrial foaming agents"],
-    "formas_referenciales": ["Solid — powder or needles, depending on the manufacturer and batch", "Liquid — aqueous solution, depending on availability"]
+    "nombre": "Sodium Lauryl Sulfate Powder",
+    "sinonimos": ["SLS", "Sodium dodecyl sulfate", "Sodium Lauryl Sulfate"],
+    "descripcion": "Anionic surfactant with abundant, fast-generating foam, with good wetting and detergent power in aqueous systems. It complements lauryl ether sulfate in formulas that require greater foam volume. Common in powder detergents, cleaning pastes and foaming products, and used as a wetting agent in solid pharmaceutical forms.",
+    "funciones": ["Anionic surfactant", "Foaming agent", "Humectant"],
+    "aplicaciones": ["Powder detergents", "Cleaning pastes and creams", "Shampoos and toothpastes", "Industrial foaming agents", "Wetting excipient in tablets and powders"],
+    "formas_referenciales": ["Solid — powder or needles, depending on the manufacturer and batch"]
   },
   {
     "id": "oxido-de-lauramina",
     "nombre": "Lauramine Oxide",
-    "sinonimos": ["Lauryl dimethylamine oxide", "LDAO"],
-    "descripcion": "Amphoteric surfactant that boosts and stabilizes the foam of anionic systems and adds viscosity to the formula. It stands out for its compatibility with quaternary ammonium compounds, which makes it common in disinfectant cleaners. Used in dishwashing liquids, foaming cleaners, and cleaning products with cationic biocides.",
-    "funciones": ["Amphoteric surfactant", "Foam booster", "Thickener"],
-    "aplicaciones": ["Liquid dishwashing detergents", "Disinfectant cleaners with quats", "Foaming cleaners", "Shampoos and liquid soaps"],
-    "formas_referenciales": ["Aqueous liquid — clear to slightly cloudy, depending on the batch"]
+    "sinonimos": ["Lauryl dimethylamine oxide", "LDAO", "Lauramine Oxide", "Lauramine oxide"],
+    "descripcion": "Amphoteric surfactant that boosts and stabilizes the foam of anionic systems and adds viscosity to the formula. It stands out for its compatibility with quaternary ammonium compounds, which makes it common in disinfectant cleaners. Used in dishwashing liquids, foaming cleaners and degreasers, and cleaning products with cationic biocides.",
+    "funciones": ["Amphoteric surfactant", "Foam booster", "Thickener", "Degreaser"],
+    "aplicaciones": ["Liquid dishwashing detergents", "Disinfectant cleaners with quaternaries", "Foaming cleaners", "Shampoos and liquid soaps", "Surface degreasers"],
+    "formas_referenciales": ["Aqueous liquid — transparent to slightly hazy, depending on the manufacturer and batch"]
   },
   {
     "id": "alcohol-graso-etoxilado",
@@ -47,11 +47,11 @@
   {
     "id": "dietanolamida-de-coco",
     "nombre": "Cocamide DEA",
-    "sinonimos": ["CDEA", "Coconut diethanolamide", "Coconut fatty acid diethanolamide"],
-    "descripcion": "Classic thickener and foam stabilizer for anionic surfactant systems. It adds body and superfatting to liquid detergents and dishwashing liquids, and helps maintain foam in the presence of greasy soil. A traditional raw material in the cleaning and personal care industry.",
-    "funciones": ["Thickener", "Foam stabilizer", "Nonionic surfactant"],
-    "aplicaciones": ["Liquid dishwashing detergents", "Liquid detergents", "Shampoos", "Liquid soaps"],
-    "formas_referenciales": ["Viscous liquid — amber tone that varies depending on the manufacturer and batch"]
+    "sinonimos": ["CDEA", "Coconut diethanolamide", "Coconut fatty acid diethanolamide", "Cocamide DEA"],
+    "descripcion": "Classic thickener and foam stabilizer for anionic surfactant systems. It provides body and superfatting to liquid detergents and dishwashing liquids, and helps maintain foam in the presence of greasy soil. Traditional raw material in cleaning, personal care and hygiene products for pharmaceutical and veterinary use.",
+    "funciones": ["Thickener", "Foam stabilizer", "Non-ionic surfactant"],
+    "aplicaciones": ["Liquid dishwashing detergents", "Liquid detergents", "Shampoos", "Liquid soaps", "Pharmaceutical and veterinary hygiene"],
+    "formas_referenciales": ["Viscous liquid — amber shade varies depending on the manufacturer and batch"]
   },
   {
     "id": "alquilpoliglucosido",
@@ -92,29 +92,29 @@
   {
     "id": "peroxido-de-hidrogeno",
     "nombre": "Hydrogen Peroxide",
-    "sinonimos": ["Peroxide"],
-    "descripcion": "Oxidizing agent used as a bleach and as an active ingredient in disinfectant and sanitizing formulations. It decomposes into water and oxygen, which makes it attractive in low-residue formulas. Used in institutional cleaning, laundry, and industrial processes in accordance with applicable regulations.",
-    "funciones": ["Oxidizer", "Bleaching agent", "Disinfectant active"],
-    "aplicaciones": ["Surface disinfectants", "Laundry bleaching", "Institutional sanitization", "Textile bleaching"],
-    "formas_referenciales": ["Liquid — aqueous solution, depending on the available grade"]
+    "sinonimos": ["Oxygenated water", "H2O2"],
+    "descripcion": "Oxidizing agent used as a bleach and as an active in disinfectant and sanitizing formulations. It decomposes into water and oxygen, which makes it attractive in low-residue formulas. In cosmetics it is used as an oxidant in hair bleaching and coloring products, and in institutional cleaning, laundry and industrial processes in accordance with applicable regulations.",
+    "funciones": ["Oxidant", "Bleach", "Disinfectant active", "Hair oxidant"],
+    "aplicaciones": ["Surface disinfectants", "Laundry bleaching", "Institutional sanitization", "Textile bleaching", "Hair bleaching and coloring"],
+    "formas_referenciales": ["Colorless liquid — aqueous solution, depending on the manufacturer and batch"]
   },
   {
     "id": "acido-peracetico",
     "nombre": "Peracetic Acid",
     "sinonimos": ["PAA", "Peroxyacetic acid"],
-    "descripcion": "Powerful oxidizer used as a sanitizer in the food and beverage industry and in institutional disinfection. It works at low temperatures and degrades into byproducts with low environmental impact. Its handling and dosing are carried out in accordance with applicable regulations and the manufacturer's recommendations.",
+    "descripcion": "Potent oxidizer used as a sanitizer in the food and beverage industry and in institutional disinfection. It acts at low temperature and degrades into by-products with low environmental impact. It is also used in the sanitization of equipment and surfaces in cosmetic, pharmaceutical and nutraceutical plants, in accordance with applicable regulations and the manufacturer's recommendations.",
     "funciones": ["Sanitizer", "Oxidizer"],
-    "aplicaciones": ["CIP sanitization in food and beverage", "Disinfection of equipment and surfaces", "Agro-industrial biosecurity", "Process water treatment"],
-    "formas_referenciales": ["Liquid — equilibrium solution, depending on the grade and manufacturer"]
+    "aplicaciones": ["CIP sanitization in foods and beverages", "Disinfection of equipment and surfaces", "Agro-industrial biosecurity", "Process water treatment", "Sanitization of cosmetic and pharmaceutical plants"],
+    "formas_referenciales": ["Liquid — equilibrium solution, depending on the manufacturer and batch"]
   },
   {
     "id": "hipoclorito-de-sodio",
     "nombre": "Sodium Hypochlorite",
     "sinonimos": ["Bleach", "Liquid bleach"],
-    "descripcion": "The most widely used source of active chlorine in household and institutional liquid bleaches and disinfectants. Base raw material for commercial bleaches, chlorinated cleaners, and water treatment applications. The available chlorine content varies with time and storage conditions, so verifying the certificate of analysis (CoA) for each batch is recommended.",
-    "funciones": ["Chlorine bleach", "Disinfectant active"],
+    "descripcion": "Most widely used source of active chlorine in liquid bleaches and disinfectants of the household and institutional type. Base raw material for commercial bleaches, chlorinated cleaners and water treatment applications. The available chlorine content varies with time and storage conditions, so it is recommended to check the batch certificate of analysis.",
+    "funciones": ["Chlorinated bleach", "Disinfectant active"],
     "aplicaciones": ["Household bleaches", "Chlorinated cleaners", "Institutional disinfection", "Water treatment"],
-    "formas_referenciales": ["Liquid — aqueous solution; concentration varies depending on the batch and storage"]
+    "formas_referenciales": ["Liquid — aqueous solution, depending on the manufacturer and batch; concentration varies with storage"]
   },
   {
     "id": "dicloroisocianurato-de-sodio",
@@ -127,21 +127,21 @@
   },
   {
     "id": "glutaraldehido",
-    "nombre": "Glutaraldehyde",
-    "sinonimos": ["Glutaral", "Pentanedial"],
-    "descripcion": "Aldehyde used as a biocidal active in disinfectants for institutional, agro-industrial, and veterinary use. Common in blends with quaternary ammonium compounds to broaden the formula's spectrum of action. Its use is subject to applicable health regulations and the manufacturer's handling recommendations.",
+    "nombre": "Glutaraldehyde 50%",
+    "sinonimos": ["Glutaral", "Pentanedial", "Glutaraldehyde"],
+    "descripcion": "Aldehyde used as a biocidal active in institutional, agro-industrial and veterinary disinfectants. Common in blends with quaternary ammonium compounds to broaden the spectrum of action of the formula. Its use is subject to applicable health regulations and to the manufacturer's handling recommendations.",
     "funciones": ["Biocide", "Disinfectant active"],
     "aplicaciones": ["Institutional disinfectants", "Poultry and swine biosecurity", "Sanitization of vehicles and equipment", "Blends with quaternary ammonium compounds"],
-    "formas_referenciales": ["Liquid — aqueous solution, depending on the manufacturer's grade"]
+    "formas_referenciales": ["Liquid — colorless to pale yellow aqueous solution, depending on the manufacturer and batch"]
   },
   {
     "id": "mezcla-de-isotiazolinonas-cmit-mit",
-    "nombre": "Isothiazolinone Blend (CMIT/MIT)",
-    "sinonimos": ["CMIT/MIT", "Isothiazolinones"],
-    "descripcion": "Isothiazolinone blend used as a broad-spectrum preservative to protect detergents, liquid soaps, and aqueous cleaners throughout their shelf life. Associated with in-container protection against bacteria, fungi, and yeasts at low use levels. Its dosing is carried out in accordance with applicable regulations.",
-    "funciones": ["Preservative", "In-container biocide"],
-    "aplicaciones": ["Liquid detergents", "Liquid soaps", "Multi-purpose cleaners", "Fabric softeners"],
-    "formas_referenciales": ["Liquid — clear to slightly yellow, depending on the batch"]
+    "nombre": "Isothiazolinones 1.5%",
+    "sinonimos": ["CMIT/MIT", "Isothiazolinones", "Isothiazolinone blend (CMIT/MIT)"],
+    "descripcion": "Isothiazolinone blend used as a broad-spectrum preservative to protect detergents, liquid soaps and aqueous cleaners throughout their shelf life. Associated with in-pack protection against bacteria, fungi and yeasts at low use levels. Its use in cosmetics is limited to rinse-off products, in line with applicable regulations.",
+    "funciones": ["Preservative", "In-pack biocide"],
+    "aplicaciones": ["Liquid detergents", "Liquid soaps", "All-purpose cleaners", "Fabric softeners", "Shampoos and bath gels (according to regulations)"],
+    "formas_referenciales": ["Liquid — transparent to slightly yellow, depending on the manufacturer and batch"]
   },
   {
     "id": "soda-caustica",
@@ -200,19 +200,19 @@
   {
     "id": "edta-tetrasodico",
     "nombre": "Tetrasodium EDTA",
-    "sinonimos": ["EDTA-4Na", "EDTA tetrasodium salt", "Tetrasodium edetate"],
-    "descripcion": "The reference chelating agent in detergency: it sequesters calcium, magnesium, and transition metals that interfere with surfactants and bleaches. It improves formula performance in hard water and contributes to formula stability. Used in liquid detergents, alkaline cleaners, and institutional products.",
+    "sinonimos": ["Tetrasodium EDTA", "Tetrasodium salt of EDTA", "EDTA-4Na"],
+    "descripcion": "Reference chelating agent in detergency: it sequesters calcium, magnesium and transition metals that interfere with surfactants and bleaches. It improves formula performance in hard water and contributes to stability. Used in liquid detergents, alkaline cleaners and institutional products; also in cosmetics and, in line with applicable regulations, in pharmaceutical, veterinary, nutraceutical and food preparations.",
     "funciones": ["Chelating agent", "Sequestrant", "Formula stabilizer"],
-    "aplicaciones": ["Liquid detergents", "Alkaline cleaners", "Soaps and dishwashing liquids", "Textile auxiliaries"],
+    "aplicaciones": ["Liquid detergents", "Alkaline cleaners", "Soaps and dishwashing liquids", "Textile auxiliaries", "Cosmetic and pharmaceutical formulations"],
     "formas_referenciales": ["Solid — powder or granules, depending on the manufacturer and batch", "Liquid — aqueous solution, depending on availability"]
   },
   {
     "id": "gluconato-de-sodio",
     "nombre": "Sodium Gluconate",
-    "sinonimos": ["Gluconic acid sodium salt"],
-    "descripcion": "Chelating agent of biotechnological origin with very good performance in strongly alkaline media, where it sequesters calcium and iron. Due to its biodegradability, it is an alternative to phosphates and EDTA in alkaline cleaners. Used in CIP cleaning, high-pH degreasers, and bottle washing.",
+    "sinonimos": ["Sodium gluconate", "Sodium gluconate", "Sodium salt of gluconic acid"],
+    "descripcion": "Chelating agent of biotechnological origin with very good performance in strongly alkaline media, where it sequesters calcium and iron. Owing to its biodegradability, it is an alternative to phosphates and EDTA in alkaline cleaners. Used in degreasers and high-pH cleaners and, in line with applicable regulations, as a chelating agent in cosmetics, veterinary products and supplements.",
     "funciones": ["Chelating agent", "Sequestrant in alkaline media"],
-    "aplicaciones": ["CIP cleaning", "Alkaline degreasers", "Bottle washing", "Institutional cleaners"],
+    "aplicaciones": ["Alkaline degreasers", "Institutional cleaners", "Cosmetic formulations", "Veterinary formulations", "Supplements and premixes"],
     "formas_referenciales": ["Solid — powder or granules, depending on the manufacturer and batch"]
   },
   {
@@ -225,22 +225,13 @@
     "formas_referenciales": ["Solid — encapsulated granules, depending on the manufacturer and batch", "Liquid — enzyme concentrate, depending on availability"]
   },
   {
-    "id": "carboximetilcelulosa-de-sodio",
-    "nombre": "Sodium Carboxymethyl Cellulose",
-    "sinonimos": ["CMC", "Cellulose gum"],
-    "descripcion": "Cellulose-derived polymer used as an anti-redeposition agent in laundry detergents: it keeps soil suspended in the wash water and helps prevent it from returning to the fabric. It also adds viscosity and stability to liquid formulas. Used in powder detergents, liquid detergents, and laundry soaps.",
-    "funciones": ["Anti-redeposition agent", "Thickener", "Stabilizer"],
-    "aplicaciones": ["Powder detergents", "Liquid detergents", "Laundry bar soaps", "Textile auxiliaries"],
-    "formas_referenciales": ["Solid — powder or granules, depending on the grade and manufacturer"]
-  },
-  {
     "id": "abrillantador-optico-para-detergentes",
-    "nombre": "Optical Brightener for Detergents",
-    "sinonimos": ["Optical brightening agent", "Fluorescent whitening agent", "OBA"],
-    "descripcion": "Fluorescent whitening agent that absorbs ultraviolet light and re-emits it as visible blue light, improving the perceived whiteness of fabrics. It is a classic component of detergents for white laundry. The type of brightener is selected according to the textile substrate and the washing process.",
+    "nombre": "Optical Brightener",
+    "sinonimos": ["Optical brightener for detergents", "Fluorescent whitening agent", "Optical brightener", "OBA"],
+    "descripcion": "Fluorescent whitening agent that absorbs ultraviolet light and re-emits it as visible blue light, improving the perception of whiteness of fabrics and surfaces. It is a classic component of laundry detergents for whites and is also used in plastics. The type of brightener is selected according to the substrate and the application process.",
     "funciones": ["Optical brightener", "Whiteness enhancer"],
-    "aplicaciones": ["Powder detergents", "Liquid detergents", "Laundry soaps", "Textile finishing"],
-    "formas_referenciales": ["Solid — powder or granules, depending on the type, manufacturer, and batch"]
+    "aplicaciones": ["Powder detergents", "Liquid detergents", "Laundry soaps", "Textile finishes", "Plastics and polymers"],
+    "formas_referenciales": ["Solid — powder or granulate, depending on the type, manufacturer and batch"]
   },
   {
     "id": "esterquat",

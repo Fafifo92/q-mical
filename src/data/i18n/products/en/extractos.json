@@ -182,20 +182,20 @@
   {
     "id": "manteca-karite",
     "nombre": "Shea Butter",
-    "sinonimos": ["Karite butter"],
-    "descripcion": "Vegetable butter obtained from the nut of the shea tree, a worldwide reference as a nourishing emollient in cosmetics. It provides body and a protective feel in creams, body butters, and lip products. Available in refined and unrefined grades, with characteristics to be confirmed on the batch technical data sheet (TDS).",
+    "sinonimos": ["Shea butter", "Karité butter"],
+    "descripcion": "Vegetable butter obtained from the nut of the shea tree, a worldwide reference as a nourishing emollient in cosmetics. It provides body and a protective feel in creams, body butters and lip products, and is also used in edible fats, supplements and veterinary products in accordance with applicable regulations. Available in refined and unrefined grades, with characteristics confirmed in the batch technical data sheet.",
     "funciones": ["Nourishing emollient", "Consistency agent"],
-    "aplicaciones": ["Body butters", "Lipsticks and balms", "Hand and foot creams", "Hair treatments"],
-    "formas_referenciales": ["Solid — butter with texture and ivory-to-yellowish tone varying depending on the refining, origin, and batch"]
+    "aplicaciones": ["Body butters", "Lipsticks and balms", "Hand and foot creams", "Hair treatments", "Edible fats and veterinary formulations in accordance with regulations"],
+    "formas_referenciales": ["Solid — butter with an ivory to yellowish texture and tone, depending on the manufacturer and batch (varies with refining and origin)"]
   },
   {
     "id": "manteca-cacao",
     "nombre": "Cocoa Butter",
-    "sinonimos": ["Cacao butter", "Theobroma oil"],
-    "descripcion": "Vegetable butter obtained from cocoa seeds, one of Colombia's flagship crops. It provides consistency, gloss, and a protective feel in lip products, body butters, and soapmaking, in addition to its food use in accordance with applicable regulations. Its characteristic aroma and local origin make it a star of natural lines.",
-    "funciones": ["Emollient", "Consistency agent", "Base for lip products"],
-    "aplicaciones": ["Lipsticks and balms", "Body butters and creams", "Soapmaking", "Chocolate making and food in accordance with regulations"],
-    "formas_referenciales": ["Solid — blocks, chunks, or wafers depending on the manufacturer and batch; melts at body temperature"]
+    "sinonimos": ["Theobroma oil", "Cocoa butter"],
+    "descripcion": "Vegetable butter obtained from cocoa seeds, one of Colombia's flagship crops. It provides consistency, gloss and a protective feel in lip products, body butters and soap making; it is also used as a fat base in confectionery, in solid or semisolid pharmaceutical and veterinary forms and in supplements, in accordance with applicable regulations. Its characteristic aroma and local origin make it a highlight of natural product lines.",
+    "funciones": ["Emollient", "Consistency agent", "Lip product base"],
+    "aplicaciones": ["Lipsticks and balms", "Body butters and creams", "Soap making", "Confectionery and foods in accordance with regulations", "Excipient in pharmaceutical and veterinary forms"],
+    "formas_referenciales": ["Solid — blocks, pieces or pastilles depending on the manufacturer and batch; melts at body temperature"]
   },
   {
     "id": "manteca-mango",

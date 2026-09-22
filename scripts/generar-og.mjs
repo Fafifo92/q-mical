@@ -16,12 +16,12 @@
  * Ojo: WhatsApp cachea por URL — si cambias el diseño, sube `ogVersion` en
  * src/data/site.ts para que vuelva a leerla.
  */
-import { mkdirSync, writeFileSync, readFileSync, existsSync, rmSync } from "node:fs";
+import { mkdirSync, writeFileSync, readFileSync, readdirSync, existsSync, rmSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import satori from "satori";
 import { Resvg } from "@resvg/resvg-js";
-import { LINEAS } from "../src/data/taxonomy.ts";
+import { LINEAS, INDUSTRIAS } from "../src/data/taxonomy.ts";
 
 const raiz = join(dirname(fileURLToPath(import.meta.url)), "..");
 const salida = join(raiz, "public", "og");
@@ -150,6 +150,14 @@ const TODOS = ["es", "en", "fr", "pt", "de", "ru", "zh"];
 const pedidos = process.argv.slice(2).filter((l) => TODOS.includes(l));
 const LOCALES = pedidos.length ? pedidos : TODOS;
 
+// Cifras reales del portafolio para los textos con {productos}, {lineas} e {industrias}
+const dirProductos = join(raiz, "src", "data", "products");
+const totalProductos = readdirSync(dirProductos)
+  .filter((f) => f.endsWith(".json"))
+  .reduce((n, f) => n + JSON.parse(readFileSync(join(dirProductos, f), "utf8")).length, 0);
+const cifras = { productos: totalProductos, lineas: LINEAS.length, industrias: INDUSTRIAS.length };
+const conCifras = (s) => s.replace(/{(productos|lineas|industrias)}/g, (_, k) => String(cifras[k]));
+
 const leerJSON = (p) => (existsSync(p) ? JSON.parse(readFileSync(p, "utf8")) : null);
 const uiEs = leerJSON(join(raiz, "src", "i18n", "ui", "es.json"));
 
@@ -159,7 +167,7 @@ function tarjetasDe(lang) {
   const og = ui.og ?? uiEs.og;
   const tax = lang === "es" ? null : leerJSON(join(raiz, "src", "data", "i18n", "taxonomy", `${lang}.json`));
 
-  const out = og.tarjetas.map((t) => ({ ...t, pie: og.pie }));
+  const out = og.tarjetas.map((t) => ({ ...t, titulo: conCifras(t.titulo), bajada: conCifras(t.bajada), pie: og.pie }));
   for (const l of LINEAS) {
     const ovl = tax?.lineas?.[l.slug];
     out.push({

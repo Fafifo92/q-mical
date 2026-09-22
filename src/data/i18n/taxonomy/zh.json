@@ -67,6 +67,11 @@
       "corto": "化妆品",
       "tagline": "面向护肤、护发与彩妆的活性成分、润肤剂、表面活性剂、着色剂与防腐剂。"
     },
+    "farmaceutica": {
+      "nombre": "制药",
+      "corto": "制药",
+      "tagline": "用于药物制剂的辅料、载体、矿物盐及原料。"
+    },
     "nutraceutica": {
       "nombre": "营养保健与膳食补充剂",
       "corto": "营养保健",

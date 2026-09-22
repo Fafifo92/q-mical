@@ -1,39 +1,39 @@
 [
   {
     "id": "acido-sulfonico-lineal",
-    "nombre": "Acide Sulfonique Linéaire (LABSA)",
-    "sinonimos": ["LABSA", "Acide dodécylbenzènesulfonique linéaire", "Acide alkylbenzène sulfonique"],
-    "descripcion": "Tensioactif anionique à fort pouvoir détergent et moussant, base de la majorité des détergents liquides et en poudre du marché. Il est neutralisé à la soude caustique ou avec d'autres bases pour former le sulfonate actif de la formule. C'est la matière première de référence pour les liquides vaisselle, les détergents multi-usages et les dégraissants à usage domestique et institutionnel.",
-    "funciones": ["Tensioactif anionique", "Détergent", "Agent moussant"],
-    "aplicaciones": ["Détergents liquides et en poudre", "Liquides vaisselle", "Dégraissants multi-usages", "Nettoyants institutionnels"],
+    "nombre": "Acide sulfonique linéaire",
+    "sinonimos": ["LABSA", "Acide dodécylbenzènesulfonique linéaire", "Sulfonique linéaire", "Acide sulfonique linéaire (LABSA)"],
+    "descripcion": "Tensioactif anionique à fort pouvoir détergent et moussant, base de nombreux détergents liquides et en poudre. Il est neutralisé avec de la soude caustique ou d'autres bases pour former le sulfonate actif de la formule. C'est une matière première de référence pour les liquides vaisselle, les détergents multi-usages et les dégraissants à usage domestique, institutionnel et de nettoyage d'installations vétérinaires.",
+    "funciones": ["Tensioactif anionique", "Détergent", "Moussant"],
+    "aplicaciones": ["Détergents liquides et en poudre", "Liquides vaisselle", "Dégraissants multi-usages", "Nettoyants institutionnels", "Nettoyants pour installations vétérinaires"],
     "formas_referenciales": ["Liquide visqueux — teinte ambrée variable selon le fabricant et le lot"]
   },
   {
     "id": "lauril-eter-sulfato-de-sodio",
-    "nombre": "Lauryl Éther Sulfate de Sodium",
-    "sinonimos": ["SLES", "LESS", "Laureth sulfate de sodium"],
-    "descripcion": "Tensioactif anionique polyvalent, apprécié pour son pouvoir moussant et sa compatibilité avec d'autres tensioactifs. Il répond bien à l'épaississement au sel, ce qui facilite la formulation de produits de viscosité attractive à faible coût. Utilisé dans les liquides vaisselle, les savons liquides, les shampooings et les nettoyants multi-usages.",
-    "funciones": ["Tensioactif anionique", "Agent moussant", "Base de détergents liquides"],
-    "aplicaciones": ["Liquides vaisselle", "Savons liquides pour les mains", "Shampooings et gels douche", "Nettoyants multi-usages"],
-    "formas_referenciales": ["Pâte ou liquide visqueux, selon le grade et le fabricant"]
+    "nombre": "Laureth sulfate de sodium 28%",
+    "sinonimos": ["SLES", "Laureth sulfate sodique", "Laureth sulfate de sodium", "Sodium Laureth Sulfate"],
+    "descripcion": "Tensioactif anionique polyvalent, apprécié pour son pouvoir moussant et sa compatibilité avec d'autres tensioactifs. Il répond bien à l'épaississement au sel, ce qui facilite la formulation de produits de viscosité attrayante à faible coût. Utilisé dans les liquides vaisselle, les savons liquides, les shampooings et les nettoyants multi-usages.",
+    "funciones": ["Tensioactif anionique", "Moussant", "Base de détergents liquides"],
+    "aplicaciones": ["Liquides vaisselle", "Savons liquides pour les mains", "Shampooings et gels de bain", "Nettoyants multi-usages", "Shampooings et nettoyants à usage vétérinaire"],
+    "formas_referenciales": ["Pâte ou liquide visqueux, selon le fabricant et le lot"]
   },
   {
     "id": "lauril-sulfato-de-sodio",
-    "nombre": "Lauryl Sulfate de Sodium",
-    "sinonimos": ["SLS", "Dodécylsulfate de sodium"],
-    "descripcion": "Tensioactif anionique à mousse abondante et à formation rapide, doté d'un bon pouvoir mouillant et détergent en milieu aqueux. Il complète le lauryl éther sulfate dans les formules exigeant un plus grand volume de mousse. Fréquent dans les détergents en poudre, les pâtes nettoyantes et les produits moussants.",
-    "funciones": ["Tensioactif anionique", "Agent moussant", "Agent mouillant"],
-    "aplicaciones": ["Détergents en poudre", "Pâtes et crèmes nettoyantes", "Shampooings et dentifrices", "Agents moussants industriels"],
-    "formas_referenciales": ["Solide — poudre ou aiguilles, selon le fabricant et le lot", "Liquide — solution aqueuse, selon disponibilité"]
+    "nombre": "Lauryl sulfate de sodium en poudre",
+    "sinonimos": ["SLS", "Dodécyl sulfate de sodium", "Lauryl sulfate de sodium"],
+    "descripcion": "Tensioactif anionique à mousse abondante et de génération rapide, avec un bon pouvoir mouillant et détergent dans les systèmes aqueux. Il complète le laureth sulfate dans les formules qui requièrent un plus grand volume de mousse. Fréquent dans les détergents en poudre, les pâtes nettoyantes et les produits moussants, et employé comme agent mouillant dans les formes pharmaceutiques solides.",
+    "funciones": ["Tensioactif anionique", "Moussant", "Agent mouillant"],
+    "aplicaciones": ["Détergents en poudre", "Pâtes et crèmes nettoyantes", "Shampooings et dentifrices", "Moussants industriels", "Excipient mouillant dans les comprimés et les poudres"],
+    "formas_referenciales": ["Solide — poudre ou aiguilles, selon le fabricant et le lot"]
   },
   {
     "id": "oxido-de-lauramina",
-    "nombre": "Oxyde de Lauramine",
-    "sinonimos": ["Oxyde de lauryl diméthylamine", "LDAO"],
-    "descripcion": "Tensioactif amphotère qui renforce et stabilise la mousse des systèmes anioniques et apporte de la viscosité à la formule. Il se distingue par sa compatibilité avec les ammoniums quaternaires, ce qui le rend courant dans les nettoyants désinfectants. Utilisé dans les liquides vaisselle, les nettoyants moussants et les produits de nettoyage à base de biocides cationiques.",
-    "funciones": ["Tensioactif amphotère", "Booster de mousse", "Épaississant"],
-    "aplicaciones": ["Liquides vaisselle", "Nettoyants désinfectants aux ammoniums quaternaires", "Nettoyants moussants", "Shampooings et savons liquides"],
-    "formas_referenciales": ["Liquide aqueux — transparent à légèrement trouble, selon le lot"]
+    "nombre": "Oxyde de lauramine",
+    "sinonimos": ["Oxyde de lauryl diméthylamine", "LDAO", "Lauramine Oxide", "Oxyde de lauramine"],
+    "descripcion": "Tensioactif amphotère qui renforce et stabilise la mousse des systèmes anioniques et apporte de la viscosité à la formule. Il se distingue par sa compatibilité avec les ammoniums quaternaires, ce qui le rend courant dans les nettoyants désinfectants. Utilisé dans les liquides vaisselle, les nettoyants moussants et les dégraissants, ainsi que dans les produits de nettoyage contenant des biocides cationiques.",
+    "funciones": ["Tensioactif amphotère", "Booster de mousse", "Épaississant", "Dégraissant"],
+    "aplicaciones": ["Liquides vaisselle", "Nettoyants désinfectants aux quaternaires", "Nettoyants moussants", "Shampooings et savons liquides", "Dégraissants de surfaces"],
+    "formas_referenciales": ["Liquide aqueux — transparent à légèrement trouble, selon le fabricant et le lot"]
   },
   {
     "id": "alcohol-graso-etoxilado",
@@ -46,11 +46,11 @@
   },
   {
     "id": "dietanolamida-de-coco",
-    "nombre": "Diéthanolamide de Coco",
-    "sinonimos": ["CDEA", "Cocamide DEA", "Diéthanolamide d'acides gras de coco"],
-    "descripcion": "Épaississant et stabilisateur de mousse classique pour les systèmes de tensioactifs anioniques. Il apporte du corps et un effet surgraissant aux détergents liquides et aux liquides vaisselle, et aide à maintenir la mousse en présence de salissures grasses. Matière première traditionnelle de l'industrie du nettoyage et du soin de la personne.",
+    "nombre": "Cocamide DEA",
+    "sinonimos": ["CDEA", "Diéthanolamide de coco", "Diéthanolamide d'acide gras de coco", "Cocamide DEA"],
+    "descripcion": "Épaississant et stabilisateur de mousse classique pour les systèmes de tensioactifs anioniques. Il apporte du corps et un effet surgraissant aux détergents liquides et aux liquides vaisselle, et aide à maintenir la mousse en présence de salissures grasses. Matière première traditionnelle dans le nettoyage, les soins personnels et les produits d'hygiène à usage pharmaceutique et vétérinaire.",
     "funciones": ["Épaississant", "Stabilisateur de mousse", "Tensioactif non ionique"],
-    "aplicaciones": ["Liquides vaisselle", "Détergents liquides", "Shampooings", "Savons liquides"],
+    "aplicaciones": ["Liquides vaisselle", "Détergents liquides", "Shampooings", "Savons liquides", "Hygiène pharmaceutique et vétérinaire"],
     "formas_referenciales": ["Liquide visqueux — teinte ambrée variable selon le fabricant et le lot"]
   },
   {
@@ -91,30 +91,30 @@
   },
   {
     "id": "peroxido-de-hidrogeno",
-    "nombre": "Peroxyde d'Hydrogène",
-    "sinonimos": ["Eau oxygénée"],
-    "descripcion": "Agent oxydant utilisé comme agent de blanchiment et comme actif dans les formulations désinfectantes et assainissantes. Il se décompose en eau et en oxygène, ce qui le rend attractif dans les formules à faible résidu. Employé dans le nettoyage institutionnel, la blanchisserie et les procédés industriels conformément à la réglementation applicable.",
-    "funciones": ["Oxydant", "Agent de blanchiment", "Actif désinfectant"],
-    "aplicaciones": ["Désinfectants de surfaces", "Blanchiment du linge", "Assainissement institutionnel", "Blanchiment textile"],
-    "formas_referenciales": ["Liquide — solution aqueuse, selon le grade disponible"]
+    "nombre": "Peroxyde d'hydrogène",
+    "sinonimos": ["Eau oxygénée", "H2O2"],
+    "descripcion": "Agent oxydant utilisé comme agent de blanchiment et comme principe actif dans les formulations désinfectantes et assainissantes. Il se décompose en eau et en oxygène, ce qui le rend intéressant dans les formules à faible résidu. En cosmétique, il est employé comme oxydant dans les produits de décoloration et de coloration capillaire, ainsi que dans le nettoyage institutionnel, la blanchisserie et les procédés industriels conformément à la réglementation applicable.",
+    "funciones": ["Oxydant", "Agent de blanchiment", "Principe actif désinfectant", "Oxydant capillaire"],
+    "aplicaciones": ["Désinfectants de surfaces", "Blanchiment du linge", "Assainissement institutionnel", "Blanchiment textile", "Décoloration et coloration capillaire"],
+    "formas_referenciales": ["Liquide incolore — solution aqueuse, selon le fabricant et le lot"]
   },
   {
     "id": "acido-peracetico",
-    "nombre": "Acide Peracétique",
-    "sinonimos": ["PAA", "Acide peroxyacétique", "APA"],
-    "descripcion": "Oxydant puissant utilisé comme assainissant dans l'industrie agroalimentaire et des boissons ainsi qu'en désinfection institutionnelle. Il agit à basse température et se dégrade en sous-produits à faible impact environnemental. Sa manipulation et son dosage s'effectuent conformément à la réglementation applicable et aux recommandations du fabricant.",
+    "nombre": "Acide peracétique",
+    "sinonimos": ["PAA", "Acide peroxyacétique"],
+    "descripcion": "Oxydant puissant utilisé comme agent d'assainissement dans l'industrie alimentaire et des boissons et en désinfection institutionnelle. Il agit à basse température et se dégrade en sous-produits à faible impact environnemental. Il est également employé pour l'assainissement des équipements et des surfaces des usines cosmétiques, pharmaceutiques et nutraceutiques, conformément à la réglementation applicable et aux recommandations du fabricant.",
     "funciones": ["Assainissant", "Oxydant"],
-    "aplicaciones": ["Assainissement CIP dans l'agroalimentaire et les boissons", "Désinfection des équipements et des surfaces", "Biosécurité agro-industrielle", "Traitement des eaux de process"],
-    "formas_referenciales": ["Liquide — solution d'équilibre, selon le grade et le fabricant"]
+    "aplicaciones": ["Assainissement CIP dans l'alimentation et les boissons", "Désinfection des équipements et des surfaces", "Biosécurité agro-industrielle", "Traitement des eaux de process", "Assainissement des usines cosmétiques et pharmaceutiques"],
+    "formas_referenciales": ["Liquide — solution d'équilibre, selon le fabricant et le lot"]
   },
   {
     "id": "hipoclorito-de-sodio",
-    "nombre": "Hypochlorite de Sodium",
-    "sinonimos": ["Eau de Javel", "Extrait de Javel"],
-    "descripcion": "Source de chlore actif la plus utilisée dans les agents de blanchiment et les désinfectants liquides à usage domestique et institutionnel. Matière première de base des eaux de Javel commerciales, des nettoyants chlorés et des applications de traitement des eaux. La teneur en chlore disponible varie avec le temps et les conditions de stockage ; il est donc recommandé de vérifier le certificat d'analyse (CoA) du lot.",
-    "funciones": ["Agent de blanchiment chloré", "Actif désinfectant"],
-    "aplicaciones": ["Agents de blanchiment domestiques", "Nettoyants chlorés", "Désinfection institutionnelle", "Traitement des eaux"],
-    "formas_referenciales": ["Liquide — solution aqueuse ; concentration variable selon le lot et le stockage"]
+    "nombre": "Hypochlorite de sodium",
+    "sinonimos": ["Eau de Javel", "Agent de blanchiment liquide"],
+    "descripcion": "Source de chlore actif la plus utilisée dans les agents de blanchiment et les désinfectants liquides de type domestique et institutionnel. Matière première de base pour les eaux de Javel commerciales, les nettoyants chlorés et les applications de traitement de l'eau. La teneur en chlore disponible varie avec le temps et les conditions de stockage ; il est donc recommandé de vérifier le certificat d'analyse du lot.",
+    "funciones": ["Agent de blanchiment chloré", "Principe actif désinfectant"],
+    "aplicaciones": ["Agents de blanchiment domestiques", "Nettoyants chlorés", "Désinfection institutionnelle", "Traitement de l'eau"],
+    "formas_referenciales": ["Liquide — solution aqueuse, selon le fabricant et le lot ; la concentration varie avec le stockage"]
   },
   {
     "id": "dicloroisocianurato-de-sodio",
@@ -127,21 +127,21 @@
   },
   {
     "id": "glutaraldehido",
-    "nombre": "Glutaraldéhyde",
-    "sinonimos": ["Glutaral", "Pentanedial"],
-    "descripcion": "Aldéhyde utilisé comme actif biocide dans les désinfectants à usage institutionnel, agro-industriel et vétérinaire. Fréquent dans les mélanges avec des ammoniums quaternaires pour élargir le spectre d'action de la formule. Son utilisation est soumise à la réglementation sanitaire applicable et aux recommandations de manipulation du fabricant.",
-    "funciones": ["Biocide", "Actif désinfectant"],
-    "aplicaciones": ["Désinfectants institutionnels", "Biosécurité avicole et porcine", "Assainissement des véhicules et des équipements", "Mélanges avec ammoniums quaternaires"],
-    "formas_referenciales": ["Liquide — solution aqueuse, selon le grade du fabricant"]
+    "nombre": "Glutaraldéhyde 50 %",
+    "sinonimos": ["Glutaral", "Pentanedial", "Glutaraldéhyde"],
+    "descripcion": "Aldéhyde utilisé comme principe actif biocide dans les désinfectants à usage institutionnel, agro-industriel et vétérinaire. Fréquent dans les mélanges avec des ammoniums quaternaires pour élargir le spectre d'action de la formule. Son utilisation est soumise à la réglementation sanitaire applicable et aux recommandations de manipulation du fabricant.",
+    "funciones": ["Biocide", "Principe actif désinfectant"],
+    "aplicaciones": ["Désinfectants institutionnels", "Biosécurité avicole et porcine", "Assainissement de véhicules et d'équipements", "Mélanges avec ammoniums quaternaires"],
+    "formas_referenciales": ["Liquide — solution aqueuse incolore à jaune pâle, selon le fabricant et le lot"]
   },
   {
     "id": "mezcla-de-isotiazolinonas-cmit-mit",
-    "nombre": "Mélange d'Isothiazolinones (CMIT/MIT)",
-    "sinonimos": ["CMIT/MIT", "Isothiazolinones"],
-    "descripcion": "Mélange d'isothiazolinones utilisé comme conservateur à large spectre pour protéger les détergents, les savons liquides et les nettoyants aqueux pendant leur durée de vie. Associé à une protection contre les bactéries, les champignons et les levures dans l'emballage à faibles doses d'emploi. Son dosage s'effectue conformément à la réglementation applicable.",
-    "funciones": ["Conservateur", "Biocide in-can"],
-    "aplicaciones": ["Détergents liquides", "Savons liquides", "Nettoyants multi-usages", "Adoucissants textiles"],
-    "formas_referenciales": ["Liquide — transparent à légèrement jaune, selon le lot"]
+    "nombre": "Isothiazolinones 1.5%",
+    "sinonimos": ["CMIT/MIT", "Isothiazolinones", "Mélange d'isothiazolinones (CMIT/MIT)"],
+    "descripcion": "Mélange d'isothiazolinones utilisé comme conservateur à large spectre pour protéger les détergents, les savons liquides et les nettoyants aqueux pendant leur durée de vie. Associé à une protection contre les bactéries, les champignons et les levures en conditionnement à de faibles doses d'utilisation. Son emploi en cosmétique est limité aux produits rincés, conformément à la réglementation applicable.",
+    "funciones": ["Conservateur", "Biocide de conditionnement"],
+    "aplicaciones": ["Détergents liquides", "Savons liquides", "Nettoyants multi-usages", "Assouplissants textiles", "Shampooings et gels de bain (selon la réglementation)"],
+    "formas_referenciales": ["Liquide — transparent à légèrement jaune, selon le fabricant et le lot"]
   },
   {
     "id": "soda-caustica",
@@ -199,20 +199,20 @@
   },
   {
     "id": "edta-tetrasodico",
-    "nombre": "EDTA Tétrasodique",
-    "sinonimos": ["EDTA tétrasodium", "Sel tétrasodique de l'EDTA", "EDTA-4Na"],
-    "descripcion": "Chélatant de référence en détergence : il séquestre le calcium, le magnésium et les métaux de transition qui interfèrent avec les tensioactifs et les agents de blanchiment. Il améliore les performances des formules en eau dure et contribue à leur stabilité. Utilisé dans les détergents liquides, les nettoyants alcalins et les produits institutionnels.",
-    "funciones": ["Chélatant", "Séquestrant", "Stabilisateur de formule"],
-    "aplicaciones": ["Détergents liquides", "Nettoyants alcalins", "Savons et liquides vaisselle", "Auxiliaires textiles"],
-    "formas_referenciales": ["Solide — poudre ou granulés, selon le fabricant et le lot", "Liquide — solution aqueuse, selon disponibilité"]
+    "nombre": "EDTA tétrasodique",
+    "sinonimos": ["Tétrasodium EDTA", "Sel tétrasodique d'EDTA", "EDTA-4Na"],
+    "descripcion": "Chélatant de référence en détergence : il séquestre le calcium, le magnésium et les métaux de transition qui interfèrent avec les tensioactifs et les agents de blanchiment. Il améliore les performances des formules en eau dure et contribue à leur stabilité. Utilisé dans les détergents liquides, les nettoyants alcalins et les produits institutionnels ; également en cosmétique et, conformément à la réglementation applicable, dans les préparations pharmaceutiques, vétérinaires, nutraceutiques et alimentaires.",
+    "funciones": ["Chélatant", "Séquestrant", "Stabilisant de formule"],
+    "aplicaciones": ["Détergents liquides", "Nettoyants alcalins", "Savons et liquides vaisselle", "Auxiliaires textiles", "Formulations cosmétiques et pharmaceutiques"],
+    "formas_referenciales": ["Solide — poudre ou granulés, selon le fabricant et le lot", "Liquide — solution aqueuse, selon la disponibilité"]
   },
   {
     "id": "gluconato-de-sodio",
-    "nombre": "Gluconate de Sodium",
-    "sinonimos": ["Gluconate sodique"],
-    "descripcion": "Chélatant d'origine biotechnologique offrant de très bonnes performances en milieu fortement alcalin, où il séquestre le calcium et le fer. Grâce à sa biodégradabilité, il constitue une alternative aux phosphates et à l'EDTA dans les nettoyants alcalins. Utilisé dans le nettoyage CIP, les dégraissants à pH élevé et le lavage de bouteilles.",
+    "nombre": "Gluconate de sodium",
+    "sinonimos": ["Gluconate sodique", "Sodium gluconate", "Sel de sodium de l'acide gluconique"],
+    "descripcion": "Chélatant d'origine biotechnologique très performant en milieux fortement alcalins, où il séquestre le calcium et le fer. Grâce à sa biodégradabilité, il constitue une alternative aux phosphates et à l'EDTA dans les nettoyants alcalins. Utilisé dans les dégraissants et les nettoyants à pH élevé et, conformément à la réglementation applicable, comme chélatant en cosmétique, en médecine vétérinaire et dans les compléments.",
     "funciones": ["Chélatant", "Séquestrant en milieu alcalin"],
-    "aplicaciones": ["Nettoyage CIP", "Dégraissants alcalins", "Lavage de bouteilles", "Nettoyants institutionnels"],
+    "aplicaciones": ["Dégraissants alcalins", "Nettoyants institutionnels", "Formulations cosmétiques", "Formulations vétérinaires", "Compléments et prémélanges"],
     "formas_referenciales": ["Solide — poudre ou granulés, selon le fabricant et le lot"]
   },
   {
@@ -225,22 +225,13 @@
     "formas_referenciales": ["Solide — granulés encapsulés, selon le fabricant et le lot", "Liquide — concentré enzymatique, selon disponibilité"]
   },
   {
-    "id": "carboximetilcelulosa-de-sodio",
-    "nombre": "Carboxyméthylcellulose de Sodium",
-    "sinonimos": ["CMC", "Gomme de cellulose"],
-    "descripcion": "Polymère dérivé de la cellulose utilisé comme agent antiredéposition dans les détergents pour le linge : il maintient les salissures en suspension dans l'eau de lavage et aide à éviter qu'elles ne se redéposent sur le tissu. Il apporte en outre viscosité et stabilité aux formules liquides. Utilisé dans les détergents en poudre, les détergents liquides et les savons de lavage.",
-    "funciones": ["Agent antiredéposition", "Épaississant", "Stabilisateur"],
-    "aplicaciones": ["Détergents en poudre", "Détergents liquides", "Savons en barre pour le linge", "Auxiliaires textiles"],
-    "formas_referenciales": ["Solide — poudre ou granulés, selon le grade et le fabricant"]
-  },
-  {
     "id": "abrillantador-optico-para-detergentes",
-    "nombre": "Azurant Optique pour Détergents",
-    "sinonimos": ["Agent de blanchiment optique", "Agent de blanchiment fluorescent", "Azurant fluorescent"],
-    "descripcion": "Agent de blanchiment fluorescent qui absorbe la lumière ultraviolette et la réémet sous forme de lumière bleue visible, améliorant la perception de blancheur des tissus. C'est un composant classique des détergents pour le linge blanc. Le type d'azurant se sélectionne selon le substrat textile et le procédé de lavage.",
+    "nombre": "Azurant optique",
+    "sinonimos": ["Azurant optique pour détergents", "Agent de blanchiment fluorescent", "Optical brightener", "OBA"],
+    "descripcion": "Agent de blanchiment fluorescent qui absorbe la lumière ultraviolette et la réémet sous forme de lumière bleue visible, améliorant la perception de blancheur des tissus et des surfaces. C'est un composant classique des détergents pour linge blanc, également employé dans les plastiques. Le type d'azurant est choisi en fonction du substrat et du procédé d'application.",
     "funciones": ["Azurant optique", "Améliorant de blancheur"],
-    "aplicaciones": ["Détergents en poudre", "Détergents liquides", "Savons de lavage", "Apprêts textiles"],
-    "formas_referenciales": ["Solide — poudre ou granulés, selon le type, le fabricant et le lot"]
+    "aplicaciones": ["Détergents en poudre", "Détergents liquides", "Savons de lessive", "Apprêts textiles", "Plastiques et polymères"],
+    "formas_referenciales": ["Solide — poudre ou granulé, selon le type, le fabricant et le lot"]
   },
   {
     "id": "esterquat",

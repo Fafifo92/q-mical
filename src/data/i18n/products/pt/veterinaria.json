@@ -1,30 +1,30 @@
 [
   {
     "id": "vitamina-a",
-    "nombre": "Vitamina A (Acetato de Retinila)",
-    "sinonimos": ["Acetato de retinila", "Retinil acetato", "Vitamina A acetato"],
-    "descripcion": "Vitamina lipossolúvel utilizada na formulação de pré-misturas e núcleos vitamínicos para nutrição animal. Fornece atividade de vitamina A associada à visão, ao crescimento e à integridade dos tecidos epiteliais, conforme a normativa aplicável. É incorporada em formas estabilizadas para proteger sua atividade contra a oxidação durante a mistura e o armazenamento.",
-    "funciones": ["Fonte de vitamina A", "Aditivo de pré-mistura vitamínica"],
-    "aplicaciones": ["Pré-misturas vitamínicas", "Núcleos e concentrados", "Ração balanceada para aves", "Ração para suínos", "Suplementos para bovinos"],
+    "nombre": "Vitamina A Acetato (500.000 UI)",
+    "sinonimos": ["Acetato de Retinila", "Retinil acetato", "Retinyl Acetate", "Vitamina A (Acetato de Retinila)"],
+    "descripcion": "Vitamina lipossolúvel utilizada na formulação de premixes e núcleos vitamínicos para nutrição animal, e também em suplementos, alimentos fortificados e formulações cosméticas para o cuidado da pele. Confere atividade de vitamina A associada à visão, ao crescimento e à integridade dos tecidos epiteliais, de acordo com a regulamentação aplicável. É incorporada em formas estabilizadas contra a oxidação durante a mistura e o armazenamento.",
+    "funciones": ["Fonte de vitamina A", "Aditivo de premix vitamínico", "Ativo para o cuidado da pele"],
+    "aplicaciones": ["Premixes vitamínicos", "Núcleos e concentrados", "Ração balanceada para aves, suínos e bovinos", "Suplementos e alimentos fortificados", "Cremes e séruns cosméticos"],
     "formas_referenciales": ["Sólido - pó ou microgrânulos revestidos, conforme o fabricante e o lote"]
   },
   {
     "id": "vitamina-d3",
-    "nombre": "Vitamina D3 (Colecalciferol)",
-    "sinonimos": ["Colecalciferol", "Cholecalciferol"],
-    "descripcion": "Fonte de vitamina D3 empregada em pré-misturas e suplementos para nutrição animal. Está associada ao metabolismo do cálcio e do fósforo e à mineralização óssea, conforme a normativa aplicável. É manuseada em apresentações estabilizadas que facilitam sua dosagem e homogeneização na ração balanceada.",
-    "funciones": ["Fonte de vitamina D3", "Aditivo de pré-mistura vitamínica"],
-    "aplicaciones": ["Pré-misturas vitamínicas", "Ração para aves", "Ração para suínos", "Sais mineralizados para bovinos"],
+    "nombre": "Vitamina D3",
+    "sinonimos": ["Colecalciferol", "Cholecalciferol", "Vitamina D3 (Colecalciferol)"],
+    "descripcion": "Fonte de vitamina D3 empregada em premixes e suplementos para nutrição animal e humana, em alimentos fortificados, incluindo os lácteos, e em formulações farmacêuticas e cosméticas. Está associada ao metabolismo do cálcio e do fósforo e à mineralização óssea, de acordo com a regulamentação aplicável. É manuseada em apresentações estabilizadas que facilitam sua dosagem e homogeneização na ração balanceada.",
+    "funciones": ["Fonte de vitamina D3", "Aditivo de premix vitamínico", "Fortificante de alimentos"],
+    "aplicaciones": ["Premixes vitamínicos", "Ração para aves e suínos", "Sais mineralizados para bovinos", "Alimentos e laticínios fortificados", "Suplementos nutricionais"],
     "formas_referenciales": ["Sólido - pó ou microgrânulos estabilizados, conforme o fabricante e o lote"]
   },
   {
     "id": "vitamina-e",
-    "nombre": "Vitamina E (Acetato de DL-alfa-Tocoferol)",
-    "sinonimos": ["Acetato de alfa-tocoferila", "Acetato de tocoferol", "Vitamina E acetato"],
-    "descripcion": "Antioxidante lipossolúvel utilizado em pré-misturas para nutrição animal e como estabilizante de gorduras e vitaminas na ração. Está associado à função imune e à proteção das membranas celulares contra a oxidação, conforme a normativa aplicável. Também é empregado como antioxidante em formulações cosméticas e alimentícias.",
+    "nombre": "Vitamina E Acetato",
+    "sinonimos": ["Acetato de alfa-tocoferila", "Acetato de tocoferol", "Tocopheryl Acetate", "Vitamina E (Acetato de DL-alfa-Tocoferol)"],
+    "descripcion": "Antioxidante lipossolúvel utilizado em premixes para nutrição animal e como estabilizante de gorduras e vitaminas na ração. Está associado à função imune e à proteção das membranas celulares contra a oxidação, de acordo com a regulamentação aplicável. Também é empregado em cremes, loções e séruns cosméticos, e em formulações farmacêuticas e alimentícias como antioxidante e fonte de vitamina E.",
     "funciones": ["Antioxidante", "Fonte de vitamina E", "Estabilizante de vitaminas e gorduras"],
-    "aplicaciones": ["Pré-misturas vitamínicas", "Núcleos para monogástricos", "Estabilização de gorduras em ração", "Suplementos nutracêuticos"],
-    "formas_referenciales": ["Líquido viscoso oleoso ou pó adsorvido sobre suporte, conforme a apresentação do fabricante e o lote"]
+    "aplicaciones": ["Premixes vitamínicos", "Núcleos para monogástricos", "Estabilização de gorduras na ração", "Suplementos nutracêuticos", "Cremes, loções e séruns cosméticos"],
+    "formas_referenciales": ["Líquido viscoso oleoso ou pó adsorvido em suporte, conforme o fabricante e o lote"]
   },
   {
     "id": "vitamina-k3",
@@ -38,11 +38,11 @@
   {
     "id": "cloruro-de-colina",
     "nombre": "Cloreto de Colina",
-    "sinonimos": ["Colina cloreto", "Cloreto de colina sobre suporte"],
-    "descripcion": "Nutriente utilizado em pré-misturas e rações balanceadas como fonte de colina para nutrição animal. Está associado ao metabolismo das gorduras, à função hepática e ao fornecimento de grupos metila, conforme a normativa aplicável. É oferecido em apresentação líquida ou suportada sobre um veículo para facilitar sua incorporação na mistura.",
+    "sinonimos": ["Colina cloreto", "Cloreto de colina em suporte", "Choline chloride"],
+    "descripcion": "Nutriente utilizado em premixes e rações balanceadas como fonte de colina para nutrição animal. Está associado ao metabolismo das gorduras, à função hepática e ao aporte de grupos metila, de acordo com a regulamentação aplicável. É oferecido em apresentação líquida ou suportada sobre um veículo para facilitar sua incorporação à mistura; também é empregado em suplementos e preparações farmacêuticas orais.",
     "funciones": ["Fonte de colina", "Doador de grupos metila", "Aditivo nutricional"],
-    "aplicaciones": ["Ração balanceada para aves", "Ração para suínos", "Pré-misturas e núcleos", "Suplementos"],
-    "formas_referenciales": ["Líquido ou pó sobre suporte, conforme a apresentação do fabricante e o lote"]
+    "aplicaciones": ["Ração balanceada para aves", "Ração para suínos", "Premixes e núcleos", "Suplementos e preparações farmacêuticas orais"],
+    "formas_referenciales": ["Líquido ou pó em suporte, conforme a apresentação do fabricante e o lote"]
   },
   {
     "id": "betaina-anhidra",
@@ -64,29 +64,29 @@
   },
   {
     "id": "oxido-de-zinc",
-    "nombre": "Óxido de Zinco",
-    "sinonimos": ["Zinco óxido", "Flor de zinco"],
-    "descripcion": "Fonte concentrada de zinco utilizada em pré-misturas minerais para nutrição animal. Fornece zinco associado a processos enzimáticos e à saúde da pele e dos cascos, conforme a normativa aplicável. O óxido de zinco também é utilizado como ingrediente em formulações cosméticas e de proteção da pele.",
-    "funciones": ["Fonte de zinco", "Microelemento mineral"],
-    "aplicaciones": ["Pré-misturas minerais", "Ração para suínos", "Sais mineralizados", "Cremes e pomadas de cuidado da pele"],
+    "nombre": "Óxido de Zinco USP",
+    "sinonimos": ["Óxido de zinco", "Flor de zinco", "Óxido de Zinco", "Zinc Oxide"],
+    "descripcion": "Óxido mineral em pó utilizado em cosmética como filtro UV físico de amplo espectro, opacificante e agente de proteção da pele. É empregado em protetores solares, cremes de barreira e pomadas dérmicas; a granulometria e o tratamento superficial são confirmados na ficha técnica do lote disponível.",
+    "funciones": ["Filtro UV físico", "Protetor da pele", "Opacificante", "Adstringente suave"],
+    "aplicaciones": ["Protetores solares minerais", "Cremes e pomadas de cuidado da pele", "Cremes de barreira", "Maquiagem e pós minerais"],
     "formas_referenciales": ["Sólido - pó, granulometria variável conforme o fabricante e o lote"]
   },
   {
     "id": "sulfato-de-cobre",
-    "nombre": "Sulfato de Cobre Penta-hidratado",
-    "sinonimos": ["Sulfato cúprico", "Sulfato de cobre penta-hidratado", "Vitríolo azul"],
-    "descripcion": "Fonte de cobre utilizada em pré-misturas minerais para nutrição animal. O cobre está associado ao metabolismo do ferro, à pigmentação e à função enzimática, conforme a normativa aplicável. Fora da nutrição animal, é empregado em tratamento de águas e como microelemento agrícola.",
-    "funciones": ["Fonte de cobre", "Microelemento mineral"],
-    "aplicaciones": ["Pré-misturas minerais", "Sais mineralizados", "Tratamento de águas", "Microelementos agrícolas"],
+    "nombre": "Sulfato de Cobre",
+    "sinonimos": ["Sulfato cúprico", "Sulfato de cobre pentaidratado", "Vitríolo azul"],
+    "descripcion": "Fonte de cobre utilizada em premixes minerais para nutrição animal. O cobre está associado ao metabolismo do ferro, à pigmentação e à função enzimática, de acordo com a regulamentação aplicável. Fora da nutrição animal é empregado em tratamento de águas e piscinas, como microelemento agrícola e como base de produtos fungicidas.",
+    "funciones": ["Fonte de cobre", "Microelemento mineral", "Algicida", "Fungicida"],
+    "aplicaciones": ["Premixes minerais", "Sais mineralizados", "Algicida em piscinas e tratamento de águas", "Microelementos agrícolas", "Formulações fungicidas agrícolas"],
     "formas_referenciales": ["Sólido - cristais ou pó, conforme o fabricante e o lote"]
   },
   {
     "id": "sulfato-de-manganeso",
-    "nombre": "Sulfato de Manganês Mono-hidratado",
-    "sinonimos": ["Sulfato manganoso", "Manganês sulfato"],
-    "descripcion": "Fonte de manganês empregada em pré-misturas minerais para nutrição animal. O manganês está associado à formação óssea e a diversos sistemas enzimáticos, conforme a normativa aplicável. Também é utilizado como microelemento em programas de nutrição vegetal.",
-    "funciones": ["Fonte de manganês", "Microelemento mineral"],
-    "aplicaciones": ["Pré-misturas minerais", "Sais mineralizados", "Ração balanceada", "Fertilizantes com microelementos"],
+    "nombre": "Sulfato de Manganês",
+    "sinonimos": ["Sulfato manganoso", "Manganês sulfato", "Sulfato de manganês monoidratado"],
+    "descripcion": "Fonte de manganês empregada em premixes minerais para nutrição animal. O manganês está associado à formação óssea e a diversos sistemas enzimáticos, de acordo com a regulamentação aplicável. Também é utilizado como microelemento em programas de nutrição vegetal e como insumo catalítico em processos químicos.",
+    "funciones": ["Fonte de manganês", "Microelemento mineral", "Catalisador em processos químicos"],
+    "aplicaciones": ["Premixes minerais", "Sais mineralizados", "Ração balanceada", "Fertilizantes com microelementos", "Catalisador e reagente em processos químicos"],
     "formas_referenciales": ["Sólido - pó ou granulado, conforme o fabricante e o lote"]
   },
   {
@@ -100,11 +100,11 @@
   },
   {
     "id": "l-lisina",
-    "nombre": "Cloridrato de L-Lisina",
-    "sinonimos": ["L-Lisina HCl", "Cloridrato de L-lisina", "Lisina"],
-    "descripcion": "Aminoácido essencial utilizado na formulação de rações balanceadas para nutrição animal. Permite equilibrar o perfil de aminoácidos da dieta e otimizar o aporte proteico, conforme a normativa aplicável. É um dos aminoácidos limitantes mais empregados em dietas para aves e suínos.",
-    "funciones": ["Aminoácido essencial", "Balanceamento de aminoácidos"],
-    "aplicaciones": ["Ração para aves", "Ração para suínos", "Dietas de baixo teor proteico", "Aquicultura"],
+    "nombre": "L-Lisina HCl",
+    "sinonimos": ["L-Lisina Cloridrato", "L-Lisina HCl", "Cloridrato de L-lisina", "Lisina"],
+    "descripcion": "Aminoácido essencial utilizado na formulação de rações balanceadas para nutrição animal. Permite equilibrar o perfil de aminoácidos da dieta e otimizar o aporte proteico, conforme a regulamentação aplicável. É um dos aminoácidos limitantes mais empregados em dietas para aves e suínos, e também é utilizado em suplementos e em formulações cosméticas e farmacêuticas, nas quais se associa à síntese de colágeno.",
+    "funciones": ["Aminoácido essencial", "Balanço de aminoácidos", "Ingrediente para suplementos"],
+    "aplicaciones": ["Ração para aves", "Ração para suínos", "Dietas de baixo teor proteico", "Aquicultura", "Suplementos e formulações cosméticas ou farmacêuticas"],
     "formas_referenciales": ["Sólido - pó ou granulado, conforme o fabricante e o lote"]
   },
   {

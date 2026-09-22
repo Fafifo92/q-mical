@@ -37,21 +37,21 @@
   },
   {
     "id": "sulfato-de-magnesio-heptahidratado",
-    "nombre": "Magnesiumsulfat-Heptahydrat",
-    "sinonimos": ["Bittersalz", "Epsom-Salz", "Epsomit"],
-    "descripcion": "Wasserlösliche Quelle für Magnesium und Schwefel, Schlüsselelemente der Chlorophyll- und Proteinsynthese der Pflanze. Eingesetzt in der Fertigation, in Blattanwendungen und zur Korrektur von Mangelerscheinungen auf ausgewaschenen Böden. Seine Vielseitigkeit eröffnet ihm auch Absatzmöglichkeiten in der Kosmetik und in weiteren industriellen Anwendungen.",
-    "funciones": ["Magnesiumquelle", "Schwefelquelle"],
-    "aplicaciones": ["Fertigation und Blattdüngung", "Korrektur von Magnesiummangel", "Hydroponische Nährlösungen", "Badesalze und Kosmetik"],
+    "nombre": "Magnesiumsulfat",
+    "sinonimos": ["Epsom-Salz", "Epsomit", "Magnesiumsulfat-Heptahydrat"],
+    "descripcion": "Wasserlösliche Quelle für Magnesium und Schwefel, Schlüsselelemente bei der Synthese von Chlorophyll und Proteinen der Pflanze. Es wird in der Fertigation, bei Blattanwendungen und zur Korrektur von Mangelerscheinungen auf ausgewaschenen Böden verwendet. Seine Vielseitigkeit eröffnet ihm auch Absatz in Kosmetik, Badesalzen und anderen industriellen Anwendungen.",
+    "funciones": ["Magnesiumquelle", "Schwefelquelle", "Osmoregulator in Bädern"],
+    "aplicaciones": ["Fertigation und Blattdüngung", "Korrektur von Magnesiummangel", "Hydroponische Nährlösungen", "Badesalze und Kosmetik", "Thermal- und Spa-Bäder"],
     "formas_referenciales": ["Kristalliner Feststoff, Kristallgröße variabel je nach Hersteller und Charge"]
   },
   {
     "id": "urea-agricola",
     "nombre": "Harnstoff",
-    "sinonimos": ["Urea", "Carbamid", "Kohlensäurediamid"],
-    "descripcion": "Stickstoffquelle mit breitem Einsatz in der Bodendüngung und in verdünnten Blattanwendungen. Aufgrund seines Kosten-Stickstoff-Verhältnisses ist er einer der weltweit meistgenutzten Dünger. Er findet zudem Anwendung in der Tierernährung und in der Industrie, gemäß den geltenden Vorschriften.",
-    "funciones": ["Stickstoffquelle", "Industrieller Rohstoff"],
-    "aplicaciones": ["Bodendüngung von Flächenkulturen", "Verdünnte Blattanwendungen", "Supplementierung von Wiederkäuern", "Harze und industrielle Prozesse"],
-    "formas_referenciales": ["Feststoff — Perlen (Prills) oder granuliert, je nach Hersteller und Charge"]
+    "sinonimos": ["Carbamid", "Kohlensäurediamid"],
+    "descripcion": "Stickstoffquelle mit breiter Verwendung bei der Bodendüngung und bei verdünnten Blattanwendungen. Er ist aufgrund seines Kosten-Stickstoff-Verhältnisses einer der weltweit am häufigsten verwendeten Dünger. Er findet außerdem Anwendung in der Tierernährung, in der Industrie und in der Kosmetik als Feuchthaltemittel in Cremes für trockene Haut, gemäß den geltenden Vorschriften.",
+    "funciones": ["Stickstoffquelle", "Industrieller Rohstoff", "Feuchthaltemittel"],
+    "aplicaciones": ["Bodendüngung von Feldkulturen", "Verdünnte Blattanwendungen", "Wiederkäuerergänzung", "Harze und industrielle Prozesse", "Feuchtigkeitscremes für trockene Haut"],
+    "formas_referenciales": ["Feststoff — Perlen (Prills) oder Granulat, je nach Hersteller und Charge"]
   },
   {
     "id": "sulfato-de-potasio",
@@ -83,11 +83,11 @@
   {
     "id": "sulfato-de-zinc",
     "nombre": "Zinksulfat",
-    "sinonimos": ["Zinkvitriol", "Weißer Vitriol"],
-    "descripcion": "Wasserlösliche Zinkquelle; dieser Mikronährstoff wird mit der Streckung der Internodien, der Entwicklung junger Blätter und der Fruchtbildung in Verbindung gebracht. Eingesetzt in Blattanwendungen, in der Fertigation und in Mikronährstoffmischungen. Findet zudem Absatz in Vormischungen für die Tierernährung, gemäß den geltenden Vorschriften.",
-    "funciones": ["Zinkquelle", "Bestandteil von Mikronährstoffmischungen"],
-    "aplicaciones": ["Blattdüngung", "Fertigation und Mikronährstoffmischungen", "Mineralische Vormischungen für die Tierernährung"],
-    "formas_referenciales": ["Kristalliner Feststoff oder Pulver, je nach Hydratationsgrad, Hersteller und Charge"]
+    "sinonimos": ["Zinkvitriol", "Weißvitriol"],
+    "descripcion": "Wasserlösliche Zinkquelle, ein Mikronährstoff, der mit der Streckung der Internodien, der Entwicklung neuer Blätter und der Fruchtbildung in Verbindung gebracht wird. Es wird bei Blattanwendungen, in der Fertigation und in Mikronährstoffmischungen verwendet. Es findet außerdem Absatz in Vormischungen für die Tierernährung, in der Körperhygiene als Adstringens und als Zinkquelle in Lebensmitteln, gemäß den geltenden Vorschriften.",
+    "funciones": ["Zinkquelle", "Bestandteil von Mikronährstoffmischungen", "Adstringens"],
+    "aplicaciones": ["Blattdüngung", "Fertigation und Mikronährstoffmischungen", "Mineralvormischungen für die Tierernährung", "Formulierungen für Körperhygiene und Reinigung", "Mineralstoffanreicherung von Lebensmitteln, gemäß Vorschriften"],
+    "formas_referenciales": ["Kristalliner Feststoff oder Pulver, je nach Hersteller und Charge"]
   },
   {
     "id": "acido-borico",
@@ -172,21 +172,12 @@
   },
   {
     "id": "acido-fosforico",
-    "nombre": "Phosphorsäure",
-    "sinonimos": ["Orthophosphorsäure", "E 338"],
-    "descripcion": "Anorganische Säure mit doppeltem Einsatz in der Landwirtschaft: Phosphorquelle in der Fertigation und pH-Korrekturmittel für Bewässerungswasser mit hoher Alkalinität. Hilft, die Verstopfung von Tropfern durch Carbonatausfällungen zu verhindern. In Lebensmitteln und Industrie wird sie gemäß den geltenden Vorschriften eingesetzt.",
-    "funciones": ["pH-Korrekturmittel für Bewässerungswasser", "Phosphorquelle", "Reiniger für Bewässerungssysteme"],
-    "aplicaciones": ["Ansäuerung von Fertigationswasser", "Reinigung von Tropfleitungen", "Phosphordüngung über die Bewässerung", "Säuerungsmittel in der Industrie gemäß Vorschriften"],
-    "formas_referenciales": ["Flüssig — wässrige Lösung, Konzentration je nach Lieferform des Herstellers"]
-  },
-  {
-    "id": "acido-citrico-agricola",
-    "nombre": "Citronensäure",
-    "sinonimos": ["Zitronensäure", "E 330"],
-    "descripcion": "Organische Säure biotechnologischen Ursprungs, in der Landwirtschaft eingesetzt als Korrekturmittel für pH-Wert und Härte des Spritzwassers, um die alkalische Hydrolyse der Betriebsmittel im Tank zu verhindern. Ihre chelatisierende Wirkung hilft, die Kationen der Spritzbrühe verfügbar zu halten. Breiter Querschnittseinsatz in Lebensmitteln, Reinigung und Kosmetik gemäß den geltenden Vorschriften.",
-    "funciones": ["pH-Korrekturmittel der Spritzbrühe", "Sequestriermittel für Wasserhärte", "Mehrzweck-Säuerungsmittel"],
-    "aplicaciones": ["Aufbereitung von Spritzwasser", "Tankmischungen mit harten Wässern", "Säuerungsmittel in Lebensmitteln und Reinigungsprodukten gemäß Vorschriften"],
-    "formas_referenciales": ["Kristalliner Feststoff — wasserfrei oder als Monohydrat, je nach Hersteller und Charge"]
+    "nombre": "Phosphorsäure 85%",
+    "sinonimos": ["Orthophosphorsäure", "Phosphorsäure"],
+    "descripcion": "Anorganische Säure mit doppeltem Einsatz in der Landwirtschaft: Phosphorquelle in der Düngebewässerung und pH-Korrekturmittel für Bewässerungswasser mit hoher Alkalinität. Sie trägt dazu bei, die Verstopfung von Tropfern durch Carbonatausfällungen zu verhindern. In Reinigung und Industrie wird sie als Entkalker und zur Phosphatierung von Metallen eingesetzt, in der Veterinärmedizin gemäß den geltenden Vorschriften.",
+    "funciones": ["pH-Korrekturmittel für Bewässerungswasser", "Phosphorquelle", "Reiniger für Bewässerungssysteme", "Entkalker"],
+    "aplicaciones": ["Ansäuerung von Düngebewässerungswasser", "Reinigung von Tropfleitungen", "Phosphatdüngung über die Bewässerung", "Entkalkung und saure Reinigung", "Phosphatierung von Metalloberflächen"],
+    "formas_referenciales": ["Flüssigkeit — wässrige Lösung, je nach Hersteller und Charge"]
   },
   {
     "id": "lignosulfonato-de-sodio",
@@ -218,10 +209,10 @@
   {
     "id": "sulfato-de-amonio",
     "nombre": "Ammoniumsulfat",
-    "sinonimos": ["Schwefelsaures Ammoniak", "ssA"],
-    "descripcion": "Stickstoffdünger mit gleichzeitigem Schwefelanteil und saurer Reaktion im Boden, nützlich in alkalischen Böden und schwefelbedürftigen Kulturen. In Tankmischungen wird er als Konditionierer für harte Wässer eingesetzt, indem er antagonistische Kationen bindet. Betriebsmittel mit breitem Einsatz in Flächenkulturen.",
-    "funciones": ["Quelle für Ammoniumstickstoff", "Schwefelquelle", "Konditionierer für harte Wässer"],
-    "aplicaciones": ["Bodendüngung in alkalischen Böden", "Aufbereitung der Spritzbrühe", "Physikalische Düngermischungen"],
-    "formas_referenciales": ["Feststoff — Kristalle oder granuliert, je nach Hersteller und Charge"]
+    "sinonimos": ["Ammonsulfat", "Diammoniumsulfat"],
+    "descripcion": "Stickstoffdünger mit gleichzeitiger Schwefelzufuhr und saurer Reaktion im Boden, geeignet für alkalische Böden und schwefelbedürftige Kulturen. In Tankmischungen wird er als Konditionierer für hartes Wasser eingesetzt, indem er antagonistische Kationen bindet. Er wird außerdem als Salz zur Proteinfällung und als Stickstoffquelle in Fermentationsmedien mit Hefen verwendet.",
+    "funciones": ["Ammoniumstickstoffquelle", "Schwefelquelle", "Konditionierer für hartes Wasser", "Salz zur Proteinfällung"],
+    "aplicaciones": ["Bodendüngung auf alkalischen Böden", "Aufbereitung der Spritzbrühe", "Physikalische Düngemittelmischungen", "Proteinfällung in Bioprozessen", "Nährstoff für die Fermentation mit Hefen"],
+    "formas_referenciales": ["Feststoff — Kristalle oder Granulat, je nach Hersteller und Charge"]
   }
 ]

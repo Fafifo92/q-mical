@@ -2,28 +2,28 @@
   {
     "id": "goma-xantana",
     "nombre": "Xanthan",
-    "sinonimos": ["Xanthan Gum", "Xanthangummi", "E415"],
-    "descripcion": "Durch Fermentation gewonnenes Polysaccharid, das in Lebensmittel- und Getränkeformulierungen breit als Verdickungs- und Stabilisierungsmittel eingesetzt wird. Es liefert eine gegenüber Temperatur- und pH-Schwankungen stabile Viskosität und hilft, Feststoffe in Suspension zu halten. Die Dosierung richtet sich nach der jeweiligen Anwendung und den geltenden Vorschriften.",
+    "sinonimos": ["Xanthan", "Xanthangummi", "E415", "Xanthan"],
+    "descripcion": "Durch Fermentation gewonnenes Polysaccharid, das in Lebensmitteln und Getränken sowie in Kosmetik, Reinigungsprodukten, pharmazeutischen und veterinärmedizinischen Formulierungen, Gelen und Bohrspülungen weit verbreitet als Verdickungsmittel und Stabilisator verwendet wird. Es sorgt für eine stabile Viskosität bei Temperatur- und pH-Schwankungen und hilft, Feststoffe in Suspension zu halten. Seine Dosierung wird je nach Anwendung und gemäß den geltenden Vorschriften festgelegt.",
     "funciones": ["Verdickungsmittel", "Stabilisator", "Suspendiermittel"],
-    "aplicaciones": ["Saucen und Dressings", "Getränke und Nektare", "Glutenfreie Backwaren", "Milchprodukte"],
-    "formas_referenciales": ["Feststoff — Pulver, Korngröße je nach Hersteller und Charge"]
+    "aplicaciones": ["Saucen und Dressings", "Getränke und Nektare", "Glutenfreie Backwaren", "Gele und Kosmetika", "Bohrspülungen"],
+    "formas_referenciales": ["Feststoff — Pulver, Korngröße variabel je nach Hersteller und Charge"]
   },
   {
     "id": "goma-guar",
     "nombre": "Guarkernmehl",
-    "sinonimos": ["Guargummi", "Guarmehl", "E412"],
-    "descripcion": "Pflanzliches Hydrokolloid aus dem Samen der Guarbohne, geschätzt für sein hohes Hydratationsvermögen und seine Fähigkeit, kalt zu verdicken. Es wird eingesetzt, um Körper zu verleihen, Wasser zu binden und Lebensmittelsysteme zu stabilisieren, mit guter Synergie zu anderen Gummen. Die Einsatzmenge richtet sich nach der Anwendung und den geltenden Vorschriften.",
-    "funciones": ["Verdickungsmittel", "Wasserbindemittel", "Stabilisator"],
-    "aplicaciones": ["Speiseeis und Tiefkühldesserts", "Saucen und Dressings", "Getränke", "Backwaren"],
-    "formas_referenciales": ["Feststoff — Pulver, Korngröße je nach Hersteller und Charge"]
+    "sinonimos": ["Guaran", "E412"],
+    "descripcion": "Hydrokolloid pflanzlichen Ursprungs, das aus dem Samen der Guarpflanze gewonnen wird und wegen seiner hohen Hydratisierungsfähigkeit und seiner Kaltverdickung geschätzt wird. Es wird verwendet, um Körper zu verleihen, Wasser zu binden und Systeme in Lebensmitteln, Kosmetik, Reinigungsprodukten, Industrie, Pharmazie, Veterinärmedizin und Nutrazeutika zu stabilisieren. Sein Einsatzniveau wird je nach Anwendung und gemäß den geltenden Vorschriften angepasst.",
+    "funciones": ["Verdickungsmittel", "Wasserbinder", "Stabilisator"],
+    "aplicaciones": ["Speiseeis und Tiefkühldesserts", "Saucen und Dressings", "Getränke", "Backwaren", "Kosmetik, Reinigungsprodukte und industrielle Anwendungen"],
+    "formas_referenciales": ["Feststoff — Pulver, Korngröße variabel je nach Hersteller und Charge"]
   },
   {
     "id": "carboximetilcelulosa-sodica",
-    "nombre": "Natrium-Carboxymethylcellulose",
-    "sinonimos": ["CMC", "Cellulosegummi", "E466"],
-    "descripcion": "Wasserlösliches Cellulosederivat, das in Lebensmittelformulierungen als Verdickungs-, Stabilisierungs- und Feuchthaltemittel verwendet wird. Es hilft, die Bildung von Eiskristallen zu kontrollieren und Proteine in sauren Getränken zu stabilisieren. Erhältlich in verschiedenen Viskositätsgraden je nach Anforderung der Anwendung.",
-    "funciones": ["Verdickungsmittel", "Stabilisator", "Feuchthaltemittel"],
-    "aplicaciones": ["Speiseeis", "Milch- und säurehaltige Getränke", "Back- und Konditoreiwaren", "Saucen"],
+    "nombre": "Carboxymethylcellulose",
+    "sinonimos": ["CMC", "Cellulosegummi", "E466", "Natriumcarboxymethylcellulose"],
+    "descripcion": "Wasserlösliches Cellulosederivat, das als Verdickungsmittel, Stabilisator und Feuchtigkeitsbinder in Lebensmittelformulierungen verwendet wird. Es hilft, die Bildung von Eiskristallen zu kontrollieren und Proteine in sauren Getränken zu stabilisieren. Es wird außerdem als Verdickungsmittel und Emulsionsstabilisator in Kosmetik, Reinigungsprodukten, Pharmazie, Veterinärmedizin, Nutrazeutika und industriellen Anwendungen in verschiedenen Viskositätsstufen eingesetzt.",
+    "funciones": ["Verdickungsmittel", "Stabilisator", "Feuchtigkeitsbinder"],
+    "aplicaciones": ["Speiseeis", "Milch- und Sauergetränke", "Backwaren und Konditorei", "Saucen", "Kosmetika, Reinigungsprodukte und industrielle Formulierungen"],
     "formas_referenciales": ["Feststoff — Pulver oder Granulat je nach Hersteller und Charge"]
   },
   {
@@ -64,11 +64,11 @@
   },
   {
     "id": "acido-citrico-anhidro",
-    "nombre": "Citronensäure wasserfrei",
-    "sinonimos": ["Zitronensäure", "E330"],
-    "descripcion": "Referenz-Säuerungsmittel in der Lebensmittel- und Getränkeindustrie, durch Fermentation gewonnen. Es liefert Säure und Zitrusnoten, reguliert den pH-Wert und wirkt als Metallkomplexbildner, der die Stabilität von Farbe und Geschmack fördert. Seine Vielseitigkeit macht es zu einem Lagergrundstoff für zahlreiche Branchen.",
-    "funciones": ["Säuerungsmittel", "pH-Regulator", "Komplexbildner"],
-    "aplicaciones": ["Getränke und Erfrischungsgetränke", "Süßwaren", "Konserven und Saucen", "Reinigungsprodukte"],
+    "nombre": "Zitronensäure",
+    "sinonimos": ["Wasserfreie Zitronensäure", "E330"],
+    "descripcion": "Standard-Säuerungsmittel in Lebensmitteln und Getränken, durch Fermentation gewonnen. Es sorgt für Säure und Zitrusnoten, reguliert den pH-Wert und wirkt als Metallkomplexbildner und synergistisches Antioxidans, das die Stabilität von Farbe und Geschmack fördert. Es wird außerdem in Kosmetik, Reinigung, Pharmazie, Veterinärmedizin, Nutrazeutika und Agro verwendet, gemäß den geltenden Vorschriften.",
+    "funciones": ["Säuerungsmittel", "pH-Regulator", "Komplexbildner", "Synergistisches Antioxidans"],
+    "aplicaciones": ["Getränke und Erfrischungsgetränke", "Süßwaren", "Konserven und Saucen", "Reinigungsprodukte", "pH-Einstellung in Kosmetika und Pharmazeutika"],
     "formas_referenciales": ["Kristalliner Feststoff — Kristalle oder Pulver je nach Hersteller und Charge"]
   },
   {
@@ -84,28 +84,28 @@
     "id": "acido-lactico",
     "nombre": "Milchsäure",
     "sinonimos": ["E270", "2-Hydroxypropansäure"],
-    "descripcion": "Säuerungsmittel fermentativen Ursprungs mit mildem, milchsaurem Profil, das zur pH-Regulierung und zur Verleihung fermentationstypischer Noten eingesetzt wird. Es trägt zur Konservierung bei, indem es den pH-Wert des Mediums in Saucen, Eingelegtem und Fleischerzeugnissen senkt. Der Einsatz erfolgt gemäß den geltenden Vorschriften der jeweiligen Kategorie.",
-    "funciones": ["Säuerungsmittel", "pH-Regulator", "Konservierungshilfsstoff"],
-    "aplicaciones": ["Eingelegtes und Saucen", "Fleischerzeugnisse", "Backwaren", "Getränke"],
-    "formas_referenciales": ["Flüssig — wässrige Lösung, Konzentration je nach Spezifikation der Charge"]
+    "descripcion": "Säuerungsmittel fermentativen Ursprungs mit mildem Säureprofil, verwendet zur pH-Regulierung und um Noten fermentierter Produkte beizusteuern; es trägt zur Konservierung bei, indem es den pH-Wert in Saucen, Eingelegtem und Fleischerzeugnissen senkt. In der Kosmetik wird es als milde Alpha-Hydroxysäure im Zusammenhang mit Feuchtigkeitsversorgung und oberflächlicher Exfoliation eingesetzt. Es wird gemäß den geltenden Vorschriften der jeweiligen Kategorie verwendet.",
+    "funciones": ["Säuerungsmittel", "pH-Regulator", "Konservierungshilfsstoff", "Mildes Peeling-Mittel (AHA)"],
+    "aplicaciones": ["Eingelegtes und Saucen", "Fleischerzeugnisse", "Backwaren", "Getränke", "Kosmetika und Reinigungsprodukte mit eingestelltem pH-Wert"],
+    "formas_referenciales": ["Flüssigkeit — wässrige Lösung, je nach Hersteller und Charge"]
   },
   {
     "id": "benzoato-de-sodio",
     "nombre": "Natriumbenzoat",
-    "sinonimos": ["E211"],
-    "descripcion": "In Lebensmitteln und Getränken mit saurem pH-Wert breit eingesetztes Konservierungsmittel zum Schutz der Formulierungen vor Hefen und Schimmelpilzen. Seine gute Wasserlöslichkeit erleichtert die Einarbeitung in Sirupe, Saucen und Getränke. Die Dosierung richtet sich nach der Produktkategorie und den geltenden Vorschriften.",
-    "funciones": ["Konservierungsmittel"],
-    "aplicaciones": ["Getränke und Sirupe", "Saucen und Dressings", "Fruchtkonserven", "Körperpflege"],
-    "formas_referenciales": ["Feststoff — Pulver oder Granulat je nach Hersteller und Charge"]
+    "sinonimos": ["E211", "Sodium Benzoate", "Natriumsalz der Benzoesäure"],
+    "descripcion": "Konservierungsmittel, das häufig in Lebensmitteln und Getränken mit saurem pH-Wert eingesetzt wird, um die Formulierungen vor Hefen und Schimmelpilzen zu schützen. Die gute Wasserlöslichkeit erleichtert die Einarbeitung in Sirupe, Soßen und Getränke; zudem wird es in Kosmetik, Reinigungsprodukten, Pharmazie, Veterinärmedizin, Nutrazeutika und industriellen Anwendungen verwendet. Die Dosierung richtet sich nach der Produktkategorie und den geltenden Vorschriften.",
+    "funciones": ["Konservierungsmittel", "Antimykotikum", "Antimikrobielles Mittel"],
+    "aplicaciones": ["Getränke und Sirupe", "Soßen und Dressings", "Obstkonserven", "Körperpflege", "Reinigungsprodukte und pharmazeutische Formulierungen"],
+    "formas_referenciales": ["Feststoff — Pulver oder Granulat, je nach Hersteller und Charge"]
   },
   {
     "id": "sorbato-de-potasio",
     "nombre": "Kaliumsorbat",
     "sinonimos": ["Kaliumsalz der Sorbinsäure", "E202"],
-    "descripcion": "Breit eingesetztes Konservierungsmittel zum Schutz von Lebensmitteln und Getränken vor Schimmelpilzen und Hefen, mit neutralem sensorischem Profil. Aufgrund seiner Vielseitigkeit in Back-, Milch-, Saucen- und Getränkeprodukten ist es eines der gefragtesten Konservierungsmittel. Die Dosierung erfolgt nach Produktkategorie und den geltenden Vorschriften.",
-    "funciones": ["Konservierungsmittel"],
-    "aplicaciones": ["Back- und Konditoreiwaren", "Getränke und Säfte", "Käse und Milchprodukte", "Saucen und Dressings"],
-    "formas_referenciales": ["Feststoff — Granulat oder Pulver je nach Hersteller und Charge"]
+    "descripcion": "Kaliumsalz der Sorbinsäure, ein wasserlösliches Konservierungsmittel, das zum Schutz von Formulierungen vor Schimmelpilzen und Hefen eingesetzt wird und ein neutrales sensorisches Profil aufweist. Es wird in Kosmetik, Reinigungsprodukten, pharmazeutischen und veterinärmedizinischen Formulierungen, nutrazeutischen Nahrungsergänzungsmitteln und industriellen Anwendungen in Medien mit saurem bis leicht saurem pH-Wert verwendet. Die Dosierung erfolgt je nach Anwendung und gemäß den geltenden Vorschriften.",
+    "funciones": ["Konservierungsmittel", "Antimykotikum"],
+    "aplicaciones": ["Kosmetik und Körperpflege", "Reinigungsprodukte", "Pharmazeutische und veterinärmedizinische Formulierungen", "Flüssige nutrazeutische Nahrungsergänzungsmittel"],
+    "formas_referenciales": ["Feststoff — Granulat oder Pulver, je nach Hersteller und Charge"]
   },
   {
     "id": "propionato-de-calcio",
@@ -120,9 +120,9 @@
     "id": "acido-ascorbico",
     "nombre": "Ascorbinsäure",
     "sinonimos": ["Vitamin C", "E300"],
-    "descripcion": "In Lebensmitteln und Getränken weit verbreitetes Antioxidans zum Schutz von Farbe und Geschmack vor Oxidation. In Backwaren wirkt es als Mehlbehandlungsmittel und fördert die Teigentwicklung. Es wird außerdem in Vormischungen und zur Anreicherung gemäß den geltenden Vorschriften eingesetzt.",
-    "funciones": ["Antioxidans", "Mehlbehandlungsmittel", "Anreicherungsstoff"],
-    "aplicaciones": ["Getränke und Säfte", "Backwaren", "Fleischerzeugnisse", "Nährstoff-Vormischungen"],
+    "descripcion": "Vitamin C, ein weit verbreitetes Antioxidans in Lebensmitteln und Getränken zum Schutz von Farbe und Geschmack vor Oxidation; in der Bäckerei wirkt es als Mehlbehandlungsmittel. Es wird außerdem in kosmetischen Formulierungen im Zusammenhang mit einem ebenmäßigen Hautton und Hautbild sowie in pharmazeutischen und veterinärmedizinischen Zubereitungen verwendet, gemäß den geltenden Vorschriften.",
+    "funciones": ["Antioxidans", "Mehlbehandlungsmittel", "Wirkstoff für einen ebenmäßigen Hautton", "Anreicherungsmittel"],
+    "aplicaciones": ["Getränke und Säfte", "Backwaren", "Fleischerzeugnisse", "Kosmetische Seren", "Pharmazeutische und veterinärmedizinische Zubereitungen"],
     "formas_referenciales": ["Kristalliner Feststoff — Kristalle oder Pulver je nach Hersteller und Charge"]
   },
   {
@@ -137,10 +137,10 @@
   {
     "id": "sucralosa",
     "nombre": "Sucralose",
-    "sinonimos": ["E955"],
-    "descripcion": "Süßstoff hoher Intensität, aus Saccharose gewonnen, mit klarem Süßprofil und sehr guter Stabilität bei Verarbeitung und Lagerung. Er ermöglicht die Reduzierung von Zucker in Getränken, Milchprodukten und Konditoreiwaren unter Beibehaltung des sensorischen Produktprofils. Die Einsatzmenge richtet sich nach der Kategorie und den geltenden Vorschriften.",
-    "funciones": ["Süßstoff hoher Intensität"],
-    "aplicaciones": ["Zuckerreduzierte Getränke", "Milchprodukte", "Konditoreiwaren und Desserts", "Nahrungsergänzungsmittel und Nutrazeutika"],
+    "sinonimos": ["Sucralose", "E955"],
+    "descripcion": "Hochintensiver Süßstoff, abgeleitet von Saccharose, mit sauberem Süßprofil und sehr guter Stabilität bei Verarbeitung und Lagerung. Er ermöglicht die Zuckerreduktion in Getränken, Milchprodukten und Backwaren sowie das Süßen oraler pharmazeutischer und nutritiver Formulierungen unter Beibehaltung des sensorischen Profils des Produkts. Sein Einsatzniveau wird je nach Kategorie und gemäß den geltenden Vorschriften festgelegt.",
+    "funciones": ["Hochintensiver Süßstoff"],
+    "aplicaciones": ["Zuckerreduzierte Getränke", "Milchprodukte", "Konditorei und Desserts", "Nahrungsergänzungsmittel und Nutrazeutika", "Sirupe und orale pharmazeutische Formulierungen"],
     "formas_referenciales": ["Feststoff — Pulver je nach Hersteller und Charge"]
   },
   {
@@ -154,21 +154,21 @@
   },
   {
     "id": "sorbitol",
-    "nombre": "Sorbit",
+    "nombre": "Sorbit 70%",
     "sinonimos": ["Sorbitol", "D-Glucitol", "E420"],
-    "descripcion": "Polyol mit doppelter Funktion: Füllsüßstoff und Feuchthaltemittel, das hilft, Feuchtigkeit zu binden und die Textur der Produkte über die Zeit zu erhalten. Es ist ein Klassiker in Süßwaren, Backwaren und Zahncremes. Die Wahl zwischen fester Form oder Sirup hängt vom Prozess des jeweiligen Kunden ab.",
-    "funciones": ["Füllsüßstoff", "Feuchthaltemittel", "Texturweichmacher"],
-    "aplicaciones": ["Süßwaren und Kaugummi", "Back- und Konditoreiwaren", "Zahncremes", "Sirupe"],
-    "formas_referenciales": ["Feststoff — Pulver oder Granulat je nach Hersteller und Charge", "Flüssig — wässrige Lösung je nach Darreichungsform der Charge"]
+    "descripcion": "Polyol mit Doppelfunktion: Füllstoff-Süßungsmittel und Feuchthaltemittel, das hilft, Feuchtigkeit zu binden und die Textur der Produkte über die Zeit zu erhalten. Es ist ein Klassiker in Süßwaren, Backwaren und Zahnpasten. Es wird außerdem als Feuchthaltemittel und Hilfsstoff in Sirupen sowie pharmazeutischen und veterinärmedizinischen Formulierungen und als Weichmacher in Reinigungsprodukten und der Industrie verwendet. Die Wahl zwischen fester Form oder Sirup hängt vom Prozess des jeweiligen Kunden ab.",
+    "funciones": ["Füllstoff-Süßungsmittel", "Feuchthaltemittel", "Texturweichmacher"],
+    "aplicaciones": ["Süßwaren und Kaugummis", "Backwaren und Konditorei", "Zahnpasten", "Sirupe", "Feuchthaltemittel in Reinigungsprodukten und industriellen Anwendungen"],
+    "formas_referenciales": ["Feststoff — Pulver oder Granulat je nach Hersteller und Charge", "Flüssigkeit — wässrige Lösung je nach Aufmachung der Charge"]
   },
   {
     "id": "lecitina-de-soya",
     "nombre": "Sojalecithin",
-    "sinonimos": ["Lecithin", "E322"],
-    "descripcion": "Natürlicher Emulgator aus Sojaöl, ein Standard in der Schokoladenherstellung zur Kontrolle der Viskosität und in der Backwarenproduktion zur Verbesserung der Teigverarbeitung. Er erleichtert die Integration von Fett- und Wasserphasen und wirkt als Dispergier- und Trennmittel. Erhältlich in flüssigen und entölten Qualitäten je nach Anwendung.",
-    "funciones": ["Emulgator", "Dispergiermittel", "Teigverbesserer"],
-    "aplicaciones": ["Schokolade und Überzugsmassen", "Backwaren", "Margarinen und Fette", "Mischfuttermittel"],
-    "formas_referenciales": ["Viskose Flüssigkeit — Farbton variabel je nach Herkunft und Charge", "Feststoff — Pulver oder Granulat in entölten Qualitäten je nach Hersteller und Charge"]
+    "sinonimos": ["Sojalecithin", "E322"],
+    "descripcion": "Natürlicher Emulgator aus Sojaöl, Referenz in der Schokoladenherstellung zur Viskositätsregulierung und im Backgewerbe zur Verbesserung der Teigverarbeitung. Es erleichtert die Vermischung von Fett- und Wasserphasen und wirkt als Dispergier- und Trennmittel; außerdem wird es in Kosmetik, Nahrungsergänzungsmitteln und pharmazeutischen Formulierungen verwendet. Verfügbar in flüssigen und entölten Qualitäten je nach Anwendung.",
+    "funciones": ["Emulgator", "Dispergiermittel", "Teigverbesserer", "Phospholipidquelle"],
+    "aplicaciones": ["Schokoladenherstellung und Überzüge", "Backwaren", "Margarine und Fette", "Mischfuttermittel", "Kosmetik, Nahrungsergänzungsmittel und pharmazeutische Liposomen"],
+    "formas_referenciales": ["Viskose Flüssigkeit — Farbton variabel, je nach Hersteller und Charge", "Feststoff — Pulver oder Granulat in entölten Qualitäten je nach Hersteller und Charge"]
   },
   {
     "id": "mono-y-digliceridos",
@@ -182,10 +182,10 @@
   {
     "id": "polisorbato-80",
     "nombre": "Polysorbat 80",
-    "sinonimos": ["Polyoxyethylen-(20)-sorbitanmonooleat", "E433"],
-    "descripcion": "Hydrophiler nichtionischer Emulgator, der zur Stabilisierung von Öl-in-Wasser-Emulsionen und zur Solubilisierung von Aromen und ätherischen Ölen in wässrigen Systemen verwendet wird. In Speiseeis trägt er zur Belüftung und zu einer weichen Textur bei. Der Einsatz in Lebensmitteln erfolgt gemäß den geltenden Vorschriften für Zusatzstoffe.",
-    "funciones": ["O/W-Emulgator", "Solubilisator", "Netzmittel"],
-    "aplicaciones": ["Speiseeis und Tiefkühldesserts", "Solubilisierung von Aromen", "Saucen und Dressings", "Veterinärformulierungen"],
+    "sinonimos": ["Ethoxyliertes Sorbitanmonooleat", "E433"],
+    "descripcion": "Hydrophiler nichtionischer Emulgator, der zur Stabilisierung von Öl-in-Wasser-Emulsionen und zur Solubilisierung von Aromen und ätherischen Ölen in wässrigen Systemen in Kosmetik, Reinigungsprodukten sowie pharmazeutischen und veterinärmedizinischen Formulierungen und Nahrungsergänzungsmitteln verwendet wird. In Speiseeis trägt er zur Aufschlagung und zu einer weichen Textur bei. Er wird in Lebensmitteln gemäß den geltenden Vorschriften für Zusatzstoffe eingesetzt.",
+    "funciones": ["O/W-Emulgator", "Lösungsvermittler", "Dispergiermittel"],
+    "aplicaciones": ["Speiseeis und Tiefkühldesserts", "Solubilisierung von Aromen", "Saucen und Dressings", "Veterinärmedizinische Formulierungen", "Kosmetika und Reinigungsprodukte"],
     "formas_referenciales": ["Viskose Flüssigkeit — Bernsteinton variabel je nach Hersteller und Charge"]
   },
   {
@@ -210,9 +210,9 @@
     "id": "maltodextrina",
     "nombre": "Maltodextrin",
     "sinonimos": ["Maismaltodextrin"],
-    "descripcion": "Aus Stärke gewonnenes Kohlenhydrat, das als Körperbildner, Trocknungsträger und Verkapselungsmittel für Aromen und Farben eingesetzt wird. Seine relativ geringe Hygroskopizität und sein neutraler Geschmack machen es ideal für Pulvermischungen und Instant-Getränke. Es wird in verschiedenen Dextrose-Äquivalent-Bereichen je nach Anwendung angeboten.",
-    "funciones": ["Körperbildner", "Träger und Verkapselungsmittel", "Mildes Verdickungsmittel"],
-    "aplicaciones": ["Instant-Getränke", "Pulvermischungen und Würzmittel", "Aromenverkapselung", "Sporternährung"],
+    "descripcion": "Von Stärke abgeleitetes Kohlenhydrat, das als Füllstoff, Trocknungsträger und Einkapselungsmittel für Aromen und Farben verwendet wird. Seine relativ geringe Hygroskopizität und sein neutraler Geschmack machen es ideal für Pulvermischungen und Instantgetränke. Es wird je nach Anwendung in verschiedenen Dextrose-Äquivalent-Bereichen angeboten und außerdem als Verdünnungs- und Bindemittel in pharmazeutischen und veterinärmedizinischen Formulierungen sowie in Nahrungsergänzungsmitteln eingesetzt.",
+    "funciones": ["Füllstoff", "Träger und Einkapselungsmittel", "Mildes Verdickungsmittel", "Binde- und Verdünnungsmittel"],
+    "aplicaciones": ["Instantgetränke", "Pulvermischungen und Gewürze", "Einkapselung von Aromen", "Sporternährung", "Hilfsstoff in pharmazeutischen Tabletten und Pulvern"],
     "formas_referenciales": ["Feststoff — Pulver je nach Hersteller und Charge"]
   },
   {
@@ -236,10 +236,10 @@
   {
     "id": "bicarbonato-de-sodio",
     "nombre": "Natriumhydrogencarbonat",
-    "sinonimos": ["Natriumbicarbonat", "Natron", "E500ii"],
-    "descripcion": "Vielseitiges Salz, das in Lebensmitteln als chemisches Triebmittel und Säureregulator eingesetzt wird. In Kombination mit Säuerungsmitteln setzt es Gas frei, das Backwaren Volumen und Lockerheit verleiht. Sein Einsatz erstreckt sich auf Brausegetränke, Reinigung und Tierernährung gemäß den geltenden Vorschriften.",
-    "funciones": ["Chemisches Triebmittel", "pH-Regulator", "Brausemittel"],
-    "aplicaciones": ["Back- und Konditoreiwaren", "Backpulver", "Brausegetränke", "Reinigungsprodukte"],
+    "sinonimos": ["Natriumbicarbonat", "E500ii"],
+    "descripcion": "Vielseitiges Salz, das in Lebensmitteln als chemisches Backtriebmittel und Säureregulator verwendet wird. In Kombination mit Säuerungsmitteln setzt es Gas frei, das Backwaren Volumen und Lockerheit verleiht. Seine Verwendung erstreckt sich auf Getränke und Brausetabletten, Reinigung, Kosmetik, pharmazeutische Formulierungen, Nahrungsergänzungsmittel und Tierernährung gemäß den geltenden Vorschriften.",
+    "funciones": ["Chemisches Backtriebmittel", "pH-Regulator", "Brausemittel", "Mildes Abrasivum"],
+    "aplicaciones": ["Backwaren und Konditorei", "Backpulver", "Getränke und Brausetabletten", "Reinigungsprodukte", "Zahnpasten und Kosmetik"],
     "formas_referenciales": ["Feststoff — Pulver, Korngröße variabel je nach Hersteller und Charge"]
   },
   {

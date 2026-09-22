@@ -67,6 +67,11 @@
       "corto": "Cosmétique",
       "tagline": "Actifs, émollients, tensioactifs, colorants et conservateurs pour le soin de la peau, le capillaire et le maquillage."
     },
+    "farmaceutica": {
+      "nombre": "Pharmaceutique",
+      "corto": "Pharma",
+      "tagline": "Excipients, véhicules, sels minéraux et matières premières pour formulations pharmaceutiques."
+    },
     "nutraceutica": {
       "nombre": "Nutraceutique & compléments alimentaires",
       "corto": "Nutraceutique",

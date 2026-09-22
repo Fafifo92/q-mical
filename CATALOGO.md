@@ -13,7 +13,8 @@ src/data/products/
 ├── veterinaria.json
 ├── extractos.json
 ├── industrial.json
-└── aseo.json
+├── aseo.json
+└── matriz-2026.json   ← productos agregados desde la matriz de la empresa (sep. 2026)
 ```
 
 > El nombre del archivo es solo para ordenar: puedes crear otros (por ejemplo
@@ -28,25 +29,26 @@ fórmula) y por **industria** (dónde se usa). Los slugs válidos están en
 | Líneas de producto (`lineas`) | Industrias (`industrias`) |
 |---|---|
 | `ingrediente-activo` · Ingrediente activo | `cosmetica` · Cosmética |
-| `tensioactivo` · Tensioactivo | `nutraceutica` · Nutracéutica |
-| `modificador-reologico` · Modificador reológico | `alimentos` · Alimentos |
-| `emoliente` · Emoliente | `agro` · Agro |
-| `hidratante` · Hidratante | `veterinaria` · Veterinaria |
-| `agente-preservante` · Agente preservante | `extractos` · Extractos |
-| `base-formulacion` · Base lista para formulación | `industrial` · Industrial |
-| `colorante` · Colorante | `aseo` · Aseo |
-| `fragancia` · Fragancia | |
+| `tensioactivo` · Tensioactivo | `farmaceutica` · Farmacéutica |
+| `modificador-reologico` · Modificador reológico | `nutraceutica` · Nutracéutica |
+| `emoliente` · Emoliente | `alimentos` · Alimentos |
+| `hidratante` · Hidratante | `agro` · Agro |
+| `agente-preservante` · Agente preservante | `veterinaria` · Veterinaria |
+| `base-formulacion` · Base lista para formulación | `extractos` · Extractos |
+| `colorante` · Colorante | `industrial` · Industrial |
+| `fragancia` · Fragancia | `aseo` · Aseo |
 | `saborizante` · Saborizante | |
 | `extractos` · Extractos | |
 | `aceites` · Aceites | |
 
-Una línea sin productos publicados (hoy: *Bases listas para formulación*) se
-muestra igual en el sitio con el botón «Consultar disponibilidad», que abre
-WhatsApp.
+Una línea sin productos publicados se muestra igual en el sitio con el botón
+«Consultar disponibilidad», que abre WhatsApp.
 
-> ℹ️ La clasificación actual de los 227 productos se derivó de la información
-> técnica que ya tenía el catálogo. Cuando llegue la matriz oficial de
-> productos, basta con actualizar `lineas` e `industrias` de cada uno.
+> ℹ️ Las **industrias** de cada producto vienen de la matriz de la empresa
+> (columnas: cuidado personal → `cosmetica`, cuidado hogar → `aseo`, farma,
+> veterinaria, industrial, nutracéutico, alimentos). La matriz no tiene columnas
+> de *agro* ni *extractos*: esas dos se conservaron tal como estaban.
+> La matriz original está en `docs/matriz/`, junto con el informe de revisión.
 
 ## ➕ Agregar un producto
 

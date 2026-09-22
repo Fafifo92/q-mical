@@ -4,7 +4,7 @@
  * Toda materia prima se clasifica por DOS ejes (definidos por Origen Chemical):
  *
  *   1. LÍNEA DE PRODUCTO → qué función cumple en la fórmula (12 líneas).
- *   2. INDUSTRIA         → en qué sectores se usa (8 industrias).
+ *   2. INDUSTRIA         → en qué sectores se usa (9 industrias).
  *
  * Los productos (src/data/products/*.json) referencian estos slugs en sus
  * campos `lineas` e `industrias` (el primero de cada lista es el principal).
@@ -121,7 +121,7 @@ export const LINEAS: Linea[] = [
 ];
 
 /**
- * Las 8 industrias atendidas, en el orden del portafolio. Cada una puede
+ * Las 9 industrias atendidas, en el orden del portafolio. Cada una puede
  * llevar una foto en public/img/industrias/<slug>.jpg (ver README).
  */
 export const INDUSTRIAS: Industria[] = [
@@ -131,6 +131,13 @@ export const INDUSTRIAS: Industria[] = [
     corto: "Cosmética",
     tagline: "Activos, emolientes, tensioactivos, colorantes y conservantes para skincare, capilar y maquillaje.",
     icono: "industria-cosmetica",
+  },
+  {
+    slug: "farmaceutica",
+    nombre: "Farmacéutica",
+    corto: "Farmacéutica",
+    tagline: "Excipientes, vehículos, sales minerales y materias primas para formulaciones farmacéuticas.",
+    icono: "industria-farmaceutica",
   },
   {
     slug: "nutraceutica",

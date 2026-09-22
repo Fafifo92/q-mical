@@ -1,30 +1,30 @@
 [
   {
     "id": "vitamina-a",
-    "nombre": "Vitamine A (Acétate de rétinyle)",
-    "sinonimos": ["Acétate de rétinol", "Rétinyl acétate"],
-    "descripcion": "Vitamine liposoluble utilisée dans la formulation de prémélanges et de noyaux vitaminiques pour la nutrition animale. Elle apporte une activité de vitamine A associée à la vision, à la croissance et à l'intégrité des tissus épithéliaux, conformément à la réglementation applicable. Elle est incorporée sous des formes stabilisées afin de protéger son activité contre l'oxydation pendant le mélange et le stockage.",
-    "funciones": ["Source de vitamine A", "Additif de prémélange vitaminique"],
-    "aplicaciones": ["Prémélanges vitaminiques", "Noyaux et concentrés", "Aliment composé pour volailles", "Aliment pour porcs", "Suppléments pour bovins"],
+    "nombre": "Vitamine A acétate (500.000 UI)",
+    "sinonimos": ["Acétate de rétinyle", "Rétinyl acétate", "Retinyl Acetate", "Vitamine A (acétate de rétinyle)"],
+    "descripcion": "Vitamine liposoluble utilisée dans la formulation de prémélanges et de noyaux vitaminiques pour la nutrition animale, ainsi que dans les compléments, les aliments enrichis et les formulations cosmétiques pour le soin de la peau. Elle apporte une activité de vitamine A associée à la vision, à la croissance et à l'intégrité des tissus épithéliaux, conformément à la réglementation applicable. Elle est incorporée sous des formes stabilisées contre l'oxydation pendant le mélange et le stockage.",
+    "funciones": ["Source de vitamine A", "Additif de prémélange vitaminique", "Actif pour le soin de la peau"],
+    "aplicaciones": ["Prémélanges vitaminiques", "Noyaux et concentrés", "Aliment composé pour volailles, porcs et bovins", "Compléments et aliments enrichis", "Crèmes et sérums cosmétiques"],
     "formas_referenciales": ["Solide - poudre ou microgranulés enrobés, selon le fabricant et le lot"]
   },
   {
     "id": "vitamina-d3",
-    "nombre": "Vitamine D3 (Cholécalciférol)",
-    "sinonimos": ["Cholécalciférol"],
-    "descripcion": "Source de vitamine D3 employée dans les prémélanges et les suppléments pour la nutrition animale. Elle est associée au métabolisme du calcium et du phosphore et à la minéralisation osseuse, conformément à la réglementation applicable. Elle se présente sous des formes stabilisées qui facilitent son dosage et son homogénéisation dans l'aliment composé.",
-    "funciones": ["Source de vitamine D3", "Additif de prémélange vitaminique"],
-    "aplicaciones": ["Prémélanges vitaminiques", "Aliment pour volailles", "Aliment pour porcs", "Sels minéralisés pour bovins"],
+    "nombre": "Vitamine D3",
+    "sinonimos": ["Cholécalciférol", "Cholecalciferol", "Vitamine D3 (cholécalciférol)"],
+    "descripcion": "Source de vitamine D3 employée dans les prémélanges et les compléments pour la nutrition animale et humaine, dans les aliments enrichis, y compris les produits laitiers, et dans les formulations pharmaceutiques et cosmétiques. Elle est associée au métabolisme du calcium et du phosphore et à la minéralisation osseuse, conformément à la réglementation applicable. Elle est manipulée sous des présentations stabilisées qui facilitent son dosage et son homogénéisation dans l'aliment composé.",
+    "funciones": ["Source de vitamine D3", "Additif de prémélange vitaminique", "Fortifiant alimentaire"],
+    "aplicaciones": ["Prémélanges vitaminiques", "Aliment pour volailles et porcs", "Sels minéralisés pour bovins", "Aliments et produits laitiers enrichis", "Compléments nutritionnels"],
     "formas_referenciales": ["Solide - poudre ou microgranulés stabilisés, selon le fabricant et le lot"]
   },
   {
     "id": "vitamina-e",
-    "nombre": "Vitamine E (Acétate de DL-alpha-tocophérol)",
-    "sinonimos": ["Acétate d'alpha-tocophéryle", "Acétate de tocophérol"],
-    "descripcion": "Antioxydant liposoluble utilisé dans les prémélanges pour la nutrition animale et comme stabilisant des graisses et des vitamines dans l'aliment. Il est associé à la fonction immunitaire et à la protection des membranes cellulaires contre l'oxydation, conformément à la réglementation applicable. Il est également employé comme antioxydant dans les formulations cosmétiques et alimentaires.",
+    "nombre": "Vitamine E acétate",
+    "sinonimos": ["Acétate d'alpha-tocophéryle", "Acétate de tocophérol", "Tocopheryl Acetate", "Vitamine E (acétate de DL-alpha-tocophérol)"],
+    "descripcion": "Antioxydant liposoluble utilisé dans les prémélanges pour la nutrition animale et comme stabilisant des graisses et des vitamines dans l'aliment. Il est associé à la fonction immunitaire et à la protection des membranes cellulaires contre l'oxydation, conformément à la réglementation applicable. Il est également employé dans les crèmes, les lotions et les sérums cosmétiques, ainsi que dans les formulations pharmaceutiques et alimentaires comme antioxydant et source de vitamine E.",
     "funciones": ["Antioxydant", "Source de vitamine E", "Stabilisant de vitamines et de graisses"],
-    "aplicaciones": ["Prémélanges vitaminiques", "Noyaux pour monogastriques", "Stabilisation des graisses dans l'aliment", "Suppléments nutraceutiques"],
-    "formas_referenciales": ["Liquide huileux visqueux ou poudre adsorbée sur support, selon la présentation du fabricant et le lot"]
+    "aplicaciones": ["Prémélanges vitaminiques", "Noyaux pour monogastriques", "Stabilisation des graisses dans l'aliment", "Compléments nutraceutiques", "Crèmes, lotions et sérums cosmétiques"],
+    "formas_referenciales": ["Liquide visqueux huileux ou poudre adsorbée sur support, selon le fabricant et le lot"]
   },
   {
     "id": "vitamina-k3",
@@ -38,10 +38,10 @@
   {
     "id": "cloruro-de-colina",
     "nombre": "Chlorure de choline",
-    "sinonimos": ["Choline chlorure", "Chlorure de choline sur support"],
-    "descripcion": "Nutriment utilisé dans les prémélanges et les aliments composés comme source de choline pour la nutrition animale. Il est associé au métabolisme des graisses, à la fonction hépatique et à l'apport de groupements méthyle, conformément à la réglementation applicable. Il est proposé sous forme liquide ou supportée sur un véhicule afin de faciliter son incorporation dans le mélange.",
-    "funciones": ["Source de choline", "Donneur de groupements méthyle", "Additif nutritionnel"],
-    "aplicaciones": ["Aliment composé pour volailles", "Aliment pour porcs", "Prémélanges et noyaux", "Suppléments"],
+    "sinonimos": ["Choline chlorure", "Chlorure de choline sur support", "Choline chloride"],
+    "descripcion": "Nutriment utilisé dans les prémélanges et les aliments composés comme source de choline pour la nutrition animale. Il est associé au métabolisme des graisses, à la fonction hépatique et à l'apport de groupes méthyle, conformément à la réglementation applicable. Il est proposé sous forme liquide ou supportée sur un véhicule pour faciliter son incorporation dans le mélange ; il est également employé dans les compléments et les préparations pharmaceutiques orales.",
+    "funciones": ["Source de choline", "Donneur de groupes méthyle", "Additif nutritionnel"],
+    "aplicaciones": ["Aliment composé pour volailles", "Aliment pour porcs", "Prémélanges et noyaux", "Compléments et préparations pharmaceutiques orales"],
     "formas_referenciales": ["Liquide ou poudre sur support, selon la présentation du fabricant et le lot"]
   },
   {
@@ -64,30 +64,30 @@
   },
   {
     "id": "oxido-de-zinc",
-    "nombre": "Oxyde de zinc",
-    "sinonimos": ["Blanc de zinc", "Fleurs de zinc"],
-    "descripcion": "Source concentrée de zinc utilisée dans les prémélanges minéraux pour la nutrition animale. Elle apporte du zinc associé à des processus enzymatiques et à la santé de la peau et des onglons, conformément à la réglementation applicable. L'oxyde de zinc est également utilisé comme ingrédient dans les formulations cosmétiques et de protection de la peau.",
-    "funciones": ["Source de zinc", "Oligo-élément minéral"],
-    "aplicaciones": ["Prémélanges minéraux", "Aliment pour porcs", "Sels minéralisés", "Crèmes et onguents de soin de la peau"],
+    "nombre": "Oxyde de zinc USP",
+    "sinonimos": ["Zinc Oxide", "Blanc de zinc", "Oxyde de zinc", "Fleur de zinc"],
+    "descripcion": "Oxyde minéral en poudre utilisé en cosmétique comme filtre UV physique à large spectre, opacifiant et agent de protection de la peau. Il est employé dans les protecteurs solaires, les crèmes barrière et les onguents dermiques ; la granulométrie et le traitement de surface sont confirmés dans la fiche technique du lot disponible.",
+    "funciones": ["Filtre UV physique", "Protecteur de la peau", "Opacifiant", "Astringent doux"],
+    "aplicaciones": ["Protecteurs solaires minéraux", "Crèmes et onguents de soin de la peau", "Crèmes barrière", "Maquillage et poudres minérales"],
     "formas_referenciales": ["Solide - poudre, granulométrie variable selon le fabricant et le lot"]
   },
   {
     "id": "sulfato-de-cobre",
-    "nombre": "Sulfate de cuivre pentahydraté",
-    "sinonimos": ["Sulfate cuivrique", "Vitriol bleu"],
-    "descripcion": "Source de cuivre utilisée dans les prémélanges minéraux pour la nutrition animale. Le cuivre est associé au métabolisme du fer, à la pigmentation et à la fonction enzymatique, conformément à la réglementation applicable. En dehors de la nutrition animale, il est employé dans le traitement des eaux et comme oligo-élément agricole.",
-    "funciones": ["Source de cuivre", "Oligo-élément minéral"],
-    "aplicaciones": ["Prémélanges minéraux", "Sels minéralisés", "Traitement des eaux", "Oligo-éléments agricoles"],
+    "nombre": "Sulfate de cuivre",
+    "sinonimos": ["Sulfate cuivrique", "Sulfate de cuivre pentahydraté", "Vitriol bleu"],
+    "descripcion": "Source de cuivre utilisée dans les prémélanges minéraux pour la nutrition animale. Le cuivre est associé au métabolisme du fer, à la pigmentation et à la fonction enzymatique, conformément à la réglementation applicable. En dehors de la nutrition animale, il est employé dans le traitement des eaux et des piscines, comme oligoélément agricole et comme base de produits fongicides.",
+    "funciones": ["Source de cuivre", "Oligoélément minéral", "Algicide", "Fongicide"],
+    "aplicaciones": ["Prémélanges minéraux", "Sels minéralisés", "Algicide pour piscines et traitement des eaux", "Oligoéléments agricoles", "Formulations fongicides agricoles"],
     "formas_referenciales": ["Solide - cristaux ou poudre, selon le fabricant et le lot"]
   },
   {
     "id": "sulfato-de-manganeso",
-    "nombre": "Sulfate de manganèse monohydraté",
-    "sinonimos": ["Sulfate manganeux", "Manganèse sulfate"],
-    "descripcion": "Source de manganèse employée dans les prémélanges minéraux pour la nutrition animale. Le manganèse est associé à la formation osseuse et à divers systèmes enzymatiques, conformément à la réglementation applicable. Il est également utilisé comme oligo-élément dans les programmes de nutrition végétale.",
-    "funciones": ["Source de manganèse", "Oligo-élément minéral"],
-    "aplicaciones": ["Prémélanges minéraux", "Sels minéralisés", "Aliment composé", "Engrais avec oligo-éléments"],
-    "formas_referenciales": ["Solide - poudre ou granulé, selon le fabricant et le lot"]
+    "nombre": "Sulfate de manganèse",
+    "sinonimos": ["Sulfate manganeux", "Manganèse sulfate", "Sulfate de manganèse monohydraté"],
+    "descripcion": "Source de manganèse employée dans les prémélanges minéraux pour la nutrition animale. Le manganèse est associé à la formation osseuse et à divers systèmes enzymatiques, conformément à la réglementation applicable. Il est également utilisé comme oligoélément dans les programmes de nutrition végétale et comme intrant catalytique dans des procédés chimiques.",
+    "funciones": ["Source de manganèse", "Oligoélément minéral", "Catalyseur dans les procédés chimiques"],
+    "aplicaciones": ["Prémélanges minéraux", "Sels minéralisés", "Aliment composé", "Engrais avec oligoéléments", "Catalyseur et réactif dans les procédés chimiques"],
+    "formas_referenciales": ["Solide - poudre ou granulés, selon le fabricant et le lot"]
   },
   {
     "id": "selenito-de-sodio",
@@ -100,11 +100,11 @@
   },
   {
     "id": "l-lisina",
-    "nombre": "Chlorhydrate de L-lysine",
-    "sinonimos": ["L-Lysine HCl", "Chlorhydrate de L-lysine", "Lysine"],
-    "descripcion": "Acide aminé essentiel utilisé dans la formulation d'aliments composés pour la nutrition animale. Il permet d'équilibrer le profil en acides aminés du régime et d'optimiser l'apport protéique, conformément à la réglementation applicable. C'est l'un des acides aminés limitants les plus employés dans les régimes pour volailles et porcs.",
-    "funciones": ["Acide aminé essentiel", "Équilibre des acides aminés"],
-    "aplicaciones": ["Aliment pour volailles", "Aliment pour porcs", "Régimes à faible teneur en protéines", "Aquaculture"],
+    "nombre": "L-Lysine HCl",
+    "sinonimos": ["L-Lysine chlorhydrate", "L-Lysine HCl", "Chlorhydrate de L-lysine", "Lysine"],
+    "descripcion": "Acide aminé essentiel utilisé dans la formulation d'aliments équilibrés pour la nutrition animale. Il permet d'équilibrer le profil en acides aminés du régime et d'optimiser l'apport protéique, conformément à la réglementation applicable. C'est l'un des acides aminés limitants les plus employés dans les régimes pour volailles et porcs, et il est aussi utilisé dans des compléments et dans des formulations cosmétiques et pharmaceutiques, où il est associé à la synthèse du collagène.",
+    "funciones": ["Acide aminé essentiel", "Équilibre en acides aminés", "Ingrédient pour compléments"],
+    "aplicaciones": ["Aliment pour volailles", "Aliment pour porcs", "Régimes à faible teneur en protéines", "Aquaculture", "Compléments et formulations cosmétiques ou pharmaceutiques"],
     "formas_referenciales": ["Solide - poudre ou granulé, selon le fabricant et le lot"]
   },
   {

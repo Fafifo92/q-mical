@@ -3,37 +3,37 @@
     "id": "alcohol-cetilico",
     "nombre": "Cetyl Alcohol",
     "sinonimos": ["1-Hexadecanol", "Palmityl alcohol"],
-    "descripcion": "Fatty alcohol widely used as a co-emulsifier and consistency agent in cosmetic emulsions. It provides body, stability, and a soft emollient feel to creams, lotions, and hair conditioners.",
+    "descripcion": "Fatty alcohol widely used as a co-emulsifier and consistency agent in cosmetic emulsions. It provides body, stability and a soft emollient feel to creams, lotions and hair conditioners. It is also used in pharmaceutical and veterinary bases, in cleaning products and in industrial applications; its use in foods and nutraceuticals depends on applicable regulations.",
     "funciones": ["Co-emulsifier", "Consistency agent", "Emollient"],
-    "aplicaciones": ["Creams and lotions", "Hair conditioners", "O/W emulsions", "Balms"],
-    "formas_referenciales": ["Solid — flakes, pearls, or pastilles depending on the manufacturer and batch"]
+    "aplicaciones": ["Creams and lotions", "Hair conditioners", "O/W emulsions", "Ointments and pharmaceutical or veterinary bases", "Cleaning products and industrial uses"],
+    "formas_referenciales": ["Solid — flakes, beads or pastilles, depending on the manufacturer and batch"]
   },
   {
     "id": "alcohol-cetoestearilico",
-    "nombre": "Cetearyl Alcohol",
-    "sinonimos": ["Cetostearyl alcohol", "Cetylstearyl alcohol"],
-    "descripcion": "Blend of cetyl and stearyl fatty alcohols used as a consistency base in all types of emulsions. It stabilizes the oil phase and improves the sensory feel of creams and hair care products.",
+    "nombre": "Cetostearyl Alcohol",
+    "sinonimos": ["Cetyl-stearyl alcohol", "Cetearyl"],
+    "descripcion": "Mixture of the fatty alcohols cetyl and stearyl used as a consistency base in all kinds of emulsions. It stabilizes the oil phase and improves the sensory feel of creams and hair products. It is also used in pharmaceutical and veterinary bases and in cleaning products; its use in foods and nutraceuticals depends on applicable regulations.",
     "funciones": ["Consistency agent", "Co-emulsifier", "Emulsion stabilizer"],
-    "aplicaciones": ["Body and facial creams", "Hair conditioners and treatments", "Cream deodorants"],
-    "formas_referenciales": ["Solid — flakes or pearls depending on the manufacturer and batch"]
+    "aplicaciones": ["Body and facial creams", "Hair conditioners and treatments", "Cream deodorants", "Ointments and pharmaceutical or veterinary bases", "Cleaning products"],
+    "formas_referenciales": ["Solid — flakes or beads, depending on the manufacturer and batch"]
   },
   {
     "id": "acido-estearico",
-    "nombre": "Stearic Acid",
-    "sinonimos": ["Octadecanoic acid", "Stearin"],
-    "descripcion": "Classic fatty acid of the cosmetics industry, used to give body and opacity to emulsions and as a saponifiable base in shaving creams and creamy soaps. Its partial neutralization produces stable emulsified systems.",
-    "funciones": ["Consistency agent", "Emulsifier (neutralized)", "Opacifier"],
-    "aplicaciones": ["Creams and lotions", "Shaving creams", "Soaps and creamy bars", "Makeup foundations"],
-    "formas_referenciales": ["Solid — pearls, flakes, or powder depending on the manufacturer and batch"]
+    "nombre": "Stearic Acid Triple Pressed",
+    "sinonimos": ["Octadecanoic acid", "Stearin", "Stearic acid"],
+    "descripcion": "Classic fatty acid of the cosmetic industry, used to give body and opacity to emulsions and as a saponifiable base in shaving creams and creamy soaps. Its partial neutralization produces stable emulsified systems. In industry it is also used as a hardener in candles and soaps and as an auxiliary in plastics, and as an excipient in other sectors in accordance with applicable regulations.",
+    "funciones": ["Consistency agent", "Emulsifier (neutralized)", "Opacifier", "Hardener"],
+    "aplicaciones": ["Creams and lotions", "Shaving creams", "Soaps and creamy bars", "Foundations", "Candles and plastics auxiliaries"],
+    "formas_referenciales": ["Solid — beads, flakes or powder, depending on the manufacturer and batch"]
   },
   {
     "id": "estearato-de-glicerilo",
-    "nombre": "Glyceryl Stearate",
-    "sinonimos": ["Glyceryl monostearate", "GMS"],
-    "descripcion": "Ester of glycerin and stearic acid used as a primary emulsifier and consistency agent in oil-in-water emulsions. It provides stability, creaminess, and a non-greasy finish highly valued in skin care products.",
+    "nombre": "Glyceryl Monostearate",
+    "sinonimos": ["Glyceryl stearate", "GMS", "Glyceryl stearate"],
+    "descripcion": "Ester of glycerin and stearic acid used as a primary emulsifier and consistency agent in oil-in-water emulsions. It provides stability, creaminess and a non-greasy finish highly valued in skin care products; it is also used as an excipient in pharmaceutical and veterinary semisolid bases and in household care, industrial and supplement formulations.",
     "funciones": ["O/W emulsifier", "Consistency agent", "Emollient"],
-    "aplicaciones": ["Facial and body creams", "Lotions", "Sunscreens", "Conditioners"],
-    "formas_referenciales": ["Solid — pearls, flakes, or powder depending on the manufacturer and batch"]
+    "aplicaciones": ["Facial and body creams", "Lotions", "Sunscreens", "Conditioners", "Pharmaceutical and veterinary cream bases"],
+    "formas_referenciales": ["Solid — pearls, flakes or powder depending on the manufacturer and batch"]
   },
   {
     "id": "cetearil-glucosido",
@@ -47,38 +47,38 @@
   {
     "id": "miristato-de-isopropilo",
     "nombre": "Isopropyl Myristate",
-    "sinonimos": ["IPM"],
-    "descripcion": "Light, fast-spreading emollient ester used to reduce the greasy feel of emulsions and improve the glide of body oils and makeup removers. It also acts as a carrier for fragrances and oil-soluble actives.",
+    "sinonimos": ["IPM", "Isopropyl ester of myristic acid"],
+    "descripcion": "Light emollient ester with fast spreadability, used to reduce the greasy feel of emulsions and improve the glide of body oils and makeup removers. It also acts as a vehicle for fragrances and oil-soluble actives, and as a solvent or vehicle in topical formulations for pharmaceutical, veterinary and industrial use.",
     "funciones": ["Emollient", "Spreading agent", "Fragrance solvent"],
-    "aplicaciones": ["Body oils", "Makeup removers", "Light lotions", "Deodorants"],
-    "formas_referenciales": ["Low-viscosity oily liquid"]
+    "aplicaciones": ["Body oils", "Makeup removers", "Light lotions", "Deodorants", "Vehicle in pharmaceutical and veterinary topical formulations"],
+    "formas_referenciales": ["Low-viscosity oily liquid, depending on the manufacturer and batch"]
   },
   {
     "id": "triglicerido-caprilico-caprico",
-    "nombre": "Caprylic/Capric Triglyceride",
-    "sinonimos": ["Medium-chain triglycerides", "Fractionated coconut oil", "MCT"],
-    "descripcion": "Plant-derived emollient with excellent oxidative stability, valued for its dry, silky feel. It serves as a base oil phase, a carrier for oil-soluble actives, and a support for extracts and fragrances.",
-    "funciones": ["Emollient", "Active carrier", "Base oil phase"],
-    "aplicaciones": ["Oil serums", "Creams and lotions", "Biphasic makeup removers", "Massage products"],
-    "formas_referenciales": ["Light oily liquid"]
+    "nombre": "Caprylic / Capric Triglyceride",
+    "sinonimos": ["Caprylic/Capric triglyceride", "Medium-chain triglycerides", "Fractionated coconut oil", "MCT"],
+    "descripcion": "Plant-derived emollient with excellent oxidative stability, valued for its dry, silky feel. It serves as a base oil phase, a carrier for oil-soluble actives and a support for extracts and fragrances, and as an oily excipient in pharmaceutical and veterinary formulations.",
+    "funciones": ["Emollient", "Active carrier", "Base oil phase", "Oily excipient"],
+    "aplicaciones": ["Oil serums", "Creams and lotions", "Biphasic makeup removers", "Massage products", "Pharmaceutical and veterinary oily vehicles"],
+    "formas_referenciales": ["Light oily liquid, colorless to pale yellow, depending on the manufacturer and batch"]
   },
   {
     "id": "cocamidopropil-betaina",
     "nombre": "Cocamidopropyl Betaine",
-    "sinonimos": ["CAPB", "Coco betaine", "Cocoamidopropyl betaine"],
-    "descripcion": "Coconut-derived amphoteric surfactant, a cornerstone of mild cleansing formulas. It boosts and stabilizes foam, reduces the irritation potential of anionic surfactants, and adds viscosity to shampoos and liquid soaps.",
+    "sinonimos": ["CAPB", "Coco betaine", "Cocamidopropyl betaine", "Cocamidopropyl Betaine"],
+    "descripcion": "Amphoteric surfactant derived from coconut, a mainstay of mild cleansing formulas. It boosts and stabilizes foam, reduces the irritation potential of anionic surfactants and adds viscosity to shampoos and liquid soaps.",
     "funciones": ["Amphoteric surfactant", "Foam booster", "Viscosity modifier"],
-    "aplicaciones": ["Shampoos", "Liquid soaps and shower gels", "Facial cleansers", "Manual dishwashing liquids"],
-    "formas_referenciales": ["Liquid — aqueous solution, variable viscosity depending on the manufacturer and batch"]
+    "aplicaciones": ["Shampoos", "Liquid soaps and shower gels", "Facial cleansers", "Hand dishwashing liquids", "Veterinary shampoos and cleansers"],
+    "formas_referenciales": ["Liquid — aqueous solution, viscosity varies depending on the manufacturer and batch"]
   },
   {
     "id": "decil-glucosido",
     "nombre": "Decyl Glucoside",
     "sinonimos": ["Decyl polyglucoside", "APG C10"],
-    "descripcion": "Nonionic surfactant from the alkyl polyglucoside family, derived from sugars and plant-based fatty alcohols. Its mildness profile makes it ideal for sensitive-skin cleansers, baby products, and natural-trend formulas.",
-    "funciones": ["Nonionic surfactant", "Mild cleansing agent", "Foam booster"],
-    "aplicaciones": ["Facial cleansers", "Mild and sulfate-free shampoos", "Baby products", "Intimate washes"],
-    "formas_referenciales": ["Viscous liquid — aqueous solution, variable shade depending on the manufacturer and batch"]
+    "descripcion": "Non-ionic surfactant of the alkyl polyglucoside family, derived from sugars and vegetable fatty alcohols. Its mildness profile makes it ideal for sensitive-skin cleansers, baby products and natural-leaning formulas, and its biodegradable nature also makes it useful in surface cleaners and in hygiene products for pharmaceutical and veterinary use.",
+    "funciones": ["Non-ionic surfactant", "Mild cleansing agent", "Foam booster"],
+    "aplicaciones": ["Facial cleansers", "Mild and sulfate-free shampoos", "Baby products", "Intimate washes", "Surface cleaners and pharmaceutical or veterinary hygiene cleansers"],
+    "formas_referenciales": ["Viscous liquid — aqueous solution, shade varies depending on the manufacturer and batch"]
   },
   {
     "id": "cocoil-isetionato-de-sodio",
@@ -91,39 +91,39 @@
   },
   {
     "id": "glicerina",
-    "nombre": "Glycerin",
-    "sinonimos": ["Glycerol", "Vegetable glycerin"],
-    "descripcion": "Benchmark humectant in the cosmetics industry and one of the most versatile raw materials on the market. It attracts and retains water in formulations, improves spreadability, and works as a solvent for actives; in foods, its use is governed by the applicable regulations.",
-    "funciones": ["Humectant", "Solvent", "Softening agent"],
-    "aplicaciones": ["Creams and lotions", "Soaps and shower gels", "Hair care products", "Mouthwashes", "Extract bases"],
-    "formas_referenciales": ["Colorless viscous liquid"]
+    "nombre": "Glycerin USP",
+    "sinonimos": ["Glycerin", "Glycerol", "Vegetable glycerin"],
+    "descripcion": "Reference humectant in the cosmetics industry and one of the most versatile raw materials on the market. It attracts and retains water in formulations, improves spreadability and works as a solvent and plasticizer; in foods, pharmaceutical formulations and supplements, its use is governed by applicable regulations.",
+    "funciones": ["Humectant", "Solvent", "Softener", "Plasticizer"],
+    "aplicaciones": ["Creams and lotions", "Soaps and shower gels", "Hair products", "Mouthwashes", "Syrups and pharmaceutical solutions"],
+    "formas_referenciales": ["Colorless viscous liquid, depending on the manufacturer and batch"]
   },
   {
     "id": "propanodiol",
     "nombre": "Propanediol",
-    "sinonimos": ["1,3-Propanediol", "PDO"],
-    "descripcion": "Fermentation-derived glycol positioned as a clean-label alternative to propylene glycol. It acts as a humectant and as a solvent for actives and preservatives, with a less tacky feel than glycerin.",
-    "funciones": ["Humectant", "Solvent", "Preservative booster"],
-    "aplicaciones": ["Serums and toners", "Creams and lotions", "Deodorants", "Hair gels"],
-    "formas_referenciales": ["Colorless low-viscosity liquid"]
+    "sinonimos": ["Propanediol", "1,3-Propanediol", "PDO"],
+    "descripcion": "Glycol of fermentative origin positioned as a clean-label alternative to propylene glycol. It acts as a humectant and as a solvent for actives and preservatives, with a less sticky feel than glycerin. It is also used in cleaning products and in topical pharmaceutical and veterinary formulations.",
+    "funciones": ["Humectant", "Solvent", "Preservative booster", "Emollient"],
+    "aplicaciones": ["Serums and toners", "Creams and lotions", "Deodorants", "Hair gels", "Topical pharmaceutical and veterinary formulations"],
+    "formas_referenciales": ["Colorless, low-viscosity liquid, depending on the manufacturer and batch"]
   },
   {
     "id": "pantenol",
-    "nombre": "Panthenol",
-    "sinonimos": ["Provitamin B5", "D-Panthenol"],
-    "descripcion": "Vitamin B5 derivative used in skin and hair care formulations, associated with humectant and conditioning properties. It is a classic active in hair care products, hand creams, and formulas for skin in need of comfort.",
-    "funciones": ["Humectant", "Conditioner", "Skin care active"],
-    "aplicaciones": ["Shampoos and conditioners", "Hand and body creams", "After-sun products", "Hair serums"],
-    "formas_referenciales": ["Colorless viscous liquid", "Solid — powder depending on the commercial variant and batch"]
+    "nombre": "D-Panthenol",
+    "sinonimos": ["Panthenol", "Provitamin B5", "Dexpanthenol", "Panthenol"],
+    "descripcion": "Vitamin B5 derivative used in formulations for skin and hair care, associated with humectant and conditioning properties. It is a classic active in hair products, hand creams and formulas for skin that needs comfort. It is also used in cleaning products, topical pharmaceutical and veterinary formulations and, according to applicable regulations, in nutrition.",
+    "funciones": ["Humectant", "Conditioner", "Skin care active", "Provitamin B5 source"],
+    "aplicaciones": ["Shampoos and conditioners", "Hand and body creams", "After-sun products", "Hair serums", "Topical pharmaceutical and veterinary formulations"],
+    "formas_referenciales": ["Colorless viscous liquid, depending on the manufacturer and batch", "Solid — powder depending on the commercial variant, manufacturer and batch"]
   },
   {
     "id": "hialuronato-de-sodio",
-    "nombre": "Sodium Hyaluronate",
-    "sinonimos": ["Hyaluronic acid sodium salt", "HA"],
-    "descripcion": "Sodium salt of hyaluronic acid, a biopolymer with high water-retention capacity obtained by fermentation. It is one of the most sought-after humectant actives on the market, used in formulations associated with hydration and a smooth skin appearance; it is sold in different molecular weight ranges.",
-    "funciones": ["High-performance humectant", "Hydrating active", "Film former"],
-    "aplicaciones": ["Facial serums", "Anti-aging creams", "Eye contour products", "Masks", "Hair care products"],
-    "formas_referenciales": ["Solid — powder or fine granules depending on the manufacturer and batch"]
+    "nombre": "Hyaluronic Acid Powder (high molecular weight)",
+    "sinonimos": ["Sodium salt of hyaluronic acid", "HA", "Sodium Hyaluronate", "Hyaluronan"],
+    "descripcion": "Sodium salt of hyaluronic acid, a biopolymer with a high water-retention capacity obtained by fermentation. It is a widely demanded humectant active, used in formulations associated with hydration and the appearance of smooth skin; in its high molecular weight variant it tends to form a surface film. It is also used in supplements and pharmaceutical preparations in accordance with applicable regulations.",
+    "funciones": ["High-performance humectant", "Moisturizing active", "Film former"],
+    "aplicaciones": ["Facial serums", "Anti-aging creams", "Eye contour products", "Masks", "Supplements and pharmaceutical preparations"],
+    "formas_referenciales": ["Solid — fine powder or granules, depending on the manufacturer and batch"]
   },
   {
     "id": "pca-de-sodio",
@@ -136,30 +136,30 @@
   },
   {
     "id": "niacinamida",
-    "nombre": "Niacinamide",
-    "sinonimos": ["Nicotinamide", "Vitamin B3"],
-    "descripcion": "Amide form of vitamin B3 and one of the most widely used multifunctional actives in facial care today. It is used in formulations associated with tone evenness, pore appearance, and skin barrier comfort, with excellent stability and ease of formulation.",
-    "funciones": ["Multifunctional active", "Skin conditioner", "Vitamin"],
-    "aplicaciones": ["Facial serums", "Cosmetic depigmenting creams", "Toners", "Products for oily skin"],
-    "formas_referenciales": ["Solid — crystalline powder, variable particle size depending on the manufacturer and batch"]
+    "nombre": "Vitamin B3 (Nicotinamide)",
+    "sinonimos": ["Niacinamide", "Niacinamide", "Nicotinamide", "Vitamin B3"],
+    "descripcion": "Amide form of vitamin B3, one of the most widely used multifunctional actives in facial care today. It is used in formulations associated with tone uniformity, the appearance of pores and skin barrier comfort, with excellent stability and ease of formulation. It is also used as a source of vitamin B3 in supplements, fortified foods, veterinary premixes and pharmaceutical preparations.",
+    "funciones": ["Multifunctional active", "Skin conditioner", "Vitamin", "Vitamin B3 source"],
+    "aplicaciones": ["Facial serums", "Cosmetic depigmenting creams", "Tonics", "Products for oily skin", "Supplements and fortified foods"],
+    "formas_referenciales": ["Solid — crystalline powder, particle size varies depending on the manufacturer and batch"]
   },
   {
     "id": "alfa-arbutina",
-    "nombre": "Alpha-Arbutin",
-    "sinonimos": ["α-Arbutin"],
-    "descripcion": "Hydroquinone glucoside obtained enzymatically, used in cosmetic formulations associated with an even-looking skin tone. It is a high-demand active in facial care serums and creams thanks to its stability and compatibility with other cosmetic depigmenting ingredients.",
+    "nombre": "Alpha Arbutin",
+    "sinonimos": ["α-Arbutin", "Alpha-Arbutin", "Alpha-arbutin"],
+    "descripcion": "Hydroquinone glucoside obtained enzymatically, used in cosmetic formulations associated with an even-looking skin tone. It is a highly demanded active in facial care serums and creams because of its stability and compatibility with other cosmetic ingredients. It is also used in dermatological preparations for pharmaceutical and veterinary use, in accordance with applicable regulations.",
     "funciones": ["Tone-evening active", "Antioxidant"],
-    "aplicaciones": ["Facial serums", "Creams for cosmetic dark spots", "Spot treatments", "Eye contour products"],
-    "formas_referenciales": ["Solid — fine powder, white to cream shade depending on the batch"]
+    "aplicaciones": ["Facial serums", "Creams for spots of cosmetic origin", "Localized treatments", "Eye contour products", "Topical dermatological preparations"],
+    "formas_referenciales": ["Solid — fine powder, white to cream in color, depending on the manufacturer and batch"]
   },
   {
     "id": "cafeina",
-    "nombre": "Caffeine",
-    "sinonimos": ["Anhydrous caffeine", "1,3,7-Trimethylxanthine"],
-    "descripcion": "Alkaloid widely used as a cosmetic active in eye contour, body care, and hair care formulations, associated with a revitalized skin appearance. In beverages and supplements, its use is governed by the applicable regulations.",
-    "funciones": ["Cosmetic active", "Eye contour ingredient", "Hair care active"],
-    "aplicaciones": ["Eye contour gels and creams", "Cosmetic anti-cellulite products", "Hair tonics and lotions", "Body gels"],
-    "formas_referenciales": ["Solid — crystalline powder, variable particle size depending on the manufacturer and batch"]
+    "nombre": "Anhydrous Caffeine",
+    "sinonimos": ["Caffeine", "1,3,7-Trimethylxanthine", "Caffeine", "Trimethylxanthine"],
+    "descripcion": "Alkaloid of the xanthine group, used as a cosmetic active in formulations for eye contour, body care and hair care, associated with a revitalized and firmer appearance of the skin. In foods, supplements and pharmaceutical products its use is governed by applicable regulations.",
+    "funciones": ["Cosmetic active", "Eye contour ingredient", "Hair active", "Stimulant (according to regulations)"],
+    "aplicaciones": ["Eye contour gels and creams", "Cosmetic anti-cellulite products", "Hair tonics and lotions", "Body gels", "Beverages, supplements and pharmaceutical formulations, according to regulations"],
+    "formas_referenciales": ["Solid — crystalline powder, particle size variable depending on the manufacturer and batch"]
   },
   {
     "id": "bisabolol",
@@ -173,65 +173,65 @@
   {
     "id": "ceramida-np",
     "nombre": "Ceramide NP",
-    "sinonimos": ["Ceramide 3"],
-    "descripcion": "Lipid identical to those found in the skin's stratum corneum, used in formulations associated with skin barrier care. It is a high-value active in cosmetic repair creams, products for dry skin, and dermocosmetic lines.",
-    "funciones": ["Skin barrier active", "Cosmetic restoring lipid"],
-    "aplicaciones": ["Creams for dry skin", "Barrier serums", "Repairing hair care products", "Dermocosmetic emulsions"],
-    "formas_referenciales": ["Solid — powder or waxy flakes depending on the manufacturer and batch"]
+    "sinonimos": ["Ceramide 3", "Ceramide NP"],
+    "descripcion": "Lipid identical to those present in the stratum corneum of the skin, used in formulations associated with skin barrier care. It is an active used in cosmetic repair creams, dry skin products and dermocosmetic lines. Its use extends to dermatological, veterinary and nutrition formulations, according to applicable regulations.",
+    "funciones": ["Skin barrier active", "Cosmetic restorative lipid"],
+    "aplicaciones": ["Creams for dry skin", "Barrier serums", "Hair repair products", "Dermocosmetic emulsions", "Topical dermatological and veterinary formulations"],
+    "formas_referenciales": ["Solid — waxy powder or flakes, depending on the manufacturer and batch"]
   },
   {
     "id": "alantoina",
     "nombre": "Allantoin",
-    "sinonimos": ["Glyoxyldiureide"],
-    "descripcion": "Classic active with a long track record, used in formulations associated with skin comfort and softness. Its versatility and low in-use cost make it a staple in creams, hair care products, toothpastes, and after-sun formulas.",
-    "funciones": ["Skin conditioning active", "Softening agent"],
-    "aplicaciones": ["Creams and lotions", "After-sun products", "Toothpastes", "Shaving products", "Deodorants"],
-    "formas_referenciales": ["Solid — fine white powder, variable particle size depending on the manufacturer and batch"]
+    "sinonimos": ["Glyoxyldiureide", "Allantoin"],
+    "descripcion": "Classic active with a long track record, used in formulations associated with skin comfort and softness. It is common in creams, hair products, toothpastes and after-sun formulas, and is also used in topical preparations for pharmaceutical and veterinary use, in accordance with applicable regulations.",
+    "funciones": ["Skin-conditioning active", "Softener"],
+    "aplicaciones": ["Creams and lotions", "After-sun products", "Toothpastes", "Shaving products", "Topical pharmaceutical and veterinary preparations"],
+    "formas_referenciales": ["Solid — fine white powder, particle size variable depending on the manufacturer and batch"]
   },
   {
     "id": "acido-azelaico",
     "nombre": "Azelaic Acid",
-    "sinonimos": ["Nonanedioic acid"],
-    "descripcion": "Dicarboxylic acid used as an active in cosmetic formulations for blemish-prone skin and uneven tone. Its versatility positions it in serums, creams, and gels for specialized facial care.",
-    "funciones": ["Active for blemish-prone skin", "Tone-evening agent"],
-    "aplicaciones": ["Facial serums", "Specialized care creams and gels", "Spot treatments"],
-    "formas_referenciales": ["Solid — powder or granules depending on the manufacturer and batch"]
+    "sinonimos": ["Nonanedioic acid", "Azelaic acid"],
+    "descripcion": "Dicarboxylic acid used as an active in cosmetic formulations for skin prone to blemishes and uneven tone, and as an input in dermatological preparations for pharmaceutical use. Its versatility positions it in serums, creams and gels for specialized facial care, always within the limits of applicable regulations.",
+    "funciones": ["Active for blemish-prone skin", "Tone evener", "Dermatological input"],
+    "aplicaciones": ["Facial serums", "Specialized care creams and gels", "Localized treatments", "Topical dermatological preparations"],
+    "formas_referenciales": ["Solid — powder or granules, depending on the manufacturer and batch"]
   },
   {
     "id": "acido-glicolico",
     "nombre": "Glycolic Acid",
     "sinonimos": ["Hydroxyacetic acid", "AHA"],
-    "descripcion": "Short-chain alpha hydroxy acid and a benchmark in cosmetic chemical exfoliation. It is used in formulations associated with renewing the skin's appearance and a more even texture, at concentrations and pH levels in accordance with the applicable cosmetic regulations.",
-    "funciones": ["Chemical exfoliant (AHA)", "pH adjuster", "Cosmetic renewing active"],
+    "descripcion": "Short-chain alpha-hydroxy acid, a reference for cosmetic chemical exfoliation. It is used in formulations associated with renewing the appearance of the skin and a more even texture, at concentrations and pH in accordance with applicable cosmetic regulations. It is also used in dermatological preparations for pharmaceutical use, in accordance with applicable regulations.",
+    "funciones": ["Chemical exfoliant (AHA)", "pH adjuster", "Cosmetic renewal active"],
     "aplicaciones": ["Exfoliating toners and serums", "Renewal creams", "Professional cosmetic peels", "Skin texture products"],
-    "formas_referenciales": ["Liquid — aqueous solution", "Solid — crystals or powder depending on the commercial variant and batch"]
+    "formas_referenciales": ["Liquid — aqueous solution, depending on the manufacturer and batch", "Solid — crystals or powder, depending on the manufacturer and batch"]
   },
   {
     "id": "acido-salicilico",
     "nombre": "Salicylic Acid",
     "sinonimos": ["2-Hydroxybenzoic acid", "BHA"],
-    "descripcion": "Oil-soluble beta hydroxy acid used in cosmetic formulations for oily and blemish-prone skin, associated with exfoliation of the skin's surface and inside the pore. It is also used as a preservation adjuvant at doses in accordance with cosmetic regulations.",
-    "funciones": ["Chemical exfoliant (BHA)", "Active for oily skin", "Preservation adjuvant"],
-    "aplicaciones": ["Cleansers and toners for oily skin", "Anti-blemish serums", "Cosmetic dandruff-control shampoos", "Exfoliants"],
-    "formas_referenciales": ["Solid — fine crystalline powder, variable particle size depending on the manufacturer and batch"]
+    "descripcion": "Oil-soluble beta-hydroxy acid used in cosmetic formulations for oily skin and skin prone to blemishes, associated with exfoliation of the skin surface and the inside of the pore. It is also used as a preservation aid, as an input for topical pharmaceutical and veterinary preparations, and as an intermediate in industry, in accordance with applicable regulations.",
+    "funciones": ["Chemical exfoliant (BHA)", "Active for oily skin", "Preservation aid", "Synthesis intermediate"],
+    "aplicaciones": ["Cleansers and toners for oily skin", "Anti-blemish serums", "Shampoos for cosmetic dandruff control", "Exfoliants", "Topical pharmaceutical and veterinary preparations"],
+    "formas_referenciales": ["Solid — fine crystalline powder, particle size variable depending on the manufacturer and batch"]
   },
   {
     "id": "fenoxietanol",
     "nombre": "Phenoxyethanol",
-    "sinonimos": ["2-Phenoxyethanol", "Ethylene glycol monophenyl ether"],
-    "descripcion": "Broad-spectrum preservative in global use, a benchmark for the antimicrobial protection of cosmetic formulas within the limits of the applicable regulations. It is compatible with most systems and is frequently combined with ethylhexylglycerin or other boosters.",
-    "funciones": ["Broad-spectrum preservative"],
-    "aplicaciones": ["Creams and lotions", "Shampoos and conditioners", "Wet wipes", "Liquid makeup"],
-    "formas_referenciales": ["Colorless, slightly viscous liquid"]
+    "sinonimos": ["2-Phenoxyethanol", "Ethylene glycol monophenyl ether", "Phenoxyethanol"],
+    "descripcion": "Broad-spectrum preservative used for the antimicrobial protection of aqueous formulas and emulsions, within the limits of applicable regulations. It is compatible with most systems and is frequently combined with ethylhexylglycerin or other boosters. It is used in cosmetics, cleaning products, pharmaceutical and veterinary preparations, and water-based industrial formulations.",
+    "funciones": ["Broad-spectrum preservative", "In-pack antimicrobial protection"],
+    "aplicaciones": ["Creams and lotions", "Shampoos and liquid soaps", "Wet wipes", "Pharmaceutical and veterinary topical preparations", "Water-based cleaners and industrial formulations"],
+    "formas_referenciales": ["Colorless, slightly viscous liquid, depending on the manufacturer and batch"]
   },
   {
     "id": "tocoferol",
-    "nombre": "Tocopherol (Vitamin E)",
-    "sinonimos": ["Vitamin E", "Alpha-tocopherol"],
-    "descripcion": "Benchmark oil-soluble antioxidant, used both to protect oil phases from oxidation and as an active associated with skin care. Available in natural and synthetic variants; in foods and supplements, its use is governed by the applicable regulations.",
-    "funciones": ["Antioxidant", "Skin care active", "Oil phase protector"],
-    "aplicaciones": ["Facial serums and oils", "Creams and lotions", "Protection of oils and extracts", "Lip balms"],
-    "formas_referenciales": ["Viscous oily liquid — variable amber shade depending on the origin and batch"]
+    "nombre": "Vitamin E Oil",
+    "sinonimos": ["Vitamin E", "Alpha-tocopherol", "Tocopherol (Vitamin E)"],
+    "descripcion": "Reference fat-soluble antioxidant, used both to protect oily phases from oxidation and as an active associated with skin care. Available in natural-origin and synthetic variants; in foods, supplements and pharmaceutical uses, its use is governed by applicable regulations.",
+    "funciones": ["Antioxidant", "Skin care active", "Protector of oily phases"],
+    "aplicaciones": ["Facial serums and oils", "Creams and lotions", "Protection of oils and extracts", "Lip balms", "Capsules and oily pharmaceutical forms"],
+    "formas_referenciales": ["Viscous oily liquid — amber shade varies, depending on the manufacturer and batch"]
   },
   {
     "id": "octocrileno",
@@ -262,21 +262,21 @@
   },
   {
     "id": "cloruro-de-cetrimonio",
-    "nombre": "Cetrimonium Chloride",
-    "sinonimos": ["CTAC", "Cetyltrimethylammonium chloride"],
-    "descripcion": "Classic quaternary ammonium compound for hair conditioning, used in rinses, styling creams, and treatments. It provides detangling and static control, and also serves as a cationic emulsifier in conditioning systems.",
-    "funciones": ["Cationic conditioner", "Antistatic agent", "Cationic emulsifier"],
+    "nombre": "Cetrimonium Chloride 30%",
+    "sinonimos": ["CTAC", "Cetyltrimethylammonium chloride", "Cetrimonium Chloride"],
+    "descripcion": "Classic quaternary ammonium for hair conditioning, used in rinses, styling creams and treatments. It provides detangling and static control, and also serves as a cationic emulsifier in conditioning systems. It is also used as a cationic auxiliary in cleaning products and other industrial formulations, in accordance with applicable regulations.",
+    "funciones": ["Cationic conditioner", "Antistatic", "Cationic emulsifier"],
     "aplicaciones": ["Hair conditioners and rinses", "Styling creams", "Fabric softeners"],
-    "formas_referenciales": ["Liquid — aqueous or hydroalcoholic solution depending on the commercial variant and batch"]
+    "formas_referenciales": ["Liquid — aqueous or hydroalcoholic solution, depending on the manufacturer and batch"]
   },
   {
     "id": "policuaternio-7",
-    "nombre": "Polyquaternium-7",
-    "sinonimos": ["PQ-7"],
-    "descripcion": "Water-soluble cationic polymer used as a conditioner in rinse-off systems. It improves the feeling of softness on skin and hair during and after washing, and is a common additive in shampoos, shower gels, and liquid soaps.",
-    "funciones": ["Polymeric conditioner", "Rinse-off softening agent", "Sensory modifier"],
+    "nombre": "Polyquaternium 7",
+    "sinonimos": ["PQ-7", "Polyquaternium-7", "Polyquaternium-7"],
+    "descripcion": "Water-soluble cationic polymer used as a conditioner in rinse-off systems. It improves the feeling of softness of skin and hair during and after washing, and is a common additive in shampoos, shower gels and liquid soaps.",
+    "funciones": ["Polymeric conditioner", "Rinse-off softener", "Sensory modifier"],
     "aplicaciones": ["Shampoos", "Shower gels", "Liquid soaps", "Shaving creams"],
-    "formas_referenciales": ["Viscous liquid — colorless to slightly hazy aqueous solution depending on the batch"]
+    "formas_referenciales": ["Viscous liquid — colorless to slightly cloudy aqueous solution, depending on the manufacturer and batch"]
   },
   {
     "id": "cloruro-de-guar-hidroxipropiltrimonio",
@@ -289,47 +289,47 @@
   },
   {
     "id": "carbomero",
-    "nombre": "Carbomer",
-    "sinonimos": ["Cross-linked polyacrylic acid", "Carboxyvinyl polymer"],
-    "descripcion": "Cross-linked acrylic polymer, the global standard for thickening and stabilizing gels and emulsions. Once neutralized, it produces transparent gels with a characteristic rheology, and it suspends particles and actives with great efficiency at low use levels.",
+    "nombre": "Carbomer 940",
+    "sinonimos": ["Cross-linked polyacrylic acid", "Carboxyvinyl polymer", "Carbomer", "Carbomer 940"],
+    "descripcion": "High-viscosity cross-linked acrylic polymer, widely used to thicken and stabilize gels and emulsions. After neutralization it produces clear gels with a characteristic rheology, and suspends particles and actives with great efficiency at low use levels. It is also used in topical pharmaceutical and veterinary gels and in household care products.",
     "funciones": ["Thickener", "Gelling agent", "Suspension stabilizer"],
-    "aplicaciones": ["Cosmetic antibacterial gels", "Hair and body gels", "Emulsions and serums", "Cleansing gels"],
-    "formas_referenciales": ["Solid — fine fluffy powder, grade and particle size vary depending on the manufacturer and batch"]
+    "aplicaciones": ["Cosmetic antibacterial gels", "Hair and body gels", "Emulsions and serums", "Cleansing gels", "Topical pharmaceutical and veterinary gels"],
+    "formas_referenciales": ["Solid — fluffy fine powder, grade and particle size vary depending on the manufacturer and batch"]
   },
   {
     "id": "dimeticona",
     "nombre": "Dimethicone",
     "sinonimos": ["Polydimethylsiloxane", "PDMS"],
-    "descripcion": "Benchmark silicone in personal care, available in multiple nominal viscosities. It provides a silky sensory feel, shine, and surface protection in hair and skin products, and also reduces the tackiness of emulsions.",
-    "funciones": ["Sensory emollient", "Hair conditioner", "In-process antifoam"],
-    "aplicaciones": ["Hair conditioners and serums", "Creams and lotions", "Makeup primers", "Shaving products"],
-    "formas_referenciales": ["Silicone fluid — variable viscosity depending on the grade and batch"]
+    "descripcion": "Reference silicone in personal care, available in multiple nominal viscosities. It provides a silky sensory feel, shine and a hydrophobic protective film on skin, hair and surfaces, and reduces the tackiness of emulsions. It is also used in skin protection products, cleaning polishes and industrial applications.",
+    "funciones": ["Sensory emollient", "Hair conditioner", "Process antifoam"],
+    "aplicaciones": ["Hair conditioners and serums", "Creams, lotions and barrier creams", "Makeup primers", "Shaving products", "Polishes and surface protectors"],
+    "formas_referenciales": ["Silicone fluid — viscosity varies depending on the manufacturer and batch"]
   },
   {
     "id": "escualano",
-    "nombre": "Squalane",
-    "sinonimos": ["Vegetable squalane"],
-    "descripcion": "Dry-feel emollient with high affinity for the skin's lipids, currently obtained from plant sources such as sugarcane or olives. It is one of the most in-demand natural alternatives to silicones, with excellent stability and a light sensory feel.",
-    "funciones": ["Emollient", "Plant-based alternative to silicones", "Carrier for oil-soluble actives"],
-    "aplicaciones": ["Oil serums", "Facial creams", "Hair oils", "Makeup foundations"],
-    "formas_referenciales": ["Colorless, odorless oily liquid"]
+    "nombre": "Vegetable Squalane",
+    "sinonimos": ["Squalane", "Squalane", "Plant-derived squalane"],
+    "descripcion": "Dry-feel emollient with high affinity for skin lipids, currently obtained from plant sources such as sugarcane or olive. It is one of the most in-demand natural alternatives to silicones, with excellent stability and a light sensory feel. It is also used as an oily vehicle in topical pharmaceutical and veterinary formulations and in nutraceutical line products.",
+    "funciones": ["Emollient", "Plant-based alternative to silicones", "Vehicle for oil-soluble actives"],
+    "aplicaciones": ["Oil serums", "Facial creams", "Hair oils", "Makeup foundations", "Topical pharmaceutical and veterinary formulations"],
+    "formas_referenciales": ["Colorless, odorless oily liquid, depending on the manufacturer and batch"]
   },
   {
     "id": "edta-disodico",
     "nombre": "Disodium EDTA",
-    "sinonimos": ["Edetate disodium", "Ethylenediaminetetraacetic acid disodium salt"],
-    "descripcion": "Universal chelating agent that sequesters metal ions present in water and raw materials. It protects the color, scent, and stability of formulas, and improves the performance of preservative and foaming systems.",
+    "sinonimos": ["Disodium edetate", "Disodium salt of ethylenediaminetetraacetic acid"],
+    "descripcion": "Universal chelating agent that sequesters metal ions present in water and raw materials. It protects the color, aroma and stability of formulas, and improves the performance of preservative and foaming systems. It is used in cosmetics, cleaning products, industry and, in line with applicable regulations, in pharmaceutical, veterinary, nutraceutical and food preparations.",
     "funciones": ["Chelating agent", "Formula stabilizer", "Preservative booster"],
-    "aplicaciones": ["Creams and lotions", "Shampoos and liquid soaps", "Household cleaning products", "Water-based industrial formulations"],
-    "formas_referenciales": ["Solid — white crystalline powder, variable particle size depending on the manufacturer and batch"]
+    "aplicaciones": ["Creams and lotions", "Shampoos and liquid soaps", "Household cleaning products", "Water-based industrial formulations", "Pharmaceutical, veterinary and nutraceutical preparations"],
+    "formas_referenciales": ["Solid — white crystalline powder, particle size varies depending on the manufacturer and batch"]
   },
   {
     "id": "dioxido-de-titanio",
-    "nombre": "Titanium Dioxide",
-    "sinonimos": ["Titanium white", "TiO2", "CI 77891"],
-    "descripcion": "Benchmark white pigment in the color industry, valued for its hiding power and opacifying capacity. It is the foundation of skin tones in makeup foundations and pressed powders, and is used to lighten pigment blends. Treated and untreated variants exist on the market; the specific grade is confirmed in the technical data sheet (TDS) of the available batch.",
+    "nombre": "Titanium Dioxide Rutile",
+    "sinonimos": ["Titanium dioxide", "Titanium white", "CI 77891", "Titanium Dioxide", "Rutile"],
+    "descripcion": "Reference white pigment in the color industry, valued for its covering power and opacifying capacity. The rutile crystalline form is associated with good weathering stability, and is therefore used in paints and coatings, and in foundations and pressed powders. Treated and untreated variants exist on the market; the specific quality is confirmed in the technical data sheet of the available batch.",
     "funciones": ["White pigment", "Opacifier", "Inorganic UV filter"],
-    "aplicaciones": ["Foundations", "Pressed powders", "Lipsticks", "Nail polishes", "Eyeshadows"],
+    "aplicaciones": ["Foundations", "Pressed powders", "Lipsticks", "Nail polishes", "Exterior paints and coatings"],
     "formas_referenciales": ["Solid — powder; particle size and surface treatment vary depending on the manufacturer and batch"]
   },
   {
@@ -415,12 +415,12 @@
   },
   {
     "id": "talco-cosmetico",
-    "nombre": "Cosmetic Talc",
-    "sinonimos": ["Hydrated magnesium silicate", "Steatite"],
-    "descripcion": "Classic mineral filler in color cosmetics, prized for its slip, softness, and ability to dilute pigments. It is the historical base of loose and pressed powders, blushes, and eyeshadows. It is sold in cosmetic grade with supporting documentation from the manufacturer for each batch.",
-    "funciones": ["Mineral filler", "Slip agent", "Pigment diluent"],
-    "aplicaciones": ["Pressed powders", "Loose powders", "Blushes", "Eyeshadows"],
-    "formas_referenciales": ["Solid — powder; particle size and whiteness vary depending on the origin, manufacturer and batch"]
+    "nombre": "Talc USP",
+    "sinonimos": ["Cosmetic talc", "Hydrated magnesium silicate", "Steatite"],
+    "descripcion": "Classic mineral filler of color cosmetics, appreciated for its glide, softness and ability to dilute pigments. It is the historical base of loose and pressed powders, blushes and eyeshadows, and is also used as a diluent and lubricant in pharmaceutical and nutraceutical powders, tablets and capsules. The applicable grade is defined with the manufacturer's supporting documentation for each batch.",
+    "funciones": ["Mineral filler", "Slip agent", "Pigment diluent", "Lubricant and anti-adherent"],
+    "aplicaciones": ["Pressed powders", "Loose powders", "Blushes", "Eyeshadows", "Lubricant in tablets and capsules"],
+    "formas_referenciales": ["Solid — powder; particle size and whiteness vary depending on origin, manufacturer and batch"]
   },
   {
     "id": "sericita",
@@ -451,20 +451,20 @@
   },
   {
     "id": "almidon-de-arroz",
-    "nombre": "Rice Starch",
-    "sinonimos": ["Oryza sativa starch"],
-    "descripcion": "Plant-derived filler with a soft, velvety feel, used as a natural alternative to talc in powder makeup. It provides moisture and sebum absorption and a natural-looking matte finish. It is a frequent choice in formulas with a natural or vegan positioning.",
-    "funciones": ["Plant-based filler", "Absorbent", "Texturizer"],
-    "aplicaciones": ["Loose powders", "Pressed powders", "Powder foundations", "Dry shampoos"],
+    "nombre": "Rice Powder",
+    "sinonimos": ["Rice starch", "Rice starch"],
+    "descripcion": "Plant-based filler with a soft, velvety feel, used as a natural alternative to talc in powder makeup. It provides moisture and sebum absorption, and a natural-looking matte finish. It is a frequent option in formulas positioned as natural or vegan, and is also used as an excipient in pharmaceutical and veterinary powders and as a bulking agent in foods.",
+    "funciones": ["Plant-based filler", "Absorbent", "Texturizer", "Excipient"],
+    "aplicaciones": ["Loose powders", "Pressed powders", "Powder foundations", "Dry shampoos", "Excipient in pharmaceutical and veterinary powders"],
     "formas_referenciales": ["Solid — powder; particle size varies depending on the manufacturer and batch"]
   },
   {
     "id": "estearato-de-magnesio",
     "nombre": "Magnesium Stearate",
-    "sinonimos": ["Magnesium salt of stearic acid", "Magnesium octadecanoate"],
-    "descripcion": "Classic binder for compacted powders that improves compressibility, adhesion, and the strength of the pressed cake. It also provides slip and a degree of water repellency in powders and eyeshadows. In other industries it is used as a processing lubricant in accordance with applicable regulations.",
-    "funciones": ["Binder", "Adhesion agent", "Compression lubricant"],
-    "aplicaciones": ["Pressed powders", "Eyeshadows", "Blushes", "Powder foundations"],
+    "sinonimos": ["Magnesium salt of stearic acid", "Magnesium octadecanoate", "Magnesium stearate"],
+    "descripcion": "Magnesium salt of stearic acid used as a lubricant and anti-sticking agent in the compression of pharmaceutical and nutraceutical tablets and capsules. In cosmetics it improves the compressibility, adhesion and slip of pressed powders and eyeshadows, with some water repellency. In foods it is used as an anticaking agent, in line with applicable regulations.",
+    "funciones": ["Compression lubricant", "Anti-sticking agent", "Adhesion agent"],
+    "aplicaciones": ["Tablets and capsules", "Tablet supplements", "Pressed powders", "Eyeshadows and blushes", "Powdered foods"],
     "formas_referenciales": ["Solid — powder; bulk density varies depending on the manufacturer and batch"]
   },
   {
@@ -479,38 +479,38 @@
   {
     "id": "cera-de-candelilla",
     "nombre": "Candelilla Wax",
-    "sinonimos": ["Euphorbia cerifera wax"],
-    "descripcion": "Structuring vegetable wax widely used in lipsticks, providing hardness, gloss, and good mold release. It is a plant-based alternative to beeswax in vegan formulas. In food it is used as a coating agent in accordance with applicable regulations.",
-    "funciones": ["Stick structurant", "Gloss agent", "Oil-phase thickener"],
-    "aplicaciones": ["Lipsticks", "Lip balms", "Pencil eyeliners", "Mascaras"],
-    "formas_referenciales": ["Solid — flakes, pellets, or pieces depending on the manufacturer and batch"]
+    "sinonimos": ["Candelilla Wax", "Candelilla wax"],
+    "descripcion": "Structuring vegetable wax widely used in lipsticks, providing hardness, shine and good mold release. It is a plant-based alternative to beeswax in vegan formulas. In foods and in pharmaceutical, veterinary and nutraceutical products it is used as a coating or glazing agent, in accordance with applicable regulations.",
+    "funciones": ["Stick structurant", "Glossing agent", "Oil-phase thickener", "Coating agent"],
+    "aplicaciones": ["Lipsticks", "Lip balms", "Pencil eyeliners", "Mascaras", "Coating of tablets, fruits and confectionery"],
+    "formas_referenciales": ["Solid — flakes, pellets or chunks, depending on the manufacturer and batch"]
   },
   {
     "id": "cera-de-carnauba",
     "nombre": "Carnauba Wax",
-    "sinonimos": ["Brazilian palm wax"],
-    "descripcion": "One of the hardest and highest-melting-point vegetable waxes in common cosmetic use. It provides rigidity, gloss, and heat resistance in lipsticks, pencil eyeliners, and mascaras. In food it is used as a glazing agent in accordance with applicable regulations.",
-    "funciones": ["Stick structurant", "Gloss agent", "Melting point booster"],
-    "aplicaciones": ["Lipsticks", "Mascaras", "Pencil eyeliners", "Wax depilatories"],
-    "formas_referenciales": ["Solid — flakes or pieces depending on the manufacturer and batch"]
+    "sinonimos": ["Brazilian palm wax", "Carnauba Wax", "Carnauba wax"],
+    "descripcion": "One of the vegetable waxes with the highest hardness and melting point in common cosmetic use. It provides rigidity, shine and heat resistance in lipsticks, pencil eyeliners and mascaras. In foods and in pharmaceutical, veterinary and nutraceutical products it is used as a glazing and coating agent in accordance with applicable regulations.",
+    "funciones": ["Stick structurant", "Glossing agent", "Melting point raiser", "Coating agent"],
+    "aplicaciones": ["Lipsticks", "Mascaras", "Pencil eyeliners", "Wax depilatories", "Coating of tablets and confectionery"],
+    "formas_referenciales": ["Solid — flakes or chunks, depending on the manufacturer and batch"]
   },
   {
     "id": "cera-de-abejas",
-    "nombre": "Beeswax",
-    "sinonimos": ["Cera alba", "Yellow beeswax"],
-    "descripcion": "Classic natural wax that provides plasticity, body, and a creamy texture to lipsticks and stick products. Its compatibility with a wide range of oils and emollients makes it highly versatile in anhydrous systems. It is sold in yellow and bleached grades depending on the supplier.",
-    "funciones": ["Stick structurant", "Texture plasticizer", "Oil-phase thickener"],
-    "aplicaciones": ["Lipsticks", "Lip balms", "Mascaras", "Brow creams"],
-    "formas_referenciales": ["Solid — pastilles, pearls, or blocks depending on the manufacturer and batch"]
+    "nombre": "Natural Beeswax",
+    "sinonimos": ["White beeswax", "Yellow beeswax", "Beeswax", "Beeswax"],
+    "descripcion": "Classic natural wax that provides plasticity, body and a creamy texture to lipsticks and stick products. Its compatibility with a wide range of oils and emollients makes it very versatile in anhydrous systems, and it also provides film-forming action and support for emulsion stability. It is marketed in yellow and bleached grades depending on the supplier, and in foods, pharmaceuticals and veterinary products it is used in accordance with applicable regulations.",
+    "funciones": ["Stick structurant", "Texture plasticizer", "Oil-phase thickener", "Film former"],
+    "aplicaciones": ["Lipsticks", "Lip balms", "Mascaras", "Eyebrow creams", "Ointments and pharmaceutical or veterinary bases"],
+    "formas_referenciales": ["Solid — pastilles, beads or blocks, depending on the manufacturer and batch"]
   },
   {
     "id": "cera-microcristalina",
     "nombre": "Microcrystalline Wax",
-    "sinonimos": ["Micro wax"],
-    "descripcion": "Wax with a fine crystalline structure that provides flexibility and cohesion to stick products. It is associated with reduced oil sweating in lipsticks and greater resistance to stick breakage. It complements hard waxes by balancing the final texture of the formula.",
+    "sinonimos": ["Micro wax", "Microcrystalline wax"],
+    "descripcion": "Petroleum-derived wax with a fine crystalline structure that provides flexibility and cohesion to stick products. It is associated with reduced oil exudation in lipsticks and greater resistance to stick breakage. It is also used as a base and consistency agent in pharmaceutical, veterinary and nutraceutical products, and in foods as a coating agent in accordance with applicable regulations.",
     "funciones": ["Flexible structurant", "Oil binder", "Texture modifier"],
-    "aplicaciones": ["Lipsticks", "Pencil eyeliners", "Brow pomades", "Balms"],
-    "formas_referenciales": ["Solid — pellets, flakes, or slabs depending on the manufacturer and batch"]
+    "aplicaciones": ["Lipsticks", "Pencil eyeliners", "Eyebrow pomades", "Balms", "Pharmaceutical and veterinary ointment bases"],
+    "formas_referenciales": ["Solid — pellets, flakes or slabs, depending on the manufacturer and batch"]
   },
   {
     "id": "trimetilsiloxisilicato",

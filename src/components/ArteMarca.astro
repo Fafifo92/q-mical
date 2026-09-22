@@ -25,7 +25,10 @@ const ang = angulos[variante % angulos.length];
   style={`--ang:${ang}deg`}
   aria-hidden="true"
 >
-  <div class="arte-anillos">
+  {/* Sin ícono = se ve el isotipo de la marca: lleva un disco blanco sólido
+      detrás (en vez del anillo translúcido) para que resalte sobre el fondo
+      oscuro en lugar de verse apagado. */}
+  <div class:list={["arte-anillos", !icono && "arte-anillos-logo"]}>
     <span></span><span></span><span></span>
     {
       icono ? (
@@ -96,11 +99,20 @@ const ang = angulos[variante % angulos.length];
     height: 30%;
     color: var(--color-brand-200);
   }
+
+  /* Variante con el isotipo: disco blanco sólido (en vez del anillo tenue)
+     para que el logo destaque en lugar de perderse en el fondo oscuro. */
+  .arte-anillos-logo > span:nth-child(3) {
+    background: white;
+    border-color: white;
+    backdrop-filter: none;
+    box-shadow: 0 24px 48px -18px rgb(4 15 25 / 0.5);
+  }
   .arte-isotipo {
     position: relative;
-    width: 44%;
+    width: 40%;
     height: auto;
-    filter: drop-shadow(0 0 18px rgb(255 255 255 / 0.2));
+    filter: drop-shadow(0 6px 14px rgb(4 15 25 / 0.25));
   }
 
   /* En pantallas estrechas el ornamento del héroe se desvanece tras el texto */

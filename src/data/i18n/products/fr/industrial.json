@@ -11,11 +11,11 @@
   {
     "id": "sulfato-de-aluminio",
     "nombre": "Sulfate d'aluminium",
-    "sinonimos": ["Sulfate d'alumine", "Alun industriel"],
-    "descripcion": "Coagulant inorganique traditionnel pour la clarification des eaux et des effluents. Il favorise l'agglomération des particules en suspension et des colloïdes en vue de leur sédimentation ou filtration ultérieure. C'est l'une des matières premières à plus forte rotation dans les stations de traitement en raison de son rapport coût-performance.",
-    "funciones": ["Coagulant", "Clarifiant", "Ajustement de l'alcalinité"],
-    "aplicaciones": ["Potabilisation de l'eau", "Traitement des effluents industriels", "Collage dans l'industrie papetière", "Clarification des piscines"],
-    "formas_referenciales": ["Solide — granulés, mottes ou poudre, selon le fabricant et le lot", "Liquide — solution aqueuse, selon la disponibilité du lot"]
+    "sinonimos": ["Sulfate aluminique", "Alun industriel"],
+    "descripcion": "Coagulant inorganique traditionnel pour la clarification des eaux et des effluents. Il favorise l'agglomération des particules en suspension et des colloïdes en vue de leur sédimentation ou filtration ultérieure. Il est en outre employé comme mordant de fixation dans le textile et le tannage, et dans d'autres applications de cosmétique, d'entretien et de médecine vétérinaire selon la formulation et la réglementation applicable.",
+    "funciones": ["Coagulant", "Clarifiant", "Mordant de fixation", "Ajustement de l'alcalinité"],
+    "aplicaciones": ["Potabilisation de l'eau", "Traitement des effluents industriels", "Collage dans l'industrie papetière", "Clarification des piscines", "Tannage des peaux et mordançage textile"],
+    "formas_referenciales": ["Solide — granulés, blocs ou poudre, selon le fabricant et le lot", "Liquide — solution aqueuse, selon le fabricant et le lot"]
   },
   {
     "id": "poliacrilamida-anionica",
@@ -83,10 +83,10 @@
   {
     "id": "hidroxietilcelulosa",
     "nombre": "Hydroxyéthylcellulose",
-    "sinonimos": ["HEC", "Cellulose hydroxyéthylique"],
-    "descripcion": "Épaississant cellulosique non ionique soluble dans l'eau, standard dans les peintures architecturales en phase aqueuse pour le contrôle de la viscosité, la rétention d'eau et la stabilité au stockage. Il apporte un bon tendu et une bonne résistance aux projections lors de l'application. Il est également utilisé comme modificateur de rhéologie dans les gels et les produits de soins personnels.",
-    "funciones": ["Épaississant", "Modificateur de rhéologie", "Agent de rétention d'eau", "Stabilisant"],
-    "aplicaciones": ["Peintures et revêtements en phase aqueuse", "Adhésifs et mortiers modifiés", "Gels et shampooings", "Fluides de forage"],
+    "sinonimos": ["HEC", "Cellulose hydroxyéthylique", "Hydroxyéthylcellulose"],
+    "descripcion": "Épaississant cellulosique non ionique soluble dans l'eau, standard dans les peintures architecturales à base d'eau pour le contrôle de la viscosité, la rétention d'eau et la stabilité au stockage. Elle apporte un bon tendu et une bonne résistance aux éclaboussures lors de l'application. Elle est également utilisée comme modificateur rhéologique dans les gels nettoyants, les produits de soin personnel et les produits vétérinaires à usage topique.",
+    "funciones": ["Épaississant", "Modificateur rhéologique", "Rétenteur d'eau", "Stabilisant"],
+    "aplicaciones": ["Peintures et revêtements à base d'eau", "Adhésifs et mortiers modifiés", "Gels nettoyants et shampooings", "Fluides de forage", "Produits topiques vétérinaires"],
     "formas_referenciales": ["Solide — poudre, granulométrie variable selon le fabricant et le lot"]
   },
   {
@@ -155,19 +155,19 @@
   {
     "id": "monoetilenglicol",
     "nombre": "Monoéthylène glycol",
-    "sinonimos": ["MEG", "Éthylène glycol"],
-    "descripcion": "Glycol à usage industriel employé comme base de fluides de refroidissement et d'antigels, et comme intermédiaire dans la fabrication de résines polyester. Dans les peintures en phase aqueuse, il agit comme auxiliaire de stabilité face aux cycles de gel-dégel. Il ne convient pas aux applications au contact des aliments ni aux soins personnels.",
+    "sinonimos": ["MEG", "Éthylène glycol", "Ethylene glycol"],
+    "descripcion": "Glycol à usage industriel employé comme base de fluides de refroidissement et d'antigels, et comme intermédiaire dans la fabrication de résines polyester. Dans les peintures à base d'eau, il agit comme auxiliaire de stabilité face aux cycles de gel et de dégel. Il n'est pas apte au contact alimentaire ; son utilisation en entretien ou en soin personnel doit être évaluée et vérifiée conformément à la réglementation applicable.",
     "funciones": ["Base de fluides de refroidissement", "Intermédiaire de synthèse", "Stabilisant gel-dégel"],
-    "aplicaciones": ["Fluides de refroidissement et antigels", "Résines polyester et fibres", "Peintures en phase aqueuse", "Fluides caloporteurs"],
+    "aplicaciones": ["Fluides de refroidissement et antigels", "Résines polyester et fibres", "Peintures à base d'eau", "Fluides de transfert de chaleur", "Formulations de nettoyage à usage industriel"],
     "formas_referenciales": ["Liquide — selon le fabricant et le lot"]
   },
   {
     "id": "propilenglicol",
-    "nombre": "Propylène glycol",
-    "sinonimos": ["MPG", "1,2-Propanediol"],
-    "descripcion": "Glycol polyvalent utilisé comme solvant, humectant et véhicule dans de multiples industries. Dans le segment industriel, il sert de base à des fluides thermiques de faible toxicité et d'intermédiaire dans les résines ; les grades aptes au contact alimentaire et aux soins personnels sont destinés à ces usages conformément à la réglementation applicable. Son profil de sécurité en fait un produit privilégié par rapport à d'autres glycols dans les applications sensibles.",
+    "nombre": "Propylène glycol USP",
+    "sinonimos": ["Propylène glycol", "MPG", "1,2-Propanediol"],
+    "descripcion": "Glycol polyvalent utilisé comme solvant, humectant et véhicule dans de multiples industries. Dans le segment industriel, il sert de base pour des fluides thermiques de faible toxicité et d'intermédiaire dans les résines ; les qualités aptes à l'alimentation, aux soins personnels, à la pharmacie et aux nutraceutiques sont destinées à ces usages conformément à la réglementation applicable. Son profil de sécurité le fait préférer aux autres glycols dans les applications sensibles.",
     "funciones": ["Humectant", "Solvant", "Véhicule de formulation", "Fluide thermique"],
-    "aplicaciones": ["Fluides caloporteurs", "Formulations cosmétiques et d'hygiène", "Véhicule dans les prémélanges vétérinaires", "Résines polyester insaturées"],
+    "aplicaciones": ["Fluides de transfert de chaleur", "Formulations cosmétiques et d'entretien", "Véhicule dans les prémélanges vétérinaires", "Résines polyester insaturées", "Véhicule dans les formulations pharmaceutiques et nutraceutiques"],
     "formas_referenciales": ["Liquide — selon le fabricant et le lot"]
   },
   {
@@ -183,9 +183,9 @@
     "id": "butilglicol",
     "nombre": "Butylglycol",
     "sinonimos": ["2-Butoxyéthanol", "Éther monobutylique de l'éthylène glycol", "EB"],
-    "descripcion": "Éther de glycol doté d'un excellent pouvoir de couplage entre l'eau et les solvants organiques. C'est un composant classique des dégraissants et nettoyants multi-usages concentrés, et il agit comme solvant de queue dans les peintures en phase aqueuse en améliorant la formation du film. Sa double affinité le rend très efficace dans les formulations de nettoyage industriel.",
-    "funciones": ["Solvant de couplage", "Dégraissant", "Auxiliaire de formation du film"],
-    "aplicaciones": ["Nettoyants et dégraissants industriels", "Peintures et revêtements en phase aqueuse", "Encres d'impression", "Nettoyants pour salissures tenaces"],
+    "descripcion": "Éther de glycol à bon pouvoir de couplage entre l'eau et les solvants organiques, employé comme solvant et agent de couplage dans les formulations aqueuses. C'est un composant classique des dégraissants et des nettoyants multi-usages, et il agit comme solvant de coalescence dans les revêtements à base d'eau. Son usage en cosmétique et en médecine vétérinaire est soumis à des restrictions ; la réglementation applicable est donc vérifiée.",
+    "funciones": ["Solvant de couplage", "Dégraissant", "Solvant de formulation"],
+    "aplicaciones": ["Nettoyants et dégraissants multi-usages", "Nettoie-vitres et nettoyants pour surfaces dures", "Décapants pour salissures tenaces", "Solvant dans les formulations cosmétiques et vétérinaires, selon la réglementation"],
     "formas_referenciales": ["Liquide — selon le fabricant et le lot"]
   },
   {
@@ -208,12 +208,12 @@
   },
   {
     "id": "antiespumante-de-silicona",
-    "nombre": "Antimousse silicone",
-    "sinonimos": ["Démoussant siliconé", "Émulsion antimousse silicone"],
-    "descripcion": "Formulation à base de polydiméthylsiloxane et de silice hydrophobe pour le contrôle de la mousse dans les procédés aqueux. Elle agit à faibles doses en cassant la mousse existante et en prévenant sa reformation, avec une bonne persistance dans les systèmes à agitation intense. La compatibilité avec la température et le pH du procédé se vérifie pour chaque application.",
-    "funciones": ["Antimousse", "Agent de désaération", "Contrôle de la mousse en cours de procédé"],
-    "aplicaciones": ["Stations de traitement des eaux", "Procédés de fermentation industrielle", "Teinture et lavage textile", "Fabrication de détergents et de peintures"],
-    "formas_referenciales": ["Liquide — émulsion ou compound, selon le fabricant et le lot"]
+    "nombre": "Silicone antimousse",
+    "sinonimos": ["Antimousse de silicone", "Antimousse siliconé", "Émulsion antimousse de silicone"],
+    "descripcion": "Formulation à base de polydiméthylsiloxane et de silice hydrophobe pour le contrôle de la mousse dans les procédés aqueux. Elle agit à faible dose en brisant la mousse existante et en empêchant sa reformation, avec une bonne persistance dans les systèmes à forte agitation. La compatibilité avec la température et le pH, ainsi que le grade adapté aux procédés cosmétiques, pharmaceutiques ou vétérinaires, sont vérifiés pour chaque application.",
+    "funciones": ["Antimousse", "Désaérant", "Contrôleur de mousse en process"],
+    "aplicaciones": ["Stations de traitement des eaux", "Procédés de fermentation industrielle", "Teinture et lavage textile", "Fabrication de détergents et de peintures", "Contrôle de la mousse dans la production de cosmétiques et de produits pharmaceutiques"],
+    "formas_referenciales": ["Liquide — émulsion ou composé, selon le fabricant et le lot"]
   },
   {
     "id": "acido-sulfamico",

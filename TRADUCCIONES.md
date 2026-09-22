@@ -104,3 +104,9 @@ Las rutas se generan solas: no hay que crear páginas.
 El buscador difuso (`src/lib/fuzzy.ts`) funciona en los 7 idiomas: normaliza
 Unicode (`\p{L}`), así que tolera erratas también en cirílico, y en chino
 funciona por prefijo y coincidencia exacta.
+
+## 📦 Productos de la matriz (sep. 2026)
+
+Los productos agregados desde la matriz de la empresa viven en `src/data/products/matriz-2026.json`
+y sus traducciones en `src/data/i18n/products/<lang>/matriz-2026.json` (el nombre del archivo no importa:
+el sitio une todos los `.json` de la carpeta). El informe de revisión está en `docs/matriz/`.

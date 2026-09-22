@@ -3,36 +3,36 @@
     "id": "alcohol-cetilico",
     "nombre": "Álcool Cetílico",
     "sinonimos": ["1-Hexadecanol", "Álcool palmitílico"],
-    "descripcion": "Álcool graxo amplamente utilizado como coemulsificante e agente de consistência em emulsões cosméticas. Confere corpo, estabilidade e um toque emoliente suave a cremes, loções e condicionadores capilares.",
+    "descripcion": "Álcool graxo amplamente utilizado como coemulsificante e agente de consistência em emulsões cosméticas. Confere corpo, estabilidade e um toque emoliente suave a cremes, loções e condicionadores capilares. Também é empregado em bases farmacêuticas e veterinárias, em produtos de limpeza e em aplicações industriais; seu uso em alimentos e nutracêuticos depende da regulamentação aplicável.",
     "funciones": ["Coemulsificante", "Agente de consistência", "Emoliente"],
-    "aplicaciones": ["Cremes e loções", "Condicionadores capilares", "Emulsões O/A", "Bálsamos"],
-    "formas_referenciales": ["Sólido — escamas, pérolas ou pastilhas conforme o fabricante e o lote"]
+    "aplicaciones": ["Cremes e loções", "Condicionadores capilares", "Emulsões O/W", "Pomadas e bases farmacêuticas ou veterinárias", "Produtos de limpeza e usos industriais"],
+    "formas_referenciales": ["Sólido — flocos, pérolas ou pastilhas, conforme o fabricante e o lote"]
   },
   {
     "id": "alcohol-cetoestearilico",
     "nombre": "Álcool Cetoestearílico",
-    "sinonimos": ["Álcool cetílico-esteárico", "Álcool cetearílico"],
-    "descripcion": "Mistura dos álcoois graxos cetílico e esteárico empregada como base de consistência em todo tipo de emulsão. Estabiliza a fase oleosa e melhora o sensorial de cremes e produtos capilares.",
+    "sinonimos": ["Álcool cetílico-estearílico", "Cetearílico"],
+    "descripcion": "Mistura dos álcoois graxos cetílico e estearílico empregada como base de consistência em todo tipo de emulsões. Estabiliza a fase oleosa e melhora a sensorialidade de cremes e produtos capilares. Também é empregada em bases farmacêuticas e veterinárias e em produtos de limpeza; seu uso em alimentos e nutracêuticos depende da regulamentação aplicável.",
     "funciones": ["Agente de consistência", "Coemulsificante", "Estabilizante de emulsões"],
-    "aplicaciones": ["Cremes corporais e faciais", "Condicionadores e tratamentos capilares", "Desodorantes em creme"],
-    "formas_referenciales": ["Sólido — escamas ou pérolas conforme o fabricante e o lote"]
+    "aplicaciones": ["Cremes corporais e faciais", "Condicionadores e tratamentos capilares", "Desodorantes em creme", "Pomadas e bases farmacêuticas ou veterinárias", "Produtos de limpeza"],
+    "formas_referenciales": ["Sólido — flocos ou pérolas, conforme o fabricante e o lote"]
   },
   {
     "id": "acido-estearico",
-    "nombre": "Ácido Esteárico",
-    "sinonimos": ["Ácido octadecanoico", "Estearina"],
-    "descripcion": "Ácido graxo clássico da indústria cosmética, utilizado para conferir corpo e opacidade a emulsões e como base saponificável em cremes de barbear e sabonetes cremosos. Sua neutralização parcial gera sistemas emulsionados estáveis.",
-    "funciones": ["Agente de consistência", "Emulsificante (neutralizado)", "Opacificante"],
-    "aplicaciones": ["Cremes e loções", "Cremes de barbear", "Sabonetes e barras cremosas", "Bases de maquiagem"],
-    "formas_referenciales": ["Sólido — pérolas, escamas ou pó conforme o fabricante e o lote"]
+    "nombre": "Ácido Esteárico Triplo",
+    "sinonimos": ["Ácido octadecanoico", "Estearina", "Ácido esteárico"],
+    "descripcion": "Ácido graxo clássico da indústria cosmética, utilizado para conferir corpo e opacidade a emulsões e como base saponificável em cremes de barbear e sabonetes cremosos. Sua neutralização parcial gera sistemas emulsionados estáveis. Na indústria é empregado também como endurecedor em velas e sabões e como auxiliar em plásticos, e como excipiente conforme a regulamentação aplicável em outros setores.",
+    "funciones": ["Agente de consistência", "Emulsificante (neutralizado)", "Opacificante", "Endurecedor"],
+    "aplicaciones": ["Cremes e loções", "Cremes de barbear", "Sabonetes e barras cremosas", "Bases de maquiagem", "Velas e auxiliares para plásticos"],
+    "formas_referenciales": ["Sólido — pérolas, flocos ou pó, conforme o fabricante e o lote"]
   },
   {
     "id": "estearato-de-glicerilo",
-    "nombre": "Estearato de Glicerila",
-    "sinonimos": ["Monoestearato de glicerila", "GMS"],
-    "descripcion": "Éster de glicerina e ácido esteárico usado como emulsificante primário e agente de consistência em emulsões óleo em água. Confere estabilidade, cremosidade e um acabamento não oleoso muito apreciado em produtos de cuidados com a pele.",
-    "funciones": ["Emulsificante O/A", "Agente de consistência", "Emoliente"],
-    "aplicaciones": ["Cremes faciais e corporais", "Loções", "Protetores solares", "Condicionadores"],
+    "nombre": "Monoestearato de Glicerila",
+    "sinonimos": ["Estearato de glicerila", "GMS", "Glyceryl stearate"],
+    "descripcion": "Éster de glicerina e ácido esteárico usado como emulsificante primário e agente de consistência em emulsões óleo em água. Confere estabilidade, cremosidade e um acabamento não oleoso muito apreciado em produtos de cuidado da pele; também é empregado como excipiente em bases semissólidas farmacêuticas e veterinárias e em formulações de higiene e limpeza, industriais e suplementos.",
+    "funciones": ["Emulsificante O/W", "Agente de consistência", "Emoliente"],
+    "aplicaciones": ["Cremes faciais e corporais", "Loções", "Protetores solares", "Condicionadores", "Bases de cremes farmacêuticos e veterinários"],
     "formas_referenciales": ["Sólido — pérolas, escamas ou pó conforme o fabricante e o lote"]
   },
   {
@@ -47,37 +47,37 @@
   {
     "id": "miristato-de-isopropilo",
     "nombre": "Miristato de Isopropila",
-    "sinonimos": ["IPM"],
-    "descripcion": "Éster emoliente leve de rápida espalhabilidade, utilizado para reduzir a sensação oleosa das emulsões e melhorar o deslizamento de óleos corporais e demaquilantes. Também atua como veículo de fragrâncias e ativos lipossolúveis.",
+    "sinonimos": ["IPM", "Éster isopropílico do ácido mirístico"],
+    "descripcion": "Éster emoliente leve de rápida espalhabilidade, utilizado para reduzir a sensação oleosa das emulsões e melhorar o deslizamento de óleos corporais e demaquilantes. Também atua como veículo de fragrâncias e ativos lipossolúveis, e como solvente ou veículo em formulações tópicas de uso farmacêutico, veterinário e industrial.",
     "funciones": ["Emoliente", "Agente de espalhabilidade", "Solvente de fragrâncias"],
-    "aplicaciones": ["Óleos corporais", "Demaquilantes", "Loções leves", "Desodorantes"],
-    "formas_referenciales": ["Líquido oleoso de baixa viscosidade"]
+    "aplicaciones": ["Óleos corporais", "Demaquilantes", "Loções leves", "Desodorantes", "Veículo em formulações tópicas farmacêuticas e veterinárias"],
+    "formas_referenciales": ["Líquido oleoso de baixa viscosidade, conforme o fabricante e o lote"]
   },
   {
     "id": "triglicerido-caprilico-caprico",
-    "nombre": "Triglicerídeos Caprílico/Cáprico",
-    "sinonimos": ["Triglicerídeos de cadeia média", "Óleo de coco fracionado", "TCM"],
-    "descripcion": "Emoliente de origem vegetal com excelente estabilidade oxidativa, apreciado por seu toque seco e sedoso. Serve como fase oleosa base, veículo de ativos lipossolúveis e suporte para extratos e fragrâncias.",
-    "funciones": ["Emoliente", "Veículo de ativos", "Fase oleosa base"],
-    "aplicaciones": ["Séruns em óleo", "Cremes e loções", "Demaquilantes bifásicos", "Produtos para massagem"],
-    "formas_referenciales": ["Líquido oleoso leve"]
+    "nombre": "Caprylic / Capric Triglyceride",
+    "sinonimos": ["Triglicerídeo Caprílico/Cáprico", "Triglicerídeos de cadeia média", "Óleo de coco fracionado", "TCM"],
+    "descripcion": "Emoliente de origem vegetal com excelente estabilidade oxidativa, apreciado pelo toque seco e sedoso. Serve como fase oleosa base, veículo de ativos lipossolúveis e suporte para extratos e fragrâncias, e como excipiente oleoso em formulações farmacêuticas e veterinárias.",
+    "funciones": ["Emoliente", "Veículo de ativos", "Fase oleosa base", "Excipiente oleoso"],
+    "aplicaciones": ["Séruns em óleo", "Cremes e loções", "Demaquilantes bifásicos", "Produtos para massagem", "Veículos oleosos farmacêuticos e veterinários"],
+    "formas_referenciales": ["Líquido oleoso leve, incolor a amarelo pálido, conforme o fabricante e o lote"]
   },
   {
     "id": "cocamidopropil-betaina",
-    "nombre": "Cocoamidopropil Betaína",
-    "sinonimos": ["CAPB", "Betaína de coco", "Cocamidopropil betaína"],
+    "nombre": "Cocoamido Propil Betaína",
+    "sinonimos": ["CAPB", "Betaína de coco", "Cocoamidopropil betaína", "Cocamidopropil Betaína"],
     "descripcion": "Tensoativo anfótero derivado do coco, pilar das fórmulas de limpeza suave. Potencializa e estabiliza a espuma, reduz o potencial irritante dos tensoativos aniônicos e confere viscosidade a xampus e sabonetes líquidos.",
     "funciones": ["Tensoativo anfótero", "Potencializador de espuma", "Modificador de viscosidade"],
-    "aplicaciones": ["Xampus", "Sabonetes líquidos e géis de banho", "Limpadores faciais", "Detergentes lava-louças manuais"],
+    "aplicaciones": ["Xampus", "Sabonetes líquidos e géis de banho", "Limpadores faciais", "Lava-louças manuais", "Xampus e limpadores de uso veterinário"],
     "formas_referenciales": ["Líquido — solução aquosa, viscosidade variável conforme o fabricante e o lote"]
   },
   {
     "id": "decil-glucosido",
     "nombre": "Decil Glucosídeo",
-    "sinonimos": ["Decil poliglucosídeo", "Decil glicosídeo", "APG C10"],
-    "descripcion": "Tensoativo não iônico da família dos alquil poliglicosídeos, derivado de açúcares e álcoois graxos vegetais. Seu perfil de suavidade o torna ideal para limpadores de pele sensível, produtos infantis e fórmulas de tendência natural.",
+    "sinonimos": ["Decil poliglucosídeo", "APG C10"],
+    "descripcion": "Tensoativo não iônico da família dos alquil poliglucosídeos, derivado de açúcares e álcoois graxos vegetais. Seu perfil de suavidade o torna ideal para limpadores de pele sensível, produtos infantis e fórmulas de tendência natural, e seu caráter biodegradável o torna útil também em limpadores de superfícies e em higiene de uso farmacêutico e veterinário.",
     "funciones": ["Tensoativo não iônico", "Agente de limpeza suave", "Potencializador de espuma"],
-    "aplicaciones": ["Limpadores faciais", "Xampus suaves e sem sulfatos", "Produtos para bebês", "Sabonetes íntimos"],
+    "aplicaciones": ["Limpadores faciais", "Xampus suaves e sem sulfatos", "Produtos para bebês", "Sabonetes íntimos", "Limpadores de superfícies e de higiene farmacêutica ou veterinária"],
     "formas_referenciales": ["Líquido viscoso — solução aquosa, tom variável conforme o fabricante e o lote"]
   },
   {
@@ -91,39 +91,39 @@
   },
   {
     "id": "glicerina",
-    "nombre": "Glicerina",
-    "sinonimos": ["Glicerol", "Glicerina vegetal"],
-    "descripcion": "Umectante de referência na indústria cosmética e uma das matérias-primas mais versáteis do mercado. Atrai e retém água nas formulações, melhora a espalhabilidade e funciona como solvente de ativos; em alimentos, seu uso é regido conforme a regulamentação aplicável.",
-    "funciones": ["Umectante", "Solvente", "Suavizante"],
-    "aplicaciones": ["Cremes e loções", "Sabonetes e géis de banho", "Produtos capilares", "Enxaguantes bucais", "Bases de extratos"],
-    "formas_referenciales": ["Líquido viscoso incolor"]
+    "nombre": "Glicerina USP",
+    "sinonimos": ["Glicerina", "Glicerol", "Glicerina vegetal"],
+    "descripcion": "Umectante de referência na indústria cosmética e uma das matérias-primas mais versáteis do mercado. Atrai e retém água nas formulações, melhora a espalhabilidade e funciona como solvente e plastificante; em alimentos, formulações farmacêuticas e suplementos, seu uso é regido conforme a regulamentação aplicável.",
+    "funciones": ["Umectante", "Solvente", "Amaciante", "Plastificante"],
+    "aplicaciones": ["Cremes e loções", "Sabonetes e géis de banho", "Produtos capilares", "Enxaguantes bucais", "Xaropes e soluções farmacêuticas"],
+    "formas_referenciales": ["Líquido viscoso incolor, conforme o fabricante e o lote"]
   },
   {
     "id": "propanodiol",
-    "nombre": "Propanodiol",
-    "sinonimos": ["1,3-Propanodiol", "PDO"],
-    "descripcion": "Glicol de origem fermentativa posicionado como alternativa clean label ao propilenoglicol. Atua como umectante e solvente de ativos e conservantes, com um toque menos pegajoso que o da glicerina.",
-    "funciones": ["Umectante", "Solvente", "Potencializador de conservantes"],
-    "aplicaciones": ["Séruns e tônicos", "Cremes e loções", "Desodorantes", "Géis capilares"],
-    "formas_referenciales": ["Líquido incolor de baixa viscosidade"]
+    "nombre": "Propanediol",
+    "sinonimos": ["Propanodiol", "1,3-Propanodiol", "PDO"],
+    "descripcion": "Glicol de origem fermentativa posicionado como alternativa de rótulo limpo ao propilenoglicol. Atua como umectante e solvente de ativos e conservantes, com um toque menos pegajoso que a glicerina. Também é utilizado em produtos de limpeza e em formulações tópicas farmacêuticas e veterinárias.",
+    "funciones": ["Umectante", "Solvente", "Potencializador de conservantes", "Emoliente"],
+    "aplicaciones": ["Séruns e tônicos", "Cremes e loções", "Desodorantes", "Géis capilares", "Formulações tópicas farmacêuticas e veterinárias"],
+    "formas_referenciales": ["Líquido incolor de baixa viscosidade, conforme o fabricante e o lote"]
   },
   {
     "id": "pantenol",
-    "nombre": "Pantenol",
-    "sinonimos": ["Pró-vitamina B5", "D-Pantenol"],
-    "descripcion": "Derivado da vitamina B5 utilizado em formulações para cuidados com a pele e os cabelos, associado a propriedades umectantes e condicionantes. É um ativo clássico em produtos capilares, cremes para as mãos e fórmulas para peles que exigem conforto.",
-    "funciones": ["Umectante", "Condicionante", "Ativo de cuidados com a pele"],
-    "aplicaciones": ["Xampus e condicionadores", "Cremes para mãos e corpo", "Produtos pós-sol", "Séruns capilares"],
-    "formas_referenciales": ["Líquido viscoso incolor", "Sólido — pó conforme a variante comercial e o lote"]
+    "nombre": "D-Pantenol",
+    "sinonimos": ["Pantenol", "Provitamina B5", "Dexpantenol", "Panthenol"],
+    "descripcion": "Derivado da vitamina B5 utilizado em formulações para o cuidado da pele e do cabelo, associado a propriedades umectantes e condicionadoras. É um ativo clássico em produtos capilares, cremes para as mãos e fórmulas para peles que necessitam de conforto. Também é empregado em produtos de limpeza, formulações farmacêuticas e veterinárias tópicas e, conforme a regulamentação aplicável, em nutrição.",
+    "funciones": ["Umectante", "Condicionador", "Ativo de cuidado da pele", "Fonte de provitamina B5"],
+    "aplicaciones": ["Xampus e condicionadores", "Cremes para as mãos e corporais", "Produtos pós-solares", "Séruns capilares", "Formulações tópicas farmacêuticas e veterinárias"],
+    "formas_referenciales": ["Líquido viscoso incolor, conforme o fabricante e o lote", "Sólido — pó conforme a variante comercial, o fabricante e o lote"]
   },
   {
     "id": "hialuronato-de-sodio",
-    "nombre": "Hialuronato de Sódio",
-    "sinonimos": ["Sal sódico do ácido hialurônico", "HA"],
-    "descripcion": "Sal sódico do ácido hialurônico, biopolímero de alta capacidade de retenção de água obtido por fermentação. É um dos ativos umectantes mais demandados do mercado, utilizado em formulações associadas à hidratação e à aparência de pele lisa; é comercializado em diferentes faixas de peso molecular.",
+    "nombre": "Ácido Hialurônico em Pó (alto peso molecular)",
+    "sinonimos": ["Sal sódico do ácido hialurônico", "HA", "Hialuronato de Sódio", "Sodium hyaluronate"],
+    "descripcion": "Sal sódico do ácido hialurônico, biopolímero de alta capacidade de retenção de água obtido por fermentação. É um ativo umectante de ampla demanda, utilizado em formulações associadas à hidratação e à aparência de pele lisa; em sua variante de alto peso molecular tende a formar filme superficial. É empregado também em suplementos e preparações farmacêuticas, conforme a regulamentação aplicável.",
     "funciones": ["Umectante de alto desempenho", "Ativo hidratante", "Formador de filme"],
-    "aplicaciones": ["Séruns faciais", "Cremes anti-idade", "Contorno dos olhos", "Máscaras faciais", "Produtos capilares"],
-    "formas_referenciales": ["Sólido — pó ou grânulos finos conforme o fabricante e o lote"]
+    "aplicaciones": ["Séruns faciais", "Cremes antienvelhecimento", "Área dos olhos", "Máscaras", "Suplementos e preparações farmacêuticas"],
+    "formas_referenciales": ["Sólido — pó ou grânulos finos, conforme o fabricante e o lote"]
   },
   {
     "id": "pca-de-sodio",
@@ -136,29 +136,29 @@
   },
   {
     "id": "niacinamida",
-    "nombre": "Niacinamida",
-    "sinonimos": ["Nicotinamida", "Vitamina B3"],
-    "descripcion": "Forma amida da vitamina B3, um dos ativos multifuncionais mais utilizados no cuidado facial atual. É empregada em formulações associadas à uniformidade do tom, à aparência dos poros e ao conforto da barreira cutânea, com excelente estabilidade e facilidade de formulação.",
-    "funciones": ["Ativo multifuncional", "Condicionante de pele", "Vitamina"],
-    "aplicaciones": ["Séruns faciais", "Cremes despigmentantes cosméticos", "Tônicos", "Produtos para pele oleosa"],
+    "nombre": "Vitamina B3 (Nicotinamida)",
+    "sinonimos": ["Niacinamida", "Niacinamide", "Nicotinamida", "Vitamina B3"],
+    "descripcion": "Forma amida da vitamina B3, um dos ativos multifuncionais mais utilizados no cuidado facial atual. É empregada em formulações associadas à uniformidade do tom, à aparência dos poros e ao conforto da barreira cutânea, com excelente estabilidade e facilidade de formulação. Também é utilizada como fonte de vitamina B3 em suplementos, alimentos fortificados, premixes veterinários e preparações farmacêuticas.",
+    "funciones": ["Ativo multifuncional", "Condicionador de pele", "Vitamina", "Fonte de vitamina B3"],
+    "aplicaciones": ["Séruns faciais", "Cremes clareadores cosméticos", "Tônicos", "Produtos para pele oleosa", "Suplementos e alimentos fortificados"],
     "formas_referenciales": ["Sólido — pó cristalino, granulometria variável conforme o fabricante e o lote"]
   },
   {
     "id": "alfa-arbutina",
-    "nombre": "Alfa-Arbutina",
-    "sinonimos": ["α-Arbutina"],
-    "descripcion": "Glucosídeo de hidroquinona obtido por via enzimática, utilizado em formulações cosméticas associadas à aparência uniforme do tom da pele. É um ativo de alta demanda em séruns e cremes de cuidado facial por sua estabilidade e compatibilidade com outros ingredientes despigmentantes cosméticos.",
+    "nombre": "Alfa Arbutina",
+    "sinonimos": ["α-Arbutina", "Alfa-Arbutina", "Alpha-arbutin"],
+    "descripcion": "Glicosídeo de hidroquinona obtido por via enzimática, utilizado em formulações cosméticas associadas à aparência uniforme do tom da pele. É um ativo de alta demanda em séruns e cremes de cuidado facial por sua estabilidade e compatibilidade com outros ingredientes cosméticos. Também é empregado em preparações dermatológicas de uso farmacêutico e veterinário, conforme a regulamentação aplicável.",
     "funciones": ["Ativo uniformizador do tom", "Antioxidante"],
-    "aplicaciones": ["Séruns faciais", "Cremes para manchas de origem cosmética", "Tratamentos localizados", "Contorno dos olhos"],
-    "formas_referenciales": ["Sólido — pó fino, tom branco a creme conforme o lote"]
+    "aplicaciones": ["Séruns faciais", "Cremes para manchas de origem cosmética", "Tratamentos localizados", "Área dos olhos", "Preparações dermatológicas tópicas"],
+    "formas_referenciales": ["Sólido — pó fino, tom branco a creme, conforme o fabricante e o lote"]
   },
   {
     "id": "cafeina",
-    "nombre": "Cafeína",
-    "sinonimos": ["Cafeína anidra", "1,3,7-Trimetilxantina"],
-    "descripcion": "Alcaloide amplamente utilizado como ativo cosmético em formulações para contorno dos olhos, cuidados corporais e capilares, associado a uma aparência revitalizada da pele. Em bebidas e suplementos, seu uso é regido conforme a regulamentação aplicável.",
-    "funciones": ["Ativo cosmético", "Ingrediente para contorno dos olhos", "Ativo capilar"],
-    "aplicaciones": ["Géis e cremes para contorno dos olhos", "Produtos anticelulite cosméticos", "Tônicos e loções capilares", "Géis corporais"],
+    "nombre": "Cafeína Anidra",
+    "sinonimos": ["Cafeína", "1,3,7-Trimetilxantina", "Caffeine", "Trimetilxantina"],
+    "descripcion": "Alcaloide do grupo das xantinas, utilizado como ativo cosmético em formulações para a área dos olhos, cuidado corporal e capilar, associado a uma aparência revitalizada e firme da pele. Em alimentos, suplementos e produtos farmacêuticos seu uso é regido conforme a regulamentação aplicável.",
+    "funciones": ["Ativo cosmético", "Ingrediente para a área dos olhos", "Ativo capilar", "Estimulante (conforme a regulamentação)"],
+    "aplicaciones": ["Géis e cremes para a área dos olhos", "Produtos anticelulite cosméticos", "Tônicos e loções capilares", "Géis corporais", "Bebidas, suplementos e formulações farmacêuticas, conforme a regulamentação"],
     "formas_referenciales": ["Sólido — pó cristalino, granulometria variável conforme o fabricante e o lote"]
   },
   {
@@ -173,65 +173,65 @@
   {
     "id": "ceramida-np",
     "nombre": "Ceramida NP",
-    "sinonimos": ["Ceramida 3"],
-    "descripcion": "Lipídio idêntico aos presentes no estrato córneo da pele, utilizado em formulações associadas ao cuidado da barreira cutânea. É um ativo de alto valor em cremes reparadores cosméticos, produtos para pele seca e linhas dermocosméticas.",
+    "sinonimos": ["Ceramida 3", "Ceramide NP"],
+    "descripcion": "Lipídio idêntico aos presentes no estrato córneo da pele, utilizado em formulações associadas ao cuidado da barreira cutânea. É um ativo empregado em cremes reparadores cosméticos, produtos para pele seca e linhas dermocosméticas. Seu uso se estende a formulações dermatológicas, veterinárias e de nutrição, conforme a regulamentação aplicável.",
     "funciones": ["Ativo de barreira cutânea", "Lipídio restaurador cosmético"],
-    "aplicaciones": ["Cremes para pele seca", "Séruns de barreira", "Produtos capilares reparadores", "Emulsões dermocosméticas"],
-    "formas_referenciales": ["Sólido — pó ou escamas céreas conforme o fabricante e o lote"]
+    "aplicaciones": ["Cremes para pele seca", "Séruns de barreira", "Produtos capilares reparadores", "Emulsões dermocosméticas", "Formulações tópicas dermatológicas e veterinárias"],
+    "formas_referenciales": ["Sólido — pó ou flocos cerosos, conforme o fabricante e o lote"]
   },
   {
     "id": "alantoina",
     "nombre": "Alantoína",
-    "sinonimos": ["Glioxildiureída"],
-    "descripcion": "Ativo clássico de ampla trajetória, utilizado em formulações associadas ao conforto e à suavidade da pele. Sua versatilidade e baixo custo de uso o tornam habitual em cremes, produtos capilares, cremes dentais e fórmulas pós-sol.",
-    "funciones": ["Ativo condicionante de pele", "Suavizante"],
-    "aplicaciones": ["Cremes e loções", "Produtos pós-sol", "Cremes dentais", "Produtos para barbear", "Desodorantes"],
+    "sinonimos": ["Glioxildiureído", "Allantoin"],
+    "descripcion": "Ativo clássico de ampla trajetória, utilizado em formulações associadas ao conforto e à maciez da pele. É habitual em cremes, produtos capilares, cremes dentais e fórmulas pós-solares, e é empregado também em preparações tópicas de uso farmacêutico e veterinário, conforme a regulamentação aplicável.",
+    "funciones": ["Ativo condicionador da pele", "Amaciante"],
+    "aplicaciones": ["Cremes e loções", "Produtos pós-solares", "Cremes dentais", "Produtos para barbear", "Preparações tópicas farmacêuticas e veterinárias"],
     "formas_referenciales": ["Sólido — pó fino branco, granulometria variável conforme o fabricante e o lote"]
   },
   {
     "id": "acido-azelaico",
     "nombre": "Ácido Azelaico",
-    "sinonimos": ["Ácido nonanodioico"],
-    "descripcion": "Ácido dicarboxílico utilizado como ativo em formulações cosméticas para peles com tendência a imperfeições e tom irregular. Sua versatilidade o posiciona em séruns, cremes e géis de cuidado facial especializado.",
-    "funciones": ["Ativo para pele com imperfeições", "Uniformizador do tom"],
-    "aplicaciones": ["Séruns faciais", "Cremes e géis de cuidado especializado", "Tratamentos localizados"],
-    "formas_referenciales": ["Sólido — pó ou grânulos conforme o fabricante e o lote"]
+    "sinonimos": ["Ácido nonanodioico", "Azelaic acid"],
+    "descripcion": "Ácido dicarboxílico utilizado como ativo em formulações cosméticas para peles com tendência a imperfeições e tom irregular, e como insumo em preparações dermatológicas de uso farmacêutico. Sua versatilidade o posiciona em séruns, cremes e géis de cuidado facial especializado, sempre dentro dos limites da regulamentação aplicável.",
+    "funciones": ["Ativo para pele com imperfeições", "Uniformizador do tom", "Insumo dermatológico"],
+    "aplicaciones": ["Séruns faciais", "Cremes e géis de cuidado especializado", "Tratamentos localizados", "Preparações dermatológicas tópicas"],
+    "formas_referenciales": ["Sólido — pó ou grânulos, conforme o fabricante e o lote"]
   },
   {
     "id": "acido-glicolico",
     "nombre": "Ácido Glicólico",
     "sinonimos": ["Ácido hidroxiacético", "AHA"],
-    "descripcion": "Alfa-hidroxiácido de cadeia curta, referência da esfoliação química cosmética. É utilizado em formulações associadas à renovação da aparência da pele e a uma textura mais uniforme, em concentrações e pH conforme a regulamentação cosmética aplicável.",
+    "descripcion": "Alfa-hidroxiácido de cadeia curta, referência da esfoliação química cosmética. É utilizado em formulações associadas à renovação da aparência da pele e a uma textura mais uniforme, em concentrações e pH conforme a regulamentação cosmética aplicável. Também é empregado em preparações dermatológicas de uso farmacêutico, conforme a regulamentação aplicável.",
     "funciones": ["Esfoliante químico (AHA)", "Ajustador de pH", "Ativo renovador cosmético"],
     "aplicaciones": ["Tônicos e séruns esfoliantes", "Cremes de renovação", "Peelings cosméticos profissionais", "Produtos para textura da pele"],
-    "formas_referenciales": ["Líquido — solução aquosa", "Sólido — cristais ou pó conforme a variante comercial e o lote"]
+    "formas_referenciales": ["Líquido — solução aquosa, conforme o fabricante e o lote", "Sólido — cristais ou pó, conforme o fabricante e o lote"]
   },
   {
     "id": "acido-salicilico",
     "nombre": "Ácido Salicílico",
     "sinonimos": ["Ácido 2-hidroxibenzoico", "BHA"],
-    "descripcion": "Beta-hidroxiácido lipossolúvel utilizado em formulações cosméticas para peles oleosas e com tendência a imperfeições, associado à esfoliação da superfície cutânea e do interior dos poros. Também é empregado como coadjuvante de conservação em doses conforme a regulamentação cosmética.",
-    "funciones": ["Esfoliante químico (BHA)", "Ativo para pele oleosa", "Coadjuvante de conservação"],
-    "aplicaciones": ["Limpadores e tônicos para pele oleosa", "Séruns anti-imperfeições", "Xampus para controle cosmético da caspa", "Esfoliantes"],
+    "descripcion": "Beta-hidroxiácido lipossolúvel utilizado em formulações cosméticas para peles oleosas e com tendência a imperfeições, associado à esfoliação da superfície cutânea e do interior do poro. É empregado também como coadjuvante de conservação, como insumo de preparações tópicas farmacêuticas e veterinárias e como intermediário na indústria, conforme a regulamentação aplicável.",
+    "funciones": ["Esfoliante químico (BHA)", "Ativo para pele oleosa", "Coadjuvante de conservação", "Intermediário de síntese"],
+    "aplicaciones": ["Limpadores e tônicos para pele oleosa", "Séruns anti-imperfeições", "Xampus para controle de caspa cosmética", "Esfoliantes", "Preparações tópicas farmacêuticas e veterinárias"],
     "formas_referenciales": ["Sólido — pó cristalino fino, granulometria variável conforme o fabricante e o lote"]
   },
   {
     "id": "fenoxietanol",
     "nombre": "Fenoxietanol",
-    "sinonimos": ["2-Fenoxietanol", "Éter monofenílico do etilenoglicol"],
-    "descripcion": "Conservante de amplo espectro e uso global, referência para a proteção antimicrobiana de fórmulas cosméticas dentro dos limites da regulamentação aplicável. É compatível com a maioria dos sistemas e frequentemente combinado com etilhexilglicerina ou outros potencializadores.",
-    "funciones": ["Conservante de amplo espectro"],
-    "aplicaciones": ["Cremes e loções", "Xampus e condicionadores", "Lenços umedecidos", "Maquiagem líquida"],
-    "formas_referenciales": ["Líquido incolor levemente viscoso"]
+    "sinonimos": ["2-Fenoxietanol", "Éter monofenílico do etilenoglicol", "Phenoxyethanol"],
+    "descripcion": "Conservante de amplo espectro utilizado para a proteção antimicrobiana de fórmulas aquosas e emulsões, dentro dos limites da regulamentação aplicável. É compatível com a maioria dos sistemas e frequentemente combinado com etilhexilglicerina ou outros potencializadores. É empregado em cosmética, saneantes, preparações farmacêuticas e veterinárias e formulações industriais à base de água.",
+    "funciones": ["Conservante de amplo espectro", "Proteção antimicrobiana da embalagem"],
+    "aplicaciones": ["Cremes e loções", "Xampus e sabonetes líquidos", "Lenços umedecidos", "Preparações tópicas farmacêuticas e veterinárias", "Limpadores e formulações industriais à base de água"],
+    "formas_referenciales": ["Líquido incolor levemente viscoso, conforme o fabricante e o lote"]
   },
   {
     "id": "tocoferol",
-    "nombre": "Tocoferol (Vitamina E)",
-    "sinonimos": ["Vitamina E", "Alfa-tocoferol"],
-    "descripcion": "Antioxidante lipossolúvel de referência, utilizado tanto para proteger as fases oleosas da oxidação quanto como ativo associado aos cuidados com a pele. Disponível em variantes de origem natural e sintética; em alimentos e suplementos, seu uso é regido conforme a regulamentação aplicável.",
-    "funciones": ["Antioxidante", "Ativo de cuidados com a pele", "Protetor de fases oleosas"],
-    "aplicaciones": ["Séruns e óleos faciais", "Cremes e loções", "Proteção de óleos e extratos", "Bálsamos labiais"],
-    "formas_referenciales": ["Líquido oleoso viscoso — tom âmbar variável conforme a origem e o lote"]
+    "nombre": "Vitamina E Oleosa",
+    "sinonimos": ["Vitamina E", "Alfa-tocoferol", "Tocoferol (Vitamina E)"],
+    "descripcion": "Antioxidante lipossolúvel de referência, utilizado tanto para proteger as fases oleosas da oxidação quanto como ativo associado ao cuidado da pele. Disponível em variantes de origem natural e sintética; em alimentos, suplementos e usos farmacêuticos, seu uso é regido de acordo com a regulamentação aplicável.",
+    "funciones": ["Antioxidante", "Ativo de cuidado da pele", "Protetor de fases oleosas"],
+    "aplicaciones": ["Séruns e óleos faciais", "Cremes e loções", "Proteção de óleos e extratos", "Bálsamos labiais", "Cápsulas e formas farmacêuticas oleosas"],
+    "formas_referenciales": ["Líquido oleoso viscoso — tom âmbar variável, conforme o fabricante e o lote"]
   },
   {
     "id": "octocrileno",
@@ -262,21 +262,21 @@
   },
   {
     "id": "cloruro-de-cetrimonio",
-    "nombre": "Cloreto de Cetrimônio",
-    "sinonimos": ["CTAC", "Cloreto de cetiltrimetilamônio"],
-    "descripcion": "Quaternário de amônio clássico para condicionamento capilar, utilizado em enxágues, cremes para pentear e tratamentos. Proporciona desembaraço e controle de estática, e serve também como emulsificante catiônico em sistemas condicionantes.",
-    "funciones": ["Condicionante catiônico", "Antiestático", "Emulsificante catiônico"],
+    "nombre": "Cetrimonium Chloride 30%",
+    "sinonimos": ["CTAC", "Cloreto de cetiltrimetilamônio", "Cloreto de Cetrimônio"],
+    "descripcion": "Quaternário de amônio clássico para condicionamento capilar, utilizado em enxágues, cremes para pentear e tratamentos. Confere facilidade de desembaraço e controle de estática, e serve também como emulsificante catiônico em sistemas condicionadores. É empregado ainda como auxiliar catiônico em produtos de limpeza e outras formulações industriais, conforme a regulamentação aplicável.",
+    "funciones": ["Condicionador catiônico", "Antiestático", "Emulsificante catiônico"],
     "aplicaciones": ["Condicionadores e enxágues capilares", "Cremes para pentear", "Amaciantes de roupas"],
-    "formas_referenciales": ["Líquido — solução aquosa ou hidroalcoólica conforme a variante comercial e o lote"]
+    "formas_referenciales": ["Líquido — solução aquosa ou hidroalcoólica, conforme o fabricante e o lote"]
   },
   {
     "id": "policuaternio-7",
-    "nombre": "Polyquaternium-7",
-    "sinonimos": ["Poliquatérnio-7", "PQ-7"],
-    "descripcion": "Polímero catiônico solúvel em água utilizado como condicionante em sistemas de enxágue. Melhora a sensação de maciez da pele e dos cabelos durante e após a lavagem, e é um aditivo habitual em xampus, géis de banho e sabonetes líquidos.",
-    "funciones": ["Condicionante polimérico", "Suavizante em enxágue", "Modificador sensorial"],
+    "nombre": "Polyquaternium 7",
+    "sinonimos": ["PQ-7", "Poliquaternário-7", "Polyquaternium-7"],
+    "descripcion": "Polímero catiônico solúvel em água utilizado como condicionador em sistemas de enxágue. Melhora a sensação de maciez da pele e do cabelo durante e após a lavagem, e é um aditivo habitual em xampus, géis de banho e sabonetes líquidos.",
+    "funciones": ["Condicionador polimérico", "Amaciante em enxágue", "Modificador sensorial"],
     "aplicaciones": ["Xampus", "Géis de banho", "Sabonetes líquidos", "Cremes de barbear"],
-    "formas_referenciales": ["Líquido viscoso — solução aquosa incolor a levemente turva conforme o lote"]
+    "formas_referenciales": ["Líquido viscoso — solução aquosa incolor a levemente turva, conforme o fabricante e o lote"]
   },
   {
     "id": "cloruro-de-guar-hidroxipropiltrimonio",
@@ -289,47 +289,47 @@
   },
   {
     "id": "carbomero",
-    "nombre": "Carbômero",
-    "sinonimos": ["Ácido poliacrílico reticulado", "Polímero carboxivinílico"],
-    "descripcion": "Polímero acrílico reticulado, padrão mundial para espessar e estabilizar géis e emulsões. Após a neutralização, gera géis transparentes de reologia característica e suspende partículas e ativos com grande eficiência em baixas doses de uso.",
+    "nombre": "Carbômero 940",
+    "sinonimos": ["Ácido poliacrílico reticulado", "Polímero carboxivinílico", "Carbômero", "Carbomer 940"],
+    "descripcion": "Polímero acrílico reticulado de alta viscosidade, de uso muito difundido para espessar e estabilizar géis e emulsões. Após sua neutralização gera géis transparentes de reologia característica, e suspende partículas e ativos com grande eficiência em baixas doses de uso. Também é empregado em géis tópicos farmacêuticos e veterinários e em produtos de limpeza.",
     "funciones": ["Espessante", "Agente gelificante", "Estabilizante de suspensões"],
-    "aplicaciones": ["Géis antibacterianos cosméticos", "Géis capilares e corporais", "Emulsões e séruns", "Géis de limpeza"],
-    "formas_referenciales": ["Sólido — pó fino e fofo, grau e granulometria variáveis conforme o fabricante e o lote"]
+    "aplicaciones": ["Géis antibacterianos cosméticos", "Géis capilares e corporais", "Emulsões e séruns", "Géis de limpeza", "Géis tópicos farmacêuticos e veterinários"],
+    "formas_referenciales": ["Sólido — pó fino volumoso, grau e granulometria variáveis conforme o fabricante e o lote"]
   },
   {
     "id": "dimeticona",
     "nombre": "Dimeticona",
     "sinonimos": ["Polidimetilsiloxano", "PDMS"],
-    "descripcion": "Silicone de referência em cuidados pessoais, disponível em múltiplas viscosidades nominais. Confere sensorial sedoso, brilho e proteção superficial em produtos capilares e para a pele, além de reduzir a pegajosidade das emulsões.",
-    "funciones": ["Emoliente sensorial", "Condicionante capilar", "Antiespumante de processo"],
-    "aplicaciones": ["Condicionadores e séruns capilares", "Cremes e loções", "Primers de maquiagem", "Produtos de barbear"],
-    "formas_referenciales": ["Líquido de silicone — viscosidade variável conforme o grau e o lote"]
+    "descripcion": "Silicone de referência em cuidado pessoal, disponível em múltiplas viscosidades nominais. Confere sensorial sedoso, brilho e uma película protetora hidrofóbica sobre pele, cabelo e superfícies, e reduz a pegajosidade das emulsões. Também é empregado em produtos de proteção cutânea, abrilhantadores de limpeza e aplicações industriais.",
+    "funciones": ["Emoliente sensorial", "Condicionador capilar", "Antiespumante de processo"],
+    "aplicaciones": ["Condicionadores e séruns capilares", "Cremes, loções e cremes de barreira", "Primers de maquiagem", "Produtos de barbear", "Abrilhantadores e protetores de superfícies"],
+    "formas_referenciales": ["Líquido siliconado — viscosidade variável conforme o fabricante e o lote"]
   },
   {
     "id": "escualano",
-    "nombre": "Esqualano",
-    "sinonimos": ["Esqualano vegetal"],
-    "descripcion": "Emoliente de toque seco e alta afinidade com os lipídios da pele, obtido atualmente de fontes vegetais como a cana-de-açúcar ou a azeitona. É uma das alternativas naturais aos silicones mais demandadas, com excelente estabilidade e sensorial leve.",
-    "funciones": ["Emoliente", "Alternativa vegetal aos silicones", "Veículo de ativos lipossolúveis"],
-    "aplicaciones": ["Séruns em óleo", "Cremes faciais", "Óleos capilares", "Bases de maquiagem"],
-    "formas_referenciales": ["Líquido oleoso incolor e inodoro"]
+    "nombre": "Esqualano Vegetal",
+    "sinonimos": ["Esqualano", "Squalane", "Esqualano de origem vegetal"],
+    "descripcion": "Emoliente de toque seco e alta afinidade com os lipídeos da pele, obtido atualmente de fontes vegetais como a cana-de-açúcar ou a oliva. É uma das alternativas naturais às silicones mais demandadas, com excelente estabilidade e sensorial leve. Também é empregado como veículo oleoso em formulações tópicas farmacêuticas e veterinárias e em produtos de linha nutracêutica.",
+    "funciones": ["Emoliente", "Alternativa vegetal a silicones", "Veículo de ativos lipossolúveis"],
+    "aplicaciones": ["Séruns em óleo", "Cremes faciais", "Óleos capilares", "Bases de maquiagem", "Formulações tópicas farmacêuticas e veterinárias"],
+    "formas_referenciales": ["Líquido oleoso incolor e inodoro, conforme o fabricante e o lote"]
   },
   {
     "id": "edta-disodico",
     "nombre": "EDTA Dissódico",
     "sinonimos": ["Edetato dissódico", "Sal dissódico do ácido etilenodiaminotetracético"],
-    "descripcion": "Agente quelante de uso universal que sequestra íons metálicos presentes na água e nas matérias-primas. Protege a cor, o aroma e a estabilidade das fórmulas e melhora o desempenho dos sistemas conservantes e espumantes.",
+    "descripcion": "Agente quelante de uso universal que sequestra íons metálicos presentes na água e nas matérias-primas. Protege a cor, o aroma e a estabilidade das fórmulas, e melhora o desempenho dos sistemas conservantes e espumantes. É empregado em cosmética, saneantes, indústria e, de acordo com a regulamentação aplicável, em preparações farmacêuticas, veterinárias, nutracêuticas e alimentícias.",
     "funciones": ["Quelante", "Estabilizante de fórmula", "Potencializador de conservantes"],
-    "aplicaciones": ["Cremes e loções", "Xampus e sabonetes líquidos", "Produtos de limpeza doméstica", "Formulações industriais à base de água"],
+    "aplicaciones": ["Cremes e loções", "Xampus e sabonetes líquidos", "Produtos de limpeza doméstica", "Formulações industriais à base de água", "Preparações farmacêuticas, veterinárias e nutracêuticas"],
     "formas_referenciales": ["Sólido — pó cristalino branco, granulometria variável conforme o fabricante e o lote"]
   },
   {
     "id": "dioxido-de-titanio",
-    "nombre": "Dióxido de Titânio",
-    "sinonimos": ["Bióxido de titânio", "Branco de titânio", "CI 77891"],
-    "descripcion": "Pigmento branco de referência na indústria da cor, valorizado pelo seu poder de cobertura e pela sua capacidade opacificante. É a base dos tons de pele em bases de maquiagem e pós compactos, e é utilizado para clarear misturas de pigmentos. No mercado existem variantes tratadas e não tratadas; a qualidade específica é confirmada na ficha técnica (TDS) do lote disponível.",
+    "nombre": "Dióxido de Titânio Rutilo",
+    "sinonimos": ["Dióxido de titânio", "Branco de titânio", "CI 77891", "Dióxido de Titânio", "Rutilo"],
+    "descripcion": "Pigmento branco de referência na indústria da cor, valorizado por seu poder de cobertura e sua capacidade opacificante. A forma cristalina rutilo se associa a boa estabilidade frente às intempéries, por isso é utilizada em tintas e revestimentos, e em bases de maquiagem e pós compactos. No mercado existem variantes tratadas e não tratadas; a qualidade específica é confirmada na ficha técnica do lote disponível.",
     "funciones": ["Pigmento branco", "Opacificante", "Filtro UV inorgânico"],
-    "aplicaciones": ["Bases de maquiagem", "Pós compactos", "Batons", "Esmaltes de unhas", "Sombras para os olhos"],
+    "aplicaciones": ["Bases de maquiagem", "Pós compactos", "Batons", "Esmaltes de unhas", "Tintas e revestimentos externos"],
     "formas_referenciales": ["Sólido — pó; granulometria e tratamento superficial variáveis conforme o fabricante e o lote"]
   },
   {
@@ -415,11 +415,11 @@
   },
   {
     "id": "talco-cosmetico",
-    "nombre": "Talco Cosmético",
-    "sinonimos": ["Silicato de magnésio hidratado", "Esteatita"],
-    "descripcion": "Carga mineral clássica da cosmética de cor, apreciada pelo seu deslize, suavidade e capacidade de diluir pigmentos. Constitui a base histórica de pós soltos e compactos, blushes e sombras. É comercializado em qualidade cosmética com documentação de suporte do fabricante para cada lote.",
-    "funciones": ["Carga mineral", "Agente deslizante", "Diluente de pigmentos"],
-    "aplicaciones": ["Pós compactos", "Pós soltos", "Blushes", "Sombras para os olhos"],
+    "nombre": "Talco USP",
+    "sinonimos": ["Talco Cosmético", "Silicato de magnésio hidratado", "Esteatita"],
+    "descripcion": "Carga mineral clássica da cosmética de cor, apreciada pelo deslizamento, pela suavidade e pela capacidade de diluir pigmentos. Constitui a base histórica de pós soltos e compactos, blushes e sombras, e também é empregada como diluente e lubrificante em pós, comprimidos e cápsulas farmacêuticos e nutracêuticos. O grau aplicável é definido com a documentação de suporte do fabricante para cada lote.",
+    "funciones": ["Carga mineral", "Agente de deslizamento", "Diluente de pigmentos", "Lubrificante e antiaderente"],
+    "aplicaciones": ["Pós compactos", "Pós soltos", "Blushes", "Sombras para os olhos", "Lubrificante em comprimidos e cápsulas"],
     "formas_referenciales": ["Sólido — pó; granulometria e alvura variáveis conforme a origem, o fabricante e o lote"]
   },
   {
@@ -451,20 +451,20 @@
   },
   {
     "id": "almidon-de-arroz",
-    "nombre": "Amido de Arroz",
-    "sinonimos": ["Fécula de arroz"],
-    "descripcion": "Carga de origem vegetal com toque suave e aveludado, utilizada como alternativa natural ao talco em maquiagem em pó. Proporciona absorção de umidade e sebo, e um acabamento matte de aspecto natural. É uma opção frequente em fórmulas de posicionamento natural ou vegano.",
-    "funciones": ["Carga vegetal", "Absorvente", "Texturizante"],
-    "aplicaciones": ["Pós soltos", "Pós compactos", "Bases em pó", "Shampoos a seco"],
+    "nombre": "Pó de Arroz",
+    "sinonimos": ["Fécula de arroz", "Amido de Arroz"],
+    "descripcion": "Carga de origem vegetal com toque suave e aveludado, utilizada como alternativa natural ao talco em maquiagem em pó. Confere absorção de umidade e sebo, e um acabamento matte de aspecto natural. É uma opção frequente em fórmulas de posicionamento natural ou vegano, e também é empregada como excipiente em pós farmacêuticos e veterinários e como agente de carga em alimentos.",
+    "funciones": ["Carga vegetal", "Absorvente", "Texturizante", "Excipiente"],
+    "aplicaciones": ["Pós soltos", "Pós compactos", "Bases em pó", "Xampus a seco", "Excipiente em pós farmacêuticos e veterinários"],
     "formas_referenciales": ["Sólido — pó; granulometria variável conforme o fabricante e o lote"]
   },
   {
     "id": "estearato-de-magnesio",
     "nombre": "Estearato de Magnésio",
-    "sinonimos": ["Sal magnésico do ácido esteárico", "Octadecanoato de magnésio"],
-    "descripcion": "Aglutinante clássico dos pós compactados, que melhora a compressibilidade, a aderência e a resistência do compacto. Confere também deslize e certa repelência à água em pós e sombras. Em outras indústrias é utilizado como lubrificante de processo conforme a regulamentação aplicável.",
-    "funciones": ["Aglutinante", "Agente de aderência", "Lubrificante de compressão"],
-    "aplicaciones": ["Pós compactos", "Sombras para os olhos", "Blushes", "Bases em pó"],
+    "sinonimos": ["Sal magnésico do ácido esteárico", "Octadecanoato de magnésio", "Magnesium stearate"],
+    "descripcion": "Sal magnésico do ácido esteárico utilizado como lubrificante e antiaderente na compressão de comprimidos e cápsulas farmacêuticas e nutracêuticas. Em cosmética melhora a compressibilidade, a aderência e o deslizamento de pós compactos e sombras, com certa repelência à água. Em alimentos é empregado como antiumectante, de acordo com a regulamentação aplicável.",
+    "funciones": ["Lubrificante de compressão", "Antiaderente", "Agente de aderência"],
+    "aplicaciones": ["Comprimidos e cápsulas", "Suplementos em comprimido", "Pós compactos", "Sombras e blushes", "Alimentos em pó"],
     "formas_referenciales": ["Sólido — pó; densidade aparente variável conforme o fabricante e o lote"]
   },
   {
@@ -479,38 +479,38 @@
   {
     "id": "cera-de-candelilla",
     "nombre": "Cera de Candelila",
-    "sinonimos": ["Cera candelila"],
-    "descripcion": "Cera vegetal estruturante muito utilizada em batons, conferindo dureza, brilho e boa desmoldagem. É uma alternativa de origem vegetal à cera de abelhas em fórmulas veganas. Em alimentos é empregada como agente de revestimento conforme a regulamentação aplicável.",
-    "funciones": ["Estruturante de bastões", "Agente de brilho", "Espessante de fases oleosas"],
-    "aplicaciones": ["Batons", "Bálsamos labiais", "Delineadores em lápis", "Máscaras para cílios"],
-    "formas_referenciales": ["Sólido — escamas, pellets ou pedaços conforme o fabricante e o lote"]
+    "sinonimos": ["Cera de Candelila", "Candelilla wax"],
+    "descripcion": "Cera vegetal estruturante muito utilizada em batons, conferindo dureza, brilho e boa liberação do molde. É uma alternativa de origem vegetal à cera de abelhas em fórmulas veganas. Em alimentos e em produtos farmacêuticos, veterinários e nutracêuticos é empregada como agente de revestimento ou brilho, conforme a regulamentação aplicável.",
+    "funciones": ["Estruturante de bastões", "Agente de brilho", "Espessante de fases oleosas", "Agente de revestimento"],
+    "aplicaciones": ["Batons", "Bálsamos labiais", "Lápis delineadores", "Máscaras de cílios", "Revestimento de comprimidos, frutas e confeitaria"],
+    "formas_referenciales": ["Sólido — flocos, pellets ou pedaços, conforme o fabricante e o lote"]
   },
   {
     "id": "cera-de-carnauba",
     "nombre": "Cera de Carnaúba",
-    "sinonimos": ["Cera da palmeira carnaúba"],
-    "descripcion": "Uma das ceras vegetais de maior dureza e ponto de fusão de uso comum em cosmética. Confere rigidez, brilho e resistência ao calor em batons, delineadores em lápis e máscaras para cílios. Em alimentos é utilizada como agente de brilho conforme a regulamentação aplicável.",
-    "funciones": ["Estruturante de bastões", "Agente de brilho", "Elevador de ponto de fusão"],
-    "aplicaciones": ["Batons", "Máscaras para cílios", "Delineadores em lápis", "Ceras depilatórias"],
-    "formas_referenciales": ["Sólido — escamas ou pedaços conforme o fabricante e o lote"]
+    "sinonimos": ["Cera de palmeira brasileira", "Cera de Carnaúba", "Carnauba wax"],
+    "descripcion": "Uma das ceras vegetais de maior dureza e ponto de fusão de uso comum em cosmética. Confere rigidez, brilho e resistência ao calor em batons, lápis delineadores e máscaras de cílios. Em alimentos e em produtos farmacêuticos, veterinários e nutracêuticos é utilizada como agente de brilho e revestimento, conforme a regulamentação aplicável.",
+    "funciones": ["Estruturante de bastões", "Agente de brilho", "Elevador de ponto de fusão", "Agente de revestimento"],
+    "aplicaciones": ["Batons", "Máscaras de cílios", "Lápis delineadores", "Depilatórios em cera", "Revestimento de comprimidos e confeitaria"],
+    "formas_referenciales": ["Sólido — flocos ou pedaços, conforme o fabricante e o lote"]
   },
   {
     "id": "cera-de-abejas",
-    "nombre": "Cera de Abelhas",
-    "sinonimos": ["Cera alba", "Cera amarela de abelhas"],
-    "descripcion": "Cera natural clássica que confere plasticidade, corpo e uma textura cremosa a batons e produtos em bastão. Sua compatibilidade com uma ampla gama de óleos e emolientes a torna muito versátil em sistemas anidros. É comercializada nas qualidades amarela e branqueada conforme o fornecedor.",
-    "funciones": ["Estruturante de bastões", "Plastificante de texturas", "Espessante de fases oleosas"],
-    "aplicaciones": ["Batons", "Bálsamos labiais", "Máscaras para cílios", "Cremes para sobrancelhas"],
-    "formas_referenciales": ["Sólido — pastilhas, pérolas ou blocos conforme o fabricante e o lote"]
+    "nombre": "Cera de Abelhas Natural",
+    "sinonimos": ["Cera alba", "Cera amarela de abelhas", "Cera de Abelhas", "Beeswax"],
+    "descripcion": "Cera natural clássica que confere plasticidade, corpo e uma textura cremosa a batons e produtos em bastão. Sua compatibilidade com uma ampla gama de óleos e emolientes a torna muito versátil em sistemas anidros, e confere ainda ação formadora de filme e apoio à estabilidade de emulsões. É comercializada nas qualidades amarela e branqueada conforme o fornecedor, e em alimentos, farmácia e veterinária é empregada conforme a regulamentação aplicável.",
+    "funciones": ["Estruturante de bastões", "Plastificante de texturas", "Espessante de fases oleosas", "Formador de filme"],
+    "aplicaciones": ["Batons", "Bálsamos labiais", "Máscaras de cílios", "Cremes para sobrancelhas", "Pomadas e bases farmacêuticas ou veterinárias"],
+    "formas_referenciales": ["Sólido — pastilhas, pérolas ou blocos, conforme o fabricante e o lote"]
   },
   {
     "id": "cera-microcristalina",
     "nombre": "Cera Microcristalina",
-    "sinonimos": ["Cera micro"],
-    "descripcion": "Cera de estrutura cristalina fina que confere flexibilidade e coesão aos produtos em bastão. Está associada à redução da exsudação de óleos em batons e a uma maior resistência à fratura do bastão. Complementa as ceras duras equilibrando a textura final da fórmula.",
+    "sinonimos": ["Cera micro", "Microcrystalline wax"],
+    "descripcion": "Cera derivada do petróleo, de estrutura cristalina fina, que confere flexibilidade e coesão aos produtos em bastão. Está associada à redução da exsudação de óleos em batons e a uma maior resistência à fratura do bastão. É empregada também como base e agente de consistência em produtos farmacêuticos, veterinários e nutracêuticos, e em alimentos como agente de revestimento conforme a regulamentação aplicável.",
     "funciones": ["Estruturante flexível", "Ligante de óleos", "Modificador de textura"],
-    "aplicaciones": ["Batons", "Delineadores em lápis", "Pomadas para sobrancelhas", "Bálsamos"],
-    "formas_referenciales": ["Sólido — pellets, escamas ou placas conforme o fabricante e o lote"]
+    "aplicaciones": ["Batons", "Lápis delineadores", "Pomadas para sobrancelhas", "Bálsamos", "Bases de pomadas farmacêuticas e veterinárias"],
+    "formas_referenciales": ["Sólido — pellets, flocos ou placas, conforme o fabricante e o lote"]
   },
   {
     "id": "trimetilsiloxisilicato",

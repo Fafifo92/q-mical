@@ -37,20 +37,20 @@
   },
   {
     "id": "sulfato-de-magnesio-heptahidratado",
-    "nombre": "Sulfate de magnésium heptahydraté",
-    "sinonimos": ["Sel d'Epsom", "Epsomite"],
-    "descripcion": "Source hydrosoluble de magnésium et de soufre, éléments clés dans la synthèse de la chlorophylle et des protéines de la plante. Il s'utilise en fertirrigation, en applications foliaires et pour corriger les carences dans les sols lessivés. Sa polyvalence lui ouvre également des débouchés en cosmétique et dans d'autres usages industriels.",
-    "funciones": ["Source de magnésium", "Source de soufre"],
-    "aplicaciones": ["Fertirrigation et fertilisation foliaire", "Correction des carences en magnésium", "Solutions nutritives hydroponiques", "Sels de bain et cosmétique"],
+    "nombre": "Sulfate de magnésium",
+    "sinonimos": ["Sel d'Epsom", "Epsomite", "Sulfate de magnésium heptahydraté"],
+    "descripcion": "Source hydrosoluble de magnésium et de soufre, éléments clés dans la synthèse de la chlorophylle et des protéines de la plante. Il est utilisé en fertigation, en applications foliaires et pour la correction des carences dans les sols lessivés. Sa polyvalence lui donne également des débouchés en cosmétique, dans les sels de bain et dans d'autres usages industriels.",
+    "funciones": ["Source de magnésium", "Source de soufre", "Régulateur osmotique dans les bains"],
+    "aplicaciones": ["Fertigation et fertilisation foliaire", "Correction des carences en magnésium", "Solutions nutritives hydroponiques", "Sels de bain et cosmétique", "Bains thermaux et de spa"],
     "formas_referenciales": ["Solide cristallin, taille de cristal variable selon le fabricant et le lot"]
   },
   {
     "id": "urea-agricola",
     "nombre": "Urée",
     "sinonimos": ["Carbamide", "Diamide carbonique"],
-    "descripcion": "Source azotée largement utilisée en fertilisation des sols et en applications foliaires diluées. C'est l'un des engrais les plus utilisés au monde grâce à son rapport coût-azote. Elle trouve également des applications en nutrition animale et dans l'industrie, conformément à la réglementation applicable.",
-    "funciones": ["Source d'azote", "Matière première industrielle"],
-    "aplicaciones": ["Fertilisation au sol des grandes cultures", "Applications foliaires diluées", "Supplémentation des ruminants", "Résines et procédés industriels"],
+    "descripcion": "Source azotée d'usage très répandu en fertilisation des sols et en applications foliaires diluées. C'est l'un des engrais les plus utilisés au monde en raison de son rapport coût-azote. Elle trouve également des applications en nutrition animale, dans l'industrie et, en cosmétique, comme humectant dans les crèmes pour peau sèche, conformément à la réglementation applicable.",
+    "funciones": ["Source d'azote", "Matière première industrielle", "Humectant"],
+    "aplicaciones": ["Fertilisation des sols en grandes cultures", "Applications foliaires diluées", "Supplémentation des ruminants", "Résines et procédés industriels", "Crèmes hydratantes pour peau sèche"],
     "formas_referenciales": ["Solide — perles (prills) ou granulé, selon le fabricant et le lot"]
   },
   {
@@ -83,11 +83,11 @@
   {
     "id": "sulfato-de-zinc",
     "nombre": "Sulfate de zinc",
-    "sinonimos": ["Couperose blanche", "Vitriol blanc"],
-    "descripcion": "Source hydrosoluble de zinc, micronutriment associé à l'élongation des entre-nœuds, au développement des jeunes feuilles et à la formation du fruit. Il s'utilise en applications foliaires, en fertirrigation et dans les mélanges de micronutriments. Il trouve également des débouchés dans les prémélanges pour la nutrition animale, conformément à la réglementation applicable.",
-    "funciones": ["Source de zinc", "Composant de mélanges de micronutriments"],
-    "aplicaciones": ["Fertilisation foliaire", "Fertirrigation et mélanges de micronutriments", "Prémélanges minéraux pour la nutrition animale"],
-    "formas_referenciales": ["Solide cristallin ou poudre, selon l'hydratation, le fabricant et le lot"]
+    "sinonimos": ["Sulfate zincique", "Vitriol blanc"],
+    "descripcion": "Source hydrosoluble de zinc, micronutriment associé à l'élongation des entre-nœuds, au développement des jeunes feuilles et à la formation du fruit. Il est utilisé en applications foliaires, en fertigation et dans les mélanges de micronutriments. Il trouve aussi des débouchés dans les prémélanges pour la nutrition animale, dans l'hygiène personnelle comme astringent et comme source de zinc dans les aliments, conformément à la réglementation applicable.",
+    "funciones": ["Source de zinc", "Composant de mélanges de micronutriments", "Astringent"],
+    "aplicaciones": ["Fertilisation foliaire", "Fertigation et mélanges de micronutriments", "Prémélanges minéraux pour la nutrition animale", "Formulations d'hygiène personnelle et d'entretien", "Enrichissement minéral des aliments, selon la réglementation"],
+    "formas_referenciales": ["Solide cristallin ou poudre, selon le fabricant et le lot"]
   },
   {
     "id": "acido-borico",
@@ -172,21 +172,12 @@
   },
   {
     "id": "acido-fosforico",
-    "nombre": "Acide phosphorique",
-    "sinonimos": ["Acide orthophosphorique"],
-    "descripcion": "Acide inorganique à double usage en agriculture : source de phosphore en fertirrigation et correcteur de pH des eaux d'irrigation à forte alcalinité. Il aide à prévenir le colmatage des goutteurs par les précipités de carbonates. Dans l'alimentaire et l'industrie, il s'emploie conformément à la réglementation applicable.",
-    "funciones": ["Correcteur de pH des eaux d'irrigation", "Source de phosphore", "Nettoyant des systèmes d'irrigation"],
-    "aplicaciones": ["Acidification des eaux de fertirrigation", "Nettoyage des lignes de goutte-à-goutte", "Fertilisation phosphatée par irrigation", "Acidulant dans l'industrie conformément à la réglementation"],
-    "formas_referenciales": ["Liquide — solution aqueuse, concentration selon la présentation du fabricant"]
-  },
-  {
-    "id": "acido-citrico-agricola",
-    "nombre": "Acide citrique",
-    "sinonimos": ["Acide 2-hydroxypropane-1,2,3-tricarboxylique"],
-    "descripcion": "Acide organique d'origine biotechnologique utilisé en agriculture comme correcteur de pH et de dureté de l'eau de pulvérisation, prévenant l'hydrolyse alcaline des intrants dans la cuve. Sa capacité chélatante aide à maintenir disponibles les cations de la bouillie. Large usage transversal dans l'alimentaire, l'entretien et la cosmétique, conformément à la réglementation applicable.",
-    "funciones": ["Correcteur de pH de la bouillie de pulvérisation", "Séquestrant de la dureté de l'eau", "Acidulant polyvalent"],
-    "aplicaciones": ["Conditionnement des eaux de pulvérisation", "Mélanges en cuve avec eaux dures", "Acidulant dans l'alimentaire et l'entretien conformément à la réglementation"],
-    "formas_referenciales": ["Solide cristallin — anhydre ou monohydraté, selon le fabricant et le lot"]
+    "nombre": "Acide phosphorique à 85 %",
+    "sinonimos": ["Acide orthophosphorique", "Acide phosphorique"],
+    "descripcion": "Acide inorganique à double usage en agriculture : source de phosphore en fertigation et correcteur de pH des eaux d'irrigation à forte alcalinité. Il contribue à prévenir l'obstruction des goutteurs par les précipités de carbonates. En entretien et dans l'industrie, il est employé comme détartrant et pour la phosphatation des métaux, ainsi qu'en médecine vétérinaire conformément à la réglementation applicable.",
+    "funciones": ["Correcteur de pH des eaux d'irrigation", "Source de phosphore", "Nettoyant de systèmes d'irrigation", "Détartrant"],
+    "aplicaciones": ["Acidification des eaux de fertigation", "Nettoyage des lignes de goutte-à-goutte", "Fertilisation phosphatée par irrigation", "Détartrage et nettoyage acide", "Phosphatation de surfaces métalliques"],
+    "formas_referenciales": ["Liquide — solution aqueuse, selon le fabricant et le lot"]
   },
   {
     "id": "lignosulfonato-de-sodio",
@@ -218,10 +209,10 @@
   {
     "id": "sulfato-de-amonio",
     "nombre": "Sulfate d'ammonium",
-    "sinonimos": ["Sulfate d'ammoniaque", "Sulfate ammonique"],
-    "descripcion": "Engrais azoté avec apport simultané de soufre, à réaction acide dans le sol, utile dans les sols alcalins et pour les cultures exigeantes en soufre. Dans les mélanges en cuve, il s'emploie comme conditionneur des eaux dures en séquestrant les cations antagonistes. Intrant largement utilisé en grandes cultures.",
-    "funciones": ["Source d'azote ammoniacal", "Source de soufre", "Conditionneur d'eaux dures"],
-    "aplicaciones": ["Fertilisation au sol en sols alcalins", "Conditionnement de la bouillie de pulvérisation", "Mélanges physiques d'engrais"],
-    "formas_referenciales": ["Solide — cristaux ou granulé, selon le fabricant et le lot"]
+    "sinonimos": ["SAM", "Sulfate ammonique"],
+    "descripcion": "Engrais azoté avec apport simultané de soufre, de réaction acide dans le sol, utile dans les sols alcalins et pour les cultures exigeantes en soufre. Dans les mélanges de cuve, il est employé comme conditionneur d'eaux dures en séquestrant les cations antagonistes. Il est également utilisé comme sel pour la précipitation des protéines et comme source d'azote dans les milieux de fermentation avec des levures.",
+    "funciones": ["Source d'azote ammoniacal", "Source de soufre", "Conditionneur d'eaux dures", "Sel pour la précipitation des protéines"],
+    "aplicaciones": ["Fertilisation du sol en sols alcalins", "Conditionnement de la bouillie de pulvérisation", "Mélanges physiques d'engrais", "Précipitation des protéines en bioprocédés", "Nutriment pour la fermentation avec des levures"],
+    "formas_referenciales": ["Solide — cristaux ou granulés, selon le fabricant et le lot"]
   }
 ]

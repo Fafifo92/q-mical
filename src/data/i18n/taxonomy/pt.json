@@ -67,6 +67,11 @@
       "corto": "Cosmética",
       "tagline": "Ativos, emolientes, tensoativos, corantes e conservantes para skincare, capilar e maquiagem."
     },
+    "farmaceutica": {
+      "nombre": "Farmacêutica",
+      "corto": "Farma",
+      "tagline": "Excipientes, veículos, sais minerais e matérias-primas para formulações farmacêuticas."
+    },
     "nutraceutica": {
       "nombre": "Nutracêutica & Suplementos",
       "corto": "Nutracêutica",

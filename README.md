@@ -1,8 +1,8 @@
 # Origen Chemical — Distribución de materias primas
 
 Sitio web B2B para **Origen Chemical S.A.S.**, distribuidor de materias primas
-para la industria en Colombia: cosmética, nutracéutica, alimentos, agro,
-veterinaria, extractos, industrial y aseo. Construido con **Astro 5 +
+para la industria en Colombia: cosmética, farmacéutica, nutracéutica, alimentos,
+agro, veterinaria, extractos, industrial y aseo. Construido con **Astro 5 +
 Tailwind CSS 4**, 100 % estático.
 
 La identidad visual sigue el **Manual de Marca Origen Chemical v1.0** (sep. 2026):
@@ -36,7 +36,7 @@ npm run dev        # http://localhost:4321
 
 | Página | Qué tiene |
 |---|---|
-| Inicio | Noticias rotativas, cifras, las 8 industrias (con foto) y las 12 líneas de producto |
+| Inicio | Noticias rotativas, cifras, las 9 industrias (con foto) y las 12 líneas de producto |
 | Portafolio (`/productos`) | Héroe con buscador + listado con filtros por **industria** y **línea de producto** |
 | Nosotros | Misión, visión, valores, principios, cobertura y «Nuestras líneas de producto» |
 | Contáctanos (`/contacto`) | Formulario (abre WhatsApp o correo), mapa y preguntas frecuentes |
@@ -49,8 +49,8 @@ Toda materia prima se clasifica por **dos ejes** (`src/data/taxonomy.ts`):
 - **Línea de producto** (función en la fórmula): Ingrediente activo, Tensioactivo,
   Modificador reológico, Emoliente, Hidratante, Agente preservante, Base lista para
   formulación, Colorante, Fragancia, Saborizante, Extractos y Aceites.
-- **Industria**: Cosmética, Nutracéutica, Alimentos, Agro, Veterinaria, Extractos,
-  Industrial y Aseo.
+- **Industria**: Cosmética, Farmacéutica, Nutracéutica, Alimentos, Agro, Veterinaria,
+  Extractos, Industrial y Aseo.
 
 ## 📦 Administrar el portafolio
 
@@ -74,8 +74,8 @@ en su lugar (nunca una imagen rota).
 | Tarjetas de industria (Inicio) | `public/img/industrias/<slug>.jpg` (ej. `cosmetica.jpg`, `nutraceutica.jpg`) | 1200×750 px, < 250 KB |
 | Noticias rotativas | la ruta de `imagen` de cada noticia (ej. `public/img/noticias/apg.jpg`) | 2000×1000 px, < 400 KB |
 
-Los slugs de industria son: `cosmetica`, `nutraceutica`, `alimentos`, `agro`,
-`veterinaria`, `extractos`, `industrial`, `aseo`.
+Los slugs de industria son: `cosmetica`, `farmaceutica`, `nutraceutica`, `alimentos`,
+`agro`, `veterinaria`, `extractos`, `industrial`, `aseo`.
 
 ## 🌐 Idiomas
 
@@ -113,7 +113,7 @@ src/
 ├── data/
 │   ├── site.ts          ← Config del negocio (WhatsApp, PSE, contacto, mapa)
 │   ├── taxonomy.ts      ← Líneas de producto e industrias
-│   ├── products/*.json  ← EL PORTAFOLIO en español (un JSON por industria principal)
+│   ├── products/*.json  ← EL PORTAFOLIO en español (matriz-2026.json = productos de la matriz de sep. 2026)
 │   └── i18n/            ← Traducciones del portafolio y la taxonomía
 ├── i18n/
 │   ├── config.ts        ← Idiomas activos y rutas localizadas
@@ -129,6 +129,7 @@ src/
 ├── pages/               ← Rutas: raíz = español · [lang]/ = los otros 6
 └── styles/global.css    ← Sistema de diseño (colores del manual, animaciones)
 public/_redirects        ← Redirige las páginas retiradas (Sectores, Servicio técnico) en Netlify
+docs/matriz/             ← Matriz de productos entregada por la empresa (sep. 2026) y su revisión
 docs/research/           ← Investigación de la industria usada para el contenido
 ```
 

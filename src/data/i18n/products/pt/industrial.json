@@ -12,10 +12,10 @@
     "id": "sulfato-de-aluminio",
     "nombre": "Sulfato de Alumínio",
     "sinonimos": ["Sulfato alumínico", "Alúmen industrial"],
-    "descripcion": "Coagulante inorgânico tradicional para a clarificação de águas e efluentes. Promove a aglomeração de partículas em suspensão e coloides para posterior sedimentação ou filtração. É uma das matérias-primas de maior giro em estações de tratamento por sua relação custo-desempenho.",
-    "funciones": ["Coagulante", "Clarificante", "Ajuste de alcalinidade"],
-    "aplicaciones": ["Potabilização de água", "Tratamento de efluentes industriais", "Colagem na indústria de papel", "Clarificação de piscinas"],
-    "formas_referenciales": ["Sólido — granulado, torrões ou pó, conforme o fabricante e o lote", "Líquido — solução aquosa, conforme a disponibilidade do lote"]
+    "descripcion": "Coagulante inorgânico tradicional para a clarificação de águas e efluentes. Promove a aglomeração de partículas suspensas e coloides para sua posterior sedimentação ou filtração. É empregado ainda como mordente de fixação em têxtil e em curtimento, e em outras aplicações de cosmética, saneantes e veterinária conforme a formulação e a regulamentação aplicável.",
+    "funciones": ["Coagulante", "Clarificante", "Mordente de fixação", "Ajuste de alcalinidade"],
+    "aplicaciones": ["Potabilização de água", "Tratamento de efluentes industriais", "Colagem na indústria de papel", "Clarificação de piscinas", "Curtimento de peles e mordente têxtil"],
+    "formas_referenciales": ["Sólido — granulado, pedras ou pó, conforme o fabricante e o lote", "Líquido — solução aquosa, conforme o fabricante e o lote"]
   },
   {
     "id": "poliacrilamida-anionica",
@@ -83,10 +83,10 @@
   {
     "id": "hidroxietilcelulosa",
     "nombre": "Hidroxietilcelulose",
-    "sinonimos": ["HEC", "Celulose hidroxietílica"],
-    "descripcion": "Espessante celulósico não iônico solúvel em água, padrão em tintas imobiliárias base água para o controle de viscosidade, a retenção de água e a estabilidade no armazenamento. Proporciona bom nivelamento e resistência a respingos durante a aplicação. Também é utilizado como modificador reológico em géis e produtos de cuidados pessoais.",
+    "sinonimos": ["HEC", "Celulose hidroxietílica", "Hidroxietilcelulose"],
+    "descripcion": "Espessante celulósico não iônico solúvel em água, padrão em tintas arquitetônicas à base de água para o controle de viscosidade, a retenção de água e a estabilidade no armazenamento. Confere boa nivelação e resistência ao respingamento durante a aplicação. Também é utilizado como modificador reológico em géis de limpeza, produtos de cuidado pessoal e produtos veterinários de uso tópico.",
     "funciones": ["Espessante", "Modificador reológico", "Retentor de água", "Estabilizante"],
-    "aplicaciones": ["Tintas e revestimentos base água", "Adesivos e argamassas modificadas", "Géis e xampus", "Fluidos de perfuração"],
+    "aplicaciones": ["Tintas e revestimentos à base de água", "Adesivos e argamassas modificados", "Géis de limpeza e xampus", "Fluidos de perfuração", "Produtos tópicos veterinários"],
     "formas_referenciales": ["Sólido — pó, granulometria variável conforme o fabricante e o lote"]
   },
   {
@@ -155,19 +155,19 @@
   {
     "id": "monoetilenglicol",
     "nombre": "Monoetilenoglicol",
-    "sinonimos": ["MEG", "Etilenoglicol"],
-    "descripcion": "Glicol de uso industrial empregado como base de fluidos refrigerantes e anticongelantes e como intermediário na fabricação de resinas poliéster. Em tintas base água, atua como auxiliar de estabilidade frente a ciclos de congelamento e descongelamento. Não é adequado para aplicações em contato com alimentos nem para cuidados pessoais.",
+    "sinonimos": ["MEG", "Etilenoglicol", "Ethylene glycol"],
+    "descripcion": "Glicol de uso industrial empregado como base de fluidos refrigerantes e anticongelantes, e como intermediário na fabricação de resinas poliéster. Em tintas à base de água atua como auxiliar de estabilidade frente a ciclos de congelamento e descongelamento. Não é apto para contato com alimentos; seu uso em limpeza ou cuidado pessoal deve ser avaliado e verificado conforme a regulamentação aplicável.",
     "funciones": ["Base de refrigerantes", "Intermediário de síntese", "Estabilizante gelo-degelo"],
-    "aplicaciones": ["Fluidos refrigerantes e anticongelantes", "Resinas poliéster e fibras", "Tintas base água", "Fluidos de transferência de calor"],
+    "aplicaciones": ["Fluidos refrigerantes e anticongelantes", "Resinas poliéster e fibras", "Tintas à base de água", "Fluidos de transferência de calor", "Formulações de limpeza de uso industrial"],
     "formas_referenciales": ["Líquido — conforme o fabricante e o lote"]
   },
   {
     "id": "propilenglicol",
-    "nombre": "Propilenoglicol",
-    "sinonimos": ["MPG", "1,2-Propanodiol"],
-    "descripcion": "Glicol versátil utilizado como solvente, umectante e veículo em múltiplas indústrias. No segmento industrial, serve como base de fluidos térmicos de baixa toxicidade e como intermediário em resinas; os grades aptos para alimentos e cuidados pessoais são destinados conforme a regulamentação aplicável. Seu perfil de segurança o torna preferido frente a outros glicóis em aplicações sensíveis.",
+    "nombre": "Propilenoglicol USP",
+    "sinonimos": ["Propilenoglicol", "MPG", "1,2-Propanodiol"],
+    "descripcion": "Glicol versátil utilizado como solvente, umectante e veículo em múltiplas indústrias. No segmento industrial serve como base de fluidos térmicos de baixa toxicidade e como intermediário em resinas; os graus aptos para alimentos, cuidado pessoal, farmácia e nutracêuticos são destinados conforme a regulamentação aplicável. Seu perfil de segurança o torna preferido frente a outros glicóis em aplicações sensíveis.",
     "funciones": ["Umectante", "Solvente", "Veículo de formulação", "Fluido térmico"],
-    "aplicaciones": ["Fluidos de transferência de calor", "Formulações cosméticas e de higiene", "Veículo em pré-misturas veterinárias", "Resinas poliéster insaturadas"],
+    "aplicaciones": ["Fluidos de transferência de calor", "Formulações cosméticas e de limpeza", "Veículo em premisturas veterinárias", "Resinas poliéster insaturadas", "Veículo em formulações farmacêuticas e nutracêuticas"],
     "formas_referenciales": ["Líquido — conforme o fabricante e o lote"]
   },
   {
@@ -183,9 +183,9 @@
     "id": "butilglicol",
     "nombre": "Butilglicol",
     "sinonimos": ["2-Butoxietanol", "Éter monobutílico do etilenoglicol", "EB"],
-    "descripcion": "Éter glicólico com excelente poder de acoplamento entre água e solventes orgânicos. É um componente clássico de desengraxantes e limpadores multiuso concentrados, e atua como solvente de cauda em tintas base água, melhorando a formação de película. Sua dupla afinidade o torna muito eficiente em formulações de limpeza industrial.",
-    "funciones": ["Solvente acoplador", "Desengraxante", "Auxiliar de formação de película"],
-    "aplicaciones": ["Limpadores e desengraxantes industriais", "Tintas e revestimentos base água", "Tintas de impressão", "Removedores de sujeira pesada"],
+    "descripcion": "Éter glicólico com bom poder de acoplamento entre água e solventes orgânicos, empregado como solvente e agente de acoplamento em formulações aquosas. É um componente clássico de desengordurantes e limpadores multiuso, e atua como solvente de coalescência em revestimentos à base de água. Seu uso em cosmética e veterinária está sujeito a restrições, razão pela qual se verifica a regulamentação aplicável.",
+    "funciones": ["Solvente acoplador", "Desengordurante", "Solvente de formulação"],
+    "aplicaciones": ["Limpadores e desengordurantes multiuso", "Limpa-vidros e limpadores de superfícies duras", "Removedores de sujeira pesada", "Solvente em formulações cosméticas e veterinárias, conforme regulamentação"],
     "formas_referenciales": ["Líquido — conforme o fabricante e o lote"]
   },
   {
@@ -208,11 +208,11 @@
   },
   {
     "id": "antiespumante-de-silicona",
-    "nombre": "Antiespumante de Silicone",
-    "sinonimos": ["Desespumante de silicone", "Emulsão antiespumante de silicone"],
-    "descripcion": "Formulação à base de polidimetilsiloxano e sílica hidrofóbica para o controle de espuma em processos aquosos. Atua em dosagens baixas, quebrando a espuma existente e prevenindo sua reformação, com boa persistência em sistemas de agitação intensa. A compatibilidade com a temperatura e o pH do processo é verificada em cada aplicação.",
-    "funciones": ["Antiespumante", "Desaerante", "Controlador de espuma no processo"],
-    "aplicaciones": ["Estações de tratamento de águas", "Processos de fermentação industrial", "Tingimento e lavagem têxtil", "Fabricação de detergentes e tintas"],
+    "nombre": "Silicone Antiespumante",
+    "sinonimos": ["Antiespumante de silicone", "Desespumante siliconado", "Emulsão antiespumante de silicone"],
+    "descripcion": "Formulação à base de polidimetilsiloxano e sílica hidrofóbica para o controle de espuma em processos aquosos. Atua em doses baixas rompendo a espuma existente e prevenindo sua reformação, com boa persistência em sistemas de agitação intensa. A compatibilidade com a temperatura e o pH, e o grau adequado para processos cosméticos, farmacêuticos ou veterinários, são verificados em cada aplicação.",
+    "funciones": ["Antiespumante", "Desaerante", "Controlador de espuma em processo"],
+    "aplicaciones": ["Estações de tratamento de águas", "Processos de fermentação industrial", "Tingimento e lavagem têxtil", "Fabricação de detergentes e tintas", "Controle de espuma na produção de cosméticos e farmacêuticos"],
     "formas_referenciales": ["Líquido — emulsão ou composto, conforme o fabricante e o lote"]
   },
   {

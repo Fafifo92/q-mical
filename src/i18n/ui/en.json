@@ -1,7 +1,7 @@
 {
   "meta": {
     "slogan": "Raw materials, backed by technical judgment",
-    "descripcion": "Origen Chemical distributes raw materials for cosmetics, nutraceuticals, food, cleaning, agriculture, veterinary and industry in Colombia, with personalized technical advice and flexible volumes for every formulation.",
+    "descripcion": "Origen Chemical distributes raw materials for cosmetics, nutraceuticals, pharmaceuticals, food, cleaning, agriculture, veterinary and industry in Colombia, with personalized technical advice and flexible volumes for every formulation.",
     "waBase": "Hello, Origen Chemical 👋 I'd like information about your raw materials."
   },
   "nav": {
@@ -79,8 +79,8 @@
       },
       {
         "etiqueta": "Buy the volume you need",
-        "titulo": "Raw materials from 1 kg",
-        "texto": "For selected products we sell from 1 kg, with the batch's technical data sheet, safety data sheet and certificate of analysis.",
+        "titulo": "Raw materials in small volumes",
+        "texto": "For selected items, we sell materials in small quantities (1–5 kg) so you aren't left with excess inventory.",
         "boton": "See the FAQs",
         "enlace": "/contacto#preguntas-frecuentes",
         "imagen": "/img/noticias/desde-1kg.jpg",
@@ -101,7 +101,7 @@
     "statIndustrias": "industries served",
     "statMinimo": "minimum order on selected products",
     "industriasEyebrow": "Industries",
-    "industriasTitulo": "One portfolio, eight industries",
+    "industriasTitulo": "One portfolio, nine industries",
     "industriasTexto": "Browse by industry or combine product line filters to land exactly on the raw material your formulation needs.",
     "lineasEyebrow": "Product lines",
     "lineasTitulo": "Start with a product line",
@@ -143,11 +143,11 @@
   },
   "portafolio": {
     "tituloMeta": "Raw materials portfolio",
-    "descripcionMeta": "Explore more than 200 raw materials for cosmetics, nutraceuticals, food, cleaning, agriculture, veterinary and industry. Filter by industry and product line.",
+    "descripcionMeta": "Explore more than 400 raw materials for cosmetics, nutraceuticals, pharmaceuticals, food, cleaning, agriculture, veterinary and industry. Filter by industry and product line.",
     "heroEyebrow": "Portfolio · B2B raw material distribution · Colombia",
     "heroTitulo1": "The right raw material,",
     "heroTitulo2": "with the technical data sheet in hand.",
-    "heroTexto": "Chemical ingredients and specialties for cosmetics, nutraceuticals, food, cleaning, agriculture, veterinary and industry. Batch documentation, samples and technical advice — all handled over WhatsApp.",
+    "heroTexto": "Chemical ingredients and specialties for cosmetics, nutraceuticals, pharmaceuticals, food, cleaning, agriculture, veterinary and industry. Batch documentation, samples and technical advice — all handled over WhatsApp.",
     "heroBuscarPlaceholder": "Search by name or INCI: glycerin, niacinamide, xanthan gum…",
     "buscarAria": "Search raw materials",
     "buscarBoton": "Search",
@@ -345,10 +345,10 @@
     "principiosTitulo": "Four rules we don't negotiate",
     "principiosTexto": "They're the reason a client who buys from us once tends to stay.",
     "principios": [
-      { "titulo": "Tell the truth about the batch", "texto": "Physical form and specifications vary between manufacturers and batches. Our policy is to describe reference presentations and always confirm the actual technical data sheet before selling. We'd rather lose a sale than earn a complaint." },
+      { "titulo": "Always check the specifications", "texto": "Request the technical documentation for your raw materials from our sales team to verify that their specifications match your formulation requirements.." },
       { "titulo": "Advisors, not order takers", "texto": "Whoever answers your WhatsApp knows the difference between an anionic and an amphoteric surfactant. If we don't know something, we check with the manufacturer — we don't improvise." },
       { "titulo": "Speed with traceability", "texto": "We quote fast because production doesn't wait, but every shipment leaves with its full documentation. Speed without paperwork isn't service, it's risk." },
-      { "titulo": "Ingredients with an origin", "texto": "We work with international manufacturers and we also champion ingredients from Colombia and LATAM — cacao, sacha inchi, cupuazú — because the region's biodiversity is world-class raw material." }
+      { "titulo": "Ingredients with an origin", "texto": "We work with international manufacturers and we also champion ingredients from Colombia and LATAM because the region's biodiversity is world-class raw material." }
     ],
     "distribuimosTitulo": "What we distribute",
     "entregamosTitulo": "Where we deliver",
@@ -396,8 +396,8 @@
     "pie": "B2B raw material distribution · Colombia",
     "lineaEtiqueta": "Product line",
     "tarjetas": [
-      { "archivo": "general", "etiqueta": "Raw materials", "titulo": "The right raw material, with the technical data sheet in hand.", "bajada": "227 items · Technical advice · Batch documentation" },
-      { "archivo": "productos", "etiqueta": "Portfolio", "titulo": "227 raw materials for your industry", "bajada": "12 product lines · 8 industries · Get a quote on WhatsApp" },
+      { "archivo": "general", "etiqueta": "Raw materials", "titulo": "The right raw material, with the technical data sheet in hand.", "bajada": "{productos} items · Technical advice · Batch documentation" },
+      { "archivo": "productos", "etiqueta": "Portfolio", "titulo": "{productos} raw materials for your industry", "bajada": "{lineas} product lines · {industrias} industries · Get a quote on WhatsApp" },
       { "archivo": "cotizacion", "etiqueta": "Quote request", "titulo": "Quote the way this industry quotes", "bajada": "Product, quantity and presentation — reply via WhatsApp." },
       { "archivo": "contacto", "etiqueta": "Contact us", "titulo": "Let's talk about your next formulation", "bajada": "Cra. 68I # 36-21 Sur, Bogotá · Technical advice on WhatsApp" },
       { "archivo": "nosotros", "etiqueta": "About us", "titulo": "The origin of every great product lies in its ingredients", "bajada": "Innovative raw materials and relationships built on trust." },

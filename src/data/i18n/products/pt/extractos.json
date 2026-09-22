@@ -183,19 +183,19 @@
     "id": "manteca-karite",
     "nombre": "Manteiga de Karité",
     "sinonimos": ["Shea butter", "Manteiga de shea"],
-    "descripcion": "Manteiga vegetal obtida da noz da árvore de karité, referência mundial como emoliente nutritivo em cosmética. Confere corpo e sensação protetora em cremes, manteigas corporais e batons. Disponível nas qualidades refinada e não refinada, com características que se confirmam na ficha técnica (TDS) do lote.",
+    "descripcion": "Manteiga vegetal obtida da noz da árvore de karité, referência mundial como emoliente nutritivo em cosmética. Confere corpo e sensação protetora em cremes, manteigas corporais e batons, e também é empregada em gorduras alimentícias, suplementos e produtos veterinários, conforme a regulamentação aplicável. Disponível nas qualidades refinada e não refinada, com características que se confirmam na ficha técnica do lote.",
     "funciones": ["Emoliente nutritivo", "Agente de consistência"],
-    "aplicaciones": ["Manteigas corporais", "Batons e bálsamos", "Cremes para mãos e pés", "Tratamentos capilares"],
-    "formas_referenciales": ["Sólido — manteiga de textura e tom marfim a amarelado variáveis conforme o refino, a origem e o lote"]
+    "aplicaciones": ["Manteigas corporais", "Batons e bálsamos", "Cremes para mãos e pés", "Tratamentos capilares", "Gorduras alimentícias e formulações veterinárias conforme a regulamentação"],
+    "formas_referenciales": ["Sólido — manteiga de textura e tom marfim a amarelado, conforme o fabricante e o lote (varia com o refino e a origem)"]
   },
   {
     "id": "manteca-cacao",
     "nombre": "Manteiga de Cacau",
     "sinonimos": ["Óleo de theobroma", "Cocoa butter"],
-    "descripcion": "Manteiga vegetal obtida das sementes do cacau, um dos cultivos emblemáticos da Colômbia. Confere consistência, brilho e uma sensação protetora em batons, manteigas corporais e saboaria, além de seu uso alimentício conforme a regulamentação aplicável. Seu aroma característico e sua origem local a tornam protagonista das linhas naturais.",
+    "descripcion": "Manteiga vegetal obtida das sementes do cacau, uma das culturas emblemáticas da Colômbia. Confere consistência, brilho e sensação protetora em batons, manteigas corporais e saboaria; também é empregada como base gordurosa em chocolataria, formas farmacêuticas e veterinárias sólidas ou semissólidas e suplementos, conforme a regulamentação aplicável. Seu aroma característico e sua origem local a tornam protagonista das linhas naturais.",
     "funciones": ["Emoliente", "Agente de consistência", "Base para batons"],
-    "aplicaciones": ["Batons e bálsamos", "Manteigas e cremes corporais", "Saboaria", "Chocolataria e alimentos conforme a regulamentação"],
-    "formas_referenciales": ["Sólido — blocos, pedaços ou pastilhas conforme o fabricante e o lote; funde à temperatura corporal"]
+    "aplicaciones": ["Batons e bálsamos", "Manteigas e cremes corporais", "Saboaria", "Chocolataria e alimentos conforme a regulamentação", "Excipiente em formas farmacêuticas e veterinárias"],
+    "formas_referenciales": ["Sólido — blocos, pedaços ou pastilhas conforme o fabricante e o lote; derrete à temperatura corporal"]
   },
   {
     "id": "manteca-mango",

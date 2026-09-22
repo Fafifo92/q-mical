@@ -37,21 +37,21 @@
   },
   {
     "id": "sulfato-de-magnesio-heptahidratado",
-    "nombre": "Magnesium Sulfate Heptahydrate",
-    "sinonimos": ["Epsom salt", "Epsomite"],
-    "descripcion": "Water-soluble source of magnesium and sulfur, key elements in the plant's synthesis of chlorophyll and proteins. It is used in fertigation, foliar applications and the correction of deficiencies in leached soils. Its versatility also gives it outlets in cosmetics and other industrial uses.",
-    "funciones": ["Magnesium source", "Sulfur source"],
-    "aplicaciones": ["Fertigation and foliar fertilization", "Correction of magnesium deficiencies", "Hydroponic nutrient solutions", "Bath salts and cosmetics"],
+    "nombre": "Magnesium Sulfate",
+    "sinonimos": ["Epsom salt", "Epsomite", "Magnesium sulfate heptahydrate"],
+    "descripcion": "Water-soluble source of magnesium and sulfur, key elements in the synthesis of chlorophyll and plant proteins. It is used in fertigation, foliar applications and the correction of deficiencies in leached soils. Its versatility also gives it a market in cosmetics, bath salts and other industrial uses.",
+    "funciones": ["Magnesium source", "Sulfur source", "Osmotic regulator in baths"],
+    "aplicaciones": ["Fertigation and foliar fertilization", "Correction of magnesium deficiencies", "Hydroponic nutrient solutions", "Bath salts and cosmetics", "Thermal and spa baths"],
     "formas_referenciales": ["Crystalline solid, crystal size varies depending on the manufacturer and batch"]
   },
   {
     "id": "urea-agricola",
     "nombre": "Urea",
-    "sinonimos": ["Carbamide", "Carbonyl diamide"],
-    "descripcion": "Nitrogen source in widespread use for soil fertilization and diluted foliar applications. It is one of the most widely used fertilizers in the world thanks to its cost-to-nitrogen ratio. It also has applications in animal nutrition and industry, in accordance with applicable regulations.",
-    "funciones": ["Nitrogen source", "Industrial raw material"],
-    "aplicaciones": ["Soil fertilization of extensive crops", "Diluted foliar applications", "Ruminant supplementation", "Resins and industrial processes"],
-    "formas_referenciales": ["Solid — prills or granules, depending on the manufacturer and batch"]
+    "sinonimos": ["Carbamide", "Carbonic diamide"],
+    "descripcion": "Widely used nitrogen source in soil fertilization and diluted foliar applications. It is one of the most widely used fertilizers in the world because of its cost-to-nitrogen ratio. It also has applications in animal nutrition, in industry and, in cosmetics, as a humectant in creams for dry skin, in accordance with applicable regulations.",
+    "funciones": ["Nitrogen source", "Industrial raw material", "Humectant"],
+    "aplicaciones": ["Soil fertilization of field crops", "Diluted foliar applications", "Ruminant supplementation", "Resins and industrial processes", "Moisturizing creams for dry skin"],
+    "formas_referenciales": ["Solid — prills or granulated, depending on the manufacturer and batch"]
   },
   {
     "id": "sulfato-de-potasio",
@@ -83,11 +83,11 @@
   {
     "id": "sulfato-de-zinc",
     "nombre": "Zinc Sulfate",
-    "sinonimos": ["White vitriol", "Zinc vitriol"],
-    "descripcion": "Water-soluble source of zinc, a micronutrient associated with internode elongation, the development of new leaves and fruit formation. It is used in foliar applications, fertigation and micronutrient blends. It also has outlets in premixes for animal nutrition in accordance with applicable regulations.",
-    "funciones": ["Zinc source", "Component of micronutrient blends"],
-    "aplicaciones": ["Foliar fertilization", "Fertigation and micronutrient blends", "Mineral premixes for animal nutrition"],
-    "formas_referenciales": ["Crystalline solid or powder, depending on hydration, the manufacturer and batch"]
+    "sinonimos": ["Zinc sulphate", "White vitriol"],
+    "descripcion": "Water-soluble source of zinc, a micronutrient associated with internode elongation, new leaf development and fruit formation. It is used in foliar applications, fertigation and micronutrient mixes. It also has a market in premixes for animal nutrition, in personal hygiene as an astringent and as a source of zinc in foods, in line with applicable regulations.",
+    "funciones": ["Zinc source", "Component of micronutrient mixes", "Astringent"],
+    "aplicaciones": ["Foliar fertilization", "Fertigation and micronutrient mixes", "Mineral premixes for animal nutrition", "Personal hygiene and cleaning formulations", "Mineral fortification of foods, according to regulations"],
+    "formas_referenciales": ["Crystalline solid or powder, depending on the manufacturer and batch"]
   },
   {
     "id": "acido-borico",
@@ -172,21 +172,12 @@
   },
   {
     "id": "acido-fosforico",
-    "nombre": "Phosphoric Acid",
-    "sinonimos": ["Orthophosphoric acid"],
-    "descripcion": "Inorganic acid with dual use in agriculture: a phosphorus source in fertigation and a pH corrector for irrigation water with high alkalinity. It helps prevent dripper clogging caused by carbonate precipitates. In food and industry it is used in accordance with applicable regulations.",
-    "funciones": ["Irrigation water pH corrector", "Phosphorus source", "Irrigation system cleaner"],
-    "aplicaciones": ["Acidification of fertigation water", "Cleaning of drip lines", "Phosphate fertilization through irrigation", "Acidulant in industry in accordance with regulations"],
-    "formas_referenciales": ["Liquid — aqueous solution, concentration depending on the manufacturer's presentation"]
-  },
-  {
-    "id": "acido-citrico-agricola",
-    "nombre": "Citric Acid",
-    "sinonimos": ["2-Hydroxypropane-1,2,3-tricarboxylic acid"],
-    "descripcion": "Organic acid of biotechnological origin used in agriculture as a pH and hardness corrector for spray water, preventing the alkaline hydrolysis of inputs in the tank. Its chelating capacity helps keep the cations in the spray solution available. Broad cross-sector use in food, cleaning and cosmetics in accordance with applicable regulations.",
-    "funciones": ["Spray solution pH corrector", "Water hardness sequestrant", "Multipurpose acidulant"],
-    "aplicaciones": ["Spray water conditioning", "Tank mixes with hard water", "Acidulant in food and cleaning products in accordance with regulations"],
-    "formas_referenciales": ["Crystalline solid — anhydrous or monohydrate, depending on the manufacturer and batch"]
+    "nombre": "Phosphoric Acid 85%",
+    "sinonimos": ["Orthophosphoric acid", "Phosphoric acid"],
+    "descripcion": "Inorganic acid with a dual use in agriculture: a source of phosphorus in fertigation and a pH corrector for irrigation water with high alkalinity. It helps prevent clogging of drippers by carbonate precipitates. In cleaning and industry it is used as a descaler and in the phosphating of metals, and in veterinary applications in accordance with applicable regulations.",
+    "funciones": ["pH corrector for irrigation water", "Phosphorus source", "Irrigation system cleaner", "Descaler"],
+    "aplicaciones": ["Acidification of fertigation water", "Cleaning of drip lines", "Phosphate fertilization via irrigation", "Descaling and acid cleaning", "Phosphating of metal surfaces"],
+    "formas_referenciales": ["Liquid — aqueous solution, depending on the manufacturer and batch"]
   },
   {
     "id": "lignosulfonato-de-sodio",
@@ -218,10 +209,10 @@
   {
     "id": "sulfato-de-amonio",
     "nombre": "Ammonium Sulfate",
-    "sinonimos": ["AMS", "Sulfate of ammonia"],
-    "descripcion": "Nitrogen fertilizer that simultaneously supplies sulfur, with an acidic reaction in the soil, useful in alkaline soils and sulfur-demanding crops. In tank mixes it is used as a hard water conditioner by sequestering antagonistic cations. A widely used input in extensive crops.",
-    "funciones": ["Ammoniacal nitrogen source", "Sulfur source", "Hard water conditioner"],
-    "aplicaciones": ["Soil fertilization in alkaline soils", "Spray solution conditioning", "Physical fertilizer blends"],
+    "sinonimos": ["SAM", "Ammonium sulfate"],
+    "descripcion": "Nitrogen fertilizer that also supplies sulfur, with an acidic reaction in the soil, useful in alkaline soils and sulfur-demanding crops. In tank mixes it is used as a hard-water conditioner by sequestering antagonistic cations. It is also used as a salt for protein precipitation and as a nitrogen source in yeast fermentation media.",
+    "funciones": ["Ammoniacal nitrogen source", "Sulfur source", "Hard-water conditioner", "Salt for protein precipitation"],
+    "aplicaciones": ["Soil fertilization in alkaline soils", "Spray solution conditioning", "Physical fertilizer blends", "Protein precipitation in bioprocesses", "Nutrient for yeast fermentation"],
     "formas_referenciales": ["Solid — crystals or granules, depending on the manufacturer and batch"]
   }
 ]

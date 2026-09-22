@@ -1,39 +1,39 @@
 [
   {
     "id": "acido-sulfonico-lineal",
-    "nombre": "Lineare Alkylbenzolsulfonsäure (LABSA)",
-    "sinonimos": ["LABSA", "Dodecylbenzolsulfonsäure", "LAS-Säure"],
-    "descripcion": "Anionisches Tensid mit hoher Wasch- und Schaumkraft, Grundlage der meisten flüssigen und pulverförmigen Waschmittel am Markt. Wird mit Natronlauge oder anderen Basen neutralisiert, um das aktive Sulfonat der Formulierung zu bilden. Der Referenz-Rohstoff für Handgeschirrspülmittel, Allzweckreiniger und Entfetter im Haushalts- und Objektbereich.",
-    "funciones": ["Anionisches Tensid", "Waschaktive Substanz", "Schaumbildner"],
-    "aplicaciones": ["Flüssig- und Pulverwaschmittel", "Handgeschirrspülmittel", "Allzweck-Entfetter", "Gewerbliche Reiniger"],
+    "nombre": "Lineare Sulfonsäure",
+    "sinonimos": ["LABSA", "Lineare Dodecylbenzolsulfonsäure", "Linear-Sulfonsäure", "Lineare Sulfonsäure (LABSA)"],
+    "descripcion": "Anionisches Tensid mit hoher Reinigungs- und Schaumkraft, Basis vieler flüssiger und pulverförmiger Waschmittel. Es wird mit Natronlauge oder anderen Basen neutralisiert, um das aktive Sulfonat der Formel zu bilden. Es ist ein Referenzrohstoff für Geschirrspülmittel, Allzweckreiniger und Entfetter für den Haushalt, den institutionellen Bereich und die Reinigung veterinärmedizinischer Einrichtungen.",
+    "funciones": ["Anionisches Tensid", "Reinigungsmittel", "Schaumbildner"],
+    "aplicaciones": ["Flüssige und pulverförmige Waschmittel", "Geschirrspülmittel", "Allzweck-Entfetter", "Institutionelle Reiniger", "Reiniger für veterinärmedizinische Einrichtungen"],
     "formas_referenciales": ["Viskose Flüssigkeit — Bernsteinton variabel je nach Hersteller und Charge"]
   },
   {
     "id": "lauril-eter-sulfato-de-sodio",
-    "nombre": "Natriumlaurylethersulfat (SLES)",
-    "sinonimos": ["SLES", "Natriumlaurethsulfat"],
-    "descripcion": "Vielseitiges anionisches Tensid, geschätzt für sein Schaumvermögen und seine Verträglichkeit mit anderen Tensiden. Lässt sich gut mit Kochsalz verdicken, was die kostengünstige Formulierung von Produkten mit ansprechender Viskosität erleichtert. Einsatz in Handgeschirrspülmitteln, Flüssigseifen, Shampoos und Allzweckreinigern.",
+    "nombre": "Natriumlaurylethersulfat 28%",
+    "sinonimos": ["SLES", "Natriumlaurethsulfat", "Laurylethersulfat-Natriumsalz", "Sodium Laureth Sulfate"],
+    "descripcion": "Vielseitiges anionisches Tensid, geschätzt für sein Schaumvermögen und seine Verträglichkeit mit anderen Tensiden. Es spricht gut auf die Verdickung mit Salz an, was die Formulierung von Produkten mit ansprechender Viskosität zu geringen Kosten erleichtert. Verwendet in Geschirrspülmitteln, Flüssigseifen, Shampoos und Allzweckreinigern.",
     "funciones": ["Anionisches Tensid", "Schaumbildner", "Basis für Flüssigwaschmittel"],
-    "aplicaciones": ["Flüssige Handgeschirrspülmittel", "Flüssige Handseifen", "Shampoos und Duschgele", "Allzweckreiniger"],
-    "formas_referenciales": ["Paste oder viskose Flüssigkeit, je nach Qualität und Hersteller"]
+    "aplicaciones": ["Flüssige Geschirrspülmittel", "Flüssige Handseifen", "Shampoos und Badegele", "Allzweckreiniger", "Shampoos und Reiniger für die veterinärmedizinische Anwendung"],
+    "formas_referenciales": ["Paste oder viskose Flüssigkeit, je nach Hersteller und Charge"]
   },
   {
     "id": "lauril-sulfato-de-sodio",
-    "nombre": "Natriumlaurylsulfat (SLS)",
-    "sinonimos": ["SLS", "Natriumdodecylsulfat", "SDS"],
-    "descripcion": "Anionisches Tensid mit reichhaltigem, schnell aufgebautem Schaum sowie gutem Netz- und Waschvermögen in wässrigen Systemen. Ergänzt Natriumlaurylethersulfat in Formulierungen, die ein höheres Schaumvolumen erfordern. Häufig in Pulverwaschmitteln, Reinigungspasten und schäumenden Produkten.",
-    "funciones": ["Anionisches Tensid", "Schaumbildner", "Netzmittel"],
-    "aplicaciones": ["Pulverwaschmittel", "Reinigungspasten und -cremes", "Shampoos und Zahnpasten", "Industrielle Schaummittel"],
-    "formas_referenciales": ["Feststoff — Pulver oder Nadeln, je nach Hersteller und Charge", "Flüssig — wässrige Lösung, je nach Verfügbarkeit"]
+    "nombre": "Natriumlaurylsulfat Pulver",
+    "sinonimos": ["SLS", "Natriumdodecylsulfat", "Natriumlaurylsulfat"],
+    "descripcion": "Anionisches Tensid mit reichlichem Schaum und schneller Schaumbildung, mit gutem Benetzungs- und Reinigungsvermögen in wässrigen Systemen. Es ergänzt das Laurylethersulfat in Formulierungen, die ein größeres Schaumvolumen erfordern. Häufig in Pulverwaschmitteln, Reinigungspasten und Schaumprodukten und als Benetzungsmittel in festen Darreichungsformen für pharmazeutische Zwecke verwendet.",
+    "funciones": ["Anionisches Tensid", "Schaumbildner", "Benetzungsmittel"],
+    "aplicaciones": ["Pulverwaschmittel", "Reinigungspasten und -cremes", "Shampoos und Zahnpasten", "Industrielle Schaumbildner", "Benetzender Hilfsstoff in Tabletten und Pulvern"],
+    "formas_referenciales": ["Feststoff — Pulver oder Nadeln, je nach Hersteller und Charge"]
   },
   {
     "id": "oxido-de-lauramina",
-    "nombre": "Laurylaminoxid",
-    "sinonimos": ["LDAO", "Lauryldimethylaminoxid"],
-    "descripcion": "Amphoteres Tensid, das den Schaum anionischer Systeme verstärkt und stabilisiert und der Formulierung Viskosität verleiht. Zeichnet sich durch seine Verträglichkeit mit quartären Ammoniumverbindungen aus, was es zu einem gängigen Bestandteil desinfizierender Reiniger macht. Einsatz in Handgeschirrspülmitteln, Schaumreinigern und Reinigungsprodukten mit kationischen Bioziden.",
-    "funciones": ["Amphoteres Tensid", "Schaumverstärker", "Verdicker"],
-    "aplicaciones": ["Flüssige Handgeschirrspülmittel", "Desinfizierende Reiniger mit Quats", "Schaumreiniger", "Shampoos und Flüssigseifen"],
-    "formas_referenciales": ["Wässrige Flüssigkeit — klar bis leicht trüb, je nach Charge"]
+    "nombre": "Lauramin-Oxid",
+    "sinonimos": ["Lauryldimethylaminoxid", "LDAO", "Lauramine Oxide", "Lauraminoxid"],
+    "descripcion": "Amphoteres Tensid, das den Schaum anionischer Systeme verstärkt und stabilisiert und der Formulierung Viskosität verleiht. Es zeichnet sich durch seine Verträglichkeit mit quaternären Ammoniumverbindungen aus, weshalb es in desinfizierenden Reinigern üblich ist. Verwendet in Geschirrspülmitteln, schäumenden Reinigern und Entfettern sowie in Reinigungsprodukten mit kationischen Bioziden.",
+    "funciones": ["Amphoteres Tensid", "Schaumverstärker", "Verdickungsmittel", "Entfetter"],
+    "aplicaciones": ["Flüssige Geschirrspülmittel", "Desinfizierende Reiniger mit quaternären Ammoniumverbindungen", "Schäumende Reiniger", "Shampoos und Flüssigseifen", "Oberflächenentfetter"],
+    "formas_referenciales": ["Wässrige Flüssigkeit — transparent bis leicht trüb, je nach Hersteller und Charge"]
   },
   {
     "id": "alcohol-graso-etoxilado",
@@ -46,11 +46,11 @@
   },
   {
     "id": "dietanolamida-de-coco",
-    "nombre": "Kokosfettsäurediethanolamid",
-    "sinonimos": ["CDEA", "Cocamid DEA", "Kokosdiethanolamid"],
-    "descripcion": "Klassischer Verdicker und Schaumstabilisator für anionische Tensidsysteme. Verleiht Flüssigwaschmitteln und Handgeschirrspülmitteln Körper und Überfettung und trägt dazu bei, den Schaum auch in Gegenwart fetthaltiger Verschmutzung zu erhalten. Traditioneller Rohstoff der Reinigungsmittel- und Körperpflegeindustrie.",
-    "funciones": ["Verdicker", "Schaumstabilisator", "Nichtionisches Tensid"],
-    "aplicaciones": ["Flüssige Handgeschirrspülmittel", "Flüssigwaschmittel", "Shampoos", "Flüssigseifen"],
+    "nombre": "Cocamid DEA",
+    "sinonimos": ["CDEA", "Kokosdiethanolamid", "Kokosfettsäurediethanolamid", "Cocamide DEA"],
+    "descripcion": "Klassischer Verdicker und Schaumstabilisator für anionische Tensidsysteme. Er verleiht Flüssigwaschmitteln und Geschirrspülmitteln Körper und Rückfettung und trägt dazu bei, den Schaum bei fettiger Verschmutzung zu erhalten. Traditioneller Rohstoff in Reinigung, Körperpflege und Hygieneprodukten für pharmazeutische und veterinärmedizinische Anwendungen.",
+    "funciones": ["Verdickungsmittel", "Schaumstabilisator", "Nichtionisches Tensid"],
+    "aplicaciones": ["Flüssige Geschirrspülmittel", "Flüssigwaschmittel", "Shampoos", "Flüssigseifen", "Pharmazeutische und veterinärmedizinische Hygiene"],
     "formas_referenciales": ["Viskose Flüssigkeit — Bernsteinton variabel je nach Hersteller und Charge"]
   },
   {
@@ -92,29 +92,29 @@
   {
     "id": "peroxido-de-hidrogeno",
     "nombre": "Wasserstoffperoxid",
-    "sinonimos": [],
-    "descripcion": "Oxidationsmittel, eingesetzt als Bleichmittel und als Wirkstoff in Desinfektions- und Sanitisierungsformulierungen. Zersetzt sich zu Wasser und Sauerstoff, was es für rückstandsarme Formulierungen attraktiv macht. Verwendung in der institutionellen Reinigung, in Wäschereien und in industriellen Prozessen gemäß den geltenden Vorschriften.",
-    "funciones": ["Oxidationsmittel", "Bleichmittel", "Desinfektionswirkstoff"],
-    "aplicaciones": ["Flächendesinfektionsmittel", "Wäschebleiche", "Institutionelle Sanitisierung", "Textilbleiche"],
-    "formas_referenciales": ["Flüssig — wässrige Lösung, je nach verfügbarer Qualität"]
+    "sinonimos": ["Wasserstoffsuperoxid", "H2O2"],
+    "descripcion": "Oxidationsmittel, das als Bleichmittel und als Wirkstoff in desinfizierenden und sanitisierenden Formulierungen verwendet wird. Es zerfällt in Wasser und Sauerstoff, was es für rückstandsarme Rezepturen attraktiv macht. In der Kosmetik wird es als Oxidationsmittel in Produkten zum Aufhellen und Färben von Haaren eingesetzt, außerdem in der institutionellen Reinigung, in Wäschereien und in industriellen Prozessen gemäß den geltenden Vorschriften.",
+    "funciones": ["Oxidationsmittel", "Bleichmittel", "Desinfizierender Wirkstoff", "Haar-Oxidationsmittel"],
+    "aplicaciones": ["Oberflächendesinfektionsmittel", "Wäschebleiche", "Institutionelle Sanitisierung", "Textilbleiche", "Haaraufhellung und Haarfärbung"],
+    "formas_referenciales": ["Farblose Flüssigkeit — wässrige Lösung, je nach Hersteller und Charge"]
   },
   {
     "id": "acido-peracetico",
     "nombre": "Peressigsäure",
-    "sinonimos": ["PES", "PAA", "Peroxyessigsäure"],
-    "descripcion": "Starkes Oxidationsmittel, eingesetzt als Sanitisierungsmittel in der Lebensmittel- und Getränkeindustrie sowie in der institutionellen Desinfektion. Wirkt bei niedrigen Temperaturen und zerfällt in Abbauprodukte mit geringer Umweltbelastung. Handhabung und Dosierung erfolgen gemäß den geltenden Vorschriften und den Empfehlungen des Herstellers.",
-    "funciones": ["Sanitisierungswirkstoff", "Oxidationsmittel"],
-    "aplicaciones": ["CIP-Sanitisierung in der Lebensmittel- und Getränkeindustrie", "Desinfektion von Anlagen und Oberflächen", "Biosicherheit in der Agroindustrie", "Prozesswasserbehandlung"],
-    "formas_referenciales": ["Flüssig — Gleichgewichtslösung, je nach Qualität und Hersteller"]
+    "sinonimos": ["PAA", "Peroxyessigsäure"],
+    "descripcion": "Starkes Oxidationsmittel, verwendet als Sanitizer in der Lebensmittel- und Getränkeindustrie und in der institutionellen Desinfektion. Es wirkt bei niedriger Temperatur und zersetzt sich zu Nebenprodukten mit geringer Umweltbelastung. Es wird außerdem zur Sanitisierung von Anlagen und Oberflächen in Kosmetik-, Pharma- und Nutrazeutikbetrieben eingesetzt, gemäß den geltenden Vorschriften und den Empfehlungen des Herstellers.",
+    "funciones": ["Sanitizer", "Oxidationsmittel"],
+    "aplicaciones": ["CIP-Sanitisierung in Lebensmitteln und Getränken", "Desinfektion von Anlagen und Oberflächen", "Biosicherheit in der Agroindustrie", "Aufbereitung von Prozesswasser", "Sanitisierung von Kosmetik- und Pharmabetrieben"],
+    "formas_referenciales": ["Flüssigkeit — Gleichgewichtslösung, je nach Hersteller und Charge"]
   },
   {
     "id": "hipoclorito-de-sodio",
     "nombre": "Natriumhypochlorit",
-    "sinonimos": ["Chlorbleichlauge", "Bleichlauge"],
-    "descripcion": "Die meistgenutzte Aktivchlorquelle in flüssigen Bleich- und Desinfektionsmitteln für den Haushalts- und den institutionellen Bereich. Basis-Rohstoff für handelsübliche Bleichlaugen, chlorhaltige Reiniger und Anwendungen in der Wasseraufbereitung. Der Gehalt an verfügbarem Chlor schwankt mit der Zeit und den Lagerbedingungen; die Prüfung des Analysenzertifikats (CoA) der Charge wird daher empfohlen.",
-    "funciones": ["Chlorbleichmittel", "Desinfektionswirkstoff"],
+    "sinonimos": ["Bleichlauge", "Flüssigbleichmittel"],
+    "descripcion": "Am häufigsten verwendete Aktivchlorquelle in flüssigen Bleich- und Desinfektionsmitteln für Haushalt und institutionellen Bereich. Basisrohstoff für handelsübliche Bleichlaugen, chlorhaltige Reiniger und Anwendungen in der Wasseraufbereitung. Der Gehalt an verfügbarem Chlor variiert mit der Zeit und den Lagerbedingungen, weshalb empfohlen wird, das Analysenzertifikat der Charge zu prüfen.",
+    "funciones": ["Chlorhaltiges Bleichmittel", "Desinfizierender Wirkstoff"],
     "aplicaciones": ["Haushaltsbleichmittel", "Chlorhaltige Reiniger", "Institutionelle Desinfektion", "Wasseraufbereitung"],
-    "formas_referenciales": ["Flüssig — wässrige Lösung; Konzentration variabel je nach Charge und Lagerung"]
+    "formas_referenciales": ["Flüssigkeit — wässrige Lösung, je nach Hersteller und Charge; die Konzentration variiert mit der Lagerung"]
   },
   {
     "id": "dicloroisocianurato-de-sodio",
@@ -127,21 +127,21 @@
   },
   {
     "id": "glutaraldehido",
-    "nombre": "Glutaraldehyd",
-    "sinonimos": ["Glutaral", "Pentandial"],
-    "descripcion": "Aldehyd, eingesetzt als biozider Wirkstoff in Desinfektionsmitteln für den institutionellen, agroindustriellen und veterinären Bereich. Häufig in Mischungen mit quartären Ammoniumverbindungen zur Erweiterung des Wirkungsspektrums der Formulierung. Die Verwendung unterliegt den geltenden gesundheitsrechtlichen Vorschriften und den Handhabungsempfehlungen des Herstellers.",
-    "funciones": ["Biozid", "Desinfektionswirkstoff"],
-    "aplicaciones": ["Desinfektionsmittel für den institutionellen Bereich", "Biosicherheit in der Geflügel- und Schweinehaltung", "Sanitisierung von Fahrzeugen und Ausrüstung", "Mischungen mit quartären Ammoniumverbindungen"],
-    "formas_referenciales": ["Flüssig — wässrige Lösung, je nach Qualität des Herstellers"]
+    "nombre": "Glutaraldehyd 50%",
+    "sinonimos": ["Glutaral", "Pentandial", "Glutaraldehyd"],
+    "descripcion": "Aldehyd, das als biozider Wirkstoff in Desinfektionsmitteln für den institutionellen, agroindustriellen und veterinärmedizinischen Bereich eingesetzt wird. Häufig in Mischungen mit quartären Ammoniumverbindungen, um das Wirkungsspektrum der Formulierung zu erweitern. Seine Verwendung unterliegt den geltenden Gesundheitsvorschriften und den Handhabungsempfehlungen des Herstellers.",
+    "funciones": ["Biozid", "Desinfizierender Wirkstoff"],
+    "aplicaciones": ["Desinfektionsmittel für den institutionellen Bereich", "Biosicherheit in der Geflügel- und Schweinehaltung", "Sanitisierung von Fahrzeugen und Geräten", "Mischungen mit quartären Ammoniumverbindungen"],
+    "formas_referenciales": ["Flüssigkeit — farblose bis blassgelbe wässrige Lösung, je nach Hersteller und Charge"]
   },
   {
     "id": "mezcla-de-isotiazolinonas-cmit-mit",
-    "nombre": "Isothiazolinon-Mischung (CMIT/MIT)",
-    "sinonimos": ["CMIT/MIT", "Isothiazolinone"],
-    "descripcion": "Isothiazolinon-Mischung, eingesetzt als Breitband-Konservierungsmittel zum Schutz von Waschmitteln, Flüssigseifen und wässrigen Reinigern während ihrer Haltbarkeitsdauer. Wird bei niedrigen Einsatzdosierungen mit dem Schutz vor Bakterien, Pilzen und Hefen im Gebinde in Verbindung gebracht. Die Dosierung erfolgt gemäß den geltenden Vorschriften.",
-    "funciones": ["Konservierungsmittel", "Topfkonservierer"],
-    "aplicaciones": ["Flüssigwaschmittel", "Flüssigseifen", "Allzweckreiniger", "Weichspüler"],
-    "formas_referenciales": ["Flüssig — klar bis leicht gelblich, je nach Charge"]
+    "nombre": "Isothiazolinone 1.5%",
+    "sinonimos": ["CMIT/MIT", "Isothiazolinone", "Mischung aus Isothiazolinonen (CMIT/MIT)"],
+    "descripcion": "Mischung aus Isothiazolinonen, die als Breitband-Konservierungsmittel zum Schutz von Waschmitteln, Flüssigseifen und wässrigen Reinigern während ihrer Lagerdauer eingesetzt wird. Sie wird bei niedrigen Einsatzkonzentrationen mit dem Schutz vor Bakterien, Pilzen und Hefen im Gebinde in Verbindung gebracht. Ihre Verwendung in Kosmetik ist gemäß den geltenden Vorschriften auf Produkte beschränkt, die abgespült werden.",
+    "funciones": ["Konservierungsmittel", "Gebindebiozid"],
+    "aplicaciones": ["Flüssigwaschmittel", "Flüssigseifen", "Allzweckreiniger", "Wäscheweichspüler", "Shampoos und Badegele (gemäß Vorschriften)"],
+    "formas_referenciales": ["Flüssigkeit — transparent bis leicht gelb, je nach Hersteller und Charge"]
   },
   {
     "id": "soda-caustica",
@@ -199,20 +199,20 @@
   },
   {
     "id": "edta-tetrasodico",
-    "nombre": "Tetranatrium-EDTA",
-    "sinonimos": ["EDTA-4Na", "Tetranatriumedetat", "EDTA-Tetranatriumsalz"],
-    "descripcion": "Der Referenz-Chelatbildner in der Waschmittelindustrie: bindet Calcium, Magnesium und Übergangsmetalle, die Tenside und Bleichmittel beeinträchtigen. Verbessert die Leistung der Formulierungen in hartem Wasser und trägt zu ihrer Stabilität bei. Einsatz in Flüssigwaschmitteln, alkalischen Reinigern und Produkten für den institutionellen Bereich.",
+    "nombre": "EDTA-Tetranatrium",
+    "sinonimos": ["Tetranatrium-EDTA", "Tetranatriumsalz von EDTA", "EDTA-4Na"],
+    "descripcion": "Referenz-Chelatbildner in der Waschmitteltechnik: Er bindet Calcium, Magnesium und Übergangsmetalle, die Tenside und Bleichmittel stören. Er verbessert die Leistung der Formulierungen in hartem Wasser und trägt zu ihrer Stabilität bei. Er wird in Flüssigwaschmitteln, alkalischen Reinigern und Institutionsprodukten verwendet; ebenso in Kosmetik und, gemäß den geltenden Vorschriften, in pharmazeutischen, veterinärmedizinischen, nutrazeutischen und Lebensmittelzubereitungen.",
     "funciones": ["Chelatbildner", "Sequestriermittel", "Formulierungsstabilisator"],
-    "aplicaciones": ["Flüssigwaschmittel", "Alkalische Reiniger", "Seifen und Handgeschirrspülmittel", "Textilhilfsmittel"],
-    "formas_referenciales": ["Feststoff — Pulver oder Granulat, je nach Hersteller und Charge", "Flüssig — wässrige Lösung, je nach Verfügbarkeit"]
+    "aplicaciones": ["Flüssigwaschmittel", "Alkalische Reiniger", "Seifen und Geschirrspülmittel", "Textilhilfsmittel", "Kosmetische und pharmazeutische Formulierungen"],
+    "formas_referenciales": ["Feststoff — Pulver oder Granulat, je nach Hersteller und Charge", "Flüssigkeit — wässrige Lösung, je nach Verfügbarkeit"]
   },
   {
     "id": "gluconato-de-sodio",
     "nombre": "Natriumgluconat",
-    "sinonimos": ["E 576", "Gluconsäure-Natriumsalz"],
-    "descripcion": "Chelatbildner biotechnologischen Ursprungs mit sehr guter Leistung in stark alkalischen Medien, in denen er Calcium und Eisen bindet. Aufgrund seiner biologischen Abbaubarkeit eine Alternative zu Phosphaten und EDTA in alkalischen Reinigern. Einsatz in der CIP-Reinigung, in Hoch-pH-Entfettern und in der Flaschenwäsche.",
+    "sinonimos": ["Natriumgluconat", "Sodium gluconate", "Natriumsalz der Gluconsäure"],
+    "descripcion": "Chelatbildner biotechnologischen Ursprungs mit sehr guter Leistung in stark alkalischen Medien, in denen er Calcium und Eisen bindet. Aufgrund seiner biologischen Abbaubarkeit ist er in alkalischen Reinigern eine Alternative zu Phosphaten und EDTA. Er wird in Entfettern und Reinigern mit hohem pH-Wert und, gemäß den geltenden Vorschriften, als Chelatbildner in Kosmetik, Veterinärmedizin und Nahrungsergänzungsmitteln verwendet.",
     "funciones": ["Chelatbildner", "Sequestriermittel im alkalischen Medium"],
-    "aplicaciones": ["CIP-Reinigung", "Alkalische Entfetter", "Flaschenwäsche", "Gewerbliche Reiniger"],
+    "aplicaciones": ["Alkalische Entfetter", "Institutionsreiniger", "Kosmetische Formulierungen", "Veterinärmedizinische Formulierungen", "Nahrungsergänzungsmittel und Vormischungen"],
     "formas_referenciales": ["Feststoff — Pulver oder Granulat, je nach Hersteller und Charge"]
   },
   {
@@ -225,21 +225,12 @@
     "formas_referenciales": ["Feststoff — verkapseltes Granulat, je nach Hersteller und Charge", "Flüssig — Enzymkonzentrat, je nach Verfügbarkeit"]
   },
   {
-    "id": "carboximetilcelulosa-de-sodio",
-    "nombre": "Natriumcarboxymethylcellulose (CMC)",
-    "sinonimos": ["CMC", "Carmellose-Natrium", "Cellulosegummi"],
-    "descripcion": "Polymer auf Cellulosebasis, eingesetzt als Vergrauungsinhibitor in Textilwaschmitteln: hält den Schmutz in der Waschflotte suspendiert und hilft zu verhindern, dass er sich wieder auf dem Gewebe ablagert. Verleiht flüssigen Formulierungen zudem Viskosität und Stabilität. Einsatz in Pulver- und Flüssigwaschmitteln sowie in Waschseifen.",
-    "funciones": ["Vergrauungsinhibitor", "Verdicker", "Stabilisator"],
-    "aplicaciones": ["Pulverwaschmittel", "Flüssigwaschmittel", "Wäscheseifen in Stückform", "Textilhilfsmittel"],
-    "formas_referenciales": ["Feststoff — Pulver oder Granulat, je nach Qualität und Hersteller"]
-  },
-  {
     "id": "abrillantador-optico-para-detergentes",
-    "nombre": "Optischer Aufheller für Waschmittel",
-    "sinonimos": ["Weißtöner", "Fluoreszenzaufheller"],
-    "descripcion": "Fluoreszierendes Aufhellungsmittel, das ultraviolettes Licht absorbiert und als sichtbares blaues Licht wieder abgibt und so den Weißeindruck der Textilien verbessert. Ein klassischer Bestandteil von Waschmitteln für weiße Wäsche. Der Aufhellertyp wird nach Textilsubstrat und Waschprozess ausgewählt.",
+    "nombre": "Optischer Aufheller",
+    "sinonimos": ["Optischer Aufheller für Waschmittel", "Fluoreszierender Weißmacher", "Optical brightener", "OBA"],
+    "descripcion": "Fluoreszierender Weißmacher, der ultraviolettes Licht absorbiert und als sichtbares blaues Licht wieder abgibt und so die Weißwahrnehmung von Geweben und Oberflächen verbessert. Er ist ein klassischer Bestandteil von Waschmitteln für Weißwäsche und wird auch in Kunststoffen eingesetzt. Der Aufhellertyp wird je nach Substrat und Anwendungsverfahren gewählt.",
     "funciones": ["Optischer Aufheller", "Weißgradverbesserer"],
-    "aplicaciones": ["Pulverwaschmittel", "Flüssigwaschmittel", "Waschseifen", "Textilausrüstung"],
+    "aplicaciones": ["Pulverwaschmittel", "Flüssigwaschmittel", "Waschseifen", "Textilappreturen", "Kunststoffe und Polymere"],
     "formas_referenciales": ["Feststoff — Pulver oder Granulat, je nach Typ, Hersteller und Charge"]
   },
   {

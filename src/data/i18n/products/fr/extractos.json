@@ -181,21 +181,21 @@
   },
   {
     "id": "manteca-karite",
-    "nombre": "Beurre de Karité",
-    "sinonimos": ["Shea butter"],
-    "descripcion": "Beurre végétal obtenu à partir de la noix de l'arbre à karité, référence mondiale comme émollient nourrissant en cosmétique. Il apporte du corps et une sensation protectrice dans les crèmes, beurres corporels et rouges à lèvres. Disponible en qualités raffinée et non raffinée, avec des caractéristiques à confirmer dans la fiche technique du lot.",
+    "nombre": "Beurre de karité",
+    "sinonimos": ["Shea butter", "Beurre de shea"],
+    "descripcion": "Beurre végétal obtenu à partir de la noix de l'arbre à karité, référence mondiale comme émollient nourrissant en cosmétique. Il apporte du corps et une sensation protectrice dans les crèmes, les beurres corporels et les rouges à lèvres, et il est également employé dans les matières grasses alimentaires, les compléments et les produits vétérinaires, conformément à la réglementation applicable. Disponible en qualités raffinée et non raffinée, dont les caractéristiques sont confirmées dans la fiche technique du lot.",
     "funciones": ["Émollient nourrissant", "Agent de consistance"],
-    "aplicaciones": ["Beurres corporels", "Rouges à lèvres et baumes", "Crèmes pour les mains et les pieds", "Soins capillaires"],
-    "formas_referenciales": ["Solide — beurre de texture et de teinte ivoire à jaunâtre variables selon le raffinage, l'origine et le lot"]
+    "aplicaciones": ["Beurres corporels", "Rouges à lèvres et baumes", "Crèmes pour les mains et les pieds", "Soins capillaires", "Matières grasses alimentaires et formulations vétérinaires conformément à la réglementation"],
+    "formas_referenciales": ["Solide — beurre de texture et de teinte allant de l'ivoire au jaunâtre, selon le fabricant et le lot (varie selon le raffinage et l'origine)"]
   },
   {
     "id": "manteca-cacao",
-    "nombre": "Beurre de Cacao",
-    "sinonimos": ["Cocoa butter", "Beurre de theobroma"],
-    "descripcion": "Beurre végétal obtenu à partir des fèves de cacao, l'une des cultures emblématiques de la Colombie. Il apporte de la consistance, de la brillance et une sensation protectrice dans les rouges à lèvres, les beurres corporels et en savonnerie, en plus de son usage alimentaire conformément à la réglementation applicable. Son arôme caractéristique et son origine locale en font un protagoniste des gammes naturelles.",
+    "nombre": "Beurre de cacao",
+    "sinonimos": ["Huile de théobroma", "Cocoa butter"],
+    "descripcion": "Beurre végétal obtenu à partir des graines de cacao, l'une des cultures emblématiques de la Colombie. Il apporte de la consistance, de la brillance et une sensation protectrice dans les rouges à lèvres, les beurres corporels et la savonnerie ; il est également employé comme base grasse en chocolaterie, dans les formes pharmaceutiques et vétérinaires solides ou semi-solides et dans les compléments, conformément à la réglementation applicable. Son arôme caractéristique et son origine locale en font un ingrédient central des gammes naturelles.",
     "funciones": ["Émollient", "Agent de consistance", "Base pour rouges à lèvres"],
-    "aplicaciones": ["Rouges à lèvres et baumes", "Beurres et crèmes corporels", "Savonnerie", "Chocolaterie et aliments conformément à la réglementation"],
-    "formas_referenciales": ["Solide — blocs, morceaux ou pastilles selon le fabricant et le lot ; fond à température corporelle"]
+    "aplicaciones": ["Rouges à lèvres et baumes", "Beurres et crèmes corporels", "Savonnerie", "Chocolaterie et aliments conformément à la réglementation", "Excipient dans les formes pharmaceutiques et vétérinaires"],
+    "formas_referenciales": ["Solide — blocs, morceaux ou pastilles selon le fabricant et le lot ; fond à la température corporelle"]
   },
   {
     "id": "manteca-mango",

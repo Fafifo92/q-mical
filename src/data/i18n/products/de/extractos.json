@@ -182,20 +182,20 @@
   {
     "id": "manteca-karite",
     "nombre": "Sheabutter",
-    "sinonimos": ["Karitébutter", "Shea Butter"],
-    "descripcion": "Pflanzenbutter aus der Nuss des Karitébaums, weltweite Referenz als nährendes Emollient in der Kosmetik. Verleiht Cremes, Körperbutter und Lippenstiften Körper und ein schützendes Hautgefühl. Erhältlich in raffinierter und unraffinierter Qualität, mit Eigenschaften, die im technischen Datenblatt (TDS) der Charge bestätigt werden.",
-    "funciones": ["Nährendes Emollient", "Konsistenzgeber"],
-    "aplicaciones": ["Körperbutter", "Lippenstifte und Balsame", "Hand- und Fußcremes", "Haarkuren"],
-    "formas_referenciales": ["Fest — Butter, Textur und Farbton von Elfenbein bis Gelblich variabel je nach Raffination, Herkunft und Charge"]
+    "sinonimos": ["Shea butter", "Karitébutter"],
+    "descripcion": "Pflanzliche Butter, die aus der Nuss des Karitébaums gewonnen wird und in der Kosmetik als weltweite Referenz für pflegende Emollients gilt. Sie verleiht Cremes, Körperbuttern und Lippenprodukten Körper und ein schützendes Hautgefühl und wird gemäß den geltenden Vorschriften auch in Speisefetten, Nahrungsergänzungsmitteln und Veterinärprodukten verwendet. Verfügbar in raffinierter und unraffinierter Qualität, deren Merkmale im Datenblatt der Charge bestätigt werden.",
+    "funciones": ["Pflegendes Emollient", "Konsistenzgeber"],
+    "aplicaciones": ["Körperbuttern", "Lippenstifte und Balsame", "Hand- und Fußcremes", "Haarpflegebehandlungen", "Speisefette und Veterinärformulierungen gemäß Vorschriften"],
+    "formas_referenciales": ["Feststoff — Butter mit elfenbeinfarbener bis gelblicher Textur und Farbe, je nach Hersteller und Charge (variiert mit Raffination und Herkunft)"]
   },
   {
     "id": "manteca-cacao",
     "nombre": "Kakaobutter",
-    "sinonimos": ["Cocoa Butter", "Theobroma-Öl"],
-    "descripcion": "Pflanzenbutter aus den Samen des Kakaos, einer der emblematischen Anbaukulturen Kolumbiens. Verleiht Lippenstiften, Körperbutter und Seifen Konsistenz, Glanz und ein schützendes Hautgefühl; daneben Verwendung in Lebensmitteln gemäß den geltenden Vorschriften. Ihr charakteristisches Aroma und ihre lokale Herkunft machen sie zur Protagonistin natürlicher Linien.",
-    "funciones": ["Emollient", "Konsistenzgeber", "Basis für Lippenstifte"],
-    "aplicaciones": ["Lippenstifte und Balsame", "Körperbutter und Körpercremes", "Seifenherstellung", "Schokoladenherstellung und Lebensmittel gemäß den geltenden Vorschriften"],
-    "formas_referenciales": ["Fest — Blöcke, Stücke oder Pastillen je nach Hersteller und Charge; schmilzt bei Körpertemperatur"]
+    "sinonimos": ["Theobromaöl", "Cocoa butter"],
+    "descripcion": "Pflanzliche Butter, die aus den Samen des Kakaobaums gewonnen wird, einer der Leitkulturen Kolumbiens. Sie verleiht Lippenstiften, Körperbuttern und Seifen Konsistenz, Glanz und ein schützendes Hautgefühl; sie wird außerdem gemäß den geltenden Vorschriften als Fettbasis in der Schokoladenherstellung, in festen oder halbfesten pharmazeutischen und veterinärmedizinischen Darreichungsformen und in Nahrungsergänzungsmitteln verwendet. Ihr charakteristisches Aroma und ihre lokale Herkunft machen sie zu einer Hauptzutat natürlicher Produktlinien.",
+    "funciones": ["Emollient", "Konsistenzgeber", "Basis für Lippenprodukte"],
+    "aplicaciones": ["Lippenstifte und Balsame", "Körperbuttern und -cremes", "Seifenherstellung", "Schokoladenherstellung und Lebensmittel gemäß Vorschriften", "Hilfsstoff in pharmazeutischen und veterinärmedizinischen Darreichungsformen"],
+    "formas_referenciales": ["Feststoff — Blöcke, Stücke oder Pastillen je nach Hersteller und Charge; schmilzt bei Körpertemperatur"]
   },
   {
     "id": "manteca-mango",
