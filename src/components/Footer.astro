@@ -97,7 +97,7 @@ const redes = [
         <li><a href={rutaLocal(lang, "/nosotros")} class="text-navy-100 hover:text-accent-300">{dict.footer.linkNosotros}</a></li>
         <li><a href={rutaLocal(lang, "/contacto")} class="text-navy-100 hover:text-accent-300">{dict.footer.linkContacto}</a></li>
         <li><a href={rutaLocal(lang, "/cotizacion")} class="text-navy-100 hover:text-accent-300">{dict.footer.linkCotizacion}</a></li>
-        <li><a href={rutaLocal(lang, "/pagos")} class="text-navy-100 hover:text-accent-300">{dict.footer.linkPagos}</a></li>
+        {SITE.pagosActivo && <li><a href={rutaLocal(lang, "/pagos")} class="text-navy-100 hover:text-accent-300">{dict.footer.linkPagos}</a></li>}
       </ul>
     </nav>
 
@@ -141,5 +141,14 @@ const redes = [
         {dict.footer.disclaimer}
       </p>
     </div>
+    <p class="container-site pb-5 text-center text-xs text-navy-300">
+      {dict.footer.credito}{" "}
+      <a
+        href="https://emeteatech.com"
+        target="_blank"
+        rel="noopener"
+        class="font-semibold text-navy-200 transition-colors hover:text-accent-300"
+      >EMETEA Tech</a>
+    </p>
   </div>
 </footer>

@@ -2,7 +2,7 @@
 import Base from "../layouts/Base.astro";
 import Icon from "../components/Icon.astro";
 import ProductCard from "../components/ProductCard.astro";
-import { waLink } from "../data/site";
+import { SITE, waLink } from "../data/site";
 import { getCatalogo, type Producto } from "../lib/catalog";
 import { DEFAULT_LOCALE, rutaLocal, tpl, type Locale } from "../i18n/config";
 import { t, taxonomia } from "../i18n";
@@ -246,7 +246,8 @@ const [pagoAntes, pagoDespues] = dict.producto.pagoTextoHtml.split("{link}");
         </a>
       </div>
 
-      <!-- Pago -->
+      <!-- Pago (oculto mientras SITE.pagosActivo sea false) -->
+      {SITE.pagosActivo && (
       <div class="reveal flex items-center gap-4 rounded-2xl bg-navy-700 p-5 text-white" style="--reveal-delay:.2s">
         <span class="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-white/10 text-accent-300">
           <Icon name="credit-card" class="h-5 w-5" />
@@ -257,6 +258,7 @@ const [pagoAntes, pagoDespues] = dict.producto.pagoTextoHtml.split("{link}");
           <Fragment set:html={pagoDespues} />
         </p>
       </div>
+      )}
     </aside>
   </section>
 

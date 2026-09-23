@@ -39,7 +39,8 @@
     "contacto": "Contact",
     "botonWhatsApp": "Message us on WhatsApp",
     "derechos": "© {year} {empresa}. Raw material distribution — Colombia.",
-    "disclaimer": "Product specifications may vary depending on the manufacturer and batch. Request the current technical data sheet before you buy."
+    "disclaimer": "Product specifications may vary depending on the manufacturer and batch. Request the current technical data sheet before you buy.",
+    "credito": "Website designed and developed by"
   },
   "flotante": {
     "pseAria": "PSE payments",

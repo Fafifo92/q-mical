@@ -189,15 +189,15 @@ const i18nJs = {
       <button
         id="btn-filtros-movil"
         type="button"
-        class="btn-ghost min-h-12 shrink-0 gap-1.5 px-4 text-sm lg:hidden"
+        class="btn-primary min-h-12 shrink-0 gap-2 px-5 text-sm font-bold shadow-lg shadow-navy-700/30 ring-2 ring-accent-400 lg:hidden"
         aria-expanded="false"
         aria-controls="sheet-filtros"
       >
-        <Icon name="filter" class="h-4 w-4" />
-        <span class="hidden xs:inline">{dict.portafolio.botonFiltros}</span>
+        <Icon name="filter" class="h-4 w-4" strokeWidth={2.2} />
+        <span>{dict.portafolio.botonFiltros}</span>
         <span
           id="badge-filtros"
-          class="hidden min-w-5 rounded-full bg-navy-700 px-1.5 py-0.5 text-xs font-bold text-white"
+          class="hidden min-w-5 rounded-full bg-accent-400 px-1.5 py-0.5 text-center text-xs font-bold text-navy-700"
         ></span>
       </button>
     </div>

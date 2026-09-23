@@ -1,6 +1,6 @@
 ---
 import Icon from "./Icon.astro";
-import { waLink } from "../data/site";
+import { SITE, waLink } from "../data/site";
 import { DEFAULT_LOCALE, rutaLocal, type Locale } from "../i18n/config";
 import { t } from "../i18n";
 
@@ -13,6 +13,7 @@ const dict = t(lang);
 ---
 
 <div class="fixed right-4 bottom-4 z-40 flex flex-col items-center gap-3 sm:right-6 sm:bottom-6">
+  {SITE.pagosActivo && (
   <a
     href={rutaLocal(lang, "/pagos")}
     aria-label={dict.flotante.pseAria}
@@ -21,6 +22,7 @@ const dict = t(lang);
   >
     PSE
   </a>
+  )}
   <a
     href={waLink(dict.meta.waBase)}
     target="_blank"

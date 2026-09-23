@@ -39,7 +39,8 @@
     "contacto": "Contacto",
     "botonWhatsApp": "Escríbenos por WhatsApp",
     "derechos": "© {year} {empresa}. Distribución de materias primas — Colombia.",
-    "disclaimer": "Las especificaciones de los productos pueden variar según fabricante y lote. Solicita la ficha técnica vigente antes de comprar."
+    "disclaimer": "Las especificaciones de los productos pueden variar según fabricante y lote. Solicita la ficha técnica vigente antes de comprar.",
+    "credito": "Web diseñada y desarrollada por"
   },
   "flotante": {
     "pseAria": "Pagos PSE",

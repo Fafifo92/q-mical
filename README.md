@@ -31,7 +31,7 @@ npm run dev        # http://localhost:4321
 
 ## 🧭 Pestañas del sitio
 
-**Inicio · Portafolio · Nosotros · Contáctanos · Pagos** (en ese orden, ver
+**Inicio · Portafolio · Nosotros · Contáctanos** (y Pagos cuando `pagosActivo` sea true; en ese orden, ver
 `src/components/Header.astro`). Además existe `/cotizacion` (botón «Cotizar»).
 
 | Página | Qué tiene |
@@ -40,7 +40,7 @@ npm run dev        # http://localhost:4321
 | Portafolio (`/productos`) | Héroe con buscador + listado con filtros por **industria** y **línea de producto** |
 | Nosotros | Misión, visión, valores, principios, cobertura y «Nuestras líneas de producto» |
 | Contáctanos (`/contacto`) | Formulario (abre WhatsApp o correo), mapa y preguntas frecuentes |
-| Pagos | Flujo de pago PSE (pendiente de confirmar con el banco) |
+| Pagos | Flujo de pago PSE — **oculta** (la página está hecha; se muestra con `pagosActivo: true` en `src/data/site.ts`) |
 
 ## 🗂️ Clasificación del portafolio
 

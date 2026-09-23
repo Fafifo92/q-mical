@@ -11,6 +11,11 @@ export const SITE = {
   telefono: "(+57) 315 383 2703",
   telefono2: "(+57)300 650 2451",
 
+  // ── Pagos en línea ──────────────────────────────────────────────
+  // La página /pagos está hecha pero OCULTA. Para mostrarla de nuevo basta con
+  // poner `pagosActivo: true`: reaparecen el botón PSE flotante, el enlace del
+  // menú y del pie, el aviso de pago en cada producto y la página misma.
+  pagosActivo: false,
   pseUrl: "https://checkout.wompi.co/l/EDITAR", // EDITAR
 
   direccion: "Cra. 68I # 36-21 Sur",

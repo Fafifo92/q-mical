@@ -1,7 +1,7 @@
 ---
 import Icon from "./Icon.astro";
 import Logo from "./Logo.astro";
-import { waLink } from "../data/site";
+import { SITE, waLink } from "../data/site";
 import { LOCALES, LOCALE_INFO, DEFAULT_LOCALE, rutaLocal, separarIdioma, type Locale } from "../i18n/config";
 import { t } from "../i18n";
 
@@ -22,7 +22,7 @@ const nav = [
   { href: "/productos", label: dict.nav.portafolio },
   { href: "/nosotros", label: dict.nav.nosotros },
   { href: "/contacto", label: dict.nav.contacto },
-  { href: "/pagos", label: dict.nav.pagos },
+  ...(SITE.pagosActivo ? [{ href: "/pagos", label: dict.nav.pagos }] : []),
 ];
 
 // Ruta actual SIN prefijo de idioma: sirve para marcar el activo y para que el

@@ -1,5 +1,9 @@
 ---
 import Pagos from "../paginas/Pagos.astro";
+import { SITE } from "../data/site";
+
+// Página oculta: mientras SITE.pagosActivo sea false, quien llegue por un enlace viejo va al inicio.
+if (!SITE.pagosActivo) return Astro.redirect("/");
 ---
 
 <Pagos lang="es" />
