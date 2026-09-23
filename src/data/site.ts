@@ -9,7 +9,7 @@ export const SITE = {
 
   email: "administracion@origenchemical.com",
   telefono: "(+57) 315 383 2703",
-  telefono2: "300 650 2451",
+  telefono2: "(+57)300 650 2451",
 
   pseUrl: "https://checkout.wompi.co/l/EDITAR", // EDITAR
 
