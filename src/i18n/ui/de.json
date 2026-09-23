@@ -109,21 +109,21 @@
     "lineasBoton": "Gesamtes Portfolio ansehen",
     "bannerEyebrow": "Unser Versprechen",
     "bannerTitulo": "Keine Überraschungen zwischen Website und Lager",
-    "bannerTextoHtml": "In dieser Branche kann sich die physikalische Form eines Rohstoffs je nach Hersteller, Herkunft und Charge ändern: Was der eine Lieferant in Flocken liefert, produziert der andere als Perlen oder Pulver. Deshalb beschreiben wir im Portfolio <strong>Lieferformen als Referenz</strong> und bestätigen Ihnen vor dem Kauf immer das technische Datenblatt der verfügbaren Charge.",
+    "bannerTextoHtml": "Wir sind <strong>Händler, keine Hersteller</strong>: Wir beraten Sie bei Ihren Formulierungen, um neue Technologien mit den Anforderungen Ihres Unternehmens zu verbinden. Zusätzlich verfügen wir über ein breites Portfolio an Commodities mit Lieferformen als Referenz.",
     "bannerBoton": "Häufige Fragen ansehen",
     "bannerBullets": [
-      { "titulo": "Lieferform als Referenz", "texto": "„Flocken, Perlen oder Pulver je nach Hersteller und Charge“ — so sagen wir es, weil der Markt so ist." },
-      { "titulo": "Datenblatt der tatsächlichen Charge", "texto": "Vor der Rechnungsstellung erhalten Sie die exakte Spezifikation dessen, was wir versenden." },
-      { "titulo": "Rückstellmuster verfügbar", "texto": "Prüfen Sie das Material in Ihrem Labor, bevor Sie den Einkauf hochskalieren." }
+      { "titulo": "Standardisierung der Materialien", "texto": "Sagen Sie uns, wenn Ihre Materialien für die Standardisierung oder Prozessvalidierung stets von einem einzigen Lieferanten bezogen werden sollen." },
+      { "titulo": "Technische Spezifikationen prüfen", "texto": "Prüfen Sie stets die Referenzeigenschaften unserer Materialien, um sicherzustellen, dass sie zu Ihrer Formulierung passen." },
+      { "titulo": "Vorabmuster für ausgewählte Referenzen verfügbar", "texto": "Prüfen Sie das Material in Ihrem Labor, bevor Sie den Einkauf hochskalieren." }
     ],
     "procesoEyebrow": "Ablauf",
     "procesoTitulo": "Vom Angebot bis in Ihr Werk in vier Schritten",
     "procesoTexto": "Der gesamte kommerzielle Ablauf läuft über WhatsApp: schnell, nachvollziehbar und mit einem technischen Berater als Ansprechpartner.",
     "pasos": [
       { "titulo": "Sagen Sie uns, was Sie formulieren", "texto": "Schreiben Sie uns per WhatsApp oder senden Sie das Anfrageformular mit Produkt, Menge und Endanwendung." },
-      { "titulo": "Prüfen Sie die Dokumente", "texto": "Wir stellen Ihnen technisches Datenblatt, Sicherheitsdatenblatt und Analysenzertifikat der verfügbaren Charge bereit." },
+      { "titulo": "Prüfen Sie die Dokumente", "texto": "Wir stellen Ihnen das technische Datenblatt und das Sicherheitsdatenblatt des verfügbaren Produkts bereit, damit Sie prüfen können, ob es die Formulierungsanforderungen Ihres Produkts erfüllt." },
       { "titulo": "Bestätigen und bezahlen", "texto": "Bestätigen Sie das Angebot und zahlen Sie per Überweisung, Bre-B oder über das mit Ihrem Berater vereinbarte Zahlungsmittel." },
-      { "titulo": "Lieferung in Ihr Werk", "texto": "Wir liefern landesweit — mit passender Verpackung und der Dokumentation der Lieferkette." }
+      { "titulo": "Lieferung in Ihr Werk", "texto": "Wir liefern landesweit per Spedition." }
     ],
     "destacadosEyebrow": "Auswahl von Origen Chemical",
     "destacadosTitulo": "Ausgewählte Rohstoffe",
@@ -354,6 +354,7 @@
     "entregamosTitulo": "Wohin wir liefern",
     "entregamosTexto": "Wir arbeiten von unserem Standort {direccion} in Bogotá aus, liefern mit Partnerspediteuren in die wichtigsten Städte des Landes und koordinieren Terminlieferungen für Werke mit Produktionsplan.",
     "territorioNacional": "und das ganze Land",
+    "mapaAria": "Karte von Kolumbien mit unseren Lieferstädten",
     "compromisoHtml": "<strong>Transparenzversprechen:</strong> Keine Beschreibung auf dieser Website verspricht eine physikalische Form, Reinheit oder garantierte Leistung. Alles wird vor dem Verkauf mit dem technischen Datenblatt der Charge bestätigt — so vermeiden wir die Reklamationen, die diese Branche zur Genüge kennt.",
     "lineasEyebrow": "Portfolio",
     "lineasTitulo": "Unsere Produktlinien",

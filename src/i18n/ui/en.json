@@ -109,21 +109,21 @@
     "lineasBoton": "See the full portfolio",
     "bannerEyebrow": "Our commitment",
     "bannerTitulo": "No surprises between the website and your warehouse",
-    "bannerTextoHtml": "In this industry the physical form of a raw material can change with the manufacturer, the origin and the batch: what one supplier ships as flakes, another produces as beads or powder. That's why our portfolio describes <strong>reference presentations</strong> and we always confirm the technical data sheet of the available batch before you buy.",
+    "bannerTextoHtml": "We are <strong>distributors, not manufacturers</strong>: we advise on your formulations to integrate new technology with your company's needs. But we also carry a broad portfolio of commodities in reference presentations.",
     "bannerBoton": "See the FAQs",
     "bannerBullets": [
-      { "titulo": "Reference physical form", "texto": "“Flakes, beads or powder depending on the manufacturer and batch” — we say it that way because that's how the market works." },
-      { "titulo": "Data sheet for the actual batch", "texto": "Before we invoice, we share the exact specification of what we're going to ship." },
-      { "titulo": "Batch sample available", "texto": "Validate the material in your lab before scaling up the purchase." }
+      { "titulo": "Standardization of materials", "texto": "Tell us if you need your materials to always be sourced from a single supplier for your standardization or process validation." },
+      { "titulo": "Review the technical specifications", "texto": "Always check the reference properties of our materials to make sure they are what your formula needs." },
+      { "titulo": "Pre-sale sample available for selected items", "texto": "Validate the material in your lab before scaling up the purchase." }
     ],
     "procesoEyebrow": "Process",
     "procesoTitulo": "From quote to your plant in four steps",
     "procesoTexto": "The whole commercial cycle runs on WhatsApp: fast, traceable and with a technical advisor on the other end.",
     "pasos": [
       { "titulo": "Tell us what you formulate", "texto": "Message us on WhatsApp or send the quote request form with product, quantity and end use." },
-      { "titulo": "Validate with documents", "texto": "We share the technical data sheet, safety data sheet and certificate of analysis of the available batch." },
+      { "titulo": "Validate with documents", "texto": "We share the technical data sheet and the safety data sheet of the available product so you can verify that it meets the formulation requirements of your product." },
       { "titulo": "Confirm and pay", "texto": "Approve the quote and pay by bank transfer, Bre-B or the method agreed with your advisor." },
-      { "titulo": "Receive it at your plant", "texto": "We ship nationwide with the packaging and the supply chain documentation." }
+      { "titulo": "Receive it at your plant", "texto": "We ship nationwide by freight carrier." }
     ],
     "destacadosEyebrow": "Origen Chemical selection",
     "destacadosTitulo": "Featured raw materials",
@@ -354,6 +354,7 @@
     "entregamosTitulo": "Where we deliver",
     "entregamosTexto": "We operate from {direccion}, in Bogotá, shipping to the country's main cities through partner carriers, and we coordinate scheduled deliveries for plants running a production plan.",
     "territorioNacional": "and the entire country",
+    "mapaAria": "Map of Colombia showing our delivery cities",
     "compromisoHtml": "<strong>Transparency commitment:</strong> no description on this site promises physical form, purity or guaranteed performance. Everything is confirmed with the batch's technical data sheet before the sale — that's how we avoid the complaints this sector knows all too well.",
     "lineasEyebrow": "Portfolio",
     "lineasTitulo": "Our product lines",

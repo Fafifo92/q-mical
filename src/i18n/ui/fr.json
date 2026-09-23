@@ -109,21 +109,21 @@
     "lineasBoton": "Voir tout le portfolio",
     "bannerEyebrow": "Notre engagement",
     "bannerTitulo": "Aucune surprise entre le site et votre entrepôt",
-    "bannerTextoHtml": "Dans cette industrie, la forme physique d'une matière première peut changer selon le fabricant, l'origine et le lot : ce qu'un fournisseur livre en paillettes, un autre le produit en perles ou en poudre. C'est pourquoi, dans notre portfolio, nous décrivons des <strong>présentations indicatives</strong> et nous vous confirmons toujours la fiche technique du lot disponible avant votre achat.",
+    "bannerTextoHtml": "Nous sommes <strong>des distributeurs, pas des fabricants</strong> : nous vous conseillons sur vos formulations afin d'intégrer de nouvelles technologies aux besoins de votre entreprise. Mais nous disposons aussi d'un large portfolio de commodités avec des présentations indicatives.",
     "bannerBoton": "Voir les questions fréquentes",
     "bannerBullets": [
-      { "titulo": "Forme physique indicative", "texto": "« Paillettes, perles ou poudre selon le fabricant et le lot » — nous le disons ainsi, parce que le marché est ainsi." },
-      { "titulo": "Fiche technique du lot réel", "texto": "Avant de facturer, nous vous transmettons la spécification exacte de ce que nous allons expédier." },
-      { "titulo": "Contre-échantillon disponible", "texto": "Validez la matière dans votre laboratoire avant de passer à l'achat à grande échelle." }
+      { "titulo": "Standardisation des matières", "texto": "Dites-nous si vous souhaitez que l'approvisionnement en matières provienne toujours d'un seul fournisseur, pour la standardisation ou la validation de vos procédés." },
+      { "titulo": "Consultez les spécifications techniques", "texto": "Vérifiez toujours les propriétés de référence de nos matières pour vous assurer qu'elles correspondent à ce dont votre formule a besoin." },
+      { "titulo": "Échantillon avant achat disponible pour des références sélectionnées", "texto": "Validez la matière dans votre laboratoire avant de passer à l'achat à grande échelle." }
     ],
     "procesoEyebrow": "Processus",
     "procesoTitulo": "Du devis à votre usine en quatre étapes",
     "procesoTexto": "Tout le cycle commercial se gère sur WhatsApp : rapide, traçable et avec un conseiller technique pour interlocuteur.",
     "pasos": [
       { "titulo": "Dites-nous ce que vous formulez", "texto": "Écrivez-nous sur WhatsApp ou envoyez le formulaire de devis avec le produit, la quantité et l'usage final." },
-      { "titulo": "Validez avec les documents", "texto": "Nous vous transmettons la fiche technique, la fiche de données de sécurité et le certificat d'analyse du lot disponible." },
+      { "titulo": "Validez avec les documents", "texto": "Nous vous transmettons la fiche technique et la fiche de données de sécurité du produit disponible afin que vous puissiez vérifier qu'il répond aux exigences de formulation de votre produit." },
       { "titulo": "Confirmez et payez", "texto": "Approuvez le devis et payez par virement, par Bre-B ou par le moyen convenu avec votre conseiller." },
-      { "titulo": "Réceptionnez dans votre usine", "texto": "Nous expédions dans tout le pays avec l'emballage et la documentation de la chaîne d'approvisionnement." }
+      { "titulo": "Réceptionnez dans votre usine", "texto": "Nous expédions dans tout le pays par transporteur." }
     ],
     "destacadosEyebrow": "Sélection Origen Chemical",
     "destacadosTitulo": "Matières premières en vedette",
@@ -354,6 +354,7 @@
     "entregamosTitulo": "Où nous livrons",
     "entregamosTexto": "Nous opérons depuis {direccion}, à Bogotá, avec des expéditions vers les principales villes du pays via des transporteurs partenaires, et nous organisons des livraisons programmées pour les sites disposant d'un plan de production.",
     "territorioNacional": "et tout le territoire national",
+    "mapaAria": "Carte de la Colombie avec nos villes de livraison",
     "compromisoHtml": "<strong>Engagement de transparence :</strong> aucune description de ce site ne promet une forme physique, une pureté ni une performance garanties. Tout se confirme avec la fiche technique du lot avant la vente — c'est ainsi que nous évitons les réclamations que ce secteur ne connaît que trop bien.",
     "lineasEyebrow": "Portfolio",
     "lineasTitulo": "Nos lignes de produits",

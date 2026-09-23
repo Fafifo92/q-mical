@@ -1,7 +1,7 @@
 ---
 import Icon from "./Icon.astro";
 import Logo from "./Logo.astro";
-import { SITE, waLink } from "../data/site";
+import { SITE, waLink, telHref } from "../data/site";
 import { DEFAULT_LOCALE, rutaLocal, tpl, type Locale } from "../i18n/config";
 import { t, taxonomia } from "../i18n";
 
@@ -109,9 +109,12 @@ const redes = [
           <Icon name="map-pin" class="mt-0.5 h-4 w-4 shrink-0 text-accent-400" />
           <a href={rutaLocal(lang, "/contacto")} class="hover:text-accent-300">{SITE.direccion}<br />{SITE.ciudad}</a>
         </li>
-        <li class="flex items-center gap-2.5">
-          <Icon name="phone" class="h-4 w-4 shrink-0 text-accent-400" />
-          <span>{SITE.telefono}</span>
+        <li class="flex items-start gap-2.5">
+          <Icon name="phone" class="mt-0.5 h-4 w-4 shrink-0 text-accent-400" />
+          <span class="flex flex-col gap-1">
+            <a href={telHref(SITE.telefono)} class="hover:text-accent-300">{SITE.telefono}</a>
+            <a href={telHref(SITE.telefono2)} class="hover:text-accent-300">{SITE.telefono2}</a>
+          </span>
         </li>
         <li class="flex items-center gap-2.5">
           <Icon name="mail" class="h-4 w-4 shrink-0 text-accent-400" />

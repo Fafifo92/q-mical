@@ -10,7 +10,8 @@
     "validar": "node scripts/validar-catalogo.mjs",
     "test:fuzzy": "node --experimental-strip-types scripts/test-fuzzy.mjs",
     "og": "node --experimental-strip-types scripts/generar-og.mjs",
-    "validar:i18n": "node scripts/validar-i18n.mjs"
+    "validar:i18n": "node scripts/validar-i18n.mjs",
+    "mapa": "node scripts/generar-mapa.mjs"
   },
   "dependencies": {
     "@fontsource-variable/montserrat": "^5.3.0",

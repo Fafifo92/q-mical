@@ -109,21 +109,21 @@
     "lineasBoton": "Ver todo el portafolio",
     "bannerEyebrow": "Nuestro compromiso",
     "bannerTitulo": "Sin sorpresas entre la web y tu bodega",
-    "bannerTextoHtml": "En esta industria la forma física de una materia prima puede cambiar según el fabricante, el origen y el lote: lo que un proveedor entrega en escamas, otro lo produce en perlas o polvo. Por eso en el portafolio describimos <strong>presentaciones referenciales</strong> y siempre te confirmamos la ficha técnica del lote disponible antes de que compres.",
+    "bannerTextoHtml": "Somos <strong>comercializadores, no fabricantes</strong>: asesoramos tus formulaciones para integrar nueva tecnología con las necesidades de tu compañía. Pero también contamos con un amplio portafolio de commodities con presentaciones referenciales.",
     "bannerBoton": "Ver preguntas frecuentes",
     "bannerBullets": [
-      { "titulo": "Forma física referencial", "texto": "«Escamas, perlas o polvo según fabricante y lote» — así lo decimos, porque así es el mercado." },
-      { "titulo": "Ficha técnica del lote real", "texto": "Antes de facturar te compartimos la especificación exacta de lo que vamos a despachar." },
-      { "titulo": "Contramuestra disponible", "texto": "Valida el material en tu laboratorio antes de escalar la compra." }
+      { "titulo": "Estandarización de materiales", "texto": "Cuéntanos si necesitas que la adquisición de materiales se haga siempre de un único proveedor para tu estandarización o validación de procesos." },
+      { "titulo": "Revisa las especificaciones técnicas", "texto": "Siempre verifica las propiedades de referencia de nuestros materiales para rectificar que es lo que necesitas en tu fórmula." },
+      { "titulo": "Muestra previa a la venta disponible para referencias seleccionadas", "texto": "Valida el material en tu laboratorio antes de escalar la compra." }
     ],
     "procesoEyebrow": "Proceso",
     "procesoTitulo": "De la cotización a tu planta en cuatro pasos",
     "procesoTexto": "Todo el ciclo comercial se gestiona por WhatsApp: rápido, trazable y con un asesor técnico al otro lado.",
     "pasos": [
       { "titulo": "Cuéntanos qué formulas", "texto": "Escríbenos por WhatsApp o envía el formulario de cotización con producto, cantidad y uso final." },
-      { "titulo": "Valida con documentos", "texto": "Te compartimos ficha técnica, hoja de seguridad y certificado de análisis del lote disponible." },
+      { "titulo": "Valida con documentos", "texto": "Te compartimos la ficha técnica y la hoja de seguridad del producto disponible para que verifiques que cumple con las expectativas de formulación de tu producto." },
       { "titulo": "Confirma y paga", "texto": "Aprueba la cotización y paga por transferencia, Bre-B o el medio acordado con tu asesor." },
-      { "titulo": "Recibe en tu planta", "texto": "Despachamos a todo el país con el empaque y la documentación de cadena de suministro." }
+      { "titulo": "Recibe en tu planta", "texto": "Despachamos a todo el país por medio de transportadora." }
     ],
     "destacadosEyebrow": "Selección Origen Chemical",
     "destacadosTitulo": "Materias primas destacadas",
@@ -354,6 +354,7 @@
     "entregamosTitulo": "Dónde entregamos",
     "entregamosTexto": "Operamos desde {direccion}, en Bogotá, con despachos a las principales ciudades del país mediante transportadoras aliadas, y coordinamos entregas programadas para plantas con plan de producción.",
     "territorioNacional": "y todo el territorio nacional",
+    "mapaAria": "Mapa de Colombia con las ciudades donde entregamos",
     "compromisoHtml": "<strong>Compromiso de transparencia:</strong> ninguna descripción de este sitio promete forma física, pureza ni desempeño garantizado. Todo se confirma con la ficha técnica del lote antes de la venta — así evitamos los reclamos que este sector conoce de sobra.",
     "lineasEyebrow": "Portafolio",
     "lineasTitulo": "Nuestras líneas de producto",

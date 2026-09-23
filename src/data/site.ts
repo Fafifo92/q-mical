@@ -5,10 +5,11 @@ export const SITE = {
 
   ogVersion: 4,
 
-  whatsapp: "573153832707",
+  whatsapp: "573153832703",
 
-  email: "adminiistracion@origenchemical.com",
+  email: "administracion@origenchemical.com",
   telefono: "(+57) 315 383 2703",
+  telefono2: "300 650 2451",
 
   pseUrl: "https://checkout.wompi.co/l/EDITAR", // EDITAR
 
@@ -26,6 +27,12 @@ export const SITE = {
 
 export function waLink(mensaje: string): string {
   return `https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(mensaje)}`;
+}
+
+/** Enlace tel: a partir de un número escrito de cualquier forma (agrega +57 si es un celular colombiano de 10 dígitos). */
+export function telHref(numero: string): string {
+  const d = numero.replace(/\D/g, "");
+  return `tel:+${d.length === 10 ? "57" + d : d}`;
 }
 
 export const mapaLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(SITE.mapaConsulta)}`;
